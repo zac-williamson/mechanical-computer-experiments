@@ -7,6 +7,7 @@ Current CAD models, parts lists, printable components and interactive viewers fo
 | Multiplexer | [Open model](multiplexer/Viewer.html) | [Build guide](multiplexer/README.md) | 13-part printable prototype; two-part carriage and through-hole base; physical testing required |
 | One-bit register | [Open model](register/Viewer.html) | [Build guide](register/README.md) | Compact 37-part prototype; integrated bridge lock; physical testing required |
 | Adder/subtractor | [Open model](adder/Viewer.html) | [Build guide](adder/README.md) | Four functions on a 200 × 172 mm board; three print plates |
+| Adder redesign draft | [Open model](adder-draft/Viewer.html) | [Handoff and unresolved issues](adder-draft/Handoff.md) | Review draft; two travel clashes unresolved; not print-ready |
 | Register + ALU assembly | [Open model](assembly/Viewer.html) | [Interface and status](assembly/README.md) | Inspection model; incomplete routing supports, not a print release |
 
 Download or clone this repository and open a Viewer.html locally in a modern browser. GitHub's file view does not run these viewers. Drag to rotate, scroll to zoom; the multiplexer, adder and assembly also support Shift/right-drag panning and part isolation.

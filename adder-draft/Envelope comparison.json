@@ -1,0 +1,53 @@
+{
+  "method": "Static assembly-coordinate native and printed bounds; excludes bands and full motion envelope",
+  "assemblies": {
+    "old": {
+      "bounds_mm": [
+        [
+          -56.0,
+          -46.46368007659912,
+          -86.0
+        ],
+        [
+          144.8,
+          36.0,
+          86.0
+        ]
+      ],
+      "size_xyz_mm": [
+        200.8,
+        82.46368007659912,
+        172.0
+      ],
+      "base_mm": [
+        200,
+        172,
+        8
+      ]
+    },
+    "new": {
+      "bounds_mm": [
+        [
+          -56.6,
+          -40.0,
+          -91.0
+        ],
+        [
+          136.0,
+          36.20000076293945,
+          91.0
+        ]
+      ],
+      "size_xyz_mm": [
+        192.6,
+        76.20000076293945,
+        182.0
+      ],
+      "base_mm": [
+        176,
+        178,
+        8.2
+      ]
+    }
+  }
+}

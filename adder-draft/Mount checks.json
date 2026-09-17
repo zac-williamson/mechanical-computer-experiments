@@ -1,0 +1,959 @@
+{
+  "fixed_pins": 73,
+  "base_holes": 73,
+  "base_pin_tip_recess_mm": 0.2,
+  "core_radius_mm": 2.39,
+  "friction_ribs_excluded": true,
+  "worst": [],
+  "checks": [
+    {
+      "pin": "P mount Front actuator bridge -28 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -28.0,
+        28.0,
+        8.0
+      ]
+    },
+    {
+      "pin": "P mount Front actuator bridge -28 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -28.0,
+        28.0,
+        16.0
+      ]
+    },
+    {
+      "pin": "P mount Front actuator bridge 36 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        36.0,
+        28.0,
+        8.0
+      ]
+    },
+    {
+      "pin": "P mount Front actuator bridge 36 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        36.0,
+        28.0,
+        16.0
+      ]
+    },
+    {
+      "pin": "P mount Rear bridge and band anchor -8 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -8.0,
+        28.0,
+        51.0
+      ]
+    },
+    {
+      "pin": "P mount Rear bridge and band anchor 8 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        8.0,
+        28.0,
+        51.0
+      ]
+    },
+    {
+      "pin": "P mount Rear bridge and band anchor 36 43",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        36.0,
+        28.0,
+        43.0
+      ]
+    },
+    {
+      "pin": "P mount Rear bridge and band anchor 36 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        36.0,
+        28.0,
+        51.0
+      ]
+    },
+    {
+      "pin": "P mount Front bottom guide -8 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -8.0,
+        28.0,
+        8.0
+      ]
+    },
+    {
+      "pin": "P mount Front bottom guide 8 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        8.0,
+        28.0,
+        8.0
+      ]
+    },
+    {
+      "pin": "P mount Bearing wall X26 26 24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        26.0,
+        28.0,
+        24.0
+      ]
+    },
+    {
+      "pin": "P mount Bearing wall X26 26 40",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        26.0,
+        28.0,
+        40.0
+      ]
+    },
+    {
+      "pin": "P mount Bearing wall X-28 three holes -28 24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -28.0,
+        28.0,
+        24.0
+      ]
+    },
+    {
+      "pin": "P mount Bearing wall X-28 three holes -28 40",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -28.0,
+        28.0,
+        40.0
+      ]
+    },
+    {
+      "pin": "X mount Front actuator bridge -28 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        48.0,
+        28.0,
+        40.0
+      ]
+    },
+    {
+      "pin": "X mount Front actuator bridge -28 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        48.0,
+        28.0,
+        48.0
+      ]
+    },
+    {
+      "pin": "X mount Front actuator bridge 36 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        112.0,
+        28.0,
+        40.0
+      ]
+    },
+    {
+      "pin": "X mount Front actuator bridge 36 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        112.0,
+        28.0,
+        48.0
+      ]
+    },
+    {
+      "pin": "X mount Rear bridge and band anchor -8 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        68.0,
+        28.0,
+        83.0
+      ]
+    },
+    {
+      "pin": "X mount Rear bridge and band anchor 8 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        84.0,
+        28.0,
+        83.0
+      ]
+    },
+    {
+      "pin": "X mount Rear bridge and band anchor 36 43",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        112.0,
+        28.0,
+        75.0
+      ]
+    },
+    {
+      "pin": "X mount Rear bridge and band anchor 36 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        112.0,
+        28.0,
+        83.0
+      ]
+    },
+    {
+      "pin": "X mount Front bottom guide -8 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        68.0,
+        28.0,
+        40.0
+      ]
+    },
+    {
+      "pin": "X mount Front bottom guide 8 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        84.0,
+        28.0,
+        40.0
+      ]
+    },
+    {
+      "pin": "X mount Bearing wall X26 26 24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        102.0,
+        28.0,
+        56.0
+      ]
+    },
+    {
+      "pin": "X mount Bearing wall X26 26 40",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        102.0,
+        28.0,
+        72.0
+      ]
+    },
+    {
+      "pin": "X mount Bearing wall X-28 three holes -28 24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        48.0,
+        28.0,
+        56.0
+      ]
+    },
+    {
+      "pin": "X mount Bearing wall X-28 three holes -28 40",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        48.0,
+        28.0,
+        72.0
+      ]
+    },
+    {
+      "pin": "C mount Front actuator bridge -28 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        104.0,
+        28.0,
+        -8.0
+      ]
+    },
+    {
+      "pin": "C mount Front actuator bridge -28 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        104.0,
+        28.0,
+        -16.0
+      ]
+    },
+    {
+      "pin": "C mount Front actuator bridge 36 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        40.0,
+        28.0,
+        -8.0
+      ]
+    },
+    {
+      "pin": "C mount Front actuator bridge 36 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        40.0,
+        28.0,
+        -16.0
+      ]
+    },
+    {
+      "pin": "C mount Rear bridge and band anchor -8 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        84.0,
+        28.0,
+        -51.0
+      ]
+    },
+    {
+      "pin": "C mount Rear bridge and band anchor 8 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        68.0,
+        28.0,
+        -51.0
+      ]
+    },
+    {
+      "pin": "C mount Rear bridge and band anchor 36 43",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        40.0,
+        28.0,
+        -43.0
+      ]
+    },
+    {
+      "pin": "C mount Rear bridge and band anchor 36 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        40.0,
+        28.0,
+        -51.0
+      ]
+    },
+    {
+      "pin": "C mount Front bottom guide -8 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        84.0,
+        28.0,
+        -8.0
+      ]
+    },
+    {
+      "pin": "C mount Front bottom guide 8 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        68.0,
+        28.0,
+        -8.0
+      ]
+    },
+    {
+      "pin": "C mount Bearing wall X26 26 24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        50.0,
+        28.0,
+        -24.0
+      ]
+    },
+    {
+      "pin": "C mount Bearing wall X26 26 40",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        50.0,
+        28.0,
+        -40.0
+      ]
+    },
+    {
+      "pin": "C mount Bearing wall X-28 three holes -28 24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        104.0,
+        28.0,
+        -24.0
+      ]
+    },
+    {
+      "pin": "C mount Bearing wall X-28 three holes -28 40",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        104.0,
+        28.0,
+        -40.0
+      ]
+    },
+    {
+      "pin": "S mount Front actuator bridge -28 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        28.0,
+        28.0,
+        -40.0
+      ]
+    },
+    {
+      "pin": "S mount Front actuator bridge -28 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        28.0,
+        28.0,
+        -48.0
+      ]
+    },
+    {
+      "pin": "S mount Front actuator bridge 36 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -36.0,
+        28.0,
+        -40.0
+      ]
+    },
+    {
+      "pin": "S mount Front actuator bridge 36 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -36.0,
+        28.0,
+        -48.0
+      ]
+    },
+    {
+      "pin": "S mount Rear bridge and band anchor -8 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        8.0,
+        28.0,
+        -83.0
+      ]
+    },
+    {
+      "pin": "S mount Rear bridge and band anchor 8 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -8.0,
+        28.0,
+        -83.0
+      ]
+    },
+    {
+      "pin": "S mount Rear bridge and band anchor 36 43",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -36.0,
+        28.0,
+        -75.0
+      ]
+    },
+    {
+      "pin": "S mount Rear bridge and band anchor 36 51",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -36.0,
+        28.0,
+        -83.0
+      ]
+    },
+    {
+      "pin": "S mount Front bottom guide -8 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        8.0,
+        28.0,
+        -40.0
+      ]
+    },
+    {
+      "pin": "S mount Front bottom guide 8 8",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -8.0,
+        28.0,
+        -40.0
+      ]
+    },
+    {
+      "pin": "S mount Bearing wall X26 26 24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -26.0,
+        28.0,
+        -56.0
+      ]
+    },
+    {
+      "pin": "S mount Bearing wall X26 26 40",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -26.0,
+        28.0,
+        -72.0
+      ]
+    },
+    {
+      "pin": "S mount Bearing wall X-28 three holes -28 24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        28.0,
+        28.0,
+        -56.0
+      ]
+    },
+    {
+      "pin": "S mount Bearing wall X-28 three holes -28 40",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        28.0,
+        28.0,
+        -72.0
+      ]
+    },
+    {
+      "pin": "P distribution and A bearing mounting -28",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -35.1,
+        28.0,
+        -28.0
+      ]
+    },
+    {
+      "pin": "P distribution and A bearing mounting -2",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -35.1,
+        28.0,
+        -2.0
+      ]
+    },
+    {
+      "pin": "Cin distribution bearing mounting -64",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        117.5,
+        28.0,
+        -64.0
+      ]
+    },
+    {
+      "pin": "Cin distribution bearing mounting -32",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        117.5,
+        28.0,
+        -32.0
+      ]
+    },
+    {
+      "pin": "Cin distribution bearing mounting 0",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        117.5,
+        28.0,
+        0.0
+      ]
+    },
+    {
+      "pin": "P and sum data bearing mounting -28",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        29.700000000000003,
+        28.0,
+        -28.0
+      ]
+    },
+    {
+      "pin": "P and sum data bearing mounting -2",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        29.700000000000003,
+        28.0,
+        -2.0
+      ]
+    },
+    {
+      "pin": "Shared A carry and Bprime bearing mounting -4",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        53.29999999999999,
+        28.0,
+        -4.0
+      ]
+    },
+    {
+      "pin": "Shared A carry and Bprime bearing mounting 16",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        53.29999999999999,
+        28.0,
+        16.0
+      ]
+    },
+    {
+      "pin": "Shared A carry and Bprime bearing mounting 28",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        53.29999999999999,
+        28.0,
+        28.0
+      ]
+    },
+    {
+      "pin": "Carry and X output bearing mounting 4",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        105.7,
+        28.0,
+        4.0
+      ]
+    },
+    {
+      "pin": "Carry and X output bearing mounting 20",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        105.7,
+        28.0,
+        20.0
+      ]
+    },
+    {
+      "pin": "Carry and X output bearing mounting 28",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        105.7,
+        28.0,
+        28.0
+      ]
+    },
+    {
+      "pin": "Sum left output and idler bearing mounting -36",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -22.5,
+        28.0,
+        -36.0
+      ]
+    },
+    {
+      "pin": "Sum left output and idler bearing mounting -19.056",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        -22.5,
+        28.0,
+        -19.056
+      ]
+    },
+    {
+      "pin": "X right data bearing mounting 20",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        123.5,
+        28.0,
+        20.0
+      ]
+    },
+    {
+      "pin": "X right data bearing mounting 28",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centre": [
+        123.5,
+        28.0,
+        28.0
+      ]
+    }
+  ]
+}

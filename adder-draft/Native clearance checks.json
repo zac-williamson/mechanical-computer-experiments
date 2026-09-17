@@ -1,0 +1,27 @@
+{
+  "states": 36,
+  "pairs": 1296,
+  "tolerance_mm": 0.08,
+  "method": "Native vertices and face centres inside printed meshes; not a complete continuous collision proof",
+  "worst": {
+    "X R-P-shaft / P Right carriage half": {
+      "depth": 1.0249999999999986,
+      "point": [
+        32.0,
+        -8.20000009536743,
+        32.0
+      ],
+      "pose": 17
+    },
+    "S O-shaft / C Right carriage half": {
+      "depth": 1.0249999999999986,
+      "point": [
+        44.0,
+        -8.200000095367432,
+        -32.0
+      ],
+      "pose": 27
+    }
+  },
+  "scope_note": "Completed before final axle/base trimming; the two reported travel clashes remain unresolved. Latest complete assembly is not clearance-validated."
+}

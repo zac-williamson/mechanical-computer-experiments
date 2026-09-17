@@ -1,0 +1,497 @@
+{
+  "parts": [
+    {
+      "part": "Base",
+      "file": "Base - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        80.0,
+        116.0,
+        8.200000000000003
+      ],
+      "axle_bore_axis_vertical": null,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 8805.471735399999,
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "translation": [
+        36.0,
+        56.0,
+        36.2
+      ]
+    },
+    {
+      "part": "Bearing wall X-4",
+      "file": "Bearing wall X-4 - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        36.599999999999994,
+        22.1,
+        7.6
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 566.582781835,
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        44.3,
+        28.0,
+        7.8
+      ]
+    },
+    {
+      "part": "Bearing wall X28",
+      "file": "Bearing wall X28 - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        48.599999999999994,
+        22.1,
+        7.600000000000001
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 596.6440320599999,
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        44.3,
+        28.0,
+        -24.2
+      ]
+    },
+    {
+      "part": "Front actuator bridge",
+      "file": "Front actuator bridge - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        71.6,
+        40.0,
+        15.600000000000001
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 1041.6835207979998,
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        31.8,
+        28.0,
+        19.8
+      ]
+    },
+    {
+      "part": "Rear bridge and band anchor",
+      "file": "Rear bridge and band anchor - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        51.8,
+        52.0,
+        15.599999999999994
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": 7.599999237060544,
+      "bed_contact_area_mm2": 1479.94783088375,
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        12.0,
+        28.0,
+        54.8
+      ]
+    },
+    {
+      "part": "Direct lever and band cleat",
+      "file": "Direct lever and band cleat - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        22.59971,
+        14.56194,
+        24.0
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 136.58912392185002,
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        -3.35168,
+        12.14284,
+        -24.0
+      ]
+    },
+    {
+      "part": "A idler bearing",
+      "file": "A idler bearing - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        23.6,
+        21.8,
+        7.6000000000000005
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 269.88943978000003,
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        31.8,
+        28.0,
+        -4.2
+      ]
+    },
+    {
+      "part": "Front bottom guide",
+      "file": "Front bottom guide - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        24.0,
+        8.0,
+        11.8
+      ],
+      "axle_bore_axis_vertical": null,
+      "sliding_region_min_height_mm": 7.600000190734863,
+      "bed_contact_area_mm2": 165.60000000000002,
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        12.0,
+        -20.0,
+        -4.2
+      ]
+    },
+    {
+      "part": "Left carriage half",
+      "file": "Left carriage half - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        42.7587,
+        48.7,
+        29.6
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": 1.5999999999999996,
+      "bed_contact_area_mm2": 664.8966962049499,
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        -4.2413,
+        25.5,
+        15.6
+      ]
+    },
+    {
+      "part": "Right carriage half",
+      "file": "Right carriage half - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        35.0,
+        46.0,
+        26.0
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 423.8245472932,
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        -12.0,
+        22.8,
+        -8.0
+      ]
+    },
+    {
+      "part": "Bearing wall X26",
+      "file": "Bearing wall X26 - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        23.599999999999998,
+        21.6,
+        7.600000000000001
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 411.69831957999986,
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        -20.2,
+        28.0,
+        -22.2
+      ]
+    },
+    {
+      "part": "Bearing wall X-28 four holes",
+      "file": "Bearing wall X-28 four holes - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        48.099999999999994,
+        22.1,
+        7.600000000000001
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 704.9427638479998,
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        44.3,
+        28.0,
+        31.8
+      ]
+    },
+    {
+      "part": "Bearing wall X-28 three holes",
+      "file": "Bearing wall X-28 three holes - print.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        23.599999999999998,
+        21.6,
+        7.600000000000001
+      ],
+      "axle_bore_axis_vertical": true,
+      "sliding_region_min_height_mm": null,
+      "bed_contact_area_mm2": 411.5765101399999,
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        -20.2,
+        28.0,
+        31.8
+      ]
+    }
+  ],
+  "plates": [
+    {
+      "file": "Complete print layout.stl",
+      "parts": 13,
+      "size_mm": [
+        240.39999999999998,
+        225.8,
+        29.6
+      ],
+      "minimum_layout_gap_mm": 5
+    }
+  ]
+}
