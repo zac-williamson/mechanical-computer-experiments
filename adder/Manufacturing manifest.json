@@ -1,0 +1,369 @@
+{
+  "parts": [
+    {
+      "part": "Frame 01",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        33.37544061148469,
+        53.79999923706055,
+        33.3754406114847
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 02",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        16.40487583995883,
+        21.800000190734863,
+        16.404875839958834
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 03",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 8,
+      "size": [
+        101.25769227974283,
+        69.79999923706055,
+        103.73256584530836
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 04",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 6,
+      "size": [
+        81.74154350055514,
+        41.0,
+        74.52905379297269
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 05",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        63.21534461963836,
+        48.0,
+        56.42712059920682
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 06",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        16.404879043119323,
+        10.350000381469727,
+        16.404879043119315
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 07",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        24.285067385593653,
+        37.80000019073486,
+        24.002224942858867
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 08",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        21.456638237798728,
+        29.799999952316284,
+        24.002222919810137
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 09",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        22.061729415101635,
+        53.79999923706055,
+        22.061729415101638
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 10",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        22.061729415101638,
+        21.800000190734863,
+        22.061729415101635
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 11",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 6,
+      "size": [
+        81.74154552360388,
+        69.79999923706055,
+        91.49961923884814
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 12",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 6,
+      "size": [
+        81.74154552360386,
+        41.0,
+        74.52905311862312
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 13",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        63.215347822798854,
+        48.0,
+        56.42712059920684
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 14",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        63.215352711833276,
+        48.0,
+        56.42712329660513
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 15",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        23.758789466306965,
+        53.79999923706055,
+        23.75878946630698
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 16",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        24.285068059943228,
+        37.80000019073486,
+        24.002224268509295
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 17",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        24.285069408642386,
+        37.80000019073486,
+        24.002225617208452
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 18",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        22.061736158597398,
+        21.800000190734863,
+        22.061736158597398
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 19",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        22.061737507296556,
+        21.800000190734863,
+        22.06173750729654
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 20",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        16.40487516560924,
+        21.800000190734863,
+        16.404875165609255
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "Frame 21",
+      "orientation": "45 degrees to both axle directions",
+      "pins": 2,
+      "size": [
+        16.404880560405843,
+        21.800000190734863,
+        16.40488056040585
+      ],
+      "support": "External supports required; round axle bores are inclined 45 degrees. Pin-bore roof is teardrop."
+    },
+    {
+      "part": "P Guided actuator carriage",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        40.94283866882324,
+        42.75870704650879,
+        44.95138740539551
+      ],
+      "support": "External supports needed for the stops and fork; guide bores print vertically."
+    },
+    {
+      "part": "P Direct lever and band cleat",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        21.70092463493347,
+        13.961891889572144,
+        18.400001525878906
+      ],
+      "support": "Flat lever face on bed; inspect small cleat overhangs."
+    },
+    {
+      "part": "X Guided actuator carriage",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        40.94283866882324,
+        42.758705139160156,
+        44.951385498046875
+      ],
+      "support": "External supports needed for the stops and fork; guide bores print vertically."
+    },
+    {
+      "part": "X Direct lever and band cleat",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        21.700927734375,
+        13.961891889572144,
+        18.400001525878906
+      ],
+      "support": "Flat lever face on bed; inspect small cleat overhangs."
+    },
+    {
+      "part": "S Guided actuator carriage",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        40.94283866882324,
+        42.75870704650879,
+        44.951385498046875
+      ],
+      "support": "External supports needed for the stops and fork; guide bores print vertically."
+    },
+    {
+      "part": "S Direct lever and band cleat",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        21.700927734375,
+        13.961891889572144,
+        18.399999618530273
+      ],
+      "support": "Flat lever face on bed; inspect small cleat overhangs."
+    },
+    {
+      "part": "C Guided actuator carriage",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        40.94283866882324,
+        42.758705139160156,
+        44.95138740539551
+      ],
+      "support": "External supports needed for the stops and fork; guide bores print vertically."
+    },
+    {
+      "part": "C Direct lever and band cleat",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        21.70092463493347,
+        13.961891889572144,
+        18.399999618530273
+      ],
+      "support": "Flat lever face on bed; inspect small cleat overhangs."
+    },
+    {
+      "part": "Single arithmetic base",
+      "orientation": "Already oriented in Print parts file",
+      "size": [
+        200.0,
+        172.0,
+        8.0
+      ],
+      "support": "None; flat on bed."
+    }
+  ],
+  "plates": [
+    [
+      "Single arithmetic base"
+    ],
+    [
+      "Frame 03",
+      "Frame 11",
+      "Frame 01",
+      "Frame 09",
+      "Frame 15",
+      "Frame 05",
+      "Frame 13",
+      "Frame 14",
+      "P Guided actuator carriage",
+      "S Guided actuator carriage",
+      "X Guided actuator carriage",
+      "C Guided actuator carriage",
+      "Frame 04",
+      "Frame 12"
+    ],
+    [
+      "Frame 07",
+      "Frame 16",
+      "Frame 17",
+      "Frame 08",
+      "Frame 02",
+      "Frame 10",
+      "Frame 18",
+      "Frame 19",
+      "Frame 20",
+      "Frame 21",
+      "P Direct lever and band cleat",
+      "X Direct lever and band cleat",
+      "S Direct lever and band cleat",
+      "C Direct lever and band cleat",
+      "Frame 06"
+    ]
+  ],
+  "bed_mm": [
+    256,
+    256
+  ],
+  "spacing_mm": 6,
+  "external_supports_required": true
+}

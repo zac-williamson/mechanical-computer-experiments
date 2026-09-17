@@ -1,0 +1,112 @@
+{
+  "newprints": [
+    {
+      "id": "controls-tray",
+      "path": "controls-tray.stl",
+      "print_file": "Print files/01 controls-tray direct bores.stl",
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "translation": [
+        110.0,
+        24.0,
+        -20.0
+      ]
+    },
+    {
+      "id": "controls-cap",
+      "path": "controls-cap.stl",
+      "print_file": "Print files/02 controls-cap direct bores.stl",
+      "rotation": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "translation": [
+        98.0,
+        24.0,
+        64.0
+      ]
+    },
+    {
+      "id": "bit-tray",
+      "path": "bit-tray.stl",
+      "print_file": "Print files/03 bit-tray direct bores.stl",
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "translation": [
+        110.0,
+        24.0,
+        42.0
+      ]
+    },
+    {
+      "id": "bit-cap",
+      "path": "bit-cap.stl",
+      "print_file": "Print files/04 bit-cap direct bores.stl",
+      "rotation": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "translation": [
+        98.0,
+        24.0,
+        20.0
+      ]
+    }
+  ]
+}
