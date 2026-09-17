@@ -328,5 +328,22 @@
     "Prescribed motion does not simulate forces, friction, flex or band deformation.",
     "Slicer supports are required for some non-bearing overhangs; no G-code supplied.",
     "Pin fits, base stiffness and loaded switching require physical tests."
-  ]
+  ],
+  "selector_axle": {
+    "part": "23948.dat",
+    "length_studs": 11,
+    "bounds_mm": [
+      [
+        -48.0,
+        7.799999904632568,
+        29.59999990463257
+      ],
+      [
+        40.0,
+        12.600000095367431,
+        34.40000009536743
+      ]
+    ],
+    "change": "Left end extended 8 mm; right end, bushes, worm and bearings unchanged. Printed files unchanged."
+  }
 }

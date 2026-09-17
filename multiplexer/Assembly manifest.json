@@ -249,11 +249,11 @@
     },
     {
       "record_id": "C-shaft",
-      "part": "3737.dat",
+      "part": "23948.dat",
       "pos": [
-        0,
-        25.499999999999996,
-        80.0
+        -10,
+        25.5,
+        80
       ],
       "matrix": [
         1.0,
@@ -267,7 +267,7 @@
         1.0
       ],
       "motion": "C",
-      "role": "Selector input C; left end X=-80"
+      "role": "11L selector input C; X=-48 to X=40 mm, extended at left end"
     },
     {
       "record_id": "O-shaft",
