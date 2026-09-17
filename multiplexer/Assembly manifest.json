@@ -1,5 +1,5 @@
 {
-  "name": "Multiplexer",
+  "name": "Mechanical multiplexer",
   "records": [
     {
       "color": 71,
@@ -249,9 +249,9 @@
     },
     {
       "record_id": "C-shaft",
-      "part": "3708.dat",
+      "part": "3737.dat",
       "pos": [
-        20.0,
+        0,
         25.499999999999996,
         80.0
       ],
@@ -293,9 +293,9 @@
     },
     {
       "record_id": "A-shaft",
-      "part": "3737.dat",
+      "part": "3708.dat",
       "pos": [
-        40.49999999999999,
+        0,
         25.499999999999996,
         -100.0
       ],
@@ -311,13 +311,13 @@
         1.0
       ],
       "motion": "A",
-      "role": "Data A; left end X=-80"
+      "role": "Single 12L data A axle; ends X-48 and X48"
     },
     {
       "record_id": "B-shaft",
-      "part": "3737.dat",
+      "part": "3706.dat",
       "pos": [
-        -94.0,
+        -60.0,
         25.499999999999996,
         -60.0
       ],
@@ -333,7 +333,7 @@
         1.0
       ],
       "motion": "B",
-      "role": "Data B; left end X=-88"
+      "role": "6L data B axle; input end X-48 aligned with output axle"
     },
     {
       "record_id": "A-input",
@@ -691,7 +691,7 @@
       "record_id": "A-left",
       "part": "32123a.dat",
       "pos": [
-        -125.0,
+        -85.0,
         25.499999999999996,
         -100.0
       ],
@@ -735,7 +735,7 @@
       "record_id": "B-left",
       "part": "32123a.dat",
       "pos": [
-        -125.0,
+        -85.0,
         25.499999999999996,
         -60.0
       ],
@@ -823,7 +823,7 @@
       "record_id": "FRAME-PIN-1",
       "part": "2780.dat",
       "pos": [
-        -110.0,
+        -70.0,
         70.0,
         -100.0
       ],
@@ -845,7 +845,7 @@
       "record_id": "FRAME-PIN-2",
       "part": "2780.dat",
       "pos": [
-        -110.0,
+        -70.0,
         70.0,
         -60.0
       ],
@@ -955,7 +955,7 @@
       "record_id": "FRAME-PIN-7",
       "part": "2780.dat",
       "pos": [
-        120.0,
+        65.0,
         70.0,
         100.0
       ],
@@ -1021,7 +1021,7 @@
       "record_id": "FRAME-PIN-10",
       "part": "2780.dat",
       "pos": [
-        110.0,
+        70.0,
         70.0,
         -100.0
       ],
@@ -1041,11 +1041,11 @@
     },
     {
       "record_id": "reaction-axle",
-      "part": "3707.dat",
+      "part": "3706.dat",
       "pos": [
         0.0,
         5.5,
-        80.0
+        85.99999999999999
       ],
       "matrix": [
         0,
@@ -1066,7 +1066,7 @@
       "pos": [
         0.0,
         5.5,
-        34.5
+        29.5
       ],
       "matrix": [
         1.0,
@@ -1087,7 +1087,7 @@
       "pos": [
         0.0,
         5.5,
-        140.5
+        142.5
       ],
       "matrix": [
         1.0,
@@ -1104,7 +1104,7 @@
     },
     {
       "record_id": "reaction-spacer-24",
-      "part": "32123a.dat",
+      "part": "3713.dat",
       "pos": [
         0.0,
         5.5,
@@ -1146,11 +1146,11 @@
     },
     {
       "record_id": "pivot-axle-with-stop",
-      "part": "3707.dat",
+      "part": "3706.dat",
       "pos": [
         36.252311481465995,
         -8.154730469627976,
-        80.0
+        85.99999999999999
       ],
       "matrix": [
         0,
@@ -1168,7 +1168,7 @@
     {
       "color": 0,
       "pos": [
-        20.0,
+        0,
         25.5,
         100.0
       ],
@@ -1183,7 +1183,7 @@
         0.0,
         1.0
       ],
-      "part": "3708.dat",
+      "part": "3737.dat",
       "group": "carriage",
       "role": "Fixed guide axle",
       "record_id": "U017",
@@ -1193,7 +1193,7 @@
     {
       "color": 4,
       "pos": [
-        135.0,
+        80.0,
         25.5,
         100.0
       ],
@@ -1243,7 +1243,7 @@
     {
       "color": 0,
       "pos": [
-        20.0,
+        0,
         25.5,
         60.0
       ],
@@ -1258,7 +1258,7 @@
         0.0,
         1.0
       ],
-      "part": "3708.dat",
+      "part": "3737.dat",
       "group": "carriage",
       "role": "Second fixed guide axle",
       "record_id": "SECOND-GUIDE",
@@ -1268,7 +1268,7 @@
     {
       "color": 4,
       "pos": [
-        135.0,
+        80.0,
         25.5,
         60.0
       ],
@@ -1321,7 +1321,7 @@
       "pos": [
         36.252311481465995,
         -8.154730469627976,
-        34.5
+        29.5
       ],
       "matrix": [
         1.0,
@@ -1341,7 +1341,7 @@
       "record_id": "ADDED-PIN-24-24",
       "part": "2780.dat",
       "pos": [
-        120.0,
+        65.0,
         70.0,
         60.0
       ],
@@ -1357,29 +1357,7 @@
         1
       ],
       "motion": "fixed",
-      "role": "Second vertical mounting pin for Bearing wall X24"
-    },
-    {
-      "record_id": "ADDED-PIN-44--48",
-      "part": "2780.dat",
-      "pos": [
-        110.0,
-        70.0,
-        -120.0
-      ],
-      "matrix": [
-        0,
-        -1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "motion": "fixed",
-      "role": "Second vertical mounting pin for Bearing wall X44"
+      "role": "Second vertical mounting pin for Bearing wall X26"
     },
     {
       "record_id": "B-idler-new-retainer",
@@ -1402,50 +1380,6 @@
       ],
       "motion": "B-idler",
       "role": ""
-    },
-    {
-      "record_id": "A-input-extension",
-      "part": "3706.dat",
-      "pos": [
-        -120.5,
-        25.499999999999996,
-        -100.0
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "motion": "A",
-      "role": "Data A; left end X=-80"
-    },
-    {
-      "record_id": "A-stock-connector",
-      "part": "59443.dat",
-      "pos": [
-        -60.0,
-        25.499999999999996,
-        -100.0
-      ],
-      "matrix": [
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        -1,
-        0,
-        0
-      ],
-      "motion": "A",
-      "role": "Data A; left end X=-80"
     },
     {
       "record_id": "BOTTOM-PIN-8--28",
@@ -1585,7 +1519,7 @@
       "pos": [
         36.252311481465995,
         -8.154730469627976,
-        60.0
+        55.0
       ],
       "matrix": [
         1.0,
@@ -1628,7 +1562,7 @@
       "pos": [
         36.252311481465995,
         -8.154730469627976,
-        140.5
+        142.5
       ],
       "matrix": [
         1,
@@ -1670,7 +1604,7 @@
       "record_id": "selector-right-retainer",
       "part": "32123a.dat",
       "pos": [
-        135.0,
+        80.0,
         25.499999999999996,
         80.0
       ],
@@ -1692,7 +1626,7 @@
       "record_id": "Carriage joining pin top",
       "part": "2780.dat",
       "pos": [
-        0.0,
+        20.0,
         -46.5,
         85.0
       ],
@@ -1714,8 +1648,8 @@
       "record_id": "Carriage joining pin base",
       "part": "2780.dat",
       "pos": [
-        0.0,
-        53.125,
+        20.0,
+        48.49999999999999,
         95.0
       ],
       "matrix": [
@@ -1733,12 +1667,12 @@
       "role": "Carriage joining pin base"
     },
     {
-      "record_id": "Bridge pin front -52",
+      "record_id": "Split wall pin -12",
       "part": "2780.dat",
       "pos": [
-        -130.0,
+        -70.0,
         70.0,
-        45.0
+        -30.0
       ],
       "matrix": [
         0,
@@ -1752,15 +1686,15 @@
         1
       ],
       "motion": "fixed",
-      "role": "Bridge pin front -52"
+      "role": "Second LEGO friction pin for split bearing wall"
     },
     {
-      "record_id": "Bridge pin front -44",
+      "record_id": "Split wall pin 24",
       "part": "2780.dat",
       "pos": [
-        -110.0,
+        -70.0,
         70.0,
-        45.0
+        60.0
       ],
       "matrix": [
         0,
@@ -1774,15 +1708,15 @@
         1
       ],
       "motion": "fixed",
-      "role": "Bridge pin front -44"
+      "role": "Second LEGO friction pin for split bearing wall"
     },
     {
-      "record_id": "Bridge pin front 64",
+      "record_id": "Compact bridge pin front -28 8",
       "part": "2780.dat",
       "pos": [
-        160.0,
+        -70.0,
         70.0,
-        45.0
+        20.0
       ],
       "matrix": [
         0,
@@ -1796,15 +1730,15 @@
         1
       ],
       "motion": "fixed",
-      "role": "Bridge pin front 64"
+      "role": "LEGO friction pin; two per support foot"
     },
     {
-      "record_id": "Bridge pin front 72",
+      "record_id": "Compact bridge pin front -28 16",
       "part": "2780.dat",
       "pos": [
-        180.0,
+        -70.0,
         70.0,
-        45.0
+        40.0
       ],
       "matrix": [
         0,
@@ -1818,15 +1752,15 @@
         1
       ],
       "motion": "fixed",
-      "role": "Bridge pin front 72"
+      "role": "LEGO friction pin; two per support foot"
     },
     {
-      "record_id": "Bridge pin rear -52",
+      "record_id": "Compact bridge pin front 36 8",
       "part": "2780.dat",
       "pos": [
-        -130.0,
+        90.0,
         70.0,
-        130.0
+        20.0
       ],
       "matrix": [
         0,
@@ -1840,15 +1774,15 @@
         1
       ],
       "motion": "fixed",
-      "role": "Bridge pin rear -52"
+      "role": "LEGO friction pin; two per support foot"
     },
     {
-      "record_id": "Bridge pin rear -44",
+      "record_id": "Compact bridge pin front 36 16",
       "part": "2780.dat",
       "pos": [
-        -110.0,
+        90.0,
         70.0,
-        130.0
+        40.0
       ],
       "matrix": [
         0,
@@ -1862,15 +1796,15 @@
         1
       ],
       "motion": "fixed",
-      "role": "Bridge pin rear -44"
+      "role": "LEGO friction pin; two per support foot"
     },
     {
-      "record_id": "Bridge pin rear 64",
+      "record_id": "Compact bridge pin rear 36 43",
       "part": "2780.dat",
       "pos": [
-        160.0,
+        90.0,
         70.0,
-        130.0
+        107.5
       ],
       "matrix": [
         0,
@@ -1884,15 +1818,15 @@
         1
       ],
       "motion": "fixed",
-      "role": "Bridge pin rear 64"
+      "role": "LEGO friction pin; two per support foot"
     },
     {
-      "record_id": "Bridge pin rear 72",
+      "record_id": "Compact bridge pin rear 36 51",
       "part": "2780.dat",
       "pos": [
-        180.0,
+        90.0,
         70.0,
-        130.0
+        127.5
       ],
       "matrix": [
         0,
@@ -1906,7 +1840,7 @@
         1
       ],
       "motion": "fixed",
-      "role": "Bridge pin rear 72"
+      "role": "LEGO friction pin; two per support foot"
     }
   ],
   "prints": [
@@ -1915,18 +1849,6 @@
       "frame": true,
       "motion": "fixed",
       "path": "Base.stl"
-    },
-    {
-      "id": "Bearing wall X-44",
-      "frame": true,
-      "motion": "fixed",
-      "path": "Bearing wall X-44.stl"
-    },
-    {
-      "id": "Bearing wall X-28",
-      "frame": true,
-      "motion": "fixed",
-      "path": "Bearing wall X-28.stl"
     },
     {
       "id": "Bearing wall X-4",
@@ -1939,12 +1861,6 @@
       "frame": true,
       "motion": "fixed",
       "path": "Bearing wall X28.stl"
-    },
-    {
-      "id": "Bearing wall X44",
-      "frame": true,
-      "motion": "fixed",
-      "path": "Bearing wall X44.stl"
     },
     {
       "id": "Front actuator bridge",
@@ -1977,12 +1893,6 @@
       "path": "Front bottom guide.stl"
     },
     {
-      "id": "Rear bottom guide",
-      "frame": true,
-      "motion": "fixed",
-      "path": "Rear bottom guide.stl"
-    },
-    {
       "id": "Left carriage half",
       "frame": false,
       "motion": "carriage",
@@ -1995,26 +1905,38 @@
       "path": "Right carriage half.stl"
     },
     {
-      "id": "Bearing wall X48",
+      "id": "Bearing wall X26",
       "frame": true,
       "motion": "fixed",
-      "path": "Bearing wall X48.stl"
+      "path": "Bearing wall X26.stl"
+    },
+    {
+      "id": "Bearing wall X-28 four holes",
+      "frame": true,
+      "motion": "fixed",
+      "path": "Bearing wall X-28 four holes.stl"
+    },
+    {
+      "id": "Bearing wall X-28 three holes",
+      "frame": true,
+      "motion": "fixed",
+      "path": "Bearing wall X-28 three holes.stl"
     }
   ],
   "band": {
     "fixed_center_mm": [
       36.252311481465995,
       -14.704730469627979,
-      56.0
+      45.5
     ],
     "moving_center_mm": [
       21.751386888879598,
       -7.942838281776787,
-      56
+      45.5
     ]
   },
   "guide": {
-    "type": "Two fixed LEGO 12L guide axles with bottom shoe restraint",
+    "type": "Two fixed LEGO 10L guide axles with bottom shoe restraint",
     "axes_yz_mm": [
       [
         10.2,
@@ -2027,7 +1949,7 @@
     ],
     "axle_x_span_mm": [
       -40,
-      56
+      40
     ]
   },
   "pivot_mm": [
@@ -2038,5 +1960,5 @@
     -4.4,
     4.4
   ],
-  "status": "Printable prototype; physical fit and operation untested."
+  "status": "Geometric prototype; physical fit, loaded operation and slicing require validation."
 }

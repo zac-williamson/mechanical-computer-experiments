@@ -1,0 +1,332 @@
+{
+  "status": "Geometric prototype; not physically qualified",
+  "printed_component_count": 13,
+  "motion": {
+    "pose_samples": 1800,
+    "inherited_motion_samples": 1800,
+    "hits": [],
+    "scope": "Static printed-part intersections; all 1,800 inherited motion poses for printed parts; native hardware vertex and face-centre penetration samples at reference pose (0.08 mm threshold). Intended pin press fits excluded."
+  },
+  "carriage_print_faces": {
+    "Left carriage half": {
+      "assembly_x_print_face_mm": -15.6,
+      "bearing_wall_material_on_bed_mm2": 221.93622493897738,
+      "three_axle_openings_reach_bed": true,
+      "axle_axis_is_print_vertical": true
+    },
+    "Right carriage half": {
+      "assembly_x_print_face_mm": 8,
+      "bearing_wall_material_on_bed_mm2": 114.16292034693903,
+      "three_axle_openings_reach_bed": true,
+      "axle_axis_is_print_vertical": true
+    },
+    "joints": {
+      "LEGO_friction_pin_count": 2,
+      "centres_mm": [
+        [
+          8,
+          -18.6,
+          34
+        ],
+        [
+          8,
+          19.4,
+          38
+        ]
+      ],
+      "split_plane_x_mm": 8,
+      "shoe_retained_by_left_part": true,
+      "scope": "Bed-contact bearing-wall area, open bore entrances and pin-socket clearance. Non-bearing overhangs still require slicer inspection."
+    }
+  },
+  "base_and_bearings": {
+    "bearing_bores_preserved": true,
+    "A-shaft": {
+      "part": "3708.dat",
+      "x_span_mm": [
+        -48.0,
+        48.0
+      ]
+    },
+    "B-shaft": {
+      "part": "3706.dat",
+      "x_span_mm": [
+        -47.999996948242185,
+        -7.629394502828291e-07
+      ]
+    },
+    "orange_green_input_ends_aligned": true,
+    "base": {
+      "size_mm": [
+        80,
+        8.2,
+        116
+      ],
+      "pin_checks": [
+        {
+          "id": "FRAME-PIN-1",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-2",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-3",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-4",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-5",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-6",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-7",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-8",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-9",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "FRAME-PIN-10",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "ADDED-PIN-24-24",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "BOTTOM-PIN-8--28",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "BOTTOM-PIN-8--12",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "BOTTOM-PIN--8-8",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "BOTTOM-PIN-8-8",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "BOTTOM-PIN--8-51",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "BOTTOM-PIN-8-51",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "Split wall pin -12",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "Split wall pin 24",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "Compact bridge pin front -28 8",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "Compact bridge pin front -28 16",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "Compact bridge pin front 36 8",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "Compact bridge pin front 36 16",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "Compact bridge pin rear 36 43",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        },
+        {
+          "id": "Compact bridge pin rear 36 51",
+          "underside_recess_mm": 0.20000000000000284,
+          "through_hole": true
+        }
+      ]
+    },
+    "all_fixed_printed_supports_within_base_x": true
+  },
+  "exports": [
+    {
+      "file": "Base.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Base - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X-4.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X-4 - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X28.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X28 - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Front actuator bridge.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Front actuator bridge - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Rear bridge and band anchor.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Rear bridge and band anchor - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Direct lever and band cleat.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Direct lever and band cleat - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "A idler bearing.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "A idler bearing - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Front bottom guide.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Front bottom guide - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Left carriage half.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Left carriage half - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Right carriage half.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Right carriage half - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X26.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X26 - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X-28 four holes.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X-28 four holes - print.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X-28 three holes.stl",
+      "watertight": true,
+      "shells": 1
+    },
+    {
+      "file": "Bearing wall X-28 three holes - print.stl",
+      "watertight": true,
+      "shells": 1
+    }
+  ],
+  "limitations": [
+    "Prescribed motion does not simulate forces, friction, flex or band deformation.",
+    "Slicer supports are required for some non-bearing overhangs; no G-code supplied.",
+    "Pin fits, base stiffness and loaded switching require physical tests."
+  ]
+}
