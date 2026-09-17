@@ -1,0 +1,9 @@
+{
+  "assembly": "Slide complete printed bolt from +Z into front bridge before installing rear bridge; fit follower through upper slot afterward, then mount bridges, fit cam and band.",
+  "step_mm": 0.1,
+  "translation_range_mm": [
+    -2.8,
+    45
+  ],
+  "intersections": []
+}

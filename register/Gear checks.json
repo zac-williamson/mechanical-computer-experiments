@@ -1,0 +1,75 @@
+{
+  "method": "Projected native tooth silhouettes; conservative full-width envelopes, not loaded tooth-contact simulation",
+  "phases_degrees": {
+    "K power gear -16": 0,
+    "K power gear 16": 0,
+    "K direct idler": 22.5,
+    "K L072": 8.181856743478728e-17,
+    "K first reversing idler": 32.0625,
+    "K second reversing idler": 35.43749999999999,
+    "K L102": 11.3125,
+    "W L072": 0,
+    "W port gear": 11.25,
+    "E L102": 0,
+    "E port gear": 11.25
+  },
+  "ratios": {
+    "K power gear -16": 1,
+    "K power gear 16": 1,
+    "K direct idler": -2,
+    "K L072": 1,
+    "K first reversing idler": -2,
+    "K second reversing idler": 2,
+    "K L102": -1,
+    "W L072": 1,
+    "W port gear": -1,
+    "E L102": 1,
+    "E port gear": -1
+  },
+  "steps": 144,
+  "pairs": [
+    {
+      "a": "K power gear 16",
+      "b": "K direct idler",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "K direct idler",
+      "b": "K L072",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "K power gear -16",
+      "b": "K first reversing idler",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "K first reversing idler",
+      "b": "K second reversing idler",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "K second reversing idler",
+      "b": "K L102",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "W L072",
+      "b": "W port gear",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "E L102",
+      "b": "E port gear",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    }
+  ],
+  "reuse_validation": "All seven gear-pair positions, parts and matrices are identical to the checked aligned rectangular register."
+}

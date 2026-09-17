@@ -1,0 +1,576 @@
+{
+  "method": "Cam section at Y=-27, 2.46 mm radius conservative clearance envelope plus 2.6001 mm native rib fit check; elastic bias chooses the engaged side of its clearance",
+  "minimum_engagement_during_2mm_disturbance": 1.6499999999999346,
+  "minimum_clearance_at_clutch_contact": 0.5100000000000193,
+  "band_printed_intersections_mm3": {},
+  "samples": [
+    {
+      "q": -4.35,
+      "withdrawal_from_hold": 0.0,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -4.226071428571428,
+      "withdrawal_from_hold": 0.12392857142857139,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -4.102142857142857,
+      "withdrawal_from_hold": 0.24785714285714278,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -3.9782142857142855,
+      "withdrawal_from_hold": 0.37178571428571416,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -3.854285714285714,
+      "withdrawal_from_hold": 0.49571428571428555,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -3.7303571428571427,
+      "withdrawal_from_hold": 0.6196428571428569,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -3.606428571428571,
+      "withdrawal_from_hold": 0.7435714285714288,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -3.4824999999999995,
+      "withdrawal_from_hold": 0.8675000000000002,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -3.358571428571428,
+      "withdrawal_from_hold": 0.9914285714285715,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -3.2346428571428567,
+      "withdrawal_from_hold": 1.115357142857143,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -3.1107142857142853,
+      "withdrawal_from_hold": 1.2392857142857143,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -2.9867857142857135,
+      "withdrawal_from_hold": 1.3632142857142862,
+      "min_follower_Z": 17.75999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7599999999999305,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -2.862857142857142,
+      "withdrawal_from_hold": 1.4871428571428575,
+      "min_follower_Z": 17.74999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.749999999999929,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -2.7389285714285707,
+      "withdrawal_from_hold": 1.611071428571429,
+      "min_follower_Z": 17.73999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.739999999999931,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -2.6149999999999993,
+      "withdrawal_from_hold": 1.7350000000000003,
+      "min_follower_Z": 17.70999999999993,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.7099999999999298,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -2.491071428571428,
+      "withdrawal_from_hold": 1.8589285714285717,
+      "min_follower_Z": 17.689999999999934,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.6899999999999338,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -2.3671428571428565,
+      "withdrawal_from_hold": 1.982857142857143,
+      "min_follower_Z": 17.649999999999935,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.6499999999999346,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -2.243214285714285,
+      "withdrawal_from_hold": 2.1067857142857145,
+      "min_follower_Z": 17.609999999999935,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.6099999999999355,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -2.1192857142857138,
+      "withdrawal_from_hold": 2.230714285714286,
+      "min_follower_Z": 17.559999999999935,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.5599999999999348,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -1.9953571428571424,
+      "withdrawal_from_hold": 2.3546428571428573,
+      "min_follower_Z": 17.499999999999936,
+      "max_follower_Z": 18.23999999999992,
+      "min_toe_engagement_mm": 1.499999999999936,
+      "max_toe_engagement_mm": 2.239999999999924
+    },
+    {
+      "q": -1.871428571428571,
+      "withdrawal_from_hold": 2.4785714285714286,
+      "min_follower_Z": 17.429999999999936,
+      "max_follower_Z": 18.22999999999992,
+      "min_toe_engagement_mm": 1.4299999999999358,
+      "max_toe_engagement_mm": 2.2299999999999187
+    },
+    {
+      "q": -1.7474999999999992,
+      "withdrawal_from_hold": 2.6025000000000005,
+      "min_follower_Z": 17.349999999999937,
+      "max_follower_Z": 18.209999999999923,
+      "min_toe_engagement_mm": 1.3499999999999375,
+      "max_toe_engagement_mm": 2.2099999999999227
+    },
+    {
+      "q": -1.6235714285714278,
+      "withdrawal_from_hold": 2.726428571428572,
+      "min_follower_Z": 17.25999999999994,
+      "max_follower_Z": 18.099999999999923,
+      "min_toe_engagement_mm": 1.2599999999999412,
+      "max_toe_engagement_mm": 2.0999999999999233
+    },
+    {
+      "q": -1.4996428571428564,
+      "withdrawal_from_hold": 2.8503571428571433,
+      "min_follower_Z": 17.159999999999943,
+      "max_follower_Z": 17.949999999999925,
+      "min_toe_engagement_mm": 1.1599999999999433,
+      "max_toe_engagement_mm": 1.9499999999999247
+    },
+    {
+      "q": -1.375714285714285,
+      "withdrawal_from_hold": 2.9742857142857146,
+      "min_follower_Z": 17.049999999999947,
+      "max_follower_Z": 17.79999999999993,
+      "min_toe_engagement_mm": 1.0499999999999474,
+      "max_toe_engagement_mm": 1.7999999999999297
+    },
+    {
+      "q": -1.2517857142857136,
+      "withdrawal_from_hold": 3.098214285714286,
+      "min_follower_Z": 16.91999999999995,
+      "max_follower_Z": 17.659999999999933,
+      "min_toe_engagement_mm": 0.9199999999999484,
+      "max_toe_engagement_mm": 1.6599999999999326
+    },
+    {
+      "q": -1.1278571428571422,
+      "withdrawal_from_hold": 3.2221428571428574,
+      "min_follower_Z": 16.769999999999953,
+      "max_follower_Z": 17.509999999999934,
+      "min_toe_engagement_mm": 0.7699999999999534,
+      "max_toe_engagement_mm": 1.509999999999934
+    },
+    {
+      "q": -1.0039285714285708,
+      "withdrawal_from_hold": 3.346071428571429,
+      "min_follower_Z": 16.619999999999955,
+      "max_follower_Z": 17.35999999999994,
+      "min_toe_engagement_mm": 0.6199999999999548,
+      "max_toe_engagement_mm": 1.359999999999939
+    },
+    {
+      "q": -0.879999999999999,
+      "withdrawal_from_hold": 3.4700000000000006,
+      "min_follower_Z": 16.479999999999958,
+      "max_follower_Z": 17.209999999999944,
+      "min_toe_engagement_mm": 0.4799999999999578,
+      "max_toe_engagement_mm": 1.209999999999944
+    },
+    {
+      "q": -0.7560714285714276,
+      "withdrawal_from_hold": 3.593928571428572,
+      "min_follower_Z": 16.329999999999963,
+      "max_follower_Z": 17.069999999999943,
+      "min_toe_engagement_mm": 0.32999999999996277,
+      "max_toe_engagement_mm": 1.0699999999999434
+    },
+    {
+      "q": -0.6321428571428562,
+      "withdrawal_from_hold": 3.7178571428571434,
+      "min_follower_Z": 16.179999999999964,
+      "max_follower_Z": 16.91999999999995,
+      "min_toe_engagement_mm": 0.1799999999999642,
+      "max_toe_engagement_mm": 0.9199999999999484
+    },
+    {
+      "q": -0.5082142857142848,
+      "withdrawal_from_hold": 3.841785714285715,
+      "min_follower_Z": 16.029999999999966,
+      "max_follower_Z": 16.769999999999953,
+      "min_toe_engagement_mm": 0.02999999999996561,
+      "max_toe_engagement_mm": 0.7699999999999534
+    },
+    {
+      "q": -0.38428571428571345,
+      "withdrawal_from_hold": 3.965714285714286,
+      "min_follower_Z": 15.88999999999997,
+      "max_follower_Z": 16.619999999999955,
+      "min_toe_engagement_mm": -0.11000000000002785,
+      "max_toe_engagement_mm": 0.6199999999999548
+    },
+    {
+      "q": -0.26035714285714207,
+      "withdrawal_from_hold": 4.089642857142858,
+      "min_follower_Z": 15.739999999999974,
+      "max_follower_Z": 16.469999999999956,
+      "min_toe_engagement_mm": -0.26000000000002643,
+      "max_toe_engagement_mm": 0.46999999999995623
+    },
+    {
+      "q": -0.13642857142857068,
+      "withdrawal_from_hold": 4.213571428571429,
+      "min_follower_Z": 15.589999999999977,
+      "max_follower_Z": 16.329999999999963,
+      "min_toe_engagement_mm": -0.410000000000025,
+      "max_toe_engagement_mm": 0.32999999999996277
+    },
+    {
+      "q": -0.01249999999999929,
+      "withdrawal_from_hold": 4.3375,
+      "min_follower_Z": 15.43999999999998,
+      "max_follower_Z": 16.189999999999962,
+      "min_toe_engagement_mm": -0.56000000000002,
+      "max_toe_engagement_mm": 0.1899999999999622
+    },
+    {
+      "q": 0.1114285714285721,
+      "withdrawal_from_hold": 4.461428571428572,
+      "min_follower_Z": 15.289999999999983,
+      "max_follower_Z": 16.069999999999965,
+      "min_toe_engagement_mm": -0.7100000000000151,
+      "max_toe_engagement_mm": 0.06999999999996476
+    },
+    {
+      "q": 0.2353571428571435,
+      "withdrawal_from_hold": 4.585357142857143,
+      "min_follower_Z": 15.149999999999986,
+      "max_follower_Z": 15.959999999999969,
+      "min_toe_engagement_mm": -0.8500000000000156,
+      "max_toe_engagement_mm": -0.04000000000003112
+    },
+    {
+      "q": 0.3592857142857149,
+      "withdrawal_from_hold": 4.7092857142857145,
+      "min_follower_Z": 15.00999999999999,
+      "max_follower_Z": 15.86999999999997,
+      "min_toe_engagement_mm": -0.9900000000000091,
+      "max_toe_engagement_mm": -0.13000000000003098
+    },
+    {
+      "q": 0.48321428571428626,
+      "withdrawal_from_hold": 4.833214285714286,
+      "min_follower_Z": 14.96999999999999,
+      "max_follower_Z": 15.789999999999973,
+      "min_toe_engagement_mm": -1.0300000000000082,
+      "max_toe_engagement_mm": -0.21000000000002927
+    },
+    {
+      "q": 0.6071428571428577,
+      "withdrawal_from_hold": 4.957142857142857,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.719999999999974,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.280000000000026
+    },
+    {
+      "q": 0.7310714285714299,
+      "withdrawal_from_hold": 5.08107142857143,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.659999999999975,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.3400000000000247
+    },
+    {
+      "q": 0.8550000000000013,
+      "withdrawal_from_hold": 5.205000000000001,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.609999999999976,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.3900000000000219
+    },
+    {
+      "q": 0.9789285714285727,
+      "withdrawal_from_hold": 5.328928571428572,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.559999999999977,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.4400000000000226
+    },
+    {
+      "q": 1.102857142857144,
+      "withdrawal_from_hold": 5.452857142857144,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.529999999999978,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.4700000000000202
+    },
+    {
+      "q": 1.2267857142857155,
+      "withdrawal_from_hold": 5.576785714285715,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.489999999999979,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.5100000000000193
+    },
+    {
+      "q": 1.3507142857142869,
+      "withdrawal_from_hold": 5.7007142857142865,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.46999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.5300000000000225
+    },
+    {
+      "q": 1.4746428571428583,
+      "withdrawal_from_hold": 5.824642857142858,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.44999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.5500000000000185
+    },
+    {
+      "q": 1.5985714285714296,
+      "withdrawal_from_hold": 5.948571428571429,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 1.722500000000001,
+      "withdrawal_from_hold": 6.072500000000001,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 1.8464285714285724,
+      "withdrawal_from_hold": 6.196428571428572,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 1.9703571428571438,
+      "withdrawal_from_hold": 6.3203571428571435,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 2.094285714285715,
+      "withdrawal_from_hold": 6.444285714285715,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 2.2182142857142866,
+      "withdrawal_from_hold": 6.568214285714286,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 2.342142857142858,
+      "withdrawal_from_hold": 6.692142857142858,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 2.4660714285714294,
+      "withdrawal_from_hold": 6.816071428571429,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 2.5900000000000016,
+      "withdrawal_from_hold": 6.940000000000001,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 2.713928571428573,
+      "withdrawal_from_hold": 7.063928571428573,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 2.8378571428571444,
+      "withdrawal_from_hold": 7.187857142857144,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 2.961785714285716,
+      "withdrawal_from_hold": 7.311785714285715,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 3.085714285714287,
+      "withdrawal_from_hold": 7.435714285714287,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 3.2096428571428586,
+      "withdrawal_from_hold": 7.559642857142858,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 3.33357142857143,
+      "withdrawal_from_hold": 7.68357142857143,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 3.4575000000000014,
+      "withdrawal_from_hold": 7.807500000000001,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 3.5814285714285727,
+      "withdrawal_from_hold": 7.931428571428572,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 3.705357142857144,
+      "withdrawal_from_hold": 8.055357142857144,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 3.8292857142857155,
+      "withdrawal_from_hold": 8.179285714285715,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 3.953214285714287,
+      "withdrawal_from_hold": 8.303214285714287,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 4.077142857142858,
+      "withdrawal_from_hold": 8.427142857142858,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 4.20107142857143,
+      "withdrawal_from_hold": 8.55107142857143,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    },
+    {
+      "q": 4.325,
+      "withdrawal_from_hold": 8.675,
+      "min_follower_Z": 14.95999999999999,
+      "max_follower_Z": 15.43999999999998,
+      "min_toe_engagement_mm": -1.0400000000000098,
+      "max_toe_engagement_mm": -0.56000000000002
+    }
+  ]
+}
