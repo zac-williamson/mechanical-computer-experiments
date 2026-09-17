@@ -2,7 +2,7 @@
 
 The overhead lock has been replaced with a low, sideways-moving bolt, one narrow diagonal cam and a separate elastic return band. The middle rear bridge returns to the final multiplexer's original shape. The 236 × 100 × 8.2 mm base and aligned drive shafts are retained.
 
-The lock guide and keeper are integral with the front bridge; the return-band anchors are integral with the rear bridge. The only separate printed lock parts are the moving bolt and cam. Overall height is approximately 69.5 mm. There are 37 installed printed parts, 201 LEGO components and four elastic bands.
+The lock guide and keeper are integral with the front bridge; the return-band anchors are integral with the rear bridge. The only separate printed lock parts are the moving bolt and cam. Overall height is approximately 69.5 mm. There are 37 installed printed parts, 203 LEGO components and four elastic bands.
 
 This remains a physical prototype. Geometry checks establish clearances, not switching force, fatigue life or reliable operating speed.
 
@@ -26,7 +26,7 @@ All actuator axle-bore entrances remain directly on the print bed. Each carriage
 
 Friction-pin holes may need printer-specific compensation. Print the separate bearing coupon first: 1/2/3 edge notches identify 5.2/5.3/5.4 mm bores. New axle bearings use 5.3 mm nominal bores; inherited actuator holes retain their existing dimensions.
 
-Review local overhang support, particularly the cap, band saddle and inherited carriage details. Keep supports off running faces and out of axle bores. No slicer validation or G-code is supplied. Printed joints use LEGO friction pins, with no screws, adhesive or delicate printed snap joints. The 62 mounting holes pass through the base and nominal pin tips finish 0.2 mm above its underside.
+Review local overhang support, particularly the cap, band saddle and inherited carriage details. Keep supports off running faces and out of axle bores. No slicer validation or G-code is supplied. Printed joints use LEGO friction pins, with no screws, adhesive or delicate printed snap joints. The 64 mounting holes pass through the base and nominal pin tips finish 0.2 mm above its underside.
 
 ## Assembly
 
@@ -64,7 +64,7 @@ Start with OE=0. Establish stable D, command W=1 and wait for full storage trave
 
 The included reports cover sampled printed-part travel, native hardware versus printed surfaces, fixed pin mounts, bore print orientation and the new cam/band geometry. The gear train is unchanged from the aligned rectangular design. The viewer shows inspection poses, not a dynamic contact simulation.
 
-`Lock checks.json` records the clearance-aware follower envelope, its rib fit and the band's clearance from printed components. The geometric band relief does not account for elastic stretching, sag or twisting. `Source/` includes the generator and checks with its own regeneration instructions. `Fixed pin sweep.json` checks the complete moving cam against conservative outer envelopes of all 62 fixed friction pins in 181 positions, including their collars. Fixed pins are also included against moving printed parts in the native-mesh checks; the earlier exclusion that missed the photographed clashes has been removed.
+`Lock checks.json` records the clearance-aware follower envelope, its rib fit and the band's clearance from printed components. The geometric band relief does not account for elastic stretching, sag or twisting. `Source/` includes the generator and checks with its own regeneration instructions. `Fixed pin sweep.json` checks the complete moving cam against conservative outer envelopes of all 64 fixed friction pins in 181 positions, including their collars. Fixed pins are also included against moving printed parts in the native-mesh checks; the earlier exclusion that missed the photographed clashes has been removed.
 
 For the first test, run slowly without a driven load. Verify both stored bits and repeated writes of the same bit. With HOLD seated, gently disturb the write carriage within its backlash and observe whether the bolt remains seated. Then measure whether the bolt fully clears before clutch engagement, and whether it reliably re-enters both pockets. Check the diagonal link and its pin joints for flex. Switching torque, timing, band tension, pin retention and long-term wear remain physical validation tasks.
 
@@ -84,3 +84,8 @@ The bolt is 20 mm long rather than 22 mm. The full-width body ends sooner and it
 `Insertion checks.json` samples the complete bolt, including its band saddle, along its insertion path in 0.1 mm steps. This verifies the front-bridge/bolt subassembly before fitting it to the register, not arbitrary insertion into a fully assembled register. Physical friction, strength and tolerance remain to be tested.
 
 Choose **Explode lock parts** to see both integrated bridges, the blue bolt and yellow cam. The rear bridge is offset sideways for inspection; these display offsets are not assembly motions.
+
+
+## Bearing mountings
+
+Every fixed bearing has at least two base friction pins. The D-input and BUS_OUT port bearings now have wider, two-pin feet with 8 mm centre spacing and at least 2.2 mm of material outside the collar recess at each foot edge. Their axle positions and flat bore-printing faces are unchanged. The base has 64 through-holes for its 64 mounting pins. `Bearing mount checks.json` lists the pins for all 16 bearing parts.

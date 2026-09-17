@@ -1,6 +1,6 @@
 {
-  "fixed_pins": 62,
-  "base_holes": 62,
+  "fixed_pins": 64,
+  "base_holes": 64,
   "base_pin_tip_recess_mm": 0.2,
   "core_radius_mm": 2.39,
   "friction_ribs_excluded": true,
@@ -735,14 +735,27 @@
       ]
     },
     {
-      "pin": "W port bearing mounting 16.0",
+      "pin": "W port bearing mounting -74.0",
       "axis": [
         0.0,
         1.0,
         0.0
       ],
       "centre": [
-        -80.0,
+        -82.0,
+        28.0,
+        48.0
+      ]
+    },
+    {
+      "pin": "W port bearing mounting -66.0",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "centre": [
+        -90.0,
         28.0,
         48.0
       ]
@@ -800,14 +813,27 @@
       ]
     },
     {
-      "pin": "E port bearing mounting -16.0",
+      "pin": "E port bearing mounting 78.0",
       "axis": [
         0.0,
         1.0,
         0.0
       ],
       "centre": [
-        72.0,
+        74.0,
+        28.0,
+        -16.0
+      ]
+    },
+    {
+      "pin": "E port bearing mounting 86.0",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "centre": [
+        82.0,
         28.0,
         -16.0
       ]

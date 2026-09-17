@@ -1208,11 +1208,11 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        8.599998474121094,
+        11.0,
         22.09999990463257,
-        7.600006103515625
+        19.300003051757812
       ],
-      "bed_contact_area_mm2": 160.05095349608018,
+      "bed_contact_area_mm2": 179.25096570311143,
       "bearing_entrance_heights_mm": [
         0.0
       ],
@@ -1234,7 +1234,7 @@
         ]
       ],
       "translation": [
-        52.29999923706055,
+        53.5,
         28.0,
         -76.19999694824219
       ],
@@ -1326,11 +1326,11 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        8.59999942779541,
+        11.0,
         22.09999990463257,
-        7.600006103515625
+        19.300003051757812
       ],
-      "bed_contact_area_mm2": 160.0509690844151,
+      "bed_contact_area_mm2": 179.25097366205182,
       "bearing_entrance_heights_mm": [
         0.0
       ],
@@ -1352,7 +1352,7 @@
         ]
       ],
       "translation": [
-        20.299999237060547,
+        21.5,
         28.0,
         -68.19999694824219
       ],
@@ -1447,7 +1447,7 @@
         100.0,
         8.200000762939453
       ],
-      "bed_contact_area_mm2": 22423.16975724606,
+      "bed_contact_area_mm2": 22385.20749842709,
       "bearing_entrance_heights_mm": [],
       "rotation": [
         [
@@ -1520,15 +1520,15 @@
         "K Direct lever and band cleat",
         "W Direct lever and band cleat",
         "E Direct lever and band cleat",
+        "W port bearing",
+        "E port bearing",
         "K Front bottom guide",
         "W Front bottom guide",
         "E Front bottom guide",
-        "E port bearing",
-        "W port bearing",
         "HOLD side bolt"
       ],
       "size_mm": [
-        243.70000076293945,
+        241.54427003860474,
         245.22063994407654,
         29.600000381469727
       ],

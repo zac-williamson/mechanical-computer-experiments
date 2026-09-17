@@ -120,7 +120,13 @@ for ac in ['W','E']:
   x=d[0]+xx;name=ac+(' left bearing' if xx<0 else ' right bearing');s=wall(name,x,holes,[mainz-20,mainz+4],[mainz-16,mainz])
   if xx==-24:s=s-box([x-.2,-20,mainz-25],[x+4,20,mainz+10])
   put(name,s,FX,ac,bores=[[x,yy,z] for yy,z in holes])
- x=d[0]+(4 if ac=='W' else -4);holes=[(10.2,mainz-16)];name=ac+' port bearing';s=wall(name,x,holes,[mainz-20,mainz-11.7],[mainz-16]);put(name,s,FX,ac,bores=[[x,yy,z] for yy,z in holes])
+ x=d[0]+(4 if ac=='W' else -4);holes=[(10.2,mainz-16)];name=ac+' port bearing'
+ s=wall(name,x,holes,[mainz-20,mainz-11.7],[])
+ # A broad two-pin foot resists rotation about the upright bearing.
+ s=s+box([x-3.8,20,mainz-21.5],[x+15.5,28,mainz-10.5])
+ for px in [x+2,x+10]:
+  s=pin_cut(s,[px,28,mainz-16]);pin(name+' mounting '+str(px),[px,28,mainz-16]);mounts.append((px,mainz-16))
+ put(name,s,FX,ac,bores=[[x,yy,z] for yy,z in holes])
 # Low transverse bolt. The nose prints on Z32; running faces are vertical.
 body=box([-13,-22,12],[-1,-14,23.5]);nose=box([-8.8,-22,29.5],[-5.2,-14,32]);bolt=body+nose+hull([box([-13,-22,23.3],[-1,-14,23.5]),box([-8.8,-22,29.3],[-5.2,-14,29.5])])
 bolt=pin_cut(bolt,[-7,-22,18],'y')

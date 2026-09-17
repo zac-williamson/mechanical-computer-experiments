@@ -1,6 +1,6 @@
 {
   "samples": 181,
-  "fixed_pins": 62,
+  "fixed_pins": 64,
   "shaft_radius_mm": 2.61,
   "collar_radius_mm": 3.2,
   "cam_intersections_mm3": {}

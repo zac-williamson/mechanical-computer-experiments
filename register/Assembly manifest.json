@@ -4453,10 +4453,33 @@
       "role": ""
     },
     {
-      "record_id": "W port bearing mounting 16.0",
+      "record_id": "W port bearing mounting -74.0",
       "part": "2780.dat",
       "pos": [
-        -200.0,
+        -205.0,
+        70.0,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W port bearing mounting -66.0",
+      "part": "2780.dat",
+      "pos": [
+        -225.0,
         70.0,
         120.0
       ],
@@ -4688,10 +4711,33 @@
       "role": ""
     },
     {
-      "record_id": "E port bearing mounting -16.0",
+      "record_id": "E port bearing mounting 78.0",
       "part": "2780.dat",
       "pos": [
-        180.0,
+        185.0,
+        70.0,
+        -40.0
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "E port bearing mounting 86.0",
+      "part": "2780.dat",
+      "pos": [
+        205.0,
         70.0,
         -40.0
       ],
@@ -6031,7 +6077,11 @@
       32.0
     ],
     [
-      -80.0,
+      -82.0,
+      48.0
+    ],
+    [
+      -90.0,
       48.0
     ],
     [
@@ -6051,7 +6101,11 @@
       0.0
     ],
     [
-      72.0,
+      74.0,
+      -16.0
+    ],
+    [
+      82.0,
       -16.0
     ]
   ],
