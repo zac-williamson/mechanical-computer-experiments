@@ -1,0 +1,27 @@
+{
+  "stroke_mm": [
+    -4.35,
+    4.325
+  ],
+  "radial_clearance_mm": 0.5,
+  "axle_envelope_radius_mm": 2.4,
+  "relief_radius_mm": 2.9,
+  "removed_material_mm3": 13.588792182451934,
+  "maximum_removed_material_intersection_with_lever_mm3": 0.00040126548606747147,
+  "lever_sweep_samples": 3660,
+  "results": [
+    {
+      "stage": "X",
+      "swept_envelope_overlap_mm3": 0.0
+    },
+    {
+      "stage": "P",
+      "swept_envelope_overlap_mm3": 0.0
+    },
+    {
+      "stage": "C",
+      "swept_envelope_overlap_mm3": 0.0
+    }
+  ],
+  "limits": "Geometric envelopes; no prediction of printed friction, deformation or wear."
+}

@@ -8,6 +8,10 @@ Cin drives only its worm actuator. P drives the shared carry/sum actuator; the p
 
 `Viewer.html` includes axle labels, part selection, pan and axes. The common carriage, lever and bridge meshes come from ../multiplexer. Carry and sum have local shaft-clearance and tie attachment adaptations. The sum fork has no independent lever or upper actuator frame.
 
-This is an engineering prototype, not a print release. Logic, gear pitch, tooth-phase, mounting and coupling checks are supplied. `Travel checks.json` includes conservative axle-envelope findings; an actual-mesh check also identifies a small pivot-axle/carriage contact near the positive mechanical stop. That must be resolved before printing this assembly. A complete print-orientation audit and loaded shared-carriage test are also outstanding. No print layout is supplied.
+This is an engineering prototype, not a print release. The three actuator carriages have a rounded inside-roof relief for the fixed pivot axle, sized for the full 8.675 mm stroke and 0.5 mm nominal radial clearance. Bearing positions, travel, gear count and external dimensions are unchanged.
 
-Rebuild with Sources/build.py, Sources/gear_check.py, Sources/apply_phases.py, Sources/publish.py, then the audit scripts. Python dependencies are in Sources/requirements.txt; LDraw is loaded from the local installation. Do not change stage spacing independently of stock axle lengths and connector positions.
+Current checks pass: all 16 arithmetic cases, 12 gear-pitch checks, fixed supports, mounting and coupling pins, conservative native envelopes, and carriage travel. `Pivot clearance checks.json` checks a continuous swept axle envelope and verifies that the relief does not materially remove the lever's working contact surfaces over the prescribed switching trace (0.001 mm³ mesh tolerance).
+
+A complete print-orientation audit and loaded shared-carriage test remain outstanding. No print layout is supplied. CAD checks do not establish printed friction, wear or loaded reliability.
+
+Rebuild with Sources/build.py, Sources/gear_check.py, Sources/apply_phases.py, Sources/publish.py, then the audit scripts, including Sources/pivot_clearance_check.py. Python dependencies are in Sources/requirements.txt; LDraw is loaded from the local installation. Do not change stage spacing independently of stock axle lengths and connector positions.

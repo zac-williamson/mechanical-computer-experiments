@@ -74,6 +74,12 @@ for ac,d in mods.items():
  for n in list(feet)+['Left carriage half','Right carriage half','Direct lever and band cleat']:
   if ac=='S' and n not in ['Front bottom guide','Left carriage half','Right carriage half']:continue
   s=load(n)
+  if ac in ['X','P','C'] and n=='Left carriage half':
+   # Clearance for the fixed pivot axle over the entire carriage stroke.
+   # A 2.9 mm radial envelope leaves 0.5 mm beyond a 4.8 mm axle.
+   # This relieves the inside roof corner, away from the lever contact pads.
+   px,py=14.500924592586399,-3.261892187851191
+   s-=hull([cyl([px-q,py,36],2.9,40) for q in [-4.35,4.325]])
   if n=='Front actuator bridge':
    leg=s^box([-100,-100,-100],[-24,100,100])
    s=(s-leg)+leg.translate([-8,0,0])+box([-32.1,-12,14],[-23.9,-6,19.799999])
@@ -226,3 +232,7 @@ put('Base',base,FY)
 D=dict(name='Shared-actuator shaft-aligned adder',records=records,prints=prints,actors={k:v.tolist() for k,v in actors.items()},orientations={k:1 for k in mods},mounts=mounts,gear_pairs=pairs,shaft_groups=shaft_groups,base_mm=[xmax-xmin,zmax-zmin,8.2],status='Engineering prototype — sampled geometry checks pass; loaded switching and print validation pending',ports={'A':[mods['C'][0]-40,10.2,0],'B':[44,10.2,16],'SU':[-34,10.2,64],'Cin':[pitch+30,10.2,80],'Sum':[mods['S'][0]+30,10.2,16],'Cout':[mods['C'][0]+30,10.2,16]})
 (OUT/'Assembly manifest.json').write_text(json.dumps(D,indent=2))
 print('Built',len(prints),'parts; base',D['base_mm'],flush=True)
+
+# Remove transient bearings merged into the final compound supports.
+for name in ["C guide bearing -24.stl", "C guide bearing 24.stl"]:
+ (OUT/name).unlink(missing_ok=True)
