@@ -3,7 +3,7 @@ import sys,json,re,math,itertools
 import numpy as np
 import trimesh
 ROOT=Path(__file__).resolve().parent;import os;OUT=Path(os.environ.get('REGISTER_OUTPUT',str(ROOT.parent)));D=json.loads((OUT/'Assembly manifest.json').read_text());sys.path.insert(0,str(ROOT));from render_ldraw import LDraw
-lib=LDraw(str(Path(os.environ.get('LDRAW_DIR','/Applications/Studio 2.0/ldraw'))/'parts/23948.dat'));trace=json.loads(re.search(r'const POSES=(\[.*?\]);',(ROOT/'Inputs/Viewer.html').read_text(),re.S)[1]);ends={0:min(trace,key=lambda p:abs(p['q']-4.325)),1:min(trace,key=lambda p:abs(p['q']+4.35))}
+lib=LDraw(str(Path(os.environ.get('LDRAW_DIR','/Applications/Studio 2.0/ldraw'))/'parts/23948.dat'));trace=json.loads((ROOT.parents[1]/'multiplexer'/'Actuator poses.json').read_text());ends={0:min(trace,key=lambda p:abs(p['q']-4.325)),1:min(trace,key=lambda p:abs(p['q']+4.35))}
 def lift(q):return -5.5*(1-np.clip((q-.5)/3.825,0,1))
 def rot(axis,deg):
  a=np.eye(4);a[:3,:3]=trimesh.transformations.rotation_matrix(math.radians(deg),axis)[:3,:3];return a

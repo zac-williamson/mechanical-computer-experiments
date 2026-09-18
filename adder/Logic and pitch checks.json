@@ -1,0 +1,244 @@
+{
+  "gears": 30,
+  "previous_gears": 45,
+  "actuators": 3,
+  "clutches": 4,
+  "logic_cases_passed": 16,
+  "rows": [
+    {
+      "A": 0,
+      "B": 0,
+      "Sub": 0,
+      "Cin": 0,
+      "Bprime": 0,
+      "P": 0,
+      "Sum": 0,
+      "Cout": 0
+    },
+    {
+      "A": 0,
+      "B": 0,
+      "Sub": 0,
+      "Cin": 1,
+      "Bprime": 0,
+      "P": 1,
+      "Sum": 1,
+      "Cout": 0
+    },
+    {
+      "A": 0,
+      "B": 0,
+      "Sub": 1,
+      "Cin": 0,
+      "Bprime": 1,
+      "P": 1,
+      "Sum": 1,
+      "Cout": 0
+    },
+    {
+      "A": 0,
+      "B": 0,
+      "Sub": 1,
+      "Cin": 1,
+      "Bprime": 1,
+      "P": 0,
+      "Sum": 0,
+      "Cout": 1
+    },
+    {
+      "A": 0,
+      "B": 1,
+      "Sub": 0,
+      "Cin": 0,
+      "Bprime": 1,
+      "P": 1,
+      "Sum": 1,
+      "Cout": 0
+    },
+    {
+      "A": 0,
+      "B": 1,
+      "Sub": 0,
+      "Cin": 1,
+      "Bprime": 1,
+      "P": 0,
+      "Sum": 0,
+      "Cout": 1
+    },
+    {
+      "A": 0,
+      "B": 1,
+      "Sub": 1,
+      "Cin": 0,
+      "Bprime": 0,
+      "P": 0,
+      "Sum": 0,
+      "Cout": 0
+    },
+    {
+      "A": 0,
+      "B": 1,
+      "Sub": 1,
+      "Cin": 1,
+      "Bprime": 0,
+      "P": 1,
+      "Sum": 1,
+      "Cout": 0
+    },
+    {
+      "A": 1,
+      "B": 0,
+      "Sub": 0,
+      "Cin": 0,
+      "Bprime": 0,
+      "P": 0,
+      "Sum": 1,
+      "Cout": 0
+    },
+    {
+      "A": 1,
+      "B": 0,
+      "Sub": 0,
+      "Cin": 1,
+      "Bprime": 0,
+      "P": 1,
+      "Sum": 0,
+      "Cout": 1
+    },
+    {
+      "A": 1,
+      "B": 0,
+      "Sub": 1,
+      "Cin": 0,
+      "Bprime": 1,
+      "P": 1,
+      "Sum": 0,
+      "Cout": 1
+    },
+    {
+      "A": 1,
+      "B": 0,
+      "Sub": 1,
+      "Cin": 1,
+      "Bprime": 1,
+      "P": 0,
+      "Sum": 1,
+      "Cout": 1
+    },
+    {
+      "A": 1,
+      "B": 1,
+      "Sub": 0,
+      "Cin": 0,
+      "Bprime": 1,
+      "P": 1,
+      "Sum": 0,
+      "Cout": 1
+    },
+    {
+      "A": 1,
+      "B": 1,
+      "Sub": 0,
+      "Cin": 1,
+      "Bprime": 1,
+      "P": 0,
+      "Sum": 1,
+      "Cout": 1
+    },
+    {
+      "A": 1,
+      "B": 1,
+      "Sub": 1,
+      "Cin": 0,
+      "Bprime": 0,
+      "P": 0,
+      "Sum": 1,
+      "Cout": 0
+    },
+    {
+      "A": 1,
+      "B": 1,
+      "Sub": 1,
+      "Cin": 1,
+      "Bprime": 0,
+      "P": 1,
+      "Sum": 0,
+      "Cout": 1
+    }
+  ],
+  "pitch_checks": [
+    {
+      "a": "X B direct",
+      "b": "X L072",
+      "distance_mm": 16.0,
+      "pitch_sum_mm": 16.0
+    },
+    {
+      "a": "X B reverse drive",
+      "b": "X compound back",
+      "distance_mm": 12.0,
+      "pitch_sum_mm": 12.0
+    },
+    {
+      "a": "X compound front",
+      "b": "X L102",
+      "distance_mm": 11.999994666668146,
+      "pitch_sum_mm": 12.0
+    },
+    {
+      "a": "P direct input",
+      "b": "P L072",
+      "distance_mm": 16.0,
+      "pitch_sum_mm": 16.0
+    },
+    {
+      "a": "P reversing input",
+      "b": "P compound back",
+      "distance_mm": 12.0,
+      "pitch_sum_mm": 12.0
+    },
+    {
+      "a": "P compound front",
+      "b": "P L102",
+      "distance_mm": 11.999994666668146,
+      "pitch_sum_mm": 12.0
+    },
+    {
+      "a": "C inverted Bprime input",
+      "b": "C L072",
+      "distance_mm": 16.0,
+      "pitch_sum_mm": 16.0
+    },
+    {
+      "a": "C A reversing drive",
+      "b": "C A compound back",
+      "distance_mm": 12.0,
+      "pitch_sum_mm": 12.0
+    },
+    {
+      "a": "C A compound front",
+      "b": "C L102",
+      "distance_mm": 11.999994666668146,
+      "pitch_sum_mm": 12.0
+    },
+    {
+      "a": "S A reversing drive",
+      "b": "S A compound back",
+      "distance_mm": 12.0,
+      "pitch_sum_mm": 12.0
+    },
+    {
+      "a": "S A compound front",
+      "b": "S L072",
+      "distance_mm": 11.999999999999998,
+      "pitch_sum_mm": 12.0
+    },
+    {
+      "a": "S A direct",
+      "b": "S L102",
+      "distance_mm": 15.999991999999999,
+      "pitch_sum_mm": 16.0
+    }
+  ],
+  "limits": "Pitch and direction checks only; no tooth phase, load, or full clearance proof."
+}

@@ -1,0 +1,72 @@
+{
+  "stop_working_corner_radius_mm": 1.5,
+  "teeth": 2,
+  "pivot_journal_length_mm": 10.0,
+  "pivot": [
+    14.500924592586399,
+    -3.261892187851191
+  ],
+  "lever_band_anchor": [
+    21.987468724068282,
+    -6.08176044140031,
+    45.5
+  ],
+  "fixed_band_anchor": [
+    36.96055698703205,
+    -11.721496948498547,
+    45.5
+  ],
+  "joint_pins": [
+    [
+      8,
+      19,
+      22
+    ],
+    [
+      8,
+      19,
+      38
+    ]
+  ],
+  "collar_relief_length_mm": 2.0,
+  "collar_relief_radius_mm": 3.45,
+  "gear_clearance_radius_mm": 6.1,
+  "gear_clearance_travel_mm": [
+    -4.5,
+    4.5
+  ],
+  "contact_pad_axial_overlap_mm": 6.4,
+  "stops": {
+    "el": 9.1083984375,
+    "er": 19.9693603515625,
+    "lb": -3.7945074659957116,
+    "rb": -9.08176044140031
+  },
+  "physical_validation": false,
+  "revision": "Deeper working tooth flanks with swept release relief",
+  "contact_depth_example_mm": {
+    "previous": 0.462,
+    "revised": 0.777,
+    "lever_angle_degrees": 3.1
+  },
+  "small_carriage_outer_face_x_mm": 15.6,
+  "small_carriage_print_bed_face": "Outer axle-bearing face, X=15.6",
+  "small_carriage_lip_removed_mm": 0.8,
+  "bearing_wall_positions_unchanged": true,
+  "base_lip": {
+    "x_extent_mm": [
+      -15.6,
+      15.6
+    ],
+    "bed_end_bevel_axial_length_mm": 0.4,
+    "bed_end_running_surface_relief_mm": 0.3,
+    "bottom_guides_unchanged": true
+  },
+  "bridge_anchor_attachment": {
+    "bridge_face_z_mm": 48.6,
+    "base_radius_mm": 2.5,
+    "shoulder_radius_mm": 3.2,
+    "taper_length_mm": 2.02,
+    "anchor_position_unchanged": true
+  }
+}

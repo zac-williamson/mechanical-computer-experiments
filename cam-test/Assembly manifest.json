@@ -1,0 +1,3084 @@
+{
+  "name": "Two-actuator cam test rig",
+  "status": "Physical prototype; friction and loaded timing require testing",
+  "records": [
+    {
+      "color": 71,
+      "pos": [
+        0.0,
+        37.96500000000001,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32905.dat",
+      "group": "carriage-worm",
+      "role": "Worm axis X0,Y40; mesh origin corrected",
+      "record_id": "K U015",
+      "slice": "universal",
+      "motion": "carriage-worm",
+      "actor": "K"
+    },
+    {
+      "color": 72,
+      "pos": [
+        0.0,
+        5.5,
+        80.0
+      ],
+      "matrix": [
+        -0.9346365831114465,
+        0.35560435530201295,
+        0.0,
+        0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "part": "10928.dat",
+      "group": "reaction-rotating",
+      "role": "Original reaction 8T driven by worm",
+      "record_id": "K U022",
+      "slice": "universal",
+      "motion": "reaction-rotating",
+      "actor": "K"
+    },
+    {
+      "part": "32123a.dat",
+      "pos": [
+        -55.0,
+        25.5,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "group": "input-rotating",
+      "role": "SharedSshaft thrust halfbush around front bearing; shaft itself is patch-owned.",
+      "color": 14,
+      "record_id": "K U185",
+      "slice": "universal",
+      "motion": "input-rotating",
+      "actor": "K"
+    },
+    {
+      "record_id": "K reaction-axle",
+      "part": "3706.dat",
+      "pos": [
+        0.0,
+        5.5,
+        85.99999999999999
+      ],
+      "matrix": [
+        0.0,
+        0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.9346365831114465,
+        -0.35560435530201295,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "K"
+    },
+    {
+      "record_id": "K reaction-retainer-14",
+      "part": "32123a.dat",
+      "pos": [
+        0.0,
+        5.5,
+        29.5
+      ],
+      "matrix": [
+        0.9346365831114465,
+        0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "K"
+    },
+    {
+      "record_id": "K reaction-retainer-50",
+      "part": "32123a.dat",
+      "pos": [
+        0.0,
+        5.5,
+        142.5
+      ],
+      "matrix": [
+        0.9346365831114465,
+        0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "K"
+    },
+    {
+      "record_id": "K reaction-spacer-24",
+      "part": "3713.dat",
+      "pos": [
+        0.0,
+        5.5,
+        60.0
+      ],
+      "matrix": [
+        0.9346365831114465,
+        0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "K"
+    },
+    {
+      "record_id": "K reaction-spacer-40",
+      "part": "3713.dat",
+      "pos": [
+        0.0,
+        5.5,
+        100.0
+      ],
+      "matrix": [
+        0.9346365831114465,
+        0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "K"
+    },
+    {
+      "record_id": "K pivot-axle-with-stop",
+      "part": "3706.dat",
+      "pos": [
+        36.252311481465995,
+        -8.154730469627976,
+        85.99999999999999
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "motion": "fixed",
+      "actor": "K"
+    },
+    {
+      "color": 0,
+      "pos": [
+        0.0,
+        25.5,
+        100.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "part": "3737.dat",
+      "group": "carriage",
+      "role": "Fixed guide axle",
+      "record_id": "K U017",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "K"
+    },
+    {
+      "color": 4,
+      "pos": [
+        80.0,
+        25.5,
+        100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "carriage",
+      "role": "Guide axle end retainer",
+      "record_id": "K U019",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "K"
+    },
+    {
+      "color": 4,
+      "pos": [
+        -85.0,
+        25.5,
+        100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "carriage",
+      "role": "Guide axle end retainer",
+      "record_id": "K U032",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "K"
+    },
+    {
+      "color": 0,
+      "pos": [
+        0.0,
+        25.5,
+        60.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "part": "3737.dat",
+      "group": "carriage",
+      "role": "Second fixed guide axle",
+      "record_id": "K SECOND-GUIDE",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "K"
+    },
+    {
+      "color": 4,
+      "pos": [
+        80.0,
+        25.5,
+        60.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "carriage",
+      "role": "Second guide retainer",
+      "record_id": "K SECOND-GUIDE-BUSH-R",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "K"
+    },
+    {
+      "color": 4,
+      "pos": [
+        -85.0,
+        25.5,
+        60.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "carriage",
+      "role": "Second guide retainer",
+      "record_id": "K SECOND-GUIDE-BUSH-L",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "K"
+    },
+    {
+      "record_id": "K pivot-front-half-bush",
+      "part": "32123a.dat",
+      "pos": [
+        36.252311481465995,
+        -8.154730469627976,
+        29.5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "fixed",
+      "role": "External pivot axle retainer",
+      "actor": "K"
+    },
+    {
+      "record_id": "K pivot-hub-rear-bush",
+      "part": "32123a.dat",
+      "pos": [
+        36.252311481465995,
+        -8.154730469627976,
+        80.99999999999999
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "motion": "fixed",
+      "role": "pivot-hub-rear-bush",
+      "actor": "K"
+    },
+    {
+      "record_id": "K pivot-rear-retainer",
+      "part": "32123a.dat",
+      "pos": [
+        36.252311481465995,
+        -8.154730469627976,
+        142.5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "motion": "fixed",
+      "role": "pivot-rear-retainer",
+      "actor": "K"
+    },
+    {
+      "record_id": "K reaction-rear-extra-half-bush",
+      "part": "32123a.dat",
+      "pos": [
+        0.0,
+        5.5,
+        115.0
+      ],
+      "matrix": [
+        0.9346365831114465,
+        0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "reaction-rotating",
+      "role": "reaction-rear-extra-half-bush",
+      "actor": "K"
+    },
+    {
+      "record_id": "K selector-right-retainer",
+      "part": "32123a.dat",
+      "pos": [
+        80.0,
+        25.499999999999996,
+        80.0
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "motion": "C",
+      "role": "selector-right-retainer",
+      "actor": "K"
+    },
+    {
+      "record_id": "K Carriage joining pin top",
+      "part": "2780.dat",
+      "pos": [
+        20.0,
+        47.5,
+        55.0
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "motion": "carriage",
+      "role": "Carriage joining pin top",
+      "actor": "K"
+    },
+    {
+      "record_id": "K Carriage joining pin base",
+      "part": "2780.dat",
+      "pos": [
+        20.0,
+        47.5,
+        95.0
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "motion": "carriage",
+      "role": "Carriage joining pin base",
+      "actor": "K"
+    },
+    {
+      "record_id": "K C-shaft",
+      "part": "3737.dat",
+      "pos": [
+        0.0,
+        25.499999999999996,
+        80.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "C",
+      "role": "10L selector/control axle; see port coordinates",
+      "actor": "K"
+    },
+    {
+      "record_id": "K frame pin -28 24",
+      "part": "2780.dat",
+      "pos": [
+        -70.0,
+        70.0,
+        60.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin -28 40",
+      "part": "2780.dat",
+      "pos": [
+        -70.0,
+        70.0,
+        100.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin 26 24",
+      "part": "2780.dat",
+      "pos": [
+        65.0,
+        70.0,
+        60.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin 26 40",
+      "part": "2780.dat",
+      "pos": [
+        65.0,
+        70.0,
+        100.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin -8 8",
+      "part": "2780.dat",
+      "pos": [
+        -20.0,
+        70.0,
+        20.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin 8 8",
+      "part": "2780.dat",
+      "pos": [
+        20.0,
+        70.0,
+        20.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin -8 51",
+      "part": "2780.dat",
+      "pos": [
+        -20.0,
+        70.0,
+        127.5
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin 8 51",
+      "part": "2780.dat",
+      "pos": [
+        20.0,
+        70.0,
+        127.5
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin -28 8",
+      "part": "2780.dat",
+      "pos": [
+        -70.0,
+        70.0,
+        20.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin -28 16",
+      "part": "2780.dat",
+      "pos": [
+        -70.0,
+        70.0,
+        40.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin 36 8",
+      "part": "2780.dat",
+      "pos": [
+        90.0,
+        70.0,
+        20.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin 36 16",
+      "part": "2780.dat",
+      "pos": [
+        90.0,
+        70.0,
+        40.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin 36 43",
+      "part": "2780.dat",
+      "pos": [
+        90.0,
+        70.0,
+        107.5
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "K frame pin 36 51",
+      "part": "2780.dat",
+      "pos": [
+        90.0,
+        70.0,
+        127.5
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "color": 71,
+      "pos": [
+        -190.0,
+        37.96500000000001,
+        0.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32905.dat",
+      "group": "carriage-worm",
+      "role": "Worm axis X0,Y40; mesh origin corrected",
+      "record_id": "W U015",
+      "slice": "universal",
+      "motion": "carriage-worm",
+      "actor": "W"
+    },
+    {
+      "color": 72,
+      "pos": [
+        -190.0,
+        5.5,
+        0.0
+      ],
+      "matrix": [
+        0.9346365831114465,
+        -0.35560435530201295,
+        0.0,
+        0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "part": "10928.dat",
+      "group": "reaction-rotating",
+      "role": "Original reaction 8T driven by worm",
+      "record_id": "W U022",
+      "slice": "universal",
+      "motion": "reaction-rotating",
+      "actor": "W"
+    },
+    {
+      "part": "32123a.dat",
+      "pos": [
+        -135.0,
+        25.5,
+        0.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "input-rotating",
+      "role": "SharedSshaft thrust halfbush around front bearing; shaft itself is patch-owned.",
+      "color": 14,
+      "record_id": "W U185",
+      "slice": "universal",
+      "motion": "input-rotating",
+      "actor": "W"
+    },
+    {
+      "record_id": "W reaction-axle",
+      "part": "3706.dat",
+      "pos": [
+        -190.0,
+        5.5,
+        -6.000000000000014
+      ],
+      "matrix": [
+        0.0,
+        -0.35560435530201295,
+        -0.9346365831114465,
+        0.0,
+        0.9346365831114465,
+        -0.35560435530201295,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "W"
+    },
+    {
+      "record_id": "W reaction-retainer-14",
+      "part": "32123a.dat",
+      "pos": [
+        -190.0,
+        5.5,
+        50.499999999999986
+      ],
+      "matrix": [
+        -0.9346365831114465,
+        -0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "W"
+    },
+    {
+      "record_id": "W reaction-retainer-50",
+      "part": "32123a.dat",
+      "pos": [
+        -190.0,
+        5.5,
+        -62.5
+      ],
+      "matrix": [
+        -0.9346365831114465,
+        -0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "W"
+    },
+    {
+      "record_id": "W reaction-spacer-24",
+      "part": "3713.dat",
+      "pos": [
+        -190.0,
+        5.5,
+        20.0
+      ],
+      "matrix": [
+        -0.9346365831114465,
+        -0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "W"
+    },
+    {
+      "record_id": "W reaction-spacer-40",
+      "part": "3713.dat",
+      "pos": [
+        -190.0,
+        5.5,
+        -20.0
+      ],
+      "matrix": [
+        -0.9346365831114465,
+        -0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "reaction-rotating",
+      "actor": "W"
+    },
+    {
+      "record_id": "W pivot-axle-with-stop",
+      "part": "3706.dat",
+      "pos": [
+        -226.252311481466,
+        -8.154730469627976,
+        -6.000000000000014
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "motion": "fixed",
+      "actor": "W"
+    },
+    {
+      "color": 0,
+      "pos": [
+        -190.0,
+        25.5,
+        -20.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "part": "3737.dat",
+      "group": "carriage",
+      "role": "Fixed guide axle",
+      "record_id": "W U017",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "W"
+    },
+    {
+      "color": 4,
+      "pos": [
+        -270.0,
+        25.5,
+        -20.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "carriage",
+      "role": "Guide axle end retainer",
+      "record_id": "W U019",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "W"
+    },
+    {
+      "color": 4,
+      "pos": [
+        -105.0,
+        25.5,
+        -20.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "carriage",
+      "role": "Guide axle end retainer",
+      "record_id": "W U032",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "W"
+    },
+    {
+      "color": 0,
+      "pos": [
+        -190.0,
+        25.5,
+        20.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "part": "3737.dat",
+      "group": "carriage",
+      "role": "Second fixed guide axle",
+      "record_id": "W SECOND-GUIDE",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "W"
+    },
+    {
+      "color": 4,
+      "pos": [
+        -270.0,
+        25.5,
+        20.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "carriage",
+      "role": "Second guide retainer",
+      "record_id": "W SECOND-GUIDE-BUSH-R",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "W"
+    },
+    {
+      "color": 4,
+      "pos": [
+        -105.0,
+        25.5,
+        20.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "carriage",
+      "role": "Second guide retainer",
+      "record_id": "W SECOND-GUIDE-BUSH-L",
+      "slice": "universal",
+      "motion": "fixed",
+      "actor": "W"
+    },
+    {
+      "record_id": "W pivot-front-half-bush",
+      "part": "32123a.dat",
+      "pos": [
+        -226.252311481466,
+        -8.154730469627976,
+        50.499999999999986
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "fixed",
+      "role": "External pivot axle retainer",
+      "actor": "W"
+    },
+    {
+      "record_id": "W pivot-hub-rear-bush",
+      "part": "32123a.dat",
+      "pos": [
+        -226.252311481466,
+        -8.154730469627976,
+        -1.0000000000000142
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "fixed",
+      "role": "pivot-hub-rear-bush",
+      "actor": "W"
+    },
+    {
+      "record_id": "W pivot-rear-retainer",
+      "part": "32123a.dat",
+      "pos": [
+        -226.252311481466,
+        -8.154730469627976,
+        -62.5
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "fixed",
+      "role": "pivot-rear-retainer",
+      "actor": "W"
+    },
+    {
+      "record_id": "W reaction-rear-extra-half-bush",
+      "part": "32123a.dat",
+      "pos": [
+        -190.0,
+        5.5,
+        -35.0
+      ],
+      "matrix": [
+        -0.9346365831114465,
+        -0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "reaction-rotating",
+      "role": "reaction-rear-extra-half-bush",
+      "actor": "W"
+    },
+    {
+      "record_id": "W selector-right-retainer",
+      "part": "32123a.dat",
+      "pos": [
+        -270.0,
+        25.499999999999996,
+        0.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "motion": "C",
+      "role": "selector-right-retainer",
+      "actor": "W"
+    },
+    {
+      "record_id": "W Carriage joining pin top",
+      "part": "2780.dat",
+      "pos": [
+        -210.0,
+        47.5,
+        25.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "carriage",
+      "role": "Carriage joining pin top",
+      "actor": "W"
+    },
+    {
+      "record_id": "W Carriage joining pin base",
+      "part": "2780.dat",
+      "pos": [
+        -210.0,
+        47.5,
+        -15.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "carriage",
+      "role": "Carriage joining pin base",
+      "actor": "W"
+    },
+    {
+      "color": 14,
+      "pos": [
+        -105.0,
+        25.5,
+        0.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "input-rotating",
+      "role": "SharedSshaft thrust halfbush around front bearing; shaft itself is patch-owned.",
+      "record_id": "W U072",
+      "slice": "universal",
+      "motion": "input-rotating",
+      "actor": "W"
+    },
+    {
+      "record_id": "W C-shaft",
+      "part": "60485.dat",
+      "pos": [
+        -191.99999999999997,
+        25.499999999999996,
+        0.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "C",
+      "role": "9L offset write-control axle",
+      "actor": "W"
+    },
+    {
+      "record_id": "W frame pin -28 24",
+      "part": "2780.dat",
+      "pos": [
+        -120.0,
+        70.0,
+        20.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin -28 40",
+      "part": "2780.dat",
+      "pos": [
+        -120.0,
+        70.0,
+        -20.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin 26 24",
+      "part": "2780.dat",
+      "pos": [
+        -255.0,
+        70.0,
+        20.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin 26 40",
+      "part": "2780.dat",
+      "pos": [
+        -255.0,
+        70.0,
+        -20.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin -8 8",
+      "part": "2780.dat",
+      "pos": [
+        -170.0,
+        70.0,
+        60.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin 8 8",
+      "part": "2780.dat",
+      "pos": [
+        -210.0,
+        70.0,
+        60.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin -8 51",
+      "part": "2780.dat",
+      "pos": [
+        -170.0,
+        70.0,
+        -47.5
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin 8 51",
+      "part": "2780.dat",
+      "pos": [
+        -210.0,
+        70.0,
+        -47.5
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin -28 8",
+      "part": "2780.dat",
+      "pos": [
+        -120.0,
+        70.0,
+        60.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin -28 16",
+      "part": "2780.dat",
+      "pos": [
+        -120.0,
+        70.0,
+        40.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin 36 8",
+      "part": "2780.dat",
+      "pos": [
+        -280.0,
+        70.0,
+        60.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin 36 16",
+      "part": "2780.dat",
+      "pos": [
+        -280.0,
+        70.0,
+        40.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin 36 43",
+      "part": "2780.dat",
+      "pos": [
+        -280.0,
+        70.0,
+        -27.5
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W frame pin 36 51",
+      "part": "2780.dat",
+      "pos": [
+        -280.0,
+        70.0,
+        -47.5
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "color": 288,
+      "pos": [
+        -190.0,
+        25.5,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "26287.dat",
+      "group": "lower-original",
+      "record_id": "W L097",
+      "slice": "universal",
+      "motion": "O-route",
+      "actor": "W"
+    },
+    {
+      "color": 72,
+      "pos": [
+        -190.0,
+        25.5,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "18947.dat",
+      "group": "lower-ring",
+      "record_id": "W L099",
+      "slice": "universal",
+      "motion": "clutch-ring",
+      "actor": "W"
+    },
+    {
+      "color": 14,
+      "pos": [
+        -135.0,
+        25.5,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "lower-original",
+      "record_id": "W L105",
+      "slice": "universal",
+      "motion": "O-route",
+      "actor": "W"
+    },
+    {
+      "color": 14,
+      "pos": [
+        -244.99999000000003,
+        25.5,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "part": "32123a.dat",
+      "group": "lower-original",
+      "record_id": "W L069",
+      "slice": "universal",
+      "motion": "O-route",
+      "actor": "W"
+    },
+    {
+      "color": 4,
+      "pos": [
+        -229.99999000000003,
+        25.5,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "part": "18946.dat",
+      "group": "lower-original",
+      "record_id": "W L072",
+      "slice": "universal",
+      "motion": "A",
+      "role": "Selected when C is clockwise (0); A clutch gear",
+      "actor": "W"
+    },
+    {
+      "record_id": "W neutral spacer",
+      "part": "3713.dat",
+      "pos": [
+        -150.0,
+        25.499999999999996,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "actor": "W",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W O-shaft",
+      "part": "60485.dat",
+      "pos": [
+        -190.0,
+        25.499999999999996,
+        80.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "motion": "O",
+      "role": "9L clutch hub shaft",
+      "actor": "W"
+    },
+    {
+      "record_id": "W O-right",
+      "part": "32123a.dat",
+      "pos": [
+        -275.0,
+        25.499999999999996,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "motion": "O",
+      "role": "",
+      "actor": "W"
+    },
+    {
+      "record_id": "Shaft connector -40",
+      "part": "6538a.dat",
+      "pos": [
+        -100.0,
+        25.499999999999996,
+        80.0
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": "2L keyed connector; also outer bearing retainer"
+    },
+    {
+      "record_id": "W port gear",
+      "part": "94925.dat",
+      "pos": [
+        -230.0,
+        25.499999999999996,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        -0.19509032201612825,
+        0.9807852804032304,
+        0.0,
+        0.9807852804032304,
+        0.19509032201612825,
+        0.0
+      ],
+      "actor": "W",
+      "motion": "fixed",
+      "role": "",
+      "phase_deg": 11.25
+    },
+    {
+      "record_id": "W port shaft",
+      "part": "32073.dat",
+      "pos": [
+        -230.0,
+        25.499999999999996,
+        120.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9807852804032304,
+        0.19509032201612825,
+        0.0,
+        0.19509032201612825,
+        -0.9807852804032304
+      ],
+      "actor": "W",
+      "motion": "fixed",
+      "role": "D input gear shaft",
+      "phase_deg": 11.25
+    },
+    {
+      "record_id": "W port collar -82.0",
+      "part": "32123a.dat",
+      "pos": [
+        -185.0,
+        25.499999999999996,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        -0.19509032201612825,
+        0.9807852804032304,
+        0.0,
+        0.9807852804032304,
+        0.19509032201612825,
+        0.0
+      ],
+      "actor": "W",
+      "motion": "fixed",
+      "role": "",
+      "phase_deg": 11.25
+    },
+    {
+      "record_id": "W port collar -70.0",
+      "part": "32123a.dat",
+      "pos": [
+        -215.0,
+        25.499999999999996,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        -0.19509032201612825,
+        0.9807852804032304,
+        0.0,
+        0.9807852804032304,
+        0.19509032201612825,
+        0.0
+      ],
+      "actor": "W",
+      "motion": "fixed",
+      "role": "",
+      "phase_deg": 11.25
+    },
+    {
+      "record_id": "W port collar -58.0",
+      "part": "32123a.dat",
+      "pos": [
+        -245.0,
+        25.499999999999996,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        -0.19509032201612825,
+        0.9807852804032304,
+        0.0,
+        0.9807852804032304,
+        0.19509032201612825,
+        0.0
+      ],
+      "actor": "W",
+      "motion": "fixed",
+      "role": "",
+      "phase_deg": 11.25
+    },
+    {
+      "record_id": "W port collar -46.0",
+      "part": "32123a.dat",
+      "pos": [
+        -275.0,
+        25.499999999999996,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        -0.19509032201612825,
+        0.9807852804032304,
+        0.0,
+        0.9807852804032304,
+        0.19509032201612825,
+        0.0
+      ],
+      "actor": "W",
+      "motion": "fixed",
+      "role": "",
+      "phase_deg": 11.25
+    },
+    {
+      "record_id": "W left bearing mounting 16.0",
+      "part": "2780.dat",
+      "pos": [
+        -130.0,
+        70.0,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W left bearing mounting 32.0",
+      "part": "2780.dat",
+      "pos": [
+        -130.0,
+        70.0,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W right bearing mounting 16.0",
+      "part": "2780.dat",
+      "pos": [
+        -260.0,
+        70.0,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W right bearing mounting 32.0",
+      "part": "2780.dat",
+      "pos": [
+        -260.0,
+        70.0,
+        80.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W port bearing mounting -74.0",
+      "part": "2780.dat",
+      "pos": [
+        -205.0,
+        70.0,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "W port bearing mounting -66.0",
+      "part": "2780.dat",
+      "pos": [
+        -225.0,
+        70.0,
+        120.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "actor": "fixed",
+      "motion": "fixed",
+      "role": ""
+    },
+    {
+      "record_id": "HOLD cam follower",
+      "part": "2780.dat",
+      "pos": [
+        -17.5,
+        -55.0,
+        45.0
+      ],
+      "matrix": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "actor": "lock",
+      "motion": "bolt",
+      "role": ""
+    },
+    {
+      "record_id": "Write cam side pin",
+      "part": "2780.dat",
+      "pos": [
+        -151.0,
+        -46.5,
+        -5.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "actor": "link",
+      "motion": "carriage-global",
+      "role": ""
+    }
+  ],
+  "prints": [
+    {
+      "id": "K Front actuator bridge",
+      "actor": "K",
+      "motion": "fixed",
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "K Front actuator bridge.stl"
+    },
+    {
+      "id": "K Front bottom guide",
+      "actor": "K",
+      "motion": "fixed",
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "K Front bottom guide.stl"
+    },
+    {
+      "id": "K Bearing wall X26",
+      "actor": "K",
+      "motion": "fixed",
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "K Bearing wall X26.stl"
+    },
+    {
+      "id": "K Bearing wall X-28 three holes",
+      "actor": "K",
+      "motion": "fixed",
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "K Bearing wall X-28 three holes.stl"
+    },
+    {
+      "id": "K Left carriage half",
+      "actor": "K",
+      "motion": "carriage",
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "K Left carriage half.stl"
+    },
+    {
+      "id": "K Right carriage half",
+      "actor": "K",
+      "motion": "carriage",
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "K Right carriage half.stl"
+    },
+    {
+      "id": "K Direct lever and band cleat",
+      "actor": "K",
+      "motion": "rocker",
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "K Direct lever and band cleat.stl"
+    },
+    {
+      "id": "K Rear bridge and band anchor",
+      "actor": "K",
+      "motion": "fixed",
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "K Rear bridge and band anchor.stl"
+    },
+    {
+      "id": "W Front actuator bridge",
+      "actor": "W",
+      "motion": "fixed",
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "W Front actuator bridge.stl"
+    },
+    {
+      "id": "W Front bottom guide",
+      "actor": "W",
+      "motion": "fixed",
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "W Front bottom guide.stl"
+    },
+    {
+      "id": "W Bearing wall X26",
+      "actor": "W",
+      "motion": "fixed",
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "W Bearing wall X26.stl"
+    },
+    {
+      "id": "W Bearing wall X-28 three holes",
+      "actor": "W",
+      "motion": "fixed",
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "W Bearing wall X-28 three holes.stl"
+    },
+    {
+      "id": "W Left carriage half",
+      "actor": "W",
+      "motion": "carriage",
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "W Left carriage half.stl"
+    },
+    {
+      "id": "W Right carriage half",
+      "actor": "W",
+      "motion": "carriage",
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "W Right carriage half.stl"
+    },
+    {
+      "id": "W Direct lever and band cleat",
+      "actor": "W",
+      "motion": "rocker",
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "W Direct lever and band cleat.stl"
+    },
+    {
+      "id": "W Rear bridge and band anchor",
+      "actor": "W",
+      "motion": "fixed",
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "W Rear bridge and band anchor.stl"
+    },
+    {
+      "id": "W left bearing",
+      "actor": "W",
+      "motion": "fixed",
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bores": [
+        [
+          -52.0,
+          10.2,
+          32.0
+        ]
+      ],
+      "sliding": [],
+      "path": "W left bearing.stl"
+    },
+    {
+      "id": "W right bearing",
+      "actor": "W",
+      "motion": "fixed",
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bores": [
+        [
+          -104.0,
+          10.2,
+          32.0
+        ],
+        [
+          -104.0,
+          10.2,
+          48.0
+        ]
+      ],
+      "sliding": [],
+      "path": "W right bearing.stl"
+    },
+    {
+      "id": "W port bearing",
+      "actor": "W",
+      "motion": "fixed",
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bores": [
+        [
+          -80.0,
+          10.2,
+          48.0
+        ]
+      ],
+      "sliding": [],
+      "path": "W port bearing.stl"
+    },
+    {
+      "id": "HOLD side bolt",
+      "actor": "lock",
+      "motion": "bolt",
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "bores": [],
+      "sliding": [
+        "X and Y guide faces are vertical when nose Z32 is on bed; nose has pocket-floor clearance"
+      ],
+      "path": "HOLD side bolt.stl"
+    },
+    {
+      "id": "Write diagonal cam",
+      "actor": "link",
+      "motion": "carriage-global",
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "bores": [],
+      "sliding": [
+        "Cam slot walls print vertically; no axle bores"
+      ],
+      "path": "Write diagonal cam.stl"
+    },
+    {
+      "id": "Base",
+      "actor": "fixed",
+      "motion": "fixed",
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "bores": [],
+      "sliding": [],
+      "path": "Base.stl"
+    }
+  ],
+  "actors": {
+    "K": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "W": [
+      -76.0,
+      0.0,
+      32.0
+    ]
+  },
+  "mounts": [
+    [
+      -28.0,
+      24.0
+    ],
+    [
+      -28.0,
+      40.0
+    ],
+    [
+      26.0,
+      24.0
+    ],
+    [
+      26.0,
+      40.0
+    ],
+    [
+      -8.0,
+      8.0
+    ],
+    [
+      8.0,
+      8.0
+    ],
+    [
+      -8.0,
+      51.0
+    ],
+    [
+      8.0,
+      51.0
+    ],
+    [
+      -28.0,
+      8.0
+    ],
+    [
+      -28.0,
+      16.0
+    ],
+    [
+      36.0,
+      8.0
+    ],
+    [
+      36.0,
+      16.0
+    ],
+    [
+      36.0,
+      43.0
+    ],
+    [
+      36.0,
+      51.0
+    ],
+    [
+      -48.0,
+      8.0
+    ],
+    [
+      -48.0,
+      -8.0
+    ],
+    [
+      -102.0,
+      8.0
+    ],
+    [
+      -102.0,
+      -8.0
+    ],
+    [
+      -68.0,
+      24.0
+    ],
+    [
+      -84.0,
+      24.0
+    ],
+    [
+      -68.0,
+      -19.0
+    ],
+    [
+      -84.0,
+      -19.0
+    ],
+    [
+      -48.0,
+      24.0
+    ],
+    [
+      -48.0,
+      16.0
+    ],
+    [
+      -112.0,
+      24.0
+    ],
+    [
+      -112.0,
+      16.0
+    ],
+    [
+      -112.0,
+      -11.0
+    ],
+    [
+      -112.0,
+      -19.0
+    ],
+    [
+      -52.0,
+      48.0
+    ],
+    [
+      -52.0,
+      32.0
+    ],
+    [
+      -104.0,
+      48.0
+    ],
+    [
+      -104.0,
+      32.0
+    ],
+    [
+      -82.0,
+      48.0
+    ],
+    [
+      -90.0,
+      48.0
+    ]
+  ],
+  "hold": {
+    "bolt_axis": "Z",
+    "locked_tip_Z": 32,
+    "lift_mm": 5.2,
+    "hold_dwell_mm": 2.5,
+    "release_complete_W_q": 0.5,
+    "W_write_endpoint": 4.325,
+    "W_hold_endpoint": -4.35,
+    "Q_is_inverted": true,
+    "return_band": "Symmetric loop from moving saddle to two rear-bridge ears"
+  },
+  "stroke": [
+    -4.35,
+    4.325
+  ],
+  "base_mm": [
+    162.0,
+    82.0,
+    8.2
+  ],
+  "ports": {
+    "CAM CONTROL": [
+      -112.8,
+      10.2,
+      0
+    ],
+    "TEST DRIVE": [
+      -112,
+      10.2,
+      48
+    ]
+  },
+  "operation": "W retracts lock before its clutch drives K from TEST DRIVE. K has no output clutch or power gear train."
+}

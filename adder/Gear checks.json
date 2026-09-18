@@ -1,0 +1,130 @@
+{
+  "method": "Projected native tooth silhouettes over a full revolution; shared compound gears use one phase offset. Not loaded contact simulation.",
+  "phases_degrees": {
+    "X B direct": 0,
+    "X B reverse drive": 0,
+    "X L072": 11.25,
+    "X compound back": 12.937499999999998,
+    "X compound front": 12.937499999999998,
+    "X L102": 9.5625,
+    "P direct input": 11.25,
+    "P reversing input": 11.25,
+    "C inverted Bprime input": 11.25,
+    "P L072": 22.5,
+    "P compound back": 35.43749999999999,
+    "P compound front": 35.43749999999999,
+    "P L102": 20.8125,
+    "C L072": 22.5,
+    "C A reversing drive": 0,
+    "C A compound back": 12.937499999999998,
+    "C A compound front": 12.937499999999998,
+    "C L102": 9.5625,
+    "S A reversing drive": 0,
+    "S A compound back": 12.937499999999998,
+    "S A compound front": 12.937499999999998,
+    "S L072": 9.5625,
+    "S A direct": 0,
+    "S L102": 11.25
+  },
+  "ratios": {
+    "X B direct": 1,
+    "X B reverse drive": 1,
+    "X L072": -1,
+    "X compound back": -2,
+    "X compound front": -2,
+    "X L102": 1,
+    "P direct input": -1,
+    "P reversing input": -1,
+    "C inverted Bprime input": -1,
+    "P L072": 1,
+    "P compound back": 2,
+    "P compound front": 2,
+    "P L102": -1,
+    "C L072": 1,
+    "C A reversing drive": 1,
+    "C A compound back": -2,
+    "C A compound front": -2,
+    "C L102": 1,
+    "S A reversing drive": 1,
+    "S A compound back": -2,
+    "S A compound front": -2,
+    "S L072": 1,
+    "S A direct": 1,
+    "S L102": -1
+  },
+  "steps": 144,
+  "pairs": [
+    {
+      "a": "X B direct",
+      "b": "X L072",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "X B reverse drive",
+      "b": "X compound back",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "X compound front",
+      "b": "X L102",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "P direct input",
+      "b": "P L072",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "P reversing input",
+      "b": "P compound back",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "P compound front",
+      "b": "P L102",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "C inverted Bprime input",
+      "b": "C L072",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "C A reversing drive",
+      "b": "C A compound back",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "C A compound front",
+      "b": "C L102",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "S A reversing drive",
+      "b": "S A compound back",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "S A compound front",
+      "b": "S L072",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    },
+    {
+      "a": "S A direct",
+      "b": "S L102",
+      "max_outline_overlap_mm2": 0.0,
+      "input_angle": 357.5
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "method": "Carriages at both travel ends and centre against fixed prints and conservative native envelopes; pairwise independent carriage endpoints. Own clutch rings, worm meshes and pins excluded. Not full contact simulation.",
+  "hits": [
+    [
+      "X Left carriage half",
+      4.325,
+      "X pivot-axle-with-stop",
+      3.379
+    ],
+    [
+      "P Left carriage half",
+      4.325,
+      "P pivot-axle-with-stop",
+      3.379
+    ],
+    [
+      "C Left carriage half",
+      4.325,
+      "C pivot-axle-with-stop",
+      3.379
+    ]
+  ]
+}

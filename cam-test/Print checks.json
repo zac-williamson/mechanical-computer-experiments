@@ -1,0 +1,925 @@
+{
+  "parts": [
+    {
+      "part": "K Front actuator bridge",
+      "file": "Print parts/K Front actuator bridge.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        71.5999984741211,
+        61.29999923706055,
+        15.59999942779541
+      ],
+      "bed_contact_area_mm2": 1165.7234040602489,
+      "bearing_entrance_heights_mm": [
+        -7.629394538355427e-07,
+        -7.629394538355427e-07
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        31.799999237060547,
+        28.0,
+        19.799999237060547
+      ],
+      "notes": []
+    },
+    {
+      "part": "K Front bottom guide",
+      "file": "Print parts/K Front bottom guide.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        24.0,
+        8.0,
+        11.800000190734863
+      ],
+      "bed_contact_area_mm2": 165.60000228881836,
+      "bearing_entrance_heights_mm": [],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        12.0,
+        -20.0,
+        -4.199999809265137
+      ],
+      "notes": []
+    },
+    {
+      "part": "K Bearing wall X26",
+      "file": "Print parts/K Bearing wall X26.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        23.599998474121094,
+        21.59999990463257,
+        7.599998474121094
+      ],
+      "bed_contact_area_mm2": 411.6982586171962,
+      "bearing_entrance_heights_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        -20.200000762939453,
+        28.0,
+        -22.200000762939453
+      ],
+      "notes": []
+    },
+    {
+      "part": "K Bearing wall X-28 three holes",
+      "file": "Print parts/K Bearing wall X-28 three holes.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        23.599998474121094,
+        21.59999990463257,
+        7.599998474121094
+      ],
+      "bed_contact_area_mm2": 411.5764461777144,
+      "bearing_entrance_heights_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        -20.200000762939453,
+        28.0,
+        31.799999237060547
+      ],
+      "notes": []
+    },
+    {
+      "part": "K Left carriage half",
+      "file": "Print parts/K Left carriage half.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        42.758699893951416,
+        49.5,
+        41.60000038146973
+      ],
+      "bed_contact_area_mm2": 790.2567502228176,
+      "bearing_entrance_heights_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        -4.241300106048584,
+        25.5,
+        15.600000381469727
+      ],
+      "notes": []
+    },
+    {
+      "part": "K Right carriage half",
+      "file": "Print parts/K Right carriage half.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        35.0,
+        18.399999141693115,
+        7.600000381469727
+      ],
+      "bed_contact_area_mm2": 465.537485351535,
+      "bearing_entrance_heights_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        -12.0,
+        -5.400000095367432,
+        15.600000381469727
+      ],
+      "notes": []
+    },
+    {
+      "part": "K Direct lever and band cleat",
+      "file": "Print parts/K Direct lever and band cleat.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        21.97653079032898,
+        12.103710174560547,
+        27.610000610351562
+      ],
+      "bed_contact_area_mm2": 135.51485465091108,
+      "bearing_entrance_heights_mm": [
+        -7.629394538355427e-07
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        -2.850939989089966,
+        9.061650276184082,
+        -20.200000762939453
+      ],
+      "notes": []
+    },
+    {
+      "part": "K Rear bridge and band anchor",
+      "file": "Print parts/K Rear bridge and band anchor.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        61.160560607910156,
+        57.0,
+        17.799999237060547
+      ],
+      "bed_contact_area_mm2": 1574.1477927120966,
+      "bearing_entrance_heights_mm": [
+        -7.629394502828291e-07,
+        -7.629394502828291e-07
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        21.0,
+        28.0,
+        54.79999923706055
+      ],
+      "notes": []
+    },
+    {
+      "part": "W Front actuator bridge",
+      "file": "Print parts/W Front actuator bridge.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        71.60000228881836,
+        40.0,
+        15.59999942779541
+      ],
+      "bed_contact_area_mm2": 1041.6836938559745,
+      "bearing_entrance_heights_mm": [
+        1.9073486257070726e-07,
+        1.9073486257070726e-07
+      ],
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        -44.20000076293945,
+        28.0,
+        -12.199999809265137
+      ],
+      "notes": []
+    },
+    {
+      "part": "W Front bottom guide",
+      "file": "Print parts/W Front bottom guide.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        24.0,
+        8.0,
+        11.799999237060547
+      ],
+      "bed_contact_area_mm2": 165.60003662109375,
+      "bearing_entrance_heights_mm": [],
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "translation": [
+        -64.0,
+        -20.0,
+        27.799999237060547
+      ],
+      "notes": []
+    },
+    {
+      "part": "W Bearing wall X26",
+      "file": "Print parts/W Bearing wall X26.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        23.600000381469727,
+        21.59999990463257,
+        7.600006103515625
+      ],
+      "bed_contact_area_mm2": 411.6983273971265,
+      "bearing_entrance_heights_mm": [
+        3.814697265625e-06,
+        3.814697265625e-06,
+        3.814697265625e-06
+      ],
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        11.800000190734863,
+        28.0,
+        -98.19999694824219
+      ],
+      "notes": []
+    },
+    {
+      "part": "W Bearing wall X-28 three holes",
+      "file": "Print parts/W Bearing wall X-28 three holes.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        23.600000381469727,
+        21.59999990463257,
+        7.599998474121094
+      ],
+      "bed_contact_area_mm2": 411.5765173651947,
+      "bearing_entrance_heights_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        11.800000190734863,
+        28.0,
+        -44.20000076293945
+      ],
+      "notes": []
+    },
+    {
+      "part": "W Left carriage half",
+      "file": "Print parts/W Left carriage half.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        42.75869941711426,
+        49.5,
+        41.599998474121094
+      ],
+      "bed_contact_area_mm2": 756.0997534024636,
+      "bearing_entrance_heights_mm": [
+        -1.9073486328125e-06,
+        -1.9073486328125e-06,
+        -1.9073486328125e-06
+      ],
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        27.758699417114258,
+        25.5,
+        -60.400001525878906
+      ],
+      "notes": []
+    },
+    {
+      "part": "W Right carriage half",
+      "file": "Print parts/W Right carriage half.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        35.0,
+        18.399999141693115,
+        7.599998474121094
+      ],
+      "bed_contact_area_mm2": 465.5375000205536,
+      "bearing_entrance_heights_mm": [
+        -1.9073486328125e-06,
+        -1.9073486328125e-06,
+        -1.9073486328125e-06
+      ],
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        20.0,
+        -5.400000095367432,
+        91.5999984741211
+      ],
+      "notes": []
+    },
+    {
+      "part": "W Direct lever and band cleat",
+      "file": "Print parts/W Direct lever and band cleat.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        21.976531982421875,
+        12.103710174560547,
+        27.610000610351562
+      ],
+      "bed_contact_area_mm2": 135.5148560400023,
+      "bearing_entrance_heights_mm": [
+        1.9073486257070726e-07
+      ],
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "translation": [
+        -78.85093688964844,
+        9.061650276184082,
+        11.800000190734863
+      ],
+      "notes": []
+    },
+    {
+      "part": "W Rear bridge and band anchor",
+      "file": "Print parts/W Rear bridge and band anchor.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        52.160560607910156,
+        52.0,
+        15.59999942779541
+      ],
+      "bed_contact_area_mm2": 1479.9478671513348,
+      "bearing_entrance_heights_mm": [
+        -7.629394502828291e-07,
+        -7.629394502828291e-07
+      ],
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        -64.0,
+        28.0,
+        22.799999237060547
+      ],
+      "notes": []
+    },
+    {
+      "part": "W left bearing",
+      "file": "Print parts/W left bearing.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        24.299999237060547,
+        22.09999990463257,
+        7.599998474121094
+      ],
+      "bed_contact_area_mm2": 283.25097127865274,
+      "bearing_entrance_heights_mm": [
+        0.0
+      ],
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        52.0,
+        28.0,
+        -48.20000076293945
+      ],
+      "notes": []
+    },
+    {
+      "part": "W right bearing",
+      "file": "Print parts/W right bearing.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        24.599998474121094,
+        22.09999990463257,
+        7.600006103515625
+      ],
+      "bed_contact_area_mm2": 376.90193927782866,
+      "bearing_entrance_heights_mm": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        52.29999923706055,
+        28.0,
+        -100.19999694824219
+      ],
+      "notes": []
+    },
+    {
+      "part": "W port bearing",
+      "file": "Print parts/W port bearing.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        11.0,
+        22.09999990463257,
+        19.300003051757812
+      ],
+      "bed_contact_area_mm2": 179.25097410269154,
+      "bearing_entrance_heights_mm": [
+        0.0
+      ],
+      "rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        53.5,
+        28.0,
+        -76.19999694824219
+      ],
+      "notes": []
+    },
+    {
+      "part": "HOLD side bolt",
+      "file": "Print parts/HOLD side bolt.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        12.0,
+        15.5,
+        20.0
+      ],
+      "bed_contact_area_mm2": 28.800003051757812,
+      "bearing_entrance_heights_mm": [],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        13.0,
+        -14.0,
+        32.0
+      ],
+      "notes": [
+        "X and Y guide faces are vertical when nose Z32 is on bed; nose has pocket-floor clearance"
+      ]
+    },
+    {
+      "part": "Write diagonal cam",
+      "file": "Print parts/Write diagonal cam.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        64.4000015258789,
+        28.199999809265137,
+        16.800000190734863
+      ],
+      "bed_contact_area_mm2": 297.6551595913643,
+      "bearing_entrance_heights_mm": [],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "translation": [
+        60.400001525878906,
+        22.0,
+        31.0
+      ],
+      "notes": [
+        "Cam slot walls print vertically; no axle bores"
+      ]
+    },
+    {
+      "part": "Base",
+      "file": "Print parts/Base.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "shells": 1,
+      "size_mm": [
+        162.0,
+        82.0,
+        8.200000762939453
+      ],
+      "bed_contact_area_mm2": 12638.641481439758,
+      "bearing_entrance_heights_mm": [],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "translation": [
+        119.0,
+        25.0,
+        36.20000076293945
+      ],
+      "notes": []
+    }
+  ],
+  "plates": [
+    {
+      "file": "Print plate 1.stl",
+      "parts": [
+        "Base"
+      ],
+      "size_mm": [
+        162.0,
+        82.0,
+        8.200000762939453
+      ],
+      "minimum_rectangular_gap_mm": null
+    },
+    {
+      "file": "Print plate 2.stl",
+      "parts": [
+        "K Front actuator bridge",
+        "K Rear bridge and band anchor",
+        "W Front actuator bridge",
+        "W Rear bridge and band anchor",
+        "K Left carriage half",
+        "W Left carriage half",
+        "Write diagonal cam",
+        "Bearing fit coupon",
+        "K Right carriage half",
+        "W Right carriage half",
+        "W right bearing",
+        "W left bearing",
+        "W Bearing wall X26",
+        "W Bearing wall X-28 three holes",
+        "K Bearing wall X26",
+        "K Bearing wall X-28 three holes",
+        "W Direct lever and band cleat",
+        "K Direct lever and band cleat",
+        "W port bearing",
+        "K Front bottom guide",
+        "W Front bottom guide",
+        "HOLD side bolt"
+      ],
+      "size_mm": [
+        241.51925897598267,
+        155.51925992965698,
+        41.60000038146973
+      ],
+      "minimum_rectangular_gap_mm": 6
+    }
+  ],
+  "coupon": "Separate fit coupon; three bores marked with 1/2/3 notches = 5.2/5.3/5.4 mm"
+}

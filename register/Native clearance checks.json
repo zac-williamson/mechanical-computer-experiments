@@ -1,7 +1,0 @@
-{
-  "states": 24,
-  "pairs": 587,
-  "tolerance_mm": 0.08,
-  "method": "Native vertices and face centres inside printed meshes; not a complete continuous collision proof",
-  "worst": {}
-}

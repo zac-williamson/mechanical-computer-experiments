@@ -1,5 +1,5 @@
 {
-  "name": "Mechanical multiplexer",
+  "name": "Multiplexer reliability prototype",
   "records": [
     {
       "color": 71,
@@ -34,11 +34,11 @@
         80.0
       ],
       "matrix": [
-        -0.9238795325112867,
-        0.3826834323650898,
+        -0.9346365831114465,
+        0.35560435530201295,
         0.0,
-        0.3826834323650898,
-        0.9238795325112867,
+        0.35560435530201295,
+        0.9346365831114465,
         0.0,
         0.0,
         0.0,
@@ -1048,15 +1048,15 @@
         85.99999999999999
       ],
       "matrix": [
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        -1,
-        0,
-        0
+        0.0,
+        0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.9346365831114465,
+        -0.35560435530201295,
+        -1.0,
+        0.0,
+        0.0
       ],
       "motion": "reaction-rotating"
     },
@@ -1069,11 +1069,11 @@
         29.5
       ],
       "matrix": [
-        1.0,
+        0.9346365831114465,
+        0.35560435530201295,
         0.0,
-        0.0,
-        0.0,
-        1.0,
+        -0.35560435530201295,
+        0.9346365831114465,
         0.0,
         0.0,
         0.0,
@@ -1090,11 +1090,11 @@
         142.5
       ],
       "matrix": [
-        1.0,
+        0.9346365831114465,
+        0.35560435530201295,
         0.0,
-        0.0,
-        0.0,
-        1.0,
+        -0.35560435530201295,
+        0.9346365831114465,
         0.0,
         0.0,
         0.0,
@@ -1111,11 +1111,11 @@
         60.0
       ],
       "matrix": [
-        1.0,
+        0.9346365831114465,
+        0.35560435530201295,
         0.0,
-        0.0,
-        0.0,
-        1.0,
+        -0.35560435530201295,
+        0.9346365831114465,
         0.0,
         0.0,
         0.0,
@@ -1132,11 +1132,11 @@
         100.0
       ],
       "matrix": [
-        1.0,
+        0.9346365831114465,
+        0.35560435530201295,
         0.0,
-        0.0,
-        0.0,
-        1.0,
+        -0.35560435530201295,
+        0.9346365831114465,
         0.0,
         0.0,
         0.0,
@@ -1514,33 +1514,12 @@
       "role": "Vertical pin for separate guide or idler bearing"
     },
     {
-      "record_id": "pivot-spacer-22",
-      "part": "32123a.dat",
-      "pos": [
-        36.252311481465995,
-        -8.154730469627976,
-        55.0
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "motion": "fixed"
-    },
-    {
       "record_id": "pivot-hub-rear-bush",
       "part": "32123a.dat",
       "pos": [
         36.252311481465995,
         -8.154730469627976,
-        115.0
+        80.99999999999999
       ],
       "matrix": [
         1,
@@ -1587,15 +1566,15 @@
         115.0
       ],
       "matrix": [
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1
+        0.9346365831114465,
+        0.35560435530201295,
+        0.0,
+        -0.35560435530201295,
+        0.9346365831114465,
+        0.0,
+        0.0,
+        0.0,
+        1.0
       ],
       "motion": "reaction-rotating",
       "role": "reaction-rear-extra-half-bush"
@@ -1627,8 +1606,8 @@
       "part": "2780.dat",
       "pos": [
         20.0,
-        -46.5,
-        85.0
+        47.5,
+        55.0
       ],
       "matrix": [
         1,
@@ -1649,7 +1628,7 @@
       "part": "2780.dat",
       "pos": [
         20.0,
-        48.49999999999999,
+        47.5,
         95.0
       ],
       "matrix": [
@@ -1960,5 +1939,77 @@
     -4.4,
     4.4
   ],
-  "status": "Geometric prototype; physical fit, loaded operation and slicing require validation."
+  "status": "Deeper tooth prototype; physical validation required",
+  "redesign": {
+    "stop_working_corner_radius_mm": 1.5,
+    "teeth": 2,
+    "pivot_journal_length_mm": 10.0,
+    "pivot": [
+      14.500924592586399,
+      -3.261892187851191
+    ],
+    "lever_band_anchor": [
+      21.987468724068282,
+      -6.08176044140031,
+      45.5
+    ],
+    "fixed_band_anchor": [
+      36.96055698703205,
+      -11.721496948498547,
+      45.5
+    ],
+    "joint_pins": [
+      [
+        8,
+        19,
+        22
+      ],
+      [
+        8,
+        19,
+        38
+      ]
+    ],
+    "collar_relief_length_mm": 2.0,
+    "collar_relief_radius_mm": 3.45,
+    "gear_clearance_radius_mm": 6.1,
+    "gear_clearance_travel_mm": [
+      -4.5,
+      4.5
+    ],
+    "contact_pad_axial_overlap_mm": 6.4,
+    "stops": {
+      "el": 9.1083984375,
+      "er": 19.9693603515625,
+      "lb": -3.7945074659957116,
+      "rb": -9.08176044140031
+    },
+    "physical_validation": false,
+    "revision": "Deeper working tooth flanks with swept release relief",
+    "contact_depth_example_mm": {
+      "previous": 0.462,
+      "revised": 0.777,
+      "lever_angle_degrees": 3.1
+    },
+    "small_carriage_outer_face_x_mm": 15.6,
+    "small_carriage_print_bed_face": "Outer axle-bearing face, X=15.6",
+    "small_carriage_lip_removed_mm": 0.8,
+    "bearing_wall_positions_unchanged": true,
+    "base_lip": {
+      "x_extent_mm": [
+        -15.6,
+        15.6
+      ],
+      "bed_end_bevel_axial_length_mm": 0.4,
+      "bed_end_running_surface_relief_mm": 0.3,
+      "bottom_guides_unchanged": true
+    },
+    "bridge_anchor_attachment": {
+      "bridge_face_z_mm": 48.6,
+      "base_radius_mm": 2.5,
+      "shoulder_radius_mm": 3.2,
+      "taper_length_mm": 2.02,
+      "anchor_position_unchanged": true
+    }
+  }
 }

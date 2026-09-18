@@ -1,349 +1,4501 @@
 {
-  "status": "Geometric prototype; not physically qualified",
-  "printed_component_count": 13,
-  "motion": {
-    "pose_samples": 1800,
-    "inherited_motion_samples": 1800,
-    "hits": [],
-    "scope": "Static printed-part intersections; all 1,800 inherited motion poses for printed parts; native hardware vertex and face-centre penetration samples at reference pose (0.08 mm threshold). Intended pin press fits excluded."
-  },
-  "carriage_print_faces": {
-    "Left carriage half": {
-      "assembly_x_print_face_mm": -15.6,
-      "bearing_wall_material_on_bed_mm2": 221.93622493897738,
-      "three_axle_openings_reach_bed": true,
-      "axle_axis_is_print_vertical": true
-    },
-    "Right carriage half": {
-      "assembly_x_print_face_mm": 8,
-      "bearing_wall_material_on_bed_mm2": 114.16292034693903,
-      "three_axle_openings_reach_bed": true,
-      "axle_axis_is_print_vertical": true
-    },
-    "joints": {
-      "LEGO_friction_pin_count": 2,
-      "centres_mm": [
-        [
-          8,
-          -18.6,
-          34
-        ],
-        [
-          8,
-          19.4,
-          38
-        ]
+  "joint": [
+    {
+      "pin": [
+        8,
+        19,
+        22
       ],
-      "split_plane_x_mm": 8,
-      "shoe_retained_by_left_part": true,
-      "scope": "Bed-contact bearing-wall area, open bore entrances and pin-socket clearance. Non-bearing overhangs still require slicer inspection."
-    }
-  },
-  "base_and_bearings": {
-    "bearing_bores_preserved": true,
-    "A-shaft": {
-      "part": "3708.dat",
-      "x_span_mm": [
-        -48.0,
-        48.0
-      ]
-    },
-    "B-shaft": {
-      "part": "3706.dat",
-      "x_span_mm": [
-        -47.999996948242185,
-        -7.629394502828291e-07
-      ]
-    },
-    "orange_green_input_ends_aligned": true,
-    "base": {
-      "size_mm": [
-        80,
-        8.2,
-        116
+      "actual_collar_overlap_mm3": [
+        0.0,
+        0.0
       ],
-      "pin_checks": [
-        {
-          "id": "FRAME-PIN-1",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-2",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-3",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-4",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-5",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-6",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-7",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-8",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-9",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "FRAME-PIN-10",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "ADDED-PIN-24-24",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "BOTTOM-PIN-8--28",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "BOTTOM-PIN-8--12",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "BOTTOM-PIN--8-8",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "BOTTOM-PIN-8-8",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "BOTTOM-PIN--8-51",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "BOTTOM-PIN-8-51",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "Split wall pin -12",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "Split wall pin 24",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "Compact bridge pin front -28 8",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "Compact bridge pin front -28 16",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "Compact bridge pin front 36 8",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "Compact bridge pin front 36 16",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "Compact bridge pin rear 36 43",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        },
-        {
-          "id": "Compact bridge pin rear 36 51",
-          "underside_recess_mm": 0.20000000000000284,
-          "through_hole": true
-        }
+      "expanded_collar_overlap_mm3": [
+        0.0,
+        0.0
       ]
     },
-    "all_fixed_printed_supports_within_base_x": true
-  },
-  "exports": [
     {
-      "file": "Base.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Base - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X-4.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X-4 - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X28.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X28 - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Front actuator bridge.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Front actuator bridge - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Rear bridge and band anchor.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Rear bridge and band anchor - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Direct lever and band cleat.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Direct lever and band cleat - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "A idler bearing.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "A idler bearing - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Front bottom guide.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Front bottom guide - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Left carriage half.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Left carriage half - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Right carriage half.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Right carriage half - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X26.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X26 - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X-28 four holes.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X-28 four holes - print.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X-28 three holes.stl",
-      "watertight": true,
-      "shells": 1
-    },
-    {
-      "file": "Bearing wall X-28 three holes - print.stl",
-      "watertight": true,
-      "shells": 1
+      "pin": [
+        8,
+        19,
+        38
+      ],
+      "actual_collar_overlap_mm3": [
+        0.0,
+        0.0
+      ],
+      "expanded_collar_overlap_mm3": [
+        0.0,
+        0.0
+      ]
     }
   ],
+  "halves_overlap_mm3": -4.170263166028746e-15,
+  "worm_envelope_overlap_mm3": [
+    0.0,
+    0.0
+  ],
+  "frame_collision_samples": 720,
+  "frame_collisions": [],
+  "contact_checks": [
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        -0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        -0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": -4.35,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 4.325,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": -1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.6,
+        0.0
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.0,
+        -0.6
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        0.424,
+        -0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    },
+    {
+      "pad_offset": [
+        0.25,
+        0.25
+      ],
+      "gear_offset": [
+        -0.424,
+        0.424
+      ],
+      "q": 0,
+      "direction": 1,
+      "pass_check": true
+    }
+  ],
+  "tooth_checks": [
+    {
+      "gear_offset_local_mm": [
+        0,
+        0
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    },
+    {
+      "gear_offset_local_mm": [
+        0.6,
+        0
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    },
+    {
+      "gear_offset_local_mm": [
+        -0.6,
+        0
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    },
+    {
+      "gear_offset_local_mm": [
+        0,
+        0.6
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    },
+    {
+      "gear_offset_local_mm": [
+        0,
+        -0.6
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    },
+    {
+      "gear_offset_local_mm": [
+        0.424,
+        0.424
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    },
+    {
+      "gear_offset_local_mm": [
+        -0.424,
+        -0.424
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    },
+    {
+      "gear_offset_local_mm": [
+        0.424,
+        -0.424
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    },
+    {
+      "gear_offset_local_mm": [
+        -0.424,
+        0.424
+      ],
+      "free_overrun": [
+        true,
+        true
+      ],
+      "blocked_with_lever_restrained": [
+        true,
+        true
+      ]
+    }
+  ],
+  "physical_validation": false,
   "limitations": [
-    "Prescribed motion does not simulate forces, friction, flex or band deformation.",
-    "Slicer supports are required for some non-bearing overhangs; no G-code supplied.",
-    "Pin fits, base stiffness and loaded switching require physical tests."
+    "Quasistatic, frictionless, rigid contact approximation.",
+    "Gear angle step 0.5 degrees and lever step 0.2 degrees for offset checks.",
+    "Nominal endpoint animation uses 0.25 degree gear / 0.1 degree lever steps.",
+    "Does not model elastic deformation, friction, impact, band stiffness or fatigue.",
+    "Sampled offsets are not proof of every manufacturing-error combination."
   ],
-  "selector_axle": {
-    "part": "23948.dat",
-    "length_studs": 11,
-    "bounds_mm": [
+  "stop_working_corner_radius_mm": 1.5,
+  "nominal_full_cycle": {
+    "failures": [],
+    "frames": 3660,
+    "calculated_release_positions_mm": [
+      -3.912954,
+      3.714135
+    ]
+  },
+  "endurance_validated": false,
+  "lever_frame_check": "No intersections above 0.005 mm3 in 115 sampled lever poses against carriage, fixed frame and bush envelopes.",
+  "small_carriage_correction": {
+    "lip_removed_mm": 0.8,
+    "outer_face_x": 15.6,
+    "bearing_wall_positions_unchanged": true,
+    "right_endpoint_plastic_to_wall_axial_gap_mm": 2.275,
+    "right_endpoint_pin_to_wall_axial_gap_mm": 1.875,
+    "layer_audit_flagged_layers": 0
+  },
+  "extended_base_lip": {
+    "swept_bounds_mm": [
       [
-        -48.0,
-        7.799999904632568,
-        29.59999990463257
+        -19.95,
+        24.0,
+        12.0
       ],
       [
-        40.0,
-        12.600000095367431,
-        34.40000009536743
+        19.925,
+        25.5,
+        47.0
       ]
     ],
-    "change": "Left end extended 8 mm; right end, bushes, worm and bearings unchanged. Printed files unchanged."
+    "continuous_fixed_part_checks": [
+      {
+        "part": "Front actuator bridge",
+        "swept_overlap_mm3": 0.0
+      },
+      {
+        "part": "Rear bridge and band anchor",
+        "swept_overlap_mm3": 0.0
+      },
+      {
+        "part": "Front bottom guide",
+        "swept_overlap_mm3": 0.0
+      }
+    ],
+    "lip_layer_audit": [
+      {
+        "revision": "previous",
+        "flagged_layers": [
+          {
+            "height_mm": 1.7,
+            "area_mm2": 52.52299999738931
+          }
+        ]
+      },
+      {
+        "revision": "extended",
+        "flagged_layers": []
+      }
+    ],
+    "guide_positions_and_geometry_unchanged": true,
+    "bearing_wall_positions_and_geometry_unchanged": true,
+    "layer_height_assumed_mm": 0.2,
+    "physical_validation": false
+  },
+  "bridge_anchor_attachment": {
+    "bridge_body_delta_mm3": 0.0,
+    "anchor_positions_unchanged": true,
+    "band_alignment_symmetric": [
+      {
+        "lever_angle_degrees": 0,
+        "anchor_separation_mm": [
+          15.999999999999998,
+          15.999999999999998
+        ]
+      },
+      {
+        "lever_angle_degrees": 7,
+        "anchor_separation_mm": [
+          16.089197548968446,
+          16.08919754896845
+        ]
+      },
+      {
+        "lever_angle_degrees": 14,
+        "anchor_separation_mm": [
+          16.352566804939745,
+          16.352566804939745
+        ]
+      },
+      {
+        "lever_angle_degrees": 21,
+        "anchor_separation_mm": [
+          16.778114203481703,
+          16.778114203481703
+        ]
+      },
+      {
+        "lever_angle_degrees": 28,
+        "anchor_separation_mm": [
+          17.34785647687264,
+          17.34785647687264
+        ]
+      }
+    ],
+    "anchor_overhang_flags": [],
+    "remaining_bridge_flags": 16,
+    "physical_validation": false
   }
 }

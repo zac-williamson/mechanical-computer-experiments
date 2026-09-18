@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parent;import os;OUT=Path(os.environ.get('REGISTER
 ss={};meta={p['id']:p for p in D['prints']}
 for name in meta:
  t=trimesh.load(OUT/(name+'.stl'));ss[name]=m.Manifold(m.Mesh64(np.asarray(t.vertices),np.asarray(t.faces,dtype=np.uint64)))
-h=(ROOT/'Inputs/Viewer.html').read_text();trace=json.loads(re.search(r'const POSES=(\[.*?\]);',h,re.S)[1]);print('trace',len(trace),str(trace[0])[:200],flush=True)
+h=(ROOT.parents[1]/'multiplexer'/'Viewer.html').read_text();trace=json.loads((ROOT.parents[1]/'multiplexer'/'Actuator poses.json').read_text());print('trace',len(trace),str(trace[0])[:200],flush=True)
 # Fixed-frame and moving-pair interference in valid states. Moving bolt position is constrained by W.
 from motion import transform
 def posed(name,state):

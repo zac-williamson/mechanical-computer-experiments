@@ -4,7 +4,7 @@ import numpy as np
 import manifold3d as m
 import trimesh
 ROOT=Path(__file__).resolve().parent;import os
-SRC=ROOT/'Inputs';OUT=Path(os.environ.get('REGISTER_OUTPUT',str(ROOT.parent)));OUT.mkdir(exist_ok=True)
+SRC=ROOT.parents[1]/'multiplexer';OUT=Path(os.environ.get('REGISTER_OUTPUT',str(ROOT.parent)));OUT.mkdir(exist_ok=True)
 sys.path.insert(0,str(ROOT))
 from render_ldraw import LDraw
 LIB=LDraw(str(Path(os.environ.get('LDRAW_DIR','/Applications/Studio 2.0/ldraw'))/'parts/23948.dat'))
@@ -23,7 +23,23 @@ def cyl(c,r,l,axis='z',segments=64):
 def union(ss):return m.Manifold.batch_boolean(list(ss),m.OpType.Add)
 def hull(ss):return m.Manifold.batch_hull(list(ss))
 def mesh(s):
- a=s.to_mesh64();return trimesh.Trimesh(np.asarray(a.vert_properties)[:,:3],np.asarray(a.tri_verts),process=True)
+ assert s.status()==m.Error.NoError,s.status()
+ a=s.simplify(.00001).to_mesh64();v=np.array(a.vert_properties)[:,:3];f=np.array(a.tri_verts);parent=np.arange(len(v))
+ for i,j in zip(a.merge_from_vert,a.merge_to_vert):parent[i]=j
+ for _ in range(20):parent=parent[parent]
+ t=trimesh.Trimesh(np.round(v,5),parent[f],process=True);t.merge_vertices(digits_vertex=5);t.update_faces(t.nondegenerate_faces());t.update_faces(t.unique_faces());t.remove_unreferenced_vertices()
+ # STL precision can collapse a sliver into a collinear boundary triangle.
+ # Weld only sub-0.002 mm boundary edges, never arbitrary mesh detail.
+ for _ in range(4):
+  if t.is_watertight:break
+  edges,counts=np.unique(t.edges_sorted,axis=0,return_counts=True)
+  edges=edges[counts==1];short=edges[np.linalg.norm(t.vertices[edges[:,0]]-t.vertices[edges[:,1]],axis=1)<.002]
+  if not len(short):break
+  remap=np.arange(len(t.vertices))
+  for a,b in short:remap[b]=a
+  t.faces=remap[t.faces];t.update_faces(t.nondegenerate_faces());t.update_faces(t.unique_faces());t.remove_unreferenced_vertices();t.merge_vertices()
+ assert t.is_watertight,'Generated mesh is not watertight'
+ return t
 def load(name):
  t=trimesh.load(SRC/(name+'.stl'));return m.Manifold(m.Mesh64(np.asarray(t.vertices),np.asarray(t.faces,dtype=np.uint64)))
 def native(name,part,p,R=RAX,actor='fixed',motion='fixed',role=''):
@@ -58,7 +74,7 @@ def wall(name,x,holes,zrange,pinz,actor='fixed'):
   p=[x,28,z];s=pin_cut(s,p);mounts.append((x,z));pin(name+' mounting '+str(z),p)
  return s
 # Copy the proven actuator, with new storage lock and write-link attachments below.
-keep=['U015','U022','U185','reaction-axle','reaction-retainer-14','reaction-retainer-50','reaction-spacer-24','reaction-spacer-40','pivot-axle-with-stop','U017','U019','U032','SECOND-GUIDE','SECOND-GUIDE-BUSH-R','SECOND-GUIDE-BUSH-L','pivot-front-half-bush','pivot-spacer-22','pivot-hub-rear-bush','pivot-rear-retainer','reaction-rear-extra-half-bush','selector-right-retainer','Carriage joining pin top','Carriage joining pin base']
+keep=['U015','U022','U185','reaction-axle','reaction-retainer-14','reaction-retainer-50','reaction-spacer-24','reaction-spacer-40','pivot-axle-with-stop','U017','U019','U032','SECOND-GUIDE','SECOND-GUIDE-BUSH-R','SECOND-GUIDE-BUSH-L','pivot-front-half-bush','pivot-hub-rear-bush','pivot-rear-retainer','reaction-rear-extra-half-bush','selector-right-retainer','Carriage joining pin top','Carriage joining pin base']
 fixedparts=['Front actuator bridge','Front bottom guide','Bearing wall X26','Bearing wall X-28 three holes']
 actuatormount=[(-28,24),(-28,40),(26,24),(26,40),(-8,8),(8,8),(-8,51),(8,51),(-28,8),(-28,16),(36,8),(36,16),(36,43),(36,51)]
 for ac,d in actors.items():
@@ -72,7 +88,11 @@ for ac,d in actors.items():
  for name in ['Left carriage half','Right carriage half']:
   s=load(name)
   if ac=='K':
-   for xc in [-11.325,-2.65]:s=s-box([xc-2.05,-22.3,29.5],[xc+2.05,-13.7,32.4])
+   for xc in [-11.02,-2.87]:
+    # Flared entrance clears the bolt shoulder; the upper pocket accepts
+    # the measured release-to-end-stop interval without forcing roof flex.
+    mouth=hull([box([xc-3.55,-24.3,27.7],[xc+3.55,-13.7,27.71]),box([xc-2.45,-24.3,29.5],[xc+2.45,-13.7,29.51])])
+    s=s-mouth-box([xc-2.45,-22.3,29.49],[xc+2.45,-13.7,32.4])
   if ac=='W':
    if name=='Left carriage half':s=pin_cut(s,[-15.6,-18.6,34],'x')
   put(ac+' '+name,s.translate(d),orient[name],ac,'carriage')
@@ -131,7 +151,7 @@ for ac in ['W','E']:
 body=box([-13,-22,12],[-1,-14,23.5]);nose=box([-8.8,-22,29.5],[-5.2,-14,32]);bolt=body+nose+hull([box([-13,-22,23.3],[-1,-14,23.5]),box([-8.8,-22,29.3],[-5.2,-14,29.5])])
 bolt=pin_cut(bolt,[-7,-22,18],'y')
 # Broad band saddle, with retaining shoulders; no printed spring or snap feature.
-bolt=bolt+box([-9,-28.5,27.5],[-5,-22,29.5])+box([-10.5,-29.5,27],[-3.5,-28.5,30])
+bolt=bolt+box([-9,-28.5,27.5],[-5,-22,29.5])+box([-10.5,-29.5,27.5],[-3.5,-28.5,30])
 put('HOLD side bolt',bolt,FZ,'lock','bolt',sliding=['X and Y guide faces are vertical when nose Z32 is on bed; nose has pocket-floor clearance'])
 pin('HOLD cam follower',[-7,-22,18],'y','lock','bolt')
 # Guide, cap and keeper are integral with the front bridge. All remain
@@ -139,17 +159,17 @@ pin('HOLD cam follower',[-7,-22,18],'y','lock','bolt')
 front='K Front actuator bridge'
 guide=box([-17,-13.7,8],[3,-10.7,19.799999237060547])+box([-17,-22.3,8],[-13.3,-12,19.799999237060547])+box([-.7,-22.3,8],[3,-12,19.799999237060547])
 cap=box([-17,-24.5,8],[3,-22.3,19.799999237060547])-box([-11,-25,10],[-3,-22,20])
-keeper=box([-12,-31.3,7],[-2,-24.5,9.7])+box([-12,-33.3,8],[-2,-31.3,11.5])
+keeper=box([-12,-31.3,5],[-2,-24.5,7.7])+box([-12,-33.3,5],[-2,-31.3,11.5])+box([-12,-24.7,5],[-2,-22.3,10])
 solids[front]=(solids[front]+guide+cap+keeper).simplify(.0001)
 assert len(solids[front].decompose())==1
 mesh(solids[front]).export(OUT/(front+'.stl'))
 # Band anchors grow forward from the existing rear bridge, never past its
 # Z54.79999923706055 printing face. The band endpoints and bolt stroke remain unchanged.
 rear='K Rear bridge and band anchor'
-ears=[box([-19,-27.5,48.20000076293945],[5,-23.8,54.79999923706055])]
+ears=[box([-19,-27.8,48.20000076293945],[5,-23.8,54.79999923706055])]
 for x in [-17,3]:
- ears.append(box([x-2,-27.5,37],[x+2,-23.8,54.79999923706055]))
- ears.append(box([x-4,-29,37],[x+4,-27.5,39]))
+ ears.append(box([x-2,-27.8,37],[x+2,-24.3,54.79999923706055]))
+ ears.append(box([x-4,-29,37],[x+4,-27.8,39]))
 from band import lock_band
 bandcuts=[]
 for q in np.linspace(-4.35,4.325,13):
@@ -165,11 +185,18 @@ root=pin_cut(root,[-60.4,-18.6,-2],'x')
 pin('Write cam side pin',[-60.4,-18.6,-2],'x','link','carriage-global')
 neck=box([-30,-31,9],[-28,-25,17])
 cam=root+hull([box([-54,-22.6,-5.8],[-52.4,-14.6,1.8]),neck])+hull([neck,box([-14,-31,13.8],[-10,-25,22])])
-cam=cam+box([-18,-31,10],[4,-25,22])
-path=[[-14,18],[-8.85,18],[-6.5,15.2],[0,15.2]]
+cam=cam+box([-18,-31,8],[4,-25,22])
+path=[[-14,18],[-8.85,18],[-6.5,12.8],[0,12.8]]
 track=union([hull([cyl([a[0],-28,a[1]],2.7,8,'y'),cyl([b[0],-28,b[1]],2.7,8,'y')]) for a,b in zip(path,path[1:])]);cam=cam-track
 cam=cam-box([-100,-40,22],[10,-20,30])
 cam=pin_cut(cam,[-60.4,-18.6,-2],'x')
+# Open a top-side clearance channel for the lower lock-band position.
+cam_band=[]
+for q in np.linspace(-4.35,4.325,91):
+ bt=lock_band(float(q),.3);v=bt.vertices.copy();v[:,1]=np.where(v[:,1]<-27,-27.8,-24.9);bt.vertices=v
+ bs=m.Manifold(m.Mesh64(np.asarray(bt.vertices),np.asarray(bt.faces,dtype=np.uint64)))
+ cam_band.append(bs.translate([float(q),0,0]))
+cam-=union(cam_band)
 put('Write diagonal cam',cam,np.array([[1,0,0],[0,0,-1],[0,1,0]]),'link','carriage-global',sliding=['Cam slot walls print vertically; no axle bores'])
 # Rigid 180-degree rotation about Y keeps genuine LEGO worm handedness.
 newactors={'K':np.array([0.,0,0]),'W':np.array([-76.,0,32]),'E':np.array([76.,0,0])}
@@ -207,7 +234,7 @@ for r in records:
   r['matrix']=(rx@np.array(r['matrix']).reshape(3,3)).reshape(-1).tolist();r['phase_deg']=ph
  if name.endswith('C-shaft'):r['role']=('9L offset write-control axle' if name=='W C-shaft' else '10L selector/control axle; see port coordinates')
  if name.endswith('O-shaft'):r['role']=('10L' if name=='K O-shaft' else '9L')+' clutch hub shaft'
-manifest=dict(name='Compact lock register prototype',status='Geometric prototype; physical fit and timing untested',records=records,prints=prints,actors={k:v.tolist() for k,v in actors.items()},mounts=mounts,stroke=[-4.35,4.325],hold={'bolt_axis':'Z','locked_tip_Z':32,'lift_mm':2.8,'hold_dwell_mm':2.5,'release_complete_W_q':.5,'W_write_endpoint':4.325,'W_hold_endpoint':-4.35,'Q_is_inverted':True,'return_band':'Symmetric loop from moving saddle to two rear-bridge ears'},ports={'D':[-112,10.2,48],'P':[-48,10.2,-24],'Q':[-40,10.2,0],'BUS_OUT':[86,10.2,-16],'W':[-112.8,10.2,0],'OE':[120.8,10.2,32]})
+manifest=dict(name='Compact lock register prototype',status='Geometric prototype; physical fit and timing untested',records=records,prints=prints,actors={k:v.tolist() for k,v in actors.items()},mounts=mounts,stroke=[-4.35,4.325],hold={'bolt_axis':'Z','locked_tip_Z':32,'lift_mm':5.2,'hold_dwell_mm':2.5,'release_complete_W_q':.5,'W_write_endpoint':4.325,'W_hold_endpoint':-4.35,'Q_is_inverted':True,'return_band':'Symmetric loop from moving saddle to two rear-bridge ears'},ports={'D':[-112,10.2,48],'P':[-48,10.2,-24],'Q':[-40,10.2,0],'BUS_OUT':[86,10.2,-16],'W':[-112.8,10.2,0],'OE':[120.8,10.2,32]})
 (OUT/'Assembly manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
 (OUT/'LEGO parts.csv').write_text('Part,Quantity\n'+''.join(f'{p},{n}\n' for p,n in sorted(collections.Counter(r['part'] for r in records).items())))
 print('Built',len(prints),'printed parts,',len(records),'LEGO components,',len(mounts),'base pins',flush=True)

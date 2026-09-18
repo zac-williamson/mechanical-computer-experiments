@@ -1,0 +1,18 @@
+{
+  "multiplexer": {
+    "stl_count": 28,
+    "invalid_meshes": []
+  },
+  "register": {
+    "stl_count": 76,
+    "invalid_meshes": []
+  },
+  "cam-test": {
+    "stl_count": 46,
+    "invalid_meshes": []
+  },
+  "adder": {
+    "stl_count": 39,
+    "invalid_meshes": []
+  }
+}

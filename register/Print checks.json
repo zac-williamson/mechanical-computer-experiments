@@ -167,10 +167,10 @@
       "shells": 1,
       "size_mm": [
         42.758699893951416,
-        48.70000076293945,
-        29.600000381469727
+        49.5,
+        41.60000038146973
       ],
-      "bed_contact_area_mm2": 664.8966956917193,
+      "bed_contact_area_mm2": 790.2567502228176,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0,
@@ -208,10 +208,10 @@
       "shells": 1,
       "size_mm": [
         35.0,
-        46.0,
-        26.0
+        18.399999141693115,
+        7.600000381469727
       ],
-      "bed_contact_area_mm2": 423.824542534011,
+      "bed_contact_area_mm2": 465.537485351535,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0,
@@ -225,19 +225,19 @@
         ],
         [
           0,
-          -1,
+          1,
           0
         ],
         [
-          1,
+          -1,
           0,
           0
         ]
       ],
       "translation": [
         -12.0,
-        22.799999237060547,
-        -8.0
+        -5.400000095367432,
+        15.600000381469727
       ],
       "notes": []
     },
@@ -248,13 +248,13 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        22.599709272384644,
-        14.561940431594849,
-        24.0
+        21.97653079032898,
+        12.103710174560547,
+        27.610000610351562
       ],
-      "bed_contact_area_mm2": 136.589129267884,
+      "bed_contact_area_mm2": 135.51485465091108,
       "bearing_entrance_heights_mm": [
-        0.0
+        -7.629394538355427e-07
       ],
       "rotation": [
         [
@@ -274,9 +274,9 @@
         ]
       ],
       "translation": [
-        -3.351680040359497,
-        12.142840385437012,
-        -24.0
+        -2.850939989089966,
+        9.061650276184082,
+        -20.200000762939453
       ],
       "notes": []
     },
@@ -287,11 +287,11 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        60.79999923706055,
+        61.160560607910156,
         57.0,
         17.799999237060547
       ],
-      "bed_contact_area_mm2": 1566.9478110226435,
+      "bed_contact_area_mm2": 1574.1477927120966,
       "bearing_entrance_heights_mm": [
         -7.629394502828291e-07,
         -7.629394502828291e-07
@@ -329,12 +329,12 @@
       "size_mm": [
         71.60000228881836,
         40.0,
-        15.599998474121094
+        15.59999942779541
       ],
-      "bed_contact_area_mm2": 1041.6836701040297,
+      "bed_contact_area_mm2": 1041.6836938559745,
       "bearing_entrance_heights_mm": [
-        -7.629394538355427e-07,
-        -7.629394538355427e-07
+        1.9073486257070726e-07,
+        1.9073486257070726e-07
       ],
       "rotation": [
         [
@@ -356,7 +356,7 @@
       "translation": [
         -44.20000076293945,
         28.0,
-        -12.200000762939453
+        -12.199999809265137
       ],
       "notes": []
     },
@@ -404,11 +404,11 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        23.599998474121094,
+        23.600000381469727,
         21.59999990463257,
         7.600006103515625
       ],
-      "bed_contact_area_mm2": 411.6982586171962,
+      "bed_contact_area_mm2": 411.6983273971265,
       "bearing_entrance_heights_mm": [
         3.814697265625e-06,
         3.814697265625e-06,
@@ -432,7 +432,7 @@
         ]
       ],
       "translation": [
-        11.799999237060547,
+        11.800000190734863,
         28.0,
         -98.19999694824219
       ],
@@ -445,11 +445,11 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        23.599998474121094,
+        23.600000381469727,
         21.59999990463257,
         7.599998474121094
       ],
-      "bed_contact_area_mm2": 411.5764461777144,
+      "bed_contact_area_mm2": 411.5765173651947,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0,
@@ -473,7 +473,7 @@
         ]
       ],
       "translation": [
-        11.799999237060547,
+        11.800000190734863,
         28.0,
         -44.20000076293945
       ],
@@ -487,10 +487,10 @@
       "shells": 1,
       "size_mm": [
         42.75869941711426,
-        48.70000076293945,
-        29.599998474121094
+        49.5,
+        41.599998474121094
       ],
-      "bed_contact_area_mm2": 632.6689600628632,
+      "bed_contact_area_mm2": 756.0997534024636,
       "bearing_entrance_heights_mm": [
         -1.9073486328125e-06,
         -1.9073486328125e-06,
@@ -528,14 +528,14 @@
       "shells": 1,
       "size_mm": [
         35.0,
-        46.0,
-        26.0
+        18.399999141693115,
+        7.599998474121094
       ],
-      "bed_contact_area_mm2": 423.824542534011,
+      "bed_contact_area_mm2": 465.5375000205536,
       "bearing_entrance_heights_mm": [
-        0.0,
-        0.0,
-        0.0
+        -1.9073486328125e-06,
+        -1.9073486328125e-06,
+        -1.9073486328125e-06
       ],
       "rotation": [
         [
@@ -545,19 +545,19 @@
         ],
         [
           0.0,
-          -1.0,
+          1.0,
           0.0
         ],
         [
-          -1.0,
+          1.0,
           0.0,
           0.0
         ]
       ],
       "translation": [
         20.0,
-        22.799999237060547,
-        -84.0
+        -5.400000095367432,
+        91.5999984741211
       ],
       "notes": []
     },
@@ -568,13 +568,13 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        22.599708557128906,
-        14.561940431594849,
-        24.0
+        21.976531982421875,
+        12.103710174560547,
+        27.610000610351562
       ],
-      "bed_contact_area_mm2": 136.58910976614376,
+      "bed_contact_area_mm2": 135.5148560400023,
       "bearing_entrance_heights_mm": [
-        0.0
+        1.9073486257070726e-07
       ],
       "rotation": [
         [
@@ -594,9 +594,9 @@
         ]
       ],
       "translation": [
-        -79.35167694091797,
-        12.142840385437012,
-        8.0
+        -78.85093688964844,
+        9.061650276184082,
+        11.800000190734863
       ],
       "notes": []
     },
@@ -607,11 +607,11 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        51.80000305175781,
+        52.160560607910156,
         52.0,
-        15.599998474121094
+        15.59999942779541
       ],
-      "bed_contact_area_mm2": 1479.947694263648,
+      "bed_contact_area_mm2": 1479.9478671513348,
       "bearing_entrance_heights_mm": [
         -7.629394502828291e-07,
         -7.629394502828291e-07
@@ -651,7 +651,7 @@
         40.0,
         15.59999942779541
       ],
-      "bed_contact_area_mm2": 1041.6836701040297,
+      "bed_contact_area_mm2": 1041.6836938559745,
       "bearing_entrance_heights_mm": [
         -7.629394538355427e-07,
         -7.629394538355427e-07
@@ -807,10 +807,10 @@
       "shells": 1,
       "size_mm": [
         42.758699893951416,
-        48.70000076293945,
-        29.599998474121094
+        49.5,
+        41.599998474121094
       ],
-      "bed_contact_area_mm2": 664.8966956917193,
+      "bed_contact_area_mm2": 790.2567502228176,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0,
@@ -848,10 +848,10 @@
       "shells": 1,
       "size_mm": [
         35.0,
-        46.0,
-        26.0
+        18.399999141693115,
+        7.599998474121094
       ],
-      "bed_contact_area_mm2": 423.824542534011,
+      "bed_contact_area_mm2": 465.537485351535,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0,
@@ -865,19 +865,19 @@
         ],
         [
           0.0,
-          -1.0,
+          1.0,
           0.0
         ],
         [
-          1.0,
+          -1.0,
           0.0,
           0.0
         ]
       ],
       "translation": [
         -12.0,
-        22.799999237060547,
-        -84.0
+        -5.400000095367432,
+        91.5999984741211
       ],
       "notes": []
     },
@@ -888,13 +888,13 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        22.599708557128906,
-        14.561940431594849,
-        24.0
+        21.976531982421875,
+        12.103710174560547,
+        27.610000610351562
       ],
-      "bed_contact_area_mm2": 136.58910976614376,
+      "bed_contact_area_mm2": 135.5148560400023,
       "bearing_entrance_heights_mm": [
-        0.0
+        -7.629394538355427e-07
       ],
       "rotation": [
         [
@@ -914,9 +914,9 @@
         ]
       ],
       "translation": [
-        -79.35167694091797,
-        12.142840385437012,
-        -24.0
+        -78.85093688964844,
+        9.061650276184082,
+        -20.200000762939453
       ],
       "notes": []
     },
@@ -927,11 +927,11 @@
       "consistent_winding": true,
       "shells": 1,
       "size_mm": [
-        51.80000305175781,
+        52.160560607910156,
         52.0,
         15.599998474121094
       ],
-      "bed_contact_area_mm2": 1479.947694263648,
+      "bed_contact_area_mm2": 1479.9478671513348,
       "bearing_entrance_heights_mm": [
         -7.629394502828291e-07,
         -7.629394502828291e-07
@@ -968,10 +968,10 @@
       "shells": 1,
       "size_mm": [
         36.30000019073486,
-        31.04427194595337,
+        31.044270038604736,
         7.599998474121094
       ],
-      "bed_contact_area_mm2": 781.4515161578277,
+      "bed_contact_area_mm2": 781.4515563832605,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0,
@@ -1013,7 +1013,7 @@
         22.09999990463257,
         7.599998474121094
       ],
-      "bed_contact_area_mm2": 561.7529217880143,
+      "bed_contact_area_mm2": 561.7529389999469,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0,
@@ -1051,10 +1051,10 @@
       "shells": 1,
       "size_mm": [
         24.299999952316284,
-        31.04427194595337,
+        31.044270038604736,
         7.600000187754631
       ],
-      "bed_contact_area_mm2": 482.17451256434055,
+      "bed_contact_area_mm2": 482.17454803544916,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0
@@ -1094,7 +1094,7 @@
         22.09999990463257,
         7.600000187754631
       ],
-      "bed_contact_area_mm2": 253.65097491652978,
+      "bed_contact_area_mm2": 253.6509822943308,
       "bearing_entrance_heights_mm": [
         0.0
       ],
@@ -1133,7 +1133,7 @@
         22.09999990463257,
         7.599998474121094
       ],
-      "bed_contact_area_mm2": 283.25096534480053,
+      "bed_contact_area_mm2": 283.25097127865274,
       "bearing_entrance_heights_mm": [
         0.0
       ],
@@ -1172,7 +1172,7 @@
         22.09999990463257,
         7.600006103515625
       ],
-      "bed_contact_area_mm2": 376.90192494439634,
+      "bed_contact_area_mm2": 376.90193927782866,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0
@@ -1212,7 +1212,7 @@
         22.09999990463257,
         19.300003051757812
       ],
-      "bed_contact_area_mm2": 179.25096570311143,
+      "bed_contact_area_mm2": 179.25097410269154,
       "bearing_entrance_heights_mm": [
         0.0
       ],
@@ -1251,7 +1251,7 @@
         22.09999990463257,
         7.599998474121094
       ],
-      "bed_contact_area_mm2": 376.90195096941,
+      "bed_contact_area_mm2": 376.9019628665668,
       "bearing_entrance_heights_mm": [
         0.0,
         0.0
@@ -1291,7 +1291,7 @@
         22.09999990463257,
         7.600006103515625
       ],
-      "bed_contact_area_mm2": 283.2509834108738,
+      "bed_contact_area_mm2": 283.25098977688106,
       "bearing_entrance_heights_mm": [
         0.0
       ],
@@ -1330,7 +1330,7 @@
         22.09999990463257,
         19.300003051757812
       ],
-      "bed_contact_area_mm2": 179.25097366205182,
+      "bed_contact_area_mm2": 179.25097919320137,
       "bearing_entrance_heights_mm": [
         0.0
       ],
@@ -1408,7 +1408,7 @@
         28.199999809265137,
         16.800000190734863
       ],
-      "bed_contact_area_mm2": 264.0996471044986,
+      "bed_contact_area_mm2": 297.6551595913643,
       "bearing_entrance_heights_mm": [],
       "rotation": [
         [
@@ -1447,7 +1447,7 @@
         100.0,
         8.200000762939453
       ],
-      "bed_contact_area_mm2": 22385.20749842709,
+      "bed_contact_area_mm2": 22385.207634917377,
       "bearing_entrance_heights_mm": [],
       "rotation": [
         [
@@ -1500,26 +1500,27 @@
         "E Left carriage half",
         "W Left carriage half",
         "Write diagonal cam",
-        "K Right carriage half",
-        "W Right carriage half",
-        "E Right carriage half",
         "K outer bearing -28",
         "K outer bearing 28",
         "K inner bearing -4",
         "Bearing fit coupon",
+        "K Right carriage half",
+        "W Right carriage half",
+        "E Right carriage half",
         "E left bearing",
         "W right bearing",
         "E right bearing",
         "W left bearing",
-        "K Bearing wall X26",
-        "K Bearing wall X-28 three holes",
         "W Bearing wall X26",
         "W Bearing wall X-28 three holes",
+        "K Bearing wall X26",
+        "K Bearing wall X-28 three holes",
         "E Bearing wall X26",
         "E Bearing wall X-28 three holes",
-        "K Direct lever and band cleat",
+        "K inner bearing 4",
         "W Direct lever and band cleat",
         "E Direct lever and band cleat",
+        "K Direct lever and band cleat",
         "W port bearing",
         "E port bearing",
         "K Front bottom guide",
@@ -1528,23 +1529,11 @@
         "HOLD side bolt"
       ],
       "size_mm": [
-        241.54427003860474,
-        245.22063994407654,
-        29.600000381469727
+        245.99999618530273,
+        231.5999984741211,
+        41.60000038146973
       ],
       "minimum_rectangular_gap_mm": 6
-    },
-    {
-      "file": "Print plate 3.stl",
-      "parts": [
-        "K inner bearing 4"
-      ],
-      "size_mm": [
-        22.09999990463257,
-        20.300000190734863,
-        7.600000187754631
-      ],
-      "minimum_rectangular_gap_mm": null
     }
   ],
   "coupon": "Separate fit coupon; three bores marked with 1/2/3 notches = 5.2/5.3/5.4 mm"
