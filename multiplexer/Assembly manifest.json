@@ -1,5 +1,5 @@
 {
-  "name": "Multiplexer reliability prototype",
+  "name": "Multiplexer",
   "records": [
     {
       "color": 71,
@@ -21,7 +21,7 @@
       ],
       "part": "32905.dat",
       "group": "carriage-worm",
-      "role": "Worm axis X0,Y40; mesh origin corrected",
+      "role": "Worm driving the translating carriage",
       "record_id": "U015",
       "slice": "universal",
       "motion": "carriage-worm"
@@ -34,11 +34,11 @@
         80.0
       ],
       "matrix": [
-        -0.9346365831114465,
-        0.35560435530201295,
+        -0.8107524341483509,
+        0.5853891786858757,
         0.0,
-        0.35560435530201295,
-        0.9346365831114465,
+        0.5853891786858756,
+        0.8107524341483509,
         0.0,
         0.0,
         0.0,
@@ -46,7 +46,7 @@
       ],
       "part": "10928.dat",
       "group": "reaction-rotating",
-      "role": "Original reaction 8T driven by worm",
+      "role": "8-tooth reaction gear driven by worm",
       "record_id": "U022",
       "slice": "universal",
       "motion": "reaction-rotating"
@@ -1148,8 +1148,8 @@
       "record_id": "pivot-axle-with-stop",
       "part": "3706.dat",
       "pos": [
-        36.252311481465995,
-        -8.154730469627976,
+        31.48293962134231,
+        -17.072245452022102,
         85.99999999999999
       ],
       "matrix": [
@@ -1163,7 +1163,8 @@
         0,
         0
       ],
-      "motion": "fixed"
+      "motion": "fixed",
+      "role": "Dual-bridge lever pivot 6L axle"
     },
     {
       "color": 0,
@@ -1314,28 +1315,6 @@
       "record_id": "SECOND-GUIDE-BUSH-L",
       "slice": "universal",
       "motion": "fixed"
-    },
-    {
-      "record_id": "pivot-front-half-bush",
-      "part": "32123a.dat",
-      "pos": [
-        36.252311481465995,
-        -8.154730469627976,
-        29.5
-      ],
-      "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "motion": "fixed",
-      "role": "External pivot axle retainer"
     },
     {
       "record_id": "ADDED-PIN-24-24",
@@ -1515,47 +1494,25 @@
     },
     {
       "record_id": "pivot-hub-rear-bush",
-      "part": "32123a.dat",
+      "part": "3713.dat",
       "pos": [
-        36.252311481465995,
-        -8.154730469627976,
-        80.99999999999999
+        31.48293962134231,
+        -17.072245452022102,
+        90.5
       ],
       "matrix": [
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
       ],
       "motion": "fixed",
-      "role": "pivot-hub-rear-bush"
-    },
-    {
-      "record_id": "pivot-rear-retainer",
-      "part": "32123a.dat",
-      "pos": [
-        36.252311481465995,
-        -8.154730469627976,
-        142.5
-      ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1
-      ],
-      "motion": "fixed",
-      "role": "pivot-rear-retainer"
+      "role": "Dual-bridge lever pivot solid axial spacer / retainer"
     },
     {
       "record_id": "reaction-rear-extra-half-bush",
@@ -1820,6 +1777,72 @@
       ],
       "motion": "fixed",
       "role": "LEGO friction pin; two per support foot"
+    },
+    {
+      "record_id": "pivot-rear-full-bush",
+      "part": "3713.dat",
+      "pos": [
+        31.48293962134231,
+        -17.072245452022102,
+        110.5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "fixed",
+      "role": "Dual-bridge lever pivot solid axial spacer / retainer"
+    },
+    {
+      "record_id": "pivot-front-half-bush",
+      "part": "32123a.dat",
+      "pos": [
+        31.48293962134231,
+        -17.072245452022102,
+        29.5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "fixed",
+      "role": "Dual-bridge lever pivot solid axial spacer / retainer"
+    },
+    {
+      "record_id": "pivot-rear-retainer",
+      "part": "32123a.dat",
+      "pos": [
+        31.48293962134231,
+        -17.072245452022102,
+        142.5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "motion": "fixed",
+      "role": "Dual-bridge lever pivot solid axial spacer / retainer"
     }
   ],
   "prints": [
@@ -1904,13 +1927,13 @@
   ],
   "band": {
     "fixed_center_mm": [
-      36.252311481465995,
-      -14.704730469627979,
+      36.96055698703205,
+      -11.721496948498547,
       45.5
     ],
     "moving_center_mm": [
-      21.751386888879598,
-      -7.942838281776787,
+      20.43663532309368,
+      -8.403745307035983,
       45.5
     ]
   },
@@ -1932,25 +1955,25 @@
     ]
   },
   "pivot_mm": [
-    14.500924592586399,
-    -3.261892187851191
+    12.593175848536925,
+    -6.828898180808841
   ],
   "stroke_mm": [
-    -4.4,
-    4.4
+    -4.35,
+    4.325
   ],
-  "status": "Deeper tooth prototype; physical validation required",
+  "status": "Working assembly; user reported successful operation.",
   "redesign": {
     "stop_working_corner_radius_mm": 1.5,
     "teeth": 2,
-    "pivot_journal_length_mm": 10.0,
+    "pivot_journal_length_mm": 12.0,
     "pivot": [
-      14.500924592586399,
-      -3.261892187851191
+      12.593175848536925,
+      -6.828898180808841
     ],
     "lever_band_anchor": [
-      21.987468724068282,
-      -6.08176044140031,
+      20.43663532309368,
+      -8.403745307035983,
       45.5
     ],
     "fixed_band_anchor": [
@@ -1979,22 +2002,13 @@
     ],
     "contact_pad_axial_overlap_mm": 6.4,
     "stops": {
-      "el": 9.1083984375,
-      "er": 19.9693603515625,
-      "lb": -3.7945074659957116,
-      "rb": -9.08176044140031
-    },
-    "physical_validation": false,
-    "revision": "Deeper working tooth flanks with swept release relief",
-    "contact_depth_example_mm": {
-      "previous": 0.462,
-      "revised": 0.777,
-      "lever_angle_degrees": 3.1
+      "el": 7.9564453125,
+      "er": 18.17001953125,
+      "lb": -13.828898180808842,
+      "rb": -13.828898180808842
     },
     "small_carriage_outer_face_x_mm": 15.6,
     "small_carriage_print_bed_face": "Outer axle-bearing face, X=15.6",
-    "small_carriage_lip_removed_mm": 0.8,
-    "bearing_wall_positions_unchanged": true,
     "base_lip": {
       "x_extent_mm": [
         -15.6,
@@ -2010,6 +2024,35 @@
       "shoulder_radius_mm": 3.2,
       "taper_length_mm": 2.02,
       "anchor_position_unchanged": true
-    }
+    },
+    "pivot_support": {
+      "bearings": 2,
+      "axle": "3706 6L",
+      "bearing_faces_z_mm": [
+        19.8,
+        48.2
+      ],
+      "journal_z_mm": [
+        20.2,
+        32.2
+      ],
+      "full_bush_intervals_z_mm": [
+        [
+          32.2,
+          40.2
+        ],
+        [
+          40.2,
+          48.2
+        ]
+      ],
+      "total_nominal_running_clearance_mm": 0.4,
+      "pivot_clearance_envelope_radius_mm": 5.35,
+      "bearing_boss_radius_mm": 5.5,
+      "bearing_bore_radius_mm": 2.65,
+      "lever_hub_outer_radius_mm": 6.5,
+      "lever_bush_counterbore_radius_mm": 4.1
+    },
+    "physical_test": "User reported successful operation."
   }
 }

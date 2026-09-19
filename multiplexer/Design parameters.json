@@ -1,14 +1,14 @@
 {
   "stop_working_corner_radius_mm": 1.5,
   "teeth": 2,
-  "pivot_journal_length_mm": 10.0,
+  "pivot_journal_length_mm": 12.0,
   "pivot": [
-    14.500924592586399,
-    -3.261892187851191
+    12.593175848536925,
+    -6.828898180808841
   ],
   "lever_band_anchor": [
-    21.987468724068282,
-    -6.08176044140031,
+    20.43663532309368,
+    -8.403745307035983,
     45.5
   ],
   "fixed_band_anchor": [
@@ -37,22 +37,13 @@
   ],
   "contact_pad_axial_overlap_mm": 6.4,
   "stops": {
-    "el": 9.1083984375,
-    "er": 19.9693603515625,
-    "lb": -3.7945074659957116,
-    "rb": -9.08176044140031
-  },
-  "physical_validation": false,
-  "revision": "Deeper working tooth flanks with swept release relief",
-  "contact_depth_example_mm": {
-    "previous": 0.462,
-    "revised": 0.777,
-    "lever_angle_degrees": 3.1
+    "el": 7.9564453125,
+    "er": 18.17001953125,
+    "lb": -13.828898180808842,
+    "rb": -13.828898180808842
   },
   "small_carriage_outer_face_x_mm": 15.6,
   "small_carriage_print_bed_face": "Outer axle-bearing face, X=15.6",
-  "small_carriage_lip_removed_mm": 0.8,
-  "bearing_wall_positions_unchanged": true,
   "base_lip": {
     "x_extent_mm": [
       -15.6,
@@ -68,5 +59,34 @@
     "shoulder_radius_mm": 3.2,
     "taper_length_mm": 2.02,
     "anchor_position_unchanged": true
-  }
+  },
+  "pivot_support": {
+    "bearings": 2,
+    "axle": "3706 6L",
+    "bearing_faces_z_mm": [
+      19.8,
+      48.2
+    ],
+    "journal_z_mm": [
+      20.2,
+      32.2
+    ],
+    "full_bush_intervals_z_mm": [
+      [
+        32.2,
+        40.2
+      ],
+      [
+        40.2,
+        48.2
+      ]
+    ],
+    "total_nominal_running_clearance_mm": 0.4,
+    "pivot_clearance_envelope_radius_mm": 5.35,
+    "bearing_boss_radius_mm": 5.5,
+    "bearing_bore_radius_mm": 2.65,
+    "lever_hub_outer_radius_mm": 6.5,
+    "lever_bush_counterbore_radius_mm": 4.1
+  },
+  "physical_test": "User reported successful operation."
 }
