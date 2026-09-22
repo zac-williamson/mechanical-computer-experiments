@@ -1,10 +1,10 @@
 """Package exactly the printed geometry used by the current two-piece viewer."""
 from pathlib import Path
-import json, hashlib
+import os,json, hashlib
 import numpy as np
 import trimesh
 from clean_print_mesh import clean
-O=Path(__file__).resolve().parents[1];D=O
+O=Path(os.environ.get("MUX_BUILD_OUTPUT",Path(__file__).resolve().parents[1]));D=O
 parts=json.loads((O/'printed-parts.json').read_text())
 plate=[];manifest=[];x=16.;y=16.;row=0.;gap=12.
 for p in parts:

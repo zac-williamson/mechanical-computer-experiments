@@ -1,0 +1,66 @@
+[
+  {
+    "file": "Carriage fork and roof.stl",
+    "sha256": "4e84631e6b27059023fb8a023acd261e50ff503af00bd41c191917438af9a44b"
+  },
+  {
+    "file": "Clutch stock.stl",
+    "sha256": "fe39979ee6a34cfcf54963cccdf4539cfc09f3f5dd3915c09a5ae942c7deba83"
+  },
+  {
+    "file": "Common baseboard.stl",
+    "sha256": "6d5548c6889b919814525f770776971de9b892553846e10e33e58caff983cf9b"
+  },
+  {
+    "file": "Front bearing cheek.stl",
+    "sha256": "8f0b00367106eef121179c51b7f6919a7d522209e4b47eb5d636cc38f2abb056"
+  },
+  {
+    "file": "Left inner bearing wall.stl",
+    "sha256": "443234f5dad8d71befff220eb7c42a7d1594591e325b04f8e957acbfd751c6c7"
+  },
+  {
+    "file": "Left side frame.stl",
+    "sha256": "218e28d00101bcac7cde88e41c7e35de2b0a61eaf0cfec13efce7807aedbdea3"
+  },
+  {
+    "file": "Rear bearing cheek.stl",
+    "sha256": "352cbd9b3124efb00c1b7928a5a1d4d0771a14337fcebbccf2896dd38445fe3c"
+  },
+  {
+    "file": "Right carriage bearing support.stl",
+    "sha256": "95118cd82928d7c037caa71871bf80d47a5860b47bff0a3a88895298422cd205"
+  },
+  {
+    "file": "Right inner bearing wall.stl",
+    "sha256": "a5ad4e325436e04e812a1f305646e44a7dd674faae98fe8675a6235031f49d00"
+  },
+  {
+    "file": "Right side frame.stl",
+    "sha256": "537dcd091ea437893fac393a616831932485a266bc795329df2a3bcd5045d775"
+  },
+  {
+    "file": "Short lever.stl",
+    "sha256": "d50a1fa59610fa75673fbc87bb621a06a75d1e91d2855f35c577a122ae273390"
+  },
+  {
+    "file": "baseboard-mounts.json",
+    "sha256": "604cb2fe18bbb6e8750bc8e45af15b7e2bc47087a635c365dbcf4448b162cd84"
+  },
+  {
+    "file": "hardware.json",
+    "sha256": "31fa26853fd3f80a3cd80d71110792dff3ef5d92827dd467bde925ad9d7ef114"
+  },
+  {
+    "file": "hardware.npz",
+    "sha256": "093cb4877fa337b67faf855fdcc62530a0f08397172295cbe85efbd77b9f99d6"
+  },
+  {
+    "file": "parameters.json",
+    "sha256": "bd4bb6da676b76b1713f1f0ef4be6282f7b00f08ad4402a20c4c9e70c3dfff5c"
+  },
+  {
+    "file": "printed-parts.json",
+    "sha256": "4603790a29b97d3be0fffb117a0e2f82b9f349de85b389e488b36cbf5599dac5"
+  }
+]

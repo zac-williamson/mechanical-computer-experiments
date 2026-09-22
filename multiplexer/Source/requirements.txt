@@ -1,7 +1,7 @@
-numpy
-trimesh
-manifold3d
-shapely
-scipy
-matplotlib
-python-fcl
+numpy==2.5.3
+trimesh==5.1.0
+manifold3d==3.5.3
+shapely==2.1.2
+scipy==1.18.1
+matplotlib==3.11.2
+python-fcl==0.7.0.11

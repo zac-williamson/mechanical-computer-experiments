@@ -1,6 +1,6 @@
 from pathlib import Path
-import json,gzip,base64,numpy as np,trimesh
-S=Path(__file__).resolve().parent;O=S.parent
+import os,json,gzip,base64,numpy as np,trimesh
+S=Path(__file__).resolve().parent;O=Path(os.environ.get("MUX_BUILD_OUTPUT",S.parent))
 D=json.loads((S/'scene.json').read_text());H=json.loads((O/'hardware.json').read_text());V=np.load(O/'hardware.npz')['vertices'];hardware={p['id']:V[p['offset']//3:p['offset']//3+p['vertices']] for p in H};arrays=[]
 for p in D['parts']:
  n=p['id'];filename='Carriage fork and roof' if n=='Merged bearing and arm' else n

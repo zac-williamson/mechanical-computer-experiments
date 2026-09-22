@@ -1,0 +1,299 @@
+[
+  {
+    "id": "Left side frame",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -31.8,
+        5.8999999999999995,
+        -22.7
+      ],
+      [
+        -24.2,
+        32.4,
+        20.000000000000004
+      ]
+    ],
+    "volume_mm3": 5222.06488035834,
+    "solids": [
+      5222.064880358338
+    ],
+    "watertight": true,
+    "motion": "fixed"
+  },
+  {
+    "id": "Right side frame",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "bounds": [
+      [
+        24.2,
+        5.8999999999999995,
+        -22.7
+      ],
+      [
+        43.79999999701977,
+        32.4,
+        36.49999999701977
+      ]
+    ],
+    "volume_mm3": 6225.124920041274,
+    "solids": [
+      6225.124920041274
+    ],
+    "watertight": true,
+    "motion": "fixed"
+  },
+  {
+    "id": "Front bearing cheek",
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -5.100000001490116,
+        7.45,
+        15.299999999999999
+      ],
+      [
+        44.20000000298023,
+        11.45,
+        36.900000002980235
+      ]
+    ],
+    "volume_mm3": 1879.4237247602462,
+    "solids": [
+      1879.423724760246
+    ],
+    "watertight": true,
+    "motion": "fixed"
+  },
+  {
+    "id": "Rear bearing cheek",
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "bounds": [
+      [
+        -5.100000001490116,
+        11.65,
+        15.300000001490115
+      ],
+      [
+        44.20000000298023,
+        24.25,
+        36.900000002980235
+      ]
+    ],
+    "volume_mm3": 2206.102286986088,
+    "solids": [
+      2206.102286986088
+    ],
+    "watertight": true,
+    "motion": "fixed"
+  },
+  {
+    "id": "Short lever",
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "bounds": [
+      [
+        2.1562926173210144,
+        11.65,
+        22.694009599089622
+      ],
+      [
+        25.39232360571623,
+        20.049999999999997,
+        37.22705662697554
+      ]
+    ],
+    "volume_mm3": 1603.2150124057287,
+    "solids": [
+      1603.2150124057287
+    ],
+    "watertight": true,
+    "motion": "rocker"
+  },
+  {
+    "id": "Left inner bearing wall",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -11.8,
+        5.8999999999999995,
+        -22.7
+      ],
+      [
+        -4.2,
+        32.4,
+        -4.899999999999999
+      ]
+    ],
+    "volume_mm3": 1731.7110720413496,
+    "solids": [
+      1731.7110720413498
+    ],
+    "watertight": true,
+    "motion": "fixed"
+  },
+  {
+    "id": "Right inner bearing wall",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "bounds": [
+      [
+        4.2,
+        5.8999999999999995,
+        -22.7
+      ],
+      [
+        11.8,
+        32.4,
+        -4.899999999999999
+      ]
+    ],
+    "volume_mm3": 1731.71107204135,
+    "solids": [
+      1731.7110720413498
+    ],
+    "watertight": true,
+    "motion": "fixed"
+  },
+  {
+    "id": "Common baseboard",
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "bounds": [
+      [
+        -34.0,
+        21.2,
+        -26.7
+      ],
+      [
+        34.0,
+        38.4,
+        36.0
+      ]
+    ],
+    "volume_mm3": 25963.106762892898,
+    "solids": [
+      25963.106762892894
+    ],
+    "watertight": true,
+    "motion": "fixed"
+  },
+  {
+    "id": "Left carriage bearing support",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -15.6,
+        10.35,
+        -1.8
+      ],
+      [
+        -8.0,
+        33.4,
+        21.8
+      ]
+    ],
+    "volume_mm3": 1395.7201736400568,
+    "solids": [
+      1395.7201736400575
+    ],
+    "watertight": true,
+    "motion": "carriage"
+  },
+  {
+    "id": "Right carriage bearing support",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "bounds": [
+      [
+        8.0,
+        10.35,
+        -1.8
+      ],
+      [
+        15.6,
+        33.4,
+        21.8
+      ]
+    ],
+    "volume_mm3": 1395.7194779068486,
+    "solids": [
+      1395.7194779068489
+    ],
+    "watertight": true,
+    "motion": "carriage"
+  },
+  {
+    "id": "Carriage fork and roof",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "bounds": [
+      [
+        -7.8,
+        7.199999809265137,
+        -1.8
+      ],
+      [
+        26.599999999999998,
+        33.4,
+        43.79955051738877
+      ]
+    ],
+    "volume_mm3": 5929.235483858007,
+    "solids": [
+      5929.235483858006
+    ],
+    "watertight": true,
+    "motion": "carriage"
+  }
+]
