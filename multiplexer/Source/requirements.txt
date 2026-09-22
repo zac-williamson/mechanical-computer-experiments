@@ -2,4 +2,6 @@ numpy
 trimesh
 manifold3d
 shapely
+scipy
+matplotlib
 python-fcl

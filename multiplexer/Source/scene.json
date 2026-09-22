@@ -1,0 +1,1163 @@
+{
+  "bounds": [
+    [
+      -44.0,
+      -4.200000000000002,
+      -27.073013319815836
+    ],
+    [
+      44.20000000298023,
+      38.4,
+      45.29955051541329
+    ]
+  ],
+  "parts": [
+    {
+      "id": "Left side frame",
+      "print_rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "print_rotation_angle": 1.5707963267948966,
+      "bounds": [
+        [
+          -31.8,
+          5.8999999999999995,
+          -22.7
+        ],
+        [
+          -24.2,
+          32.4,
+          20.000000000000004
+        ]
+      ],
+      "volume_mm3": 5222.06488035834,
+      "solids": [
+        5222.064880358338
+      ],
+      "watertight": true,
+      "motion": "fixed",
+      "color": [
+        99,
+        129,
+        119
+      ],
+      "kind": "structure",
+      "offset": 0,
+      "vertices": 10344
+    },
+    {
+      "id": "Right side frame",
+      "print_rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "print_rotation_angle": -1.5707963267948966,
+      "bounds": [
+        [
+          24.2,
+          5.8999999999999995,
+          -22.7
+        ],
+        [
+          43.79999999701977,
+          32.4,
+          36.49999999701977
+        ]
+      ],
+      "volume_mm3": 6225.124920041274,
+      "solids": [
+        6225.124920041274
+      ],
+      "watertight": true,
+      "motion": "fixed",
+      "color": [
+        99,
+        129,
+        119
+      ],
+      "kind": "structure",
+      "offset": 31032,
+      "vertices": 18522
+    },
+    {
+      "id": "Front bearing cheek",
+      "print_rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "print_rotation_angle": 1.5707963267948966,
+      "bounds": [
+        [
+          -5.100000001490116,
+          7.45,
+          15.299999999999999
+        ],
+        [
+          44.20000000298023,
+          11.45,
+          36.900000002980235
+        ]
+      ],
+      "volume_mm3": 1879.4237247602462,
+      "solids": [
+        1879.423724760246
+      ],
+      "watertight": true,
+      "motion": "fixed",
+      "color": [
+        99,
+        129,
+        119
+      ],
+      "kind": "structure",
+      "offset": 86598,
+      "vertices": 10572
+    },
+    {
+      "id": "Rear bearing cheek",
+      "print_rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "print_rotation_angle": -1.5707963267948966,
+      "bounds": [
+        [
+          -5.100000001490116,
+          11.65,
+          15.300000001490115
+        ],
+        [
+          44.20000000298023,
+          24.25,
+          36.900000002980235
+        ]
+      ],
+      "volume_mm3": 2206.102286986088,
+      "solids": [
+        2206.102286986088
+      ],
+      "watertight": true,
+      "motion": "fixed",
+      "color": [
+        99,
+        129,
+        119
+      ],
+      "kind": "structure",
+      "offset": 118314,
+      "vertices": 14472
+    },
+    {
+      "id": "Short lever",
+      "print_rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "print_rotation_angle": -1.5707963267948966,
+      "bounds": [
+        [
+          2.1562926173210144,
+          11.65,
+          22.694009599089622
+        ],
+        [
+          25.39232360571623,
+          20.049999999999997,
+          37.22705662697554
+        ]
+      ],
+      "volume_mm3": 1603.2150124057287,
+      "solids": [
+        1603.2150124057287
+      ],
+      "watertight": true,
+      "motion": "rocker",
+      "color": [
+        229,
+        171,
+        45
+      ],
+      "kind": "printed",
+      "offset": 161730,
+      "vertices": 8592
+    },
+    {
+      "id": "Left inner bearing wall",
+      "print_rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "print_rotation_angle": 1.5707963267948966,
+      "bounds": [
+        [
+          -11.8,
+          5.8999999999999995,
+          -22.7
+        ],
+        [
+          -4.2,
+          32.4,
+          -4.899999999999999
+        ]
+      ],
+      "volume_mm3": 1731.7110720413496,
+      "solids": [
+        1731.7110720413498
+      ],
+      "watertight": true,
+      "motion": "fixed",
+      "color": [
+        99,
+        129,
+        119
+      ],
+      "kind": "structure",
+      "offset": 187506,
+      "vertices": 8976
+    },
+    {
+      "id": "Right inner bearing wall",
+      "print_rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "print_rotation_angle": -1.5707963267948966,
+      "bounds": [
+        [
+          4.2,
+          5.8999999999999995,
+          -22.7
+        ],
+        [
+          11.8,
+          32.4,
+          -4.899999999999999
+        ]
+      ],
+      "volume_mm3": 1731.71107204135,
+      "solids": [
+        1731.7110720413498
+      ],
+      "watertight": true,
+      "motion": "fixed",
+      "color": [
+        99,
+        129,
+        119
+      ],
+      "kind": "structure",
+      "offset": 214434,
+      "vertices": 8964
+    },
+    {
+      "id": "Common baseboard",
+      "print_rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "print_rotation_angle": -1.5707963267948966,
+      "bounds": [
+        [
+          -34.0,
+          21.2,
+          -26.7
+        ],
+        [
+          34.0,
+          38.4,
+          36.0
+        ]
+      ],
+      "volume_mm3": 25963.106762892898,
+      "solids": [
+        25963.106762892894
+      ],
+      "watertight": true,
+      "motion": "fixed",
+      "color": [
+        99,
+        129,
+        119
+      ],
+      "kind": "structure",
+      "offset": 241326,
+      "vertices": 19254
+    },
+    {
+      "id": "Right carriage bearing support",
+      "print_rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "print_rotation_angle": -1.5707963267948966,
+      "bounds": [
+        [
+          8.0,
+          10.35,
+          -1.8
+        ],
+        [
+          15.6,
+          33.4,
+          21.8
+        ]
+      ],
+      "volume_mm3": 1395.7194779068486,
+      "solids": [
+        1395.7194779068489
+      ],
+      "watertight": true,
+      "motion": "carriage",
+      "color": [
+        45,
+        140,
+        154
+      ],
+      "kind": "printed",
+      "offset": 299088,
+      "vertices": 9546
+    },
+    {
+      "id": "L072",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 327726,
+      "vertices": 3792
+    },
+    {
+      "id": "L097",
+      "kind": "lego",
+      "color": [
+        83,
+        154,
+        110
+      ],
+      "motion": "O-route",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 339102,
+      "vertices": 1824
+    },
+    {
+      "id": "L099",
+      "kind": "lego",
+      "color": [
+        198,
+        70,
+        58
+      ],
+      "motion": "clutch-ring",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 344574,
+      "vertices": 3006
+    },
+    {
+      "id": "L102",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B",
+      "spin": -1,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 353592,
+      "vertices": 3792
+    },
+    {
+      "id": "L069",
+      "kind": "lego",
+      "color": [
+        83,
+        154,
+        110
+      ],
+      "motion": "O-route",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 364968,
+      "vertices": 1392
+    },
+    {
+      "id": "L105",
+      "kind": "lego",
+      "color": [
+        83,
+        154,
+        110
+      ],
+      "motion": "O-route",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 369144,
+      "vertices": 1392
+    },
+    {
+      "id": "O-left",
+      "kind": "lego",
+      "color": [
+        83,
+        154,
+        110
+      ],
+      "motion": "O",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 373320,
+      "vertices": 1392
+    },
+    {
+      "id": "O-right",
+      "kind": "lego",
+      "color": [
+        83,
+        154,
+        110
+      ],
+      "motion": "O",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 377496,
+      "vertices": 1392
+    },
+    {
+      "id": "O-shaft",
+      "kind": "lego",
+      "color": [
+        149,
+        103,
+        163
+      ],
+      "motion": "O",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 381672,
+      "vertices": 192,
+      "lego_part": "23948"
+    },
+    {
+      "id": "C-shaft",
+      "kind": "lego",
+      "color": [
+        149,
+        103,
+        163
+      ],
+      "motion": "input",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 382248,
+      "vertices": 192,
+      "lego_part": "23948"
+    },
+    {
+      "id": "U072",
+      "kind": "lego",
+      "color": [
+        149,
+        103,
+        163
+      ],
+      "motion": "input",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 382824,
+      "vertices": 1392
+    },
+    {
+      "id": "selector-right-retainer",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "input",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 387000,
+      "vertices": 1392
+    },
+    {
+      "id": "U015",
+      "kind": "lego",
+      "color": [
+        149,
+        103,
+        163
+      ],
+      "motion": "worm",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 391176,
+      "vertices": 4890
+    },
+    {
+      "id": "U022",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "gear",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 405846,
+      "vertices": 1536
+    },
+    {
+      "id": "A-shaft",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A",
+      "spin": 2,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 410454,
+      "vertices": 192,
+      "lego_part": "32073"
+    },
+    {
+      "id": "A-idler-shaft",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A-idler",
+      "spin": -0.6666666666666666,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 411030,
+      "vertices": 192,
+      "lego_part": "3705"
+    },
+    {
+      "id": "A-input",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 411606,
+      "vertices": 3120,
+      "lego_part": "94925"
+    },
+    {
+      "id": "A-idler",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A-idler",
+      "spin": 2,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 420966,
+      "vertices": 1536,
+      "lego_part": "10928"
+    },
+    {
+      "id": "A-input-bush-10",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 425574,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "A-idler-bush-10",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A-idler",
+      "spin": 1,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 429750,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "A-input-bush-22",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 433926,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "A-idler-bush-22",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A-idler",
+      "spin": 1,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 438102,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "A-input-bush-34",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 442278,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "A-idler-bush-34",
+      "kind": "lego",
+      "color": [
+        54,
+        133,
+        180
+      ],
+      "motion": "A-idler",
+      "spin": 1,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 446454,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "B-shaft",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B",
+      "spin": 2,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 450630,
+      "vertices": 192,
+      "lego_part": "32073"
+    },
+    {
+      "id": "B-idler-shaft",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B-idler",
+      "spin": -0.6666666666666666,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 451206,
+      "vertices": 192,
+      "lego_part": "3705"
+    },
+    {
+      "id": "B-input",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 451782,
+      "vertices": 3120,
+      "lego_part": "94925"
+    },
+    {
+      "id": "B-idler",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B-idler",
+      "spin": 2,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 461142,
+      "vertices": 1536,
+      "lego_part": "10928"
+    },
+    {
+      "id": "B-input-bush--10",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 465750,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "B-idler-bush--10",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B-idler",
+      "spin": 1,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 469926,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "B-input-bush--22",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 474102,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "B-idler-bush--22",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B-idler",
+      "spin": 1,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 478278,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "B-input-bush--34",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B",
+      "spin": 1,
+      "axisY": 10.2,
+      "axisZ": -18.4,
+      "offset": 482454,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "B-idler-bush--34",
+      "kind": "lego",
+      "color": [
+        220,
+        141,
+        45
+      ],
+      "motion": "B-idler",
+      "spin": 1,
+      "axisY": 17.904544113703288,
+      "axisZ": -9.2,
+      "offset": 486630,
+      "vertices": 1392,
+      "lego_part": "32123a"
+    },
+    {
+      "id": "Cartridge 3L pin 40 0.7",
+      "motion": "fixed",
+      "color": [
+        55,
+        100,
+        190
+      ],
+      "lego_part": "6558",
+      "kind": "lego",
+      "spin": 0,
+      "offset": 490806,
+      "vertices": 6432,
+      "axisY": 10.2,
+      "axisZ": 0
+    },
+    {
+      "id": "Cartridge 3L pin 40 -12.5",
+      "motion": "fixed",
+      "color": [
+        55,
+        100,
+        190
+      ],
+      "lego_part": "6558",
+      "kind": "lego",
+      "spin": 0,
+      "offset": 510102,
+      "vertices": 6432,
+      "axisY": 10.2,
+      "axisZ": 0
+    },
+    {
+      "id": "reaction-stop-axle",
+      "motion": "gear",
+      "color": [
+        80,
+        87,
+        85
+      ],
+      "lego_part": "24316",
+      "kind": "lego",
+      "spin": 0,
+      "offset": 529398,
+      "vertices": 504,
+      "axisY": 10.2,
+      "axisZ": 0
+    },
+    {
+      "id": "reaction-retainer",
+      "kind": "lego",
+      "motion": "gear",
+      "spin": 0,
+      "color": [
+        80,
+        85,
+        85
+      ],
+      "offset": 530910,
+      "vertices": 1392,
+      "lego_part": "32123a",
+      "axisY": 10.2,
+      "axisZ": 0
+    },
+    {
+      "id": "pivot-stop-axle",
+      "motion": "fixed",
+      "color": [
+        80,
+        87,
+        85
+      ],
+      "lego_part": "24316",
+      "kind": "lego",
+      "spin": 0,
+      "offset": 535086,
+      "vertices": 504,
+      "axisY": 10.2,
+      "axisZ": 0
+    },
+    {
+      "id": "pivot-retainer",
+      "kind": "lego",
+      "motion": "fixed",
+      "spin": 0,
+      "color": [
+        80,
+        85,
+        85
+      ],
+      "offset": 536598,
+      "vertices": 1392,
+      "lego_part": "32123a",
+      "axisY": 10.2,
+      "axisZ": 0
+    },
+    {
+      "id": "Baseboard pin X-28 Z-18.4",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "fixed",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 540774,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Baseboard pin X-28 Z10",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "fixed",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 554310,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Baseboard pin X-8 Z-18.4",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "fixed",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 567846,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Baseboard pin X-8 Z-9.2",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "fixed",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 581382,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Baseboard pin X28 Z-18.4",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "fixed",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 594918,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Baseboard pin X28 Z10",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "fixed",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 608454,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Baseboard pin X8 Z-18.4",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "fixed",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 621990,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Baseboard pin X8 Z-9.2",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "fixed",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 635526,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Carriage support pin 1 2.0",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "carriage",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 649062,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Carriage support pin 1 18.0",
+      "kind": "lego",
+      "color": [
+        85,
+        92,
+        94
+      ],
+      "motion": "carriage",
+      "spin": 0,
+      "axisY": 10.2,
+      "axisZ": 0,
+      "offset": 662598,
+      "vertices": 4512,
+      "lego_part": "2780"
+    },
+    {
+      "id": "Elastic band",
+      "motion": "band",
+      "kind": "band",
+      "color": [
+        180,
+        78,
+        47
+      ],
+      "offset": 676134,
+      "vertices": 3120
+    },
+    {
+      "id": "Merged bearing and arm",
+      "motion": "carriage",
+      "kind": "printed",
+      "color": [
+        45,
+        140,
+        154
+      ],
+      "offset": 685494,
+      "vertices": 16050
+    }
+  ],
+  "pivot": [
+    13.192323603988665,
+    10.2,
+    32.12844869819761
+  ],
+  "reaction": [
+    0,
+    10.2,
+    24.0
+  ],
+  "bandA": [
+    37.19232360398867,
+    10.199999999999998,
+    28.12844869819761
+  ],
+  "bandB": [
+    22.192323603988665,
+    10.199999999999998,
+    30.62844869819761
+  ]
+}

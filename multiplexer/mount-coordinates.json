@@ -1,0 +1,42 @@
+[
+  {
+    "wall": "Left side frame",
+    "x": -28,
+    "z": -18.4
+  },
+  {
+    "wall": "Left side frame",
+    "x": -28,
+    "z": 11.5
+  },
+  {
+    "wall": "Left inner bearing wall",
+    "x": -8,
+    "z": -18.4
+  },
+  {
+    "wall": "Left inner bearing wall",
+    "x": -8,
+    "z": -9.2
+  },
+  {
+    "wall": "Right side frame",
+    "x": 28,
+    "z": -18.4
+  },
+  {
+    "wall": "Right side frame",
+    "x": 28,
+    "z": 11.5
+  },
+  {
+    "wall": "Right inner bearing wall",
+    "x": 8,
+    "z": -18.4
+  },
+  {
+    "wall": "Right inner bearing wall",
+    "x": 8,
+    "z": -9.2
+  }
+]

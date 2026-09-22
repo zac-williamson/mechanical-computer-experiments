@@ -1,0 +1,179 @@
+{
+  "parts": [
+    {
+      "part": "Left side frame",
+      "source": "Left side frame.stl",
+      "sha256": "7dca62249202639e2fc99cbdb3e050299ab659c91766000d7afb0bd42e6798f2",
+      "position_mm": [
+        16.0,
+        16.0,
+        0
+      ],
+      "size_mm": [
+        44.2,
+        27.7,
+        7.600000000000001
+      ],
+      "bed_contact_mm2": 826.9080704895744
+    },
+    {
+      "part": "Right side frame",
+      "source": "Right side frame.stl",
+      "sha256": "281cf11aff47fc7140749898ef5dc74136e47bc32321786884405b913dff28c3",
+      "position_mm": [
+        72.2,
+        16.0,
+        0
+      ],
+      "size_mm": [
+        60.69999999701977,
+        27.7,
+        19.59999999701977
+      ],
+      "bed_contact_mm2": 829.6037662295344
+    },
+    {
+      "part": "Front bearing cheek",
+      "source": "Front bearing cheek.stl",
+      "sha256": "4fdcdac5242d4ad1ce545e3e21ccd463543b6e3ae410e4d3f90bdf096cca3cfd",
+      "position_mm": [
+        144.8999999970198,
+        16.0,
+        0
+      ],
+      "size_mm": [
+        49.30000000447035,
+        21.599999997022557,
+        4.000000000000001
+      ],
+      "bed_contact_mm2": 478.6612004789532
+    },
+    {
+      "part": "Rear bearing cheek",
+      "source": "Rear bearing cheek.stl",
+      "sha256": "e2141c6eca3377366caaddef3d79aaa8ec6812924d7162e4b157e863288f08b9",
+      "position_mm": [
+        16.0,
+        55.7,
+        0
+      ],
+      "size_mm": [
+        49.30000000447035,
+        21.60000000149012,
+        12.600000000000003
+      ],
+      "bed_contact_mm2": 484.02956831138744
+    },
+    {
+      "part": "Short lever",
+      "source": "Short lever.stl",
+      "sha256": "29ce1233d6912d52e519834d5a4a6cd1c7506ab79968da4f5515cde4a1296f50",
+      "position_mm": [
+        77.30000000447035,
+        55.7,
+        0
+      ],
+      "size_mm": [
+        23.236030988395214,
+        14.533047027885917,
+        8.399999999999999
+      ],
+      "bed_contact_mm2": 207.09435880348374
+    },
+    {
+      "part": "Left inner bearing wall",
+      "source": "Left inner bearing wall.stl",
+      "sha256": "37830c2319f566c1c224ddf9ad84177e2c7539a64da15442a53fe03ae0177048",
+      "position_mm": [
+        112.53603099286556,
+        55.7,
+        0
+      ],
+      "size_mm": [
+        17.8,
+        26.5,
+        7.600000000000002
+      ],
+      "bed_contact_mm2": 304.5753322746951
+    },
+    {
+      "part": "Right inner bearing wall",
+      "source": "Right inner bearing wall.stl",
+      "sha256": "b1716f3502f1c0d4ce6086ccaafdb92d2f0254d2176670c8db4b73df00e0ac26",
+      "position_mm": [
+        142.33603099286557,
+        55.7,
+        0
+      ],
+      "size_mm": [
+        17.8,
+        26.5,
+        7.600000000000002
+      ],
+      "bed_contact_mm2": 304.57533227469537
+    },
+    {
+      "part": "Common baseboard",
+      "source": "Common baseboard.stl",
+      "sha256": "78b4015d8705399399d3e266489faca587b2daa3437de1e3a0ed9c96b832571d",
+      "position_mm": [
+        16.0,
+        94.2,
+        0
+      ],
+      "size_mm": [
+        68.0,
+        64.19999999999999,
+        22.849999999999998
+      ],
+      "bed_contact_mm2": 3109.5197186787077
+    },
+    {
+      "part": "Right carriage bearing support",
+      "source": "Right carriage bearing support.stl",
+      "sha256": "274b074f04bcbe6994b0fc0986d1c09d77631570bea11dbe18d7263226d97e1b",
+      "position_mm": [
+        96.0,
+        94.2,
+        0
+      ],
+      "size_mm": [
+        23.6,
+        23.3,
+        7.600000000000001
+      ],
+      "bed_contact_mm2": 138.85703347001194
+    },
+    {
+      "part": "Carriage fork and roof",
+      "source": "Carriage fork and roof.stl",
+      "sha256": "96bd31d487351602321e84c0dd0889ea5aacd663be798a8cb226c9d4a0217d23",
+      "position_mm": [
+        131.6,
+        94.2,
+        0
+      ],
+      "size_mm": [
+        45.59954905509949,
+        26.24999919073486,
+        42.199546687304974
+      ],
+      "bed_contact_mm2": 384.605722643604
+    }
+  ],
+  "solid_count": 10,
+  "watertight": true,
+  "bounds_mm": [
+    [
+      16.0,
+      16.0,
+      0.0
+    ],
+    [
+      194.20000000149014,
+      158.39999999999998,
+      42.199546687304974
+    ]
+  ],
+  "notes": "Current aligned 16T multiplexer. LEGO hardware excluded. Orientations preserved; no generated supports or slicing included."
+}

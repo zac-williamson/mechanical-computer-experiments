@@ -1,0 +1,128 @@
+{
+  "fixed_overlaps": [],
+  "moving_overlaps": [],
+  "solidity": [
+    {
+      "id": "Left side frame",
+      "solids": [
+        5916.924880119509
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Right side frame",
+      "solids": [
+        6823.7525914849875
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Front bearing cheek",
+      "solids": [
+        1879.423653611864
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Rear bearing cheek",
+      "solids": [
+        2206.1022158943283
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Short lever",
+      "solids": [
+        1603.2152561082087
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Left inner bearing wall",
+      "solids": [
+        1731.71107204135
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Right inner bearing wall",
+      "solids": [
+        1731.71107204135
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Common baseboard",
+      "solids": [
+        26972.836290161304
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Right carriage bearing support",
+      "solids": [
+        1458.9169561519618
+      ],
+      "watertight": true
+    },
+    {
+      "id": "Carriage fork and roof",
+      "solids": [
+        9178.030025822833
+      ],
+      "watertight": true
+    }
+  ],
+  "lever_overlaps": [],
+  "native_print_hardware_contacts": {
+    "Right inner bearing wall | Baseboard pin X8 Z-9.2": 183,
+    "Carriage fork and roof | Carriage support pin 1 18.0": 183,
+    "Left inner bearing wall | Baseboard pin X-8 Z-18.4": 183,
+    "Carriage fork and roof | Carriage support pin 1 2.0": 183,
+    "Common baseboard | Baseboard pin X28 Z10": 183,
+    "Rear bearing cheek | Cartridge 3L pin 40 0.7": 183,
+    "Right carriage bearing support | Carriage support pin 1 2.0": 183,
+    "Common baseboard | Baseboard pin X-8 Z-18.4": 183,
+    "Right carriage bearing support | Carriage support pin 1 18.0": 183,
+    "Left side frame | Baseboard pin X-28 Z-18.4": 183,
+    "Common baseboard | Baseboard pin X28 Z-18.4": 183,
+    "Right side frame | Baseboard pin X28 Z10": 183,
+    "Common baseboard | Baseboard pin X8 Z-18.4": 183,
+    "Left side frame | Baseboard pin X-28 Z10": 183,
+    "Common baseboard | Baseboard pin X-28 Z-18.4": 183,
+    "Carriage fork and roof | L099": 177,
+    "Front bearing cheek | Cartridge 3L pin 40 -12.5": 183,
+    "Right inner bearing wall | Baseboard pin X8 Z-18.4": 183,
+    "Right side frame | Cartridge 3L pin 40 -12.5": 183,
+    "Common baseboard | Baseboard pin X-28 Z10": 183,
+    "Left inner bearing wall | Baseboard pin X-8 Z-9.2": 183,
+    "Front bearing cheek | Cartridge 3L pin 40 0.7": 183,
+    "Right side frame | Baseboard pin X28 Z-18.4": 183,
+    "Rear bearing cheek | Cartridge 3L pin 40 -12.5": 183,
+    "Common baseboard | Baseboard pin X-8 Z-9.2": 183,
+    "Common baseboard | Baseboard pin X8 Z-9.2": 183,
+    "Right side frame | Cartridge 3L pin 40 0.7": 183,
+    "Short lever | U022": 60
+  },
+  "unexpected_native_print_contacts": {},
+  "envelope": {
+    "min": [
+      -44.0,
+      -4.200000000000002,
+      -27.04398804135286
+    ],
+    "max": [
+      44.20000000298023,
+      38.4,
+      45.2995491027832
+    ],
+    "size": [
+      88.20000000298023,
+      42.6,
+      72.34353714413606
+    ],
+    "volume_mm3": 271817.8189915899,
+    "reduction_vs_baseline": 0.5945360845320586,
+    "band_and_lever_sweep_not_yet_included": true
+  }
+}

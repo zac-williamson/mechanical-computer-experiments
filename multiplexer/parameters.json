@@ -1,0 +1,23 @@
+{
+  "worm_center": [
+    0,
+    10.2,
+    16.0
+  ],
+  "reaction_center": [
+    0,
+    10.2,
+    24.0
+  ],
+  "pivot": [
+    13.192323603988665,
+    10.2,
+    32.12844869819761
+  ],
+  "rotation_axis": [
+    0,
+    1,
+    0
+  ],
+  "status": "experimental prototype; physical qualification pending"
+}

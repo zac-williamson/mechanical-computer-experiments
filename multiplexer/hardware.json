@@ -1,0 +1,778 @@
+[
+  {
+    "id": "L072",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 0,
+    "vertices": 3792
+  },
+  {
+    "id": "L097",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 11376,
+    "vertices": 1824
+  },
+  {
+    "id": "L099",
+    "kind": "native",
+    "color": [
+      198,
+      70,
+      58
+    ],
+    "motion": "clutch-ring",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 16848,
+    "vertices": 3006
+  },
+  {
+    "id": "L102",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": -1,
+    "axisY": 10.200000000000001,
+    "axisZ": -8.00000000253931e-06,
+    "offset": 25866,
+    "vertices": 3792
+  },
+  {
+    "id": "L069",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 37242,
+    "vertices": 1392
+  },
+  {
+    "id": "L105",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 41418,
+    "vertices": 1392
+  },
+  {
+    "id": "O-left",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0.0,
+    "offset": 45594,
+    "vertices": 1392
+  },
+  {
+    "id": "O-right",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0.0,
+    "offset": 49770,
+    "vertices": 1392
+  },
+  {
+    "id": "O-shaft",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "O",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 53946,
+    "vertices": 192,
+    "lego_part": "23948"
+  },
+  {
+    "id": "C-shaft",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "input",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 54522,
+    "vertices": 192,
+    "lego_part": "23948"
+  },
+  {
+    "id": "U072",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "input",
+    "spin": 0,
+    "axisY": 10.200000000000001,
+    "axisZ": 32.0,
+    "offset": 55098,
+    "vertices": 1392
+  },
+  {
+    "id": "selector-right-retainer",
+    "kind": "native",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "input",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 59274,
+    "vertices": 1392
+  },
+  {
+    "id": "U015",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "worm",
+    "spin": 0,
+    "axisY": 15.186000000000005,
+    "axisZ": 32.0,
+    "offset": 63450,
+    "vertices": 4890
+  },
+  {
+    "id": "U022",
+    "kind": "native",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "gear",
+    "spin": 0,
+    "axisY": 2.2,
+    "axisZ": 32.0,
+    "offset": 78120,
+    "vertices": 1536
+  },
+  {
+    "id": "A-shaft",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 2,
+    "axisY": 10.2,
+    "axisZ": -12.0,
+    "offset": 82728,
+    "vertices": 192,
+    "lego_part": "32073"
+  },
+  {
+    "id": "A-idler-shaft",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": -0.6666666666666666,
+    "axisY": 10.2,
+    "axisZ": -20.0,
+    "offset": 83304,
+    "vertices": 192,
+    "lego_part": "3705"
+  },
+  {
+    "id": "A-input",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": -40.0,
+    "offset": 83880,
+    "vertices": 3120,
+    "lego_part": "94925"
+  },
+  {
+    "id": "A-idler",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": 2,
+    "axisY": 10.2,
+    "axisZ": -12.0,
+    "offset": 93240,
+    "vertices": 1536,
+    "lego_part": "10928"
+  },
+  {
+    "id": "A-input-bush-10",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 97848,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "A-idler-bush-10",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 102024,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "A-input-bush-22",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 106200,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "A-idler-bush-22",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 110376,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "A-input-bush-34",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 114552,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "A-idler-bush-34",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 118728,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "B-shaft",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 2,
+    "axisY": 10.2,
+    "axisZ": -12.0,
+    "offset": 122904,
+    "vertices": 192,
+    "lego_part": "32073"
+  },
+  {
+    "id": "B-idler-shaft",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B-idler",
+    "spin": -0.6666666666666666,
+    "axisY": 10.2,
+    "axisZ": -20.0,
+    "offset": 123480,
+    "vertices": 192,
+    "lego_part": "3705"
+  },
+  {
+    "id": "B-input",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": -40.0,
+    "offset": 124056,
+    "vertices": 3120,
+    "lego_part": "94925"
+  },
+  {
+    "id": "B-idler",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B-idler",
+    "spin": 2,
+    "axisY": 10.2,
+    "axisZ": -12.0,
+    "offset": 133416,
+    "vertices": 1536,
+    "lego_part": "10928"
+  },
+  {
+    "id": "B-input-bush--10",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 138024,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "B-idler-bush--10",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B-idler",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 142200,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "B-input-bush--22",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 146376,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "B-idler-bush--22",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B-idler",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 150552,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "B-input-bush--34",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 154728,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "B-idler-bush--34",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B-idler",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 158904,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "Cartridge 3L pin 40 0.7",
+    "motion": "fixed",
+    "color": [
+      55,
+      100,
+      190
+    ],
+    "lego_part": "6558",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 163080,
+    "vertices": 6432
+  },
+  {
+    "id": "Cartridge 3L pin 40 -12.5",
+    "motion": "fixed",
+    "color": [
+      55,
+      100,
+      190
+    ],
+    "lego_part": "6558",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 182376,
+    "vertices": 6432
+  },
+  {
+    "id": "reaction-stop-axle",
+    "motion": "gear",
+    "color": [
+      80,
+      87,
+      85
+    ],
+    "lego_part": "24316",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 201672,
+    "vertices": 504
+  },
+  {
+    "id": "reaction-retainer",
+    "kind": "native",
+    "motion": "gear",
+    "spin": 0,
+    "color": [
+      80,
+      85,
+      85
+    ],
+    "offset": 203184,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "pivot-stop-axle",
+    "motion": "fixed",
+    "color": [
+      80,
+      87,
+      85
+    ],
+    "lego_part": "24316",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 207360,
+    "vertices": 504
+  },
+  {
+    "id": "pivot-retainer",
+    "kind": "native",
+    "motion": "fixed",
+    "spin": 0,
+    "color": [
+      80,
+      85,
+      85
+    ],
+    "offset": 208872,
+    "vertices": 1392,
+    "lego_part": "32123a"
+  },
+  {
+    "id": "Baseboard pin X-28 Z-18.4",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "fixed",
+    "spin": 0,
+    "axisY": 28.0,
+    "axisZ": -40.0,
+    "offset": 213048,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Baseboard pin X-28 Z10",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "fixed",
+    "spin": 0,
+    "axisY": 28.0,
+    "axisZ": -40.0,
+    "offset": 226584,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Baseboard pin X-8 Z-18.4",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "fixed",
+    "spin": 0,
+    "axisY": 28.0,
+    "axisZ": -40.0,
+    "offset": 240120,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Baseboard pin X-8 Z-9.2",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "fixed",
+    "spin": 0,
+    "axisY": 28.0,
+    "axisZ": -40.0,
+    "offset": 253656,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Baseboard pin X28 Z-18.4",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "fixed",
+    "spin": 0,
+    "axisY": 28.0,
+    "axisZ": -40.0,
+    "offset": 267192,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Baseboard pin X28 Z10",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "fixed",
+    "spin": 0,
+    "axisY": 28.0,
+    "axisZ": -40.0,
+    "offset": 280728,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Baseboard pin X8 Z-18.4",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "fixed",
+    "spin": 0,
+    "axisY": 28.0,
+    "axisZ": -40.0,
+    "offset": 294264,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Baseboard pin X8 Z-9.2",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "fixed",
+    "spin": 0,
+    "axisY": 28.0,
+    "axisZ": -40.0,
+    "offset": 307800,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Carriage support pin 1 2.0",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "carriage",
+    "spin": 0,
+    "axisY": -18.6,
+    "axisZ": 34.0,
+    "offset": 321336,
+    "vertices": 4512,
+    "lego_part": "2780"
+  },
+  {
+    "id": "Carriage support pin 1 18.0",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "carriage",
+    "spin": 0,
+    "axisY": -18.6,
+    "axisZ": 34.0,
+    "offset": 334872,
+    "vertices": 4512,
+    "lego_part": "2780"
+  }
+]

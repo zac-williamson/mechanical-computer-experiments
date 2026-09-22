@@ -9,7 +9,7 @@ Four current designs, using LEGO axles, gears, bushings and friction pins with p
 | Register cam test | [Viewer](cam-test/Viewer.html) · [Build and print files](cam-test/README.md) |
 | 1-bit adder | [Viewer](adder/Viewer.html) · [Design](adder/README.md) |
 
-The multiplexer contains the common actuator meshes. Register and adder generators reference these directly; the cam rig derives its components from the register. Rebuild in that order. There are no retained alternative assemblies or embedded obsolete actuator libraries.
+The sole current multiplexer is in `multiplexer/`: aligned 16T axle spacing, two-piece carriage and +X cheek mounts. Its assembly meshes, viewer, print layout and validation tools live together there. Retired multiplexer variants are not part of the working tree; use Git history only when explicitly requested.
 
 These are physical prototypes. CAD checks and prescribed animations do not establish friction, wear, strength or reliable switching. The adder is an engineering layout, not a released print package. See each design's current check results.
 

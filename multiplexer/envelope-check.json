@@ -1,0 +1,10 @@
+{
+  "pin_collar_interferences": [],
+  "rail_insertion_interferences": [],
+  "rotating_envelope_interferences": [],
+  "band_carriage_sweep_interferences": [],
+  "worm_insertion_interferences": [],
+  "carriage_positions": 185,
+  "band_angles": 229,
+  "notes": "Filled full-revolution cylinders are conservative; intended gear/lever and ring/fork contacts excluded. This is geometric screening, not a load test."
+}
