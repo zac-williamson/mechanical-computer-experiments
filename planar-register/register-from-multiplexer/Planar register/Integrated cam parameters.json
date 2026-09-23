@@ -1,0 +1,14 @@
+{
+  "write_x": -85.0,
+  "bolt_x": -5.05,
+  "slope": 1.2,
+  "radius": 3.6,
+  "closed_z": 53.3,
+  "lift": 5.4,
+  "high": 55.099999999999994,
+  "intercept": 46.116620233347206,
+  "crest": -7.486149805543991,
+  "penetration": 3.2,
+  "guide_span": 14,
+  "guide_clearance": 0.4
+}

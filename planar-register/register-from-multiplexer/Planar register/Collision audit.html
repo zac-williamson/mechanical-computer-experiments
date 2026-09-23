@@ -1,0 +1,1056 @@
+<!doctype html><meta charset="utf-8"><title>Current coupled motion audit</title><style>body{font:17px system-ui;max-width:1000px;margin:40px auto;padding:20px;background:#f6f6ee;color:#24383b}pre{white-space:pre-wrap}li{margin:12px 0}a{color:#076d80}</style><h1>Detachable bolt guide</h1><p>The guide is now separate, attached with two LEGO friction pins and positive seating lands. The base prints rear-face down with no unsupported layers in the 0.2 mm geometric check. The guide prints flat-foot down with one explicitly checked 1.2 mm bridge at its elastic-band groove. <a href="Support-free%20print%20checks.json">Print geometry checks</a> · <a href="Detachable%20guide%20checks.json">Guide travel checks</a></p><p>Seven newly generated walls, seventeen shaft-centred bearings and fourteen relocated two-pin mounts. Base holes are generated from the same mounting table. The older whole-assembly audit below predates this frame and is retained only as historical evidence.</p><p><a href="Bearing%20support%20checks.json">Current bearing and rotating-envelope checks</a> · <a href="Frame%20printed%20clearance.json">Current frame travel checks</a> · <a href="Frame%20native%20contacts.json">Current native contact checks</a></p><p><a href="Viewer.html">Open rotating assembly</a></p><p><strong>Development model. Not a zero-intersection or print-readiness certificate.</strong></p><h2>Definite external faults corrected</h2><ul><li>Both continuous clutch axles passed through the internal stops in the LEGO 26287 joiners. Each is now two 5L axles, with 0.2 mm nominal stop clearance.</li><li>POWER gears/bushes and roller bushes had cross bores rotated into their shafts. Keyed components now align; adjacent gear meshes were rephased as complete assemblies.</li><li>The filled bridge-connector placeholder is replaced by native LEGO 59443 geometry. Shaft ends clear its divider by 0.3 mm nominally. WRITE moved 4.2 mm left to accommodate standard axles.</li></ul><h2>Model and coverage</h2><p>Worm angles drive carriage travel while the reaction gear is restrained by the lever. Endpoint release allows reaction-gear rotation. The viewer and audit share shaft angles and pose transforms. All 12 input transitions are covered by 72 sensitivity cases, including alternative initial stored bits and assumed clutch take-up. These assumptions are not measured backlash bounds.</p><h2>Remaining limits</h2><p>Small gear/lever contact residual reaches 0.0116 mm in sampled geometry. Printed contact findings below remain reported. Open native LEGO meshes yield surface-contact candidates, not reliable solid penetration depths. Seven closing-data-change cases fail to finish locked. Clutch tooth engagement forces, physical backlash, PLA compliance and 0.1 Nm survival remain unqualified.</p><h2>All-part sweep</h2><pre>{
+  &quot;parts&quot;: 97,
+  &quot;cases&quot;: 72,
+  &quot;exported_frames&quot;: 64872,
+  &quot;unique_frames&quot;: 42046,
+  &quot;all_part_group_exclusions&quot;: [],
+  &quot;printed_or_printed_native_hits&quot;: [
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Right inner bearing wall&quot;,
+        &quot;Memory \u2014 Baseboard pin X8 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.15007200230601364,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Front bearing cheek&quot;,
+        &quot;Memory \u2014 Cartridge 3L pin 40 -12.5&quot;
+      ],
+      &quot;value&quot;: 0.05033123987587828,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Right inner bearing wall&quot;,
+        &quot;Write \u2014 Baseboard pin X8 Z-9.2&quot;
+      ],
+      &quot;value&quot;: 0.1500749308794064,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Right inner bearing wall&quot;,
+        &quot;Write \u2014 Baseboard pin X8 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.15007493130111033,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Right side frame&quot;,
+        &quot;Write \u2014 Cartridge 3L pin 40 0.7&quot;
+      ],
+      &quot;value&quot;: 0.05033223853660071,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Right side frame&quot;,
+        &quot;Write \u2014 Baseboard pin X28 Z10&quot;
+      ],
+      &quot;value&quot;: 0.15007253853020067,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Carriage fork and roof&quot;,
+        &quot;Write \u2014 Carriage support pin 1 2.0&quot;
+      ],
+      &quot;value&quot;: 0.15007048473017334,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Rear bearing cheek&quot;,
+        &quot;Write \u2014 Cartridge 3L pin 40 -12.5&quot;
+      ],
+      &quot;value&quot;: 0.05033156419335911,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Memory \u2014 Baseboard pin X-28 Z10&quot;
+      ],
+      &quot;value&quot;: 0.0497649756775041,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Left inner bearing wall&quot;,
+        &quot;Memory \u2014 Baseboard pin X-8 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.15007200230601364,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Write \u2014 Baseboard pin X28 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.1500722007772192,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Memory \u2014 Baseboard pin X8 Z-9.2&quot;
+      ],
+      &quot;value&quot;: 0.1500713267923316,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Left inner bearing wall&quot;,
+        &quot;Memory \u2014 Baseboard pin X-8 Z-9.2&quot;
+      ],
+      &quot;value&quot;: 0.1500713267923316,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Memory \u2014 Baseboard pin X28 Z10&quot;
+      ],
+      &quot;value&quot;: 0.0497649756775041,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Right carriage bearing support&quot;,
+        &quot;Write \u2014 Carriage support pin 1 2.0&quot;
+      ],
+      &quot;value&quot;: 0.15041559411440736,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Left side frame&quot;,
+        &quot;Memory \u2014 Baseboard pin X-28 Z10&quot;
+      ],
+      &quot;value&quot;: 0.15007065360887958,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Right side frame&quot;,
+        &quot;Memory \u2014 Cartridge 3L pin 40 0.7&quot;
+      ],
+      &quot;value&quot;: 0.05033075503962682,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Right side frame&quot;,
+        &quot;Memory \u2014 Cartridge 3L pin 40 -12.5&quot;
+      ],
+      &quot;value&quot;: 0.05033075503962682,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Carriage fork and roof&quot;,
+        &quot;Write \u2014 Carriage support pin 1 18.0&quot;
+      ],
+      &quot;value&quot;: 0.15185584595943505,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Memory \u2014 Baseboard pin X28 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.049765650040786875,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Memory \u2014 Baseboard pin X8 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.15007200230601364,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Rear bearing cheek&quot;,
+        &quot;Write \u2014 Cartridge 3L pin 40 0.7&quot;
+      ],
+      &quot;value&quot;: 0.05033223853660071,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Write \u2014 Baseboard pin X8 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.15007492905832537,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Memory \u2014 Baseboard pin X-8 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.15007200230601364,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Rear bearing cheek&quot;,
+        &quot;Memory \u2014 Cartridge 3L pin 40 0.7&quot;
+      ],
+      &quot;value&quot;: 0.05033075503962682,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Rear bearing cheek&quot;,
+        &quot;Memory \u2014 Cartridge 3L pin 40 -12.5&quot;
+      ],
+      &quot;value&quot;: 0.05033075503962682,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Left side frame&quot;,
+        &quot;Memory \u2014 Baseboard pin X-28 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.15007132912559182,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Right side frame&quot;,
+        &quot;Memory \u2014 Baseboard pin X28 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.15007132912559182,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Write \u2014 Baseboard pin X28 Z10&quot;
+      ],
+      &quot;value&quot;: 0.15007253853020067,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Carriage fork and roof&quot;,
+        &quot;Memory \u2014 Carriage support pin 1 18.0&quot;
+      ],
+      &quot;value&quot;: 0.15185505868996238,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Memory \u2014 Baseboard pin X-8 Z-9.2&quot;
+      ],
+      &quot;value&quot;: 0.1500713267923316,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Right side frame&quot;,
+        &quot;Memory \u2014 Baseboard pin X28 Z10&quot;
+      ],
+      &quot;value&quot;: 0.15007065360887958,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Right side frame&quot;,
+        &quot;Write \u2014 Baseboard pin X28 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.1500722007772192,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Front bearing cheek&quot;,
+        &quot;Memory \u2014 Cartridge 3L pin 40 0.7&quot;
+      ],
+      &quot;value&quot;: 0.05033043067156912,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Memory \u2014 Baseboard pin X-28 Z-18.4&quot;
+      ],
+      &quot;value&quot;: 0.049765650040786875,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Unified rear backbone&quot;,
+        &quot;Write \u2014 Baseboard pin X8 Z-9.2&quot;
+      ],
+      &quot;value&quot;: 0.15007524481370654,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Front bearing cheek&quot;,
+        &quot;Write \u2014 Cartridge 3L pin 40 -12.5&quot;
+      ],
+      &quot;value&quot;: 0.05033156419335911,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Right side frame&quot;,
+        &quot;Write \u2014 Cartridge 3L pin 40 -12.5&quot;
+      ],
+      &quot;value&quot;: 0.05033156419335911,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Right inner bearing wall&quot;,
+        &quot;Memory \u2014 Baseboard pin X8 Z-9.2&quot;
+      ],
+      &quot;value&quot;: 0.1500713267923316,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Right carriage bearing support&quot;,
+        &quot;Memory \u2014 Carriage support pin 1 2.0&quot;
+      ],
+      &quot;value&quot;: 0.15041559423966613,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Front bearing cheek&quot;,
+        &quot;Write \u2014 Cartridge 3L pin 40 0.7&quot;
+      ],
+      &quot;value&quot;: 0.05033223853660071,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Right carriage bearing support&quot;,
+        &quot;Memory \u2014 Carriage support pin 1 18.0&quot;
+      ],
+      &quot;value&quot;: 0.150414992475534,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 Right carriage bearing support&quot;,
+        &quot;Write \u2014 Carriage support pin 1 18.0&quot;
+      ],
+      &quot;value&quot;: 0.15041563048979284,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Carriage fork and roof&quot;,
+        &quot;Memory \u2014 Carriage support pin 1 2.0&quot;
+      ],
+      &quot;value&quot;: 0.15007048473017334,
+      &quot;measurement&quot;: &quot;native_surface_inside_print_mm&quot;,
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0,
+      &quot;qm&quot;: 3.749041,
+      &quot;qe&quot;: -3.755874
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 Carriage fork and roof&quot;,
+        &quot;Memory \u2014 Short lever&quot;
+      ],
+      &quot;value&quot;: 0.00526373103192074,
+      &quot;measurement&quot;: &quot;solid_overlap_mm3&quot;,
+      &quot;case&quot;: 4,
+      &quot;frame&quot;: 728,
+      &quot;qm&quot;: 3.2952561780570617,
+      &quot;qe&quot;: 3.7490417835755823
+    }
+  ],
+  &quot;native_native_contacts&quot;: [
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 O-left&quot;,
+        &quot;Memory \u2014 O-left 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L069&quot;,
+        &quot;Memory \u2014 L072&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L097&quot;,
+        &quot;Memory \u2014 O-left 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L097&quot;,
+        &quot;Write \u2014 O-left 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 C-shaft&quot;,
+        &quot;Write \u2014 selector-right-retainer&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 C-shaft&quot;,
+        &quot;Write \u2014 U015&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-idler-bush-34&quot;,
+        &quot;Memory \u2014 A-idler-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 pivot-retainer&quot;,
+        &quot;Write \u2014 pivot-stop-axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-input-bush-22&quot;,
+        &quot;Memory \u2014 common 1 power axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 O-right&quot;,
+        &quot;Memory \u2014 O-right 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L097&quot;,
+        &quot;Memory \u2014 L102&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;2L LEGO axle joiner 59443&quot;,
+        &quot;Memory \u2014 C-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 B-input-bush--10&quot;,
+        &quot;Write \u2014 B-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 B-input&quot;,
+        &quot;Write \u2014 B-input-bush--10&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 C-shaft&quot;,
+        &quot;Write \u2014 U072&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 B-input-bush--10&quot;,
+        &quot;Memory \u2014 common 1 power axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 pivot-retainer&quot;,
+        &quot;Memory \u2014 pivot-stop-axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L069&quot;,
+        &quot;Write \u2014 O-right 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-idler-bush-22&quot;,
+        &quot;Memory \u2014 A-idler-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L069&quot;,
+        &quot;Memory \u2014 O-right 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L102&quot;,
+        &quot;Memory \u2014 L105&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 reaction-retainer&quot;,
+        &quot;Write \u2014 reaction-stop-axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-idler&quot;,
+        &quot;Memory \u2014 A-idler-bush-22&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-input-bush-10&quot;,
+        &quot;Memory \u2014 common 1 power axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L072&quot;,
+        &quot;Memory \u2014 O-right 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L072&quot;,
+        &quot;Memory \u2014 L097&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L097&quot;,
+        &quot;Memory \u2014 O-right 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 U022&quot;,
+        &quot;Write \u2014 reaction-stop-axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L102&quot;,
+        &quot;Memory \u2014 O-left 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L072&quot;,
+        &quot;Memory \u2014 L099&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L105&quot;,
+        &quot;Memory \u2014 O-left 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 reaction-retainer&quot;,
+        &quot;Memory \u2014 reaction-stop-axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 U015&quot;,
+        &quot;Write \u2014 U022&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 B-input-bush--34&quot;,
+        &quot;Write \u2014 B-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L105&quot;,
+        &quot;Write \u2014 O-left 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 U015&quot;,
+        &quot;Memory \u2014 U022&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 B-input&quot;,
+        &quot;Write \u2014 B-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L097&quot;,
+        &quot;Write \u2014 O-right 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L097&quot;,
+        &quot;Write \u2014 L099&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L097&quot;,
+        &quot;Memory \u2014 L099&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 B-input&quot;,
+        &quot;Memory \u2014 common 1 power axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Cam roller 2L axle&quot;,
+        &quot;Cam roller half bush 27.6&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-input&quot;,
+        &quot;Memory \u2014 A-input-bush-22&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L102&quot;,
+        &quot;Write \u2014 O-right 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-input&quot;,
+        &quot;Memory \u2014 common 1 power axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 C-shaft&quot;,
+        &quot;Memory \u2014 U015&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 U022&quot;,
+        &quot;Memory \u2014 reaction-stop-axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-input-bush-34&quot;,
+        &quot;Memory \u2014 common 1 power axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-idler-bush-10&quot;,
+        &quot;Memory \u2014 A-idler-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 A-idler&quot;,
+        &quot;Memory \u2014 A-idler-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 B-input-bush--34&quot;,
+        &quot;Memory \u2014 common 1 power axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 B-input-bush--22&quot;,
+        &quot;Memory \u2014 common 1 power axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 B-input&quot;,
+        &quot;Write \u2014 B-input-bush--22&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;2L LEGO axle joiner 59443&quot;,
+        &quot;Write \u2014 O-right 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 C-shaft&quot;,
+        &quot;Memory \u2014 selector-right-retainer&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 O-left&quot;,
+        &quot;Write \u2014 O-left 5L axle&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L069&quot;,
+        &quot;Write \u2014 L102&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 B-input&quot;,
+        &quot;Memory \u2014 B-input-bush--10&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Cam roller 2L axle&quot;,
+        &quot;Cam roller half bush 15.6&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 B-input-bush--22&quot;,
+        &quot;Write \u2014 B-shaft&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L097&quot;,
+        &quot;Write \u2014 L102&quot;
+      ],
+      &quot;case&quot;: 0,
+      &quot;frame&quot;: 0
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Write \u2014 L099&quot;,
+        &quot;Write \u2014 L102&quot;
+      ],
+      &quot;case&quot;: 1,
+      &quot;frame&quot;: 349
+    },
+    {
+      &quot;pair&quot;: [
+        &quot;Memory \u2014 L099&quot;,
+        &quot;Memory \u2014 L102&quot;
+      ],
+      &quot;case&quot;: 5,
+      &quot;frame&quot;: 5
+    }
+  ],
+  &quot;limits&quot;: &quot;Finite displayed frames and finite native surface points. Friction pin fits are reported, not automatically exempted. Native/native intersections are candidates, not valid signed depths for open LEGO surfaces. No load or continuous-sweep certification.&quot;
+}</pre>

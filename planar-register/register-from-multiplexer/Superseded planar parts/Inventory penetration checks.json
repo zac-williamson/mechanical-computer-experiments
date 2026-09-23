@@ -1,0 +1,706 @@
+[
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Left inner bearing wall"
+    ],
+    "volume_mm3": -5.002508823848117e-16,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Right inner bearing wall"
+    ],
+    "volume_mm3": 1.7076184216646695e-15,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Left side frame"
+    ],
+    "volume_mm3": -7.750744490664374e-14,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Right side frame"
+    ],
+    "volume_mm3": 2.691076528282821e-14,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Write \u2014 Right inner bearing wall"
+    ],
+    "volume_mm3": 1.1548565869558856e-05,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Write \u2014 Right side frame"
+    ],
+    "volume_mm3": -3.765737721650453e-14,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock bolt",
+      "Adjacent release crank"
+    ],
+    "volume_mm3": -7.077671781985373e-16,
+    "sample": [
+      3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock bolt",
+      "Memory \u2014 Carriage fork and roof"
+    ],
+    "volume_mm3": 0.0,
+    "sample": [
+      0,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Carriage fork and roof",
+      "Write \u2014 Rear bearing cheek"
+    ],
+    "volume_mm3": 2.4690835102625996,
+    "sample": [
+      -3.75,
+      0
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock bolt",
+      "Adjacent lock frame"
+    ],
+    "volume_mm3": 0.0,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Carriage fork and roof",
+      "Write \u2014 L099"
+    ],
+    "max_sampled_surface_interior_mm": 1.5258789147765128e-06,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Carriage fork and roof",
+      "Memory \u2014 L099"
+    ],
+    "max_sampled_surface_interior_mm": 2.3841857821338474e-08,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Rear bearing cheek",
+      "Memory \u2014 Cartridge 3L pin 40 -12.5"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033071181186675,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Rear bearing cheek",
+      "Write \u2014 Cartridge 3L pin 40 -12.5"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033017232930651,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Rear bearing cheek",
+      "Memory \u2014 Cartridge 3L pin 40 0.7"
+    ],
+    "max_sampled_surface_interior_mm": 0.05032990260755273,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Rear bearing cheek",
+      "Write \u2014 Cartridge 3L pin 40 0.7"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033003745956997,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Left inner bearing wall",
+      "Memory \u2014 Baseboard pin X-8 Z-9.2"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007146189482592,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Left inner bearing wall",
+      "Memory \u2014 Baseboard pin X-8 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007173210017946,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Left side frame",
+      "Memory \u2014 Baseboard pin X-28 Z10"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007065360887958,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Left side frame",
+      "Memory \u2014 Baseboard pin X-28 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007105891854558,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Right inner bearing wall",
+      "Memory \u2014 Baseboard pin X8 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007173210017946,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Right inner bearing wall",
+      "Memory \u2014 Baseboard pin X8 Z-9.2"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007146189482592,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Right side frame",
+      "Memory \u2014 Baseboard pin X28 Z10"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007065360887958,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Right side frame",
+      "Memory \u2014 Baseboard pin X28 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007105891854558,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Right side frame",
+      "Write \u2014 Baseboard pin X28 Z10"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007253853020566,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Right side frame",
+      "Write \u2014 Baseboard pin X28 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500721332267175,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Write \u2014 Baseboard pin X-28 Z10"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007253853020566,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Right side frame",
+      "Memory \u2014 Cartridge 3L pin 40 0.7"
+    ],
+    "max_sampled_surface_interior_mm": 0.05032990260755273,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Right side frame",
+      "Memory \u2014 Cartridge 3L pin 40 -12.5"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033071181186675,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Right side frame",
+      "Write \u2014 Cartridge 3L pin 40 0.7"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033003745956997,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Right side frame",
+      "Write \u2014 Cartridge 3L pin 40 -12.5"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033017232930651,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Right inner bearing wall",
+      "Write \u2014 Baseboard pin X8 Z-9.2"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500711164673761,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Right inner bearing wall",
+      "Write \u2014 Baseboard pin X8 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500711164673761,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Write \u2014 Baseboard pin X-28 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.3999993081127418,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Write \u2014 Baseboard pin X28 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500721332267175,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Write \u2014 Baseboard pin X8 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500721332267175,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Write \u2014 Baseboard pin X28 Z10"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007253853020566,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Write \u2014 Baseboard pin X8 Z-9.2"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007267363161164,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Baseboard pin X-28 Z10"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007065360887958,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Baseboard pin X28 Z10"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007065360887958,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Baseboard pin X-8 Z-9.2"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007146189482592,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Baseboard pin X8 Z-9.2"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007146189482592,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Baseboard pin X-8 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007173210017946,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Baseboard pin X8 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007173210017946,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Baseboard pin X-28 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007105891854558,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Memory \u2014 Baseboard pin X28 Z-18.4"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007105891854558,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Lock rear pivot retainer"
+    ],
+    "max_sampled_surface_interior_mm": 1.0345658394727079e-13,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Front bearing cheek",
+      "Write \u2014 Cartridge 3L pin 40 0.7"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033003745956997,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Front bearing cheek",
+      "Write \u2014 Cartridge 3L pin 40 -12.5"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033017232930651,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Front bearing cheek",
+      "Memory \u2014 Cartridge 3L pin 40 -12.5"
+    ],
+    "max_sampled_surface_interior_mm": 0.05033071181186675,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Front bearing cheek",
+      "Memory \u2014 Cartridge 3L pin 40 0.7"
+    ],
+    "max_sampled_surface_interior_mm": 0.05032990260755273,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Flat pin-mounted link",
+      "Write link friction pin 86"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500711164673761,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Flat pin-mounted link",
+      "Write link friction pin 110"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500711164673761,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Carriage fork and roof",
+      "Write link friction pin 86"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500711164673761,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Carriage fork and roof",
+      "Write link friction pin 110"
+    ],
+    "max_sampled_surface_interior_mm": 0.1500711164673761,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Right carriage bearing support",
+      "Write \u2014 Carriage support pin 1 18.0"
+    ],
+    "max_sampled_surface_interior_mm": 0.15041506470277563,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Right carriage bearing support",
+      "Write \u2014 Carriage support pin 1 2.0"
+    ],
+    "max_sampled_surface_interior_mm": 0.15041559405379953,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Right carriage bearing support",
+      "Memory \u2014 Carriage support pin 1 2.0"
+    ],
+    "max_sampled_surface_interior_mm": 0.15041559425481615,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Right carriage bearing support",
+      "Memory \u2014 Carriage support pin 1 18.0"
+    ],
+    "max_sampled_surface_interior_mm": 0.15041443024013554,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Carriage fork and roof",
+      "Memory \u2014 Carriage support pin 1 18.0"
+    ],
+    "max_sampled_surface_interior_mm": 0.15185610109013964,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Carriage fork and roof",
+      "Write \u2014 Carriage support pin 1 18.0"
+    ],
+    "max_sampled_surface_interior_mm": 0.15185610189986862,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 Carriage fork and roof",
+      "Write \u2014 Carriage support pin 1 2.0"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007065360888208,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 Carriage fork and roof",
+      "Memory \u2014 Carriage support pin 1 2.0"
+    ],
+    "max_sampled_surface_interior_mm": 0.15007065360887958,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  },
+  {
+    "pair": [
+      "Adjacent lock frame",
+      "Lock pivot retainer"
+    ],
+    "max_sampled_surface_interior_mm": 1.5776609040453961e-13,
+    "sample": [
+      -3.75,
+      -3.75
+    ]
+  }
+]

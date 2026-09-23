@@ -1,0 +1,45 @@
+{
+  "required_axle_torque_Nm": 0.1,
+  "cam_thickness_mm": 5.4,
+  "minimum_nominal_beam_height_mm": 10.942050639316612,
+  "pressure_angle_degrees": 60.94539590092286,
+  "assumptions": [
+    "Effective elastic modulus1800MPa is an assumed screening value.",
+    "Cantilever fixed at attachment X86; unperforated variable-depth beam idealisation.",
+    "Excludes mounting holes/key recess, joint compliance, stress concentrations, layer anisotropy, local roller contact and creep.",
+    "200N horizontal case is the ideal blocked-worm force scale, not a proven transmitted cam load."
+  ],
+  "load_cases": [
+    {
+      "vertical_contact_force_N": 2,
+      "horizontal_force_N": 3.6,
+      "maximum_nominal_bending_MPa": 0.45023672411336374,
+      "vertical_deflection_mm": 0.018572264639850528
+    },
+    {
+      "vertical_contact_force_N": 10,
+      "horizontal_force_N": 18.0,
+      "maximum_nominal_bending_MPa": 2.251183620566819,
+      "vertical_deflection_mm": 0.09286132319925264
+    },
+    {
+      "vertical_contact_force_N": 50,
+      "horizontal_force_N": 90.0,
+      "maximum_nominal_bending_MPa": 11.255918102834094,
+      "vertical_deflection_mm": 0.4643066159962632
+    },
+    {
+      "vertical_contact_force_N": 111.11111111111111,
+      "horizontal_force_N": 200.0,
+      "maximum_nominal_bending_MPa": 25.013151339631325,
+      "vertical_deflection_mm": 1.031792479991696
+    }
+  ],
+  "changes": [
+    "Crank and its three axles removed; one 2L roller axle remains on the bolt.",
+    "Cam and roller are in the same plane; the long spaced follower axle is removed.",
+    "Guide is integrated into the existing bearing cheek.",
+    "Deep continuous cam web replaces the long narrow slotted link."
+  ],
+  "verdict": "Conditional stiffness comparison only. All-axle0.1Nm survival and physical operation remain unqualified."
+}

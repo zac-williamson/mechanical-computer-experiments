@@ -1,0 +1,49 @@
+{
+  "status": "PASS nominal central-stop clearance",
+  "clutch_joiners": [
+    {
+      "bank": "Memory",
+      "stop_region_X_mm": [
+        -4,
+        4
+      ],
+      "left_axle_bounds_X_mm": [
+        -44.2,
+        -4.199999999999999
+      ],
+      "right_axle_bounds_X_mm": [
+        4.199999999999999,
+        44.2
+      ],
+      "clearance_to_web_mm": [
+        0.1999999999999993,
+        0.1999999999999993
+      ],
+      "engagement_each_mm": 7.8
+    },
+    {
+      "bank": "Write",
+      "stop_region_X_mm": [
+        -89,
+        -81
+      ],
+      "left_axle_bounds_X_mm": [
+        -129.2,
+        -89.2
+      ],
+      "right_axle_bounds_X_mm": [
+        -80.8,
+        -40.8
+      ],
+      "clearance_to_web_mm": [
+        0.20000000000000284,
+        0.20000000000000284
+      ],
+      "engagement_each_mm": 7.8
+    }
+  ],
+  "bridge_axle_end_gap_mm": 0.7999999999999972,
+  "bridge_divider_mm": 0.2,
+  "bridge_clearance_to_divider_each_mm": 0.3,
+  "scope": "Exact axial bounds of native LEGO meshes, 26287 web and 59443 divider. Does not certify all external collisions or strength."
+}

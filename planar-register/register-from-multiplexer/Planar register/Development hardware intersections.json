@@ -1,0 +1,142 @@
+{
+  "Memory \u2014 Left side frame / Memory \u2014 Baseboard pin X-28 Z-18.4": {
+    "depth": 0.15007105891854558,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Left side frame / Memory \u2014 Baseboard pin X-28 Z10": {
+    "depth": 0.15007065360887958,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Right side frame / Memory \u2014 Baseboard pin X28 Z-18.4": {
+    "depth": 0.15007105891854558,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Right side frame / Memory \u2014 Baseboard pin X28 Z10": {
+    "depth": 0.15007065360887958,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Left inner bearing wall / Memory \u2014 Baseboard pin X-8 Z-18.4": {
+    "depth": 0.15007173210017946,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Left inner bearing wall / Memory \u2014 Baseboard pin X-8 Z-9.2": {
+    "depth": 0.15007146189482592,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Right inner bearing wall / Memory \u2014 Baseboard pin X8 Z-18.4": {
+    "depth": 0.15007173210017946,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Right inner bearing wall / Memory \u2014 Baseboard pin X8 Z-9.2": {
+    "depth": 0.15007146189482592,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Right carriage bearing support / Memory \u2014 Carriage support pin 1 2.0": {
+    "depth": 0.15041559425481615,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Right carriage bearing support / Memory \u2014 Carriage support pin 1 18.0": {
+    "depth": 0.15041443564607512,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Carriage fork and roof / Memory \u2014 Carriage support pin 1 2.0": {
+    "depth": 0.15007048473017334,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Memory \u2014 Carriage fork and roof / Memory \u2014 Carriage support pin 1 18.0": {
+    "depth": 0.15185575362446962,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Write \u2014 Right side frame / Write \u2014 Baseboard pin X28 Z-18.4": {
+    "depth": 0.1500721332267175,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Write \u2014 Right side frame / Write \u2014 Baseboard pin X28 Z10": {
+    "depth": 0.15007253853020566,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Write \u2014 Right carriage bearing support / Write \u2014 Carriage support pin 1 2.0": {
+    "depth": 0.15041559405379953,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Write \u2014 Right carriage bearing support / Write \u2014 Carriage support pin 1 18.0": {
+    "depth": 0.1504150735890687,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Write \u2014 Carriage fork and roof / Write \u2014 Carriage support pin 1 2.0": {
+    "depth": 0.15007048473017334,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Write \u2014 Carriage fork and roof / Write \u2014 Carriage support pin 1 18.0": {
+    "depth": 0.15185575362446962,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Write \u2014 Right inner bearing wall / Write \u2014 Baseboard pin X8 Z-18.4": {
+    "depth": 0.1500711164673761,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Write \u2014 Right inner bearing wall / Write \u2014 Baseboard pin X8 Z-9.2": {
+    "depth": 0.1500711164673761,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Unified rear backbone / Memory \u2014 Baseboard pin X-8 Z-18.4": {
+    "depth": 0.15007173210017946,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Unified rear backbone / Memory \u2014 Baseboard pin X-8 Z-9.2": {
+    "depth": 0.15007146189482592,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Unified rear backbone / Memory \u2014 Baseboard pin X8 Z-18.4": {
+    "depth": 0.15007173210017946,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Unified rear backbone / Memory \u2014 Baseboard pin X8 Z-9.2": {
+    "depth": 0.15007146189482592,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Unified rear backbone / Write \u2014 Baseboard pin X28 Z-18.4": {
+    "depth": 0.1500721332267175,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Unified rear backbone / Write \u2014 Baseboard pin X28 Z10": {
+    "depth": 0.15007253853020566,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Unified rear backbone / Write \u2014 Baseboard pin X8 Z-18.4": {
+    "depth": 0.1500721332267175,
+    "qm": -3.75,
+    "qe": -3.75
+  },
+  "Unified rear backbone / Write \u2014 Baseboard pin X8 Z-9.2": {
+    "depth": 0.15007267363161164,
+    "qm": -3.75,
+    "qe": -3.75
+  }
+}

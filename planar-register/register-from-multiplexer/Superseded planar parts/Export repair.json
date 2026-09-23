@@ -1,0 +1,97 @@
+[
+  {
+    "part": "Memory \u2014 Left side frame",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Memory \u2014 Right side frame",
+    "removed_triangles": 208,
+    "valid_roundtrip": false
+  },
+  {
+    "part": "Memory \u2014 Front bearing cheek",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Memory \u2014 Rear bearing cheek",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Memory \u2014 Short lever",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Memory \u2014 Left inner bearing wall",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Memory \u2014 Right inner bearing wall",
+    "removed_triangles": 305,
+    "valid_roundtrip": false
+  },
+  {
+    "part": "Memory \u2014 Right carriage bearing support",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Memory \u2014 Carriage fork and roof",
+    "removed_triangles": 2,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Write \u2014 Right side frame",
+    "removed_triangles": 130,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Write \u2014 Front bearing cheek",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Write \u2014 Rear bearing cheek",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Write \u2014 Short lever",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Write \u2014 Right carriage bearing support",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Write \u2014 Carriage fork and roof",
+    "removed_triangles": 1,
+    "valid_roundtrip": false
+  },
+  {
+    "part": "Adjacent lock frame",
+    "removed_triangles": 3,
+    "valid_roundtrip": false
+  },
+  {
+    "part": "Adjacent lock bolt",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Adjacent release crank",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  },
+  {
+    "part": "Write \u2014 Right inner bearing wall",
+    "removed_triangles": 0,
+    "valid_roundtrip": true
+  }
+]

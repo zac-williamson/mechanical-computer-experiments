@@ -1,0 +1,2215 @@
+{
+  "poses": 9,
+  "parts": 111,
+  "contacts": [
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Left inner bearing wall"
+      ],
+      "max_depth": 7.800000190734863,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -12.0,
+        30.399999618530273,
+        -14.800000190734863
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Right inner bearing wall"
+      ],
+      "max_depth": 7.800000190734863,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        12.0,
+        30.399999618530273,
+        -14.800000190734863
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Left side frame"
+      ],
+      "max_depth": 7.799999237060547,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -32.0,
+        30.399999618530273,
+        -7.599999904632568
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Right side frame"
+      ],
+      "max_depth": 7.799999237060547,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        32.0,
+        30.399999618530273,
+        -7.599999904632568
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Write \u2014 Right inner bearing wall"
+      ],
+      "max_depth": 7.799996948242182,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        108.79999694824218,
+        30.399999618530273,
+        3.2000007629394567
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Write \u2014 Right side frame"
+      ],
+      "max_depth": 7.799995422363281,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        128.79999694824218,
+        30.399999618530273,
+        8.39999961853028
+      ]
+    },
+    {
+      "pair": [
+        "2L LEGO axle joiner \u2014 envelope only",
+        "Write \u2014 O-shaft"
+      ],
+      "max_depth": 6.418723867655664,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        60.8,
+        14.291221585278272,
+        15.731847170156414
+      ]
+    },
+    {
+      "pair": [
+        "2L LEGO axle joiner \u2014 envelope only",
+        "Memory \u2014 C-shaft"
+      ],
+      "max_depth": 6.063705160848988,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        44.8,
+        6.135076068367377,
+        16.53515738810221
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock bolt",
+        "Adjacent release crank"
+      ],
+      "max_depth": 3.5225868171255534,
+      "sample": [
+        3.75,
+        -3.75
+      ],
+      "contact_point": [
+        44.739024088428515,
+        12.0,
+        57.0
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock bolt",
+        "Memory \u2014 Carriage fork and roof"
+      ],
+      "max_depth": 3.3000000000000043,
+      "sample": [
+        0,
+        -3.75
+      ],
+      "contact_point": [
+        39.95,
+        22.0,
+        46.29
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Carriage fork and roof",
+        "Write \u2014 Rear bearing cheek"
+      ],
+      "max_depth": 3.000000381469727,
+      "sample": [
+        -3.75,
+        0
+      ],
+      "contact_point": [
+        111.76024017333984,
+        18.600000381469727,
+        53.336565017700195
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock bolt",
+        "Adjacent lock frame"
+      ],
+      "max_depth": 2.6000000000000014,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        42.0,
+        20.4,
+        57.0
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Carriage fork and roof",
+        "Write \u2014 L099"
+      ],
+      "max_depth": 1.997728210147205,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        91.45,
+        12.955440521240234,
+        22.652080059051514
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Carriage fork and roof",
+        "Memory \u2014 L099"
+      ],
+      "max_depth": 1.997728127203695,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -5.35,
+        12.955440521240234,
+        6.652080059051514
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Cartridge 3L pin 40 -12.5",
+        "Memory \u2014 Rear bearing cheek"
+      ],
+      "max_depth": 1.688731596234959,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        37.92499923706055,
+        14.0,
+        37.79400634765625
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Cartridge 3L pin 40 -12.5",
+        "Write \u2014 Rear bearing cheek"
+      ],
+      "max_depth": 1.6887315451484284,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        138.8750015258789,
+        14.0,
+        46.60599422454835
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Cartridge 3L pin 40 0.7",
+        "Memory \u2014 Rear bearing cheek"
+      ],
+      "max_depth": 1.688730962238214,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        37.92499923706055,
+        14.0,
+        24.594005584716797
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Cartridge 3L pin 40 0.7",
+        "Write \u2014 Rear bearing cheek"
+      ],
+      "max_depth": 1.6887305378271762,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        134.725,
+        14.0,
+        40.594005584716804
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 U015",
+        "Memory \u2014 U022"
+      ],
+      "max_depth": 1.490583353672676,
+      "sample": [
+        3.75,
+        -3.75
+      ],
+      "contact_point": [
+        0.4603161111649907,
+        12.100001525878907,
+        19.04144241538697
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 U015",
+        "Write \u2014 U022"
+      ],
+      "max_depth": 1.4905833536726618,
+      "sample": [
+        -3.75,
+        3.75
+      ],
+      "contact_point": [
+        97.26031611116498,
+        12.100001525878906,
+        35.04144241538698
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Baseboard pin X-8 Z-9.2",
+        "Memory \u2014 Left inner bearing wall"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -9.428400039672852,
+        28.000000381469725,
+        -7.206000518798827
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Baseboard pin X-8 Z-18.4",
+        "Memory \u2014 Left inner bearing wall"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -9.428400039672852,
+        28.000000381469725,
+        -16.406000518798827
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Baseboard pin X-28 Z10",
+        "Memory \u2014 Left side frame"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -29.42840003967285,
+        28.000000381469725,
+        13.493999481201172
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Baseboard pin X-28 Z-18.4",
+        "Memory \u2014 Left side frame"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -29.42840003967285,
+        28.000000381469725,
+        -16.406000518798827
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Baseboard pin X8 Z-18.4",
+        "Memory \u2014 Right inner bearing wall"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        9.428400039672852,
+        28.000000381469725,
+        -20.39399948120117
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Baseboard pin X8 Z-9.2",
+        "Memory \u2014 Right inner bearing wall"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        9.428400039672852,
+        28.000000381469725,
+        -11.193999481201171
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Baseboard pin X28 Z10",
+        "Memory \u2014 Right side frame"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        29.42840003967285,
+        28.000000381469725,
+        9.506000518798828
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Baseboard pin X28 Z-18.4",
+        "Memory \u2014 Right side frame"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        29.42840003967285,
+        28.000000381469725,
+        -20.39399948120117
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Baseboard pin X28 Z10",
+        "Write \u2014 Right side frame"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        126.22840003967285,
+        28.000000381469725,
+        25.506000518798835
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Baseboard pin X28 Z-18.4",
+        "Write \u2014 Right side frame"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        126.22840003967285,
+        28.000000381469725,
+        -4.393999481201163
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Write \u2014 Baseboard pin X-28 Z10"
+      ],
+      "max_depth": 1.450000381469728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        67.37159996032715,
+        28.000000381469725,
+        29.493999481201172
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Cartridge 3L pin 40 0.7",
+        "Memory \u2014 Right side frame"
+      ],
+      "max_depth": 1.4499999999999993,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        41.4284,
+        8.2,
+        22.994
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Cartridge 3L pin 40 -12.5",
+        "Memory \u2014 Right side frame"
+      ],
+      "max_depth": 1.4499999999999993,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        41.4284,
+        8.2,
+        36.194
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Cartridge 3L pin 40 0.7",
+        "Write \u2014 Right side frame"
+      ],
+      "max_depth": 1.4499999999999993,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        138.2284,
+        8.2,
+        38.99400000000001
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Cartridge 3L pin 40 -12.5",
+        "Write \u2014 Right side frame"
+      ],
+      "max_depth": 1.4499999999999993,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        138.2284,
+        8.2,
+        52.19400000000001
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Baseboard pin X8 Z-9.2",
+        "Write \u2014 Right inner bearing wall"
+      ],
+      "max_depth": 1.4499996185302741,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        106.22840003967285,
+        28.000000381469725,
+        4.806000518798829
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Baseboard pin X8 Z-18.4",
+        "Write \u2014 Right inner bearing wall"
+      ],
+      "max_depth": 1.4499996185302741,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        106.22840003967285,
+        28.000000381469725,
+        -4.3939994812011705
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 U022",
+        "Memory \u2014 reaction-stop-axle"
+      ],
+      "max_depth": 1.4408002012961845,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -2.3779705000379137,
+        6.199999999999999,
+        23.919737465279617
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 U022",
+        "Write \u2014 reaction-stop-axle"
+      ],
+      "max_depth": 1.4408002012961703,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        94.42202949996208,
+        6.199999999999999,
+        39.919737465279624
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-input",
+        "Memory \u2014 common 1 power axle"
+      ],
+      "max_depth": 1.427900624470663,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -12.0,
+        10.827900243000936,
+        -13.683591737678075
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-idler",
+        "Memory \u2014 A-idler-shaft"
+      ],
+      "max_depth": 1.413092669214521,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -20.0,
+        14.88735940682405,
+        -10.644413718829803
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-idler",
+        "Memory \u2014 A-idler-bush-22"
+      ],
+      "max_depth": 1.4130921585101728,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -20.0,
+        16.153888667570342,
+        -11.622115872831788
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 53.2 14.4",
+        "Lock roller axle 53.2"
+      ],
+      "max_depth": 1.3748857697193984,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        51.84435676000266,
+        12.4,
+        57.22252225829598
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 53.2 18.4",
+        "Lock roller axle 53.2"
+      ],
+      "max_depth": 1.3748857697193984,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        51.84435676000266,
+        16.4,
+        57.22252225829598
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 53.2 26.4",
+        "Lock roller axle 53.2"
+      ],
+      "max_depth": 1.3748857697193984,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        51.84435676000266,
+        24.4,
+        57.22252225829598
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 53.2 22.4",
+        "Lock roller axle 53.2"
+      ],
+      "max_depth": 1.3748857697193984,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        51.84435676000266,
+        20.4,
+        57.22252225829598
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 53.2 2",
+        "Lock roller axle 53.2"
+      ],
+      "max_depth": 1.3748857697193984,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        51.84435676000266,
+        0.0,
+        57.22252225829598
+      ]
+    },
+    {
+      "pair": [
+        "Lock pivot 4L axle",
+        "Lock rear pivot retainer"
+      ],
+      "max_depth": 1.3748857697193984,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        60.94184034663775,
+        20.8,
+        50.52542196635942
+      ]
+    },
+    {
+      "pair": [
+        "Lock pivot 4L axle",
+        "Lock pivot retainer"
+      ],
+      "max_depth": 1.3748857697193984,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        60.94184034663775,
+        0.0,
+        50.52542196635942
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 42 14.4",
+        "Lock roller axle 42"
+      ],
+      "max_depth": 1.3748857697193841,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        42.71632148770153,
+        12.4,
+        50.43142720170705
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 42 2",
+        "Lock roller axle 42"
+      ],
+      "max_depth": 1.3748857697193841,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        42.71632148770153,
+        4.0,
+        50.43142720170705
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L097",
+        "Memory \u2014 O-shaft"
+      ],
+      "max_depth": 1.3561186397784653,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        4.0,
+        11.308679580688477,
+        0.45924001932144165
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 L097",
+        "Write \u2014 O-shaft"
+      ],
+      "max_depth": 1.3561186397784653,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        92.8,
+        11.308679580688477,
+        15.540759980678562
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 B-input",
+        "Memory \u2014 common 1 power axle"
+      ],
+      "max_depth": 1.3406516734712177,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        12.0,
+        9.904006359585232,
+        -14.908035186243088
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-input",
+        "Memory \u2014 A-input-bush-22"
+      ],
+      "max_depth": 1.3362175123208981,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -20.0,
+        10.344413648259216,
+        -17.122115872831788
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 53.2 22.4",
+        "Lock half bush 53.2 26.4"
+      ],
+      "max_depth": 1.1772467998671345,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        46.04997027922207,
+        24.4,
+        58.727389003282056
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 53.2 18.4",
+        "Lock half bush 53.2 22.4"
+      ],
+      "max_depth": 1.1772467998671345,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        46.04997027922207,
+        20.4,
+        58.727389003282056
+      ]
+    },
+    {
+      "pair": [
+        "Lock half bush 53.2 14.4",
+        "Lock half bush 53.2 18.4"
+      ],
+      "max_depth": 1.1772467998671345,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        46.04997027922207,
+        16.4,
+        58.727389003282056
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 reaction-retainer",
+        "Write \u2014 reaction-stop-axle"
+      ],
+      "max_depth": 1.1769568957758452,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        100.14764699944605,
+        1.6000001907348622,
+        41.32410822754758
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 reaction-retainer",
+        "Memory \u2014 reaction-stop-axle"
+      ],
+      "max_depth": 1.1769568957758416,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        3.347646999446056,
+        1.6000001907348622,
+        25.32410822754758
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 pivot-retainer",
+        "Write \u2014 pivot-stop-axle"
+      ],
+      "max_depth": 1.1769568920141182,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        113.59232402498296,
+        1.6000001907348613,
+        48.12844818776071
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 pivot-retainer",
+        "Memory \u2014 pivot-stop-axle"
+      ],
+      "max_depth": 1.1769568920141076,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        16.79232402498296,
+        1.6000001907348613,
+        32.12844818776071
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-idler",
+        "Memory \u2014 L102"
+      ],
+      "max_depth": 1.0961527353308966,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -14.100000381469727,
+        12.441514015197754,
+        -7.3713226318359375
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Write \u2014 Baseboard pin X-28 Z-18.4"
+      ],
+      "max_depth": 1.073030655341313,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        70.71671447753906,
+        31.350000381469727,
+        0.4685707092285156
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Write \u2014 Baseboard pin X28 Z-18.4"
+      ],
+      "max_depth": 1.073030655341313,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        126.71671447753906,
+        31.350000381469727,
+        0.46857070922852273
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Write \u2014 Baseboard pin X8 Z-18.4"
+      ],
+      "max_depth": 1.0730306553412987,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        106.71671447753906,
+        31.350000381469727,
+        0.4685707092285192
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Write \u2014 Baseboard pin X28 Z10"
+      ],
+      "max_depth": 1.0730303012982034,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        126.71671447753906,
+        31.350000381469727,
+        30.368570208549507
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Write \u2014 Baseboard pin X8 Z-9.2"
+      ],
+      "max_depth": 1.0730298460998853,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        106.71671447753906,
+        31.350000381469727,
+        9.66856956481934
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Baseboard pin X-28 Z10"
+      ],
+      "max_depth": 1.0730282277339924,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -26.083282470703125,
+        31.350000381469727,
+        14.368570327758789
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Baseboard pin X28 Z10"
+      ],
+      "max_depth": 1.0730282277339906,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        26.083282470703125,
+        31.350000381469727,
+        8.631429672241211
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Baseboard pin X-8 Z-9.2"
+      ],
+      "max_depth": 1.073028092860425,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -9.916717529296875,
+        31.350000381469727,
+        -12.068570137023926
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Baseboard pin X8 Z-9.2"
+      ],
+      "max_depth": 1.073028092860424,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        6.083282470703125,
+        31.350000381469727,
+        -12.068570137023926
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Baseboard pin X-8 Z-18.4"
+      ],
+      "max_depth": 1.0730279579868567,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -9.916717529296875,
+        31.350000381469727,
+        -21.268569946289062
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Baseboard pin X8 Z-18.4"
+      ],
+      "max_depth": 1.0730279579868558,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        6.083282470703125,
+        31.350000381469727,
+        -21.268569946289062
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Baseboard pin X-28 Z-18.4"
+      ],
+      "max_depth": 1.073027957986854,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -29.916717529296875,
+        31.350000381469727,
+        -21.268569946289062
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Memory \u2014 Baseboard pin X28 Z-18.4"
+      ],
+      "max_depth": 1.0730279579868522,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        26.083282470703125,
+        31.350000381469727,
+        -21.268569946289062
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Lock rear pivot retainer"
+      ],
+      "max_depth": 1.0019089983225058,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        59.54049369059122,
+        20.8,
+        50.42935460089237
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 B-input-bush--10",
+        "Memory \u2014 common 1 power axle"
+      ],
+      "max_depth": 0.9429263910742769,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        12.000003814697266,
+        11.564955619988154,
+        -15.630006741880676
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 B-input-bush--22",
+        "Memory \u2014 common 1 power axle"
+      ],
+      "max_depth": 0.9429263910742769,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        24.000003814697266,
+        11.564955619988154,
+        -15.630006741880676
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-input-bush-22",
+        "Memory \u2014 common 1 power axle"
+      ],
+      "max_depth": 0.9429263910742769,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -19.999996185302734,
+        11.564955619988154,
+        -15.630006741880676
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-input-bush-10",
+        "Memory \u2014 common 1 power axle"
+      ],
+      "max_depth": 0.9429263910742769,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -7.999996185302734,
+        11.564955619988154,
+        -15.630006741880676
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-input-bush-34",
+        "Memory \u2014 common 1 power axle"
+      ],
+      "max_depth": 0.9429263910742769,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -31.999996185302734,
+        11.564955619988154,
+        -15.630006741880676
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 B-input-bush--34",
+        "Memory \u2014 common 1 power axle"
+      ],
+      "max_depth": 0.9429263910742769,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        36.000003814697266,
+        11.564955619988154,
+        -15.630006741880676
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 B-input",
+        "Memory \u2014 B-input-bush--10"
+      ],
+      "max_depth": 0.897199101577244,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        12.000003814697266,
+        9.572047951129758,
+        -13.683397292885777
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 B-input",
+        "Write \u2014 B-input-bush--10"
+      ],
+      "max_depth": 0.8971991015772431,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        108.80000381469726,
+        9.572047951129758,
+        2.3166027071142223
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Cartridge 3L pin 40 0.7",
+        "Write \u2014 Front bearing cheek"
+      ],
+      "max_depth": 0.8502552718477148,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        134.69977340698242,
+        4.849999904632568,
+        39.737069129943855
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Cartridge 3L pin 40 -12.5",
+        "Write \u2014 Front bearing cheek"
+      ],
+      "max_depth": 0.8502551369778644,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        134.69977340698242,
+        4.849999904632568,
+        52.93706893920899
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Cartridge 3L pin 40 -12.5",
+        "Memory \u2014 Front bearing cheek"
+      ],
+      "max_depth": 0.8502548672379717,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        42.10022735595703,
+        4.849999904632568,
+        31.46293067932129
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Cartridge 3L pin 40 0.7",
+        "Memory \u2014 Front bearing cheek"
+      ],
+      "max_depth": 0.8502540580184856,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        37.89977264404297,
+        4.849999904632568,
+        23.73706817626953
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-idler-bush-22",
+        "Memory \u2014 A-idler-shaft"
+      ],
+      "max_depth": 0.8000014108922819,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -19.999996185302734,
+        14.542921438785818,
+        -12.399794700029293
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-idler-bush-10",
+        "Memory \u2014 A-idler-shaft"
+      ],
+      "max_depth": 0.8000014108922819,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -7.999996185302734,
+        14.542921438785818,
+        -12.399794700029293
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 A-idler-bush-34",
+        "Memory \u2014 A-idler-shaft"
+      ],
+      "max_depth": 0.8000014108922819,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -31.999996185302734,
+        14.542921438785818,
+        -12.399794700029293
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 O-left",
+        "Memory \u2014 O-shaft"
+      ],
+      "max_depth": 0.8000002480730171,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -36.0,
+        10.199999751926983,
+        2.4000000953674263
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 O-right",
+        "Memory \u2014 O-shaft"
+      ],
+      "max_depth": 0.8000002480730171,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        32.0,
+        10.199999751926983,
+        2.4000000953674263
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 O-right",
+        "Write \u2014 O-shaft"
+      ],
+      "max_depth": 0.8000002480730171,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        128.8,
+        10.199999751926983,
+        18.40000009536743
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 O-left",
+        "Write \u2014 O-shaft"
+      ],
+      "max_depth": 0.8000002480730171,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        60.79999999999998,
+        10.199999751926983,
+        18.400000095367425
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L069",
+        "Memory \u2014 O-shaft"
+      ],
+      "max_depth": 0.8000002480729336,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        23.999996185302734,
+        10.199999866603207,
+        2.4000000953674356
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L105",
+        "Memory \u2014 O-shaft"
+      ],
+      "max_depth": 0.8000002480729336,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -20.0,
+        10.199999866603207,
+        2.4000000953674356
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 L105",
+        "Write \u2014 O-shaft"
+      ],
+      "max_depth": 0.8000002480729336,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        76.8,
+        10.199999866603207,
+        18.400000095367435
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 L069",
+        "Write \u2014 O-shaft"
+      ],
+      "max_depth": 0.8000002480729336,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        120.79999618530273,
+        10.199999866603207,
+        18.40000009536744
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 C-shaft",
+        "Write \u2014 selector-right-retainer"
+      ],
+      "max_depth": 0.8000001977438096,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        128.8,
+        9.038192319351772,
+        34.100050055929124
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 C-shaft",
+        "Memory \u2014 U072"
+      ],
+      "max_depth": 0.800000197743806,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -36.0,
+        9.038192319351772,
+        18.10005005592912
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 C-shaft",
+        "Memory \u2014 selector-right-retainer"
+      ],
+      "max_depth": 0.800000197743806,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        32.0,
+        9.038192319351772,
+        18.10005005592912
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 C-shaft",
+        "Write \u2014 U072"
+      ],
+      "max_depth": 0.800000197743806,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        60.79999999999998,
+        9.038192319351772,
+        34.10005005592912
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 B-input-bush--10",
+        "Write \u2014 B-shaft"
+      ],
+      "max_depth": 0.800000108807013,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        108.80000381469726,
+        12.281938378794408,
+        -1.1939551602946268
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 B-input-bush--34",
+        "Write \u2014 B-shaft"
+      ],
+      "max_depth": 0.800000108807013,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        132.80000381469728,
+        12.281938378794408,
+        -1.1939551602946268
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 B-input-bush--22",
+        "Write \u2014 B-shaft"
+      ],
+      "max_depth": 0.800000108807013,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        120.80000381469726,
+        12.281938378794408,
+        -1.1939551602946268
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 B-input",
+        "Write \u2014 B-shaft"
+      ],
+      "max_depth": 0.7999993086766981,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        108.8,
+        7.812088888888894,
+        -4.163878063228088
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L102",
+        "Memory \u2014 L105"
+      ],
+      "max_depth": 0.7999992370605469,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -19.200000762939453,
+        8.975359916687012,
+        -2.9564881324768066
+      ]
+    },
+    {
+      "pair": [
+        "Write link friction pin 86",
+        "Write \u2014 Flat pin-mounted link"
+      ],
+      "max_depth": 0.7454896431320321,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        80.36908719266408,
+        24.2,
+        55.51114561800017
+      ]
+    },
+    {
+      "pair": [
+        "Write link friction pin 110",
+        "Write \u2014 Flat pin-mounted link"
+      ],
+      "max_depth": 0.7454896431320321,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        104.36908719266408,
+        24.2,
+        55.51114561800017
+      ]
+    },
+    {
+      "pair": [
+        "Write link friction pin 86",
+        "Write \u2014 Carriage fork and roof"
+      ],
+      "max_depth": 0.6999992370605455,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        79.29360008239746,
+        22.500000762939454,
+        59.32480010986328
+      ]
+    },
+    {
+      "pair": [
+        "Write link friction pin 110",
+        "Write \u2014 Carriage fork and roof"
+      ],
+      "max_depth": 0.6999992370605455,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        106.25019073486328,
+        22.500000762939454,
+        61.29999694824219
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 C-shaft",
+        "Write \u2014 U015"
+      ],
+      "max_depth": 0.6815238764141078,
+      "sample": [
+        -3.75,
+        0
+      ],
+      "contact_point": [
+        104.35400037765503,
+        9.934962057390457,
+        33.670824777143274
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 C-shaft",
+        "Memory \u2014 U015"
+      ],
+      "max_depth": 0.6815238764140918,
+      "sample": [
+        0,
+        -3.75
+      ],
+      "contact_point": [
+        -7.812000274658203,
+        9.934962057390457,
+        17.670824777143274
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Carriage support pin 1 18.0",
+        "Write \u2014 Right carriage bearing support"
+      ],
+      "max_depth": 0.6360619320260099,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        104.05000019073486,
+        22.18239898681641,
+        37.267601013183594
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Carriage support pin 1 2.0",
+        "Write \u2014 Right carriage bearing support"
+      ],
+      "max_depth": 0.6360617095905923,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        104.05000019073486,
+        22.232398986816406,
+        17.73239898681641
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Carriage support pin 1 2.0",
+        "Memory \u2014 Right carriage bearing support"
+      ],
+      "max_depth": 0.6360609100062433,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        7.250000190734863,
+        22.232398986816406,
+        1.7323989868164062
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Carriage support pin 1 18.0",
+        "Memory \u2014 Right carriage bearing support"
+      ],
+      "max_depth": 0.6360608213828307,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        7.250000190734863,
+        25.717601013183597,
+        21.267601013183594
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 C-shaft",
+        "Write \u2014 O-shaft"
+      ],
+      "max_depth": 0.4872523291750124,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        52.79999999999998,
+        9.399999618530273,
+        16.799999237060543
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 L097",
+        "Write \u2014 L099"
+      ],
+      "max_depth": 0.45255741952498596,
+      "sample": [
+        -3.75,
+        0
+      ],
+      "contact_point": [
+        92.80008010864258,
+        10.199999809265137,
+        13.239919900894169
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L097",
+        "Memory \u2014 L099"
+      ],
+      "max_depth": 0.4525574195249842,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -3.999919891357422,
+        10.199999809265137,
+        -2.760080099105835
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 B-input",
+        "Write \u2014 L102"
+      ],
+      "max_depth": 0.3646022182053885,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        114.699995803833,
+        7.234386444091797,
+        7.79461669921875
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 B-input",
+        "Memory \u2014 L072"
+      ],
+      "max_depth": 0.36460221820538763,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        17.899995803833008,
+        7.234386444091797,
+        -8.20538330078125
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L102",
+        "Memory \u2014 O-shaft"
+      ],
+      "max_depth": 0.3584021658875063,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -19.200000762939453,
+        9.281519889831543,
+        2.2173519134521484
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 L102",
+        "Write \u2014 O-shaft"
+      ],
+      "max_depth": 0.3583942155529556,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        109.5999963760376,
+        9.281519889831543,
+        18.217360019683838
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L072",
+        "Memory \u2014 O-shaft"
+      ],
+      "max_depth": 0.35839421555295115,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        12.799996376037598,
+        9.281519889831543,
+        2.217360019683838
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L072",
+        "Memory \u2014 L097"
+      ],
+      "max_depth": 0.22203191776081788,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        12.000005722045898,
+        12.30264663696289,
+        2.102646827697754
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 L097",
+        "Write \u2014 L102"
+      ],
+      "max_depth": 0.22203191776081788,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        108.8000057220459,
+        12.30264663696289,
+        13.89735317230225
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Carriage fork and roof",
+        "Memory \u2014 Carriage support pin 1 18.0"
+      ],
+      "max_depth": 0.1525082625946883,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -3.5500000000000007,
+        21.54799957275391,
+        20.49519920349121
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Carriage fork and roof",
+        "Write \u2014 Carriage support pin 1 18.0"
+      ],
+      "max_depth": 0.1525082625946883,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        93.25,
+        21.54799957275391,
+        36.49519920349121
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 Carriage fork and roof",
+        "Write \u2014 Carriage support pin 1 2.0"
+      ],
+      "max_depth": 0.15173146780951186,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        94.0499997138977,
+        25.83839988708496,
+        21.33839988708496
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 Carriage fork and roof",
+        "Memory \u2014 Carriage support pin 1 2.0"
+      ],
+      "max_depth": 0.15173146700047013,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -2.7500002861022956,
+        25.83839988708496,
+        5.338399887084961
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L097",
+        "Memory \u2014 L102"
+      ],
+      "max_depth": 0.07224686698497074,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        -12.0,
+        11.577662467956543,
+        3.399704694747925
+      ]
+    },
+    {
+      "pair": [
+        "Write \u2014 L069",
+        "Write \u2014 L102"
+      ],
+      "max_depth": 1.6785246970130174e-08,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        116.79999618530273,
+        8.822280009576708,
+        19.326040062440683
+      ]
+    },
+    {
+      "pair": [
+        "Memory \u2014 L069",
+        "Memory \u2014 L072"
+      ],
+      "max_depth": 1.6785241641059656e-08,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        19.999996185302734,
+        13.526040077209473,
+        -1.3777199983596802
+      ]
+    },
+    {
+      "pair": [
+        "2L LEGO axle joiner \u2014 envelope only",
+        "Write \u2014 O-left"
+      ],
+      "max_depth": 1.4210854715202004e-14,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        60.79999999999998,
+        9.199999833156033,
+        14.999999976109095
+      ]
+    },
+    {
+      "pair": [
+        "Adjacent lock frame",
+        "Lock pivot retainer"
+      ],
+      "max_depth": 0,
+      "sample": [
+        -3.75,
+        -3.75
+      ],
+      "contact_point": [
+        56.525422233972584,
+        0.0,
+        53.058159860184325
+      ]
+    }
+  ],
+  "scope": "Every printed and modelled LEGO part included. Surface contacts require classification; nine poses are diagnostic, not full transition validation."
+}

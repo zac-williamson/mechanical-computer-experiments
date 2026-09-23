@@ -1,0 +1,173 @@
+{
+  "parts": [
+    {
+      "part": "Memory \u2014 A-input",
+      "shaft": "Memory \u2014 common 1 power axle",
+      "correction_deg": -2.842170943040401e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 A-idler",
+      "shaft": "Memory \u2014 A-idler-shaft",
+      "correction_deg": 2.1316282072803006e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 A-input-bush-10",
+      "shaft": "Memory \u2014 common 1 power axle",
+      "correction_deg": 1.4210854715202004e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 A-idler-bush-10",
+      "shaft": "Memory \u2014 A-idler-shaft",
+      "correction_deg": -3.552713678800501e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 A-input-bush-22",
+      "shaft": "Memory \u2014 common 1 power axle",
+      "correction_deg": 1.4210854715202004e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 A-idler-bush-22",
+      "shaft": "Memory \u2014 A-idler-shaft",
+      "correction_deg": -3.552713678800501e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 A-input-bush-34",
+      "shaft": "Memory \u2014 common 1 power axle",
+      "correction_deg": 1.4210854715202004e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 A-idler-bush-34",
+      "shaft": "Memory \u2014 A-idler-shaft",
+      "correction_deg": -3.552713678800501e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 B-input",
+      "shaft": "Memory \u2014 common 1 power axle",
+      "correction_deg": 0.0,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 B-input-bush--10",
+      "shaft": "Memory \u2014 common 1 power axle",
+      "correction_deg": 1.4210854715202004e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 B-input-bush--22",
+      "shaft": "Memory \u2014 common 1 power axle",
+      "correction_deg": 1.4210854715202004e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 B-input-bush--34",
+      "shaft": "Memory \u2014 common 1 power axle",
+      "correction_deg": 1.4210854715202004e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Write \u2014 B-input",
+      "shaft": "Write \u2014 B-shaft",
+      "correction_deg": 7.105427357601002e-15,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Write \u2014 B-input-bush--10",
+      "shaft": "Write \u2014 B-shaft",
+      "correction_deg": 7.105427357601002e-15,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Write \u2014 B-input-bush--22",
+      "shaft": "Write \u2014 B-shaft",
+      "correction_deg": 7.105427357601002e-15,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Write \u2014 B-input-bush--34",
+      "shaft": "Write \u2014 B-shaft",
+      "correction_deg": 7.105427357601002e-15,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Cam roller half bush 15.6",
+      "shaft": "Cam roller 2L axle",
+      "correction_deg": -2.1316282072803006e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Cam roller half bush 27.6",
+      "shaft": "Cam roller 2L axle",
+      "correction_deg": -2.1316282072803006e-14,
+      "status": "ALIGNED CROSS SECTION"
+    },
+    {
+      "part": "Memory \u2014 L097",
+      "correction_deg": 0.0,
+      "status": "SLEEVE/RING ASSEMBLY ALIGNED"
+    },
+    {
+      "part": "Memory \u2014 L099",
+      "correction_deg": 0.0,
+      "status": "SLEEVE/RING ASSEMBLY ALIGNED"
+    },
+    {
+      "part": "Memory \u2014 L069",
+      "correction_deg": 0.0,
+      "status": "OUTPUT RETAINER ALIGNED"
+    },
+    {
+      "part": "Memory \u2014 L105",
+      "correction_deg": 0.0,
+      "status": "OUTPUT RETAINER ALIGNED"
+    },
+    {
+      "part": "Memory \u2014 O-left",
+      "correction_deg": 0.0,
+      "status": "OUTPUT RETAINER ALIGNED"
+    },
+    {
+      "part": "Memory \u2014 O-right",
+      "correction_deg": 0.0,
+      "status": "OUTPUT RETAINER ALIGNED"
+    },
+    {
+      "part": "Write \u2014 L097",
+      "correction_deg": 28.95261702488068,
+      "status": "SLEEVE/RING ASSEMBLY ALIGNED"
+    },
+    {
+      "part": "Write \u2014 L099",
+      "correction_deg": 28.95261702488068,
+      "status": "SLEEVE/RING ASSEMBLY ALIGNED"
+    },
+    {
+      "part": "Write \u2014 L069",
+      "correction_deg": 28.95261702488068,
+      "status": "OUTPUT RETAINER ALIGNED"
+    },
+    {
+      "part": "Write \u2014 L105",
+      "correction_deg": 28.95261702488068,
+      "status": "OUTPUT RETAINER ALIGNED"
+    },
+    {
+      "part": "Write \u2014 O-left",
+      "correction_deg": 28.95261702488071,
+      "status": "OUTPUT RETAINER ALIGNED"
+    },
+    {
+      "part": "2L LEGO axle joiner 59443",
+      "correction_deg": -1.4210854715202004e-14,
+      "status": "WORM COUPLING ALIGNED"
+    }
+  ],
+  "limits": "Cross-section angular alignment only. Does not certify interference fit, tooth meshing, or physical tolerances. Teeth are not edited."
+}

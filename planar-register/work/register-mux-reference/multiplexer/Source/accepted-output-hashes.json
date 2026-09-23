@@ -1,0 +1,46 @@
+[
+  {
+    "file": "Left side frame.stl",
+    "sha256": "7dca62249202639e2fc99cbdb3e050299ab659c91766000d7afb0bd42e6798f2"
+  },
+  {
+    "file": "Right side frame.stl",
+    "sha256": "281cf11aff47fc7140749898ef5dc74136e47bc32321786884405b913dff28c3"
+  },
+  {
+    "file": "Front bearing cheek.stl",
+    "sha256": "4fdcdac5242d4ad1ce545e3e21ccd463543b6e3ae410e4d3f90bdf096cca3cfd"
+  },
+  {
+    "file": "Rear bearing cheek.stl",
+    "sha256": "e2141c6eca3377366caaddef3d79aaa8ec6812924d7162e4b157e863288f08b9"
+  },
+  {
+    "file": "Short lever.stl",
+    "sha256": "29ce1233d6912d52e519834d5a4a6cd1c7506ab79968da4f5515cde4a1296f50"
+  },
+  {
+    "file": "Left inner bearing wall.stl",
+    "sha256": "37830c2319f566c1c224ddf9ad84177e2c7539a64da15442a53fe03ae0177048"
+  },
+  {
+    "file": "Right inner bearing wall.stl",
+    "sha256": "b1716f3502f1c0d4ce6086ccaafdb92d2f0254d2176670c8db4b73df00e0ac26"
+  },
+  {
+    "file": "Common baseboard.stl",
+    "sha256": "78b4015d8705399399d3e266489faca587b2daa3437de1e3a0ed9c96b832571d"
+  },
+  {
+    "file": "Right carriage bearing support.stl",
+    "sha256": "274b074f04bcbe6994b0fc0986d1c09d77631570bea11dbe18d7263226d97e1b"
+  },
+  {
+    "file": "Carriage fork and roof.stl",
+    "sha256": "96bd31d487351602321e84c0dd0889ea5aacd663be798a8cb226c9d4a0217d23"
+  },
+  {
+    "file": "Complete print layout.stl",
+    "sha256": "5024edb6ee6558c16c8781500c356b24a235bea44d120b68213c2bcd4aa3881f"
+  }
+]

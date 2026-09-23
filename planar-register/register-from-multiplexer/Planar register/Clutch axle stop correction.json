@@ -1,0 +1,23 @@
+{
+  "clutch_sleeve": "26287",
+  "central_web_X_mm": [
+    -4,
+    4
+  ],
+  "axle_inner_ends_local_X_mm": [
+    -4.2,
+    4.2
+  ],
+  "web_end_clearance_mm": 0.2,
+  "axle_part": "32073",
+  "axles_per_sleeve": 2,
+  "memory_output_end_X_mm": 44.2,
+  "write_core_X_mm": -85.0,
+  "write_output_right_end_X_mm": -40.8,
+  "memory_worm_left_end_X_mm": -40,
+  "coupler": "59443",
+  "coupler_center_X_mm": -40.4,
+  "coupler_divider_thickness_mm": 0.2,
+  "axle_end_gap_in_coupler_mm": 0.8,
+  "limits": "Nominal native geometry and end placement. Cross-bore orientation and rotating external clearance checked separately. No torque certification."
+}

@@ -1,0 +1,4 @@
+work/integrated-cam-development/
+__pycache__/
+*.pyc
+.DS_Store

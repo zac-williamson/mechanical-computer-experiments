@@ -1,0 +1,1326 @@
+[
+  {
+    "path": "register-from-multiplexer/Planar register/Print layout.stl",
+    "sha256": "43eeaabe517b33c4beaee223b88538c8787708ec6dfa8942786da5aaa657365f"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Actuator contact tables clipped.npz",
+    "sha256": "7564ce50f73019e1e2883a39eb8cdd63c48b22e12a927b0c35c633059ef0f858"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Collision audit.html",
+    "sha256": "54e1de681fa8cbaa23c79199ebb46f647a3fa2372fa79d1a4de47c4179f2d198"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Integrated cam parameters.json",
+    "sha256": "c2ff8cec87f3301ad73bf81a8ab0adb9341bfc1830cfbbce07deeb03ffae8dec"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Detachable guide checks.json",
+    "sha256": "d73c6a4fa6b41cd0b0a1849dc2656fecfe83e7d5584659c17564e06b6f18f5b6"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Clutch axle stop correction.json",
+    "sha256": "89197d315938b179c4eb17614d021923225b756ae49cec634e769cadc787be3a"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Fit coupon inventory.json",
+    "sha256": "3d625cac7dbd3aaa4f61518ce5d7a6f00510e5a71c5c04fbec82687e25220531"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Axle stop checks.json",
+    "sha256": "b7f2b9fca4804c2f2aef7059ee9c142b1429d5237925cffc1a2e3326284ba873"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Write \u2014 Front bearing cheek.stl",
+    "sha256": "e2e5d2aabd1e58827349b2f51a79639c219afd4c659d53c370783ee6bdaa7718"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Coupled assembly contacts.json",
+    "sha256": "db271571576551df5a3e331d61dcd88d98b2e8123b0c9f4ed7e9172bd9da5186"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/hardware.json",
+    "sha256": "461c0bc022e87358fc03bca32819de4fa6419bdba8262945aa0361621feba1f6"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Direct lock bolt.stl",
+    "sha256": "028268b4a13d3179c5f4751c9433376d942110f7f437e6f63db7a890735a76e9"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Roller passage relief.json",
+    "sha256": "75bd686d4a7a0d2eacb6d1dbb4020d20ce4e043dc08915fc4cbe36dcc84ea774"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Coupled viewer parts.json",
+    "sha256": "aed5f518b8f86a1620ae8e6058e33e81476b66396d268d21dd659f9c424b4c27"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Material overlap inventory.json",
+    "sha256": "d017875089a0f31c34027f27c05983d07e13dddf43c08c82951e18f215850664"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Printed travel intersections.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Actuator contact tables.npz",
+    "sha256": "672ac6b9acd12ccddfff0170423474bf4e13c9d075ddb53a94c21b269aaf5615"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Left inner bearing wall.stl",
+    "sha256": "697d9c1cc2b8f595c7ddf8608d692c244e5080bceeb818258c8553b2738c1b23"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Write \u2014 Right carriage bearing support.stl",
+    "sha256": "86617823b52f6683db9a00dad60f427e843cf09d36738df3ec72f64b95d72ad1"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Revision verification.json",
+    "sha256": "106aa10575f2a94995afefdfc31262be976b0cdd395781a1c0bb4406cdf03fce"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Rear bearing cheek.stl",
+    "sha256": "768aef2033dd737025235a9ce42dac1df5a578e2e4a5e114a0fe2c9f81a3c1b2"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Drive coupling check.json",
+    "sha256": "16545b5d4d0f7ac06a04c355294e9f1c4220d1ae1efe43d8b06a8ad15102067d"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Actual viewer transition failures.json",
+    "sha256": "e59b45032e03a4d1fc206793ca2f4a801dd6bad6c181ba0ac47dade1b18aa11b"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Frame printed clearance.json",
+    "sha256": "d07a43a85e52943d40936d744bbc595691293d63766653d6a2f0022d79c8018a"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Frame native contacts.json",
+    "sha256": "21d39cbe939805d908211972898ca883ab0c59607e81fb53e061784155c1c4d3"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Right inner bearing wall.stl",
+    "sha256": "795f566a13166b9e2592d5b22f1b6c1c6b8d2bfdb620d1e560d6f4da918f3025"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Right side frame.stl",
+    "sha256": "9e2559479ffeb9555fd02bf1c07c4973d4e1b8a763059cb7f5b4e1bfae3157bc"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Coupled model checks.json",
+    "sha256": "e3e56caae4dfee0e99931a87eddeb3b2aedde83cbb92b6f0a9dd133d0e58c7d7"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Unified rear backbone.stl",
+    "sha256": "a8e055fff7eda3e26ce40a1028af8e15cf4507a466d1ecea1463385bc73127fa"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Integrated loading screen.json",
+    "sha256": "f5024c1b1711d42a600b1200a3b987027edd79378a05b8804ca76ad3a52a202c"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Write \u2014 Left side frame.stl",
+    "sha256": "ab23e7d28e86e4c6a161e88a668cb870c1b181a0fdcf8c3dacacd280cfb19e37"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Rotating clearance checks.json",
+    "sha256": "c58ca31faaf7d8cd54b28d3c391bd8eabd83f2f79772e749b2c0a2728dde4d2f"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Support-free print checks.json",
+    "sha256": "8c4559fb0b1b6bbcd5643412702b13c7ebeb2f94366059896e537edd917cd971"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Detachable guide Y restraint.json",
+    "sha256": "efd8b1fcd0a02c3dc587ea0c77862afbbeb66c70be9cee922b827cfb107744fd"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/README.md",
+    "sha256": "439284b78b2678c86d15e0ecd2550062f66b928826b5754a638500ef1fdb98c8"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Short lever.stl",
+    "sha256": "2c970d2156380cba38f51444954ad4158f43ae687c3f1a041919bcef910089c8"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Bearing support checks.json",
+    "sha256": "4164acc6ed11bed8547dfc3d9658922ed9b74c879a89f05fc478d3073b8bdaf5"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Actuator addition checks.json",
+    "sha256": "82c2c7aa0da419d18e0c933a17376001afad6757d8ea1d7d84205d2f13f27bff"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Write \u2014 Rear bearing cheek.stl",
+    "sha256": "33b08a67f30082962a3950b00872408ecd175752885c694bffa9a7966cbfc4ad"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Development hardware intersections.json",
+    "sha256": "125ba9994a734cd6b0e49b28660d3cf39e2086d0e822ed0268ca92b67014b0b6"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Right carriage bearing support.stl",
+    "sha256": "edf56d28e8f305ed0e54d59147f632ddb41dc7521d9e0febb98b8e8f70b23675"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Integrated cam mechanical test.zip",
+    "sha256": "f8ada154b9cda8919532a908d51acd94d2a564d023f4b07e6afa6d69924f6548"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Viewer.html",
+    "sha256": "aced65203661a434da0d5250a1a14fb13fb7913fc27734b5cfeb216a0ebfb950"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Superseded fixed-pose collision audit.html",
+    "sha256": "30a4cbdaa03fe95a09ca2a85c1a2eca0de0ab1aa463a0ce8926ea3c61f09dbed"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Write \u2014 Carriage fork and roof.stl",
+    "sha256": "0e82550d127b6343e123b64b55f8a579e034884e31386b61d2cefcaf73b5c304"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Transition timing audit.json",
+    "sha256": "d61e350f021d43427d25a67fb25c257ac6819b93cb4ede8cc8a6525a95de82be"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/printed-parts.json",
+    "sha256": "7ac3d9b7d6eaebbceb747b8a787d0aa5f290fa02d4427b100d0989f91cb4130c"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Bearing frame datums.json",
+    "sha256": "02b6a288b946d0561f0ab9b3930b2e6562658ee87e993ca799df8e44dc26ed42"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Clutch phase contact scan.json",
+    "sha256": "0466e86827fb3078fe5365009cf7c6a64a5898f4755c595c20b681182eeaafeb"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Transition printed intersections.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Every contact inventory.json",
+    "sha256": "f9085cd1307af1161e07cac347d2fde1be86bc0313a0bcd8617b220d4c79b5d5"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Keyed hardware alignment.json",
+    "sha256": "3bf5f7cc882f1ee37b8312986848303943ea7194d88005a532cb73fd5487c8ad"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Write \u2014 Right inner bearing wall.stl",
+    "sha256": "9ac3742936a3574d5ee0a7c2164d6c5a97933e475f0c631c9da19263ea254cd0"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Carriage fork and roof.stl",
+    "sha256": "3fcb122d24091ab30f688ebd2ec2ca21dc8bdaa474ca32d7feb332bd2e659031"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/hardware.npz",
+    "sha256": "28bda001e3b8493db6718febae59567837002d3042ce61b54666812aba17f0d0"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Coupled operation.json",
+    "sha256": "88d314bb658760c4c641604c4c9f2087638658cda66485d3bb4732462532d8fb"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Write \u2014 Short lever.stl",
+    "sha256": "8754a2638b76781d3887f1846fc5f411b875ff950c5983d22991554cd32fa21c"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Cross-core hardware check.json",
+    "sha256": "4f59716087054add5a9fb0bd4c305f7d164035d10eeedbc8ae8b76b02a1028fb"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Left side frame.stl",
+    "sha256": "b1269896f14e774963256ce730ae558839d85d9ceeb994e286c8ac08c6d14907"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Collision inspection.html",
+    "sha256": "c907cedaeb4ddd747c04d7521c99e5fef96ba8c7058ceb876dc795bcfc280dfc"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Transition timing audit.md",
+    "sha256": "38b7a37b2a3fcc6d2fa07f35b83bdf47fc295200fe77a1dcd4f8775dfc02bd1d"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Connected gear phases.json",
+    "sha256": "128b17f1d145eb75a1ee2170ffdd9a78413b7a30ed437637b663a9af83680a51"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Write \u2014 Right side frame.stl",
+    "sha256": "3588e4d8201dd613d450be495b38ad7b97adbe45c2e2f1ef399f17c83e661c01"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Detachable guide mounts.json",
+    "sha256": "315dfc7539e3ef7a4337fbfbafd06e8f9cdf180cf177415a567f5cb4f9dc6d53"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Memory \u2014 Front bearing cheek.stl",
+    "sha256": "ee1aa3de4e329c9678f238cb3ef40eb6248e3239b17d379351086528cf26cc25"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Print layout.json",
+    "sha256": "8a3a2f904eadaf7418b4655a16678e0413033ff4fb23c1f5b18bb3323d6982e6"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Print orientations.json",
+    "sha256": "1c89d9bfd3d8377c4fbfd7a29a1ae4aea4712a2477c21d538e9d38b3a1e00cfb"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Functional validation gaps.json",
+    "sha256": "cf0c3a3cb0a9c78ca76ad0febbbf84487f9d450593d0d9858b2f8a0db707f988"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Detachable bolt guide.stl",
+    "sha256": "5cfb4c58f00f3dd5ce1eabac14375283cd89d30fdd1e804939e8e9b5c8522c39"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Quick lock fit test/Bolt.stl",
+    "sha256": "ad430206a336ef0d171542127a487bc260f61dd9231373cc3f31d93059c53053"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Quick lock fit test/Cam profile coupon.stl",
+    "sha256": "34436aaa631a3b1b152e7d6bafc2ac2dcbe9d8045bd95d1e325c12c38a543fb6"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Quick lock fit test/README.md",
+    "sha256": "1bd6d02ead06cbb04fd390309f8fafa37700db1dd49e0bc17e8049f32d0027c0"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Quick lock fit test/Guide coupon.stl",
+    "sha256": "55e8755686c65f3d10e2bfe51182eae92cc025156de9e4425e11aba2857f5b16"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Write \u2014 Front bearing cheek.stl",
+    "sha256": "44cd2cd487f384d0cb02c3c06731736b846e744497a507c626a46e44dcaa39b7"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Direct lock bolt.stl",
+    "sha256": "ad430206a336ef0d171542127a487bc260f61dd9231373cc3f31d93059c53053"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Left inner bearing wall.stl",
+    "sha256": "33e58abbd6c0d691585ef0ce3c184b3c6bfe5b26224080f89cda9d6f64cdef64"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Write \u2014 Right carriage bearing support.stl",
+    "sha256": "be8a36fb7d4eeeb204e4bfb6facb4671d16c8cc6a7e11e3d87adff64fe68eb94"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Rear bearing cheek.stl",
+    "sha256": "be94104fa28d7dff44590468d48bee0c2ffff2b483b0ff38c479ef4c931b4844"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Right inner bearing wall.stl",
+    "sha256": "738936738beb40f82ef490e5bc3faa15485acd7c02578c65d89281be1b4dcd01"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Right side frame.stl",
+    "sha256": "57bfc6696e5821030cc48a7718672fbaa2f9d8027be5b2902ee6379e92bd1632"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Unified rear backbone.stl",
+    "sha256": "ccd427923912a1d45865f986913031ad8f964e562ae0de80b536686ba99d9c1f"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Write \u2014 Left side frame.stl",
+    "sha256": "6faa0a5a5d13d01a57084ff6023b925d14b59f2bc70a3959d4326df3c33802b4"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Short lever.stl",
+    "sha256": "97a22812beddda85b0c4978e2c8cb2c0e3776fb55a056839f0c8bbb05ee8122b"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Write \u2014 Rear bearing cheek.stl",
+    "sha256": "08f5e2dcb64638970a225f9766efc091b8d98f7a5bff8ae0ef34aa57bfc27828"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Right carriage bearing support.stl",
+    "sha256": "5f5c9ce02522b8a865d7a3ca36767aabb3fbf8566bba051c1f5691587b5c87ce"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Write \u2014 Carriage fork and roof.stl",
+    "sha256": "533c0b41c6918c874d3a771e652e35e7efea0e4cb0f307f3a51e5ecea2e9a0e6"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Write \u2014 Right inner bearing wall.stl",
+    "sha256": "c27865929a476bfcb667adf6f186a0fa8a953e1eac4933d2314b8d0d896faf34"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Carriage fork and roof.stl",
+    "sha256": "9b7ace70b89821fd201ce7b90a9bd186fe62a04d89c7317c35e0169506bf5098"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Write \u2014 Short lever.stl",
+    "sha256": "3a7a7139953fafa931e04fecb773575d334b22208b6d7a3ed8900d84bc759b40"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Left side frame.stl",
+    "sha256": "709355a995d3202f46abdde0f18b81ad40990f1104df3b0bc92cc45a8ca8a576"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Write \u2014 Right side frame.stl",
+    "sha256": "36d5057c7d18efc700b26851f898527c4ca803dd82410e0bcdd6c998f811c851"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Memory \u2014 Front bearing cheek.stl",
+    "sha256": "66fb569fef9b27f0693b147b17c087aa3a0cc74b7748a527a636c8cfe157539d"
+  },
+  {
+    "path": "register-from-multiplexer/Planar register/Prototype print parts/Detachable bolt guide.stl",
+    "sha256": "9f0e7b98a2be7e106883a88871de40f00b6aed30cc4f7b7156e860550bc1c222"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_actuator_additions.py",
+    "sha256": "77478aa14061a2bfcda00b69dfa996bd2c02ad54155cbfa1be48b756f5d0d4d9"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_working_layout.py",
+    "sha256": "efca6a403a41e88750ebfe02c38cc68ba817a7073f634fdde533aeb383c2a282"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_integrated_loading.py",
+    "sha256": "fda6d0bdbd2f8a6f835bde57146ab6044db9c467aaa1af6584d7c6dbb16553d0"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_planar.py",
+    "sha256": "be03acec673a84d7381723f5a9b17737a558ba0f7095f34a5aed4922f87b88b0"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_coupon.py",
+    "sha256": "4ab0c33840d2ffdb0d6c4cd0682d1c0be7f9d786834a1d38e822aeef1dd96f95"
+  },
+  {
+    "path": "register-from-multiplexer/Source/compact_planar_search.py",
+    "sha256": "d377c25a31e08bc15c65ec3aab315055ad6feba3d75bd94203dd21075b8ba6ad"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_memory_drive.py",
+    "sha256": "25fa68749f91157ff59105d20877c4c4f4aeb8ed135b2aa7753d460e136cc811"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_planar_hardware.py",
+    "sha256": "2459b7ea292c463ebba152fc3febb0182e420bebba8d6388218c953770c695a6"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_rotating_clearance.py",
+    "sha256": "bf533298584d17df76a1540eb6c095e64dfaa560bbfbbf082732dcb72d0f6798"
+  },
+  {
+    "path": "register-from-multiplexer/Source/core_layout.py",
+    "sha256": "c3357ba3538fe48bcb870fe5b02a534256668346a158ac6c709ca857a1a1ca60"
+  },
+  {
+    "path": "register-from-multiplexer/Source/finish_adjacent_gears.py",
+    "sha256": "276b5f0ad0be9d18395649b66b937c73c34de89c6c5eaa455443e9587e8a4a5b"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_restored_bearings.py",
+    "sha256": "de654516a310cd9c4285c6ea84d3ade6fb752cecc65efd6d9d2b6569f7ca08d3"
+  },
+  {
+    "path": "register-from-multiplexer/Source/planar_layout.py",
+    "sha256": "7de94ee5cd6285f28dec1acdf54b4f8addac77221a175827907bf111a0d1bc23"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_support_free_prints.py",
+    "sha256": "80f37777e26dd8f129a513a145c0a6a539bc4802ea878038ffaf966becac247e"
+  },
+  {
+    "path": "register-from-multiplexer/Source/linkage.py",
+    "sha256": "b0f05d5e92399e4d2e74bb9998ccf226cccfd1f3525f9f57da163a3b930e5564"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_planar.py",
+    "sha256": "2879a0b245d0d8faa19402168ec15168d2b971b4ee536f5e3bd7b785c28799b2"
+  },
+  {
+    "path": "register-from-multiplexer/Source/package_coupled_revision.py",
+    "sha256": "e3c55a6eed53b9be0e87e65569b410a5f8810e6ba60615121fd00e8b6d44260d"
+  },
+  {
+    "path": "register-from-multiplexer/Source/latch_coupon.py",
+    "sha256": "36be31a16cbeddc7f9cc2b3e4dd56d63b335d4c805a3a6130e4e104a57d71950"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_direct_cam.py",
+    "sha256": "65c12c42c62d037d005c44a0e088dc9701ba6e64ec3d8242280b430f6b3ee737"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_linkage_hardware.py",
+    "sha256": "fd9f6d6345ef60d52a134aec3de3f5b0534b5b69b709b656260e57fcf3e433e7"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_bolt_y_restraint.py",
+    "sha256": "4bfa3bc20e43749ca6e437b4f552dac2df3584688d4858b6acb4a6e685324935"
+  },
+  {
+    "path": "register-from-multiplexer/Source/audit_every_contact.py",
+    "sha256": "995b857381abed7a7d7128cb1913fa6f62328fadfec4066105a8bdb1d396d03d"
+  },
+  {
+    "path": "register-from-multiplexer/Source/full_contact_inventory.py",
+    "sha256": "2f67e1a3fdf2be326f28d8f05e74769df7a9e2ac707d10896292a596f38c8724"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrated_poses.py",
+    "sha256": "9696aaa1d71f571d77273208c2a50b310d3c900d2477181e9adb706f48e5461a"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_frame_native_contacts.py",
+    "sha256": "e7d6e7615d1075547ed58586b856984eba39d3bbc3f5f07de7225b34c21b06f2"
+  },
+  {
+    "path": "register-from-multiplexer/Source/coupled_actuator.py",
+    "sha256": "7bdf3b90a0be69a06299668f4a309c0704f0bfb21214e05d75a643bdaab3078b"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_operation.py",
+    "sha256": "186ec385791769b723bf2ec695fbfc3d53196e665abd2ea2c051e55ffca16b78"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_adjacent.py",
+    "sha256": "b0ffe839a6d98e4362b90f09f9d2fd0d6d77802f53e3fd0fb81649623e4766c0"
+  },
+  {
+    "path": "register-from-multiplexer/Source/simplify_register.py",
+    "sha256": "2e15af2bd2d9360a06c13b6e3a89f17f077254a4666f78510ef9596390ad32c3"
+  },
+  {
+    "path": "register-from-multiplexer/Source/restore_bearing_supports.py",
+    "sha256": "8485adf4b7a8e6a96cf13bda20a4ad2883940025d46bb43fe22e1fa668171b6c"
+  },
+  {
+    "path": "register-from-multiplexer/Source/repair_exports.py",
+    "sha256": "cfafd9a505d31d118e53edbb659dcd7755b1489871f0ee89fea2081df73b7139"
+  },
+  {
+    "path": "register-from-multiplexer/Source/hardware_check.py",
+    "sha256": "c8794fd72fa748460012612f9d6927be1581d10cfa9946de43d9d3a9d72fdda0"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_integrated_transition_geometry.py",
+    "sha256": "03ab9d82a7269edfae8d4ca7d3fd7af75dbf6410ce6a1005b2b3d7f95d8cf4fb"
+  },
+  {
+    "path": "register-from-multiplexer/Source/compact_cam_search.py",
+    "sha256": "6148596e94bb7e15a3faa3ba2a3dd5f1719902cf1100bb8eef347a519f8a5c13"
+  },
+  {
+    "path": "register-from-multiplexer/Source/contact_study.py",
+    "sha256": "6ed6c6c6970404c956e6342c003a54aa6944128e81ff1dd76618bf253c676379"
+  },
+  {
+    "path": "register-from-multiplexer/Source/audit_criteria.py",
+    "sha256": "9b49115c26d21d3bce068479bbc72cc28bb02c3f0971f53b420691bc142114e0"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_ports.py",
+    "sha256": "0ccb5dc48c8e0c9dbc6c0f3369f0f6a771f02bfdffb4a0756362359347c5016a"
+  },
+  {
+    "path": "register-from-multiplexer/Source/prepare_print_layout.py",
+    "sha256": "3a45ead5675de114a4be59992704fe56a551d2d226521a532296ed31ff467b90"
+  },
+  {
+    "path": "register-from-multiplexer/Source/correct_memory_drive.py",
+    "sha256": "3a31adca1d8e45b3ef71473eabd82dc8de11b5c6ec1c91bb36afe1a25bafcfe1"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_detachable_guide.py",
+    "sha256": "6438b0633869d68bbcccbb0b6df3a5bd471d58c402a478b391957366050d39bc"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_carriage_printing.py",
+    "sha256": "b10c9083bf3f8e9356cb755eb65c6182234c637f8a097847e804cdf6cfc29a49"
+  },
+  {
+    "path": "register-from-multiplexer/Source/README.md",
+    "sha256": "954f117bc96e7a34d7e3113f226ed63866044191e9987bbdbc9bdc34586d89bf"
+  },
+  {
+    "path": "register-from-multiplexer/Source/flex_screen.py",
+    "sha256": "7581512fa25418420c4c37673947c3c8ff5e186d47701849d9eecb9e8c27ce2e"
+  },
+  {
+    "path": "register-from-multiplexer/Source/align_keyed_hardware.py",
+    "sha256": "dd29e9069ef7829381855fc88dfc5e9312d070e5b10afd73f1675108f6cd6a5c"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrated_timing.py",
+    "sha256": "3c72697bf36b562d3ccfc4007a513c0746cad433b3108067ce4a002ea43100e5"
+  },
+  {
+    "path": "register-from-multiplexer/Source/qualify_direct_cam.py",
+    "sha256": "daae0ff3cebc144cd1f90bd74f5281b701b771f731b1677d39275e91fe7be7fa"
+  },
+  {
+    "path": "register-from-multiplexer/Source/adjacent_lock.py",
+    "sha256": "bf109182878dda3cb16e0e8b1ee556fff0532b5fcaa5a66260d0f0cae40a5563"
+  },
+  {
+    "path": "register-from-multiplexer/Source/audit_displayed_transitions.py",
+    "sha256": "5cbf98592c53f703fe671d83ac564d6898c53e38acdb4a6e777c9db45307ccd7"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrated_cam_math.py",
+    "sha256": "bf3a0b08a22aee170ce8f6043cb7bfcdf7f5c37e0a8f25711834035b529097b6"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrated_cam.py",
+    "sha256": "71aa12f3af10e21119ffc9cf0e585c492e93b7920b2d969791091f971dab3ada"
+  },
+  {
+    "path": "register-from-multiplexer/Source/coupled_register.py",
+    "sha256": "04442a00e38b4a38a39262811977b2fb7283c40545d9a80a59361bed8d50655c"
+  },
+  {
+    "path": "register-from-multiplexer/Source/prepare_integrated_prints.py",
+    "sha256": "d7924af881581626bae7e112b7f058dd1a75498a2e9d8e797aaf7f2d216ee984"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_frame_printed_clearance.py",
+    "sha256": "e5f4327aef8665a544eca12e637258735d1e0745f6960a773a6341bd2bfd0db0"
+  },
+  {
+    "path": "register-from-multiplexer/Source/packing.py",
+    "sha256": "bb0c326bf7b93d84950dea2f5da505fed3bbaec25ae41851dd2eced6c7b5c1e6"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_linkage.py",
+    "sha256": "ed89f1b01d25f05878b9b35c6d0f687b1b9b9f458fdb6c7c78948dbe621e9f06"
+  },
+  {
+    "path": "register-from-multiplexer/Source/package_current.py",
+    "sha256": "9182807f90b92498e978bd6c530f75aa9902747724f62d546cde9ff6e80e64bb"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_axle_stops.py",
+    "sha256": "8bf5153977aad8f3e9b5e9cc9a79c03141dbf4f1324146782b51f9965b3446be"
+  },
+  {
+    "path": "register-from-multiplexer/Source/prepare_lock_fit_test.py",
+    "sha256": "55bc06d11238cb088be6bc6a87c0fbf94464e6af2e78b21377bba356b4963f5c"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_integrated_hardware.py",
+    "sha256": "e528b5f86dc55e7dd4b447fae1350f2d295f81c4707e28e11c50bb8898f01d36"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_coupled_assembly.py",
+    "sha256": "6c9532e75dd40707ee58681afe710728e63784342dbc76a0d121c825f068e355"
+  },
+  {
+    "path": "register-from-multiplexer/Source/detachable_bolt_guide.py",
+    "sha256": "2f009fd0b2a7cb89623f799517f18cb62f7c0fc1706cce9b752ecffc13d4ef2b"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_bearing_frame.py",
+    "sha256": "95e3006a8f814fd51b41635df4bba2c028a0ab27e1917f322eb101111e839f23"
+  },
+  {
+    "path": "register-from-multiplexer/Source/phase_connected_gears.py",
+    "sha256": "4de72db5e497d8a5ed38579105a9daf28f998af7d73003e63b01e0c421938d47"
+  },
+  {
+    "path": "register-from-multiplexer/Source/coupled_pose.py",
+    "sha256": "7a9ed54b03d1c8d4dfcc67b6ee9a202bb68a9eaed6b0685d222f4d4d728f91d0"
+  },
+  {
+    "path": "register-from-multiplexer/Source/scan_clutch_phase.py",
+    "sha256": "d188d80aeaccf27b59fbff3f9924bf4756e86d03489dbdaada34de94a79e18e5"
+  },
+  {
+    "path": "register-from-multiplexer/Source/audit_transition_timing.py",
+    "sha256": "5b4d5db8e80877d5ef04b68594b030a0542bf7d49fec9889c072ce92b8568bfb"
+  },
+  {
+    "path": "register-from-multiplexer/Source/reorient_planar.py",
+    "sha256": "10a2e0530355f5575e05a20799a9b0f8110fa1081b64c0fc57f661c54fbe5fc4"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_assembly.py",
+    "sha256": "32770508d1d21240e15f5359e0bf9797cf6ea1c6204db54c0a96b28ee2b05e1d"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_operation_hardware.py",
+    "sha256": "4f662399033295186eeed334821ff4b4981290fe0e28fb9f05f003d0479d4376"
+  },
+  {
+    "path": "register-from-multiplexer/Source/package_integrated_cam.py",
+    "sha256": "30c13d1a799302bc07be6ec3d5e97bc5c9bfb929da733c707f1e871699a14b91"
+  },
+  {
+    "path": "register-from-multiplexer/Source/direct_cam_math.py",
+    "sha256": "ce7faa2394c72348312aabc4c55220c85028aee777f7ddf600c53b8a643211b5"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_coupled_viewer.py",
+    "sha256": "01f86064b8f9d1cbae55567facba0407fb4705ca332a12c88cb41c837e890e76"
+  },
+  {
+    "path": "register-from-multiplexer/Source/gear_phases.py",
+    "sha256": "8d6686d76c0f75b04090b20bc4e447a7b2e6707507efdc8104ba8234ed1ec541"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_integrated_crossbank.py",
+    "sha256": "dd55519aa131ba9aa62f1977ab4e0d0790fd42785c0f6e11dfcc95fa0ee04e73"
+  },
+  {
+    "path": "register-from-multiplexer/Source/redesign_bearing_frame.py",
+    "sha256": "70c5b858c6a3674b5db49c99740f146475138e325a6d96363cb7f19427ceb207"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_reoriented.py",
+    "sha256": "0aa8741eb3d663d6864beac7bf171b5b8990e71613ced058e1225632469c831d"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_actuator_bands.py",
+    "sha256": "2b2d7d676b120890d9bcd2e6135fe3fa5fadb9919fa1d538fccc3e515b37b39a"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_inventory_penetration.py",
+    "sha256": "2f0b85c6207e6856b9464036540c337207eedd90dab2b67fb0a8a87176cb4a14"
+  },
+  {
+    "path": "register-from-multiplexer/Source/audit_cam_loading.py",
+    "sha256": "d84a9c487b52f6bdb21cfcea4bb8083135b38a47e83b29a92ab325b9470ab66e"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_integrated_rotation.py",
+    "sha256": "e8913087ebf46e248eeaa01743fcc496855841107b8f2f58c8ee35f8b5667f32"
+  },
+  {
+    "path": "register-from-multiplexer/Source/direct_cam.py",
+    "sha256": "f5461bbaee5e0e227e07a290f784790f93a384c8adb7ec21f93463dd20df1d35"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_integrated_travel.py",
+    "sha256": "efe203bb23aa9d9d8181df02b0aa83ba5d757d8bbdca9a409dc2163053e43032"
+  },
+  {
+    "path": "register-from-multiplexer/Source/sequencing.py",
+    "sha256": "c9cce304faa3a0f7ed7379271f267c79090fe0e2b4d381c1d448b60d3e053908"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_collision_audit.py",
+    "sha256": "4544ee956c9f37f7cabc7a816625fcb37cc2ae5124cc9c69067b4f551e1d9669"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_coupled_model.py",
+    "sha256": "8cb79f4585071623341a31e3a34a1aac3aa7c226ac1e9496250beb78355a5767"
+  },
+  {
+    "path": "register-from-multiplexer/Source/fix_clutch_axles.py",
+    "sha256": "f17f4cd5dce5530bac273b1c02cddbad36bdd5a73e39aae93b4dc17646d577ee"
+  },
+  {
+    "path": "register-from-multiplexer/Source/publish_integrated_cam.py",
+    "sha256": "4abd849fa8fc1462e3e59aee3a86c32e2aa92db85b8f96399d974930e3204c05"
+  },
+  {
+    "path": "register-from-multiplexer/Source/audit_bolt_play.py",
+    "sha256": "61b54205691b6da6a98928eb2da220d39925960811a057aec9ef07d48da1a169"
+  },
+  {
+    "path": "register-from-multiplexer/Source/investigate.py",
+    "sha256": "d594dfeb33913d48e33a7d008c73c789b907eab1c8be8f9394432a07ade2a214"
+  },
+  {
+    "path": "register-from-multiplexer/Source/ldraw_mesh.py",
+    "sha256": "b1148bb249fe8bab91cd7b4a600404ccc1636ddf374417d6d28fdf4829216441"
+  },
+  {
+    "path": "register-from-multiplexer/Source/qualify_adjacent.py",
+    "sha256": "16edca1fef55d2121a2dbf35080ce8a22be9acb2c296d8665482accc2e8060a3"
+  },
+  {
+    "path": "register-from-multiplexer/Source/prepare_parts.py",
+    "sha256": "5b5222d5af1130da2224f1517951c6afc60e14e55f411854167ec89c75bd9d0a"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrate_memory.py",
+    "sha256": "d05f694e63cb84177842dfce0ce6051d9fb49885c0320c5c96add2ca83ec8a94"
+  },
+  {
+    "path": "register-from-multiplexer/Source/build_integrated_cam.py",
+    "sha256": "bef89464794bd8f1e70892521ff5b27d207898ae6e5e503e76a6cbcf5c505288"
+  },
+  {
+    "path": "register-from-multiplexer/Source/audit_material_overlap.py",
+    "sha256": "104e5227566254667f4f1bbd39392afe9bb3c6d0cd7882ef956627f1fddcba2d"
+  },
+  {
+    "path": "register-from-multiplexer/Source/check_integrated_actuator.py",
+    "sha256": "1d7eedcc460f018179efe1091940b041c6e2472530dc7de10215326820cb0a17"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrated-cam-docs/Drive coupling check.json",
+    "sha256": "16545b5d4d0f7ac06a04c355294e9f1c4220d1ae1efe43d8b06a8ad15102067d"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrated-cam-docs/README.md",
+    "sha256": "439284b78b2678c86d15e0ecd2550062f66b928826b5754a638500ef1fdb98c8"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrated-cam-docs/Transition timing audit.md",
+    "sha256": "38b7a37b2a3fcc6d2fa07f35b83bdf47fc295200fe77a1dcd4f8775dfc02bd1d"
+  },
+  {
+    "path": "register-from-multiplexer/Source/integrated-cam-docs/Functional validation gaps.json",
+    "sha256": "cf0c3a3cb0a9c78ca76ad0febbbf84487f9d450593d0d9858b2f8a0db707f988"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Direct bell crank.stl",
+    "sha256": "56b876f1c78898f8e7a3ed1eb872372b4de47a602420a88e0828b84b3e304518"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Memory \u2014 Common baseboard.stl",
+    "sha256": "b430ff037c3de19425e2305d4270013c6e0137d5fc0d2414d65f7f7fc9b670aa"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Hardware checks.json",
+    "sha256": "7ff86794f9887f3eb60e03d195ac33bf33069b31ec16318e89ed81c4eaf5f821"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Common planar base.stl",
+    "sha256": "96e12268f49e5c5d00fe0b55509034e976756e80168a2b66d1261addd5d89531"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Upper lock guide.stl",
+    "sha256": "df2d093d8da8d71c53f7b3ac3ef753849585a41bf0c2066d8dfe28f1dddc6741"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Inventory penetration checks.json",
+    "sha256": "6b0b338652d9d0bf543990cb2318c39ac155ff5435a69e0a2220ef4abf4a7d84"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Package manifest.json",
+    "sha256": "fdb71a3095b789d8cb36e451159452e6135a618631c44c22ae929d1662ea4e23"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Write \u2014 Left side frame.stl",
+    "sha256": "aafcee32f1aeb4d94a05bea129b753ac429f4c3d66d9b183a46c930baf0bca14"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Checks.json",
+    "sha256": "7ff86794f9887f3eb60e03d195ac33bf33069b31ec16318e89ed81c4eaf5f821"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Orientation checks.json",
+    "sha256": "84aea62e3fb69065905ea9405b62f2215eeac4505af60d579df1dcc185c318e0"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Write \u2014 Common baseboard.stl",
+    "sha256": "33a5e9fe623a95886d1e9ba123521fbc74a86ce8fc66fba3bfaf4ad275f49980"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Lock bolt.stl",
+    "sha256": "39a3264376f531fbf7fa8eb896d780bdc97ccbd5604d0b7e9bac9420a65526e4"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Lower lock guide.stl",
+    "sha256": "180e82a5ce9c6e6ed2c8c36e57e84492cc52abd202913bbf288ff9fd0b861f7c"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Export repair.json",
+    "sha256": "3fa84947f8d53fac617b2af638c9481b1ed55005f130742c6e87cff14fa01a6e"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Full contact inventory.json",
+    "sha256": "6e0448b3e715f2a7259b0fc48796a261850db1ee7dffb57a003fb2ed9db92f54"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Envelope.json",
+    "sha256": "b411e0236c5ccbb0f8e23c8ada704d0f40ea726c8f66b2f0870cdfc679e0749f"
+  },
+  {
+    "path": "register-from-multiplexer/Superseded planar parts/Write \u2014 Left inner bearing wall.stl",
+    "sha256": "0582f8e984f409dd9fc4582b0fc61a6ecdd0135ce2a5323c58d0d796ed865fe2"
+  },
+  {
+    "path": "work/register-before-left-cam/WRITE gear mesh.json",
+    "sha256": "9ea0beb78cc5562e5b07dd6746db3a112575780ab70af446d9eab62341ee036c"
+  },
+  {
+    "path": "work/register-before-left-cam/Direct cam parameters.json",
+    "sha256": "82e9776710d6bd994a8258585af56acb87b96b40581181a219c6cb90708bed0c"
+  },
+  {
+    "path": "work/register-before-left-cam/Qualification.json",
+    "sha256": "f6fbd58bc67ba7b814424721a13ba9b318ce56216b874ad7feca4ce7c31d7401"
+  },
+  {
+    "path": "work/register-before-left-cam/Write \u2014 Front bearing cheek.stl",
+    "sha256": "bbf84b0b5349600c3e7307ec25c82f1eddaef3ecb9e10b4700c9865e2169f0f7"
+  },
+  {
+    "path": "work/register-before-left-cam/hardware.json",
+    "sha256": "d47393bf3536f86a0630c2ce0669070ea8aaa0f5f834d281f86ef9df2892f239"
+  },
+  {
+    "path": "work/register-before-left-cam/Direct lock bolt.stl",
+    "sha256": "27a0152a2294a5dbd0488075688c533b1d6da878e8c3bd1fe712429498bbce68"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Left inner bearing wall.stl",
+    "sha256": "9b4a007325adfbcf7e66ea679156358b4d17a9cc833cebae86681547a7f3697f"
+  },
+  {
+    "path": "work/register-before-left-cam/Write \u2014 Right carriage bearing support.stl",
+    "sha256": "45e0f98488e4622991e5c11cef2d2802a2808f3407e4622b31725f8693b42554"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Rear bearing cheek.stl",
+    "sha256": "768aef2033dd737025235a9ce42dac1df5a578e2e4a5e114a0fe2c9f81a3c1b2"
+  },
+  {
+    "path": "work/register-before-left-cam/Actuator band checks.json",
+    "sha256": "c8f167a7c720622581208c1a3c2bd1c57299e7f3541bd739e0f3b65d3d721695"
+  },
+  {
+    "path": "work/register-before-left-cam/Current package manifest.json",
+    "sha256": "179ca8393f2be078e9ab8c83dbbde60608c3955d4c95769edf510fa87dc34778"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Right inner bearing wall.stl",
+    "sha256": "b5ca440a9cb53f318e267f2ea880f9f035999acd55fe24c56a2d6682822582c9"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Right side frame.stl",
+    "sha256": "863dead29900e633500e9b2fdcfeeb33a36572425920d7ede1f55a5aca257f6f"
+  },
+  {
+    "path": "work/register-before-left-cam/Operation checks.json",
+    "sha256": "adbcf62606b4001f7b9a1bb8c916514e8c59ef38747683c17fc981daece0a3a7"
+  },
+  {
+    "path": "work/register-before-left-cam/Unified rear backbone.stl",
+    "sha256": "af737272e762a6d6d25b573a2906d1c6df050b76273e810e78d14c04159529ba"
+  },
+  {
+    "path": "work/register-before-left-cam/Rotating clearance checks.json",
+    "sha256": "17262b73f59ddecd7a914037cfff85cc508c67a12aa6c0b326fb4c7bc4785c35"
+  },
+  {
+    "path": "work/register-before-left-cam/Criteria audit.md",
+    "sha256": "fad20114684e998f45a9e8e0377853c94c3e39d3666a2ee7b52ba33649b6a8ce"
+  },
+  {
+    "path": "work/register-before-left-cam/README.md",
+    "sha256": "b9a4fbdbc960e71f11e95eb082b2cad81a5bb0292f452a5472a2bc929296c8f0"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Short lever.stl",
+    "sha256": "c0ac09302f2b7b3873b82eac83b015d393a4d22a65e60984d3a5a248b1397563"
+  },
+  {
+    "path": "work/register-before-left-cam/Actuator addition checks.json",
+    "sha256": "82c2c7aa0da419d18e0c933a17376001afad6757d8ea1d7d84205d2f13f27bff"
+  },
+  {
+    "path": "work/register-before-left-cam/Write \u2014 Rear bearing cheek.stl",
+    "sha256": "1d76d4ea2e7fd6ee7456be992f2f5309880a03de381751abfdc91f510c169fde"
+  },
+  {
+    "path": "work/register-before-left-cam/Write \u2014 Direct cam plate.stl",
+    "sha256": "a369aa7af39161f9f208fa7db2c85ba0656c3ce64a6cd008513da07e0b9ceb5b"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Right carriage bearing support.stl",
+    "sha256": "cac6be8fcfbf84691d68793085e80c554a2b77eca323ed4283bfc1a1b6012df8"
+  },
+  {
+    "path": "work/register-before-left-cam/Viewer.html",
+    "sha256": "cb0b92f371c5cf95c76b796d9e00e629d788ece5e7c25259e53248d14bce7e15"
+  },
+  {
+    "path": "work/register-before-left-cam/Write \u2014 Carriage fork and roof.stl",
+    "sha256": "ccc1da5d11479a2825b6b4916e772b02ad450a11e19d747b7324ff18a7e1477f"
+  },
+  {
+    "path": "work/register-before-left-cam/Transition timing audit.json",
+    "sha256": "50382c5e0d136a879e218dfab7a72d61bb20119407275d69af1cd533028cf844"
+  },
+  {
+    "path": "work/register-before-left-cam/printed-parts.json",
+    "sha256": "8c618f1c739a01028725d2d5f544491547efcdbfa62b292de4052439e6e2e29b"
+  },
+  {
+    "path": "work/register-before-left-cam/Clutch phase contact scan.json",
+    "sha256": "0466e86827fb3078fe5365009cf7c6a64a5898f4755c595c20b681182eeaafeb"
+  },
+  {
+    "path": "work/register-before-left-cam/Contact classification.json",
+    "sha256": "48671756755e22a2e5ca590d7f2d2d46f2276851e3f4fb8ab7ce3a9b7b649432"
+  },
+  {
+    "path": "work/register-before-left-cam/Write \u2014 Right inner bearing wall.stl",
+    "sha256": "5222c9752b66670fbaadfbfd7186b1509afe54b48d338364b3cddab5ce10a92e"
+  },
+  {
+    "path": "work/register-before-left-cam/Flex screening.json",
+    "sha256": "47dd7497a1db680f787f15cb72594e969915d9a091e71956daa91bc41a6825d9"
+  },
+  {
+    "path": "work/register-before-left-cam/Cam mechanism audit.md",
+    "sha256": "d6198cb33a829384392076af60af84a445bb19a224c1876d71ae6f2f95c08eaf"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Carriage fork and roof.stl",
+    "sha256": "550602b117e9a1d116a59aba9e08c3390a011a1d1b8059e8e2f829374f16841c"
+  },
+  {
+    "path": "work/register-before-left-cam/hardware.npz",
+    "sha256": "f89891944f6c4e578c98be2eb8e8660c4f3ea54914d3eec08d52f9595c188661"
+  },
+  {
+    "path": "work/register-before-left-cam/Loaded guide screen.json",
+    "sha256": "114c8f789aeab0ff0a1112cc3cbf02a2fceb6f467cf8d39dec0f3057a70009c3"
+  },
+  {
+    "path": "work/register-before-left-cam/Write \u2014 Short lever.stl",
+    "sha256": "28915114845cb7cad145f18c22a61b2dc2f2ebd76160ddcdb9b9cbacb1d48f47"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Left side frame.stl",
+    "sha256": "846715e0b10094427ce137c189f4d41a284aed05a9767b994f6799b2fe80ca2d"
+  },
+  {
+    "path": "work/register-before-left-cam/Carriage printing checks.json",
+    "sha256": "d892ca2067c2d03f8f5a7cb346019ec989477dd4c4a5245ce4f9485f54f4fe25"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory gear mesh.json",
+    "sha256": "913d3f01bef902518e43e00767aac593c0a0a0ebcb5f5d2a9e26aa6891a4ba25"
+  },
+  {
+    "path": "work/register-before-left-cam/Transition timing audit.md",
+    "sha256": "aa8846411794eb0aed2c6367e776bb406f9cc11ca81f149166bcab0bee0bea64"
+  },
+  {
+    "path": "work/register-before-left-cam/SAP register timing.md",
+    "sha256": "35574e8042161d891740e0df8e4d561dbab52c9315acb2c25a98b586d24d28bf"
+  },
+  {
+    "path": "work/register-before-left-cam/Write \u2014 Right side frame.stl",
+    "sha256": "9cb0e96d4432973a186c95e5e190860e4d59e2c3f853a60d1b8ee7616190298a"
+  },
+  {
+    "path": "work/register-before-left-cam/Memory \u2014 Front bearing cheek.stl",
+    "sha256": "8ffa9b801d4b1623d89d01112911eaa2c8cf265f86045389558d07ff6c22ca00"
+  },
+  {
+    "path": "work/register-before-left-cam/Envelope.json",
+    "sha256": "0967b36437ae870417c742d0369841c687b7cabc9707e0aa29265894e4d9b5ce"
+  },
+  {
+    "path": "work/register-before-left-cam/Operation hardware checks.json",
+    "sha256": "e7bd8336bc6fb4558b1b982112a26e8df2da8400d11f2e0acfeeca37c56697cf"
+  },
+  {
+    "path": "work/register-before-left-cam/Criteria audit evidence.json",
+    "sha256": "8d888bc95778f78b3b52242fc6af835e6d79e589be6b032beab5f7edad356874"
+  },
+  {
+    "path": "work/register-before-left-cam/Bolt guide play.json",
+    "sha256": "3dd4f1aa18d3ad12a5930a32c565ff8c4d3d0d7c990880e593c61a4ae3989391"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Left inner bearing wall.stl",
+    "sha256": "37830c2319f566c1c224ddf9ad84177e2c7539a64da15442a53fe03ae0177048"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/envelope-check.json",
+    "sha256": "8cf4b10ef79bb8dadca02406a96c8e8db0dea33fec49b5b02846225456253939"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Right inner bearing wall.stl",
+    "sha256": "b1716f3502f1c0d4ce6086ccaafdb92d2f0254d2176670c8db4b73df00e0ac26"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Change record.json",
+    "sha256": "72a9f13987aaeb0f344c9f7036d9823378e571bf9c7aca7bc4c8d64f6576bad6"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Front bearing cheek.stl",
+    "sha256": "4fdcdac5242d4ad1ce545e3e21ccd463543b6e3ae410e4d3f90bdf096cca3cfd"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Complete print layout.stl",
+    "sha256": "5024edb6ee6558c16c8781500c356b24a235bea44d120b68213c2bcd4aa3881f"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/parameters.json",
+    "sha256": "b6c73e88f9422081c8c7d464aa1c1c91bdff03fe5111bd7435463dd4ed82f08b"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/hardware.json",
+    "sha256": "9c010109ed27e305593c6282d3c298fa5c2aba9d3f220036238381b53213cd4f"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Right carriage bearing support.stl",
+    "sha256": "274b074f04bcbe6994b0fc0986d1c09d77631570bea11dbe18d7263226d97e1b"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Print layout manifest.json",
+    "sha256": "9112a38ca67c69aff0c20c7ffe32e68207be695362b03045fa4148cca4762c96"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/mount-coordinates.json",
+    "sha256": "c9f9d8394517bfdd4c4f5d101463415a492708c1efc3c2a800761e764243c292"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/checks.json",
+    "sha256": "54d69c3a8f65f5c084753ede48d9fa53e13d853cd9e1171f0a437486b73a2fc6"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/README.md",
+    "sha256": "84dd4d1be89b9b947ab4d958bb58cadafa587646e76b47839187a70b5a05b07f"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Switching trace.json",
+    "sha256": "ebdbef43182af4b884af4fe538f3db101891e7874d3f93193db6b8a580ebe44e"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Rebuild verification.json",
+    "sha256": "bfc611f02730fd364c2be8b26de56b37ae7dc460e7ca2a8cecb3d2e47b96ba91"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Common baseboard.stl",
+    "sha256": "78b4015d8705399399d3e266489faca587b2daa3437de1e3a0ed9c96b832571d"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Viewer.html",
+    "sha256": "23f92dd5141f17229801bd5be403ce33ace75cd3440f6391ad1e455d3898e5d6"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/printed-parts.json",
+    "sha256": "7d2caa12662d10f82b3447ccd79dfa0cfbdb5ee9a3992dc1304fbba9b1b2c40e"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Right side frame.stl",
+    "sha256": "281cf11aff47fc7140749898ef5dc74136e47bc32321786884405b913dff28c3"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/hardware.npz",
+    "sha256": "5b870e7294927cd8a9a6d315e3cfe06975d65d73f3919a7b8e7c0e3b51f5661d"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/AGENTS.md",
+    "sha256": "0e3a4a1cee6630cf8752fe90125f6033776082d9f60a26996c96f3cc6380dc5d"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Short lever.stl",
+    "sha256": "29ce1233d6912d52e519834d5a4a6cd1c7506ab79968da4f5515cde4a1296f50"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/fork-check.json",
+    "sha256": "deaf168a19982a4e04bfdd5473c34be90bc9a35195bce1fd22e3ea201a21fa6c"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Carriage fork and roof.stl",
+    "sha256": "96bd31d487351602321e84c0dd0889ea5aacd663be798a8cb226c9d4a0217d23"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/orthographic.png",
+    "sha256": "f26d6f07770cf8e1435747378be56add6d84bc6615391a9d1c6b48a8c034fcd9"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Rear bearing cheek.stl",
+    "sha256": "e2141c6eca3377366caaddef3d79aaa8ec6812924d7162e4b157e863288f08b9"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/baseboard-mounts.json",
+    "sha256": "604cb2fe18bbb6e8750bc8e45af15b7e2bc47087a635c365dbcf4448b162cd84"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Left side frame.stl",
+    "sha256": "7dca62249202639e2fc99cbdb3e050299ab659c91766000d7afb0bd42e6798f2"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/build.py",
+    "sha256": "3309793d85ca00b78ab6e90cd1775f5aa0aa1651d89a4f8d355ed0822585ba02"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/check_fork.py",
+    "sha256": "eef96e9bdeeb819bfd1143aad268d22dfe0b6389a30a2ceb51d3e56dd8d7f370"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/check.py",
+    "sha256": "5360a7a563100173c06c92da16d1184f113c152d809d674bd91222cf88829d92"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/requirements.txt",
+    "sha256": "6b8b7cc03d0b664359dceb7ea6b2825ed39e91a9357eb6ddc89ce94fc01b1a99"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/clean_print_mesh.py",
+    "sha256": "8dba8c7b58b4e853c1a3ee08af2f72f74f09756c9f7bc0fcbb125ead63825b75"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/accepted-output-hashes.json",
+    "sha256": "dcf9c7b2b26f0785ca0289a3723dc7dd4a4a2371a0c8ec06ca2577d1eb3cb205"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/print_layout.py",
+    "sha256": "88c604a1043daa6407dc8c31dec790cbe3eeecb0e885fe8622f5e82bb2565902"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/check_envelopes.py",
+    "sha256": "4a56133556483eb839c3ea1745e2be1412823875abdd5300bc77bdd1aa39851b"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/Clutch interface reference.stl",
+    "sha256": "baad9dc03b3f4dd649d97e3ff71792774e482a0a2500e56fe965bac97541eb5c"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/viewer.html.in",
+    "sha256": "1fb68ef693150c7941f4816a970720871cf69a76bcdb5ddd24407fe4a41929df"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/scene.json",
+    "sha256": "9f8b9519be11c9035a03a95c907a11e84e4ff3ec3f6d12173959bd848e4c095b"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/verify_build.py",
+    "sha256": "9904072b722b048bd6f71c99591b22de9bd1c403468609f5216cc1fd8a99e154"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/geometry.py",
+    "sha256": "49a4ecca128fef6c068c873e42c4e06f9c6a358a013e0c7610642c0e258528d1"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/build_viewer.py",
+    "sha256": "4de887ae5e52753ec496a5ef57ba6c3899dc8c42ee824531d04b86bcdc579f00"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/generate_parts.py",
+    "sha256": "6fa09297063cf7126bb9f978040e5a26cd8b84863042f2b3985bd8479f8d2fc6"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/build_local_support.py",
+    "sha256": "0513d79272bfe11e0992f4ec373c60ac5437241fd6c4a11ac4f57457b5775b4b"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/inspect_baseline.py",
+    "sha256": "1624db2cbd7cfec81e82a324ca69979f9a8828c2f34ea164081714ec28406837"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/reinforce_fork_root.py",
+    "sha256": "9fdf437ccca41f42096754ac572dfc837b7d98cfe52a9473e2ab77019df89877"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/flush_carriage_underside.py",
+    "sha256": "27ffce2a2580ae220674d25e707bd66952e44543efb54500ca343e19d86a5f7a"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/extend_arm_profile.py",
+    "sha256": "262dd13b6f2ffe421fecd654f6451f300851e902af9315f4867aa772f63e7ea7"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/build_flat.py",
+    "sha256": "807ec3657e1334095f77e7dc71d9f3a6c68db1b5c3f7b3581c9cf95a389cdfb7"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/build_aligned_16t.py",
+    "sha256": "365b0486d10c9f2c179b75f24899b29baf0250d22d57e9d1fde527ffcde46e5d"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/close_fork_root_gap.py",
+    "sha256": "c082c3380c52106d31a353fe85cd51a7081b6baef87de3a3de74404b5fb9b810"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/remove_curve_b.py",
+    "sha256": "4f58b1b06933e90521944a74fa035ed562fa136bca3361ae57045534b6b98112"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/explore_two_piece.py",
+    "sha256": "b09a5e65ed789f03975a2267a907fb63166f8773b020c08fbec4fe09825a9996"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/geometry.py",
+    "sha256": "7c5f80dd038e2f97b9544fe1502ad76822af85986e453e44f7a75c2b42d02195"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/investigate_carriage_abcd.py",
+    "sha256": "37a5277067c0f80630953c8d9099a5bfce4a8ae458186ff556a730e778bf181b"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/fill_bearing_notch.py",
+    "sha256": "650edd47ab47c639030dccd502fdd0751c3d41e8b9470619b7571d39899b0f94"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction/repair_arm_sliver.py",
+    "sha256": "431cb4227556755898195370b481a54f06dcba9db18724af281cfaf1b32e11f9"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Left inner bearing wall.stl",
+    "sha256": "443234f5dad8d71befff220eb7c42a7d1594591e325b04f8e957acbfd751c6c7"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Right inner bearing wall.stl",
+    "sha256": "a5ad4e325436e04e812a1f305646e44a7dd674faae98fe8675a6235031f49d00"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Clutch stock.stl",
+    "sha256": "fe39979ee6a34cfcf54963cccdf4539cfc09f3f5dd3915c09a5ae942c7deba83"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Front bearing cheek.stl",
+    "sha256": "8f0b00367106eef121179c51b7f6919a7d522209e4b47eb5d636cc38f2abb056"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/parameters.json",
+    "sha256": "bd4bb6da676b76b1713f1f0ef4be6282f7b00f08ad4402a20c4c9e70c3dfff5c"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/hardware.json",
+    "sha256": "31fa26853fd3f80a3cd80d71110792dff3ef5d92827dd467bde925ad9d7ef114"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Right carriage bearing support.stl",
+    "sha256": "95118cd82928d7c037caa71871bf80d47a5860b47bff0a3a88895298422cd205"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Common baseboard.stl",
+    "sha256": "6d5548c6889b919814525f770776971de9b892553846e10e33e58caff983cf9b"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/printed-parts.json",
+    "sha256": "4603790a29b97d3be0fffb117a0e2f82b9f349de85b389e488b36cbf5599dac5"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/manifest.json",
+    "sha256": "2ee6835167b8250bd63c4f5a65600d8795b1af29de9d78ab24b1720e7842cbdd"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Right side frame.stl",
+    "sha256": "537dcd091ea437893fac393a616831932485a266bc795329df2a3bcd5045d775"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/hardware.npz",
+    "sha256": "093cb4877fa337b67faf855fdcc62530a0f08397172295cbe85efbd77b9f99d6"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Short lever.stl",
+    "sha256": "d50a1fa59610fa75673fbc87bb621a06a75d1e91d2855f35c577a122ae273390"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Carriage fork and roof.stl",
+    "sha256": "4e84631e6b27059023fb8a023acd261e50ff503af00bd41c191917438af9a44b"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Rear bearing cheek.stl",
+    "sha256": "352cbd9b3124efb00c1b7928a5a1d4d0771a14337fcebbccf2896dd38445fe3c"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/baseboard-mounts.json",
+    "sha256": "604cb2fe18bbb6e8750bc8e45af15b7e2bc47087a635c365dbcf4448b162cd84"
+  },
+  {
+    "path": "work/register-mux-reference/multiplexer/Source/construction-inputs/Left side frame.stl",
+    "sha256": "218e28d00101bcac7cde88e41c7e35de2b0a61eaf0cfec13efce7807aedbdea3"
+  }
+]

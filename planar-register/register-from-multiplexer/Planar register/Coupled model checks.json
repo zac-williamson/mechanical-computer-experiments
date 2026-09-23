@@ -1,0 +1,15 @@
+{
+  "cases": 72,
+  "input_transitions": 12,
+  "frames": 64872,
+  "worm_constraint_error_mm": 1.97758476261356e-16,
+  "held_reaction_travel_intervals": 13905,
+  "released_reaction_overrun_intervals": 75279,
+  "unique_gear_lever_poses": 673,
+  "maximum_gear_surface_inside_lever_mm": 0.011580423318019506,
+  "worst_angles": [
+    21.3,
+    35.5
+  ],
+  "scope": "Actual viewer joint transforms; native gear surface samples against closed printed lever. Other parts and physical loads are not certified by this test."
+}

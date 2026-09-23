@@ -1,0 +1,20 @@
+{
+  "nominal_bounds_mm": [
+    [
+      -44.0,
+      -4.200000000000002,
+      -26.700000762939453
+    ],
+    [
+      141.0000015258789,
+      38.400001525878906,
+      63.5
+    ]
+  ],
+  "nominal_size_mm": [
+    185.0000015258789,
+    42.60000152587891,
+    90.20000076293945
+  ],
+  "qualification": "Zero-angle reference geometry. Not a swept envelope or a proven minimum."
+}

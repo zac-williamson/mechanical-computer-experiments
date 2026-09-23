@@ -1,0 +1,510 @@
+[
+  {
+    "id": "Memory \u2014 Front bearing cheek",
+    "bank": "Memory",
+    "source": "Front bearing cheek",
+    "motion": "fixed",
+    "bounds": [
+      [
+        -5.100000001490116,
+        1.7999999999999998,
+        16.800000005957678
+      ],
+      [
+        44.20000000298023,
+        5.799999999999999,
+        38.400000002980235
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Memory \u2014 Rear bearing cheek",
+    "bank": "Memory",
+    "source": "Rear bearing cheek",
+    "motion": "fixed",
+    "bounds": [
+      [
+        -5.099999904632568,
+        6.0,
+        16.799999237060547
+      ],
+      [
+        44.20000076293945,
+        18.600000381469727,
+        38.400001525878906
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Memory \u2014 Short lever",
+    "bank": "Memory",
+    "source": "Short lever",
+    "motion": "rocker",
+    "bounds": [
+      [
+        2.156292676925659,
+        6.0,
+        24.19400978088379
+      ],
+      [
+        25.392324447631836,
+        14.399999618530273,
+        38.72705841064453
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Memory \u2014 Right carriage bearing support",
+    "bank": "Memory",
+    "source": "Right carriage bearing support",
+    "motion": "carriage",
+    "bounds": [
+      [
+        8.0,
+        4.699999809265137,
+        -0.30000001192092896
+      ],
+      [
+        15.600000381469727,
+        28.0,
+        23.299999237060547
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Memory \u2014 Carriage fork and roof",
+    "bank": "Memory",
+    "source": "Carriage fork and roof",
+    "motion": "carriage",
+    "bounds": [
+      [
+        -15.600000381469727,
+        1.5499998092651364,
+        -0.2999999523162842
+      ],
+      [
+        26.599546305835247,
+        27.799999,
+        45.2995491027832
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Write \u2014 Front bearing cheek",
+    "bank": "Write",
+    "source": "Front bearing cheek",
+    "motion": "fixed",
+    "bounds": [
+      [
+        -90.10000152587892,
+        1.7999999523162842,
+        32.800000011920936
+      ],
+      [
+        -40.79999847412111,
+        5.800000190734863,
+        54.39999961853028
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Write \u2014 Rear bearing cheek",
+    "bank": "Write",
+    "source": "Rear bearing cheek",
+    "motion": "fixed",
+    "bounds": [
+      [
+        -90.10000152587892,
+        6.0,
+        32.800000011920936
+      ],
+      [
+        -40.79999847412111,
+        18.600000381469727,
+        54.39999961853028
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Write \u2014 Short lever",
+    "bank": "Write",
+    "source": "Short lever",
+    "motion": "rocker",
+    "bounds": [
+      [
+        -82.84370727539064,
+        6.0,
+        40.19400978088379
+      ],
+      [
+        -59.60767669677736,
+        14.399999618530273,
+        54.7270565032959
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Write \u2014 Right carriage bearing support",
+    "bank": "Write",
+    "source": "Right carriage bearing support",
+    "motion": "carriage",
+    "bounds": [
+      [
+        -77.00000305175783,
+        4.699999809265137,
+        15.700000762939457
+      ],
+      [
+        -69.3999969482422,
+        28.0,
+        39.30000019073487
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Write \u2014 Carriage fork and roof",
+    "bank": "Write",
+    "source": "Carriage fork and roof",
+    "motion": "carriage",
+    "bounds": [
+      [
+        -100.60000038146973,
+        1.5499998092651364,
+        15.700000047683716
+      ],
+      [
+        -1.0,
+        31.0,
+        61.29999999701977
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1
+  },
+  {
+    "id": "Direct lock bolt",
+    "bank": "Lock",
+    "motion": "bolt",
+    "source": "integrated cam revision",
+    "bounds": [
+      [
+        -11.05,
+        18.0,
+        42.1
+      ],
+      [
+        0.9499999999999993,
+        34.6,
+        72.2
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Unified rear backbone",
+    "bank": "Lock",
+    "motion": "fixed",
+    "source": "integrated cam revision",
+    "bounds": [
+      [
+        -117.30999465286732,
+        15.550000190734863,
+        -24.309994652867317
+      ],
+      [
+        32.30999465286732,
+        40.4,
+        48.50999999791384
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Memory \u2014 Left side frame",
+    "bank": "Memory",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -31.8,
+        4.699999999999999,
+        -21.5
+      ],
+      [
+        -24.2,
+        32.4,
+        21.5
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Memory \u2014 Right side frame",
+    "bank": "Memory",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        24.2,
+        4.699999809265137,
+        -21.5
+      ],
+      [
+        43.79999923706055,
+        32.4,
+        38.0
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Memory \u2014 Left inner bearing wall",
+    "bank": "Memory",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -11.8,
+        4.699999999999999,
+        -23.8
+      ],
+      [
+        -4.2,
+        32.4,
+        -6.5
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Memory \u2014 Right inner bearing wall",
+    "bank": "Memory",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        4.2,
+        4.699999999999999,
+        -23.8
+      ],
+      [
+        11.8,
+        32.4,
+        -8.2
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Write \u2014 Left side frame",
+    "bank": "Write",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -116.8,
+        4.699999999999999,
+        -5.5
+      ],
+      [
+        -109.2,
+        32.4,
+        37.5
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Write \u2014 Right side frame",
+    "bank": "Write",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -60.8,
+        4.699999809265137,
+        -5.5
+      ],
+      [
+        -41.20000076293945,
+        32.4,
+        54.0
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Write \u2014 Right inner bearing wall",
+    "bank": "Write",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -80.8,
+        4.699999999999999,
+        -7.8
+      ],
+      [
+        -73.2,
+        32.4,
+        7.8
+      ]
+    ],
+    "watertight": true,
+    "solids": 1
+  },
+  {
+    "id": "Detachable bolt guide",
+    "bank": "Lock",
+    "motion": "fixed",
+    "source": "detachable guide",
+    "bounds": [
+      [
+        -23.85,
+        14.0,
+        45.5
+      ],
+      [
+        13.75,
+        40.4,
+        70.0
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": 0.0
+  }
+]

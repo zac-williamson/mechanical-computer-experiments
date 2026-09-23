@@ -1,0 +1,86 @@
+{
+  "timing": {
+    "combined_input_error_mm": 0.6,
+    "last_possible_D_contact_q": 0.2,
+    "minimum_bolt_gap_before_reconnection_mm": 0.6276126696389852,
+    "passes_0_4mm_gap": true,
+    "closed_bolt_engagement_mm": 5.4,
+    "maximum_bolt_lift_mm": 7.799999999999997,
+    "pressure_angle_degrees": 60.94539590092286
+  },
+  "cam_contact": {
+    "samples": 921,
+    "minimum_roller_clearance_mm": -6.661338147750939e-15,
+    "maximum_gap_mm": 0.7430336847033172,
+    "explanation": "Zero clearance denotes rolling contact. At negative overtravel the guide head stop holds the bolt while the cam retreats."
+  },
+  "band": {
+    "samples": 279,
+    "printed_contacts": [],
+    "closed_loop_path_mm": 33.59291886010284,
+    "max_loop_path_mm": 49.192918860102836,
+    "target_force_N": [
+      0.5,
+      2
+    ],
+    "qualification": "Band force-extension not measured; nominal capsule excludes force-dependent shape."
+  },
+  "sampled_bounds_mm": [
+    [
+      -44.0,
+      -4.200000000000002,
+      -26.700000762939453
+    ],
+    [
+      141.0000015258789,
+      38.400001525878906,
+      69.1
+    ]
+  ],
+  "sampled_envelope_mm": [
+    185.0000015258789,
+    42.60000152587891,
+    95.80000076293945
+  ],
+  "guide_friction_screen": [
+    {
+      "assumed_mu": 0,
+      "band_force_N": 2,
+      "vertical_contact_force_N": 2.0,
+      "horizontal_force_N": 3.6
+    },
+    {
+      "assumed_mu": 0.1,
+      "band_force_N": 2,
+      "vertical_contact_force_N": 2.4390243902439024,
+      "horizontal_force_N": 4.390243902439025
+    },
+    {
+      "assumed_mu": 0.2,
+      "band_force_N": 2,
+      "vertical_contact_force_N": 3.1250000000000004,
+      "horizontal_force_N": 5.625000000000001
+    },
+    {
+      "assumed_mu": 0.3,
+      "band_force_N": 2,
+      "vertical_contact_force_N": 4.347826086956522,
+      "horizontal_force_N": 7.82608695652174
+    },
+    {
+      "assumed_mu": 0.4,
+      "band_force_N": 2,
+      "vertical_contact_force_N": 7.142857142857145,
+      "horizontal_force_N": 12.857142857142861
+    }
+  ],
+  "limits": [
+    "High cam pressure angle: ideal guide-friction self-lock threshold mu=1/1.8, about0.556. Actual friction must be measured; this is not a force-driven qualification.",
+    "Prescribed rigid motion. No physical 0.1Nm endurance, jam or loaded-engagement proof."
+  ],
+  "superseding_loaded_review": {
+    "status": "Not qualified: short guide, off-axis loading and allowed tilt invalidate previous friction/tolerance assurance",
+    "report": "Cam mechanism audit.md",
+    "earlier_timing_and_friction_results": "Conditional ideal geometry only; not a loaded mechanism pass"
+  }
+}

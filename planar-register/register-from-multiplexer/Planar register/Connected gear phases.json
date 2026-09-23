@@ -1,0 +1,70 @@
+[
+  {
+    "pair": [
+      "Memory \u2014 A-input",
+      "Memory \u2014 A-idler"
+    ],
+    "rotated_together": [
+      "Memory \u2014 A-idler-shaft",
+      "Memory \u2014 A-idler",
+      "Memory \u2014 A-idler-bush-10",
+      "Memory \u2014 A-idler-bush-22",
+      "Memory \u2014 A-idler-bush-34"
+    ],
+    "offset_deg": 9.75,
+    "maximum_projected_overlap_mm2": 0.0,
+    "samples": 36,
+    "speed_ratio": [
+      1,
+      -1
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 A-idler",
+      "Memory \u2014 L102"
+    ],
+    "rotated_together": [
+      "Memory \u2014 L102"
+    ],
+    "offset_deg": 18.75,
+    "maximum_projected_overlap_mm2": 0.0,
+    "samples": 36,
+    "speed_ratio": [
+      -1,
+      0.5
+    ]
+  },
+  {
+    "pair": [
+      "Memory \u2014 B-input",
+      "Memory \u2014 L072"
+    ],
+    "rotated_together": [
+      "Memory \u2014 L072"
+    ],
+    "offset_deg": 15.0,
+    "maximum_projected_overlap_mm2": 0.0,
+    "samples": 36,
+    "speed_ratio": [
+      1,
+      -1
+    ]
+  },
+  {
+    "pair": [
+      "Write \u2014 B-input",
+      "Write \u2014 L102"
+    ],
+    "rotated_together": [
+      "Write \u2014 L102"
+    ],
+    "offset_deg": 0.0,
+    "maximum_projected_overlap_mm2": 0.0,
+    "samples": 36,
+    "speed_ratio": [
+      1,
+      -1
+    ]
+  }
+]

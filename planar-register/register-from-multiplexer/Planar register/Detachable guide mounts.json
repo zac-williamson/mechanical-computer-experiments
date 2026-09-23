@@ -1,0 +1,37 @@
+{
+  "mounts": [
+    {
+      "x": -19.55,
+      "y": 36.1,
+      "axis": "Z",
+      "pin_center_z": 44,
+      "base_Z": [
+        36.2,
+        43.8
+      ],
+      "guide_Z": [
+        45.5,
+        53.1
+      ]
+    },
+    {
+      "x": 9.45,
+      "y": 36.1,
+      "axis": "Z",
+      "pin_center_z": 44,
+      "base_Z": [
+        36.2,
+        43.8
+      ],
+      "guide_Z": [
+        45.5,
+        53.1
+      ]
+    }
+  ],
+  "shoulder_clearance_mm": 0.3,
+  "print_guide_axis": "+Z",
+  "print_base_axis": "-Y",
+  "fixed_band_anchor_z": 50,
+  "guide_seat_z": 45.5
+}

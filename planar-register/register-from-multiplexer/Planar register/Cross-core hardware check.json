@@ -1,0 +1,7 @@
+{
+  "cross_core_native_aabb_candidates": [],
+  "data_Q_axial_gap_mm": 0.8,
+  "joiner_axle_insertion_each_mm": 7.6,
+  "joiner_nearest_sidewall_gap_mm": 0.6,
+  "limits": "Conservative translated AABBs between Memory and Write hardware; axis-aligned rotational shape bounds may differ. Connector is a separate Lock-bank envelope, not proof of internal fit."
+}

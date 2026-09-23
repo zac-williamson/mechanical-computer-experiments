@@ -1,0 +1,590 @@
+{
+  "print_meshes": [
+    {
+      "part": "Memory \u2014 Left side frame",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          7.599998474121094,
+          27.70000171661377,
+          44.20000076293945
+        ],
+        "sha256": "846715e0b10094427ce137c189f4d41a284aed05a9767b994f6799b2fe80ca2d"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          44.20000076293945,
+          27.70000171661377,
+          7.599998474121094
+        ],
+        "sha256": "4133897a6156cd0e3c3b26631e6011d8295b4e4be23d437ef64147a6caa202cf"
+      }
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          19.599999237060548,
+          27.70000171661377,
+          60.70000076293945
+        ],
+        "sha256": "863dead29900e633500e9b2fdcfeeb33a36572425920d7ede1f55a5aca257f6f"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          60.70000076293945,
+          27.70000171661377,
+          19.599999237060548
+        ],
+        "sha256": "d955c6f0b53268b4091e6476fa2f53c39df61ff0f5797edc26142c9ad498082b"
+      }
+    },
+    {
+      "part": "Memory \u2014 Front bearing cheek",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          49.30000000447035,
+          23.4,
+          36.49999999404232
+        ],
+        "sha256": "8ffa9b801d4b1623d89d01112911eaa2c8cf265f86045389558d07ff6c22ca00"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          36.49999999404232,
+          49.30000000447035,
+          23.4
+        ],
+        "sha256": "8bdbf0f50805228e3802a1ec90f74c9b6c2a9f4b58c559cdc0ea78ff3155ff26"
+      }
+    },
+    {
+      "part": "Memory \u2014 Rear bearing cheek",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          49.30000066757202,
+          12.600000381469727,
+          21.60000228881836
+        ],
+        "sha256": "768aef2033dd737025235a9ce42dac1df5a578e2e4a5e114a0fe2c9f81a3c1b2"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          21.60000228881836,
+          49.30000066757202,
+          12.600000381469727
+        ],
+        "sha256": "c184eebf0221d78519a66a0705c252362aa79d231eaaf5e9d7d085478ea70727"
+      }
+    },
+    {
+      "part": "Memory \u2014 Short lever",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          23.236031770706177,
+          8.399999618530273,
+          14.533048629760742
+        ],
+        "sha256": "c0ac09302f2b7b3873b82eac83b015d393a4d22a65e60984d3a5a248b1397563"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          14.533048629760742,
+          23.236031770706177,
+          8.399999618530273
+        ],
+        "sha256": "373d6b2adced664ac05da5257e1490ecd38e5bb97971576e50325b38049f58f0"
+      }
+    },
+    {
+      "part": "Memory \u2014 Left inner bearing wall",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          7.600000381469727,
+          26.500001430511475,
+          17.80000066757202
+        ],
+        "sha256": "9b4a007325adfbcf7e66ea679156358b4d17a9cc833cebae86681547a7f3697f"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          17.80000066757202,
+          26.500001430511475,
+          7.600000381469727
+        ],
+        "sha256": "b91c49927175de103a7914f750381a704c8ceac0860843191d7a1467cd0bc0fe"
+      }
+    },
+    {
+      "part": "Memory \u2014 Right inner bearing wall",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          7.600000381469727,
+          26.500001430511475,
+          17.80000066757202
+        ],
+        "sha256": "b5ca440a9cb53f318e267f2ea880f9f035999acd55fe24c56a2d6682822582c9"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          17.80000066757202,
+          26.500001430511475,
+          7.600000381469727
+        ],
+        "sha256": "2fbcf07c9a896064a56dbc0775a0ca943462af9ce78d00199db6f77d9032f67a"
+      }
+    },
+    {
+      "part": "Memory \u2014 Right carriage bearing support",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          7.600000381469727,
+          23.300000190734863,
+          23.599999248981476
+        ],
+        "sha256": "cac6be8fcfbf84691d68793085e80c554a2b77eca323ed4283bfc1a1b6012df8"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          23.599999248981476,
+          23.300000190734863,
+          7.600000381469727
+        ],
+        "sha256": "a9738df7321b49e17d599fa6f8506da9220158d0a5af846998ddfb44ecc6ccb2"
+      }
+    },
+    {
+      "part": "Memory \u2014 Carriage fork and roof",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          61.900000381469724,
+          26.24999919073486,
+          45.59999995231628
+        ],
+        "sha256": "550602b117e9a1d116a59aba9e08c3390a011a1d1b8059e8e2f829374f16841c"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          45.59999995231628,
+          26.24999919073486,
+          61.900000381469724
+        ],
+        "sha256": "76a2e80109eb9ab65370a9b6a0f49e80229bf31f7e2a6475846d689f29e53024"
+      }
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          19.599999999999994,
+          27.70000171661377,
+          60.70000076293945
+        ],
+        "sha256": "9cb0e96d4432973a186c95e5e190860e4d59e2c3f853a60d1b8ee7616190298a"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          60.70000076293945,
+          27.70000171661377,
+          19.599999999999994
+        ],
+        "sha256": "a4335adf9391ff0c4a4be64f2a6f79682de6ec2e92c9f6ae0d0228f2b37a67fa"
+      }
+    },
+    {
+      "part": "Write \u2014 Front bearing cheek",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          49.30000305175781,
+          4.000000238418579,
+          21.599999606609344
+        ],
+        "sha256": "bbf84b0b5349600c3e7307ec25c82f1eddaef3ecb9e10b4700c9865e2169f0f7"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          21.599999606609344,
+          49.30000305175781,
+          4.000000238418579
+        ],
+        "sha256": "4bc5b96c3d04121f61d05de55645c365447cb50e8ea754a935308dc406b1d805"
+      }
+    },
+    {
+      "part": "Write \u2014 Rear bearing cheek",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          49.30000305175781,
+          12.600000381469727,
+          21.599999606609344
+        ],
+        "sha256": "1d76d4ea2e7fd6ee7456be992f2f5309880a03de381751abfdc91f510c169fde"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          21.599999606609344,
+          49.30000305175781,
+          12.600000381469727
+        ],
+        "sha256": "a74fb12e6b95bc250f9353da1c133d23f4464523ff54c2cdbcbec58493930a0e"
+      }
+    },
+    {
+      "part": "Write \u2014 Short lever",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          23.23603057861328,
+          8.399999618530273,
+          14.53304672241211
+        ],
+        "sha256": "28915114845cb7cad145f18c22a61b2dc2f2ebd76160ddcdb9b9cbacb1d48f47"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          14.53304672241211,
+          23.23603057861328,
+          8.399999618530273
+        ],
+        "sha256": "d01b25c70bf736669b15d547b3d946809a342e9c1c6d1b3ee88a80bc66fe4137"
+      }
+    },
+    {
+      "part": "Write \u2014 Right carriage bearing support",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          7.600006103515625,
+          23.300000190734863,
+          23.599999427795414
+        ],
+        "sha256": "45e0f98488e4622991e5c11cef2d2802a2808f3407e4622b31725f8693b42554"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          23.599999427795414,
+          23.300000190734863,
+          7.600006103515625
+        ],
+        "sha256": "17aca83b893bf8bc9061accdbcaa64dd8b1bb8286d629508e074e4530dab62b9"
+      }
+    },
+    {
+      "part": "Write \u2014 Carriage fork and roof",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          42.199546687304974,
+          26.250000190734866,
+          46.299999952316284
+        ],
+        "sha256": "ccc1da5d11479a2825b6b4916e772b02ad450a11e19d747b7324ff18a7e1477f"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          46.299999952316284,
+          26.250000190734866,
+          42.199546687304974
+        ],
+        "sha256": "4e02796034832cae246645fd12e8e0eda7e0bb9c4f85af894b0e75f412948b99"
+      }
+    },
+    {
+      "part": "Write \u2014 Right inner bearing wall",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          7.599999999999994,
+          26.5,
+          17.8
+        ],
+        "sha256": "5222c9752b66670fbaadfbfd7186b1509afe54b48d338364b3cddab5ce10a92e"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          17.8,
+          26.5,
+          7.599999999999994
+        ],
+        "sha256": "69817616cd02b3eb81f9d61411191fc35e67b2d638fe26bad93c91f4b651de7e"
+      }
+    },
+    {
+      "part": "Write \u2014 Direct cam plate",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          60.20000000298023,
+          5.399999999999999,
+          23.5
+        ],
+        "sha256": "a369aa7af39161f9f208fa7db2c85ba0656c3ce64a6cd008513da07e0b9ceb5b"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          23.5,
+          60.20000000298023,
+          5.399999999999999
+        ],
+        "sha256": "60745cfeeccb5c3971fc0a5157db2610c4eb683a7f5e7ab51f497d9607d82ebd"
+      }
+    },
+    {
+      "part": "Direct lock bolt",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          15.0,
+          9.799999999999997,
+          21.4
+        ],
+        "sha256": "27a0152a2294a5dbd0488075688c533b1d6da878e8c3bd1fe712429498bbce68"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          21.4,
+          15.0,
+          9.799999999999997
+        ],
+        "sha256": "5faad0cb37abbc18300a55c60e3907899f62cc98108b3d4ef5f4905bcd231e24"
+      }
+    },
+    {
+      "part": "Unified rear backbone",
+      "assembly": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          164.80000076293945,
+          33.7000015258789,
+          64.20000076293945
+        ],
+        "sha256": "af737272e762a6d6d25b573a2906d1c6df050b76273e810e78d14c04159529ba"
+      },
+      "print": {
+        "watertight": true,
+        "winding_consistent": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "components_including_open": 1,
+        "size_mm": [
+          64.20000076293945,
+          164.80000076293945,
+          33.7000015258789
+        ],
+        "sha256": "ddabbf64f6c7f6be6a4e22107dc6617f3780867c9721c85de1d282fbd15a2ebe"
+      }
+    }
+  ],
+  "hardware_count": 80,
+  "explicit_catalog_id_count": 57,
+  "native_without_catalog_id": [
+    "Memory \u2014 L072",
+    "Memory \u2014 L097",
+    "Memory \u2014 L099",
+    "Memory \u2014 L102",
+    "Memory \u2014 L069",
+    "Memory \u2014 L105",
+    "Memory \u2014 O-left",
+    "Memory \u2014 O-right",
+    "Memory \u2014 U072",
+    "Memory \u2014 selector-right-retainer",
+    "Memory \u2014 U015",
+    "Memory \u2014 U022",
+    "Write \u2014 L097",
+    "Write \u2014 L099",
+    "Write \u2014 L102",
+    "Write \u2014 L069",
+    "Write \u2014 L105",
+    "Write \u2014 O-left",
+    "Write \u2014 O-right",
+    "Write \u2014 U072",
+    "Write \u2014 selector-right-retainer",
+    "Write \u2014 U015",
+    "Write \u2014 U022"
+  ],
+  "torque_screen": {
+    "axle_torque_Nm": 0.1,
+    "tangential_force_8T_pitch_radius_4mm_N": 25.0,
+    "tangential_force_16T_pitch_radius_8mm_N": 12.5,
+    "ideal_blocked_worm_axial_force_assuming_pi_mm_lead_N": 200.0,
+    "note": "Ideal lossless force illustrates missing load case; not a measured force or prediction of a particular failure torque."
+  },
+  "scope": "STLs reloaded from disk, not in-memory source manifold. No physical load or print test."
+}

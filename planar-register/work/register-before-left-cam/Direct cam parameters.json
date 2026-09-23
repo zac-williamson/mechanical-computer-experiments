@@ -1,0 +1,28 @@
+{
+  "roller_radius": 3.6,
+  "slope": 1.8,
+  "closed_roller_z": 57.3,
+  "high_surface_z": 61.5,
+  "intercept": 125.03714629848935,
+  "crest_x": 35.298414610271855,
+  "roller_x": 38,
+  "cam_Y": [
+    25.6,
+    31.0
+  ],
+  "attachment_pins": [
+    [
+      86,
+      25.5,
+      44.4
+    ],
+    [
+      86,
+      25.5,
+      58
+    ]
+  ],
+  "guide_integrated_in": "Memory \u2014 Front bearing cheek",
+  "printed_parts": 19,
+  "hardware_parts": 80
+}

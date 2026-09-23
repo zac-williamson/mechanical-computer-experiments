@@ -1,0 +1,16 @@
+{
+  "status": "REJECTED AS FUNCTIONALLY VALIDATED \u2014 do not print the assembly",
+  "render_metadata_complete": true,
+  "render_part_count": 95,
+  "coupling_geometry_correction": "Removed overlapping Memory U072 bush; only the two intended shaft ends now intersect the connector envelope.",
+  "coupling_insertion_each_mm": 7.6,
+  "nonzero_worm_or_reaction_rotation_frames": 0,
+  "functional_drive_solver_present": false,
+  "torque_balance_present": false,
+  "loaded_dog_release_model_present": false,
+  "measured_backlash_bounds_present": false,
+  "all_native_native_contacts_checked": false,
+  "collision_tests_scope": "Prescribed rigid geometry, finite samples; not demonstrated operation.",
+  "known_counterexample": "Simultaneous D reversal and WRITE falling can leave memory between pockets.",
+  "withdrawn_claim": "The CAD checks do not establish that the cam/bolt register works or is ready for a confidence print."
+}

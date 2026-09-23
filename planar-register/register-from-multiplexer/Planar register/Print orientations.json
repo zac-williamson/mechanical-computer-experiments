@@ -1,0 +1,245 @@
+{
+  "parts": [
+    {
+      "part": "Memory \u2014 Front bearing cheek",
+      "size_mm": [
+        49.30000000447035,
+        21.599999997022557,
+        4.000000000000001
+      ],
+      "flat_bed_area_mm2": 478.66120047895333,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "ee1aa3de4e329c9678f238cb3ef40eb6248e3239b17d379351086528cf26cc25"
+    },
+    {
+      "part": "Memory \u2014 Rear bearing cheek",
+      "size_mm": [
+        49.30000066757202,
+        21.60000228881836,
+        12.600000381469728
+      ],
+      "flat_bed_area_mm2": 484.02959534502247,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "768aef2033dd737025235a9ce42dac1df5a578e2e4a5e114a0fe2c9f81a3c1b2"
+    },
+    {
+      "part": "Memory \u2014 Short lever",
+      "size_mm": [
+        23.236031770706177,
+        14.533048629760742,
+        8.399999618530273
+      ],
+      "flat_bed_area_mm2": 207.09435448915065,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "2c970d2156380cba38f51444954ad4158f43ae687c3f1a041919bcef910089c8"
+    },
+    {
+      "part": "Memory \u2014 Right carriage bearing support",
+      "size_mm": [
+        23.599999248981476,
+        23.300000190734863,
+        7.600000381469727
+      ],
+      "flat_bed_area_mm2": 138.85702716902236,
+      "watertight": true,
+      "bearing_bed_preserved": true,
+      "sha256": "edf56d28e8f305ed0e54d59147f632ddb41dc7521d9e0febb98b8e8f70b23675"
+    },
+    {
+      "part": "Memory \u2014 Carriage fork and roof",
+      "size_mm": [
+        45.59954905509949,
+        26.24999919073486,
+        42.199546687304974
+      ],
+      "flat_bed_area_mm2": 384.6057183482777,
+      "watertight": true,
+      "bearing_bed_preserved": true,
+      "sha256": "3fcb122d24091ab30f688ebd2ec2ca21dc8bdaa474ca32d7feb332bd2e659031"
+    },
+    {
+      "part": "Write \u2014 Front bearing cheek",
+      "size_mm": [
+        49.30000305175781,
+        21.599999606609344,
+        4.000000238418581
+      ],
+      "flat_bed_area_mm2": 478.6612538575115,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "e2e5d2aabd1e58827349b2f51a79639c219afd4c659d53c370783ee6bdaa7718"
+    },
+    {
+      "part": "Write \u2014 Rear bearing cheek",
+      "size_mm": [
+        49.30000305175781,
+        21.599999606609344,
+        12.600000381469727
+      ],
+      "flat_bed_area_mm2": 484.02961993267115,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "33b08a67f30082962a3950b00872408ecd175752885c694bffa9a7966cbfc4ad"
+    },
+    {
+      "part": "Write \u2014 Short lever",
+      "size_mm": [
+        23.23603057861328,
+        14.53304672241211,
+        8.399999618530275
+      ],
+      "flat_bed_area_mm2": 207.0943555536432,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "8754a2638b76781d3887f1846fc5f411b875ff950c5983d22991554cd32fa21c"
+    },
+    {
+      "part": "Write \u2014 Right carriage bearing support",
+      "size_mm": [
+        23.599999427795414,
+        23.300000190734863,
+        7.600006103515625
+      ],
+      "flat_bed_area_mm2": 138.85702330807052,
+      "watertight": true,
+      "bearing_bed_preserved": true,
+      "sha256": "86617823b52f6683db9a00dad60f427e843cf09d36738df3ec72f64b95d72ad1"
+    },
+    {
+      "part": "Write \u2014 Carriage fork and roof",
+      "size_mm": [
+        45.59999994933605,
+        29.450000190734862,
+        99.60000038146973
+      ],
+      "flat_bed_area_mm2": 428.48033679031295,
+      "watertight": true,
+      "bearing_bed_preserved": true,
+      "sha256": "0e82550d127b6343e123b64b55f8a579e034884e31386b61d2cefcaf73b5c304"
+    },
+    {
+      "part": "Direct lock bolt",
+      "size_mm": [
+        30.1,
+        12.0,
+        16.6
+      ],
+      "flat_bed_area_mm2": 261.7659322039094,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "028268b4a13d3179c5f4751c9433376d942110f7f437e6f63db7a890735a76e9"
+    },
+    {
+      "part": "Unified rear backbone",
+      "size_mm": [
+        72.81999465078115,
+        149.61998930573463,
+        24.849999809265135
+      ],
+      "flat_bed_area_mm2": 3697.3321108229384,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "a8e055fff7eda3e26ce40a1028af8e15cf4507a466d1ecea1463385bc73127fa"
+    },
+    {
+      "part": "Memory \u2014 Left side frame",
+      "size_mm": [
+        43.0,
+        27.7,
+        7.600000000000001
+      ],
+      "flat_bed_area_mm2": 825.6365617871959,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "b1269896f14e774963256ce730ae558839d85d9ceeb994e286c8ac08c6d14907"
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "size_mm": [
+        59.5,
+        27.700000190734862,
+        19.599999237060548
+      ],
+      "flat_bed_area_mm2": 773.2419305866047,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "9e2559479ffeb9555fd02bf1c07c4973d4e1b8a763059cb7f5b4e1bfae3157bc"
+    },
+    {
+      "part": "Memory \u2014 Left inner bearing wall",
+      "size_mm": [
+        17.3,
+        27.7,
+        7.600000000000002
+      ],
+      "flat_bed_area_mm2": 301.3928756867426,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "697d9c1cc2b8f595c7ddf8608d692c244e5080bceeb818258c8553b2738c1b23"
+    },
+    {
+      "part": "Memory \u2014 Right inner bearing wall",
+      "size_mm": [
+        15.600000000000001,
+        27.7,
+        7.600000000000001
+      ],
+      "flat_bed_area_mm2": 226.13070706279504,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "795f566a13166b9e2592d5b22f1b6c1c6b8d2bfdb620d1e560d6f4da918f3025"
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "size_mm": [
+        43.0,
+        27.7,
+        7.599999999999994
+      ],
+      "flat_bed_area_mm2": 773.2419305866047,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "ab23e7d28e86e4c6a161e88a668cb870c1b181a0fdcf8c3dacacd280cfb19e37"
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "size_mm": [
+        59.5,
+        27.700000190734862,
+        19.599999237060544
+      ],
+      "flat_bed_area_mm2": 773.2419305866047,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "3588e4d8201dd613d450be495b38ad7b97adbe45c2e2f1ef399f17c83e661c01"
+    },
+    {
+      "part": "Write \u2014 Right inner bearing wall",
+      "size_mm": [
+        15.600000000000001,
+        27.7,
+        7.599999999999994
+      ],
+      "flat_bed_area_mm2": 226.13070706279507,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "9ac3742936a3574d5ee0a7c2164d6c5a97933e475f0c631c9da19263ea254cd0"
+    },
+    {
+      "part": "Detachable bolt guide",
+      "size_mm": [
+        37.6,
+        26.4,
+        24.5
+      ],
+      "flat_bed_area_mm2": 618.2858605380655,
+      "watertight": true,
+      "bearing_bed_preserved": false,
+      "sha256": "5cfb4c58f00f3dd5ce1eabac14375283cd89d30fdd1e804939e8e9b5c8522c39"
+    }
+  ],
+  "limits": "Geometry and bed orientations checked. No slicer/toolpath validation. Base and detachable guide have dedicated 0.2 mm geometric printability checks. The guide has one 1.2 mm band-groove bridge. Small fit test required before full print."
+}

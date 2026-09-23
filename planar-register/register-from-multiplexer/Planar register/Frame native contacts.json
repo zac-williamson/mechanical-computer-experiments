@@ -1,0 +1,258 @@
+{
+  "unexpected_hits": [],
+  "friction_pin_fits": [
+    {
+      "pair": [
+        "Memory \u2014 Left side frame",
+        "Frame pin Memory \u2014 Left side frame 0"
+      ],
+      "depth_mm": 0.14147170975446333
+    },
+    {
+      "pair": [
+        "Memory \u2014 Left side frame",
+        "Frame pin Memory \u2014 Left side frame 1"
+      ],
+      "depth_mm": 0.14147170975446333
+    },
+    {
+      "pair": [
+        "Memory \u2014 Right inner bearing wall",
+        "Frame pin Memory \u2014 Right inner bearing wall 0"
+      ],
+      "depth_mm": 0.14147165044038992
+    },
+    {
+      "pair": [
+        "Memory \u2014 Right inner bearing wall",
+        "Frame pin Memory \u2014 Right inner bearing wall 1"
+      ],
+      "depth_mm": 0.14147165044038992
+    },
+    {
+      "pair": [
+        "Write \u2014 Left side frame",
+        "Frame pin Write \u2014 Left side frame 0"
+      ],
+      "depth_mm": 0.14147170975446333
+    },
+    {
+      "pair": [
+        "Write \u2014 Left side frame",
+        "Frame pin Write \u2014 Left side frame 1"
+      ],
+      "depth_mm": 0.14147170975446333
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Memory \u2014 Left side frame 0"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Memory \u2014 Left side frame 1"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Memory \u2014 Right side frame 0"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Memory \u2014 Right side frame 1"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Memory \u2014 Left inner bearing wall 0"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Memory \u2014 Left inner bearing wall 1"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Memory \u2014 Right inner bearing wall 0"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Memory \u2014 Right inner bearing wall 1"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Write \u2014 Left side frame 0"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Write \u2014 Left side frame 1"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Write \u2014 Right side frame 0"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Write \u2014 Right side frame 1"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Write \u2014 Right inner bearing wall 0"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Frame pin Write \u2014 Right inner bearing wall 1"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Guide mount friction pin 1"
+      ],
+      "depth_mm": 0.141471711860223
+    },
+    {
+      "pair": [
+        "Unified rear backbone",
+        "Guide mount friction pin 2"
+      ],
+      "depth_mm": 0.10007120093544236
+    },
+    {
+      "pair": [
+        "Write \u2014 Right inner bearing wall",
+        "Frame pin Write \u2014 Right inner bearing wall 0"
+      ],
+      "depth_mm": 0.14147165044038992
+    },
+    {
+      "pair": [
+        "Write \u2014 Right inner bearing wall",
+        "Frame pin Write \u2014 Right inner bearing wall 1"
+      ],
+      "depth_mm": 0.14147165044038992
+    },
+    {
+      "pair": [
+        "Memory \u2014 Right side frame",
+        "Memory \u2014 Cartridge 3L pin 40 0.7"
+      ],
+      "depth_mm": 0.05032990260755273
+    },
+    {
+      "pair": [
+        "Memory \u2014 Right side frame",
+        "Memory \u2014 Cartridge 3L pin 40 -12.5"
+      ],
+      "depth_mm": 0.05033071181186675
+    },
+    {
+      "pair": [
+        "Memory \u2014 Right side frame",
+        "Frame pin Memory \u2014 Right side frame 0"
+      ],
+      "depth_mm": 0.14147170975446333
+    },
+    {
+      "pair": [
+        "Memory \u2014 Right side frame",
+        "Frame pin Memory \u2014 Right side frame 1"
+      ],
+      "depth_mm": 0.14147170975446333
+    },
+    {
+      "pair": [
+        "Detachable bolt guide",
+        "Guide mount friction pin 1"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Detachable bolt guide",
+        "Guide mount friction pin 2"
+      ],
+      "depth_mm": 0.10007119795851124
+    },
+    {
+      "pair": [
+        "Memory \u2014 Left inner bearing wall",
+        "Frame pin Memory \u2014 Left inner bearing wall 0"
+      ],
+      "depth_mm": 0.14147165044038992
+    },
+    {
+      "pair": [
+        "Memory \u2014 Left inner bearing wall",
+        "Frame pin Memory \u2014 Left inner bearing wall 1"
+      ],
+      "depth_mm": 0.14147170975446333
+    },
+    {
+      "pair": [
+        "Write \u2014 Right side frame",
+        "Write \u2014 Cartridge 3L pin 40 0.7"
+      ],
+      "depth_mm": 0.05032990260757786
+    },
+    {
+      "pair": [
+        "Write \u2014 Right side frame",
+        "Write \u2014 Cartridge 3L pin 40 -12.5"
+      ],
+      "depth_mm": 0.05033071181189187
+    },
+    {
+      "pair": [
+        "Write \u2014 Right side frame",
+        "Frame pin Write \u2014 Right side frame 0"
+      ],
+      "depth_mm": 0.14147170975446333
+    },
+    {
+      "pair": [
+        "Write \u2014 Right side frame",
+        "Frame pin Write \u2014 Right side frame 1"
+      ],
+      "depth_mm": 0.14147170975446333
+    }
+  ],
+  "scope": "Native vertices, face centres and edge midpoints against new closed printed solids in the reference pose. Full rotation of X-axis shafts is checked separately."
+}

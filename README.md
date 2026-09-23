@@ -1,11 +1,13 @@
 # Mechanical computer experiments
 
-Four current designs, using LEGO axles, gears, bushings and friction pins with printed frames.
+Mechanical designs, using LEGO axles, gears, bushings and friction pins with printed frames.
 
 | Design | Model and instructions |
 |---|---|
 | Multiplexer | [Viewer](multiplexer/Viewer.html) · [Build and print files](multiplexer/README.md) |
 | 1-bit register | [Viewer](register/Viewer.html) · [Build and print files](register/README.md) |
+| Preserved planar latch | [Viewer](planar-register/register-from-multiplexer/Planar%20register/Viewer.html) · [Snapshot and print files](planar-register/README.md) |
+| Clocked planar register (planned) | [Separate design brief](clocked-planar-register/README.md) |
 | Register cam test | [Viewer](cam-test/Viewer.html) · [Build and print files](cam-test/README.md) |
 | 1-bit adder | [Viewer](adder/Viewer.html) · [Design](adder/README.md) |
 

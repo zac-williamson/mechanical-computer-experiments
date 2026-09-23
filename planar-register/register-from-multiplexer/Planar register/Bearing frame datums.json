@@ -1,0 +1,388 @@
+{
+  "bearings": [
+    {
+      "part": "Memory \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        -16
+      ],
+      "role": "power",
+      "x_span_mm": [
+        -31.8,
+        -24.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left"
+    },
+    {
+      "part": "Memory \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "clutch",
+      "x_span_mm": [
+        -31.8,
+        -24.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left"
+    },
+    {
+      "part": "Memory \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        16
+      ],
+      "role": "worm input",
+      "x_span_mm": [
+        -31.8,
+        -24.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left"
+    },
+    {
+      "part": "Memory \u2014 Left side frame",
+      "axis_YZ_mm": [
+        16.009475019311125,
+        -10.5
+      ],
+      "role": "idler",
+      "x_span_mm": [
+        -31.8,
+        -24.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left"
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        -16
+      ],
+      "role": "power",
+      "x_span_mm": [
+        24.2,
+        31.8
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right"
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "clutch",
+      "x_span_mm": [
+        24.2,
+        31.8
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right"
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        16
+      ],
+      "role": "worm input",
+      "x_span_mm": [
+        24.2,
+        31.8
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right"
+    },
+    {
+      "part": "Memory \u2014 Left inner bearing wall",
+      "axis_YZ_mm": [
+        10.2,
+        -16
+      ],
+      "role": "power",
+      "x_span_mm": [
+        -11.8,
+        -4.2
+      ],
+      "bearing_land_mm": 3.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": true,
+      "side": "Left"
+    },
+    {
+      "part": "Memory \u2014 Left inner bearing wall",
+      "axis_YZ_mm": [
+        16.009475019311125,
+        -10.5
+      ],
+      "role": "idler",
+      "x_span_mm": [
+        -11.8,
+        -4.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 4,
+      "counterbore": false,
+      "side": "Left"
+    },
+    {
+      "part": "Memory \u2014 Right inner bearing wall",
+      "axis_YZ_mm": [
+        10.2,
+        -16
+      ],
+      "role": "power",
+      "x_span_mm": [
+        4.2,
+        11.8
+      ],
+      "bearing_land_mm": 3.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": true,
+      "side": "Right"
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "data",
+      "x_span_mm": [
+        -116.8,
+        -109.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left"
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        16
+      ],
+      "role": "clutch",
+      "x_span_mm": [
+        -116.8,
+        -109.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left"
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        32
+      ],
+      "role": "worm input",
+      "x_span_mm": [
+        -116.8,
+        -109.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left"
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "data",
+      "x_span_mm": [
+        -60.8,
+        -53.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right"
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        16
+      ],
+      "role": "clutch",
+      "x_span_mm": [
+        -60.8,
+        -53.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right"
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        32
+      ],
+      "role": "worm input",
+      "x_span_mm": [
+        -60.8,
+        -53.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right"
+    },
+    {
+      "part": "Write \u2014 Right inner bearing wall",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "data",
+      "x_span_mm": [
+        -80.8,
+        -73.2
+      ],
+      "bearing_land_mm": 3.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": true,
+      "side": "Right"
+    }
+  ],
+  "mounts": [
+    {
+      "part": "Memory \u2014 Left side frame",
+      "x": -28,
+      "z": -16,
+      "index": 0
+    },
+    {
+      "part": "Memory \u2014 Left side frame",
+      "x": -28,
+      "z": 16,
+      "index": 1
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "x": 28,
+      "z": -16,
+      "index": 0
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "x": 28,
+      "z": 16,
+      "index": 1
+    },
+    {
+      "part": "Memory \u2014 Left inner bearing wall",
+      "x": -8,
+      "z": -20,
+      "index": 0
+    },
+    {
+      "part": "Memory \u2014 Left inner bearing wall",
+      "x": -8,
+      "z": -12,
+      "index": 1
+    },
+    {
+      "part": "Memory \u2014 Right inner bearing wall",
+      "x": 8,
+      "z": -20,
+      "index": 0
+    },
+    {
+      "part": "Memory \u2014 Right inner bearing wall",
+      "x": 8,
+      "z": -12,
+      "index": 1
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "x": -113,
+      "z": 0,
+      "index": 0
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "x": -113,
+      "z": 32,
+      "index": 1
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "x": -57,
+      "z": 0,
+      "index": 0
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "x": -57,
+      "z": 32,
+      "index": 1
+    },
+    {
+      "part": "Write \u2014 Right inner bearing wall",
+      "x": -77,
+      "z": -4,
+      "index": 0
+    },
+    {
+      "part": "Write \u2014 Right inner bearing wall",
+      "x": -77,
+      "z": 4,
+      "index": 1
+    }
+  ],
+  "frame_plane_Y_mm": [
+    32.8,
+    40.4
+  ],
+  "wall_mount_Y_mm": [
+    24.8,
+    32.4
+  ],
+  "pin_center_Y_mm": 32.6
+}

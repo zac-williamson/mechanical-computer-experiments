@@ -1,0 +1,2574 @@
+[
+  {
+    "id": "Memory \u2014 Front bearing cheek",
+    "bank": "Memory",
+    "source": "Front bearing cheek",
+    "motion": "fixed",
+    "bounds": [
+      [
+        -5.100000001490116,
+        1.7999999999999998,
+        16.800000005957678
+      ],
+      [
+        44.20000000298023,
+        5.799999999999999,
+        38.400000002980235
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 0,
+    "vertices": 10572
+  },
+  {
+    "id": "Memory \u2014 Rear bearing cheek",
+    "bank": "Memory",
+    "source": "Rear bearing cheek",
+    "motion": "fixed",
+    "bounds": [
+      [
+        -5.099999904632568,
+        6.0,
+        16.799999237060547
+      ],
+      [
+        44.20000076293945,
+        18.600000381469727,
+        38.400001525878906
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 31716,
+    "vertices": 14472
+  },
+  {
+    "id": "Memory \u2014 Short lever",
+    "bank": "Memory",
+    "source": "Short lever",
+    "motion": "rocker",
+    "bounds": [
+      [
+        2.156292676925659,
+        6.0,
+        24.19400978088379
+      ],
+      [
+        25.392324447631836,
+        14.399999618530273,
+        38.72705841064453
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1,
+    "kind": "printed",
+    "color": [
+      29,
+      147,
+      157
+    ],
+    "offset": 75132,
+    "vertices": 8580
+  },
+  {
+    "id": "Memory \u2014 Right carriage bearing support",
+    "bank": "Memory",
+    "source": "Right carriage bearing support",
+    "motion": "carriage",
+    "bounds": [
+      [
+        8.0,
+        4.699999809265137,
+        -0.30000001192092896
+      ],
+      [
+        15.600000381469727,
+        28.0,
+        23.299999237060547
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1,
+    "kind": "printed",
+    "color": [
+      29,
+      147,
+      157
+    ],
+    "offset": 100872,
+    "vertices": 7608
+  },
+  {
+    "id": "Memory \u2014 Carriage fork and roof",
+    "bank": "Memory",
+    "source": "Carriage fork and roof",
+    "motion": "carriage",
+    "bounds": [
+      [
+        -15.600000381469727,
+        1.5499998092651364,
+        -0.2999999523162842
+      ],
+      [
+        26.599546305835247,
+        27.799999,
+        45.2995491027832
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1,
+    "kind": "printed",
+    "color": [
+      29,
+      147,
+      157
+    ],
+    "offset": 123696,
+    "vertices": 14388
+  },
+  {
+    "id": "Write \u2014 Front bearing cheek",
+    "bank": "Write",
+    "source": "Front bearing cheek",
+    "motion": "fixed",
+    "bounds": [
+      [
+        -90.10000152587892,
+        1.7999999523162842,
+        32.800000011920936
+      ],
+      [
+        -40.79999847412111,
+        5.800000190734863,
+        54.39999961853028
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 166860,
+    "vertices": 10572
+  },
+  {
+    "id": "Write \u2014 Rear bearing cheek",
+    "bank": "Write",
+    "source": "Rear bearing cheek",
+    "motion": "fixed",
+    "bounds": [
+      [
+        -90.10000152587892,
+        6.0,
+        32.800000011920936
+      ],
+      [
+        -40.79999847412111,
+        18.600000381469727,
+        54.39999961853028
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 198576,
+    "vertices": 14484
+  },
+  {
+    "id": "Write \u2014 Short lever",
+    "bank": "Write",
+    "source": "Short lever",
+    "motion": "rocker",
+    "bounds": [
+      [
+        -82.84370727539064,
+        6.0,
+        40.19400978088379
+      ],
+      [
+        -59.60767669677736,
+        14.399999618530273,
+        54.7270565032959
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1,
+    "kind": "printed",
+    "color": [
+      190,
+      117,
+      71
+    ],
+    "offset": 242028,
+    "vertices": 8580
+  },
+  {
+    "id": "Write \u2014 Right carriage bearing support",
+    "bank": "Write",
+    "source": "Right carriage bearing support",
+    "motion": "carriage",
+    "bounds": [
+      [
+        -77.00000305175783,
+        4.699999809265137,
+        15.700000762939457
+      ],
+      [
+        -69.3999969482422,
+        28.0,
+        39.30000019073487
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1,
+    "kind": "printed",
+    "color": [
+      190,
+      117,
+      71
+    ],
+    "offset": 267768,
+    "vertices": 7608
+  },
+  {
+    "id": "Write \u2014 Carriage fork and roof",
+    "bank": "Write",
+    "source": "Carriage fork and roof",
+    "motion": "carriage",
+    "bounds": [
+      [
+        -100.60000038146973,
+        1.5499998092651364,
+        15.700000047683716
+      ],
+      [
+        -1.0,
+        31.0,
+        61.29999999701977
+      ]
+    ],
+    "watertight": true,
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": -1.5707963267948966,
+    "solids": 1,
+    "kind": "printed",
+    "color": [
+      190,
+      117,
+      71
+    ],
+    "offset": 290592,
+    "vertices": 14406
+  },
+  {
+    "id": "Direct lock bolt",
+    "bank": "Lock",
+    "motion": "bolt",
+    "source": "integrated cam revision",
+    "bounds": [
+      [
+        -11.05,
+        18.0,
+        42.1
+      ],
+      [
+        0.9499999999999993,
+        34.6,
+        72.2
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "printed",
+    "color": [
+      211,
+      160,
+      46
+    ],
+    "offset": 333810,
+    "vertices": 3036
+  },
+  {
+    "id": "Unified rear backbone",
+    "bank": "Lock",
+    "motion": "fixed",
+    "source": "integrated cam revision",
+    "bounds": [
+      [
+        -117.30999465286732,
+        15.550000190734863,
+        -24.309994652867317
+      ],
+      [
+        32.30999465286732,
+        40.4,
+        48.50999999791384
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 342918,
+    "vertices": 56544
+  },
+  {
+    "id": "Memory \u2014 Left side frame",
+    "bank": "Memory",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -31.8,
+        4.699999999999999,
+        -21.5
+      ],
+      [
+        -24.2,
+        32.4,
+        21.5
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 512550,
+    "vertices": 14436
+  },
+  {
+    "id": "Memory \u2014 Right side frame",
+    "bank": "Memory",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        24.2,
+        4.699999809265137,
+        -21.5
+      ],
+      [
+        43.79999923706055,
+        32.4,
+        38.0
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 555858,
+    "vertices": 19968
+  },
+  {
+    "id": "Memory \u2014 Left inner bearing wall",
+    "bank": "Memory",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -11.8,
+        4.699999999999999,
+        -23.8
+      ],
+      [
+        -4.2,
+        32.4,
+        -6.5
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 615762,
+    "vertices": 10680
+  },
+  {
+    "id": "Memory \u2014 Right inner bearing wall",
+    "bank": "Memory",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        4.2,
+        4.699999999999999,
+        -23.8
+      ],
+      [
+        11.8,
+        32.4,
+        -8.2
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 647802,
+    "vertices": 8244
+  },
+  {
+    "id": "Write \u2014 Left side frame",
+    "bank": "Write",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -116.8,
+        4.699999999999999,
+        -5.5
+      ],
+      [
+        -109.2,
+        32.4,
+        37.5
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 672534,
+    "vertices": 11928
+  },
+  {
+    "id": "Write \u2014 Right side frame",
+    "bank": "Write",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -60.8,
+        4.699999809265137,
+        -5.5
+      ],
+      [
+        -41.20000076293945,
+        32.4,
+        54.0
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 708318,
+    "vertices": 19800
+  },
+  {
+    "id": "Write \u2014 Right inner bearing wall",
+    "bank": "Write",
+    "motion": "fixed",
+    "source": "shaft datum frame redesign",
+    "print_rotation_axis": [
+      0,
+      1,
+      0
+    ],
+    "print_rotation_angle": 1.5707963267948966,
+    "bounds": [
+      [
+        -80.8,
+        4.699999999999999,
+        -7.8
+      ],
+      [
+        -73.2,
+        32.4,
+        7.8
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 767718,
+    "vertices": 8268
+  },
+  {
+    "id": "Detachable bolt guide",
+    "bank": "Lock",
+    "motion": "fixed",
+    "source": "detachable guide",
+    "bounds": [
+      [
+        -23.85,
+        14.0,
+        45.5
+      ],
+      [
+        13.75,
+        40.4,
+        70.0
+      ]
+    ],
+    "watertight": true,
+    "solids": 1,
+    "print_rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "print_rotation_angle": 0.0,
+    "kind": "structure",
+    "color": [
+      134,
+      149,
+      134
+    ],
+    "offset": 792522,
+    "vertices": 7326
+  },
+  {
+    "id": "Memory \u2014 L072",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 814500,
+    "vertices": 3792,
+    "source": "L072",
+    "bank": "Memory",
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": -1
+    }
+  },
+  {
+    "id": "Memory \u2014 L097",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 825876,
+    "vertices": 1824,
+    "source": "L097",
+    "bank": "Memory",
+    "lego_part": "26287",
+    "joint": {
+      "field": "output",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 L099",
+    "kind": "native",
+    "color": [
+      198,
+      70,
+      58
+    ],
+    "motion": "clutch-ring",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 831348,
+    "vertices": 3006,
+    "source": "L099",
+    "bank": "Memory",
+    "joint": {
+      "field": "output",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 L102",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": -1,
+    "axisY": 10.200000000000001,
+    "axisZ": -8.00000000253931e-06,
+    "offset": 840366,
+    "vertices": 3792,
+    "source": "L102",
+    "bank": "Memory",
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 0.5
+    }
+  },
+  {
+    "id": "Memory \u2014 L069",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 851742,
+    "vertices": 1392,
+    "source": "L069",
+    "bank": "Memory",
+    "joint": {
+      "field": "output",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 L105",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 855918,
+    "vertices": 1392,
+    "source": "L105",
+    "bank": "Memory",
+    "joint": {
+      "field": "output",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 O-left",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0.0,
+    "offset": 860094,
+    "vertices": 1392,
+    "source": "O-left",
+    "bank": "Memory",
+    "joint": {
+      "field": "output",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 O-right",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0.0,
+    "offset": 864270,
+    "vertices": 1392,
+    "source": "O-right",
+    "bank": "Memory",
+    "joint": {
+      "field": "output",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 O-left 5L axle",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "O",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 868446,
+    "vertices": 192,
+    "lego_part": "32073",
+    "source": "O-shaft",
+    "bank": "Memory",
+    "geometry_note": "Native 5L axle; terminates 0.2 mm before 26287 central web at |local X|=4 mm.",
+    "joint": {
+      "field": "output",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 O-right 5L axle",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "O",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 869022,
+    "vertices": 192,
+    "lego_part": "32073",
+    "source": "O-shaft",
+    "bank": "Memory",
+    "geometry_note": "Native 5L axle; terminates 0.2 mm before 26287 central web at |local X|=4 mm.",
+    "joint": {
+      "field": "output",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 C-shaft",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "input",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 869598,
+    "vertices": 192,
+    "lego_part": "3737",
+    "geometry_note": "Existing LEGO axle mesh length adjusted to standard 10L; verify against genuine part.",
+    "source": "C-shaft",
+    "bank": "Memory",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 selector-right-retainer",
+    "kind": "native",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "input",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 870174,
+    "vertices": 1392,
+    "source": "selector-right-retainer",
+    "bank": "Memory",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 U015",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "worm",
+    "spin": 0,
+    "axisY": 15.186000000000005,
+    "axisZ": 32.0,
+    "offset": 874350,
+    "vertices": 4890,
+    "source": "U015",
+    "bank": "Memory",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 U022",
+    "kind": "native",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "gear",
+    "spin": 0,
+    "axisY": 2.2,
+    "axisZ": 32.0,
+    "offset": 889020,
+    "vertices": 1536,
+    "source": "U022",
+    "bank": "Memory",
+    "joint": {
+      "field": "gm",
+      "axis": "Y",
+      "center": [
+        0,
+        10.2,
+        24
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 A-idler-shaft",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": -0.6666666666666666,
+    "axisY": 10.2,
+    "axisZ": -20.0,
+    "offset": 893628,
+    "vertices": 192,
+    "lego_part": "3705",
+    "source": "A-idler-shaft",
+    "bank": "Memory",
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        16.009475019311125,
+        -10.5
+      ],
+      "ratio": -1
+    }
+  },
+  {
+    "id": "Memory \u2014 A-input",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": -40.0,
+    "offset": 894204,
+    "vertices": 1536,
+    "lego_part": "10928",
+    "source": "A-input",
+    "bank": "Memory",
+    "geometry_note": "Native 8T; two meshes retain direction at half power-shaft speed.",
+    "key_alignment_deg": -2.842170943040401e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 A-idler",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": 2,
+    "axisY": 10.2,
+    "axisZ": -12.0,
+    "offset": 898812,
+    "vertices": 1536,
+    "lego_part": "10928",
+    "source": "A-idler",
+    "bank": "Memory",
+    "key_alignment_deg": 2.1316282072803006e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        16.009475019311125,
+        -10.5
+      ],
+      "ratio": -1
+    }
+  },
+  {
+    "id": "Memory \u2014 A-input-bush-10",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 903420,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "A-input-bush-10",
+    "bank": "Memory",
+    "key_alignment_deg": 1.4210854715202004e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 A-input-bush-22",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 907596,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "A-input-bush-22",
+    "bank": "Memory",
+    "key_alignment_deg": 1.4210854715202004e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 A-idler-bush-22",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 911772,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "A-idler-bush-22",
+    "bank": "Memory",
+    "key_alignment_deg": -3.552713678800501e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        16.009475019311125,
+        -10.5
+      ],
+      "ratio": -1
+    }
+  },
+  {
+    "id": "Memory \u2014 A-input-bush-34",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 915948,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "A-input-bush-34",
+    "bank": "Memory",
+    "key_alignment_deg": 1.4210854715202004e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 A-idler-bush-34",
+    "kind": "native",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "motion": "A-idler",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 920124,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "A-idler-bush-34",
+    "bank": "Memory",
+    "key_alignment_deg": -3.552713678800501e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        16.009475019311125,
+        -10.5
+      ],
+      "ratio": -1
+    }
+  },
+  {
+    "id": "Memory \u2014 B-input",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": -40.0,
+    "offset": 924300,
+    "vertices": 3120,
+    "lego_part": "94925",
+    "source": "B-input",
+    "bank": "Memory",
+    "key_alignment_deg": 0.0,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 B-input-bush--10",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 933660,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "B-input-bush--10",
+    "bank": "Memory",
+    "key_alignment_deg": 1.4210854715202004e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 B-input-bush--22",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 937836,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "B-input-bush--22",
+    "bank": "Memory",
+    "key_alignment_deg": 1.4210854715202004e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 B-input-bush--34",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 942012,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "B-input-bush--34",
+    "bank": "Memory",
+    "key_alignment_deg": 1.4210854715202004e-14,
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 Cartridge 3L pin 40 0.7",
+    "motion": "fixed",
+    "color": [
+      55,
+      100,
+      190
+    ],
+    "lego_part": "6558",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 946188,
+    "vertices": 6432,
+    "source": "Cartridge 3L pin 40 0.7",
+    "bank": "Memory"
+  },
+  {
+    "id": "Memory \u2014 Cartridge 3L pin 40 -12.5",
+    "motion": "fixed",
+    "color": [
+      55,
+      100,
+      190
+    ],
+    "lego_part": "6558",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 965484,
+    "vertices": 6432,
+    "source": "Cartridge 3L pin 40 -12.5",
+    "bank": "Memory"
+  },
+  {
+    "id": "Memory \u2014 reaction-stop-axle",
+    "motion": "gear",
+    "color": [
+      80,
+      87,
+      85
+    ],
+    "lego_part": "24316",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 984780,
+    "vertices": 504,
+    "source": "reaction-stop-axle",
+    "bank": "Memory"
+  },
+  {
+    "id": "Memory \u2014 reaction-retainer",
+    "kind": "native",
+    "motion": "gear",
+    "spin": 0,
+    "color": [
+      80,
+      85,
+      85
+    ],
+    "offset": 986292,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "reaction-retainer",
+    "bank": "Memory",
+    "joint": {
+      "field": "gm",
+      "axis": "Y",
+      "center": [
+        0,
+        10.2,
+        24
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 pivot-stop-axle",
+    "motion": "fixed",
+    "color": [
+      80,
+      87,
+      85
+    ],
+    "lego_part": "24316",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 990468,
+    "vertices": 504,
+    "source": "pivot-stop-axle",
+    "bank": "Memory"
+  },
+  {
+    "id": "Memory \u2014 pivot-retainer",
+    "kind": "native",
+    "motion": "fixed",
+    "spin": 0,
+    "color": [
+      80,
+      85,
+      85
+    ],
+    "offset": 991980,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "pivot-retainer",
+    "bank": "Memory",
+    "joint": {
+      "field": "bm",
+      "axis": "Y",
+      "center": [
+        13.192323604,
+        10.2,
+        32.128448698
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Memory \u2014 Carriage support pin 1 2.0",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "carriage",
+    "spin": 0,
+    "axisY": -18.6,
+    "axisZ": 34.0,
+    "offset": 996156,
+    "vertices": 4512,
+    "lego_part": "2780",
+    "source": "Carriage support pin 1 2.0",
+    "bank": "Memory"
+  },
+  {
+    "id": "Memory \u2014 Carriage support pin 1 18.0",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "carriage",
+    "spin": 0,
+    "axisY": -18.6,
+    "axisZ": 34.0,
+    "offset": 1009692,
+    "vertices": 4512,
+    "lego_part": "2780",
+    "source": "Carriage support pin 1 18.0",
+    "bank": "Memory"
+  },
+  {
+    "id": "Write \u2014 L097",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 1023228,
+    "vertices": 1824,
+    "source": "L097",
+    "bank": "Write",
+    "lego_part": "26287",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 L099",
+    "kind": "native",
+    "color": [
+      198,
+      70,
+      58
+    ],
+    "motion": "clutch-ring",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 1028700,
+    "vertices": 3006,
+    "source": "L099",
+    "bank": "Write",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 L102",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": -1,
+    "axisY": 10.200000000000001,
+    "axisZ": -8.00000000253931e-06,
+    "offset": 1037718,
+    "vertices": 3792,
+    "source": "L102",
+    "bank": "Write",
+    "joint": {
+      "field": "data",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": -1
+    }
+  },
+  {
+    "id": "Write \u2014 L069",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 1049094,
+    "vertices": 1392,
+    "source": "L069",
+    "bank": "Write",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 L105",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O-route",
+    "spin": 1,
+    "axisY": 10.200000000000001,
+    "axisZ": 0.0,
+    "offset": 1053270,
+    "vertices": 1392,
+    "source": "L105",
+    "bank": "Write",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 O-left",
+    "kind": "native",
+    "color": [
+      83,
+      154,
+      110
+    ],
+    "motion": "O",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0.0,
+    "offset": 1057446,
+    "vertices": 1392,
+    "source": "O-left",
+    "bank": "Write",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 O-left 5L axle",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "O",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 1061622,
+    "vertices": 192,
+    "lego_part": "32073",
+    "source": "O-shaft",
+    "bank": "Write",
+    "geometry_note": "Native 5L axle; terminates 0.2 mm before 26287 central web at |local X|=4 mm.",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 O-right 5L axle",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "O",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 1062198,
+    "vertices": 192,
+    "lego_part": "32073",
+    "source": "O-shaft",
+    "bank": "Write",
+    "geometry_note": "Native 5L axle; terminates 0.2 mm before 26287 central web at |local X|=4 mm.",
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 C-shaft",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "input",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 1062774,
+    "vertices": 192,
+    "lego_part": "23948",
+    "source": "C-shaft",
+    "bank": "Write",
+    "joint": {
+      "field": "we",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        32
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 U072",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "input",
+    "spin": 0,
+    "axisY": 10.200000000000001,
+    "axisZ": 32.0,
+    "offset": 1063350,
+    "vertices": 1392,
+    "source": "U072",
+    "bank": "Write",
+    "joint": {
+      "field": "we",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        32
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 selector-right-retainer",
+    "kind": "native",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "input",
+    "spin": 0,
+    "axisY": 10.2,
+    "axisZ": 32.0,
+    "offset": 1067526,
+    "vertices": 1392,
+    "source": "selector-right-retainer",
+    "bank": "Write",
+    "joint": {
+      "field": "we",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        32
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 U015",
+    "kind": "native",
+    "color": [
+      149,
+      103,
+      163
+    ],
+    "motion": "worm",
+    "spin": 0,
+    "axisY": 15.186000000000005,
+    "axisZ": 32.0,
+    "offset": 1071702,
+    "vertices": 4890,
+    "source": "U015",
+    "bank": "Write",
+    "joint": {
+      "field": "we",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        32
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 U022",
+    "kind": "native",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "gear",
+    "spin": 0,
+    "axisY": 2.2,
+    "axisZ": 32.0,
+    "offset": 1086372,
+    "vertices": 1536,
+    "source": "U022",
+    "bank": "Write",
+    "joint": {
+      "field": "ge",
+      "axis": "Y",
+      "center": [
+        -85.0,
+        10.2,
+        40
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 B-shaft",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 2,
+    "axisY": 10.2,
+    "axisZ": 0,
+    "offset": 1090980,
+    "vertices": 192,
+    "lego_part": "3737",
+    "source": "B-shaft",
+    "bank": "Write",
+    "geometry_note": "Existing LEGO axle mesh length adjusted to standard 10L; verify against genuine part.",
+    "joint": {
+      "field": "data",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 B-input",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0,
+    "offset": 1091556,
+    "vertices": 3120,
+    "lego_part": "94925",
+    "source": "B-input",
+    "bank": "Write",
+    "key_alignment_deg": 7.105427357601002e-15,
+    "joint": {
+      "field": "data",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 B-input-bush--10",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0,
+    "offset": 1100916,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "B-input-bush--10",
+    "bank": "Write",
+    "key_alignment_deg": 7.105427357601002e-15,
+    "joint": {
+      "field": "data",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 B-input-bush--22",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0,
+    "offset": 1105092,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "B-input-bush--22",
+    "bank": "Write",
+    "key_alignment_deg": 7.105427357601002e-15,
+    "joint": {
+      "field": "data",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 B-input-bush--34",
+    "kind": "native",
+    "color": [
+      220,
+      141,
+      45
+    ],
+    "motion": "B",
+    "spin": 1,
+    "axisY": 10.2,
+    "axisZ": 0,
+    "offset": 1109268,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "B-input-bush--34",
+    "bank": "Write",
+    "key_alignment_deg": 7.105427357601002e-15,
+    "joint": {
+      "field": "data",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        0
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 Cartridge 3L pin 40 0.7",
+    "motion": "fixed",
+    "color": [
+      55,
+      100,
+      190
+    ],
+    "lego_part": "6558",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 1113444,
+    "vertices": 6432,
+    "source": "Cartridge 3L pin 40 0.7",
+    "bank": "Write"
+  },
+  {
+    "id": "Write \u2014 Cartridge 3L pin 40 -12.5",
+    "motion": "fixed",
+    "color": [
+      55,
+      100,
+      190
+    ],
+    "lego_part": "6558",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 1132740,
+    "vertices": 6432,
+    "source": "Cartridge 3L pin 40 -12.5",
+    "bank": "Write"
+  },
+  {
+    "id": "Write \u2014 reaction-stop-axle",
+    "motion": "gear",
+    "color": [
+      80,
+      87,
+      85
+    ],
+    "lego_part": "24316",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 1152036,
+    "vertices": 504,
+    "source": "reaction-stop-axle",
+    "bank": "Write"
+  },
+  {
+    "id": "Write \u2014 reaction-retainer",
+    "kind": "native",
+    "motion": "gear",
+    "spin": 0,
+    "color": [
+      80,
+      85,
+      85
+    ],
+    "offset": 1153548,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "reaction-retainer",
+    "bank": "Write",
+    "joint": {
+      "field": "ge",
+      "axis": "Y",
+      "center": [
+        -85.0,
+        10.2,
+        40
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 pivot-stop-axle",
+    "motion": "fixed",
+    "color": [
+      80,
+      87,
+      85
+    ],
+    "lego_part": "24316",
+    "kind": "lego",
+    "spin": 0,
+    "offset": 1157724,
+    "vertices": 504,
+    "source": "pivot-stop-axle",
+    "bank": "Write"
+  },
+  {
+    "id": "Write \u2014 pivot-retainer",
+    "kind": "native",
+    "motion": "fixed",
+    "spin": 0,
+    "color": [
+      80,
+      85,
+      85
+    ],
+    "offset": 1159236,
+    "vertices": 1392,
+    "lego_part": "32123a",
+    "source": "pivot-retainer",
+    "bank": "Write",
+    "joint": {
+      "field": "be",
+      "axis": "Y",
+      "center": [
+        -71.807676396,
+        10.2,
+        48.128448698
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Write \u2014 Carriage support pin 1 2.0",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "carriage",
+    "spin": 0,
+    "axisY": -18.6,
+    "axisZ": 34.0,
+    "offset": 1163412,
+    "vertices": 4512,
+    "lego_part": "2780",
+    "source": "Carriage support pin 1 2.0",
+    "bank": "Write"
+  },
+  {
+    "id": "Write \u2014 Carriage support pin 1 18.0",
+    "kind": "lego",
+    "color": [
+      85,
+      92,
+      94
+    ],
+    "motion": "carriage",
+    "spin": 0,
+    "axisY": -18.6,
+    "axisZ": 34.0,
+    "offset": 1176948,
+    "vertices": 4512,
+    "lego_part": "2780",
+    "source": "Carriage support pin 1 18.0",
+    "bank": "Write"
+  },
+  {
+    "id": "Memory \u2014 common 1 power axle",
+    "source": "common-power",
+    "bank": "Memory",
+    "motion": "power",
+    "lego_part": "23948",
+    "offset": 1190484,
+    "vertices": 192,
+    "color": [
+      66,
+      79,
+      91
+    ],
+    "kind": "native",
+    "joint": {
+      "field": "power",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        -16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "2L LEGO axle joiner 59443",
+    "source": "coupler-envelope",
+    "bank": "link",
+    "motion": "data-gated",
+    "lego_part": "59443",
+    "geometry_note": "Native inline smooth 2L joiner with centre divider; not a filled envelope.",
+    "offset": 1191060,
+    "vertices": 1296,
+    "kind": "native",
+    "color": [
+      66,
+      79,
+      91
+    ],
+    "joint": {
+      "field": "wm",
+      "axis": "X",
+      "center": [
+        0,
+        10.2,
+        16
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Cam roller 2L axle",
+    "bank": "Lock",
+    "motion": "bolt",
+    "kind": "native",
+    "lego_part": "32062",
+    "color": [
+      80,
+      86,
+      91
+    ],
+    "source": "direct cam",
+    "offset": 1194948,
+    "vertices": 192,
+    "joint": {
+      "field": "roller",
+      "axis": "Y",
+      "center": [
+        -5.05,
+        0,
+        53.3
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Cam roller half bush 15.6",
+    "bank": "Lock",
+    "motion": "bolt",
+    "kind": "native",
+    "lego_part": "32123a",
+    "color": [
+      80,
+      86,
+      91
+    ],
+    "source": "direct cam",
+    "offset": 1195524,
+    "vertices": 1392,
+    "key_alignment_deg": -2.1316282072803006e-14,
+    "joint": {
+      "field": "roller",
+      "axis": "Y",
+      "center": [
+        -5.05,
+        0,
+        53.3
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Cam roller half bush 27.6",
+    "bank": "Lock",
+    "motion": "bolt",
+    "kind": "native",
+    "lego_part": "32123a",
+    "color": [
+      80,
+      86,
+      91
+    ],
+    "source": "direct cam",
+    "offset": 1199700,
+    "vertices": 1392,
+    "key_alignment_deg": -2.1316282072803006e-14,
+    "joint": {
+      "field": "roller",
+      "axis": "Y",
+      "center": [
+        -5.05,
+        0,
+        53.3
+      ],
+      "ratio": 1
+    }
+  },
+  {
+    "id": "Frame pin Memory \u2014 Left side frame 0",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1203876
+  },
+  {
+    "id": "Frame pin Memory \u2014 Left side frame 1",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1217412
+  },
+  {
+    "id": "Frame pin Memory \u2014 Right side frame 0",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1230948
+  },
+  {
+    "id": "Frame pin Memory \u2014 Right side frame 1",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1244484
+  },
+  {
+    "id": "Frame pin Memory \u2014 Left inner bearing wall 0",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1258020
+  },
+  {
+    "id": "Frame pin Memory \u2014 Left inner bearing wall 1",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1271556
+  },
+  {
+    "id": "Frame pin Memory \u2014 Right inner bearing wall 0",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1285092
+  },
+  {
+    "id": "Frame pin Memory \u2014 Right inner bearing wall 1",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1298628
+  },
+  {
+    "id": "Frame pin Write \u2014 Left side frame 0",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1312164
+  },
+  {
+    "id": "Frame pin Write \u2014 Left side frame 1",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1325700
+  },
+  {
+    "id": "Frame pin Write \u2014 Right side frame 0",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1339236
+  },
+  {
+    "id": "Frame pin Write \u2014 Right side frame 1",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1352772
+  },
+  {
+    "id": "Frame pin Write \u2014 Right inner bearing wall 0",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1366308
+  },
+  {
+    "id": "Frame pin Write \u2014 Right inner bearing wall 1",
+    "bank": "Frame",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1379844
+  },
+  {
+    "id": "Guide mount friction pin 1",
+    "bank": "Lock",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1393380
+  },
+  {
+    "id": "Guide mount friction pin 2",
+    "bank": "Lock",
+    "kind": "native",
+    "motion": "fixed",
+    "color": [
+      54,
+      133,
+      180
+    ],
+    "lego_part": "2780",
+    "vertices": 4512,
+    "offset": 1406916
+  },
+  {
+    "id": "Lock elastic band",
+    "bank": "Lock",
+    "motion": "lock-band",
+    "kind": "elastic",
+    "color": [
+      172,
+      83,
+      145
+    ],
+    "offset": 1420452,
+    "vertices": 1584
+  }
+]

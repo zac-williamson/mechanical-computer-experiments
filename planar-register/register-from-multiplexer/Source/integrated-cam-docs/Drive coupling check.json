@@ -1,0 +1,10 @@
+{
+  "axial_insertion_mm": 7.6,
+  "shaft_end_gap_inside_connector_mm": 0.8,
+  "overlapping_native_bounds": [
+    "Memory \u2014 C-shaft",
+    "Write \u2014 O-shaft"
+  ],
+  "removed_conflicting_bush": "Memory \u2014 U072",
+  "limitation": "Connector remains a filled outer envelope; genuine axle insertion and retention require physical checking."
+}

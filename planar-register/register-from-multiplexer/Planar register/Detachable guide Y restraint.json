@@ -1,0 +1,19 @@
+{
+  "retaining_faces_verified": true,
+  "full_height_rear_retaining_land_mm": 9.0,
+  "head_Y_clearance_each_side_mm": 0.4,
+  "minimum_lip_overlap_with_maximum_X_translation_mm": 1.0,
+  "stroke_mm": [
+    0,
+    5.4
+  ],
+  "stroke_samples": 55,
+  "maximum_nominal_overlap_mm3": 0,
+  "minimum_interference_at_five_degree_pitch_mm3": 28.743837670115052,
+  "pitch_outer_bounds_degrees": [
+    -1.9031358958864075,
+    1.8983767570989585
+  ],
+  "allows_Y_translation_in_pitch_bound": true,
+  "scope": "Rigid geometry only. Analytic pitch bounds use opposed head lands at Z61/70 and straight tip at Z49 across the full stroke. Contact prevents a five-degree tilt even allowing Y translation. Does not establish elastic stiffness, wear, or combined yaw/roll escape under load."
+}

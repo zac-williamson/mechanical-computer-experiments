@@ -1,0 +1,23 @@
+{
+  "target_center_distance_mm": 16,
+  "old_center_distance_mm": 15.561892558426177,
+  "worm_z_mm": 16.0,
+  "shift_z_mm": 1.5,
+  "shift_y_mm": -5.65,
+  "changed_parts": [
+    "Left side frame",
+    "Right side frame",
+    "Front bearing cheek",
+    "Rear bearing cheek",
+    "Short lever",
+    "Common baseboard",
+    "Right carriage bearing support",
+    "Carriage fork and roof"
+  ],
+  "unchanged_parts": [
+    "Left inner bearing wall",
+    "Right inner bearing wall"
+  ],
+  "method": "Actuator rigidly translated by [0,-5.65,1.5]. Original clutch fork retained and connected by a longer neck. Front carriage pin kept at original Y; bearing-side ribs route above the open-bottom guide. Frame feet remain at original height.",
+  "previous_git_commit": "2698704"
+}

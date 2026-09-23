@@ -1,0 +1,199 @@
+{
+  "method": "Exact solid intersections of complete bolt and bearing cheek with tilted bolt. Other components/cam are absent: this measures guide freedom, not an assembled collision-free pose. Roller location follows the rigid bolt.",
+  "cases": [
+    {
+      "q": -0.75,
+      "lift": 5.3999999999999915,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8251338355339755
+    },
+    {
+      "q": -0.75,
+      "lift": 5.3999999999999915,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8251338355339755
+    },
+    {
+      "q": -0.45,
+      "lift": 5.9399999999999835,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8392645437195654
+    },
+    {
+      "q": -0.45,
+      "lift": 5.9399999999999835,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8392645437195654
+    },
+    {
+      "q": 0,
+      "lift": 6.5793773097193835,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8559957551716764
+    },
+    {
+      "q": 0,
+      "lift": 6.5793773097193835,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8559957551716764
+    },
+    {
+      "q": 0.2,
+      "lift": 6.788835749501828,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8614768590412609
+    },
+    {
+      "q": 0.2,
+      "lift": 6.788835749501828,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8614768590412609
+    },
+    {
+      "q": 1,
+      "lift": 7.372476502901748,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8767495575070257
+    },
+    {
+      "q": 1,
+      "lift": 7.372476502901748,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8767495575070257
+    },
+    {
+      "q": 3.75,
+      "lift": 7.799999999999997,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8879369830255115
+    },
+    {
+      "q": 3.75,
+      "lift": 7.799999999999997,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8879369830255115
+    }
+  ],
+  "free_cases_exceeding_previous_point6mm_budget": [
+    {
+      "q": -0.75,
+      "lift": 5.3999999999999915,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8251338355339755
+    },
+    {
+      "q": -0.75,
+      "lift": 5.3999999999999915,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8251338355339755
+    },
+    {
+      "q": -0.45,
+      "lift": 5.9399999999999835,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8392645437195654
+    },
+    {
+      "q": -0.45,
+      "lift": 5.9399999999999835,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8392645437195654
+    },
+    {
+      "q": 0,
+      "lift": 6.5793773097193835,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8559957551716764
+    },
+    {
+      "q": 0,
+      "lift": 6.5793773097193835,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8559957551716764
+    },
+    {
+      "q": 0.2,
+      "lift": 6.788835749501828,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8614768590412609
+    },
+    {
+      "q": 0.2,
+      "lift": 6.788835749501828,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8614768590412609
+    },
+    {
+      "q": 1,
+      "lift": 7.372476502901748,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8767495575070257
+    },
+    {
+      "q": 1,
+      "lift": 7.372476502901748,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8767495575070257
+    },
+    {
+      "q": 3.75,
+      "lift": 7.799999999999997,
+      "tilt_deg": -3,
+      "lateral_offset_mm": -0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": -0.8879369830255115
+    },
+    {
+      "q": 3.75,
+      "lift": 7.799999999999997,
+      "tilt_deg": 3,
+      "lateral_offset_mm": 0.15,
+      "guide_intersection_mm3": 0.0,
+      "roller_x_displacement_mm": 0.8879369830255115
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "clutch_ring_full_rotation_envelopes": [
+    {
+      "bank": "Memory",
+      "relative_axial_sweep_mm": [
+        -0.4,
+        0.4
+      ],
+      "conservative_swept_overlap_mm3": 5.135135074677765e-07
+    },
+    {
+      "bank": "Write",
+      "relative_axial_sweep_mm": [
+        -0.4,
+        0.4
+      ],
+      "conservative_swept_overlap_mm3": 5.52392812436866e-07
+    }
+  ],
+  "poses": 1800,
+  "rotation_step_deg": 5,
+  "carriage_positions_per_axis": 5,
+  "hardware_parts": 44,
+  "penetrations": [],
+  "contacts": [],
+  "limits": "Every modelled X-axis drive part rotated independently for printed clearance. Gear-to-gear phase/engagement and the Y-axis reaction mechanism are separate checks; finite surface samples, rigid motion."
+}

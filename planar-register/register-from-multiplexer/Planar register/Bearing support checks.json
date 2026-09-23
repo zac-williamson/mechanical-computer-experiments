@@ -1,0 +1,366 @@
+{
+  "bearings": [
+    {
+      "part": "Memory \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        -16
+      ],
+      "role": "power",
+      "x_span_mm": [
+        -31.8,
+        -24.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left",
+      "actual_shaft": "Memory \u2014 common 1 power axle",
+      "axis_error_mm": 9.54865665209051e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "clutch",
+      "x_span_mm": [
+        -31.8,
+        -24.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left",
+      "actual_shaft": "Memory \u2014 O-right 5L axle",
+      "axis_error_mm": 0.0,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        16
+      ],
+      "role": "worm input",
+      "x_span_mm": [
+        -31.8,
+        -24.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left",
+      "actual_shaft": "Memory \u2014 C-shaft",
+      "axis_error_mm": 9.417236628621555e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Left side frame",
+      "axis_YZ_mm": [
+        16.009475019311125,
+        -10.5
+      ],
+      "role": "idler",
+      "x_span_mm": [
+        -31.8,
+        -24.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left",
+      "actual_shaft": "Memory \u2014 A-idler-shaft",
+      "axis_error_mm": 4.2349288808636346e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        -16
+      ],
+      "role": "power",
+      "x_span_mm": [
+        24.2,
+        31.8
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right",
+      "actual_shaft": "Memory \u2014 common 1 power axle",
+      "axis_error_mm": 9.54865665209051e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "clutch",
+      "x_span_mm": [
+        24.2,
+        31.8
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right",
+      "actual_shaft": "Memory \u2014 O-right 5L axle",
+      "axis_error_mm": 0.0,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        16
+      ],
+      "role": "worm input",
+      "x_span_mm": [
+        24.2,
+        31.8
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right",
+      "actual_shaft": "Memory \u2014 C-shaft",
+      "axis_error_mm": 9.417236628621555e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Left inner bearing wall",
+      "axis_YZ_mm": [
+        10.2,
+        -16
+      ],
+      "role": "power",
+      "x_span_mm": [
+        -11.8,
+        -4.2
+      ],
+      "bearing_land_mm": 3.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": true,
+      "side": "Left",
+      "actual_shaft": "Memory \u2014 common 1 power axle",
+      "axis_error_mm": 9.54865665209051e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Left inner bearing wall",
+      "axis_YZ_mm": [
+        16.009475019311125,
+        -10.5
+      ],
+      "role": "idler",
+      "x_span_mm": [
+        -11.8,
+        -4.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 4,
+      "counterbore": false,
+      "side": "Left",
+      "actual_shaft": "Memory \u2014 A-idler-shaft",
+      "axis_error_mm": 4.2349288808636346e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Memory \u2014 Right inner bearing wall",
+      "axis_YZ_mm": [
+        10.2,
+        -16
+      ],
+      "role": "power",
+      "x_span_mm": [
+        4.2,
+        11.8
+      ],
+      "bearing_land_mm": 3.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": true,
+      "side": "Right",
+      "actual_shaft": "Memory \u2014 common 1 power axle",
+      "axis_error_mm": 9.54865665209051e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "data",
+      "x_span_mm": [
+        -116.8,
+        -109.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left",
+      "actual_shaft": "Write \u2014 B-shaft",
+      "axis_error_mm": 2.717505684056473e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        16
+      ],
+      "role": "clutch",
+      "x_span_mm": [
+        -116.8,
+        -109.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left",
+      "actual_shaft": "Write \u2014 O-right 5L axle",
+      "axis_error_mm": 1.7763568394002505e-15,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Write \u2014 Left side frame",
+      "axis_YZ_mm": [
+        10.2,
+        32
+      ],
+      "role": "worm input",
+      "x_span_mm": [
+        -116.8,
+        -109.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Left",
+      "actual_shaft": "Write \u2014 C-shaft",
+      "axis_error_mm": 9.417236558692044e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "data",
+      "x_span_mm": [
+        -60.8,
+        -53.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right",
+      "actual_shaft": "Write \u2014 B-shaft",
+      "axis_error_mm": 2.717505684056473e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        16
+      ],
+      "role": "clutch",
+      "x_span_mm": [
+        -60.8,
+        -53.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right",
+      "actual_shaft": "Write \u2014 O-right 5L axle",
+      "axis_error_mm": 1.7763568394002505e-15,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Write \u2014 Right side frame",
+      "axis_YZ_mm": [
+        10.2,
+        32
+      ],
+      "role": "worm input",
+      "x_span_mm": [
+        -60.8,
+        -53.2
+      ],
+      "bearing_land_mm": 7.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": false,
+      "side": "Right",
+      "actual_shaft": "Write \u2014 C-shaft",
+      "axis_error_mm": 9.417236558692044e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    },
+    {
+      "part": "Write \u2014 Right inner bearing wall",
+      "axis_YZ_mm": [
+        10.2,
+        0
+      ],
+      "role": "data",
+      "x_span_mm": [
+        -80.8,
+        -73.2
+      ],
+      "bearing_land_mm": 3.6,
+      "bore_radius_mm": 2.65,
+      "boss_radius_mm": 5.5,
+      "counterbore": true,
+      "side": "Right",
+      "actual_shaft": "Write \u2014 B-shaft",
+      "axis_error_mm": 2.717505684056473e-07,
+      "checked_circumference_degrees": 360,
+      "axial_stations": 5
+    }
+  ],
+  "mounts": 14,
+  "all_mounts_two_pins": true,
+  "scope": "Complete bore circumference plus conservative full-rotation cylindrical hardware envelopes, expanded by 4.2 mm for axial-moving hardware. Does not qualify structural loading or unrelated parts.",
+  "full_rotation_envelope_pairs": 39,
+  "full_rotation_envelope_hits": []
+}

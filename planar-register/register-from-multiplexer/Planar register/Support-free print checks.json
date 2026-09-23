@@ -1,0 +1,26 @@
+{
+  "parts": [
+    {
+      "part": "Unified rear backbone",
+      "downward_faces_steeper_than_45_degrees_area_mm2": 0.0,
+      "explicit_supported_bridge_span_mm": 0,
+      "layer_height_mm": 0.2,
+      "layers": 124,
+      "unsupported_islands": 0,
+      "maximum_layer_area_beyond_45_degree_support_mm2": 0,
+      "bed_contact_mm2": 3697.3321108229384
+    },
+    {
+      "part": "Detachable bolt guide",
+      "downward_faces_steeper_than_45_degrees_area_mm2": 4.52343924134321,
+      "explicit_supported_bridge_span_mm": 1.2,
+      "layer_height_mm": 0.2,
+      "layers": 122,
+      "unsupported_islands": 0,
+      "maximum_layer_area_beyond_45_degree_support_mm2": 0,
+      "bed_contact_mm2": 618.2858605380655
+    }
+  ],
+  "method": "Printed mesh face normals plus cross sections every 0.2 mm. Base: 0.2 mm layers with 45-degree allowance plus 0.015 mm numerical tolerance. Guide: the same test, with one explicit 1.2 mm bridge across the elastic-band groove; solid support is verified at both ends in the preceding layer. No other steep faces or unsupported areas allowed. Both require zero isolated layer components.",
+  "limits": "Geometric printability check, not a sliced toolpath or physical print guarantee. Guide includes a 1.2 mm bridge over its band groove. No Bambu Studio or other slicer was used."
+}

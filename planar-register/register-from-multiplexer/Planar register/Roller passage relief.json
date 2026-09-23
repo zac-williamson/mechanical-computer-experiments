@@ -1,0 +1,8 @@
+{
+  "change": "Roller passage widened from 8.0 to 9.2 mm for lateral guide play; material removal only.",
+  "added_volume_mm3": 0.0,
+  "removed_volume_mm3": 138.2400000012124,
+  "nominal_radial_margin_after_roller_X_play_mm": 0.6543269230769226,
+  "limits": "Finite collision checks on the prior guide remain applicable only because this change removes material. Print error and frame deformation are additional allowances.",
+  "check": "subset confirmed"
+}

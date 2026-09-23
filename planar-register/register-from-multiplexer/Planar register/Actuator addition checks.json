@@ -1,0 +1,15 @@
+{
+  "results": [
+    {
+      "bank": "Memory",
+      "source_trace_frames": 3660,
+      "new_carriage_material_to_lever_contacts": []
+    },
+    {
+      "bank": "Write",
+      "source_trace_frames": 3660,
+      "new_carriage_material_to_lever_contacts": []
+    }
+  ],
+  "qualification": "Checks the additions against the original complete lever/contact trace. Inherited worm/reaction/lever tooth geometry is unchanged; original tooth-contact study remains applicable. Not force or endurance validation."
+}

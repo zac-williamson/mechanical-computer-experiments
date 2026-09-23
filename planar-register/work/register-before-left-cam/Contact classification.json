@@ -1,0 +1,6 @@
+{
+  "printed_native_pairs_checked": 53,
+  "non_pin_penetrations_above_0_03mm": [],
+  "max_pin_interference_mm": 0.15185575362446962,
+  "note": "Designed friction-pin barb interference is retained. Native/native fits and teeth are recorded separately; no continuous all-part qualification."
+}

@@ -1,0 +1,34 @@
+{
+  "bearing_faces": [
+    {
+      "part": "Memory \u2014 Carriage fork and roof",
+      "source_bearing_bed_plane_X_mm": -15.600000381469727,
+      "current_min_X_mm": -15.600000381469727,
+      "bearing_face_lift_from_bed_mm": 0.0
+    },
+    {
+      "part": "Memory \u2014 Right carriage bearing support",
+      "source_bearing_bed_plane_X_mm": 8.0,
+      "current_min_X_mm": 8.0,
+      "bearing_face_lift_from_bed_mm": 0.0
+    },
+    {
+      "part": "Write \u2014 Carriage fork and roof",
+      "source_bearing_bed_plane_X_mm": 81.19999961853027,
+      "current_min_X_mm": 81.19999961853027,
+      "bearing_face_lift_from_bed_mm": 0.0
+    },
+    {
+      "part": "Write \u2014 Right carriage bearing support",
+      "source_bearing_bed_plane_X_mm": 104.8,
+      "current_min_X_mm": 104.79999694824218,
+      "bearing_face_lift_from_bed_mm": 3.051757815342171e-06
+    }
+  ],
+  "cam_plate_print_thickness_mm": 5.399999999999999,
+  "flat_bed_contact_fraction": 1.0000000000000002,
+  "cam_plate_bed_face": "Y31 rear face",
+  "complete_write_carriage_max_Y_mm": 31,
+  "attachment": "Two LEGO2780 friction pins plus integral shear key; separate plate preserves both original bearing bed faces.",
+  "limitations": "Geometric bed and mesh checks; pin fits, sliced toolpaths and physical printing not qualified."
+}

@@ -1,0 +1,16 @@
+{
+  "checked_fixed_parts": [
+    "Detachable bolt guide",
+    "Memory \u2014 Left inner bearing wall",
+    "Memory \u2014 Left side frame",
+    "Memory \u2014 Right inner bearing wall",
+    "Memory \u2014 Right side frame",
+    "Unified rear backbone",
+    "Write \u2014 Left side frame",
+    "Write \u2014 Right inner bearing wall",
+    "Write \u2014 Right side frame"
+  ],
+  "boolean_pairs": 1239,
+  "hits": [],
+  "scope": "Finite independent full carriage travel, bolt lift and lever angle sweeps against every new fixed part. Not a continuous collision proof."
+}

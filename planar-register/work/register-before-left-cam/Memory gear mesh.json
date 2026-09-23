@@ -1,0 +1,38 @@
+{
+  "meshes": [
+    {
+      "pair": [
+        "A-input",
+        "A-idler"
+      ],
+      "max_overlap_mm2": 0.0,
+      "min_gap_mm": 0.0038113406664054264,
+      "max_gap_mm": 0.12221302896519345,
+      "samples": 1440
+    },
+    {
+      "pair": [
+        "A-idler",
+        "L102"
+      ],
+      "max_overlap_mm2": 0.0,
+      "min_gap_mm": 0.011232573415756815,
+      "max_gap_mm": 0.18405809360879516,
+      "samples": 1440
+    },
+    {
+      "pair": [
+        "B-input",
+        "L072"
+      ],
+      "max_overlap_mm2": 0.0,
+      "min_gap_mm": 0.031932314331039366,
+      "max_gap_mm": 0.12784146042989292,
+      "samples": 1440
+    }
+  ],
+  "positive_direct_pair_tip_circle_clearance_mm": 2.295250834766838,
+  "positive_ratio": 0.5,
+  "negative_ratio": -1,
+  "qualification": "Geometric checks only; no load qualification."
+}

@@ -1,0 +1,7 @@
+{
+  "layout": "Direct WRITE worm axle; D direct 16T mesh to opposite clutch gear",
+  "data_ratio": -1,
+  "phase_deg": 17.5,
+  "samples": 720,
+  "max_projected_overlap_mm2": 0.0
+}

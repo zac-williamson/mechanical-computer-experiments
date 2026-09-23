@@ -1,0 +1,194 @@
+{
+  "printed_parts": 19,
+  "modelled_hardware_parts": 80,
+  "required_torque_Nm": 0.1,
+  "qualified": false,
+  "functional_transition_status": "Bare latch fails arbitrary simultaneous close/data reversal; external SAP capture sequencing unqualified",
+  "source_commit": "5d987d9d05220db57576819dd6835af9f23af557",
+  "files": [
+    {
+      "path": "Prototype print parts/Memory \u2014 Left side frame.stl",
+      "sha256": "4133897a6156cd0e3c3b26631e6011d8295b4e4be23d437ef64147a6caa202cf"
+    },
+    {
+      "path": "Prototype print parts/Memory \u2014 Right side frame.stl",
+      "sha256": "d955c6f0b53268b4091e6476fa2f53c39df61ff0f5797edc26142c9ad498082b"
+    },
+    {
+      "path": "Prototype print parts/Memory \u2014 Front bearing cheek.stl",
+      "sha256": "8bdbf0f50805228e3802a1ec90f74c9b6c2a9f4b58c559cdc0ea78ff3155ff26"
+    },
+    {
+      "path": "Prototype print parts/Memory \u2014 Rear bearing cheek.stl",
+      "sha256": "c184eebf0221d78519a66a0705c252362aa79d231eaaf5e9d7d085478ea70727"
+    },
+    {
+      "path": "Prototype print parts/Memory \u2014 Short lever.stl",
+      "sha256": "373d6b2adced664ac05da5257e1490ecd38e5bb97971576e50325b38049f58f0"
+    },
+    {
+      "path": "Prototype print parts/Memory \u2014 Left inner bearing wall.stl",
+      "sha256": "b91c49927175de103a7914f750381a704c8ceac0860843191d7a1467cd0bc0fe"
+    },
+    {
+      "path": "Prototype print parts/Memory \u2014 Right inner bearing wall.stl",
+      "sha256": "2fbcf07c9a896064a56dbc0775a0ca943462af9ce78d00199db6f77d9032f67a"
+    },
+    {
+      "path": "Prototype print parts/Memory \u2014 Right carriage bearing support.stl",
+      "sha256": "a9738df7321b49e17d599fa6f8506da9220158d0a5af846998ddfb44ecc6ccb2"
+    },
+    {
+      "path": "Prototype print parts/Memory \u2014 Carriage fork and roof.stl",
+      "sha256": "76a2e80109eb9ab65370a9b6a0f49e80229bf31f7e2a6475846d689f29e53024"
+    },
+    {
+      "path": "Prototype print parts/Write \u2014 Right side frame.stl",
+      "sha256": "a4335adf9391ff0c4a4be64f2a6f79682de6ec2e92c9f6ae0d0228f2b37a67fa"
+    },
+    {
+      "path": "Prototype print parts/Write \u2014 Front bearing cheek.stl",
+      "sha256": "4bc5b96c3d04121f61d05de55645c365447cb50e8ea754a935308dc406b1d805"
+    },
+    {
+      "path": "Prototype print parts/Write \u2014 Rear bearing cheek.stl",
+      "sha256": "a74fb12e6b95bc250f9353da1c133d23f4464523ff54c2cdbcbec58493930a0e"
+    },
+    {
+      "path": "Prototype print parts/Write \u2014 Short lever.stl",
+      "sha256": "d01b25c70bf736669b15d547b3d946809a342e9c1c6d1b3ee88a80bc66fe4137"
+    },
+    {
+      "path": "Prototype print parts/Write \u2014 Right carriage bearing support.stl",
+      "sha256": "17aca83b893bf8bc9061accdbcaa64dd8b1bb8286d629508e074e4530dab62b9"
+    },
+    {
+      "path": "Prototype print parts/Write \u2014 Carriage fork and roof.stl",
+      "sha256": "4e02796034832cae246645fd12e8e0eda7e0bb9c4f85af894b0e75f412948b99"
+    },
+    {
+      "path": "Prototype print parts/Write \u2014 Right inner bearing wall.stl",
+      "sha256": "69817616cd02b3eb81f9d61411191fc35e67b2d638fe26bad93c91f4b651de7e"
+    },
+    {
+      "path": "Prototype print parts/Write \u2014 Direct cam plate.stl",
+      "sha256": "60745cfeeccb5c3971fc0a5157db2610c4eb683a7f5e7ab51f497d9607d82ebd"
+    },
+    {
+      "path": "Prototype print parts/Direct lock bolt.stl",
+      "sha256": "5faad0cb37abbc18300a55c60e3907899f62cc98108b3d4ef5f4905bcd231e24"
+    },
+    {
+      "path": "Prototype print parts/Unified rear backbone.stl",
+      "sha256": "ddabbf64f6c7f6be6a4e22107dc6617f3780867c9721c85de1d282fbd15a2ebe"
+    },
+    {
+      "path": "Prototype print parts/Orientations.json",
+      "sha256": "92b7f1dba292e761f93f7cf9c7f3066f3cf19d7668a4df6f98f5f209d9de6b82"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b9a4fbdbc960e71f11e95eb082b2cad81a5bb0292f452a5472a2bc929296c8f0"
+    },
+    {
+      "path": "Cam mechanism audit.md",
+      "sha256": "d6198cb33a829384392076af60af84a445bb19a224c1876d71ae6f2f95c08eaf"
+    },
+    {
+      "path": "Loaded guide screen.json",
+      "sha256": "114c8f789aeab0ff0a1112cc3cbf02a2fceb6f467cf8d39dec0f3057a70009c3"
+    },
+    {
+      "path": "Bolt guide play.json",
+      "sha256": "3dd4f1aa18d3ad12a5930a32c565ff8c4d3d0d7c990880e593c61a4ae3989391"
+    },
+    {
+      "path": "Transition timing audit.md",
+      "sha256": "aa8846411794eb0aed2c6367e776bb406f9cc11ca81f149166bcab0bee0bea64"
+    },
+    {
+      "path": "Transition timing audit.json",
+      "sha256": "50382c5e0d136a879e218dfab7a72d61bb20119407275d69af1cd533028cf844"
+    },
+    {
+      "path": "Clutch phase contact scan.json",
+      "sha256": "0466e86827fb3078fe5365009cf7c6a64a5898f4755c595c20b681182eeaafeb"
+    },
+    {
+      "path": "SAP register timing.md",
+      "sha256": "35574e8042161d891740e0df8e4d561dbab52c9315acb2c25a98b586d24d28bf"
+    },
+    {
+      "path": "Criteria audit.md",
+      "sha256": "fad20114684e998f45a9e8e0377853c94c3e39d3666a2ee7b52ba33649b6a8ce"
+    },
+    {
+      "path": "Operation checks.json",
+      "sha256": "adbcf62606b4001f7b9a1bb8c916514e8c59ef38747683c17fc981daece0a3a7"
+    },
+    {
+      "path": "Operation hardware checks.json",
+      "sha256": "e7bd8336bc6fb4558b1b982112a26e8df2da8400d11f2e0acfeeca37c56697cf"
+    },
+    {
+      "path": "Contact classification.json",
+      "sha256": "48671756755e22a2e5ca590d7f2d2d46f2276851e3f4fb8ab7ce3a9b7b649432"
+    },
+    {
+      "path": "Rotating clearance checks.json",
+      "sha256": "17262b73f59ddecd7a914037cfff85cc508c67a12aa6c0b326fb4c7bc4785c35"
+    },
+    {
+      "path": "Actuator band checks.json",
+      "sha256": "c8f167a7c720622581208c1a3c2bd1c57299e7f3541bd739e0f3b65d3d721695"
+    },
+    {
+      "path": "Qualification.json",
+      "sha256": "f6fbd58bc67ba7b814424721a13ba9b318ce56216b874ad7feca4ce7c31d7401"
+    },
+    {
+      "path": "Carriage printing checks.json",
+      "sha256": "d892ca2067c2d03f8f5a7cb346019ec989477dd4c4a5245ce4f9485f54f4fe25"
+    },
+    {
+      "path": "Criteria audit evidence.json",
+      "sha256": "8d888bc95778f78b3b52242fc6af835e6d79e589be6b032beab5f7edad356874"
+    },
+    {
+      "path": "Flex screening.json",
+      "sha256": "47dd7497a1db680f787f15cb72594e969915d9a091e71956daa91bc41a6825d9"
+    },
+    {
+      "path": "Memory gear mesh.json",
+      "sha256": "913d3f01bef902518e43e00767aac593c0a0a0ebcb5f5d2a9e26aa6891a4ba25"
+    },
+    {
+      "path": "WRITE gear mesh.json",
+      "sha256": "9ea0beb78cc5562e5b07dd6746db3a112575780ab70af446d9eab62341ee036c"
+    },
+    {
+      "path": "Actuator addition checks.json",
+      "sha256": "82c2c7aa0da419d18e0c933a17376001afad6757d8ea1d7d84205d2f13f27bff"
+    },
+    {
+      "path": "Direct cam parameters.json",
+      "sha256": "82e9776710d6bd994a8258585af56acb87b96b40581181a219c6cb90708bed0c"
+    },
+    {
+      "path": "Viewer.html",
+      "sha256": "cb0b92f371c5cf95c76b796d9e00e629d788ece5e7c25259e53248d14bce7e15"
+    },
+    {
+      "path": "Additional LEGO parts.csv",
+      "sha256": "2cc182ef743505daa6785a86510319d0bc83e26b8f2ec81983d7655a41487607"
+    },
+    {
+      "path": "printed-parts.json",
+      "sha256": "8c618f1c739a01028725d2d5f544491547efcdbfa62b292de4052439e6e2e29b"
+    },
+    {
+      "path": "hardware.json",
+      "sha256": "d47393bf3536f86a0630c2ce0669070ea8aaa0f5f834d281f86ef9df2892f239"
+    }
+  ]
+}
