@@ -1,0 +1,7 @@
+{
+  "clock_shift_z_mm": 8,
+  "clock_y_shift_mm": 0,
+  "external_clk_shaft_shift_mm": 0,
+  "static_external_aabb_overlaps": [],
+  "scope": "Static reference pose only; internal gear contacts and future supports excluded"
+}

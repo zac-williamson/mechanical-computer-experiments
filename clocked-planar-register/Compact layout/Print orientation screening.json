@@ -1,0 +1,3473 @@
+{
+  "scope": "Downward-face screening of all printed parts in six bed orientations.\n\nMeasures unsupported-looking face area above the first layer, not slicer\nsupport requirements. Bridges, layer connectivity, holes and extrusion width\nrequire separate checks; zero face area is not a printability certificate.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "parts": [
+    {
+      "part": "master Short lever",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1603.2163028042767,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 8.399999618530273,
+        "steep_downward_area_mm2": 0.19291553821676644,
+        "bed_contact_area_mm2": 207.09454789344636,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 23.235999584197998,
+          "steep_downward_area_mm2": 91.19302009467955,
+          "bed_contact_area_mm2": 2.178766208618362,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 23.235999584197998,
+          "steep_downward_area_mm2": 111.97034248083799,
+          "bed_contact_area_mm2": 0.6760305193935157,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 8.399999618530273,
+          "steep_downward_area_mm2": 0.19291553821676644,
+          "bed_contact_area_mm2": 207.09454789344636,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 8.399999618530273,
+          "steep_downward_area_mm2": 36.26257258172336,
+          "bed_contact_area_mm2": 190.6181373239924,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 14.533100128173828,
+          "steep_downward_area_mm2": 132.86837293630498,
+          "bed_contact_area_mm2": 8.574589639457216,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 14.533100128173828,
+          "steep_downward_area_mm2": 205.40175111134874,
+          "bed_contact_area_mm2": 0.2961499032162309,
+          "new_layer_islands": 5
+        }
+      ]
+    },
+    {
+      "part": "master Carriage fork and roof",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 8756.287042341519,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 42.199501037597656,
+        "steep_downward_area_mm2": 153.39977347586506,
+        "bed_contact_area_mm2": 375.1626487044339,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 42.199501037597656,
+          "steep_downward_area_mm2": 442.2620165496909,
+          "bed_contact_area_mm2": 85.97313876063664,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 42.199501037597656,
+          "steep_downward_area_mm2": 153.39977347586506,
+          "bed_contact_area_mm2": 375.1626487044339,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 26.250000047683717,
+          "steep_downward_area_mm2": 1052.6973716140033,
+          "bed_contact_area_mm2": 182.81498990594667
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 26.250000047683717,
+          "steep_downward_area_mm2": 1318.368696712202,
+          "bed_contact_area_mm2": 15.227839887557025
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 45.59949952363968,
+          "steep_downward_area_mm2": 744.5766081443828,
+          "bed_contact_area_mm2": 687.8797793702695
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 45.59949952363968,
+          "steep_downward_area_mm2": 1265.26731519487,
+          "bed_contact_area_mm2": 120.07997734069795
+        }
+      ]
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1501.7900297611557,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600000381469727,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 208.18367179923345,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.600000381469727,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 208.18367179923345,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.600000381469727,
+          "steep_downward_area_mm2": 13.50946089477534,
+          "bed_contact_area_mm2": 147.73856008757818,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 23.300000190734863,
+          "steep_downward_area_mm2": 160.46115568757392,
+          "bed_contact_area_mm2": 18.24000164031986
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 23.300000190734863,
+          "steep_downward_area_mm2": 232.7528495509116,
+          "bed_contact_area_mm2": 5.470377429369817
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 23.599999248981476,
+          "steep_downward_area_mm2": 246.20284947611412,
+          "bed_contact_area_mm2": 57.76000579833999
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 23.599999248981476,
+          "steep_downward_area_mm2": 263.38656016478893,
+          "bed_contact_area_mm2": 57.75999130248965
+        }
+      ]
+    },
+    {
+      "part": "slave Short lever",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1603.2161440790896,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 8.399999618530273,
+        "steep_downward_area_mm2": 0.1929131815850269,
+        "bed_contact_area_mm2": 207.09451115744014,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 23.236007690429688,
+          "steep_downward_area_mm2": 91.19312542537486,
+          "bed_contact_area_mm2": 2.1787693395382886,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 23.236007690429688,
+          "steep_downward_area_mm2": 111.97025272234644,
+          "bed_contact_area_mm2": 0.6760297655891725,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 8.399999618530273,
+          "steep_downward_area_mm2": 0.1929131815850269,
+          "bed_contact_area_mm2": 207.09451115744014,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 8.399999618530273,
+          "steep_downward_area_mm2": 36.26253123031347,
+          "bed_contact_area_mm2": 190.61812388502585,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 14.533100128173828,
+          "steep_downward_area_mm2": 132.86828605083699,
+          "bed_contact_area_mm2": 8.574661284341056,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 14.533100128173828,
+          "steep_downward_area_mm2": 205.40160960437012,
+          "bed_contact_area_mm2": 0.2961261134727407,
+          "new_layer_islands": 5
+        }
+      ]
+    },
+    {
+      "part": "slave Carriage fork and roof",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 8822.489372230137,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 42.19950866699219,
+        "steep_downward_area_mm2": 147.4902909554959,
+        "bed_contact_area_mm2": 384.603974986004,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 42.19950866699219,
+          "steep_downward_area_mm2": 442.2620502986829,
+          "bed_contact_area_mm2": 85.97314041837275,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 42.19950866699219,
+          "steep_downward_area_mm2": 147.4902909554959,
+          "bed_contact_area_mm2": 384.603974986004,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 26.250000047683717,
+          "steep_downward_area_mm2": 1052.6976699170411,
+          "bed_contact_area_mm2": 188.48006127596526
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 26.250000047683717,
+          "steep_downward_area_mm2": 1323.6112883450353,
+          "bed_contact_area_mm2": 15.227897750242846
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 45.59949952363968,
+          "steep_downward_area_mm2": 758.4718233717418,
+          "bed_contact_area_mm2": 687.8799852687963
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 45.59949952363968,
+          "steep_downward_area_mm2": 1223.4670303430785,
+          "bed_contact_area_mm2": 177.84003387449775
+        }
+      ]
+    },
+    {
+      "part": "slave Right carriage bearing support",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1428.4716176417471,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600006103515625,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 198.5363628116691,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.600006103515625,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 198.5363628116691,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.600006103515625,
+          "steep_downward_area_mm2": 13.50946089477534,
+          "bed_contact_area_mm2": 138.09125108073485,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 23.300000190734863,
+          "steep_downward_area_mm2": 160.46126603895647,
+          "bed_contact_area_mm2": 18.240015373230563
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 23.300000190734863,
+          "steep_downward_area_mm2": 227.51078784313893,
+          "bed_contact_area_mm2": 5.470381548021022
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 22.910235487357912,
+          "steep_downward_area_mm2": 246.20298937057535,
+          "bed_contact_area_mm2": 57.760049285891
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 22.910235487357912,
+          "steep_downward_area_mm2": 318.5608621899375,
+          "bed_contact_area_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "part": "write Short lever",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1603.2168870964003,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 8.399999618530273,
+        "steep_downward_area_mm2": 0.19291665716446005,
+        "bed_contact_area_mm2": 207.0946072886145,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 23.23599624633789,
+          "steep_downward_area_mm2": 111.97042938418991,
+          "bed_contact_area_mm2": 0.676041412858114,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 23.23599624633789,
+          "steep_downward_area_mm2": 91.19309505763627,
+          "bed_contact_area_mm2": 2.178785004281478,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 8.399999618530273,
+          "steep_downward_area_mm2": 0.19291665716446005,
+          "bed_contact_area_mm2": 207.0946072886145,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 8.399999618530273,
+          "steep_downward_area_mm2": 36.262557352602016,
+          "bed_contact_area_mm2": 190.618216851115,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 14.533096313476562,
+          "steep_downward_area_mm2": 205.4016323719084,
+          "bed_contact_area_mm2": 0.29612384189386953,
+          "new_layer_islands": 5
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 14.533096313476562,
+          "steep_downward_area_mm2": 132.8684624447864,
+          "bed_contact_area_mm2": 8.57456980315841,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "write Carriage fork and roof",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 9181.153285524444,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 42.19949722290039,
+        "steep_downward_area_mm2": 53.895017567928335,
+        "bed_contact_area_mm2": 385.20063603101516,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 42.19949722290039,
+          "steep_downward_area_mm2": 53.895017567928335,
+          "bed_contact_area_mm2": 385.20063603101516,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 42.19949722290039,
+          "steep_downward_area_mm2": 339.7213526292545,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 26.249999284744263,
+          "steep_downward_area_mm2": 978.7652744050845,
+          "bed_contact_area_mm2": 177.83997589111095
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 26.249999284744263,
+          "steep_downward_area_mm2": 1245.216119355194,
+          "bed_contact_area_mm2": 15.227841922896914
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 45.59950256347656,
+          "steep_downward_area_mm2": 1262.8217598333317,
+          "bed_contact_area_mm2": 177.83997589111095
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 45.59950256347656,
+          "steep_downward_area_mm2": 737.6171523253366,
+          "bed_contact_area_mm2": 757.4773722268492
+        }
+      ]
+    },
+    {
+      "part": "write Right carriage bearing support",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1458.914718486667,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.599998474121094,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 204.15935193466612,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.599998474121094,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 138.85711782292492,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.599998474121094,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 204.15935193466612,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 23.300000190734863,
+          "steep_downward_area_mm2": 165.52494522126145,
+          "bed_contact_area_mm2": 18.23994995118119
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 23.300000190734863,
+          "steep_downward_area_mm2": 227.02457353845807,
+          "bed_contact_area_mm2": 5.4703688124601335
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 23.599998474121094,
+          "steep_downward_area_mm2": 257.7951377163691,
+          "bed_contact_area_mm2": 57.75997680664295
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 23.599998474121094,
+          "steep_downward_area_mm2": 240.47465936752286,
+          "bed_contact_area_mm2": 57.75999130248965
+        }
+      ]
+    },
+    {
+      "part": "clock Short lever",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1603.2163028042767,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 8.399999618530273,
+        "steep_downward_area_mm2": 0.19291553821676644,
+        "bed_contact_area_mm2": 207.09454789344636,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 23.235999584197998,
+          "steep_downward_area_mm2": 111.97034248083799,
+          "bed_contact_area_mm2": 0.6760305193935157,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 23.235999584197998,
+          "steep_downward_area_mm2": 91.19302009467955,
+          "bed_contact_area_mm2": 2.178766208618362,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 8.399999618530273,
+          "steep_downward_area_mm2": 0.19291553821676644,
+          "bed_contact_area_mm2": 207.09454789344636,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 8.399999618530273,
+          "steep_downward_area_mm2": 36.26257258172336,
+          "bed_contact_area_mm2": 190.6181373239924,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 14.533100128173828,
+          "steep_downward_area_mm2": 205.40175111134874,
+          "bed_contact_area_mm2": 0.2961499032162309,
+          "new_layer_islands": 5
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 14.533100128173828,
+          "steep_downward_area_mm2": 132.86837293630498,
+          "bed_contact_area_mm2": 8.574589639457216,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "clock Carriage fork and roof",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 7944.453792981974,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 42.199501037597656,
+        "steep_downward_area_mm2": 170.82223532550438,
+        "bed_contact_area_mm2": 337.1566077757958,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 42.199501037597656,
+          "steep_downward_area_mm2": 170.82223532550438,
+          "bed_contact_area_mm2": 337.1566077757958,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 42.199501037597656,
+          "steep_downward_area_mm2": 417.10112581388876,
+          "bed_contact_area_mm2": 85.97313876063664,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 30.450000047683716,
+          "steep_downward_area_mm2": 1118.650834371413,
+          "bed_contact_area_mm2": 66.89271879199237
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 30.450000047683716,
+          "steep_downward_area_mm2": 1121.427393193206,
+          "bed_contact_area_mm2": 8.00000011920929
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 37.29949951171875,
+          "steep_downward_area_mm2": 1111.37765070324,
+          "bed_contact_area_mm2": 142.15421997703885
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 37.29949951171875,
+          "steep_downward_area_mm2": 610.9916012234239,
+          "bed_contact_area_mm2": 687.8797793702695
+        }
+      ]
+    },
+    {
+      "part": "clock Right carriage bearing support",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1123.9173187322995,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.600000381469727,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 156.15275161960253,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.600000381469727,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 109.21710128439881,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.600000381469727,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 156.15275161960253,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 23.050000190734863,
+          "steep_downward_area_mm2": 139.6526033172297,
+          "bed_contact_area_mm2": 57.75999855041482
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 23.050000190734863,
+          "steep_downward_area_mm2": 152.31396751240254,
+          "bed_contact_area_mm2": 5.470377429369816
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 15.299999237060547,
+          "steep_downward_area_mm2": 197.00697930944622,
+          "bed_contact_area_mm2": 73.46188877963849
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 15.299999237060547,
+          "steep_downward_area_mm2": 192.71429752715397,
+          "bed_contact_area_mm2": 57.76000579833999
+        }
+      ]
+    },
+    {
+      "part": "master Front bearing cheek",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2249.332265531009,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.8000000476837155,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 533.2358051806009,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 49.8,
+          "steep_downward_area_mm2": 160.05626933958968,
+          "bed_contact_area_mm2": 36.380033054936604,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 49.8,
+          "steep_downward_area_mm2": 115.97074226284379,
+          "bed_contact_area_mm2": 50.919999999999995,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 7.8000000476837155,
+          "steep_downward_area_mm2": 509.2685952392526,
+          "bed_contact_area_mm2": 23.66762134110556,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 7.8000000476837155,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 533.2358051806009,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 20.500000381469725,
+          "steep_downward_area_mm2": 269.00814589688076,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 20.500000381469725,
+          "steep_downward_area_mm2": 284.72188385084655,
+          "bed_contact_area_mm2": 2.572818150461385,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "master Rear bearing cheek",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4365.513231613198,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 62.192323603999995,
+        "steep_downward_area_mm2": 520.2250367812022,
+        "bed_contact_area_mm2": 0.0,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 62.192323603999995,
+          "steep_downward_area_mm2": 520.2250367812022,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 62.192323603999995,
+          "steep_downward_area_mm2": 203.14542878799637,
+          "bed_contact_area_mm2": 308.19999999999993,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 29.799999999999997,
+          "steep_downward_area_mm2": 623.1851829691768,
+          "bed_contact_area_mm2": 38.19754311596962,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 29.799999999999997,
+          "steep_downward_area_mm2": 629.0046379338103,
+          "bed_contact_area_mm2": 32.07811699999988,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 20.500000381469725,
+          "steep_downward_area_mm2": 532.1056061987317,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 20.500000381469725,
+          "steep_downward_area_mm2": 550.9606566383306,
+          "bed_contact_area_mm2": 2.5728183475705944,
+          "new_layer_islands": 3
+        }
+      ]
+    },
+    {
+      "part": "slave Front bearing cheek",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2249.3323401744224,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.8000000476837155,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 533.2358259042117,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 49.8,
+          "steep_downward_area_mm2": 160.0563158444471,
+          "bed_contact_area_mm2": 36.380041013175266,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 49.8,
+          "steep_downward_area_mm2": 115.97072505628527,
+          "bed_contact_area_mm2": 50.919999999999995,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 7.8000000476837155,
+          "steep_downward_area_mm2": 509.26861231986777,
+          "bed_contact_area_mm2": 23.66762134110559,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 7.8000000476837155,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 533.2358259042117,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 20.500000381469725,
+          "steep_downward_area_mm2": 269.00816805263617,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 20.500000381469725,
+          "steep_downward_area_mm2": 284.7218755299956,
+          "bed_contact_area_mm2": 2.5728404039656487,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "slave Rear bearing cheek",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4365.513239696233,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 62.19232360400001,
+        "steep_downward_area_mm2": 520.2250329161216,
+        "bed_contact_area_mm2": 0.0,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 62.19232360400001,
+          "steep_downward_area_mm2": 520.2250329161216,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 62.19232360400001,
+          "steep_downward_area_mm2": 203.14543773378273,
+          "bed_contact_area_mm2": 308.19999999999993,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 29.799999999999997,
+          "steep_downward_area_mm2": 623.1851914871831,
+          "bed_contact_area_mm2": 38.197543115969545,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 29.799999999999997,
+          "steep_downward_area_mm2": 629.004641123608,
+          "bed_contact_area_mm2": 32.0781169999999,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 20.500000381469725,
+          "steep_downward_area_mm2": 532.1052353232033,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 20.500000381469725,
+          "steep_downward_area_mm2": 550.9602763871276,
+          "bed_contact_area_mm2": 2.572840601076381,
+          "new_layer_islands": 3
+        }
+      ]
+    },
+    {
+      "part": "write Front bearing cheek",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2249.3323375745895,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.8000000476837155,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 533.2358211365834,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 49.8,
+          "steep_downward_area_mm2": 115.97079025254371,
+          "bed_contact_area_mm2": 50.91999999999999,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 49.8,
+          "steep_downward_area_mm2": 160.05630231239118,
+          "bed_contact_area_mm2": 36.380037374918615,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 7.8000000476837155,
+          "steep_downward_area_mm2": 509.26863529931177,
+          "bed_contact_area_mm2": 23.66762134110555,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 7.8000000476837155,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 533.2358211365834,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 20.49999694824219,
+          "steep_downward_area_mm2": 284.7218089275341,
+          "bed_contact_area_mm2": 2.5728393702175945,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 20.49999694824219,
+          "steep_downward_area_mm2": 269.00813920877516,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "write Rear bearing cheek",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4343.952471338244,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 61.192323603999995,
+        "steep_downward_area_mm2": 520.2250240023309,
+        "bed_contact_area_mm2": 0.0,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 61.192323603999995,
+          "steep_downward_area_mm2": 203.1454560692384,
+          "bed_contact_area_mm2": 308.19999999999993,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 61.192323603999995,
+          "steep_downward_area_mm2": 520.2250240023309,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 29.799999999999997,
+          "steep_downward_area_mm2": 617.5113240058614,
+          "bed_contact_area_mm2": 38.197543115969516,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 29.799999999999997,
+          "steep_downward_area_mm2": 623.3307608443414,
+          "bed_contact_area_mm2": 32.078116999999864,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 20.49999694824219,
+          "steep_downward_area_mm2": 547.1073359856321,
+          "bed_contact_area_mm2": 2.5728395674282676,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 20.49999694824219,
+          "steep_downward_area_mm2": 528.2525056727311,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 2
+        }
+      ]
+    },
+    {
+      "part": "clock Front bearing cheek",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2249.3323403195755,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.8000000476837155,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 533.2358218228294,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 49.8,
+          "steep_downward_area_mm2": 115.97079025254372,
+          "bed_contact_area_mm2": 50.91999999999999,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 49.8,
+          "steep_downward_area_mm2": 160.05630231239115,
+          "bed_contact_area_mm2": 36.380038775849485,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 7.8000000476837155,
+          "steep_downward_area_mm2": 509.2686359855577,
+          "bed_contact_area_mm2": 23.667621341105566,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 7.8000000476837155,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 533.2358218228294,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 20.49999694824219,
+          "steep_downward_area_mm2": 284.7218089275341,
+          "bed_contact_area_mm2": 2.5728393702175945,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 20.49999694824219,
+          "steep_downward_area_mm2": 269.0081386716568,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "clock Rear bearing cheek",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4268.874262181168,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 59.792323603999996,
+        "steep_downward_area_mm2": 518.4251298055583,
+        "bed_contact_area_mm2": 0.0,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 59.792323603999996,
+          "steep_downward_area_mm2": 200.63397597335768,
+          "bed_contact_area_mm2": 308.19999999999993,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 59.792323603999996,
+          "steep_downward_area_mm2": 518.4251298055583,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 29.799999999999997,
+          "steep_downward_area_mm2": 599.7323888553865,
+          "bed_contact_area_mm2": 38.19754311596953,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 29.799999999999997,
+          "steep_downward_area_mm2": 613.0701343657452,
+          "bed_contact_area_mm2": 24.559808328124902,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 20.49999694824219,
+          "steep_downward_area_mm2": 539.4281921188552,
+          "bed_contact_area_mm2": 2.5728395674282676,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 20.49999694824219,
+          "steep_downward_area_mm2": 520.8833149658233,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 2
+        }
+      ]
+    },
+    {
+      "part": "master carriage track",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2495.683150214811,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 22.249999999999996,
+        "steep_downward_area_mm2": 63.68316146273754,
+        "bed_contact_area_mm2": 118.80000000000001,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 39.6,
+          "steep_downward_area_mm2": 151.0757567153507,
+          "bed_contact_area_mm2": 52.22999999999999,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 39.6,
+          "steep_downward_area_mm2": 151.0757567153507,
+          "bed_contact_area_mm2": 52.22999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 22.249999999999996,
+          "steep_downward_area_mm2": 133.1399409183037,
+          "bed_contact_area_mm2": 49.34322054443386,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 22.249999999999996,
+          "steep_downward_area_mm2": 63.68316146273754,
+          "bed_contact_area_mm2": 118.80000000000001,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 7.6000000000000005,
+          "steep_downward_area_mm2": 694.2530551641299,
+          "bed_contact_area_mm2": 115.52,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 7.6000000000000005,
+          "steep_downward_area_mm2": 694.2530551641298,
+          "bed_contact_area_mm2": 115.52,
+          "new_layer_islands": 0
+        }
+      ]
+    },
+    {
+      "part": "slave carriage track",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2297.2091502148087,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 22.249999999999996,
+        "steep_downward_area_mm2": 62.923161462737454,
+        "bed_contact_area_mm2": 107.39999999999999,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 35.8,
+          "steep_downward_area_mm2": 151.07575671535062,
+          "bed_contact_area_mm2": 52.22999999999999,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 35.8,
+          "steep_downward_area_mm2": 101.59575671535062,
+          "bed_contact_area_mm2": 52.22999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 22.249999999999996,
+          "steep_downward_area_mm2": 120.97994091830365,
+          "bed_contact_area_mm2": 49.34322054443379,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 22.249999999999996,
+          "steep_downward_area_mm2": 62.923161462737454,
+          "bed_contact_area_mm2": 107.39999999999999,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 7.6000000000000005,
+          "steep_downward_area_mm2": 628.7030551641301,
+          "bed_contact_area_mm2": 115.51999999999988,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 7.6000000000000005,
+          "steep_downward_area_mm2": 628.7030551641301,
+          "bed_contact_area_mm2": 115.51999999999988,
+          "new_layer_islands": 0
+        }
+      ]
+    },
+    {
+      "part": "write carriage track",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 2583.177201171248,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 22.249999999999996,
+        "steep_downward_area_mm2": 76.42265189836095,
+        "bed_contact_area_mm2": 118.79999999999998,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 47.599999999999994,
+          "steep_downward_area_mm2": 144.92400970973674,
+          "bed_contact_area_mm2": 57.75999999999997,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 47.599999999999994,
+          "steep_downward_area_mm2": 144.92400970973674,
+          "bed_contact_area_mm2": 57.75999999999997,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 22.249999999999996,
+          "steep_downward_area_mm2": 142.83943135392713,
+          "bed_contact_area_mm2": 52.38322054443377,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 22.249999999999996,
+          "steep_downward_area_mm2": 76.42265189836095,
+          "bed_contact_area_mm2": 118.79999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 7.599999999999998,
+          "steep_downward_area_mm2": 714.432658934126,
+          "bed_contact_area_mm2": 118.55999999999992,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 7.599999999999998,
+          "steep_downward_area_mm2": 714.432658934126,
+          "bed_contact_area_mm2": 118.55999999999992,
+          "new_layer_islands": 0
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 16100.814538799876,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 17.599999999999994,
+        "steep_downward_area_mm2": 689.5331493167732,
+        "bed_contact_area_mm2": 1493.8943132014656,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 17.599999999999994,
+          "steep_downward_area_mm2": 2067.9070965932488,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 17.599999999999994,
+          "steep_downward_area_mm2": 689.5331493167732,
+          "bed_contact_area_mm2": 1493.8943132014656,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 56.573389188611,
+          "steep_downward_area_mm2": 180.61167610687235,
+          "bed_contact_area_mm2": 610.8632205444335
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 56.573389188611,
+          "steep_downward_area_mm2": 699.8321579419497,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 62.599999999999994,
+          "steep_downward_area_mm2": 1073.0376145608598,
+          "bed_contact_area_mm2": 57.75999999999994
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 62.599999999999994,
+          "steep_downward_area_mm2": 1081.2892671792442,
+          "bed_contact_area_mm2": 57.75999999999994
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 1.0 \u2014 D transfer left",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1552.909926036203,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 363.8280845910091,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 363.8280845910091,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 363.8280845910092,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 37.79740311993209,
+          "bed_contact_area_mm2": 88.06322054443365
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 110.87376455777202,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 28.3,
+          "steep_downward_area_mm2": 222.65215459194758,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 28.3,
+          "steep_downward_area_mm2": 171.79872503865067,
+          "bed_contact_area_mm2": 57.75999999999994
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 2.0 \u2014 D transfer right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1552.9099260361982,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 363.8280845910091,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 363.8280845910091,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 363.8280845910092,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 37.79740311993209,
+          "bed_contact_area_mm2": 88.06322054443365
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 110.87376455777202,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 28.3,
+          "steep_downward_area_mm2": 222.65215459194758,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 28.3,
+          "steep_downward_area_mm2": 171.79872503865067,
+          "bed_contact_area_mm2": 57.75999999999994
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 3.0 \u2014 Master data left + WRITE worm right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4097.097482095943,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 9.599999999999994,
+        "steep_downward_area_mm2": 689.1535972177647,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 9.599999999999994,
+          "steep_downward_area_mm2": 437.7730557172149,
+          "bed_contact_area_mm2": 366.9006215190471,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 9.599999999999994,
+          "steep_downward_area_mm2": 689.1535972177647,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 83.87765710036689,
+          "bed_contact_area_mm2": 203.3832205444337
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 236.6801143293884,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 43.0,
+          "steep_downward_area_mm2": 444.77618284510856,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 43.0,
+          "steep_downward_area_mm2": 435.2796484808919,
+          "bed_contact_area_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 4.0 \u2014 Master data right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1552.9099260362054,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 363.82808459100903,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 363.82808459100903,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 363.82808459100914,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 37.79740311993218,
+          "bed_contact_area_mm2": 88.06322054443379
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 110.87376455777218,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 28.3,
+          "steep_downward_area_mm2": 222.6521545919478,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 28.3,
+          "steep_downward_area_mm2": 171.79872503865099,
+          "bed_contact_area_mm2": 57.75999999999994
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 8816.892620887445,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 11.600000000000001,
+        "steep_downward_area_mm2": 968.2152787278496,
+        "bed_contact_area_mm2": 188.48,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 11.600000000000001,
+          "steep_downward_area_mm2": 684.1547372273,
+          "bed_contact_area_mm2": 472.5405415005497,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 11.600000000000001,
+          "steep_downward_area_mm2": 968.2152787278496,
+          "bed_contact_area_mm2": 188.48,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 194.77663372445596,
+          "bed_contact_area_mm2": 396.0632205444339
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 488.2861416013866,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 50.3,
+          "steep_downward_area_mm2": 663.8022642108974,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 50.3,
+          "steep_downward_area_mm2": 622.7961408196365,
+          "bed_contact_area_mm2": 57.76
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 5.1 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4611.998286147249,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600000000000001,
+        "steep_downward_area_mm2": 51.64754309045938,
+        "bed_contact_area_mm2": 649.4761641204,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.600000000000001,
+          "steep_downward_area_mm2": 51.64754309045938,
+          "bed_contact_area_mm2": 649.4761641204,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.600000000000001,
+          "steep_downward_area_mm2": 51.64754309045938,
+          "bed_contact_area_mm2": 649.4760152252212,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 56.573389188611,
+          "steep_downward_area_mm2": 53.04941285640151,
+          "bed_contact_area_mm2": 128.38322054443387
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 56.573389188611,
+          "steep_downward_area_mm2": 145.83884302267518,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 25.599999999999998,
+          "steep_downward_area_mm2": 435.8274581509351,
+          "bed_contact_area_mm2": 57.76
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 25.599999999999998,
+          "steep_downward_area_mm2": 435.8273164006853,
+          "bed_contact_area_mm2": 57.76
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4777.430558581498,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 13.8,
+        "steep_downward_area_mm2": 816.370585391669,
+        "bed_contact_area_mm2": 115.51999999999991,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 13.8,
+          "steep_downward_area_mm2": 816.3705853916691,
+          "bed_contact_area_mm2": 115.51999999999991,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 13.8,
+          "steep_downward_area_mm2": 816.370585391669,
+          "bed_contact_area_mm2": 115.51999999999991,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 229.60836724292994,
+          "bed_contact_area_mm2": 154.62322054443376
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 338.33528979218676,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 35.099999999999994,
+          "steep_downward_area_mm2": 322.4692393919511,
+          "bed_contact_area_mm2": 104.87999999999998
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 35.099999999999994,
+          "steep_downward_area_mm2": 407.58802822818933,
+          "bed_contact_area_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 6035.060711954754,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 13.599999999999994,
+        "steep_downward_area_mm2": 439.06808459100915,
+        "bed_contact_area_mm2": 427.70065515000977,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 13.599999999999994,
+          "steep_downward_area_mm2": 439.06808459100915,
+          "bed_contact_area_mm2": 427.70065515000977,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 13.599999999999994,
+          "steep_downward_area_mm2": 451.9880845910092,
+          "bed_contact_area_mm2": 414.78054150054965,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 79.39379331030305,
+          "bed_contact_area_mm2": 330.1032205444336
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 338.3094330984162,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 50.3,
+          "steep_downward_area_mm2": 550.4825525334494,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 50.3,
+          "steep_downward_area_mm2": 509.12549519808863,
+          "bed_contact_area_mm2": 57.75999999999994
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 9.0 \u2014 Q idler left",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1668.8628957482626,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 215.60794051896113,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 215.6079405189612,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 215.60794051896113,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 19.24359353944898,
+          "steep_downward_area_mm2": 50.27632017704346,
+          "bed_contact_area_mm2": 120.06322054443392
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 19.24359353944898,
+          "steep_downward_area_mm2": 138.49246511996552,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 25.6,
+          "steep_downward_area_mm2": 148.94744695010235,
+          "bed_contact_area_mm2": 57.75999999999994
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 25.6,
+          "steep_downward_area_mm2": 148.9474469501023,
+          "bed_contact_area_mm2": 57.75999999999994
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 10.0 \u2014 Q worm right + Q output right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 3450.2161016414952,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.6000000000000085,
+        "steep_downward_area_mm2": 52.63251421666517,
+        "bed_contact_area_mm2": 497.3890355875018,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.6000000000000085,
+          "steep_downward_area_mm2": 52.6325142166652,
+          "bed_contact_area_mm2": 497.3890355875017,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.6000000000000085,
+          "steep_downward_area_mm2": 52.63251421666517,
+          "bed_contact_area_mm2": 497.3890355875018,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 197.75315657964373,
+          "bed_contact_area_mm2": 58.463220544433945
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 218.30204399762707,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 35.099999999999994,
+          "steep_downward_area_mm2": 246.6611132745107,
+          "bed_contact_area_mm2": 57.76000000000005
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 35.099999999999994,
+          "steep_downward_area_mm2": 288.09663448705544,
+          "bed_contact_area_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 10.1 \u2014 Q worm right + Q output right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1511.565926036196,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600000000000023,
+        "steep_downward_area_mm2": 350.9080845910089,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.600000000000023,
+          "steep_downward_area_mm2": 350.9080845910089,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.600000000000023,
+          "steep_downward_area_mm2": 350.9080845910089,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 37.79740311993204,
+          "bed_contact_area_mm2": 82.62322054443409
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 33.099999999999994,
+          "steep_downward_area_mm2": 105.4337645577724,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 25.6,
+          "steep_downward_area_mm2": 171.79872503865118,
+          "bed_contact_area_mm2": 57.760000000000154
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 25.6,
+          "steep_downward_area_mm2": 171.7987250386512,
+          "bed_contact_area_mm2": 57.760000000000154
+        }
+      ]
+    },
+    {
+      "part": "Bearing support 11.0 \u2014 Feedback right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1884.4515644595667,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600000000000023,
+        "steep_downward_area_mm2": 467.434846598313,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.600000000000023,
+          "steep_downward_area_mm2": 467.434846598313,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.600000000000023,
+          "steep_downward_area_mm2": 467.4348465983131,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 46.956406460551015,
+          "steep_downward_area_mm2": 48.88977383736425,
+          "bed_contact_area_mm2": 82.62322054443409
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 46.956406460551015,
+          "steep_downward_area_mm2": 116.52613527520464,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 25.6,
+          "steep_downward_area_mm2": 227.17955289329774,
+          "bed_contact_area_mm2": 57.760000000000154
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 25.6,
+          "steep_downward_area_mm2": 227.17955289329777,
+          "bed_contact_area_mm2": 57.760000000000154
+        }
+      ]
+    },
+    {
+      "part": "master lock bolt",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1063.2785276121117,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 20.9,
+        "steep_downward_area_mm2": 9.502093549503766,
+        "bed_contact_area_mm2": 127.36616397629265,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 12.000000178813934,
+          "steep_downward_area_mm2": 82.8103476077831,
+          "bed_contact_area_mm2": 73.44001876831169,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 12.000000178813934,
+          "steep_downward_area_mm2": 82.81034888314771,
+          "bed_contact_area_mm2": 73.44001876831169,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 20.9,
+          "steep_downward_area_mm2": 128.4452558316819,
+          "bed_contact_area_mm2": 10.149716707031216,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 20.9,
+          "steep_downward_area_mm2": 9.502093549503766,
+          "bed_contact_area_mm2": 127.36616397629265,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 18.300001525878905,
+          "steep_downward_area_mm2": 195.8034729611389,
+          "bed_contact_area_mm2": 0.9418050609140575,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 18.300001525878905,
+          "steep_downward_area_mm2": 183.95316136693242,
+          "bed_contact_area_mm2": 9.92000205993645,
+          "new_layer_islands": 2
+        }
+      ]
+    },
+    {
+      "part": "master compact bolt guide",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4385.749826396318,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 24.9,
+        "steep_downward_area_mm2": 278.4883368457032,
+        "bed_contact_area_mm2": 228.0800000000001,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 27.6,
+          "steep_downward_area_mm2": 822.9179867791676,
+          "bed_contact_area_mm2": 75.99999999999997,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 27.6,
+          "steep_downward_area_mm2": 822.9179867791676,
+          "bed_contact_area_mm2": 75.99999999999997,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 24.9,
+          "steep_downward_area_mm2": 488.5243960332034,
+          "bed_contact_area_mm2": 18.043940812499926,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 24.9,
+          "steep_downward_area_mm2": 278.4883368457032,
+          "bed_contact_area_mm2": 228.0800000000001,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 28.200000000000003,
+          "steep_downward_area_mm2": 470.6362859590388,
+          "bed_contact_area_mm2": 197.28,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 28.200000000000003,
+          "steep_downward_area_mm2": 555.7770280899117,
+          "bed_contact_area_mm2": 115.51999999999998,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "slave lock bolt",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1063.278527612113,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 20.9,
+        "steep_downward_area_mm2": 9.502093549503766,
+        "bed_contact_area_mm2": 127.36616397629265,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 12.000000178813934,
+          "steep_downward_area_mm2": 82.81034760778311,
+          "bed_contact_area_mm2": 73.44001876831169,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 12.000000178813934,
+          "steep_downward_area_mm2": 82.81034888314773,
+          "bed_contact_area_mm2": 73.44001876831169,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 20.9,
+          "steep_downward_area_mm2": 128.4452558316819,
+          "bed_contact_area_mm2": 10.149716707031217,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 20.9,
+          "steep_downward_area_mm2": 9.502093549503766,
+          "bed_contact_area_mm2": 127.36616397629265,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 18.300001525878905,
+          "steep_downward_area_mm2": 195.80347296113885,
+          "bed_contact_area_mm2": 0.9418050609140397,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 18.300001525878905,
+          "steep_downward_area_mm2": 183.95316136693236,
+          "bed_contact_area_mm2": 9.92000205993645,
+          "new_layer_islands": 2
+        }
+      ]
+    },
+    {
+      "part": "slave compact bolt guide",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4385.749826396306,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 24.9,
+        "steep_downward_area_mm2": 278.48833684570326,
+        "bed_contact_area_mm2": 228.0800000000002,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 27.599999999999994,
+          "steep_downward_area_mm2": 822.9179867791674,
+          "bed_contact_area_mm2": 75.99999999999997,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 27.599999999999994,
+          "steep_downward_area_mm2": 822.9179867791674,
+          "bed_contact_area_mm2": 75.99999999999997,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 24.9,
+          "steep_downward_area_mm2": 488.5243960332036,
+          "bed_contact_area_mm2": 18.043940812499944,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 24.9,
+          "steep_downward_area_mm2": 278.48833684570326,
+          "bed_contact_area_mm2": 228.0800000000002,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 28.200000000000003,
+          "steep_downward_area_mm2": 470.6362859590389,
+          "bed_contact_area_mm2": 197.27999999999986,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 28.200000000000003,
+          "steep_downward_area_mm2": 555.7770280899117,
+          "bed_contact_area_mm2": 115.51999999999988,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "master_gate Carriage fork and roof",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1699.6505144134624,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 23.40000057220459,
+        "steep_downward_area_mm2": 153.81434246942948,
+        "bed_contact_area_mm2": 49.6373672674325,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 23.40000057220459,
+          "steep_downward_area_mm2": 162.4973876911754,
+          "bed_contact_area_mm2": 20.84549953931581
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 23.40000057220459,
+          "steep_downward_area_mm2": 153.81434246942948,
+          "bed_contact_area_mm2": 49.6373672674325,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 26.450000047683716,
+          "steep_downward_area_mm2": 115.2830750995156,
+          "bed_contact_area_mm2": 92.33567440136719
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 26.450000047683716,
+          "steep_downward_area_mm2": 301.4679076803328,
+          "bed_contact_area_mm2": 7.227839768347735
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 18.9,
+          "steep_downward_area_mm2": 205.03664587902472,
+          "bed_contact_area_mm2": 59.27999999999996
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 18.9,
+          "steep_downward_area_mm2": 456.9311089144239,
+          "bed_contact_area_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "part": "master_gate Right carriage bearing support",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 591.2186885182733,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.799999999999997,
+        "steep_downward_area_mm2": 41.173245007217325,
+        "bed_contact_area_mm2": 29.558045604962317,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.799999999999997,
+          "steep_downward_area_mm2": 26.65142631330605,
+          "bed_contact_area_mm2": 95.86107116699225
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.799999999999997,
+          "steep_downward_area_mm2": 41.173245007217325,
+          "bed_contact_area_mm2": 29.558045604962317,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 13.366987036761762,
+          "steep_downward_area_mm2": 41.51749513089656,
+          "bed_contact_area_mm2": 78.84567442044073
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 13.366987036761762,
+          "steep_downward_area_mm2": 112.25938975023328,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 14.799999999999999,
+          "steep_downward_area_mm2": 54.174516634226634,
+          "bed_contact_area_mm2": 59.27999999999996
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 14.799999999999999,
+          "steep_downward_area_mm2": 90.3191963394986,
+          "bed_contact_area_mm2": 59.27999999999996
+        }
+      ]
+    },
+    {
+      "part": "slave_gate Carriage fork and roof",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1687.5528423906824,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 28.90000057220459,
+        "steep_downward_area_mm2": 153.4825607101167,
+        "bed_contact_area_mm2": 49.156398258113036,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 28.90000057220459,
+          "steep_downward_area_mm2": 183.85901011034625,
+          "bed_contact_area_mm2": 1.4990506044182106
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 28.90000057220459,
+          "steep_downward_area_mm2": 153.4825607101167,
+          "bed_contact_area_mm2": 49.156398258113036,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 26.450000047683716,
+          "steep_downward_area_mm2": 122.33760733747093,
+          "bed_contact_area_mm2": 92.33567440136724
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 26.450000047683716,
+          "steep_downward_area_mm2": 298.0404465865777,
+          "bed_contact_area_mm2": 7.227839768347735
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 18.9,
+          "steep_downward_area_mm2": 205.02084015665048,
+          "bed_contact_area_mm2": 59.27999999999996
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 18.9,
+          "steep_downward_area_mm2": 451.5233361172777,
+          "bed_contact_area_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "part": "slave_gate Right carriage bearing support",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 591.2188906602008,
+      "required_bearing_axis": "X",
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.799999999999997,
+        "steep_downward_area_mm2": 41.1731292987484,
+        "bed_contact_area_mm2": 29.558045604962317,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 7.799999999999997,
+          "steep_downward_area_mm2": 26.651426313306025,
+          "bed_contact_area_mm2": 95.86107116699225
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 7.799999999999997,
+          "steep_downward_area_mm2": 41.1731292987484,
+          "bed_contact_area_mm2": 29.558045604962317,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 13.366987036761762,
+          "steep_downward_area_mm2": 41.517495130896656,
+          "bed_contact_area_mm2": 78.84567442044067
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 13.366987036761762,
+          "steep_downward_area_mm2": 112.25948026154435,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 14.799999999999999,
+          "steep_downward_area_mm2": 54.20178845019878,
+          "bed_contact_area_mm2": 59.27999999999996
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 14.799999999999999,
+          "steep_downward_area_mm2": 90.31919633949869,
+          "bed_contact_area_mm2": 59.27999999999996
+        }
+      ]
+    },
+    {
+      "part": "Common fork and cam bar",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 22008.87568905095,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 243.0,
+        "steep_downward_area_mm2": 1127.6190983280906,
+        "bed_contact_area_mm2": 314.8,
+        "new_layer_islands": 3
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 243.0,
+          "steep_downward_area_mm2": 1127.9093831503203,
+          "bed_contact_area_mm2": 314.79999999999995,
+          "new_layer_islands": 4
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 243.0,
+          "steep_downward_area_mm2": 1127.6190983280906,
+          "bed_contact_area_mm2": 314.8,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 25.599999999999998,
+          "steep_downward_area_mm2": 4302.975342174299,
+          "bed_contact_area_mm2": 152.87999999999997,
+          "new_layer_islands": 5
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 25.599999999999998,
+          "steep_downward_area_mm2": 4416.697484508283,
+          "bed_contact_area_mm2": 39.157857666015474,
+          "new_layer_islands": 3
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 48.7,
+          "steep_downward_area_mm2": 2561.142320795778,
+          "bed_contact_area_mm2": 534.6000000000007,
+          "new_layer_islands": 5
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 48.7,
+          "steep_downward_area_mm2": 3119.1707981464842,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 4
+        }
+      ]
+    },
+    {
+      "part": "Clock output post",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 4871.453682479049,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 20.0,
+        "steep_downward_area_mm2": 24.485198687824145,
+        "bed_contact_area_mm2": 343.67999999999967,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 20.0,
+          "steep_downward_area_mm2": 24.485198687824145,
+          "bed_contact_area_mm2": 343.67999999999967,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 20.0,
+          "steep_downward_area_mm2": 166.56519868782414,
+          "bed_contact_area_mm2": 201.59999999999968,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 11.599999999999994,
+          "steep_downward_area_mm2": 53.43435658102685,
+          "bed_contact_area_mm2": 1106.1327187919924,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 11.599999999999994,
+          "steep_downward_area_mm2": 1006.6870753730193,
+          "bed_contact_area_mm2": 152.87999999999997,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 60.8,
+          "steep_downward_area_mm2": 108.51955526885097,
+          "bed_contact_area_mm2": 113.67999999999991,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 60.8,
+          "steep_downward_area_mm2": 150.19955526885101,
+          "bed_contact_area_mm2": 71.99999999999989,
+          "new_layer_islands": 0
+        }
+      ]
+    },
+    {
+      "part": "Captured crosshead guide 0",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1312.1667052699056,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 8.0,
+        "steep_downward_area_mm2": 41.72236951886865,
+        "bed_contact_area_mm2": 121.35999999999996,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 8.0,
+          "steep_downward_area_mm2": 41.72236951886865,
+          "bed_contact_area_mm2": 121.35999999999996,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 8.0,
+          "steep_downward_area_mm2": 41.72236951886865,
+          "bed_contact_area_mm2": 121.35999999999996,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 9.199999999999996,
+          "steep_downward_area_mm2": 102.3522553575844,
+          "bed_contact_area_mm2": 193.1032205444338,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 9.199999999999996,
+          "steep_downward_area_mm2": 156.2554759020182,
+          "bed_contact_area_mm2": 139.2,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 33.199999999999996,
+          "steep_downward_area_mm2": 109.29113899255802,
+          "bed_contact_area_mm2": 57.759999999999984,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 33.199999999999996,
+          "steep_downward_area_mm2": 132.22179331960106,
+          "bed_contact_area_mm2": 34.95999999999996,
+          "new_layer_islands": 0
+        }
+      ]
+    },
+    {
+      "part": "Captured crosshead guide 106",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1312.166705269905,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 8.0,
+        "steep_downward_area_mm2": 41.722369518868575,
+        "bed_contact_area_mm2": 121.35999999999996,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 8.0,
+          "steep_downward_area_mm2": 41.722369518868575,
+          "bed_contact_area_mm2": 121.35999999999996,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 8.0,
+          "steep_downward_area_mm2": 41.722369518868575,
+          "bed_contact_area_mm2": 121.35999999999996,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 9.199999999999996,
+          "steep_downward_area_mm2": 102.3522553575844,
+          "bed_contact_area_mm2": 193.10322054443375,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 9.199999999999996,
+          "steep_downward_area_mm2": 156.25547590201813,
+          "bed_contact_area_mm2": 139.2,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 33.199999999999996,
+          "steep_downward_area_mm2": 109.29113899255812,
+          "bed_contact_area_mm2": 57.75999999999994,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 33.199999999999996,
+          "steep_downward_area_mm2": 132.22179331960115,
+          "bed_contact_area_mm2": 34.95999999999993,
+          "new_layer_islands": 0
+        }
+      ]
+    },
+    {
+      "part": "Clock amplifier front and input shoe",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1156.0011057070021,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 11.600000000000001,
+        "steep_downward_area_mm2": 31.992216239562612,
+        "bed_contact_area_mm2": 230.68913774023616,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 16.599999999999998,
+          "steep_downward_area_mm2": 129.8125390968186,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 16.599999999999998,
+          "steep_downward_area_mm2": 129.8123169714075,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 11.600000000000001,
+          "steep_downward_area_mm2": 31.992216239562612,
+          "bed_contact_area_mm2": 230.68913774023616,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 11.600000000000001,
+          "steep_downward_area_mm2": 202.8535856505418,
+          "bed_contact_area_mm2": 40.59886682812485,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 27.0,
+          "steep_downward_area_mm2": 155.67799318568683,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 27.0,
+          "steep_downward_area_mm2": 149.7562090518203,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 1
+        }
+      ]
+    },
+    {
+      "part": "Clock amplifier rear and output shoe",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1739.4401608969238,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 8.0,
+        "steep_downward_area_mm2": 27.01892178955066,
+        "bed_contact_area_mm2": 407.67357179700366,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 16.599999999999998,
+          "steep_downward_area_mm2": 205.55426587576935,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 16.599999999999998,
+          "steep_downward_area_mm2": 205.55426587576937,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 8.0,
+          "steep_downward_area_mm2": 394.09362675842954,
+          "bed_contact_area_mm2": 40.59886682812485,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 8.0,
+          "steep_downward_area_mm2": 27.01892178955066,
+          "bed_contact_area_mm2": 407.67357179700366,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 42.0,
+          "steep_downward_area_mm2": 140.32801143064705,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 42.0,
+          "steep_downward_area_mm2": 154.9099608215065,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        }
+      ]
+    },
+    {
+      "part": "Clock front pivot cradle",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1550.4087252942145,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 380.4099781428269,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 42.0,
+          "steep_downward_area_mm2": 134.48580409655557,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 42.0,
+          "steep_downward_area_mm2": 137.99370843207623,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 356.1164379093427,
+          "bed_contact_area_mm2": 24.293534895995986,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 0.0,
+          "bed_contact_area_mm2": 380.4099781428269,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 15.799999999999997,
+          "steep_downward_area_mm2": 209.9703908825224,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 15.799999999999997,
+          "steep_downward_area_mm2": 115.48883650851576,
+          "bed_contact_area_mm2": 115.19999999999982,
+          "new_layer_islands": 0
+        }
+      ]
+    },
+    {
+      "part": "Clock rear pivot bearing bridge",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 1764.271351527533,
+      "required_bearing_axis": "Y",
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 83.48945941248832,
+        "bed_contact_area_mm2": 245.83346158097928,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 31.599999999999998,
+          "steep_downward_area_mm2": 72.9692681365054,
+          "bed_contact_area_mm2": 67.8082230592799
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 31.599999999999998,
+          "steep_downward_area_mm2": 92.80695561228927,
+          "bed_contact_area_mm2": 47.97053558349604
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 75.92685403159973,
+          "bed_contact_area_mm2": 252.38076287654587
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 7.599999999999994,
+          "steep_downward_area_mm2": 83.48945941248832,
+          "bed_contact_area_mm2": 245.83346158097928,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 13.599999999999994,
+          "steep_downward_area_mm2": 287.8355187515135,
+          "bed_contact_area_mm2": 0.0
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 13.599999999999994,
+          "steep_downward_area_mm2": 248.52887071279616,
+          "bed_contact_area_mm2": 57.75999999999991
+        }
+      ]
+    },
+    {
+      "part": "Compact frame left",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 50889.319310905994,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 11.599999999999994,
+        "steep_downward_area_mm2": 503.0475638818655,
+        "bed_contact_area_mm2": 6184.591080449536,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 131.8,
+          "steep_downward_area_mm2": 4064.4878939231803,
+          "bed_contact_area_mm2": 203.8113264206341,
+          "new_layer_islands": 1
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 131.8,
+          "steep_downward_area_mm2": 3360.555533970335,
+          "bed_contact_area_mm2": 237.11999999999978,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 11.599999999999994,
+          "steep_downward_area_mm2": 6602.503981870077,
+          "bed_contact_area_mm2": 84.96170506135738,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 11.599999999999994,
+          "steep_downward_area_mm2": 503.0475638818655,
+          "bed_contact_area_mm2": 6184.591080449536,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 119.8,
+          "steep_downward_area_mm2": 3672.348586103259,
+          "bed_contact_area_mm2": 60.84000000000007,
+          "new_layer_islands": 12
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 119.8,
+          "steep_downward_area_mm2": 3584.799763808442,
+          "bed_contact_area_mm2": 1056.9199999999996,
+          "new_layer_islands": 11
+        }
+      ]
+    },
+    {
+      "part": "Compact frame right",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 45918.37932982098,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 11.599999999999994,
+        "steep_downward_area_mm2": 405.68426498183146,
+        "bed_contact_area_mm2": 5633.231829930803,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 133.8,
+          "steep_downward_area_mm2": 2830.149178526937,
+          "bed_contact_area_mm2": 237.11999999999978,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 133.8,
+          "steep_downward_area_mm2": 3624.8063726243745,
+          "bed_contact_area_mm2": 124.41971614841727,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 11.599999999999994,
+          "steep_downward_area_mm2": 5980.848032898749,
+          "bed_contact_area_mm2": 57.75999999999991,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 11.599999999999994,
+          "steep_downward_area_mm2": 405.68426498183146,
+          "bed_contact_area_mm2": 5633.231829930803,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 122.8,
+          "steep_downward_area_mm2": 3038.7703896266357,
+          "bed_contact_area_mm2": 60.83999999999998,
+          "new_layer_islands": 9
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 122.8,
+          "steep_downward_area_mm2": 3915.973239057912,
+          "bed_contact_area_mm2": 88.1599999999999,
+          "new_layer_islands": 6
+        }
+      ]
+    },
+    {
+      "part": "Clock track and shaft support module",
+      "watertight": true,
+      "connected_bodies": 1,
+      "volume_mm3": 17294.489479308922,
+      "required_bearing_axis": null,
+      "best_screened_orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 46.956406460551015,
+        "steep_downward_area_mm2": 346.1604177029127,
+        "bed_contact_area_mm2": 829.1096616333014,
+        "new_layer_islands": 0
+      },
+      "orientations": [
+        {
+          "up_axis": "X",
+          "sign": -1,
+          "height_mm": 63.599999999999994,
+          "steep_downward_area_mm2": 1404.3557532613381,
+          "bed_contact_area_mm2": 794.5567987289319,
+          "new_layer_islands": 4
+        },
+        {
+          "up_axis": "X",
+          "sign": 1,
+          "height_mm": 63.599999999999994,
+          "steep_downward_area_mm2": 1619.8892114782989,
+          "bed_contact_area_mm2": 578.9405716613678,
+          "new_layer_islands": 2
+        },
+        {
+          "up_axis": "Y",
+          "sign": -1,
+          "height_mm": 46.956406460551015,
+          "steep_downward_area_mm2": 346.1604177029127,
+          "bed_contact_area_mm2": 829.1096616333014,
+          "new_layer_islands": 0
+        },
+        {
+          "up_axis": "Y",
+          "sign": 1,
+          "height_mm": 46.956406460551015,
+          "steep_downward_area_mm2": 1091.9043244473366,
+          "bed_contact_area_mm2": 0.0,
+          "new_layer_islands": 6
+        },
+        {
+          "up_axis": "Z",
+          "sign": -1,
+          "height_mm": 57.599999999999994,
+          "steep_downward_area_mm2": 2007.035343817919,
+          "bed_contact_area_mm2": 57.76,
+          "new_layer_islands": 6
+        },
+        {
+          "up_axis": "Z",
+          "sign": 1,
+          "height_mm": 57.599999999999994,
+          "steep_downward_area_mm2": 2018.2676303200135,
+          "bed_contact_area_mm2": 57.76,
+          "new_layer_islands": 6
+        }
+      ]
+    }
+  ],
+  "mechanically_qualified": false
+}

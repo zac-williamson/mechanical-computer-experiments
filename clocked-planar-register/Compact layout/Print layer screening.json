@@ -1,0 +1,810 @@
+{
+  "scope": "Layer connectivity of proposed print orientations at 0.2 mm layers.\n\nA newly appearing island with no preceding-layer contact cannot print without\nsupport. Passing this check does not validate bridges, cooling or hole finish.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "layer_height_mm": 0.2,
+  "parts": [
+    {
+      "part": "master Short lever",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 8.399999618530273,
+        "steep_downward_area_mm2": 0.19291553821676644,
+        "bed_contact_area_mm2": 207.09454789344636,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.024918784536274607,
+      "no_new_islands": true
+    },
+    {
+      "part": "master Carriage fork and roof",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 42.199501037597656,
+        "steep_downward_area_mm2": 153.39977347586506,
+        "bed_contact_area_mm2": 375.1626487044339,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 34.06026030261255,
+      "no_new_islands": true
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600000381469727,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 208.18367179923345,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave Short lever",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 8.399999618530273,
+        "steep_downward_area_mm2": 0.1929131815850269,
+        "bed_contact_area_mm2": 207.09451115744014,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.02491834213314803,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave Carriage fork and roof",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 42.19950866699219,
+        "steep_downward_area_mm2": 147.4902909554959,
+        "bed_contact_area_mm2": 384.603974986004,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 34.060260290567456,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave Right carriage bearing support",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600006103515625,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 198.5363628116691,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "write Short lever",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 8.399999618530273,
+        "steep_downward_area_mm2": 0.19291665716446005,
+        "bed_contact_area_mm2": 207.0946072886145,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.024919376679154226,
+      "no_new_islands": true
+    },
+    {
+      "part": "write Carriage fork and roof",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 42.19949722290039,
+        "steep_downward_area_mm2": 53.895017567928335,
+        "bed_contact_area_mm2": 385.20063603101516,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 34.09230471046825,
+      "no_new_islands": true
+    },
+    {
+      "part": "write Right carriage bearing support",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.599998474121094,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 204.15935193466612,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "clock Short lever",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 8.399999618530273,
+        "steep_downward_area_mm2": 0.19291553821676644,
+        "bed_contact_area_mm2": 207.09454789344636,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.024918783879236184,
+      "no_new_islands": true
+    },
+    {
+      "part": "clock Carriage fork and roof",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 42.199501037597656,
+        "steep_downward_area_mm2": 170.82223532550438,
+        "bed_contact_area_mm2": 337.1566077757958,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 77.37400708636847,
+      "no_new_islands": true
+    },
+    {
+      "part": "clock Right carriage bearing support",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.600000381469727,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 156.15275161960253,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "master Front bearing cheek",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.8000000476837155,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 533.2358051806009,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "master Rear bearing cheek",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 62.192323603999995,
+        "steep_downward_area_mm2": 520.2250367812022,
+        "bed_contact_area_mm2": 0.0,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 269.23279603157596,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave Front bearing cheek",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.8000000476837155,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 533.2358259042117,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave Rear bearing cheek",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 62.19232360400001,
+        "steep_downward_area_mm2": 520.2250329161216,
+        "bed_contact_area_mm2": 0.0,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 269.23279603157596,
+      "no_new_islands": true
+    },
+    {
+      "part": "write Front bearing cheek",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.8000000476837155,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 533.2358211365834,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "write Rear bearing cheek",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 61.192323603999995,
+        "steep_downward_area_mm2": 520.2250240023309,
+        "bed_contact_area_mm2": 0.0,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 269.23279603157596,
+      "no_new_islands": true
+    },
+    {
+      "part": "clock Front bearing cheek",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.8000000476837155,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 533.2358218228294,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "clock Rear bearing cheek",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 59.792323603999996,
+        "steep_downward_area_mm2": 518.4251298055583,
+        "bed_contact_area_mm2": 0.0,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 269.23279603157596,
+      "no_new_islands": true
+    },
+    {
+      "part": "master carriage track",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 22.249999999999996,
+        "steep_downward_area_mm2": 63.68316146273754,
+        "bed_contact_area_mm2": 118.80000000000001,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 54.409091937363,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave carriage track",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 22.249999999999996,
+        "steep_downward_area_mm2": 62.923161462737454,
+        "bed_contact_area_mm2": 107.39999999999999,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 54.40909193736286,
+      "no_new_islands": true
+    },
+    {
+      "part": "write carriage track",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 22.249999999999996,
+        "steep_downward_area_mm2": 76.42265189836095,
+        "bed_contact_area_mm2": 118.79999999999998,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 67.7113652836428,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 17.599999999999994,
+        "steep_downward_area_mm2": 689.5331493167732,
+        "bed_contact_area_mm2": 1493.8943132014656,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 280.8875490225747,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 1.0 \u2014 D transfer left",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 363.8280845910091,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 305.6681866192709,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 2.0 \u2014 D transfer right",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 363.8280845910091,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 305.6681866192709,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 3.0 \u2014 Master data left + WRITE worm right",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 9.599999999999994,
+        "steep_downward_area_mm2": 689.1535972177647,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 322.1697565147587,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 4.0 \u2014 Master data right",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 363.82808459100903,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 305.668186619288,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 11.600000000000001,
+        "steep_downward_area_mm2": 968.2152787278496,
+        "bed_contact_area_mm2": 188.48,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 677.4857043536501,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 5.1 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600000000000001,
+        "steep_downward_area_mm2": 51.64754309045938,
+        "bed_contact_area_mm2": 649.4761641204,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 15.027751760588814,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 13.8,
+        "steep_downward_area_mm2": 816.370585391669,
+        "bed_contact_area_mm2": 115.51999999999991,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 375.2179705198599,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 13.599999999999994,
+        "steep_downward_area_mm2": 439.06808459100915,
+        "bed_contact_area_mm2": 427.70065515000977,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 386.33205686213114,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 9.0 \u2014 Q idler left",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 215.60794051896113,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 159.6188275035026,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 10.0 \u2014 Q worm right + Q output right",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.6000000000000085,
+        "steep_downward_area_mm2": 52.63251421666517,
+        "bed_contact_area_mm2": 497.3890355875018,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 15.043867795433485,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 10.1 \u2014 Q worm right + Q output right",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600000000000023,
+        "steep_downward_area_mm2": 350.9080845910089,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 294.918971565275,
+      "no_new_islands": true
+    },
+    {
+      "part": "Bearing support 11.0 \u2014 Feedback right",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 7.600000000000023,
+        "steep_downward_area_mm2": 467.434846598313,
+        "bed_contact_area_mm2": 115.51999999999998,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 411.44573359199114,
+      "no_new_islands": true
+    },
+    {
+      "part": "master lock bolt",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 20.9,
+        "steep_downward_area_mm2": 9.502093549503766,
+        "bed_contact_area_mm2": 127.36616397629265,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 3.23109905921455,
+      "no_new_islands": true
+    },
+    {
+      "part": "master compact bolt guide",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 24.9,
+        "steep_downward_area_mm2": 278.4883368457032,
+        "bed_contact_area_mm2": 228.0800000000001,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 104.86989167945892,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave lock bolt",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 20.9,
+        "steep_downward_area_mm2": 9.502093549503766,
+        "bed_contact_area_mm2": 127.36616397629265,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 3.2310990593335944,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave compact bolt guide",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 24.9,
+        "steep_downward_area_mm2": 278.48833684570326,
+        "bed_contact_area_mm2": 228.0800000000002,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 104.8698916794588,
+      "no_new_islands": true
+    },
+    {
+      "part": "master_gate Carriage fork and roof",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 23.40000057220459,
+        "steep_downward_area_mm2": 153.81434246942948,
+        "bed_contact_area_mm2": 49.6373672674325,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 45.20111279253562,
+      "no_new_islands": true
+    },
+    {
+      "part": "master_gate Right carriage bearing support",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.799999999999997,
+        "steep_downward_area_mm2": 41.173245007217325,
+        "bed_contact_area_mm2": 29.558045604962317,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 48.98833787982217,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave_gate Carriage fork and roof",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 28.90000057220459,
+        "steep_downward_area_mm2": 153.4825607101167,
+        "bed_contact_area_mm2": 49.156398258113036,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 45.10252682642473,
+      "no_new_islands": true
+    },
+    {
+      "part": "slave_gate Right carriage bearing support",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 7.799999999999997,
+        "steep_downward_area_mm2": 41.1731292987484,
+        "bed_contact_area_mm2": 29.558045604962317,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 48.988337879822176,
+      "no_new_islands": true
+    },
+    {
+      "part": "Common fork and cam bar",
+      "orientation": {
+        "up_axis": "X",
+        "sign": 1,
+        "height_mm": 243.0,
+        "steep_downward_area_mm2": 1127.6190983280906,
+        "bed_contact_area_mm2": 314.8,
+        "new_layer_islands": 3
+      },
+      "new_islands": [
+        {
+          "height_mm": 20.100000000000005,
+          "island_area_mm2": 0.9669658785400692,
+          "bounds": [
+            -8.490689918398857,
+            18.200000002980232,
+            -7.109310083091259,
+            18.899999998509884
+          ]
+        },
+        {
+          "height_mm": 127.10000000000002,
+          "island_area_mm2": 0.9669658785400692,
+          "bounds": [
+            -8.490689918398857,
+            18.200000002980232,
+            -7.109310083091259,
+            18.899999998509884
+          ]
+        },
+        {
+          "height_mm": 127.10000000000002,
+          "island_area_mm2": 21.119999985694882,
+          "bounds": [
+            -10.100000001490116,
+            20.200000002980232,
+            -6.899999998509884,
+            29.799999997019768
+          ]
+        }
+      ],
+      "maximum_area_requiring_bridge_or_support_mm2": 282.3494521550617,
+      "no_new_islands": false
+    },
+    {
+      "part": "Clock output post",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 20.0,
+        "steep_downward_area_mm2": 24.485198687824145,
+        "bed_contact_area_mm2": 343.67999999999967,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 12.754558706027666,
+      "no_new_islands": true
+    },
+    {
+      "part": "Captured crosshead guide 0",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 8.0,
+        "steep_downward_area_mm2": 41.72236951886865,
+        "bed_contact_area_mm2": 121.35999999999996,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 76.74370390091568,
+      "no_new_islands": true
+    },
+    {
+      "part": "Captured crosshead guide 106",
+      "orientation": {
+        "up_axis": "X",
+        "sign": -1,
+        "height_mm": 8.0,
+        "steep_downward_area_mm2": 41.722369518868575,
+        "bed_contact_area_mm2": 121.35999999999996,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 76.74370390091573,
+      "no_new_islands": true
+    },
+    {
+      "part": "Clock amplifier front and input shoe",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 11.600000000000001,
+        "steep_downward_area_mm2": 31.992216239562612,
+        "bed_contact_area_mm2": 230.68913774023616,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 15.87527667115896,
+      "no_new_islands": true
+    },
+    {
+      "part": "Clock amplifier rear and output shoe",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 8.0,
+        "steep_downward_area_mm2": 27.01892178955066,
+        "bed_contact_area_mm2": 407.67357179700366,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 15.87527658229935,
+      "no_new_islands": true
+    },
+    {
+      "part": "Clock front pivot cradle",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 0.0,
+        "bed_contact_area_mm2": 380.4099781428269,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 0.0,
+      "no_new_islands": true
+    },
+    {
+      "part": "Clock rear pivot bearing bridge",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 7.599999999999994,
+        "steep_downward_area_mm2": 83.48945941248832,
+        "bed_contact_area_mm2": 245.83346158097928,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 55.04286751172445,
+      "no_new_islands": true
+    },
+    {
+      "part": "Compact frame left",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 11.599999999999994,
+        "steep_downward_area_mm2": 503.0475638818655,
+        "bed_contact_area_mm2": 6184.591080449536,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 229.34931520282467,
+      "no_new_islands": true
+    },
+    {
+      "part": "Compact frame right",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": 1,
+        "height_mm": 11.599999999999994,
+        "steep_downward_area_mm2": 405.68426498183146,
+        "bed_contact_area_mm2": 5633.231829930803,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 190.44563527902318,
+      "no_new_islands": true
+    },
+    {
+      "part": "Clock track and shaft support module",
+      "orientation": {
+        "up_axis": "Y",
+        "sign": -1,
+        "height_mm": 46.956406460551015,
+        "steep_downward_area_mm2": 346.1604177029127,
+        "bed_contact_area_mm2": 829.1096616333014,
+        "new_layer_islands": 0
+      },
+      "new_islands": [],
+      "maximum_area_requiring_bridge_or_support_mm2": 119.77197066971286,
+      "no_new_islands": true
+    }
+  ],
+  "all_layers_connected": false,
+  "mechanically_qualified": false
+}

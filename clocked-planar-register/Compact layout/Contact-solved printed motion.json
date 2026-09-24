@@ -1,0 +1,10 @@
+{
+  "scope": "All printed pairs in recorded contact-solved operation poses.\n\nIncludes levers, actual circular cam lift and clock amplification. Finite\nsampling only; no tolerance, native gear mesh, force or continuous proof.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "frames": 56112,
+  "unique_poses": 10352,
+  "narrow_checks": 53841,
+  "intersections": [],
+  "sampled_printed_motion_pass": true,
+  "mechanically_qualified": false
+}

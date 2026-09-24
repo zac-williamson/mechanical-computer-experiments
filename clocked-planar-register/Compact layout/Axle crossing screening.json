@@ -1,0 +1,7 @@
+{
+  "scope": "Conservative solid-cylinder screening of axle/pin crossings.\n\nA reported crossing requires native mesh review; cross-shaped axles do not\nfill their circular envelopes. Coaxial touching ends are retained as contacts.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "potential_crossings": [],
+  "coaxial_end_gaps_below_0_5_mm": [],
+  "mechanically_qualified": false
+}

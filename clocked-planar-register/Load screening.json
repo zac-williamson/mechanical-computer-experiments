@@ -1,0 +1,46 @@
+{
+  "scope": "First-order screening only; solid homogeneous beam assumptions omit joints, holes, orthotropy and stress concentrations",
+  "material_reference": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+  "assumed_modulus_MPa": 2000.0,
+  "reference_XY_bending_modulus_MPa": 2750,
+  "torque_Nmm": 100.0,
+  "ideal_worm_axial_force_N": 200.0,
+  "ideal_rail_force_N": 66.66666666666667,
+  "rail": {
+    "span_mm": 94.0,
+    "section_mm": [
+      5.4,
+      9.7
+    ],
+    "I_mm4": 410.7028499999999,
+    "deflection_at_1N_mm": 0.021066122786015898,
+    "stress_at_55N_MPa": 15.263164110012871,
+    "deflection_at_55N_mm": 1.1586367532308743
+  },
+  "fork": {
+    "stem_widths_mm": [
+      4.5,
+      9.6
+    ],
+    "depth_mm": 3.6,
+    "assumed_free_length_mm": 30.0,
+    "load_N": 41.237113402061865,
+    "combined_I_mm4": 292.75829999999996,
+    "free_rotation_tip_deflection_mm": 0.6338573844337749,
+    "restrained_rotation_tip_deflection_mm": 0.15846434610844373
+  },
+  "rail_guide_lip_slot": {
+    "upper_web_height_mm": 3.1,
+    "span_mm": 42.6,
+    "approx_local_deflection_at_1N_mm": 0.060070323251988855,
+    "note": "This local slot interrupts the full-depth section; the full-section estimate alone is not valid at the bolt load point"
+  },
+  "qualified": false,
+  "limitations": [
+    "No strength claim for LEGO axles, teeth, friction pins or printed actuator teeth",
+    "No printed-layer or infill model; material datasheet does not qualify this geometry",
+    "A seized bolt can exceed the operating clearance budget even without breaking the rail",
+    "Actual return-band load, friction and joint stiffness must be measured",
+    "Fork free-rotation upper estimate plus joint play can exceed the original 1 mm positioning allowance"
+  ]
+}

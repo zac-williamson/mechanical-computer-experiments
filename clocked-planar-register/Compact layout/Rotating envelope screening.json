@@ -1,0 +1,34 @@
+{
+  "scope": "Full-revolution native envelopes against printed solids at operation poses.\n\nAn envelope hit is a potential collision, not proof: working tooth/lever and\nring/fork contacts need phase-resolved narrow checks. No hit proves separation\nfor every rotation phase at the sampled relative poses, not between samples.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "frame_stride": 12,
+  "unique_poses": 1360,
+  "narrow_checks": 16515,
+  "potential_collisions": [
+    {
+      "native": "slave U022",
+      "printed": "slave Short lever",
+      "volume_mm3": 6.9217388674825155,
+      "sampled_frame": 43224
+    },
+    {
+      "native": "master U022",
+      "printed": "master Short lever",
+      "volume_mm3": 6.921598045444232,
+      "sampled_frame": 42756
+    },
+    {
+      "native": "clock U022",
+      "printed": "clock Short lever",
+      "volume_mm3": 6.916068237618526,
+      "sampled_frame": 636
+    },
+    {
+      "native": "write U022",
+      "printed": "write Short lever",
+      "volume_mm3": 6.916064950896419,
+      "sampled_frame": 14664
+    }
+  ],
+  "mechanically_qualified": false
+}

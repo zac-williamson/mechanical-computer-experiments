@@ -1,0 +1,6 @@
+{
+  "scope": "Fixed printed parts only; does not clear moving parts or native hardware",
+  "tested_broadphase_pairs": 51,
+  "intersections": [],
+  "assembly_sha256": "172dc0e5c7cac11337790cb18105acc1cb833cada1a289e5eddfd6bd6470054e"
+}

@@ -1,0 +1,157 @@
+{
+  "scope": "Conservative quasi-static clutch/cam sequencing sensitivity, not measured timing.",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "sequencing": [
+    {
+      "first_possible_pickup_mm": 5.8,
+      "cam_phase_error_mm": -0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.38379740403386203,
+      "conflicts": 0
+    },
+    {
+      "first_possible_pickup_mm": 5.8,
+      "cam_phase_error_mm": 0,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.39884540449175016,
+      "conflicts": 0
+    },
+    {
+      "first_possible_pickup_mm": 5.8,
+      "cam_phase_error_mm": 0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.3837974040338549,
+      "conflicts": 0
+    },
+    {
+      "first_possible_pickup_mm": 6.8,
+      "cam_phase_error_mm": -0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.39999999999999697,
+      "conflicts": 0
+    },
+    {
+      "first_possible_pickup_mm": 6.8,
+      "cam_phase_error_mm": 0,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.39999999999999697,
+      "conflicts": 0
+    },
+    {
+      "first_possible_pickup_mm": 6.8,
+      "cam_phase_error_mm": 0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.39999999999999697,
+      "conflicts": 0
+    },
+    {
+      "first_possible_pickup_mm": 7.8,
+      "cam_phase_error_mm": -0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.39999999999999697,
+      "conflicts": 0
+    },
+    {
+      "first_possible_pickup_mm": 7.8,
+      "cam_phase_error_mm": 0,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.39999999999999697,
+      "conflicts": 0
+    },
+    {
+      "first_possible_pickup_mm": 7.8,
+      "cam_phase_error_mm": 0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_tip_clearance_mm": 0.39999999999999697,
+      "conflicts": 0
+    }
+  ],
+  "transition_scenarios": [
+    {
+      "warmup_steps": 0,
+      "first_possible_pickup_mm": 6.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 17,
+      "first_possible_pickup_mm": 6.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 43,
+      "first_possible_pickup_mm": 6.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 89,
+      "first_possible_pickup_mm": 6.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 137,
+      "first_possible_pickup_mm": 6.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 181,
+      "first_possible_pickup_mm": 6.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 271,
+      "first_possible_pickup_mm": 6.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 359,
+      "first_possible_pickup_mm": 6.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 89,
+      "first_possible_pickup_mm": 5.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    },
+    {
+      "warmup_steps": 89,
+      "first_possible_pickup_mm": 7.8,
+      "cases": 112,
+      "wrong_defined_outputs": 0,
+      "blocked_cases": 0,
+      "bolt_drive_conflicts": 0
+    }
+  ],
+  "assumptions": [
+    "Axial error allowance is a proposed tolerance budget, not measured hardware",
+    "Backlash comes from the native dog geometry; running phase varies before the input transition",
+    "No inertia, loaded dog friction, band force or rapid repeated clock edges"
+  ],
+  "mechanically_qualified": false
+}

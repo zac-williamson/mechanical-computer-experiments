@@ -1,0 +1,49 @@
+{
+  "status": "development assembly; static dimensions only, qualification incomplete",
+  "baseline_mm": [
+    417.2,
+    57.07315969199226,
+    171.20000076293945
+  ],
+  "placed_geometry_mm": [
+    278.4,
+    76.23038992103288,
+    127.2
+  ],
+  "proposed_frame_envelope_xz_mm": [
+    278.4,
+    127.2
+  ],
+  "proposed_area_reduction_percent": 50.41979932669308,
+  "worm_gears": 4,
+  "clutch_rings": 5,
+  "old_routing_meshes": 10,
+  "new_routing_meshes": 3,
+  "additional_input_header_meshes": 3,
+  "power_ratio_magnitudes": [
+    1,
+    1
+  ],
+  "not_validated": [
+    "frame/bearings",
+    "shortened lock geometry",
+    "shared clutch sequencing linkage",
+    "moving clearances",
+    "native tooth phase",
+    "spring installation",
+    "loaded operation",
+    "port access"
+  ],
+  "bounds": [
+    [
+      -112.2,
+      -26.23038992103288,
+      -62.8
+    ],
+    [
+      166.2,
+      50.0,
+      64.4
+    ]
+  ]
+}

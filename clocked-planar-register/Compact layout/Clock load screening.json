@@ -1,0 +1,80 @@
+{
+  "scope": "Conservative static clock-amplifier screening, not structural qualification.\n\nLossless 0.1 Nm worm input and pi-mm lead give 200 N carriage force. The\n2.5:1 lever therefore transmits 80 N. This assumes a blocked sequencer, not\nnormal running resistance. Separate variable-section Euler-Bernoulli beams for the pin-joined plates estimate\nin-plane bending only: no contact/notch stress, torsion, creep, pin compliance,\nimpact, printed anisotropy or joint slip. Native axle strength is unknown.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "input_torque_Nm": 0.1,
+  "lossless_input_force_N": 200.0,
+  "output_force_N": 80.0,
+  "printed_plates": [
+    {
+      "part": "Clock amplifier front and input shoe",
+      "sampled_sections": 301,
+      "maximum_nominal_bending_MPa": 8.384670787815804,
+      "output_compliance_mm_per_N": 0.00018016454055913575
+    },
+    {
+      "part": "Clock amplifier rear and output shoe",
+      "sampled_sections": 301,
+      "maximum_nominal_bending_MPa": 14.101481481481503,
+      "output_compliance_mm_per_N": 0.0016411559154019555
+    }
+  ],
+  "integral_shoes": [
+    {
+      "part": "Clock amplifier front and input shoe",
+      "section_area_mm2": 78.25409012014673,
+      "second_moment_mm4": 1363.366191227807,
+      "force_N": 200,
+      "nominal_root_bending_MPa": 2.436366708645319,
+      "nominal_average_shear_MPa": 2.555776952909832
+    },
+    {
+      "part": "Clock amplifier rear and output shoe",
+      "section_area_mm2": 40.59886665380903,
+      "second_moment_mm4": 131.16521214829712,
+      "force_N": 80,
+      "nominal_root_bending_MPa": 4.828353414958601,
+      "nominal_average_shear_MPa": 1.9704983560789697
+    }
+  ],
+  "ideal_relative_output_deflection_mm": 0.14570563647688728,
+  "pivot_support_sensitivity": [
+    {
+      "support_Y_mm": [
+        37.8,
+        42.2
+      ],
+      "maximum_moment_Nmm": 82.84800000000016,
+      "nominal_bending_MPa": 13.853237348084688
+    },
+    {
+      "support_Y_mm": [
+        36.0,
+        44.1
+      ],
+      "maximum_moment_Nmm": 198.84800000000013,
+      "nominal_bending_MPa": 33.24990995789808
+    },
+    {
+      "support_Y_mm": [
+        34.2,
+        46.0
+      ],
+      "maximum_moment_Nmm": 311.80799999999994,
+      "nominal_bending_MPa": 52.13825597517842
+    }
+  ],
+  "joining_pin_shear_N_each": 80.0,
+  "PLA_reference": {
+    "modulus_MPa": 1890.0,
+    "source": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+    "notes": "Supplier specimen properties are not part allowables."
+  },
+  "unresolved": [
+    "Cam shoe friction and wear",
+    "Pin joint compliance and strength",
+    "Notch stress and printed anisotropy",
+    "LEGO shaft material allowable",
+    "Dynamic and fatigue loads"
+  ],
+  "mechanically_qualified": false
+}

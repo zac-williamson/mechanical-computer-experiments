@@ -1,0 +1,966 @@
+{
+  "scope": "Native mesh surface intersections in three phase-aware operation poses.\n\nContacts include intentional shaft/gear interfaces. FCL triangle contact depth\nis not a reliable solid penetration measure; findings require interface review.\n",
+  "geometry_sha256": "161f6e6d8999020e2c273cdf39abd9d2b5df34a27ec006f82e6ba51d204ba39a",
+  "poses": [
+    0,
+    150,
+    500
+  ],
+  "surface_contacts": [
+    {
+      "a": "CLK header gear 0",
+      "b": "CLK incoming right 8L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "CLK header gear 2",
+      "b": "CLK input axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "CLK incoming joiner",
+      "b": "CLK incoming left 8L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "CLK incoming joiner",
+      "b": "CLK incoming right 8L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "CLK incoming retainer left",
+      "b": "CLK incoming right 8L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "CLK incoming retainer right",
+      "b": "CLK incoming right 8L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "CLK input axle",
+      "b": "CLOCK worm retainer",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "CLK input axle",
+      "b": "clock U015",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Clock amplifier pivot",
+      "b": "Clock pivot bush 32",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Clock amplifier pivot",
+      "b": "Clock pivot bush 48",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "D external input 4L",
+      "b": "D header input 8T",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "D external input 4L",
+      "b": "D input retainer",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "D header output 8T",
+      "b": "WRITE D input axle 5L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "D transfer retainer",
+      "b": "WRITE D input axle 5L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Feedback retainer",
+      "b": "Q feedback shaft 32L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Master gate data stub 2L",
+      "b": "WRITE D input axle 5L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Master gate data stub 2L",
+      "b": "master_gate B-input",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Master idler retainer",
+      "b": "master idler axle 9L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Master worm retainer bearing",
+      "b": "master_gate worm drive 10L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Master worm retainer gear",
+      "b": "master_gate worm drive 10L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER header gear",
+      "b": "POWER incoming right 12L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER incoming joiner",
+      "b": "POWER incoming left 12L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER incoming joiner",
+      "b": "POWER incoming right 12L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER incoming retainer left",
+      "b": "POWER incoming right 12L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER incoming retainer right",
+      "b": "POWER incoming right 12L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER shaft joiner",
+      "b": "POWER shaft left 8L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER shaft joiner",
+      "b": "POWER shaft right 12L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER shaft left 8L",
+      "b": "master POWER 16T 16",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER shaft left 8L",
+      "b": "master POWER 16T 32",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER shaft right 12L",
+      "b": "slave POWER 16T -16",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "POWER shaft right 12L",
+      "b": "slave POWER 16T 32",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Q feedback front gear -92",
+      "b": "Q feedback shaft 32L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Q feedback front gear 150",
+      "b": "Q feedback shaft 32L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Q takeoff gear",
+      "b": "slave output right 7L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Selected data route 16T",
+      "b": "WRITE selector output right",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "Slave worm retainer gear",
+      "b": "slave_gate left clutch stub 3L stop",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE D input axle 5L",
+      "b": "WRITE D input gear",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE input axle",
+      "b": "WRITE worm retainer left",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE input axle",
+      "b": "WRITE worm retainer right",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE input axle",
+      "b": "write U015",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE output retainer",
+      "b": "WRITE selector output left",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L069",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L072",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L097",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L097",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L102",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L105",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "clock U015",
+      "b": "clock U022",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "clock U022",
+      "b": "clock reaction-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "clock pivot-retainer",
+      "b": "clock pivot-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "clock reaction-retainer",
+      "b": "clock reaction-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L069",
+      "b": "master L072",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L069",
+      "b": "master output right 6L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L072",
+      "b": "master L097",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L072",
+      "b": "master output right 6L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L097",
+      "b": "master L099",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L097",
+      "b": "master L102",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L097",
+      "b": "master output left 3L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L097",
+      "b": "master output right 6L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master L102",
+      "b": "master output left 3L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master U015",
+      "b": "master U022",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master U015",
+      "b": "master_gate worm drive 10L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master U022",
+      "b": "master reaction-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master idler axle 9L",
+      "b": "master reversing idler 16T -16",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master idler axle 9L",
+      "b": "master reversing idler 16T 32",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master output right 6L",
+      "b": "slave_gate B-input",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master pivot-retainer",
+      "b": "master pivot-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master reaction-retainer",
+      "b": "master reaction-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master roller axle",
+      "b": "master roller bush 15.6",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master roller axle",
+      "b": "master roller bush 27.6",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master_gate L097",
+      "b": "master_gate L099",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master_gate L097",
+      "b": "master_gate L102",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master_gate L097",
+      "b": "master_gate worm drive 10L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "master_gate L102",
+      "b": "master_gate worm drive 10L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L069",
+      "b": "slave L072",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L069",
+      "b": "slave output right 7L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L072",
+      "b": "slave L097",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L072",
+      "b": "slave output right 7L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L097",
+      "b": "slave L099",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L097",
+      "b": "slave L102",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L097",
+      "b": "slave output left 3L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L097",
+      "b": "slave output right 7L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave L102",
+      "b": "slave output left 3L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave U015",
+      "b": "slave U022",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave U015",
+      "b": "slave_gate worm drive 9L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave U022",
+      "b": "slave reaction-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave idler axle 9L",
+      "b": "slave reversing idler 16T 16",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave idler axle 9L",
+      "b": "slave reversing idler 16T 32",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave pivot-retainer",
+      "b": "slave pivot-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave reaction-retainer",
+      "b": "slave reaction-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave roller axle",
+      "b": "slave roller bush 15.6",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave roller axle",
+      "b": "slave roller bush 27.6",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate L099",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate L102",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate left clutch stub 3L stop",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate worm drive 9L",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "slave_gate L102",
+      "b": "slave_gate left clutch stub 3L stop",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write L069",
+      "b": "write L072",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write L072",
+      "b": "write L097",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write L097",
+      "b": "write L099",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write L097",
+      "b": "write L102",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write L102",
+      "b": "write L105",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write U015",
+      "b": "write U022",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write U022",
+      "b": "write reaction-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write pivot-retainer",
+      "b": "write pivot-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    },
+    {
+      "a": "write reaction-retainer",
+      "b": "write reaction-stop-axle",
+      "frames": [
+        0,
+        150,
+        500
+      ]
+    }
+  ],
+  "mechanically_qualified": false
+}

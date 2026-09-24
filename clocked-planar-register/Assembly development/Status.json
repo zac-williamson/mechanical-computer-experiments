@@ -1,0 +1,10 @@
+{
+  "print_ready": false,
+  "working_machine_verified": false,
+  "missing": [
+    "Continuous and tolerance-aware all-part collision proof",
+    "Native keyed-axle and clutch tooth phase validation",
+    "0.1 Nm stiffness and strength qualification",
+    "Support-free print-orientation audit and print layout"
+  ]
+}

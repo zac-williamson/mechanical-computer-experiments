@@ -1,0 +1,44 @@
+{
+  "scope": "All printed pairs at static reference pose only",
+  "geometry_sha256": "161f6e6d8999020e2c273cdf39abd9d2b5df34a27ec006f82e6ba51d204ba39a",
+  "pairs_tested": 1485,
+  "invalid_solids": [],
+  "intersections": [
+    {
+      "a": "slave Carriage fork and roof",
+      "b": "slave lock bolt",
+      "volume_mm3": 26.212284763743305,
+      "bounds_mm": [
+        [
+          99.89999389648438,
+          18.0,
+          42.099998474121094
+        ],
+        [
+          102.0,
+          22.0,
+          45.29949951171875
+        ]
+      ]
+    },
+    {
+      "a": "master Carriage fork and roof",
+      "b": "master lock bolt",
+      "volume_mm3": 26.212207389259664,
+      "bounds_mm": [
+        [
+          -6.099999904632568,
+          18.0,
+          42.099998474121094
+        ],
+        [
+          -4.0,
+          22.0,
+          45.29949951171875
+        ]
+      ]
+    }
+  ],
+  "static_printed_pass": false,
+  "operation_pass": false
+}

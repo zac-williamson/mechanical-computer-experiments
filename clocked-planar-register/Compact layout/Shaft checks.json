@@ -1,0 +1,30 @@
+{
+  "scope": "Static X-axis shaft intervals, three header gear centre distances, and port X positions only. No tooth phase, frame, swept collision or operation proof.",
+  "geometry_sha256": "bbc350a302ab4d703ccb69937033e5153eaee57d520b1956897f328877c86fb4",
+  "axles": 23,
+  "overlaps": [],
+  "ports_x_mm": {
+    "D": -112.0,
+    "WRITE": -112.0,
+    "CLK": -112.0,
+    "POWER": -112.0,
+    "Q": 166.2
+  },
+  "header_mesh_centres": [
+    {
+      "a": "CLK header gear 0",
+      "b": "CLK header gear 2",
+      "centre_distance_mm": 24.0
+    },
+    {
+      "a": "POWER header gear",
+      "b": "master POWER 16T 32",
+      "centre_distance_mm": 15.999999999999998
+    },
+    {
+      "a": "D header input 8T",
+      "b": "D header output 8T",
+      "centre_distance_mm": 8.0
+    }
+  ]
+}

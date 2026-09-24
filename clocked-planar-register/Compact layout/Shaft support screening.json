@@ -1,0 +1,466 @@
+{
+  "scope": "Find actual printed bearing rings around X-axis shafts, not just named walls.\n\nThis is radial support screening only. Axial retention, coupled shaft groups,\npins into ground and bearing load capacity remain separate requirements.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "shafts": [
+    {
+      "shaft": "master idler axle 9L",
+      "bearings": [
+        {
+          "part": "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+          "x_mm": [
+            -27.425,
+            -20.675
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Clock track and shaft support module",
+          "x_mm": [
+            20.525,
+            27.275
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "master output left 3L",
+      "bearings": [
+        {
+          "part": "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+          "x_mm": [
+            -27.875,
+            -20.375
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "master output right 6L",
+      "bearings": [
+        {
+          "part": "Clock track and shaft support module",
+          "x_mm": [
+            24.525,
+            27.525
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "slave idler axle 9L",
+      "bearings": [
+        {
+          "part": "Bearing support 9.0 \u2014 Q idler left",
+          "x_mm": [
+            110.525,
+            117.275
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Bearing support 11.0 \u2014 Feedback right",
+          "x_mm": [
+            142.52499999999998,
+            145.52499999999998
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "slave output left 3L",
+      "bearings": [
+        {
+          "part": "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+          "x_mm": [
+            78.125,
+            85.625
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "slave output right 7L",
+      "bearings": [
+        {
+          "part": "Bearing support 10.1 \u2014 Q worm right + Q output right",
+          "x_mm": [
+            130.52499999999998,
+            133.52499999999998
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "WRITE input axle",
+      "bearings": [
+        {
+          "part": "write Carriage fork and roof",
+          "x_mm": [
+            -67.5244987487793,
+            -60.524498748779294
+          ],
+          "motion": "carriage"
+        },
+        {
+          "part": "write Right carriage bearing support",
+          "x_mm": [
+            -91.52499847412109,
+            -84.52499847412109
+          ],
+          "motion": "carriage"
+        },
+        {
+          "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+          "x_mm": [
+            -107.725,
+            -100.225
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Bearing support 3.0 \u2014 Master data left + WRITE worm right",
+          "x_mm": [
+            -51.724999999999994,
+            -44.474999999999994
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "WRITE selector output left",
+      "bearings": [
+        {
+          "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+          "x_mm": [
+            -103.975,
+            -100.725
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "WRITE selector output right",
+      "bearings": [
+        {
+          "part": "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+          "x_mm": [
+            -31.475,
+            -24.725
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "CLK input axle",
+      "bearings": [
+        {
+          "part": "clock Carriage fork and roof",
+          "x_mm": [
+            48.47549934387207,
+            55.47549934387207
+          ],
+          "motion": "carriage"
+        },
+        {
+          "part": "clock Right carriage bearing support",
+          "x_mm": [
+            24.474999618530273,
+            31.474999618530273
+          ],
+          "motion": "carriage"
+        },
+        {
+          "part": "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+          "x_mm": [
+            72.275,
+            79.775
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Clock track and shaft support module",
+          "x_mm": [
+            8.274999999999999,
+            15.774999999999999
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "master_gate worm drive 10L",
+      "bearings": [
+        {
+          "part": "master Carriage fork and roof",
+          "x_mm": [
+            -15.525000381469727,
+            -8.525000381469727
+          ],
+          "motion": "carriage"
+        },
+        {
+          "part": "master Right carriage bearing support",
+          "x_mm": [
+            8.575,
+            15.325
+          ],
+          "motion": "carriage"
+        },
+        {
+          "part": "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+          "x_mm": [
+            -31.475,
+            -24.725
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+          "x_mm": [
+            20.525,
+            24.025
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "slave_gate worm drive 9L",
+      "bearings": [
+        {
+          "part": "slave Carriage fork and roof",
+          "x_mm": [
+            90.47499389648438,
+            97.47499389648438
+          ],
+          "motion": "carriage"
+        },
+        {
+          "part": "slave Right carriage bearing support",
+          "x_mm": [
+            114.575,
+            121.325
+          ],
+          "motion": "carriage"
+        },
+        {
+          "part": "Bearing support 10.0 \u2014 Q worm right + Q output right",
+          "x_mm": [
+            126.275,
+            133.525
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "slave_gate left clutch stub 3L stop",
+      "bearings": [
+        {
+          "part": "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+          "x_mm": [
+            29.075,
+            31.325
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "Master gate data stub 2L",
+      "bearings": [
+        {
+          "part": "Bearing support 3.0 \u2014 Master data left + WRITE worm right",
+          "x_mm": [
+            -51.675,
+            -48.425
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Bearing support 4.0 \u2014 Master data right",
+          "x_mm": [
+            -39.474999999999994,
+            -36.474999999999994
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "WRITE D input axle 4L",
+      "bearings": [
+        {
+          "part": "Bearing support 1.0 \u2014 D transfer left",
+          "x_mm": [
+            -77.475,
+            -74.475
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Bearing support 2.0 \u2014 D transfer right",
+          "x_mm": [
+            -69.475,
+            -66.475
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "Q feedback shaft 32L",
+      "bearings": [
+        {
+          "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+          "x_mm": [
+            -99.925,
+            -96.175
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Bearing support 11.0 \u2014 Feedback right",
+          "x_mm": [
+            142.52499999999998,
+            145.52499999999998
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "POWER shaft left 8L",
+      "bearings": [
+        {
+          "part": "Clock track and shaft support module",
+          "x_mm": [
+            20.525,
+            27.275
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "POWER shaft right 12L",
+      "bearings": [
+        {
+          "part": "Clock track and shaft support module",
+          "x_mm": [
+            64.325,
+            71.575
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "D external input 4L",
+      "bearings": [
+        {
+          "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+          "x_mm": [
+            -107.725,
+            -100.225
+          ],
+          "motion": "fixed"
+        },
+        {
+          "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+          "x_mm": [
+            -95.475,
+            -92.475
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "POWER incoming left 12L",
+      "bearings": [
+        {
+          "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+          "x_mm": [
+            -107.725,
+            -100.225
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "POWER incoming right 12L",
+      "bearings": [
+        {
+          "part": "Clock track and shaft support module",
+          "x_mm": [
+            64.275,
+            71.525
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "CLK incoming left 8L",
+      "bearings": [
+        {
+          "part": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+          "x_mm": [
+            -107.725,
+            -100.225
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    },
+    {
+      "shaft": "CLK incoming right 8L",
+      "bearings": [
+        {
+          "part": "Bearing support 5.1 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+          "x_mm": [
+            -23.725,
+            -16.475
+          ],
+          "motion": "fixed"
+        }
+      ],
+      "has_any_radial_support": true
+    }
+  ],
+  "unsupported": [],
+  "mechanically_qualified": false
+}

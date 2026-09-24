@@ -1,15 +1,24 @@
-# Clock-triggered 1-bit register — separate development
+# Clocked planar register
 
-This directory is reserved for a new clock-triggered register based on the preserved planar latch in `../planar-register/`. No clocked CAD design has been validated or exported here yet. The existing `../register/` workstream is separate and untouched by this snapshot.
+[Open the current compact model](Compact%20layout.html). It retains the planar register's actuator cores and uses four worm actuators, five clutch rings and eight elastic bands. The earlier full-size assembly remains in `Viewer.html`; the unclocked planar register and multiplexer are separate, preserved designs.
 
-## Design requirements
+The compact model has direction-coded D, WRITE and CLK inputs, continuous POWER, and Q on the opposite X side. Its two storage stages form a master/slave register. WRITE selects D or feedback Q before the master, avoiding a gated-clock edge when WRITE changes.
 
-- Target Ben Eater 8-bit SAP register behavior; verify clock edge, write-enable and bus timing against the reference circuit before committing to an architecture.
-- Capture on a rising clock edge; retain Q between writes. Include write enable appropriate to the target register.
-- Evaluate a master/slave arrangement with mechanically enforced non-overlap: disconnect each storage drive before locking it, and unlock before reconnecting.
-- Keep rotational logic: 0 clockwise, 1 anticlockwise, using a consistently defined viewing direction.
-- Retain LEGO gears, axles, clutch parts, axle connectors, bushings and friction-pin assembly. Printed parts use standard Bambu PLA, 0.4 mm nozzle; target 0.1 Nm on all input/output axles.
-- Compact, approximately coplanar, open XZ view. Preserve bearing-friendly print orientations.
-- Check all input combinations and transitions, early clutch engagement, backlash, setup/hold requirements, free-body restraint, swept collisions and plausible deflection. Separate geometric evidence from physical qualification.
+- [Current arrangement and sequencing](Compact%20layout/Design.md)
+- [Validation evidence and unresolved requirements](Compact%20layout/Validation%20status.md)
 
-All new CAD, source, viewers and print files belong here. Use independent copies of any starting geometry; never make the clocked build publish into the planar-register directory. Do not use Bambu Studio CLI.
+The animation uses the same contact-corrected poses as the printed-part collision checks. Native clutch angular windows determine engagement and reversal backlash; a fixed time delay is no longer used. The animation is a quasi-static model, not a physical load test.
+
+Every geometry report must match the current geometry hash. Historical full-size reports, old fixed-delay traces and static assembly-reference poses do not qualify the current compact mechanism. The qualification summary fails closed when required evidence is absent or stale.
+
+## Reproduction order
+
+Use the existing `work/register-print-env/bin/python` environment from the workspace root. Sources are under `current-designs/clocked-planar-register/Source/`.
+
+1. `compact_layout.py` generates parts and the static viewer.
+2. `check_compact_gear_phases.py` and `compact_clutch_profiles.py` derive native gear and clutch phases.
+3. `compact_phase_operation.py` simulates all 112 transition/initial-Q cases; `compile_compact_contacts.py` resolves actuator contact poses.
+4. Run the geometry, motion, retention, timing, load and print screens listed in the validation status.
+5. `publish_compact_motion.py` publishes the animation; `compact_qualification_status.py` reports remaining qualification requirements.
+
+Printed structure, materials, band preload, motor acceleration, joint grip and loaded friction are not established by the nominal motion trace. Do not treat a successful script exit as a working-machine certificate.

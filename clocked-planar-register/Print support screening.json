@@ -1,0 +1,1110 @@
+{
+  "scope": "0.2 mm layers and 45-degree support envelope; no bridge exemptions, toolpaths or actual print qualification",
+  "parts": [
+    {
+      "part": "master Front bearing cheek",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.60000228881836,
+        49.30000066757202,
+        4.000000238418579
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "master Rear bearing cheek",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.60000228881836,
+        49.30000066757202,
+        12.600000381469727
+      ],
+      "maximum_unsupported_layer_area_mm2": 372.6336822175743,
+      "worst_layer_mm": 8.8,
+      "unsupported_islands": 1,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master Short lever",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        14.533100128173828,
+        23.235999584197998,
+        8.399999618530273
+      ],
+      "maximum_unsupported_layer_area_mm2": 30.826093645519244,
+      "worst_layer_mm": 5.2,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "bed_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "size_mm": [
+        23.599999248981476,
+        23.300000190734863,
+        7.600000381469727
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "master Carriage fork and roof",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        45.59949952363968,
+        26.249999284744263,
+        42.199501037597656
+      ],
+      "maximum_unsupported_layer_area_mm2": 34.73061454265954,
+      "worst_layer_mm": 14.200000000000001,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master Left side frame",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        43.0,
+        27.70000171661377,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.069610591032344,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master Right side frame",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        59.5,
+        27.70000171661377,
+        19.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 74.29545395329228,
+      "worst_layer_mm": 7.6000000000000005,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master Left inner bearing wall",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        17.299999237060547,
+        27.70000171661377,
+        7.600000381469727
+      ],
+      "maximum_unsupported_layer_area_mm2": 20.580824977979546,
+      "worst_layer_mm": 4.0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master Right inner bearing wall",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        15.59999942779541,
+        27.70000171661377,
+        7.600000381469727
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.290852224469427,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master Direct lock bolt",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        30.099998474121094,
+        12.000000178813934,
+        16.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 10.665750016379565,
+      "worst_layer_mm": 15.600000000000001,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master Detachable bolt guide",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        24.5,
+        37.60000038146973,
+        26.400001525878906
+      ],
+      "maximum_unsupported_layer_area_mm2": 130.4919766998285,
+      "worst_layer_mm": 17.8,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Front bearing cheek",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.60000228881836,
+        49.30000305175781,
+        4.000000238418579
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "slave Rear bearing cheek",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.60000228881836,
+        49.30000305175781,
+        12.600000381469727
+      ],
+      "maximum_unsupported_layer_area_mm2": 372.6336448273133,
+      "worst_layer_mm": 8.8,
+      "unsupported_islands": 1,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Short lever",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        14.533100128173828,
+        23.236007690429688,
+        8.399999618530273
+      ],
+      "maximum_unsupported_layer_area_mm2": 30.826053209610563,
+      "worst_layer_mm": 5.2,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Right carriage bearing support",
+      "bed_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "size_mm": [
+        23.599999248981476,
+        23.300000190734863,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "slave Carriage fork and roof",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        45.59949952363968,
+        26.249999284744263,
+        42.19950866699219
+      ],
+      "maximum_unsupported_layer_area_mm2": 34.72878365810954,
+      "worst_layer_mm": 14.0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Left side frame",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        43.0,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.069443988456994,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Right side frame",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        59.5,
+        27.70000171661377,
+        19.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 126.88251548049777,
+      "worst_layer_mm": 7.6000000000000005,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Left inner bearing wall",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        17.299999237060547,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 20.580824977979546,
+      "worst_layer_mm": 4.0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Right inner bearing wall",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        15.59999942779541,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.290648443591198,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Direct lock bolt",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        30.099998474121094,
+        12.0,
+        16.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 10.665763876464428,
+      "worst_layer_mm": 15.600000000000001,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave Detachable bolt guide",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        24.5,
+        37.600006103515625,
+        26.400001525878906
+      ],
+      "maximum_unsupported_layer_area_mm2": 130.4920201873686,
+      "worst_layer_mm": 17.8,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "write Front bearing cheek",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.600006103515625,
+        49.29999923706055,
+        4.000000238418579
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "write Rear bearing cheek",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.600006103515625,
+        49.29999923706055,
+        12.600000381469727
+      ],
+      "maximum_unsupported_layer_area_mm2": 372.6336745918075,
+      "worst_layer_mm": 8.8,
+      "unsupported_islands": 1,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "write Carriage fork and roof",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        45.59950256347656,
+        26.249999284744263,
+        42.19949722290039
+      ],
+      "maximum_unsupported_layer_area_mm2": 34.76192774354202,
+      "worst_layer_mm": 14.0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "write Right carriage bearing support",
+      "bed_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "size_mm": [
+        23.599998474121094,
+        23.300000190734863,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "write Short lever",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        14.533096313476562,
+        23.23599624633789,
+        8.399999618530273
+      ],
+      "maximum_unsupported_layer_area_mm2": 30.826080380205962,
+      "worst_layer_mm": 5.2,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "write Left inner bearing wall",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        17.799999237060547,
+        26.500001430511475,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 43.49126746320195,
+      "worst_layer_mm": 4.0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "write Right inner bearing wall",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        17.799999237060547,
+        26.500001430511475,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 12.453031403013362,
+      "worst_layer_mm": 6.800000000000001,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "clock Front bearing cheek",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.600006103515625,
+        49.29999542236328,
+        4.000000238418579
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "clock Rear bearing cheek",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.600006103515625,
+        49.29999542236328,
+        12.600000381469727
+      ],
+      "maximum_unsupported_layer_area_mm2": 372.6336148472692,
+      "worst_layer_mm": 8.8,
+      "unsupported_islands": 1,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "clock Short lever",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        14.533096313476562,
+        23.236000061035156,
+        8.399999618530273
+      ],
+      "maximum_unsupported_layer_area_mm2": 30.82608233149177,
+      "worst_layer_mm": 5.2,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Slave gate data left bearing",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        20.0,
+        27.70000171661377,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.042632426676636,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Slave gate right bearing",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        32.0,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 12.933792583328907,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Q return bearing 232",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        84.0,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 26.072440790212383,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Feedback bus bearing 30",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        25.5,
+        27.70000171661377,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.042692989736299,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Feedback bus bearing 120",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        25.5,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.043259152630425,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "clock Left side frame",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        32.900001525878906,
+        27.70000171661377,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 15.421062386466097,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "clock Right side frame",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        33.400001525878906,
+        27.70000171661377,
+        19.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 94.6731829042003,
+      "worst_layer_mm": 7.6000000000000005,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "WRITE port outer bearing",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        24.0,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.151971228468911,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "WRITE port inner bearing",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        66.70000076293945,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 30.357663861348538,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master_gate fork bellcrank",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.599998474121094,
+        19.600006103515625,
+        3.4000015258789062
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "Master gate left bearing",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        48.5,
+        27.70000171661377,
+        27.300003051757812
+      ],
+      "maximum_unsupported_layer_area_mm2": 12.93379258332886,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master_gate Carriage fork and roof",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        10.40000057220459,
+        34.24999928474426,
+        23.400001525878906
+      ],
+      "maximum_unsupported_layer_area_mm2": 46.867007138804475,
+      "worst_layer_mm": 16.0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "master_gate Right carriage bearing support",
+      "bed_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "size_mm": [
+        40.19999980926514,
+        26.59999942779541,
+        37.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 83.66550033569351,
+      "worst_layer_mm": 19.6,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave_gate fork bellcrank",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.599998474121094,
+        19.60000228881836,
+        3.4000015258789062
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "Slave gate clutch left bearing",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        36.5,
+        27.70000171661377,
+        25.299999237060547
+      ],
+      "maximum_unsupported_layer_area_mm2": 13.04262369511666,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave_gate Carriage fork and roof",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        10.40000057220459,
+        34.24999928474426,
+        23.400001525878906
+      ],
+      "maximum_unsupported_layer_area_mm2": 46.867007138804475,
+      "worst_layer_mm": 16.0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "slave_gate Right carriage bearing support",
+      "bed_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "size_mm": [
+        40.19999980926514,
+        26.59999942779541,
+        37.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 83.66550033569351,
+      "worst_layer_mm": 19.6,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Sequencer rail right",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        21.0,
+        105.80000305175781,
+        6.80000114440918
+      ],
+      "maximum_unsupported_layer_area_mm2": 50.154253836637594,
+      "worst_layer_mm": 0.2,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Rail guide -45",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        27.0,
+        10.400001525878906,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 8.367417144446158,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Rail guide 40",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        27.0,
+        10.400001525878906,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 8.367417144446158,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Rail guide 134",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        35.0,
+        10.400001525878906,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 12.926863144467257,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Rail guide 200",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        27.0,
+        10.400001525878906,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 8.367395264630895,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Clock travel amplifier",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        76.0,
+        16.0,
+        3.3999996185302734
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "clock Carriage fork and roof",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        39.699501037597656,
+        26.65000081062317,
+        42.199501037597656
+      ],
+      "maximum_unsupported_layer_area_mm2": 43.62000457763672,
+      "worst_layer_mm": 9.600000000000001,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "clock Right carriage bearing support",
+      "bed_outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "size_mm": [
+        25.699996948242188,
+        23.500000953674316,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "Sequencer rail left",
+      "bed_outward_normal": [
+        0,
+        -1,
+        0
+      ],
+      "size_mm": [
+        34.70000076293945,
+        221.8000030517578,
+        7.80000114440918
+      ],
+      "maximum_unsupported_layer_area_mm2": 50.154259854217855,
+      "worst_layer_mm": 0.2,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Clock rail drive post",
+      "bed_outward_normal": [
+        0,
+        1,
+        0
+      ],
+      "size_mm": [
+        45.0,
+        16.0,
+        8.400001525878906
+      ],
+      "maximum_unsupported_layer_area_mm2": 0.0,
+      "worst_layer_mm": 0,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": true
+    },
+    {
+      "part": "Master gate and route bearing",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        128.4000015258789,
+        35.90950155258179,
+        19.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 50.015313702220254,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Data route right bearing",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        100.0,
+        35.90950155258179,
+        7.599998474121094
+      ],
+      "maximum_unsupported_layer_area_mm2": 25.91750967676709,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Q return bearing 216",
+      "bed_outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "size_mm": [
+        84.0,
+        27.70000171661377,
+        7.600006103515625
+      ],
+      "maximum_unsupported_layer_area_mm2": 25.97128547631424,
+      "worst_layer_mm": 6.4,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Base left",
+      "bed_outward_normal": [
+        0,
+        1,
+        0
+      ],
+      "size_mm": [
+        145.30000019073486,
+        99.99999618530273,
+        26.850001335144043
+      ],
+      "maximum_unsupported_layer_area_mm2": 1.5780825150270499,
+      "worst_layer_mm": 7.6000000000000005,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Base middle",
+      "bed_outward_normal": [
+        0,
+        1,
+        0
+      ],
+      "size_mm": [
+        168.70000076293945,
+        153.60000228881836,
+        26.850001335144043
+      ],
+      "maximum_unsupported_layer_area_mm2": 3.1561751218822116,
+      "worst_layer_mm": 7.6000000000000005,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    },
+    {
+      "part": "Base right",
+      "bed_outward_normal": [
+        0,
+        1,
+        0
+      ],
+      "size_mm": [
+        112.50000381469727,
+        125.0,
+        26.850001335144043
+      ],
+      "maximum_unsupported_layer_area_mm2": 3.551281724865755,
+      "worst_layer_mm": 9.8,
+      "unsupported_islands": 0,
+      "passes_strict_no_bridge_screen": false
+    }
+  ]
+}

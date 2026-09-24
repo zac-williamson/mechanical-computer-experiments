@@ -1,0 +1,463 @@
+{
+  "scope": "Reloaded generated STL mesh validity only, not printability",
+  "geometry_sha256": "4f58ea4f2a9943289f0182745d741725c12aebfe511b7314d59b01139f71e114",
+  "parts": [
+    {
+      "part": "master Front bearing cheek",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1879.422562766412
+    },
+    {
+      "part": "master Rear bearing cheek",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2206.099430814209
+    },
+    {
+      "part": "master Short lever",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1603.2163028042767
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1458.9153621117803
+    },
+    {
+      "part": "master Carriage fork and roof",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 8738.553485242188
+    },
+    {
+      "part": "master Left side frame",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 5950.809809274884
+    },
+    {
+      "part": "master Right side frame",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 6325.611618948002
+    },
+    {
+      "part": "master Left inner bearing wall",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1865.1261312416598
+    },
+    {
+      "part": "master Right inner bearing wall",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1489.854016045583
+    },
+    {
+      "part": "master Direct lock bolt",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2103.4915869026677
+    },
+    {
+      "part": "master Detachable bolt guide",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 6242.571726976662
+    },
+    {
+      "part": "slave Front bearing cheek",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1879.4224577864697
+    },
+    {
+      "part": "slave Rear bearing cheek",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2206.099194888531
+    },
+    {
+      "part": "slave Short lever",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1603.216144079089
+    },
+    {
+      "part": "slave Right carriage bearing support",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1458.916741087829
+    },
+    {
+      "part": "slave Carriage fork and roof",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 8738.557648661785
+    },
+    {
+      "part": "slave Left side frame",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 5950.816164629262
+    },
+    {
+      "part": "slave Right side frame",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 6325.617982362645
+    },
+    {
+      "part": "slave Left inner bearing wall",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1865.1279131856961
+    },
+    {
+      "part": "slave Right inner bearing wall",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1489.8555147143343
+    },
+    {
+      "part": "slave Direct lock bolt",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2103.4913029348004
+    },
+    {
+      "part": "slave Detachable bolt guide",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 6242.571311045062
+    },
+    {
+      "part": "write Front bearing cheek",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1879.422667073267
+    },
+    {
+      "part": "write Rear bearing cheek",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2206.0993390599283
+    },
+    {
+      "part": "write Carriage fork and roof",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 9181.153312101256
+    },
+    {
+      "part": "write Right carriage bearing support",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1458.9147184866695
+    },
+    {
+      "part": "write Short lever",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1603.2168870964003
+    },
+    {
+      "part": "write Left inner bearing wall",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1731.7170837148976
+    },
+    {
+      "part": "write Right inner bearing wall",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1731.7170837148951
+    },
+    {
+      "part": "clock Front bearing cheek",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1879.4224002323851
+    },
+    {
+      "part": "clock Rear bearing cheek",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2206.098965852008
+    },
+    {
+      "part": "clock Short lever",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1603.2168883682655
+    },
+    {
+      "part": "Slave gate data left bearing",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2247.5731765795163
+    },
+    {
+      "part": "Slave gate right bearing",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 4352.479442726886
+    },
+    {
+      "part": "Q return bearing 232",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 11275.97409549912
+    },
+    {
+      "part": "Feedback bus bearing 30",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2564.9752627972466
+    },
+    {
+      "part": "Feedback bus bearing 120",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2564.978144486227
+    },
+    {
+      "part": "clock Left side frame",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2235.7873422364823
+    },
+    {
+      "part": "clock Right side frame",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 3005.956123534985
+    },
+    {
+      "part": "WRITE port outer bearing",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 2480.295932091268
+    },
+    {
+      "part": "WRITE port inner bearing",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 8269.511772986987
+    },
+    {
+      "part": "master_gate fork bellcrank",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 722.100934512031
+    },
+    {
+      "part": "Master gate left bearing",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 6900.614723532183
+    },
+    {
+      "part": "master_gate Carriage fork and roof",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1405.4502807550562
+    },
+    {
+      "part": "master_gate Right carriage bearing support",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 3514.960457827257
+    },
+    {
+      "part": "slave_gate fork bellcrank",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 722.1007248753878
+    },
+    {
+      "part": "Slave gate clutch left bearing",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 4636.107593739431
+    },
+    {
+      "part": "slave_gate Carriage fork and roof",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1405.450280755056
+    },
+    {
+      "part": "slave_gate Right carriage bearing support",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 3514.96045068612
+    },
+    {
+      "part": "Sequencer rail right",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 6792.434237104807
+    },
+    {
+      "part": "Rail guide -45",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1121.783039979906
+    },
+    {
+      "part": "Rail guide 40",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1121.7830399799066
+    },
+    {
+      "part": "Rail guide 134",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 2,
+      "volume_mm3": 1134.6616831518947
+    },
+    {
+      "part": "Rail guide 200",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1121.7843864189533
+    },
+    {
+      "part": "Clock travel amplifier",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 3721.2724594812585
+    },
+    {
+      "part": "clock Carriage fork and roof",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 8315.260770160987
+    },
+    {
+      "part": "clock Right carriage bearing support",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 1418.9985628432162
+    },
+    {
+      "part": "Sequencer rail left",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 18313.618864491655
+    },
+    {
+      "part": "Master gate and route bearing",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 18539.998339147416
+    },
+    {
+      "part": "Data route right bearing",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 16625.93252714211
+    },
+    {
+      "part": "Q return bearing 216",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 11061.335317669347
+    },
+    {
+      "part": "Base left",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 51231.92053166571
+    },
+    {
+      "part": "Base middle",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 80493.45320424387
+    },
+    {
+      "part": "Base right",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 1,
+      "volume_mm3": 51936.36129763952
+    }
+  ],
+  "invalid": [
+    {
+      "part": "Rail guide 134",
+      "watertight": true,
+      "positive_volume": true,
+      "component_count": 2,
+      "volume_mm3": 1134.6616831518947
+    }
+  ]
+}

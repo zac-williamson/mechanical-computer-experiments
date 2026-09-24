@@ -1,0 +1,67 @@
+{
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "checks": [
+    {
+      "check": "D header continuous swept separation",
+      "report": "D route clearance checks.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Connector insertion and stop clearance",
+      "report": "Connector stop checks.json",
+      "status": "PASS"
+    },
+    {
+      "check": "External gear profiles",
+      "report": "External gear phase checks.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Recorded printed motion",
+      "report": "Contact-solved printed motion.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Native clutch surfaces at recorded poses",
+      "report": "Native dog surface checks.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Animated shaft direction consistency",
+      "report": "Rotation path checks.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Nominal opposing shaft retention",
+      "report": "Routing axial restraint.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Continuous all-part clearance, with tolerances",
+      "report": "Continuous all-part qualification.json",
+      "status": "MISSING"
+    },
+    {
+      "check": "Loaded clutch dog engagement and release",
+      "report": "Loaded clutch qualification.json",
+      "status": "MISSING"
+    },
+    {
+      "check": "All-axle 0.1 Nm load capacity",
+      "report": "All axle load qualification.json",
+      "status": "MISSING"
+    },
+    {
+      "check": "Assembly and axial retention",
+      "report": "Assembly retention qualification.json",
+      "status": "MISSING"
+    },
+    {
+      "check": "Printability, bearing finish and support-free base",
+      "report": "Print orientation qualification.json",
+      "status": "MISSING"
+    }
+  ],
+  "mechanically_qualified": false,
+  "print_release_allowed": false
+}

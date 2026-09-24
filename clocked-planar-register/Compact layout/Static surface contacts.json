@@ -1,0 +1,2015 @@
+{
+  "scope": "All pairs, static reference mesh angles. Includes designed contacts and unresolved penetrations; not an operation pass.",
+  "pairs": [
+    {
+      "a": "Bearing support 9.0 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "slave reversing idler 16T 32",
+      "depth_mm": 5.8000030517578125,
+      "contacts": 1079
+    },
+    {
+      "a": "Bearing support 9.0 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "slave POWER 16T 32",
+      "depth_mm": 5.8000030517578125,
+      "contacts": 564
+    },
+    {
+      "a": "Clock amplifier pivot",
+      "b": "Compact frame right",
+      "depth_mm": 3.799999237060547,
+      "contacts": 114
+    },
+    {
+      "a": "slave Carriage fork and roof",
+      "b": "slave lock bolt",
+      "depth_mm": 3.0000076293945312,
+      "contacts": 41
+    },
+    {
+      "a": "master Carriage fork and roof",
+      "b": "master lock bolt",
+      "depth_mm": 3.0,
+      "contacts": 41
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L072",
+      "depth_mm": 2.353913151826246,
+      "contacts": 306
+    },
+    {
+      "a": "slave roller axle",
+      "b": "slave roller bush 15.6",
+      "depth_mm": 2.353849453173197,
+      "contacts": 540
+    },
+    {
+      "a": "slave roller axle",
+      "b": "slave roller bush 27.6",
+      "depth_mm": 2.353849453173197,
+      "contacts": 542
+    },
+    {
+      "a": "master roller axle",
+      "b": "master roller bush 27.6",
+      "depth_mm": 2.353847411596675,
+      "contacts": 530
+    },
+    {
+      "a": "master roller axle",
+      "b": "master roller bush 15.6",
+      "depth_mm": 2.353847411596675,
+      "contacts": 536
+    },
+    {
+      "a": "CLK incoming joiner",
+      "b": "CLK incoming left 8L",
+      "depth_mm": 2.353845832253545,
+      "contacts": 255
+    },
+    {
+      "a": "CLK incoming joiner",
+      "b": "CLK incoming right 8L",
+      "depth_mm": 2.353845832253545,
+      "contacts": 259
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L069",
+      "depth_mm": 2.3538455409280203,
+      "contacts": 542
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "WRITE selector output right",
+      "depth_mm": 2.3538455409280203,
+      "contacts": 772
+    },
+    {
+      "a": "POWER incoming joiner",
+      "b": "POWER incoming left 12L",
+      "depth_mm": 2.3538455409280203,
+      "contacts": 255
+    },
+    {
+      "a": "POWER shaft joiner",
+      "b": "POWER shaft left 8L",
+      "depth_mm": 2.3538455409280203,
+      "contacts": 257
+    },
+    {
+      "a": "POWER incoming joiner",
+      "b": "POWER incoming right 10L",
+      "depth_mm": 2.3538455409280203,
+      "contacts": 259
+    },
+    {
+      "a": "POWER shaft joiner",
+      "b": "POWER shaft right 12L",
+      "depth_mm": 2.3538455409280203,
+      "contacts": 261
+    },
+    {
+      "a": "Clock amplifier output",
+      "b": "Clock output bush 70",
+      "depth_mm": 2.3538454340418618,
+      "contacts": 502
+    },
+    {
+      "a": "D external input 4L",
+      "b": "D header input 8T",
+      "depth_mm": 2.353845402016711,
+      "contacts": 758
+    },
+    {
+      "a": "Bearing support 6.0 \u2014 M worm right + M output right + Q gate left",
+      "b": "master reversing idler 16T 32",
+      "depth_mm": 1.7999992370605469,
+      "contacts": 130
+    },
+    {
+      "a": "Clock pivot bush 52",
+      "b": "Compact frame right",
+      "depth_mm": 1.7999992370605469,
+      "contacts": 258
+    },
+    {
+      "a": "Frame joint pin 40",
+      "b": "Q gate left frame pin 44",
+      "depth_mm": 1.5181739336123954,
+      "contacts": 127
+    },
+    {
+      "a": "clock U015",
+      "b": "clock U022",
+      "depth_mm": 1.4528807827446428,
+      "contacts": 88
+    },
+    {
+      "a": "write U015",
+      "b": "write U022",
+      "depth_mm": 1.4528804931268837,
+      "contacts": 88
+    },
+    {
+      "a": "slave U015",
+      "b": "slave U022",
+      "depth_mm": 1.4528786359413033,
+      "contacts": 88
+    },
+    {
+      "a": "master U015",
+      "b": "master U022",
+      "depth_mm": 1.4528785680218483,
+      "contacts": 88
+    },
+    {
+      "a": "clock U022",
+      "b": "clock reaction-stop-axle",
+      "depth_mm": 1.4408010130280076,
+      "contacts": 267
+    },
+    {
+      "a": "master U022",
+      "b": "master reaction-stop-axle",
+      "depth_mm": 1.4408002096412549,
+      "contacts": 228
+    },
+    {
+      "a": "slave U022",
+      "b": "slave reaction-stop-axle",
+      "depth_mm": 1.440800007076092,
+      "contacts": 238
+    },
+    {
+      "a": "write U022",
+      "b": "write reaction-stop-axle",
+      "depth_mm": 1.4407990011251641,
+      "contacts": 264
+    },
+    {
+      "a": "POWER shaft right 12L",
+      "b": "slave POWER 16T -16",
+      "depth_mm": 1.4130937536621673,
+      "contacts": 441
+    },
+    {
+      "a": "POWER shaft right 12L",
+      "b": "slave POWER 16T 32",
+      "depth_mm": 1.4130937536621673,
+      "contacts": 444
+    },
+    {
+      "a": "Selected data route 16T",
+      "b": "WRITE selector output right",
+      "depth_mm": 1.4130937536621673,
+      "contacts": 442
+    },
+    {
+      "a": "POWER header gear",
+      "b": "POWER incoming right 10L",
+      "depth_mm": 1.4130937536621673,
+      "contacts": 461
+    },
+    {
+      "a": "POWER shaft left 8L",
+      "b": "master POWER 16T 16",
+      "depth_mm": 1.4130937536621673,
+      "contacts": 441
+    },
+    {
+      "a": "POWER shaft left 8L",
+      "b": "master POWER 16T 32",
+      "depth_mm": 1.4130937536621673,
+      "contacts": 442
+    },
+    {
+      "a": "Q feedback front gear -92",
+      "b": "Q feedback shaft 32L",
+      "depth_mm": 1.413092028208828,
+      "contacts": 440
+    },
+    {
+      "a": "Q feedback front gear 150",
+      "b": "Q feedback shaft 32L",
+      "depth_mm": 1.413092028208828,
+      "contacts": 440
+    },
+    {
+      "a": "Q takeoff gear",
+      "b": "slave output right 8L",
+      "depth_mm": 1.41309188913722,
+      "contacts": 464
+    },
+    {
+      "a": "D header output 8T",
+      "b": "WRITE D input axle 5L",
+      "depth_mm": 1.41309188913722,
+      "contacts": 374
+    },
+    {
+      "a": "WRITE D input axle 5L",
+      "b": "WRITE D input gear",
+      "depth_mm": 1.41309188913722,
+      "contacts": 464
+    },
+    {
+      "a": "slave idler axle 9L",
+      "b": "slave reversing idler 16T 32",
+      "depth_mm": 1.4130918829935055,
+      "contacts": 440
+    },
+    {
+      "a": "slave idler axle 9L",
+      "b": "slave reversing idler 16T 16",
+      "depth_mm": 1.4130918829935055,
+      "contacts": 440
+    },
+    {
+      "a": "master idler axle 9L",
+      "b": "master reversing idler 16T 32",
+      "depth_mm": 1.4130918829935055,
+      "contacts": 440
+    },
+    {
+      "a": "master idler axle 9L",
+      "b": "master reversing idler 16T -16",
+      "depth_mm": 1.4130918829935055,
+      "contacts": 440
+    },
+    {
+      "a": "CLK header gear 0",
+      "b": "CLK incoming right 8L",
+      "depth_mm": 1.4130905931762996,
+      "contacts": 640
+    },
+    {
+      "a": "CLK header gear 2",
+      "b": "CLK input axle",
+      "depth_mm": 1.4130905931762925,
+      "contacts": 634
+    },
+    {
+      "a": "Clock amplifier output",
+      "b": "clock carriage track",
+      "depth_mm": 1.4000015258789062,
+      "contacts": 58
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L097",
+      "depth_mm": 1.3561186281451896,
+      "contacts": 606
+    },
+    {
+      "a": "slave L097",
+      "b": "slave output right 8L",
+      "depth_mm": 1.3561186029984977,
+      "contacts": 906
+    },
+    {
+      "a": "slave L097",
+      "b": "slave output left 3L",
+      "depth_mm": 1.3561186029984977,
+      "contacts": 672
+    },
+    {
+      "a": "master L097",
+      "b": "master output right 7L",
+      "depth_mm": 1.3561186029984977,
+      "contacts": 376
+    },
+    {
+      "a": "master L097",
+      "b": "master output left 3L",
+      "depth_mm": 1.3561186029984977,
+      "contacts": 672
+    },
+    {
+      "a": "CLK header gear 0",
+      "b": "CLK header gear 2",
+      "depth_mm": 1.3437185720423663,
+      "contacts": 127
+    },
+    {
+      "a": "master output right 7L",
+      "b": "slave_gate B-input",
+      "depth_mm": 1.340651487624954,
+      "contacts": 184
+    },
+    {
+      "a": "Frame joint pin 40",
+      "b": "M worm right frame pin 44",
+      "depth_mm": 1.3387971803382896,
+      "contacts": 146
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate worm drive 10L",
+      "depth_mm": 1.287536592173435,
+      "contacts": 342
+    },
+    {
+      "a": "Master gate data stub 2L",
+      "b": "master_gate B-input",
+      "depth_mm": 1.2819402941248574,
+      "contacts": 214
+    },
+    {
+      "a": "D header input 8T",
+      "b": "D header output 8T",
+      "depth_mm": 1.23375931892933,
+      "contacts": 156
+    },
+    {
+      "a": "master_gate L097",
+      "b": "master_gate worm drive 11L",
+      "depth_mm": 1.2146220263460439,
+      "contacts": 248
+    },
+    {
+      "a": "Compact frame left",
+      "b": "WRITE worm left frame pin -23",
+      "depth_mm": 1.2087079439257309,
+      "contacts": 1005
+    },
+    {
+      "a": "Compact frame left",
+      "b": "POWER input frame pin -33",
+      "depth_mm": 1.2087079439257309,
+      "contacts": 1047
+    },
+    {
+      "a": "CLK external left frame pin -28",
+      "b": "Compact frame left",
+      "depth_mm": 1.2087079439257309,
+      "contacts": 1123
+    },
+    {
+      "a": "Compact frame left",
+      "b": "WRITE worm left frame pin -41",
+      "depth_mm": 1.2087062332777805,
+      "contacts": 1035
+    },
+    {
+      "a": "CLK external left frame pin -46",
+      "b": "Compact frame left",
+      "depth_mm": 1.2087062332777805,
+      "contacts": 996
+    },
+    {
+      "a": "slave reaction-retainer",
+      "b": "slave reaction-stop-axle",
+      "depth_mm": 1.1769631122038646,
+      "contacts": 164
+    },
+    {
+      "a": "write reaction-retainer",
+      "b": "write reaction-stop-axle",
+      "depth_mm": 1.1769628203567208,
+      "contacts": 143
+    },
+    {
+      "a": "clock reaction-retainer",
+      "b": "clock reaction-stop-axle",
+      "depth_mm": 1.1769589374695855,
+      "contacts": 142
+    },
+    {
+      "a": "slave pivot-retainer",
+      "b": "slave pivot-stop-axle",
+      "depth_mm": 1.1769578709334212,
+      "contacts": 191
+    },
+    {
+      "a": "write pivot-retainer",
+      "b": "write pivot-stop-axle",
+      "depth_mm": 1.1769575471332558,
+      "contacts": 197
+    },
+    {
+      "a": "clock pivot-retainer",
+      "b": "clock pivot-stop-axle",
+      "depth_mm": 1.1769575471332558,
+      "contacts": 177
+    },
+    {
+      "a": "master pivot-retainer",
+      "b": "master pivot-stop-axle",
+      "depth_mm": 1.1769572801864854,
+      "contacts": 184
+    },
+    {
+      "a": "master reaction-retainer",
+      "b": "master reaction-stop-axle",
+      "depth_mm": 1.176957132413257,
+      "contacts": 124
+    },
+    {
+      "a": "Common fork and cam bar",
+      "b": "master_gate crosshead pin -70",
+      "depth_mm": 1.1203994750976562,
+      "contacts": 533
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "write L069",
+      "depth_mm": 1.1000003814697266,
+      "contacts": 103
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate left clutch stub 3L",
+      "depth_mm": 1.094766763998127,
+      "contacts": 163
+    },
+    {
+      "a": "clock Front bearing cheek",
+      "b": "clock reaction-stop-axle",
+      "depth_mm": 1.0753337303149983,
+      "contacts": 40
+    },
+    {
+      "a": "clock Rear bearing cheek",
+      "b": "clock reaction-stop-axle",
+      "depth_mm": 1.0753337303149948,
+      "contacts": 39
+    },
+    {
+      "a": "master Front bearing cheek",
+      "b": "master reaction-stop-axle",
+      "depth_mm": 1.0753322440041782,
+      "contacts": 40
+    },
+    {
+      "a": "master Rear bearing cheek",
+      "b": "master reaction-stop-axle",
+      "depth_mm": 1.0753322440041764,
+      "contacts": 39
+    },
+    {
+      "a": "write Front bearing cheek",
+      "b": "write reaction-stop-axle",
+      "depth_mm": 1.075328081824992,
+      "contacts": 40
+    },
+    {
+      "a": "write Rear bearing cheek",
+      "b": "write reaction-stop-axle",
+      "depth_mm": 1.075328081824992,
+      "contacts": 39
+    },
+    {
+      "a": "slave Rear bearing cheek",
+      "b": "slave reaction-stop-axle",
+      "depth_mm": 1.075327075871158,
+      "contacts": 39
+    },
+    {
+      "a": "slave Front bearing cheek",
+      "b": "slave reaction-stop-axle",
+      "depth_mm": 1.075327075871158,
+      "contacts": 40
+    },
+    {
+      "a": "Compact frame left",
+      "b": "M worm right frame pin 44",
+      "depth_mm": 1.0252628326416016,
+      "contacts": 558
+    },
+    {
+      "a": "Compact frame left",
+      "b": "M worm right frame pin 34",
+      "depth_mm": 1.0252628326416016,
+      "contacts": 579
+    },
+    {
+      "a": "Compact frame right",
+      "b": "M worm right frame pin 34",
+      "depth_mm": 1.0252628326416016,
+      "contacts": 541
+    },
+    {
+      "a": "Compact frame right",
+      "b": "M worm right frame pin 44",
+      "depth_mm": 1.0243988037109375,
+      "contacts": 579
+    },
+    {
+      "a": "Common fork and cam bar",
+      "b": "master roller bush 27.6",
+      "depth_mm": 1.0,
+      "contacts": 37
+    },
+    {
+      "a": "Common fork and cam bar",
+      "b": "slave roller bush 27.6",
+      "depth_mm": 1.0,
+      "contacts": 37
+    },
+    {
+      "a": "Bearing support 9.0 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "slave L069",
+      "depth_mm": 0.948071461884783,
+      "contacts": 279
+    },
+    {
+      "a": "Bearing support 6.0 \u2014 M worm right + M output right + Q gate left",
+      "b": "master L069",
+      "depth_mm": 0.9480590797921145,
+      "contacts": 283
+    },
+    {
+      "a": "Compact frame left",
+      "b": "D header frame pin -1",
+      "depth_mm": 0.9124062433750595,
+      "contacts": 833
+    },
+    {
+      "a": "Compact frame left",
+      "b": "Feedback left frame pin 1",
+      "depth_mm": 0.9124062433750524,
+      "contacts": 798
+    },
+    {
+      "a": "Compact frame right",
+      "b": "M output right frame pin -9",
+      "depth_mm": 0.8815994262695312,
+      "contacts": 829
+    },
+    {
+      "a": "Compact frame right",
+      "b": "M output right frame pin 9",
+      "depth_mm": 0.8815994262695312,
+      "contacts": 717
+    },
+    {
+      "a": "Compact frame left",
+      "b": "Feedback left frame pin -17",
+      "depth_mm": 0.8735959053569786,
+      "contacts": 860
+    },
+    {
+      "a": "Compact frame left",
+      "b": "POWER input frame pin -15",
+      "depth_mm": 0.8735954272216162,
+      "contacts": 833
+    },
+    {
+      "a": "slave_gate Right carriage bearing support",
+      "b": "slave_gate crosshead pin 72",
+      "depth_mm": 0.8628406524658203,
+      "contacts": 898
+    },
+    {
+      "a": "master_gate Right carriage bearing support",
+      "b": "master_gate crosshead pin -48",
+      "depth_mm": 0.8628406524658203,
+      "contacts": 900
+    },
+    {
+      "a": "WRITE D input gear",
+      "b": "write L102",
+      "depth_mm": 0.84080948035988,
+      "contacts": 186
+    },
+    {
+      "a": "D header frame pin -1",
+      "b": "Feedback left frame pin 1",
+      "depth_mm": 0.8193824878136695,
+      "contacts": 763
+    },
+    {
+      "a": "slave L102",
+      "b": "slave POWER 16T -16",
+      "depth_mm": 0.8053135382705605,
+      "contacts": 214
+    },
+    {
+      "a": "slave L069",
+      "b": "slave output right 8L",
+      "depth_mm": 0.8000001907348633,
+      "contacts": 215
+    },
+    {
+      "a": "slave output left 3L",
+      "b": "slave output right 8L",
+      "depth_mm": 0.8000001907348633,
+      "contacts": 798
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L105",
+      "depth_mm": 0.8000001907348633,
+      "contacts": 244
+    },
+    {
+      "a": "master L069",
+      "b": "master output right 7L",
+      "depth_mm": 0.8000001907348633,
+      "contacts": 214
+    },
+    {
+      "a": "slave_gate left clutch stub 3L",
+      "b": "slave_gate worm drive 10L",
+      "depth_mm": 0.8000001907348633,
+      "contacts": 804
+    },
+    {
+      "a": "slave Carriage fork and roof",
+      "b": "slave Carriage support pin 1 2.0",
+      "depth_mm": 0.7999999999999972,
+      "contacts": 766
+    },
+    {
+      "a": "slave Front bearing cheek",
+      "b": "slave cheek joining pin 27.8",
+      "depth_mm": 0.7999997138977051,
+      "contacts": 1039
+    },
+    {
+      "a": "slave Front bearing cheek",
+      "b": "slave cheek joining pin 34.2",
+      "depth_mm": 0.7999997138977051,
+      "contacts": 1076
+    },
+    {
+      "a": "write Front bearing cheek",
+      "b": "write cheek joining pin 34.2",
+      "depth_mm": 0.7999997138977051,
+      "contacts": 1059
+    },
+    {
+      "a": "write Front bearing cheek",
+      "b": "write cheek joining pin 27.8",
+      "depth_mm": 0.7999997138977051,
+      "contacts": 1045
+    },
+    {
+      "a": "clock Front bearing cheek",
+      "b": "clock cheek joining pin 34.2",
+      "depth_mm": 0.7999997138977051,
+      "contacts": 1062
+    },
+    {
+      "a": "clock Front bearing cheek",
+      "b": "clock cheek joining pin 27.8",
+      "depth_mm": 0.7999997138977051,
+      "contacts": 1047
+    },
+    {
+      "a": "master Front bearing cheek",
+      "b": "master cheek joining pin 34.2",
+      "depth_mm": 0.7999997138977051,
+      "contacts": 1080
+    },
+    {
+      "a": "master Front bearing cheek",
+      "b": "master cheek joining pin 27.8",
+      "depth_mm": 0.7999997138977051,
+      "contacts": 1039
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Q output left frame pin -9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 939
+    },
+    {
+      "a": "Compact frame right",
+      "b": "POWER bus frame pin -7",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 906
+    },
+    {
+      "a": "CLK worm right frame pin -41",
+      "b": "Compact frame right",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 881
+    },
+    {
+      "a": "CLK worm right frame pin -23",
+      "b": "Compact frame right",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 882
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Feedback right frame pin 1",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 917
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Q output right frame pin 9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 944
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Q output right frame pin -9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 957
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Feedback right frame pin -17",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 923
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Crosshead guide pin 106 13",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 890
+    },
+    {
+      "a": "Compact frame right",
+      "b": "slave track mount 12.0",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 890
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Q output left frame pin 9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 950
+    },
+    {
+      "a": "Compact frame right",
+      "b": "slave cheek frame pin 27.8",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 893
+    },
+    {
+      "a": "Compact frame right",
+      "b": "slave cheek frame pin 34.2",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 1004
+    },
+    {
+      "a": "Compact frame right",
+      "b": "slave guide frame pin 90.95",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 991
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Q worm right frame pin 44",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 995
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Q worm right frame pin 34",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 991
+    },
+    {
+      "a": "Compact frame right",
+      "b": "slave guide frame pin 110.95",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 1063
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Crosshead guide pin 106 27",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 876
+    },
+    {
+      "a": "Compact frame right",
+      "b": "slave track mount -12.0",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 890
+    },
+    {
+      "a": "Compact frame left",
+      "b": "M worm left frame pin -5",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 964
+    },
+    {
+      "a": "Compact frame left",
+      "b": "M output left frame pin -9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 954
+    },
+    {
+      "a": "Compact frame left",
+      "b": "M worm left frame pin 13",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 996
+    },
+    {
+      "a": "Compact frame left",
+      "b": "M output left frame pin 9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 1042
+    },
+    {
+      "a": "Compact frame left",
+      "b": "master cheek frame pin 27.8",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 923
+    },
+    {
+      "a": "Compact frame left",
+      "b": "master cheek frame pin 34.2",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 990
+    },
+    {
+      "a": "Compact frame left",
+      "b": "master guide frame pin -15.05",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 1002
+    },
+    {
+      "a": "CLK external right frame pin -28",
+      "b": "Compact frame left",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 905
+    },
+    {
+      "a": "CLK external right frame pin -46",
+      "b": "Compact frame left",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 884
+    },
+    {
+      "a": "write L102",
+      "b": "write L105",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 400
+    },
+    {
+      "a": "CLK external left frame pin -46",
+      "b": "WRITE worm left frame pin -41",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 452
+    },
+    {
+      "a": "CLK external left frame pin -28",
+      "b": "POWER input frame pin -33",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 452
+    },
+    {
+      "a": "Feedback left frame pin -17",
+      "b": "POWER input frame pin -15",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 710
+    },
+    {
+      "a": "CLK external left frame pin -28",
+      "b": "WRITE worm left frame pin -23",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 452
+    },
+    {
+      "a": "Compact frame left",
+      "b": "write cheek frame pin 34.2",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 986
+    },
+    {
+      "a": "Compact frame left",
+      "b": "write cheek frame pin 27.8",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 892
+    },
+    {
+      "a": "Compact frame left",
+      "b": "WRITE worm right frame pin -21",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 932
+    },
+    {
+      "a": "Compact frame left",
+      "b": "WRITE worm right frame pin -31",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 897
+    },
+    {
+      "a": "Compact frame left",
+      "b": "write track mount -19.9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 884
+    },
+    {
+      "a": "Compact frame left",
+      "b": "D transfer right frame pin -9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 939
+    },
+    {
+      "a": "Compact frame left",
+      "b": "D transfer left frame pin -9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 939
+    },
+    {
+      "a": "Compact frame left",
+      "b": "D header frame pin 17",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 894
+    },
+    {
+      "a": "Compact frame left",
+      "b": "D transfer right frame pin 9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 950
+    },
+    {
+      "a": "Compact frame left",
+      "b": "D transfer left frame pin 9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 950
+    },
+    {
+      "a": "Compact frame left",
+      "b": "write track mount 19.9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 895
+    },
+    {
+      "a": "Clock amplifier input",
+      "b": "Clock input bush 44",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 245
+    },
+    {
+      "a": "Clock amplifier input",
+      "b": "Clock input bush 36",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 246
+    },
+    {
+      "a": "Clock amplifier input",
+      "b": "Clock input bush 30",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 248
+    },
+    {
+      "a": "Clock amplifier pivot",
+      "b": "Clock pivot bush 36",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 246
+    },
+    {
+      "a": "Clock amplifier output",
+      "b": "Clock output bush 64.2",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 246
+    },
+    {
+      "a": "Clock amplifier output",
+      "b": "Clock output bush 44",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 245
+    },
+    {
+      "a": "Clock amplifier pivot",
+      "b": "Clock pivot bush 52",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 246
+    },
+    {
+      "a": "Clock amplifier output",
+      "b": "Clock output bush 36",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 246
+    },
+    {
+      "a": "CLK worm left frame pin -41",
+      "b": "Compact frame left",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 881
+    },
+    {
+      "a": "Compact frame left",
+      "b": "clock track mount 19.9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 891
+    },
+    {
+      "a": "CLK worm left frame pin -23",
+      "b": "Compact frame left",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 882
+    },
+    {
+      "a": "Compact frame left",
+      "b": "M output right frame pin -9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 208
+    },
+    {
+      "a": "Compact frame left",
+      "b": "M output right frame pin 9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 217
+    },
+    {
+      "a": "Compact frame left",
+      "b": "master track mount 12.0",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 890
+    },
+    {
+      "a": "Compact frame left",
+      "b": "Crosshead guide pin 0 13",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 882
+    },
+    {
+      "a": "Compact frame left",
+      "b": "Crosshead guide pin 0 27",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 895
+    },
+    {
+      "a": "Compact frame left",
+      "b": "master track mount -12.0",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 890
+    },
+    {
+      "a": "Compact frame left",
+      "b": "master guide frame pin 4.95",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 1023
+    },
+    {
+      "a": "Compact frame right",
+      "b": "clock cheek frame pin 34.2",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 982
+    },
+    {
+      "a": "Compact frame right",
+      "b": "clock track mount -19.9",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 884
+    },
+    {
+      "a": "Compact frame right",
+      "b": "POWER input right frame pin -33",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 1044
+    },
+    {
+      "a": "Compact frame right",
+      "b": "POWER bus frame pin -25",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 988
+    },
+    {
+      "a": "Compact frame right",
+      "b": "POWER input right frame pin -15",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 961
+    },
+    {
+      "a": "Compact frame right",
+      "b": "clock cheek frame pin 27.8",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 915
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Q gate left frame pin 34",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 998
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Q gate left frame pin 44",
+      "depth_mm": 0.7999992370605469,
+      "contacts": 1085
+    },
+    {
+      "a": "slave L102",
+      "b": "slave output left 3L",
+      "depth_mm": 0.7790810037404299,
+      "contacts": 98
+    },
+    {
+      "a": "master L102",
+      "b": "master output left 3L",
+      "depth_mm": 0.7790810037404299,
+      "contacts": 98
+    },
+    {
+      "a": "WRITE input axle",
+      "b": "write U015",
+      "depth_mm": 0.7141196163518337,
+      "contacts": 72
+    },
+    {
+      "a": "CLK input axle",
+      "b": "clock U015",
+      "depth_mm": 0.7141196163518337,
+      "contacts": 72
+    },
+    {
+      "a": "slave U015",
+      "b": "slave_gate worm drive 10L",
+      "depth_mm": 0.7141194302194389,
+      "contacts": 71
+    },
+    {
+      "a": "master U015",
+      "b": "master_gate worm drive 11L",
+      "depth_mm": 0.7141194302194389,
+      "contacts": 70
+    },
+    {
+      "a": "clock Carriage fork and roof",
+      "b": "master POWER 16T 32",
+      "depth_mm": 0.7090642955018627,
+      "contacts": 10
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Frame joint pin 40",
+      "depth_mm": 0.6987634514071459,
+      "contacts": 487
+    },
+    {
+      "a": "clock Rear bearing cheek",
+      "b": "clock cheek joining pin 27.8",
+      "depth_mm": 0.6987624551594891,
+      "contacts": 583
+    },
+    {
+      "a": "write Rear bearing cheek",
+      "b": "write cheek joining pin 27.8",
+      "depth_mm": 0.698762205698209,
+      "contacts": 584
+    },
+    {
+      "a": "write Rear bearing cheek",
+      "b": "write cheek joining pin 34.2",
+      "depth_mm": 0.6987622056982019,
+      "contacts": 586
+    },
+    {
+      "a": "clock Rear bearing cheek",
+      "b": "clock cheek joining pin 34.2",
+      "depth_mm": 0.6987622056982019,
+      "contacts": 585
+    },
+    {
+      "a": "slave Rear bearing cheek",
+      "b": "slave cheek joining pin 27.8",
+      "depth_mm": 0.6987602895437561,
+      "contacts": 578
+    },
+    {
+      "a": "Common fork and cam bar",
+      "b": "slave_gate crosshead pin 72",
+      "depth_mm": 0.6987602895437561,
+      "contacts": 533
+    },
+    {
+      "a": "slave Rear bearing cheek",
+      "b": "slave cheek joining pin 34.2",
+      "depth_mm": 0.6987602895437526,
+      "contacts": 584
+    },
+    {
+      "a": "slave Carriage support pin 1 2.0",
+      "b": "slave Right carriage bearing support",
+      "depth_mm": 0.6987601155149807,
+      "contacts": 732
+    },
+    {
+      "a": "master Carriage support pin 1 2.0",
+      "b": "master Right carriage bearing support",
+      "depth_mm": 0.6987601155149807,
+      "contacts": 762
+    },
+    {
+      "a": "Common fork and cam bar",
+      "b": "master_gate crosshead pin -48",
+      "depth_mm": 0.6987600400603178,
+      "contacts": 529
+    },
+    {
+      "a": "Common fork and cam bar",
+      "b": "slave_gate crosshead pin 50",
+      "depth_mm": 0.698760040060316,
+      "contacts": 528
+    },
+    {
+      "a": "Clock output post",
+      "b": "Crosshead post pin 34 20",
+      "depth_mm": 0.6987600400603142,
+      "contacts": 563
+    },
+    {
+      "a": "Clock output post",
+      "b": "Crosshead post pin 46 20",
+      "depth_mm": 0.6987600400603142,
+      "contacts": 559
+    },
+    {
+      "a": "master Rear bearing cheek",
+      "b": "master cheek joining pin 34.2",
+      "depth_mm": 0.6987600228632971,
+      "contacts": 584
+    },
+    {
+      "a": "master Rear bearing cheek",
+      "b": "master cheek joining pin 27.8",
+      "depth_mm": 0.6987600228632971,
+      "contacts": 578
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Frame joint pin -56",
+      "depth_mm": 0.6987578744004139,
+      "contacts": 556
+    },
+    {
+      "a": "Compact frame right",
+      "b": "Frame joint pin 56",
+      "depth_mm": 0.6987578744004139,
+      "contacts": 547
+    },
+    {
+      "a": "slave Carriage support pin 1 18.0",
+      "b": "slave Right carriage bearing support",
+      "depth_mm": 0.6360738482078148,
+      "contacts": 745
+    },
+    {
+      "a": "clock Carriage support pin 1 18.0",
+      "b": "clock Right carriage bearing support",
+      "depth_mm": 0.6360708945109703,
+      "contacts": 742
+    },
+    {
+      "a": "master Carriage support pin 1 18.0",
+      "b": "master Right carriage bearing support",
+      "depth_mm": 0.6360698032084606,
+      "contacts": 745
+    },
+    {
+      "a": "write Carriage support pin 1 2.0",
+      "b": "write Right carriage bearing support",
+      "depth_mm": 0.6360696198231324,
+      "contacts": 741
+    },
+    {
+      "a": "write Carriage support pin 1 18.0",
+      "b": "write Right carriage bearing support",
+      "depth_mm": 0.6360695575807824,
+      "contacts": 742
+    },
+    {
+      "a": "write carriage track",
+      "b": "write track mount -19.9",
+      "depth_mm": 0.6052532196044922,
+      "contacts": 684
+    },
+    {
+      "a": "clock carriage track",
+      "b": "clock track mount -19.9",
+      "depth_mm": 0.6052532196044922,
+      "contacts": 684
+    },
+    {
+      "a": "slave carriage track",
+      "b": "slave track mount -12.0",
+      "depth_mm": 0.6052513122558594,
+      "contacts": 676
+    },
+    {
+      "a": "master carriage track",
+      "b": "master track mount -12.0",
+      "depth_mm": 0.6052513122558594,
+      "contacts": 682
+    },
+    {
+      "a": "write carriage track",
+      "b": "write track mount 19.9",
+      "depth_mm": 0.6048011779785156,
+      "contacts": 686
+    },
+    {
+      "a": "clock carriage track",
+      "b": "clock track mount 19.9",
+      "depth_mm": 0.6048011779785156,
+      "contacts": 692
+    },
+    {
+      "a": "slave carriage track",
+      "b": "slave track mount 12.0",
+      "depth_mm": 0.6048002243041992,
+      "contacts": 686
+    },
+    {
+      "a": "master carriage track",
+      "b": "master track mount 12.0",
+      "depth_mm": 0.6048002243041992,
+      "contacts": 692
+    },
+    {
+      "a": "Bearing support 9.0 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "Feedback right frame pin 1",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 562
+    },
+    {
+      "a": "Bearing support 9.0 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "Q output right frame pin 9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "Bearing support 9.0 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "Q output right frame pin -9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 561
+    },
+    {
+      "a": "Bearing support 9.0 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "Feedback right frame pin -17",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 530
+    },
+    {
+      "a": "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+      "b": "CLK worm right frame pin -23",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "Bearing support 8.1 \u2014 CLK worm right + Q output left",
+      "b": "Q output left frame pin -9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 530
+    },
+    {
+      "a": "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+      "b": "CLK worm right frame pin -41",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 530
+    },
+    {
+      "a": "slave compact bolt guide",
+      "b": "slave guide frame pin 90.95",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 579
+    },
+    {
+      "a": "slave compact bolt guide",
+      "b": "slave guide frame pin 110.95",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 579
+    },
+    {
+      "a": "Captured crosshead guide 106",
+      "b": "Crosshead guide pin 106 27",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 633
+    },
+    {
+      "a": "slave Rear bearing cheek",
+      "b": "slave cheek frame pin 27.8",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 615
+    },
+    {
+      "a": "slave Rear bearing cheek",
+      "b": "slave cheek frame pin 34.2",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 615
+    },
+    {
+      "a": "Bearing support 9.1 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "Q worm right frame pin 44",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 520
+    },
+    {
+      "a": "Bearing support 9.1 \u2014 Q output right + Q worm right + Feedback right",
+      "b": "Q worm right frame pin 34",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 551
+    },
+    {
+      "a": "Captured crosshead guide 106",
+      "b": "Crosshead guide pin 106 13",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 632
+    },
+    {
+      "a": "Bearing support 8.1 \u2014 CLK worm right + Q output left",
+      "b": "Q output left frame pin 9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "Bearing support 4.0 \u2014 M worm left + M output left + CLK external right",
+      "b": "M worm left frame pin -5",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 592
+    },
+    {
+      "a": "Bearing support 4.0 \u2014 M worm left + M output left + CLK external right",
+      "b": "M output left frame pin -9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 580
+    },
+    {
+      "a": "Bearing support 4.0 \u2014 M worm left + M output left + CLK external right",
+      "b": "M worm left frame pin 13",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 585
+    },
+    {
+      "a": "Bearing support 4.0 \u2014 M worm left + M output left + CLK external right",
+      "b": "M output left frame pin 9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 603
+    },
+    {
+      "a": "Bearing support 4.1 \u2014 M worm left + M output left + CLK external right",
+      "b": "CLK external right frame pin -46",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 530
+    },
+    {
+      "a": "Bearing support 4.1 \u2014 M worm left + M output left + CLK external right",
+      "b": "CLK external right frame pin -28",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 539
+    },
+    {
+      "a": "Bearing support 3.0 \u2014 WRITE worm right",
+      "b": "WRITE worm right frame pin -21",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 521
+    },
+    {
+      "a": "Bearing support 3.0 \u2014 WRITE worm right",
+      "b": "WRITE worm right frame pin -31",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 575
+    },
+    {
+      "a": "write Rear bearing cheek",
+      "b": "write cheek frame pin 34.2",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 618
+    },
+    {
+      "a": "write Rear bearing cheek",
+      "b": "write cheek frame pin 27.8",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 621
+    },
+    {
+      "a": "Bearing support 1.0 \u2014 D transfer left",
+      "b": "D transfer left frame pin -9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 540
+    },
+    {
+      "a": "Bearing support 2.0 \u2014 D transfer right",
+      "b": "D transfer right frame pin -9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 540
+    },
+    {
+      "a": "Bearing support 1.0 \u2014 D transfer left",
+      "b": "D transfer left frame pin 9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "Bearing support 2.0 \u2014 D transfer right",
+      "b": "D transfer right frame pin 9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "WRITE worm left frame pin -23",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 621
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "Feedback left frame pin 1",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 520
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "D header frame pin -1",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 501
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "D header frame pin 17",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "WRITE worm left frame pin -41",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 626
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "CLK external left frame pin -46",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 575
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "POWER input frame pin -33",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 557
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "CLK external left frame pin -28",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 607
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "Feedback left frame pin -17",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 531
+    },
+    {
+      "a": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + Feedback left",
+      "b": "POWER input frame pin -15",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 504
+    },
+    {
+      "a": "master_gate Carriage fork and roof",
+      "b": "master_gate crosshead pin -70",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 729
+    },
+    {
+      "a": "clock Rear bearing cheek",
+      "b": "clock cheek frame pin 34.2",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 617
+    },
+    {
+      "a": "clock Rear bearing cheek",
+      "b": "clock cheek frame pin 27.8",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 620
+    },
+    {
+      "a": "Bearing support 5.0 \u2014 CLK worm left",
+      "b": "CLK worm left frame pin -23",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "Bearing support 7.0 \u2014 POWER bus + POWER input right",
+      "b": "POWER input right frame pin -33",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 530
+    },
+    {
+      "a": "Bearing support 7.0 \u2014 POWER bus + POWER input right",
+      "b": "POWER bus frame pin -25",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 570
+    },
+    {
+      "a": "Bearing support 7.0 \u2014 POWER bus + POWER input right",
+      "b": "POWER input right frame pin -15",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 562
+    },
+    {
+      "a": "Bearing support 5.0 \u2014 CLK worm left",
+      "b": "CLK worm left frame pin -41",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 530
+    },
+    {
+      "a": "Common fork and cam bar",
+      "b": "Crosshead post pin 34 20",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 599
+    },
+    {
+      "a": "Common fork and cam bar",
+      "b": "Crosshead post pin 46 20",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 603
+    },
+    {
+      "a": "slave_gate Carriage fork and roof",
+      "b": "slave_gate crosshead pin 50",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 730
+    },
+    {
+      "a": "Bearing support 6.0 \u2014 M worm right + M output right + Q gate left",
+      "b": "M output right frame pin 9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "Captured crosshead guide 0",
+      "b": "Crosshead guide pin 0 13",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 632
+    },
+    {
+      "a": "Captured crosshead guide 0",
+      "b": "Crosshead guide pin 0 27",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 633
+    },
+    {
+      "a": "Bearing support 6.1 \u2014 M worm right + M output right + Q gate left",
+      "b": "M worm right frame pin 44",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 520
+    },
+    {
+      "a": "Bearing support 6.1 \u2014 M worm right + M output right + Q gate left",
+      "b": "M worm right frame pin 34",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 551
+    },
+    {
+      "a": "master compact bolt guide",
+      "b": "master guide frame pin 4.95",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 579
+    },
+    {
+      "a": "Bearing support 6.2 \u2014 M worm right + M output right + Q gate left",
+      "b": "Q gate left frame pin 44",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 535
+    },
+    {
+      "a": "Bearing support 6.2 \u2014 M worm right + M output right + Q gate left",
+      "b": "Q gate left frame pin 34",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 585
+    },
+    {
+      "a": "Bearing support 6.0 \u2014 M worm right + M output right + Q gate left",
+      "b": "M output right frame pin -9",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 530
+    },
+    {
+      "a": "Compact frame left",
+      "b": "Frame joint pin -56",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 601
+    },
+    {
+      "a": "master Rear bearing cheek",
+      "b": "master cheek frame pin 27.8",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 615
+    },
+    {
+      "a": "master Rear bearing cheek",
+      "b": "master cheek frame pin 34.2",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 616
+    },
+    {
+      "a": "master compact bolt guide",
+      "b": "master guide frame pin -15.05",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 579
+    },
+    {
+      "a": "Compact frame left",
+      "b": "Frame joint pin 40",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 569
+    },
+    {
+      "a": "Compact frame left",
+      "b": "Frame joint pin 56",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 602
+    },
+    {
+      "a": "Bearing support 7.0 \u2014 POWER bus + POWER input right",
+      "b": "POWER bus frame pin -7",
+      "depth_mm": 0.5999984741210938,
+      "contacts": 536
+    },
+    {
+      "a": "master_gate L102",
+      "b": "master_gate worm drive 11L",
+      "depth_mm": 0.5908031463623047,
+      "contacts": 84
+    },
+    {
+      "a": "slave_gate L102",
+      "b": "slave_gate left clutch stub 3L",
+      "depth_mm": 0.5908031463623047,
+      "contacts": 84
+    },
+    {
+      "a": "master_gate L097",
+      "b": "master_gate L099",
+      "depth_mm": 0.4525577659121831,
+      "contacts": 112
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate L099",
+      "depth_mm": 0.4525577659121831,
+      "contacts": 112
+    },
+    {
+      "a": "slave L097",
+      "b": "slave L099",
+      "depth_mm": 0.4525574195249842,
+      "contacts": 111
+    },
+    {
+      "a": "master L097",
+      "b": "master L099",
+      "depth_mm": 0.4525574195249842,
+      "contacts": 111
+    },
+    {
+      "a": "write L097",
+      "b": "write L099",
+      "depth_mm": 0.4525574195249824,
+      "contacts": 111
+    },
+    {
+      "a": "slave L072",
+      "b": "slave reversing idler 16T 16",
+      "depth_mm": 0.43714287386577055,
+      "contacts": 123
+    },
+    {
+      "a": "master Carriage fork and roof",
+      "b": "master Carriage support pin 1 2.0",
+      "depth_mm": 0.40000928410132364,
+      "contacts": 696
+    },
+    {
+      "a": "slave L072",
+      "b": "slave output right 8L",
+      "depth_mm": 0.38325145840644836,
+      "contacts": 120
+    },
+    {
+      "a": "master L072",
+      "b": "master output right 7L",
+      "depth_mm": 0.38325145840644836,
+      "contacts": 120
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L102",
+      "depth_mm": 0.35839632692720613,
+      "contacts": 34
+    },
+    {
+      "a": "write Carriage fork and roof",
+      "b": "write Carriage support pin 1 2.0",
+      "depth_mm": 0.32876498946545496,
+      "contacts": 478
+    },
+    {
+      "a": "Selected data route 16T",
+      "b": "master_gate B-input",
+      "depth_mm": 0.3235111271051174,
+      "contacts": 83
+    },
+    {
+      "a": "write Carriage fork and roof",
+      "b": "write Carriage support pin 1 18.0",
+      "depth_mm": 0.3011387379392687,
+      "contacts": 477
+    },
+    {
+      "a": "write L072",
+      "b": "write L097",
+      "depth_mm": 0.22203283611440838,
+      "contacts": 576
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L097",
+      "depth_mm": 0.20263977264351496,
+      "contacts": 286
+    },
+    {
+      "a": "master L102",
+      "b": "master reversing idler 16T -16",
+      "depth_mm": 0.19134153269212106,
+      "contacts": 112
+    },
+    {
+      "a": "Q feedback front gear -92",
+      "b": "write L072",
+      "depth_mm": 0.1758536083643829,
+      "contacts": 92
+    },
+    {
+      "a": "clock Carriage fork and roof",
+      "b": "clock Carriage support pin 1 18.0",
+      "depth_mm": 0.15249925690505428,
+      "contacts": 748
+    },
+    {
+      "a": "slave Carriage fork and roof",
+      "b": "slave Carriage support pin 1 18.0",
+      "depth_mm": 0.15249791044779215,
+      "contacts": 756
+    },
+    {
+      "a": "master Carriage fork and roof",
+      "b": "master Carriage support pin 1 18.0",
+      "depth_mm": 0.15249791044779215,
+      "contacts": 756
+    },
+    {
+      "a": "slave L072",
+      "b": "slave L097",
+      "depth_mm": 0.1370029367505028,
+      "contacts": 528
+    },
+    {
+      "a": "master L072",
+      "b": "master L097",
+      "depth_mm": 0.1370029367505028,
+      "contacts": 308
+    },
+    {
+      "a": "slave POWER 16T 32",
+      "b": "slave reversing idler 16T 32",
+      "depth_mm": 0.1299947580922307,
+      "contacts": 128
+    },
+    {
+      "a": "master POWER 16T 32",
+      "b": "master reversing idler 16T 32",
+      "depth_mm": 0.12999475809222716,
+      "contacts": 128
+    },
+    {
+      "a": "POWER header gear",
+      "b": "master POWER 16T 32",
+      "depth_mm": 0.12999460175903366,
+      "contacts": 128
+    },
+    {
+      "a": "Q feedback front gear 150",
+      "b": "Q takeoff gear",
+      "depth_mm": 0.1299942584333884,
+      "contacts": 128
+    },
+    {
+      "a": "slave L097",
+      "b": "slave L102",
+      "depth_mm": 0.07807823275471715,
+      "contacts": 548
+    },
+    {
+      "a": "master L097",
+      "b": "master L102",
+      "depth_mm": 0.07807823275471693,
+      "contacts": 540
+    },
+    {
+      "a": "write L097",
+      "b": "write L102",
+      "depth_mm": 0.07224546394373021,
+      "contacts": 576
+    },
+    {
+      "a": "slave L069",
+      "b": "slave L072",
+      "depth_mm": 0.06838475413387002,
+      "contacts": 544
+    },
+    {
+      "a": "master L069",
+      "b": "master L072",
+      "depth_mm": 0.06838475413387002,
+      "contacts": 544
+    },
+    {
+      "a": "write cheek frame pin 27.8",
+      "b": "write cheek frame pin 34.2",
+      "depth_mm": 0.00047693222784772615,
+      "contacts": 48
+    },
+    {
+      "a": "clock cheek frame pin 27.8",
+      "b": "clock cheek frame pin 34.2",
+      "depth_mm": 0.00047693222784772615,
+      "contacts": 48
+    },
+    {
+      "a": "write cheek joining pin 27.8",
+      "b": "write cheek joining pin 34.2",
+      "depth_mm": 0.0004769322278406207,
+      "contacts": 48
+    },
+    {
+      "a": "clock cheek joining pin 27.8",
+      "b": "clock cheek joining pin 34.2",
+      "depth_mm": 0.0004769322278335153,
+      "contacts": 48
+    },
+    {
+      "a": "master cheek joining pin 27.8",
+      "b": "master cheek joining pin 34.2",
+      "depth_mm": 0.0004769316019057612,
+      "contacts": 48
+    },
+    {
+      "a": "master cheek frame pin 27.8",
+      "b": "master cheek frame pin 34.2",
+      "depth_mm": 0.0004769316019057612,
+      "contacts": 48
+    },
+    {
+      "a": "slave cheek joining pin 27.8",
+      "b": "slave cheek joining pin 34.2",
+      "depth_mm": 0.00047618710213015447,
+      "contacts": 48
+    },
+    {
+      "a": "slave cheek frame pin 27.8",
+      "b": "slave cheek frame pin 34.2",
+      "depth_mm": 0.00047618710213015447,
+      "contacts": 48
+    },
+    {
+      "a": "write L069",
+      "b": "write L072",
+      "depth_mm": 1.7763568394002505e-15,
+      "contacts": 967
+    }
+  ]
+}

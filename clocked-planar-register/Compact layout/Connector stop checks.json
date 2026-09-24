@@ -1,0 +1,129 @@
+{
+  "scope": "Insertion depth into native LEGO axle joiners, including solid centre stops.\n\nAxle/connector contacts are not blanket-exempted. This check uses the native\n26287 centre web at +/-4 mm and 59443 divider at +/-0.1 mm. Cross-section fit,\nretention, force capacity and other part intersections require separate checks.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "interfaces": [
+    {
+      "connector": "master L097",
+      "axle": "master output left 3L",
+      "side": "left",
+      "insertion_mm": 7.800007629394532,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.1999999999999993
+    },
+    {
+      "connector": "master L097",
+      "axle": "master output right 6L",
+      "side": "right",
+      "insertion_mm": 7.800007629394532,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.1999999999999993
+    },
+    {
+      "connector": "slave L097",
+      "axle": "slave output left 3L",
+      "side": "left",
+      "insertion_mm": 7.800007629394528,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.20000000000000284
+    },
+    {
+      "connector": "slave L097",
+      "axle": "slave output right 7L",
+      "side": "right",
+      "insertion_mm": 7.800007629394543,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.19999999999998863
+    },
+    {
+      "connector": "write L097",
+      "axle": "WRITE selector output left",
+      "side": "left",
+      "insertion_mm": 7.800007629394528,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.20000000000000284
+    },
+    {
+      "connector": "write L097",
+      "axle": "WRITE selector output right",
+      "side": "right",
+      "insertion_mm": 7.800007629394528,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.20000000000000284
+    },
+    {
+      "connector": "master_gate L097",
+      "axle": "master_gate worm drive 10L",
+      "side": "right",
+      "insertion_mm": 7.800007629394514,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.20000000000001705
+    },
+    {
+      "connector": "slave_gate L097",
+      "axle": "slave_gate worm drive 9L",
+      "side": "right",
+      "insertion_mm": 7.800007629394514,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.20000000000001705
+    },
+    {
+      "connector": "slave_gate L097",
+      "axle": "slave_gate left clutch stub 3L stop",
+      "side": "left",
+      "insertion_mm": 4.0000076293945455,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 3.999999999999986
+    },
+    {
+      "connector": "POWER shaft joiner",
+      "axle": "POWER shaft left 8L",
+      "side": "left",
+      "insertion_mm": 7.0,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.8999999999999986
+    },
+    {
+      "connector": "POWER shaft joiner",
+      "axle": "POWER shaft right 12L",
+      "side": "right",
+      "insertion_mm": 7.0,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 0.9
+    },
+    {
+      "connector": "POWER incoming joiner",
+      "axle": "POWER incoming left 12L",
+      "side": "left",
+      "insertion_mm": 4.0,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 3.9000000000000004
+    },
+    {
+      "connector": "POWER incoming joiner",
+      "axle": "POWER incoming right 12L",
+      "side": "right",
+      "insertion_mm": 4.0,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 3.9
+    },
+    {
+      "connector": "CLK incoming joiner",
+      "axle": "CLK incoming left 8L",
+      "side": "left",
+      "insertion_mm": 4.0,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 3.8999999999999986
+    },
+    {
+      "connector": "CLK incoming joiner",
+      "axle": "CLK incoming right 8L",
+      "side": "right",
+      "insertion_mm": 4.0,
+      "centre_stop_penetration_mm": 0,
+      "stop_clearance_mm": 3.9
+    }
+  ],
+  "centre_stop_pass": true,
+  "positive_stop_clearance_pass": true,
+  "mechanically_qualified": false
+}

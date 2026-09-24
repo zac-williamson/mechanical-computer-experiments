@@ -1,0 +1,7 @@
+{
+  "scope": "Native/printed surface penetration by the four fork return loops.\n\nSamples both endpoints and maximum one-sided float. Reports actual vertices\ninside solids, including all contacts: not an edge-only or force proof.\n",
+  "geometry_sha256": "a05302f819a44da3f3c78d0b0ac4839ca32a013d63bf0379e953fb45e1726c4c",
+  "contacts": [],
+  "sampled_band_screen_pass": true,
+  "mechanically_qualified": false
+}

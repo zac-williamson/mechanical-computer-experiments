@@ -1,0 +1,1723 @@
+{
+  "scope": "Analytic rail/fork sequencing and protocol truth table ONLY",
+  "assumptions": {
+    "first_dog_contact_mm": [
+      0.8,
+      1.95
+    ],
+    "fork_position_error_mm": 1.0,
+    "cam_phase_error_mm": 0.25,
+    "bolt_vertical_error_mm": 0.2,
+    "required_tip_lift_mm": 3.2,
+    "extra_tip_clearance_mm": 0.3,
+    "angular_backlash_deg": [
+      0,
+      30,
+      60
+    ],
+    "status": "UNMEASURED engineering bounds; no RPM qualification"
+  },
+  "ramp_width_mm": 4.85281647221066,
+  "rail_limits_mm": [
+    -11.267622,
+    11.247123
+  ],
+  "samples": 20001,
+  "possible_simultaneous_drive_samples": 0,
+  "minimum_tip_clearance_during_possible_drive_mm": 0.39999999999999947,
+  "sequence_failures": [],
+  "input_transitions": 56,
+  "initial_state_cases": 112,
+  "defined_cases": 88,
+  "undefined_timing_cases": 24,
+  "cases": [
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        0,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        0,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        0,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": null,
+      "classification": "setup/hold undefined"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        0
+      ],
+      "end": [
+        1,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        0,
+        1,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        0,
+        1
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 0,
+      "expected_q": 0,
+      "classification": "defined protocol behavior"
+    },
+    {
+      "start": [
+        1,
+        1,
+        1
+      ],
+      "end": [
+        1,
+        1,
+        0
+      ],
+      "initial_q": 1,
+      "expected_q": 1,
+      "classification": "defined protocol behavior"
+    }
+  ],
+  "not_validated": [
+    "Linkage stiffness and backlash bounds",
+    "Actual dog clutch disengagement under torque",
+    "Dynamic bolt seating or a mid-stroke storage carriage",
+    "All-part collision sweep and physical gear phases",
+    "Motor-speed-dependent settling and setup/hold",
+    "0.1 Nm strength and fatigue"
+  ]
+}

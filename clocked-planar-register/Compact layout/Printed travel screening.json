@@ -1,0 +1,15 @@
+{
+  "scope": "Printed support/travel screening. Does not validate gears, forces or timing.\n\nRockers require contact-solved poses and are explicitly outside this screen.\nClock transitions assume storage carriages have settled at their endpoints.\n",
+  "geometry_sha256": "d6f14f76c202e3c30f1aac9c828c6aee25d4bd2c9f694494c8570773070c2c36",
+  "states": 984,
+  "narrow_checks": 86999,
+  "omitted_rockers": [
+    "master Short lever",
+    "slave Short lever",
+    "write Short lever",
+    "clock Short lever"
+  ],
+  "intersections": [],
+  "sampled_support_travel_pass": true,
+  "operation_pass": false
+}

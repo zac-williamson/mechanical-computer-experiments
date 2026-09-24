@@ -1,0 +1,53 @@
+{
+  "scope": "Continuous swept-envelope separation of the D header and master gate ring.\n\nRotation about X preserves axial intervals and radial envelopes. Separation\nin either space proves clearance for all angles and all stated rail/float\npositions. This checks the named pairs, not other assembly interfaces.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "certified_ring_translation_range_mm": [
+    -14.0,
+    14.0
+  ],
+  "pairs": [
+    {
+      "part": "D header input 8T",
+      "axis_distance_mm": 17.88854381999832,
+      "ring_radius_mm": 7.200182051734767,
+      "part_radius_mm": 4.979878033769911,
+      "axial_gap_mm": -9.199999809265151,
+      "radial_gap_mm": 5.70848373449364,
+      "minimum_envelope_gap_mm": 5.70848373449364,
+      "remaining_with_0_25_mm_error_per_part": 5.20848373449364
+    },
+    {
+      "part": "D header output 8T",
+      "axis_distance_mm": 16.0,
+      "ring_radius_mm": 7.200182051734767,
+      "part_radius_mm": 4.979878033769911,
+      "axial_gap_mm": -9.199999809265151,
+      "radial_gap_mm": 3.819939914495322,
+      "minimum_envelope_gap_mm": 3.819939914495322,
+      "remaining_with_0_25_mm_error_per_part": 3.319939914495322
+    },
+    {
+      "part": "D external input 4L",
+      "axis_distance_mm": 17.88854381999832,
+      "ring_radius_mm": 7.200182051734767,
+      "part_radius_mm": 2.4000000953674316,
+      "axial_gap_mm": -11.199999809265151,
+      "radial_gap_mm": 8.28836167289612,
+      "minimum_envelope_gap_mm": 8.28836167289612,
+      "remaining_with_0_25_mm_error_per_part": 7.788361672896119
+    },
+    {
+      "part": "D input retainer",
+      "axis_distance_mm": 17.88854381999832,
+      "ring_radius_mm": 7.200182051734767,
+      "part_radius_mm": 3.6000909711230844,
+      "axial_gap_mm": 4.800000190734849,
+      "radial_gap_mm": 7.088270797140467,
+      "minimum_envelope_gap_mm": 7.088270797140467,
+      "remaining_with_0_25_mm_error_per_part": 6.588270797140467
+    }
+  ],
+  "continuous_separation_pass": true,
+  "assumed_error_bound_pass": true,
+  "mechanically_qualified": false
+}

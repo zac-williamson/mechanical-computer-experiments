@@ -1,0 +1,1687 @@
+{
+  "scope": "Native vertices inside printed solids at the reference pose.\n\nIncludes every native/printed pair. Does not clear edge-only penetration,\ntooth phasing, intended pin interference fits, or any moving pose.\n",
+  "geometry_sha256": "5f0d0e0e045de7cb3eeb1449c9a34b07808d392c897f8dcca2ee1814e6a3a4cf",
+  "intersections": [
+    {
+      "native": "write Carriage support pin 1 18.0",
+      "printed": "write Carriage fork and roof",
+      "depth_mm": 0.18139814483482686,
+      "point": [
+        -76.99999971389771,
+        25.788344573974612,
+        -33.66128921508789
+      ]
+    },
+    {
+      "native": "write Carriage support pin 1 2.0",
+      "printed": "write Carriage fork and roof",
+      "depth_mm": 0.17025971806772763,
+      "point": [
+        -76.99999971389771,
+        21.39992904663086,
+        -19.500219345092773
+      ]
+    },
+    {
+      "native": "master Carriage support pin 1 18.0",
+      "printed": "master Carriage fork and roof",
+      "depth_mm": 0.1518471956132799,
+      "point": [
+        0.9999997138977044,
+        21.54799957275391,
+        20.49519920349121
+      ]
+    },
+    {
+      "native": "slave Carriage support pin 1 18.0",
+      "printed": "slave Carriage fork and roof",
+      "depth_mm": 0.1518471956132799,
+      "point": [
+        106.9999997138977,
+        21.54799957275391,
+        20.49519920349121
+      ]
+    },
+    {
+      "native": "clock Carriage support pin 1 18.0",
+      "printed": "clock Carriage fork and roof",
+      "depth_mm": 0.1518471956132784,
+      "point": [
+        39.00000028610229,
+        21.54799957275391,
+        -36.49519920349121
+      ]
+    },
+    {
+      "native": "master Carriage support pin 1 18.0",
+      "printed": "master Right carriage bearing support",
+      "depth_mm": 0.15042585477947415,
+      "point": [
+        15.400000762939452,
+        25.788710784912112,
+        21.33834457397461
+      ]
+    },
+    {
+      "native": "clock Carriage support pin 1 18.0",
+      "printed": "clock Right carriage bearing support",
+      "depth_mm": 0.15042585477947415,
+      "point": [
+        24.599999237060548,
+        25.788710784912112,
+        -37.33834457397461
+      ]
+    },
+    {
+      "native": "slave Carriage support pin 1 18.0",
+      "printed": "slave Right carriage bearing support",
+      "depth_mm": 0.1504258543647997,
+      "point": [
+        121.40000076293944,
+        25.788710784912112,
+        21.33834457397461
+      ]
+    },
+    {
+      "native": "write Carriage support pin 1 2.0",
+      "printed": "write Right carriage bearing support",
+      "depth_mm": 0.15042535253273512,
+      "point": [
+        -91.40000076293946,
+        25.83871078491211,
+        -21.33834457397461
+      ]
+    },
+    {
+      "native": "write Carriage support pin 1 18.0",
+      "printed": "write Right carriage bearing support",
+      "depth_mm": 0.15042483217166058,
+      "point": [
+        -91.40000076293946,
+        25.788710784912112,
+        -37.33834457397461
+      ]
+    },
+    {
+      "native": "Crosshead guide pin 0 31",
+      "printed": "Captured crosshead guide 0",
+      "depth_mm": 0.14147182885474008,
+      "point": [
+        -1.838344931602478,
+        30.0,
+        29.16128921508789
+      ]
+    },
+    {
+      "native": "Crosshead guide pin 106 31",
+      "printed": "Captured crosshead guide 106",
+      "depth_mm": 0.14147182885473997,
+      "point": [
+        104.16165506839752,
+        30.0,
+        29.16128921508789
+      ]
+    },
+    {
+      "native": "master track mount -12.0",
+      "printed": "master carriage track",
+      "depth_mm": 0.1414717075266884,
+      "point": [
+        -14.60007095336914,
+        30.0,
+        10.59978017664398
+      ]
+    },
+    {
+      "native": "master track mount 12.0",
+      "printed": "master carriage track",
+      "depth_mm": 0.1414717075266884,
+      "point": [
+        9.39992904663086,
+        30.0,
+        10.59978017664398
+      ]
+    },
+    {
+      "native": "slave track mount -12.0",
+      "printed": "slave carriage track",
+      "depth_mm": 0.1414717075266884,
+      "point": [
+        91.39992904663086,
+        30.0,
+        10.59978017664398
+      ]
+    },
+    {
+      "native": "slave track mount 12.0",
+      "printed": "slave carriage track",
+      "depth_mm": 0.1414717075266884,
+      "point": [
+        115.39992904663086,
+        30.0,
+        10.59978017664398
+      ]
+    },
+    {
+      "native": "write track mount -19.9",
+      "printed": "write carriage track",
+      "depth_mm": 0.1414717075266884,
+      "point": [
+        -58.70007095336914,
+        30.0,
+        -26.60021982335602
+      ]
+    },
+    {
+      "native": "write track mount 19.9",
+      "printed": "write carriage track",
+      "depth_mm": 0.1414717075266884,
+      "point": [
+        -93.29992904663087,
+        30.0,
+        -26.599780176643982
+      ]
+    },
+    {
+      "native": "master_gate crosshead pin -10 20.4",
+      "printed": "master_gate Carriage fork and roof",
+      "depth_mm": 0.11430109121732203,
+      "point": [
+        -70.40000000596046,
+        20.0,
+        22.920400047302245
+      ]
+    },
+    {
+      "native": "slave_gate crosshead pin 12 20.4",
+      "printed": "slave_gate Right carriage bearing support",
+      "depth_mm": 0.11430109121732203,
+      "point": [
+        71.59999999403954,
+        20.0,
+        22.920400047302245
+      ]
+    },
+    {
+      "native": "master_gate crosshead pin 12 20.4",
+      "printed": "master_gate Right carriage bearing support",
+      "depth_mm": 0.11430109121732136,
+      "point": [
+        -48.400000005960464,
+        20.0,
+        22.920400047302245
+      ]
+    },
+    {
+      "native": "slave_gate crosshead pin -10 20.4",
+      "printed": "slave_gate Carriage fork and roof",
+      "depth_mm": 0.11430109121732136,
+      "point": [
+        49.599999994039536,
+        20.0,
+        22.920400047302245
+      ]
+    },
+    {
+      "native": "master cheek frame pin 27.8",
+      "printed": "master Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -25.83871078491211,
+        30.0,
+        29.63834493160248
+      ]
+    },
+    {
+      "native": "master cheek joining pin 27.8",
+      "printed": "master Front bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -25.83871078491211,
+        2.599999713897706,
+        29.63834493160248
+      ]
+    },
+    {
+      "native": "master cheek joining pin 27.8",
+      "printed": "master Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -25.83871078491211,
+        17.000000286102296,
+        29.63834493160248
+      ]
+    },
+    {
+      "native": "master cheek frame pin 34.2",
+      "printed": "master Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -25.83871078491211,
+        30.0,
+        36.03834493160248
+      ]
+    },
+    {
+      "native": "master cheek joining pin 34.2",
+      "printed": "master Front bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -25.83871078491211,
+        2.599999713897706,
+        36.03834493160248
+      ]
+    },
+    {
+      "native": "master cheek joining pin 34.2",
+      "printed": "master Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -25.83871078491211,
+        17.000000286102296,
+        36.03834493160248
+      ]
+    },
+    {
+      "native": "slave cheek frame pin 27.8",
+      "printed": "slave Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        80.16128921508789,
+        30.0,
+        29.63834493160248
+      ]
+    },
+    {
+      "native": "slave cheek joining pin 27.8",
+      "printed": "slave Front bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        80.16128921508789,
+        2.599999713897706,
+        29.63834493160248
+      ]
+    },
+    {
+      "native": "slave cheek joining pin 27.8",
+      "printed": "slave Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        80.16128921508789,
+        17.000000286102296,
+        29.63834493160248
+      ]
+    },
+    {
+      "native": "slave cheek frame pin 34.2",
+      "printed": "slave Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        80.16128921508789,
+        30.0,
+        36.03834493160248
+      ]
+    },
+    {
+      "native": "slave cheek joining pin 34.2",
+      "printed": "slave Front bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        80.16128921508789,
+        2.599999713897706,
+        36.03834493160248
+      ]
+    },
+    {
+      "native": "slave cheek joining pin 34.2",
+      "printed": "slave Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        80.16128921508789,
+        17.000000286102296,
+        36.03834493160248
+      ]
+    },
+    {
+      "native": "write cheek frame pin 27.8",
+      "printed": "write Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -53.83871078491211,
+        30.0,
+        -41.96165506839752
+      ]
+    },
+    {
+      "native": "write cheek joining pin 27.8",
+      "printed": "write Front bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -53.83871078491211,
+        2.599999713897706,
+        -41.96165506839752
+      ]
+    },
+    {
+      "native": "write cheek joining pin 27.8",
+      "printed": "write Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -53.83871078491211,
+        17.000000286102296,
+        -41.96165506839752
+      ]
+    },
+    {
+      "native": "write cheek frame pin 34.2",
+      "printed": "write Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -53.83871078491211,
+        30.0,
+        -48.361655068397525
+      ]
+    },
+    {
+      "native": "write cheek joining pin 34.2",
+      "printed": "write Front bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -53.83871078491211,
+        2.599999713897706,
+        -48.361655068397525
+      ]
+    },
+    {
+      "native": "write cheek joining pin 34.2",
+      "printed": "write Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -53.83871078491211,
+        17.000000286102296,
+        -48.361655068397525
+      ]
+    },
+    {
+      "native": "clock cheek frame pin 27.8",
+      "printed": "clock Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        62.16128921508789,
+        30.0,
+        -41.96165506839752
+      ]
+    },
+    {
+      "native": "clock cheek joining pin 27.8",
+      "printed": "clock Front bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        62.16128921508789,
+        2.599999713897706,
+        -41.96165506839752
+      ]
+    },
+    {
+      "native": "clock cheek joining pin 27.8",
+      "printed": "clock Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        62.16128921508789,
+        17.000000286102296,
+        -41.96165506839752
+      ]
+    },
+    {
+      "native": "clock cheek frame pin 34.2",
+      "printed": "clock Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        62.16128921508789,
+        30.0,
+        -48.361655068397525
+      ]
+    },
+    {
+      "native": "clock cheek joining pin 34.2",
+      "printed": "clock Front bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        62.16128921508789,
+        2.599999713897706,
+        -48.361655068397525
+      ]
+    },
+    {
+      "native": "clock cheek joining pin 34.2",
+      "printed": "clock Rear bearing cheek",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        62.16128921508789,
+        17.000000286102296,
+        -48.361655068397525
+      ]
+    },
+    {
+      "native": "master guide frame pin -15.05",
+      "printed": "master compact bolt guide",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -16.88871078491211,
+        30.799999713897705,
+        41.83834493160248
+      ]
+    },
+    {
+      "native": "master guide frame pin 4.95",
+      "printed": "master compact bolt guide",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        3.111289215087891,
+        30.799999713897705,
+        41.83834493160248
+      ]
+    },
+    {
+      "native": "slave guide frame pin 90.95",
+      "printed": "slave compact bolt guide",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        89.1112892150879,
+        30.799999713897705,
+        41.83834493160248
+      ]
+    },
+    {
+      "native": "slave guide frame pin 110.95",
+      "printed": "slave compact bolt guide",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        109.1112892150879,
+        30.799999713897705,
+        41.83834493160248
+      ]
+    },
+    {
+      "native": "master_gate crosshead pin -10 13.2",
+      "printed": "master_gate Carriage fork and roof",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -71.83871078491211,
+        20.799999713897705,
+        15.038344931602477
+      ]
+    },
+    {
+      "native": "master_gate crosshead pin -10 13.2",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -71.83871078491211,
+        35.200000286102295,
+        15.038344931602477
+      ]
+    },
+    {
+      "native": "master_gate crosshead pin -10 20.4",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -71.83871078491211,
+        35.200000286102295,
+        22.238344931602477
+      ]
+    },
+    {
+      "native": "master_gate crosshead pin 12 13.2",
+      "printed": "master_gate Right carriage bearing support",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -49.83871078491211,
+        20.799999713897705,
+        15.038344931602477
+      ]
+    },
+    {
+      "native": "master_gate crosshead pin 12 13.2",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -49.83871078491211,
+        35.200000286102295,
+        15.038344931602477
+      ]
+    },
+    {
+      "native": "master_gate crosshead pin 12 20.4",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        -49.83871078491211,
+        35.200000286102295,
+        22.238344931602477
+      ]
+    },
+    {
+      "native": "slave_gate crosshead pin -10 13.2",
+      "printed": "slave_gate Carriage fork and roof",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        48.16128921508789,
+        20.799999713897705,
+        15.038344931602477
+      ]
+    },
+    {
+      "native": "slave_gate crosshead pin -10 13.2",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        48.16128921508789,
+        35.200000286102295,
+        15.038344931602477
+      ]
+    },
+    {
+      "native": "slave_gate crosshead pin -10 20.4",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        48.16128921508789,
+        35.200000286102295,
+        22.238344931602477
+      ]
+    },
+    {
+      "native": "slave_gate crosshead pin 12 13.2",
+      "printed": "slave_gate Right carriage bearing support",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        70.16128921508789,
+        20.799999713897705,
+        15.038344931602477
+      ]
+    },
+    {
+      "native": "slave_gate crosshead pin 12 13.2",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        70.16128921508789,
+        35.200000286102295,
+        15.038344931602477
+      ]
+    },
+    {
+      "native": "slave_gate crosshead pin 12 20.4",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        70.16128921508789,
+        35.200000286102295,
+        22.238344931602477
+      ]
+    },
+    {
+      "native": "Crosshead post pin 17",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        32.0,
+        38.16128921508789,
+        15.161655068397522
+      ]
+    },
+    {
+      "native": "Crosshead post pin 17",
+      "printed": "Clock output post",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        47.200000286102295,
+        38.16128921508789,
+        15.161655068397522
+      ]
+    },
+    {
+      "native": "Crosshead post pin 25",
+      "printed": "Common fork and cam bar",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        32.0,
+        38.16128921508789,
+        23.161655068397522
+      ]
+    },
+    {
+      "native": "Crosshead post pin 25",
+      "printed": "Clock output post",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        47.200000286102295,
+        38.16128921508789,
+        23.161655068397522
+      ]
+    },
+    {
+      "native": "Frame joint pin -56",
+      "printed": "Compact frame left",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        16.0,
+        40.16128921508789,
+        -57.83834493160248
+      ]
+    },
+    {
+      "native": "Frame joint pin -56",
+      "printed": "Compact frame right",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        31.200000286102295,
+        43.83834493160248,
+        -57.83871078491211
+      ]
+    },
+    {
+      "native": "Frame joint pin 49",
+      "printed": "Compact frame left",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        16.799999713897705,
+        40.16128921508789,
+        47.16165506839752
+      ]
+    },
+    {
+      "native": "Frame joint pin 49",
+      "printed": "Compact frame right",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        31.200000286102295,
+        40.16128921508789,
+        47.16165506839752
+      ]
+    },
+    {
+      "native": "Frame joint pin 56",
+      "printed": "Compact frame left",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        16.0,
+        40.16128921508789,
+        54.16165506839752
+      ]
+    },
+    {
+      "native": "Frame joint pin 56",
+      "printed": "Compact frame right",
+      "depth_mm": 0.1000713663317562,
+      "point": [
+        31.200000286102295,
+        40.16128921508789,
+        54.16165506839752
+      ]
+    },
+    {
+      "native": "master Carriage support pin 1 2.0",
+      "printed": "master Carriage fork and roof",
+      "depth_mm": 0.10007119375963515,
+      "point": [
+        0.1999999999999993,
+        21.39992904663086,
+        5.300219345092773
+      ]
+    },
+    {
+      "native": "master Carriage support pin 1 2.0",
+      "printed": "master Right carriage bearing support",
+      "depth_mm": 0.10007119375963515,
+      "point": [
+        15.400000762939452,
+        21.39992904663086,
+        5.300219345092773
+      ]
+    },
+    {
+      "native": "slave Carriage support pin 1 2.0",
+      "printed": "slave Carriage fork and roof",
+      "depth_mm": 0.10007119375963515,
+      "point": [
+        106.19999999999999,
+        21.39992904663086,
+        5.300219345092773
+      ]
+    },
+    {
+      "native": "slave Carriage support pin 1 2.0",
+      "printed": "slave Right carriage bearing support",
+      "depth_mm": 0.10007119375963515,
+      "point": [
+        121.40000076293944,
+        21.39992904663086,
+        5.300219345092773
+      ]
+    },
+    {
+      "native": "Bearing support 9.0 mount 0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09042507358192203,
+      "point": [
+        111.59799981117249,
+        45.200000286102295,
+        -17.995199978351593
+      ]
+    },
+    {
+      "native": "master cheek frame pin 27.8",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09040331667332582,
+      "point": [
+        -26.402000188827515,
+        45.200000286102295,
+        28.795199978351594
+      ]
+    },
+    {
+      "native": "master cheek frame pin 34.2",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09016948980749967,
+      "point": [
+        -26.402000188827515,
+        45.200000286102295,
+        35.195199978351596
+      ]
+    },
+    {
+      "native": "Bearing support 2.0 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09011450839448734,
+      "point": [
+        -73.39992904663086,
+        45.200000286102295,
+        -18.99978017664398
+      ]
+    },
+    {
+      "native": "Bearing support 6.0 mount 0",
+      "printed": "Clock track and shaft support module",
+      "depth_mm": 0.09009378130762803,
+      "point": [
+        9.39992904663086,
+        30.799999713897705,
+        -41.00021982335602
+      ]
+    },
+    {
+      "native": "Bearing support 7.0 mount 0",
+      "printed": "Clock track and shaft support module",
+      "depth_mm": 0.09009378130761739,
+      "point": [
+        65.39992904663086,
+        30.799999713897705,
+        -7.000219823356019
+      ]
+    },
+    {
+      "native": "Bearing support 7.0 mount 1",
+      "printed": "Clock track and shaft support module",
+      "depth_mm": 0.09009378130761737,
+      "point": [
+        65.39992904663086,
+        30.799999713897705,
+        -33.00021982335602
+      ]
+    },
+    {
+      "native": "Bearing support 10.1 mount 1",
+      "printed": "Compact frame right",
+      "depth_mm": 0.0900714034560403,
+      "point": [
+        133.83834493160248,
+        45.200000286102295,
+        10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 10.1 mount 0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603905,
+      "point": [
+        133.83834493160248,
+        45.200000286102295,
+        -7.161289215087891
+      ]
+    },
+    {
+      "native": "Bearing support 11.0 mount 1",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603905,
+      "point": [
+        145.83834493160248,
+        45.200000286102295,
+        2.8387107849121094
+      ]
+    },
+    {
+      "native": "slave cheek frame pin 27.8",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        80.16128921508789,
+        45.200000286102295,
+        29.63834493160248
+      ]
+    },
+    {
+      "native": "slave cheek frame pin 34.2",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        80.16128921508789,
+        45.200000286102295,
+        36.03834493160248
+      ]
+    },
+    {
+      "native": "write cheek frame pin 27.8",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -53.83871078491211,
+        45.200000286102295,
+        -41.96165506839752
+      ]
+    },
+    {
+      "native": "write cheek frame pin 34.2",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -53.83871078491211,
+        45.200000286102295,
+        -48.361655068397525
+      ]
+    },
+    {
+      "native": "clock cheek frame pin 27.8",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        62.16128921508789,
+        45.200000286102295,
+        -41.96165506839752
+      ]
+    },
+    {
+      "native": "clock cheek frame pin 34.2",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        62.16128921508789,
+        45.200000286102295,
+        -48.361655068397525
+      ]
+    },
+    {
+      "native": "master track mount -12.0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -13.83871078491211,
+        45.200000286102295,
+        12.438344931602478
+      ]
+    },
+    {
+      "native": "master track mount 12.0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        10.16128921508789,
+        45.200000286102295,
+        12.438344931602478
+      ]
+    },
+    {
+      "native": "slave track mount -12.0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        92.16128921508789,
+        45.200000286102295,
+        12.438344931602478
+      ]
+    },
+    {
+      "native": "slave track mount 12.0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        116.16128921508789,
+        45.200000286102295,
+        12.438344931602478
+      ]
+    },
+    {
+      "native": "write track mount -19.9",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -57.93871078491211,
+        45.200000286102295,
+        -24.761655068397523
+      ]
+    },
+    {
+      "native": "write track mount 19.9",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -97.73871078491212,
+        45.200000286102295,
+        -24.761655068397523
+      ]
+    },
+    {
+      "native": "clock track mount -23.4",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        61.56128921508789,
+        45.200000286102295,
+        -24.761655068397523
+      ]
+    },
+    {
+      "native": "clock track mount -23.4",
+      "printed": "Clock track and shaft support module",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        61.56128921508789,
+        30.799999713897705,
+        -24.761655068397523
+      ]
+    },
+    {
+      "native": "clock track mount 23.4",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        14.761289215087892,
+        45.200000286102295,
+        -24.761655068397523
+      ]
+    },
+    {
+      "native": "clock track mount 23.4",
+      "printed": "Clock track and shaft support module",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        14.761289215087892,
+        30.799999713897705,
+        -24.761655068397523
+      ]
+    },
+    {
+      "native": "Bearing support 0.0 mount 0",
+      "printed": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -105.83871078491211,
+        30.799999713897705,
+        18.838344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 0.0 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -105.83871078491211,
+        45.200000286102295,
+        18.838344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 0.0 mount 1",
+      "printed": "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -105.83871078491211,
+        30.799999713897705,
+        -44.16165506839752
+      ]
+    },
+    {
+      "native": "Bearing support 0.0 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -105.83871078491211,
+        45.200000286102295,
+        -44.16165506839752
+      ]
+    },
+    {
+      "native": "Bearing support 1.0 mount 0",
+      "printed": "Bearing support 1.0 \u2014 D header inner",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -91.83834493160248,
+        30.799999713897705,
+        -10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 1.0 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -91.83834493160248,
+        45.200000286102295,
+        -10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 2.0 mount 0",
+      "printed": "Bearing support 2.0 \u2014 D transfer left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -77.83871078491211,
+        30.799999713897705,
+        -17.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 2.0 mount 1",
+      "printed": "Bearing support 2.0 \u2014 D transfer left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -77.83834493160248,
+        30.799999713897705,
+        -10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 2.0 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -77.83871078491211,
+        45.200000286102295,
+        -7.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 3.0 mount 0",
+      "printed": "Bearing support 3.0 \u2014 D transfer right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -69.83871078491211,
+        30.799999713897705,
+        -17.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 3.0 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -69.83871078491211,
+        45.200000286102295,
+        -17.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 3.0 mount 1",
+      "printed": "Bearing support 3.0 \u2014 D transfer right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -69.83834493160248,
+        30.799999713897705,
+        -10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 3.0 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -69.83871078491211,
+        45.200000286102295,
+        -7.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 4.0 mount 0",
+      "printed": "Bearing support 4.0 \u2014 WRITE worm right + Master data left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -49.83871078491211,
+        30.0,
+        -29.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 4.0 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -49.83871078491211,
+        45.200000286102295,
+        -29.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 4.0 mount 1",
+      "printed": "Bearing support 4.0 \u2014 WRITE worm right + Master data left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -45.83834493160248,
+        30.799999713897705,
+        -10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 4.0 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -45.83871078491211,
+        45.200000286102295,
+        -7.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 5.0 mount 0",
+      "printed": "Bearing support 5.0 \u2014 Master data right + M worm left + WRITE output right + M output left + M idler left + CLK external right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -31.83871078491211,
+        30.799999713897705,
+        13.438344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 5.0 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -31.83871078491211,
+        45.200000286102295,
+        13.438344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 5.0 mount 1",
+      "printed": "Bearing support 5.0 \u2014 Master data right + M worm left + WRITE output right + M output left + M idler left + CLK external right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -29.83871078491211,
+        30.799999713897705,
+        -23.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 5.0 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -29.83871078491211,
+        45.200000286102295,
+        -23.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 5.1 mount 0",
+      "printed": "Bearing support 5.1 \u2014 Master data right + M worm left + WRITE output right + M output left + M idler left + CLK external right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -21.83871078491211,
+        30.799999713897705,
+        -44.16165506839752
+      ]
+    },
+    {
+      "native": "Bearing support 5.1 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -21.83871078491211,
+        45.200000286102295,
+        -44.16165506839752
+      ]
+    },
+    {
+      "native": "Bearing support 5.1 mount 1",
+      "printed": "Bearing support 5.1 \u2014 Master data right + M worm left + WRITE output right + M output left + M idler left + CLK external right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -21.83871078491211,
+        30.799999713897705,
+        -26.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 5.1 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -21.83871078491211,
+        45.200000286102295,
+        -26.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 6.0 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        10.16128921508789,
+        45.200000286102295,
+        -39.16165506839752
+      ]
+    },
+    {
+      "native": "Bearing support 6.1 mount 0",
+      "printed": "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        22.16128921508789,
+        30.0,
+        34.83834493160248
+      ]
+    },
+    {
+      "native": "Bearing support 6.1 mount 0",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        22.16128921508789,
+        45.200000286102295,
+        34.83834493160248
+      ]
+    },
+    {
+      "native": "Bearing support 6.1 mount 0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        25.838344931602478,
+        45.200000286102295,
+        34.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 6.1 mount 1",
+      "printed": "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        22.16128921508789,
+        30.799999713897705,
+        43.638344931602475
+      ]
+    },
+    {
+      "native": "Bearing support 6.1 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        22.16128921508789,
+        45.200000286102295,
+        43.638344931602475
+      ]
+    },
+    {
+      "native": "Bearing support 6.1 mount 1",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        25.838344931602478,
+        45.200000286102295,
+        43.63871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 6.2 mount 0",
+      "printed": "Bearing support 6.2 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        30.16128921508789,
+        30.799999713897705,
+        34.83834493160248
+      ]
+    },
+    {
+      "native": "Bearing support 6.2 mount 0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        30.16128921508789,
+        45.200000286102295,
+        34.83834493160248
+      ]
+    },
+    {
+      "native": "Bearing support 6.2 mount 1",
+      "printed": "Bearing support 6.2 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        30.16128921508789,
+        30.799999713897705,
+        43.638344931602475
+      ]
+    },
+    {
+      "native": "Bearing support 6.2 mount 1",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        30.16128921508789,
+        45.200000286102295,
+        43.638344931602475
+      ]
+    },
+    {
+      "native": "Bearing support 7.0 mount 0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        66.16165506839752,
+        45.200000286102295,
+        -8.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 7.0 mount 1",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        66.16128921508789,
+        45.200000286102295,
+        -31.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 8.0 mount 0",
+      "printed": "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        80.16165506839752,
+        30.799999713897705,
+        -10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 8.0 mount 0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        80.16128921508789,
+        45.200000286102295,
+        -7.161655068397522
+      ]
+    },
+    {
+      "native": "Bearing support 8.0 mount 1",
+      "printed": "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        74.16128921508789,
+        30.799999713897705,
+        -39.16165506839752
+      ]
+    },
+    {
+      "native": "Bearing support 8.0 mount 1",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        74.16128921508789,
+        45.200000286102295,
+        -39.16165506839752
+      ]
+    },
+    {
+      "native": "Bearing support 9.0 mount 0",
+      "printed": "Bearing support 9.0 \u2014 Q idler left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        112.16128921508789,
+        30.799999713897705,
+        -15.161655068397522
+      ]
+    },
+    {
+      "native": "master guide frame pin -15.05",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        -16.88871078491211,
+        45.200000286102295,
+        41.83834493160248
+      ]
+    },
+    {
+      "native": "slave guide frame pin 90.95",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        89.1112892150879,
+        45.200000286102295,
+        41.83834493160248
+      ]
+    },
+    {
+      "native": "slave guide frame pin 110.95",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        109.1112892150879,
+        45.200000286102295,
+        41.83834493160248
+      ]
+    },
+    {
+      "native": "Crosshead guide pin 106 5.4",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        104.16128921508789,
+        45.200000286102295,
+        7.238344931602478
+      ]
+    },
+    {
+      "native": "Crosshead guide pin 106 31",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603784,
+      "point": [
+        104.16128921508789,
+        45.200000286102295,
+        32.83834493160248
+      ]
+    },
+    {
+      "native": "Bearing support 10.0 mount 0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603779,
+      "point": [
+        128.16165506839752,
+        45.200000286102295,
+        31.16128921508789
+      ]
+    },
+    {
+      "native": "Bearing support 6.0 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603767,
+      "point": [
+        10.16128921508789,
+        45.200000286102295,
+        1.838344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 1.0 mount 1",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603752,
+      "point": [
+        -91.83871078491211,
+        45.200000286102295,
+        2.838344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 9.0 mount 1",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345603752,
+      "point": [
+        112.16128921508789,
+        45.200000286102295,
+        2.838344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 1.0 mount 1",
+      "printed": "Bearing support 1.0 \u2014 D header inner",
+      "depth_mm": 0.09007140345603737,
+      "point": [
+        -91.83834493160248,
+        30.799999713897705,
+        -0.8387107849121094
+      ]
+    },
+    {
+      "native": "Bearing support 6.0 mount 1",
+      "printed": "Clock track and shaft support module",
+      "depth_mm": 0.09007140345603737,
+      "point": [
+        10.16128921508789,
+        30.799999713897705,
+        1.838344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 9.0 mount 1",
+      "printed": "Bearing support 9.0 \u2014 Q idler left",
+      "depth_mm": 0.09007140345603737,
+      "point": [
+        112.16165506839752,
+        30.799999713897705,
+        -0.8387107849121094
+      ]
+    },
+    {
+      "native": "Crosshead guide pin 0 31",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603737,
+      "point": [
+        -1.8387107849121094,
+        45.200000286102295,
+        32.83834493160248
+      ]
+    },
+    {
+      "native": "master guide frame pin 4.95",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603722,
+      "point": [
+        3.111289215087891,
+        45.200000286102295,
+        41.83834493160248
+      ]
+    },
+    {
+      "native": "Crosshead guide pin 0 5.4",
+      "printed": "Compact frame left",
+      "depth_mm": 0.09007140345603674,
+      "point": [
+        -1.8387107849121094,
+        45.200000286102295,
+        7.238344931602478
+      ]
+    },
+    {
+      "native": "Bearing support 10.0 mount 0",
+      "printed": "Bearing support 10.0 \u2014 Q worm right + Q output right",
+      "depth_mm": 0.09007140345602782,
+      "point": [
+        128.16165506839752,
+        30.0,
+        31.16128921508789
+      ]
+    },
+    {
+      "native": "Bearing support 10.0 mount 1",
+      "printed": "Bearing support 10.0 \u2014 Q worm right + Q output right",
+      "depth_mm": 0.09007140345602782,
+      "point": [
+        128.16165506839752,
+        30.799999713897705,
+        39.96128921508789
+      ]
+    },
+    {
+      "native": "Bearing support 10.0 mount 1",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345602782,
+      "point": [
+        128.16165506839752,
+        45.200000286102295,
+        39.96128921508789
+      ]
+    },
+    {
+      "native": "Bearing support 10.1 mount 0",
+      "printed": "Bearing support 10.1 \u2014 Q worm right + Q output right",
+      "depth_mm": 0.09007140345602782,
+      "point": [
+        130.16165506839752,
+        30.799999713897705,
+        -10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 10.1 mount 1",
+      "printed": "Bearing support 10.1 \u2014 Q worm right + Q output right",
+      "depth_mm": 0.09007140345602782,
+      "point": [
+        133.83834493160248,
+        30.799999713897705,
+        10.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 11.0 mount 0",
+      "printed": "Bearing support 11.0 \u2014 Feedback right",
+      "depth_mm": 0.09007140345602782,
+      "point": [
+        142.16165506839752,
+        30.799999713897705,
+        -18.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 11.0 mount 0",
+      "printed": "Compact frame right",
+      "depth_mm": 0.09007140345602782,
+      "point": [
+        142.16165506839752,
+        45.200000286102295,
+        -18.83871078491211
+      ]
+    },
+    {
+      "native": "Bearing support 11.0 mount 1",
+      "printed": "Bearing support 11.0 \u2014 Feedback right",
+      "depth_mm": 0.09007140345602711,
+      "point": [
+        142.16165506839752,
+        30.799999713897705,
+        -0.8387107849121094
+      ]
+    }
+  ],
+  "operation_pass": false
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Variable-section elastic bending screen of the pin-mounted rear pivot bridge.\n\nSimply supported at its end faces; 120 N assigns the entire clock pivot\nreaction to this bridge. Pin flexibility, offset-pin torsion, local contact,\ncreep, fatigue and print defects are not represented. No material allowable\nis assumed and this is not a strength qualification.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "load_N": 120.0,
+  "axle_torque_case_Nm": 0.1,
+  "section_samples": 240,
+  "maximum_nominal_bending_MPa": 16.366831537682604,
+  "critical_X_mm": 40.065983263598326,
+  "assumed_E_MPa": 1890,
+  "ideal_central_deflection_mm": 0.1539079068476255,
+  "mechanically_qualified": false
+}

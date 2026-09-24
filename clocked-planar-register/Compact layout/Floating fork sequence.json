@@ -1,0 +1,102 @@
+{
+  "scope": "One-sided float cannot extend a clutch's powered region toward bolt lock.\n\nFor master r=bar-lag with lag in [0,4], r>=pickup implies bar>=pickup.\nFor slave r=bar+lag, r<=-pickup implies bar<=-pickup. This implication covers\nall float positions continuously. Cam clearance is additionally sampled with\nexplicit, unmeasured manufacturing allowances. No loaded release proof.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "lost_motion_mm": 4,
+  "positive_withdrawal_implication": true,
+  "cam_clearance": [
+    {
+      "pickup_mm": 5.8,
+      "cam_phase_error_mm": -0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.38379740403386203,
+      "at": [
+        5.800000000000001,
+        "master"
+      ]
+    },
+    {
+      "pickup_mm": 5.8,
+      "cam_phase_error_mm": 0,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.39884540449175016,
+      "at": [
+        -5.8,
+        "slave"
+      ]
+    },
+    {
+      "pickup_mm": 5.8,
+      "cam_phase_error_mm": 0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.3837974040338549,
+      "at": [
+        -5.8,
+        "slave"
+      ]
+    },
+    {
+      "pickup_mm": 6.8,
+      "cam_phase_error_mm": -0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.39999999999999697,
+      "at": [
+        -9.42,
+        "slave"
+      ]
+    },
+    {
+      "pickup_mm": 6.8,
+      "cam_phase_error_mm": 0,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.39999999999999697,
+      "at": [
+        -9.42,
+        "slave"
+      ]
+    },
+    {
+      "pickup_mm": 6.8,
+      "cam_phase_error_mm": 0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.39999999999999697,
+      "at": [
+        -9.42,
+        "slave"
+      ]
+    },
+    {
+      "pickup_mm": 7.8,
+      "cam_phase_error_mm": -0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.39999999999999697,
+      "at": [
+        -9.42,
+        "slave"
+      ]
+    },
+    {
+      "pickup_mm": 7.8,
+      "cam_phase_error_mm": 0,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.39999999999999697,
+      "at": [
+        -9.42,
+        "slave"
+      ]
+    },
+    {
+      "pickup_mm": 7.8,
+      "cam_phase_error_mm": 0.25,
+      "vertical_error_mm": 0.2,
+      "min_bolt_clearance_mm": 0.39999999999999697,
+      "at": [
+        -9.42,
+        "slave"
+      ]
+    }
+  ],
+  "cam_bounds_pass": true,
+  "largest_sampled_blocked_phase_arc_deg": 26.5,
+  "phase_wait_assumption": "Stationary disconnected worm axle, rotating input gear; no coasting/inertia claim.",
+  "mechanically_qualified": false
+}

@@ -1,0 +1,85 @@
+{
+  "scope": "Projected gear envelopes over one tooth pitch; proposed phases require keyed-axle and dog-phase consistency checks",
+  "pairs": [
+    {
+      "a": "Q return gear 0",
+      "b": "Q return gear 1",
+      "phase_a_deg": 0.0,
+      "phase_b_deg": 11.25,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "Q return gear 1",
+      "b": "Q return gear 2",
+      "phase_a_deg": 11.25,
+      "phase_b_deg": 0.0,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "Q return gear 2",
+      "b": "Q return gear 3",
+      "phase_a_deg": 0.0,
+      "phase_b_deg": 11.25,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "Q return gear 3",
+      "b": "Q return gear 4",
+      "phase_a_deg": 11.25,
+      "phase_b_deg": 0.0,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "D route gear 0",
+      "b": "D route gear 1",
+      "phase_a_deg": 0.0,
+      "phase_b_deg": 5.5,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "D route gear 1",
+      "b": "D route gear 2",
+      "phase_a_deg": 5.5,
+      "phase_b_deg": 11.5,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "D route gear 2",
+      "b": "D route gear 3",
+      "phase_a_deg": 11.5,
+      "phase_b_deg": 16.5,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "D route gear 3",
+      "b": "D route gear 4",
+      "phase_a_deg": 16.5,
+      "phase_b_deg": 0.5,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "D route gear 4",
+      "b": "D route gear 5",
+      "phase_a_deg": 0.5,
+      "phase_b_deg": 5.0,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    },
+    {
+      "a": "D route gear 5",
+      "b": "D route gear 6",
+      "phase_a_deg": 5.0,
+      "phase_b_deg": 12.0,
+      "max_overlap_mm2": 0.0,
+      "centre_distance": 16.0
+    }
+  ]
+}

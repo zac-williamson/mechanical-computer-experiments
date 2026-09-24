@@ -1,0 +1,7 @@
+{
+  "scope": "Check animated angular velocities against every CAD-discovered external mesh.",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "mesh_driver_checks": 105,
+  "failures": [],
+  "rotation_paths_pass": true
+}

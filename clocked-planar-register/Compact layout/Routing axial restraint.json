@@ -1,0 +1,408 @@
+{
+  "scope": "Verify actual bearing faces opposing the routing-shaft retaining features.\n\nRigid nominal geometry only. Bush/connector grip and thrust capacity are not\ninferred from their existence. Connector-coupled axle pieces are one stack.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "stacks": [
+    {
+      "shaft_stack": "Master output",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "master L102",
+          "retaining_face_X_mm": -20.0,
+          "bearing_face_X_mm": -20.2,
+          "gap_mm": 0.1999999999999993,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "master L069",
+          "retaining_face_X_mm": 23.999996185302734,
+          "bearing_face_X_mm": 24.4,
+          "gap_mm": 0.4000038146972642,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.6000038146972635,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "Q output",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "slave L102",
+          "retaining_face_X_mm": 86.0,
+          "bearing_face_X_mm": 85.8,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "slave L069",
+          "retaining_face_X_mm": 129.99999618530273,
+          "bearing_face_X_mm": 130.4,
+          "gap_mm": 0.4000038146972713,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.6000038146972742,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "WRITE selector",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "write L069",
+          "retaining_face_X_mm": -99.99999618530273,
+          "bearing_face_X_mm": -100.8,
+          "gap_mm": 0.8000038146972628,
+          "annular_samples_present": 14,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "WRITE output retainer",
+          "retaining_face_X_mm": -104.2,
+          "bearing_face_X_mm": -104.0,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 15,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 1.0000038146972656,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "Master worm",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "Master worm retainer bearing",
+          "retaining_face_X_mm": -24.4,
+          "bearing_face_X_mm": -24.6,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "Master worm retainer gear",
+          "retaining_face_X_mm": -31.799999999999997,
+          "bearing_face_X_mm": -31.4,
+          "gap_mm": 0.3999999999999986,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.6000000000000014,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "Slave worm",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "Slave worm retainer gear",
+          "retaining_face_X_mm": 31.799999999999997,
+          "bearing_face_X_mm": 31.4,
+          "gap_mm": 0.3999999999999986,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "slave_gate left clutch stub 3L stop",
+          "retaining_face_X_mm": 28.800000190734863,
+          "bearing_face_X_mm": 29.0,
+          "gap_mm": 0.19999980926513672,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.5999998092651353,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "WRITE worm",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "WRITE worm retainer left",
+          "retaining_face_X_mm": -100.0,
+          "bearing_face_X_mm": -100.2,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "WRITE worm retainer right",
+          "retaining_face_X_mm": -52.0,
+          "bearing_face_X_mm": -51.8,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.4000000000000057,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "CLOCK worm",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "CLOCK worm retainer",
+          "retaining_face_X_mm": 16.0,
+          "bearing_face_X_mm": 15.8,
+          "gap_mm": 0.1999999999999993,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "CLK header gear 2",
+          "retaining_face_X_mm": 7.8500001430511475,
+          "bearing_face_X_mm": 8.2,
+          "gap_mm": 0.34999985694885183,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.5499998569488511,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "Master idler",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "master reversing idler 16T -16",
+          "retaining_face_X_mm": -20.0,
+          "bearing_face_X_mm": -20.6,
+          "gap_mm": 0.6000000000000014,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "Master idler retainer",
+          "retaining_face_X_mm": 20.4,
+          "bearing_face_X_mm": 20.6,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.8000000000000043,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "Slave idler",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "slave reversing idler 16T 16",
+          "retaining_face_X_mm": 118.0,
+          "bearing_face_X_mm": 117.4,
+          "gap_mm": 0.5999999999999943,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "slave reversing idler 16T 32",
+          "retaining_face_X_mm": 142.0,
+          "bearing_face_X_mm": 142.4,
+          "gap_mm": 0.4000000000000057,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 1.0,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "Selected data transfer",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "master_gate B-input",
+          "retaining_face_X_mm": -48.000000000000014,
+          "bearing_face_X_mm": -48.4,
+          "gap_mm": 0.39999999999998437,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "master_gate B-input",
+          "retaining_face_X_mm": -40.000000000000014,
+          "bearing_face_X_mm": -39.6,
+          "gap_mm": 0.4000000000000128,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.7999999999999972,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "D input",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "D input retainer",
+          "retaining_face_X_mm": -100.0,
+          "bearing_face_X_mm": -100.2,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "D input retainer",
+          "retaining_face_X_mm": -96.0,
+          "bearing_face_X_mm": -95.6,
+          "gap_mm": 0.4000000000000057,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.6000000000000085,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "D transfer",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "D transfer retainer",
+          "retaining_face_X_mm": -74.0,
+          "bearing_face_X_mm": -74.4,
+          "gap_mm": 0.4000000000000057,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "D transfer retainer",
+          "retaining_face_X_mm": -70.0,
+          "bearing_face_X_mm": -69.6,
+          "gap_mm": 0.4000000000000057,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.8000000000000114,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "Q feedback",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "Q feedback front gear 150",
+          "retaining_face_X_mm": 146.0,
+          "bearing_face_X_mm": 145.6,
+          "gap_mm": 0.4000000000000057,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "Feedback retainer",
+          "retaining_face_X_mm": 142.2,
+          "bearing_face_X_mm": 142.4,
+          "gap_mm": 0.20000000000001705,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.6000000000000227,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "POWER internal",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "master POWER 16T 32",
+          "retaining_face_X_mm": 28.0,
+          "bearing_face_X_mm": 27.4,
+          "gap_mm": 0.6000000000000014,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "master POWER 16T 16",
+          "retaining_face_X_mm": 20.0,
+          "bearing_face_X_mm": 20.6,
+          "gap_mm": 0.6000000000000014,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 1.2000000000000028,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "POWER incoming",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "POWER incoming retainer right",
+          "retaining_face_X_mm": 72.0,
+          "bearing_face_X_mm": 71.8,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "POWER incoming retainer left",
+          "retaining_face_X_mm": 64.0,
+          "bearing_face_X_mm": 64.2,
+          "gap_mm": 0.20000000000000284,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.4000000000000057,
+      "pass_nominal": true
+    },
+    {
+      "shaft_stack": "CLOCK incoming",
+      "faces": [
+        {
+          "direction": -1,
+          "retaining_part": "CLK incoming retainer right",
+          "retaining_face_X_mm": -16.0,
+          "bearing_face_X_mm": -16.2,
+          "gap_mm": 0.1999999999999993,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        },
+        {
+          "direction": 1,
+          "retaining_part": "CLK incoming retainer left",
+          "retaining_face_X_mm": -24.0,
+          "bearing_face_X_mm": -23.8,
+          "gap_mm": 0.1999999999999993,
+          "annular_samples_present": 16,
+          "pass_nominal": true
+        }
+      ],
+      "nominal_end_float_mm": 0.3999999999999986,
+      "pass_nominal": true
+    }
+  ],
+  "nominal_routing_restraint_pass": true,
+  "mechanically_qualified": false
+}

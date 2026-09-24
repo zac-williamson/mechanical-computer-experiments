@@ -1,0 +1,77 @@
+{
+  "scope": "All printed pairs at sampled angle-driven poses; 112 transitions when --all-cases; not continuous clearance proof",
+  "all_cases": true,
+  "samples": 1145,
+  "pair_tests": 168108,
+  "intersections": [
+    {
+      "a": "master Short lever",
+      "b": "master Carriage fork and roof",
+      "volume_mm3": 0.00392609537769346,
+      "input_turns": 5.333333333333333,
+      "frame": 467,
+      "case_start": [
+        0,
+        1,
+        0
+      ],
+      "case_end": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "a": "slave Short lever",
+      "b": "slave Carriage fork and roof",
+      "volume_mm3": 0.0017647062139590746,
+      "input_turns": 8.666666666666666,
+      "frame": 401,
+      "case_start": [
+        0,
+        1,
+        0
+      ],
+      "case_end": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "a": "clock Short lever",
+      "b": "clock Carriage fork and roof",
+      "volume_mm3": 0.0007514337156038998,
+      "input_turns": 4.0,
+      "frame": 164,
+      "case_start": [
+        0,
+        0,
+        1
+      ],
+      "case_end": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": "write Carriage fork and roof",
+      "b": "write Short lever",
+      "volume_mm3": 0.0004396462199038955,
+      "input_turns": 4.0,
+      "frame": 50,
+      "case_start": [
+        0,
+        0,
+        0
+      ],
+      "case_end": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "assembly_sha256": "172dc0e5c7cac11337790cb18105acc1cb833cada1a289e5eddfd6bd6470054e"
+}

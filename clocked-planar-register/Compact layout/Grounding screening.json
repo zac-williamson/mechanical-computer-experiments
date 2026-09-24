@@ -1,0 +1,651 @@
+{
+  "scope": "Printed connection graph inferred from actual annular friction-pin bores.\n\nThis tests attachment geometry, not press-fit strength or rotational restraint.\nA single pin does not qualify a structural joint; counts remain visible.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "pin_connections": [
+    {
+      "pin": "master Carriage support pin 1 2.0",
+      "parts": [
+        "master Carriage fork and roof",
+        "master Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "master Carriage support pin 1 18.0",
+      "parts": [
+        "master Carriage fork and roof",
+        "master Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "slave Carriage support pin 1 2.0",
+      "parts": [
+        "slave Carriage fork and roof",
+        "slave Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "slave Carriage support pin 1 18.0",
+      "parts": [
+        "slave Carriage fork and roof",
+        "slave Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "write Carriage support pin 1 2.0",
+      "parts": [
+        "write Carriage fork and roof",
+        "write Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "write Carriage support pin 1 18.0",
+      "parts": [
+        "write Carriage fork and roof",
+        "write Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "clock Carriage support pin 1 18.0",
+      "parts": [
+        "clock Carriage fork and roof",
+        "clock Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "master cheek frame pin 28.4",
+      "parts": [
+        "master Rear bearing cheek",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "master cheek joining pin 28.4",
+      "parts": [
+        "master Front bearing cheek",
+        "master Rear bearing cheek"
+      ]
+    },
+    {
+      "pin": "master cheek frame pin 35.6",
+      "parts": [
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "master cheek joining pin 35.6",
+      "parts": [
+        "master Front bearing cheek",
+        "master Rear bearing cheek"
+      ]
+    },
+    {
+      "pin": "slave cheek frame pin 28.4",
+      "parts": [
+        "slave Rear bearing cheek",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "slave cheek joining pin 28.4",
+      "parts": [
+        "slave Front bearing cheek",
+        "slave Rear bearing cheek"
+      ]
+    },
+    {
+      "pin": "slave cheek frame pin 35.6",
+      "parts": [
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "slave cheek joining pin 35.6",
+      "parts": [
+        "slave Front bearing cheek",
+        "slave Rear bearing cheek"
+      ]
+    },
+    {
+      "pin": "write cheek frame pin 28.4",
+      "parts": [
+        "write Rear bearing cheek",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "write cheek joining pin 28.4",
+      "parts": [
+        "write Front bearing cheek",
+        "write Rear bearing cheek"
+      ]
+    },
+    {
+      "pin": "write cheek frame pin 35.6",
+      "parts": [
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "write cheek joining pin 35.6",
+      "parts": [
+        "write Front bearing cheek",
+        "write Rear bearing cheek"
+      ]
+    },
+    {
+      "pin": "clock cheek frame pin 28.4",
+      "parts": [
+        "clock Rear bearing cheek",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "clock cheek joining pin 28.4",
+      "parts": [
+        "clock Front bearing cheek",
+        "clock Rear bearing cheek"
+      ]
+    },
+    {
+      "pin": "clock cheek frame pin 35.6",
+      "parts": [
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "clock cheek joining pin 35.6",
+      "parts": [
+        "clock Front bearing cheek",
+        "clock Rear bearing cheek"
+      ]
+    },
+    {
+      "pin": "master track mount -12.0",
+      "parts": [
+        "master carriage track",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "master track mount 12.0",
+      "parts": [
+        "master carriage track",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "slave track mount -12.0",
+      "parts": [
+        "slave carriage track",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "slave track mount 12.0",
+      "parts": [
+        "slave carriage track",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "write track mount -19.9",
+      "parts": [
+        "write carriage track",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "write track mount 19.9",
+      "parts": [
+        "write carriage track",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "clock track mount -23.4",
+      "parts": [
+        "Compact frame right",
+        "Clock track and shaft support module"
+      ]
+    },
+    {
+      "pin": "clock track mount 23.4",
+      "parts": [
+        "Compact frame left",
+        "Clock track and shaft support module"
+      ]
+    },
+    {
+      "pin": "Bearing support 0.0 mount 0",
+      "parts": [
+        "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 0.0 mount 1",
+      "parts": [
+        "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 1.0 mount 0",
+      "parts": [
+        "Bearing support 1.0 \u2014 D transfer left",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 1.0 mount 1",
+      "parts": [
+        "Bearing support 1.0 \u2014 D transfer left",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 2.0 mount 0",
+      "parts": [
+        "Bearing support 2.0 \u2014 D transfer right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 2.0 mount 1",
+      "parts": [
+        "Bearing support 2.0 \u2014 D transfer right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 3.0 mount 0",
+      "parts": [
+        "Bearing support 3.0 \u2014 Master data left + WRITE worm right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 3.0 mount 1",
+      "parts": [
+        "Bearing support 3.0 \u2014 Master data left + WRITE worm right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 4.0 mount 0",
+      "parts": [
+        "Bearing support 4.0 \u2014 Master data right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 4.0 mount 1",
+      "parts": [
+        "Bearing support 4.0 \u2014 Master data right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 5.0 mount 0",
+      "parts": [
+        "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 5.0 mount 1",
+      "parts": [
+        "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 5.1 mount 0",
+      "parts": [
+        "Bearing support 5.1 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 5.1 mount 1",
+      "parts": [
+        "Bearing support 5.1 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Bearing support 6.0 mount 0",
+      "parts": [
+        "Compact frame left",
+        "Clock track and shaft support module"
+      ]
+    },
+    {
+      "pin": "Bearing support 6.0 mount 1",
+      "parts": [
+        "Compact frame left",
+        "Clock track and shaft support module"
+      ]
+    },
+    {
+      "pin": "Bearing support 6.1 mount 0",
+      "parts": [
+        "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+        "Compact frame left",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 6.1 mount 1",
+      "parts": [
+        "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 7.0 mount 0",
+      "parts": [
+        "Compact frame right",
+        "Clock track and shaft support module"
+      ]
+    },
+    {
+      "pin": "Bearing support 7.0 mount 1",
+      "parts": [
+        "Compact frame right",
+        "Clock track and shaft support module"
+      ]
+    },
+    {
+      "pin": "Bearing support 8.0 mount 0",
+      "parts": [
+        "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 8.0 mount 1",
+      "parts": [
+        "Bearing support 8.0 \u2014 CLK worm right + Q output left",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 9.0 mount 0",
+      "parts": [
+        "Bearing support 9.0 \u2014 Q idler left",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 9.0 mount 1",
+      "parts": [
+        "Bearing support 9.0 \u2014 Q idler left",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 10.0 mount 0",
+      "parts": [
+        "Bearing support 10.0 \u2014 Q worm right + Q output right",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 10.0 mount 1",
+      "parts": [
+        "Bearing support 10.0 \u2014 Q worm right + Q output right",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 10.1 mount 0",
+      "parts": [
+        "Bearing support 10.1 \u2014 Q worm right + Q output right",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 10.1 mount 1",
+      "parts": [
+        "Bearing support 10.1 \u2014 Q worm right + Q output right",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 11.0 mount 0",
+      "parts": [
+        "Bearing support 11.0 \u2014 Feedback right",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Bearing support 11.0 mount 1",
+      "parts": [
+        "Bearing support 11.0 \u2014 Feedback right",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "master guide frame pin -15.05",
+      "parts": [
+        "master compact bolt guide",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "master guide frame pin 4.95",
+      "parts": [
+        "master compact bolt guide",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "slave guide frame pin 90.95",
+      "parts": [
+        "slave compact bolt guide",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "slave guide frame pin 110.95",
+      "parts": [
+        "slave compact bolt guide",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "master_gate crosshead pin -10 13.2",
+      "parts": [
+        "master_gate Carriage fork and roof"
+      ]
+    },
+    {
+      "pin": "master_gate crosshead pin 12 13.2",
+      "parts": [
+        "master_gate Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "master_gate fork joining pin",
+      "parts": [
+        "master_gate Carriage fork and roof",
+        "master_gate Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "slave_gate crosshead pin -10 13.2",
+      "parts": [
+        "slave_gate Carriage fork and roof"
+      ]
+    },
+    {
+      "pin": "slave_gate crosshead pin 12 13.2",
+      "parts": [
+        "slave_gate Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "slave_gate fork joining pin",
+      "parts": [
+        "slave_gate Carriage fork and roof",
+        "slave_gate Right carriage bearing support"
+      ]
+    },
+    {
+      "pin": "Crosshead post pin 17",
+      "parts": [
+        "Common fork and cam bar",
+        "Clock output post"
+      ]
+    },
+    {
+      "pin": "Crosshead post pin 25",
+      "parts": [
+        "Common fork and cam bar",
+        "Clock output post"
+      ]
+    },
+    {
+      "pin": "Crosshead guide pin 0 5.4",
+      "parts": [
+        "Captured crosshead guide 0",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Crosshead guide pin 0 31",
+      "parts": [
+        "Captured crosshead guide 0",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Crosshead guide pin 106 5.4",
+      "parts": [
+        "Captured crosshead guide 106",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Crosshead guide pin 106 31",
+      "parts": [
+        "Captured crosshead guide 106",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Clock amplifier joining pin 35.5",
+      "parts": [
+        "Clock amplifier front and input shoe",
+        "Clock amplifier rear and output shoe"
+      ]
+    },
+    {
+      "pin": "Clock amplifier joining pin 44.5",
+      "parts": [
+        "Clock amplifier front and input shoe",
+        "Clock amplifier rear and output shoe"
+      ]
+    },
+    {
+      "pin": "Clock pivot cradle mount 20",
+      "parts": [
+        "Clock front pivot cradle",
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Clock pivot cradle mount 52",
+      "parts": [
+        "Clock front pivot cradle",
+        "Clock rear pivot bearing bridge"
+      ]
+    },
+    {
+      "pin": "Frame joint pin 49",
+      "parts": [
+        "Compact frame left",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Frame joint pin 56",
+      "parts": [
+        "Compact frame left",
+        "Compact frame right"
+      ]
+    },
+    {
+      "pin": "Rear pivot bridge pin 24",
+      "parts": [
+        "Compact frame left"
+      ]
+    },
+    {
+      "pin": "Rear pivot bridge pin 56",
+      "parts": [
+        "Compact frame right"
+      ]
+    }
+  ],
+  "fixed_parts_without_pin_path_to_frame": [],
+  "printed_pin_counts": {
+    "master Short lever": 0,
+    "master Carriage fork and roof": 2,
+    "master Right carriage bearing support": 2,
+    "slave Short lever": 0,
+    "slave Carriage fork and roof": 2,
+    "slave Right carriage bearing support": 2,
+    "write Short lever": 0,
+    "write Carriage fork and roof": 2,
+    "write Right carriage bearing support": 2,
+    "clock Short lever": 0,
+    "clock Carriage fork and roof": 1,
+    "clock Right carriage bearing support": 1,
+    "master Front bearing cheek": 2,
+    "master Rear bearing cheek": 3,
+    "slave Front bearing cheek": 2,
+    "slave Rear bearing cheek": 3,
+    "write Front bearing cheek": 2,
+    "write Rear bearing cheek": 3,
+    "clock Front bearing cheek": 2,
+    "clock Rear bearing cheek": 3,
+    "master carriage track": 2,
+    "slave carriage track": 2,
+    "write carriage track": 2,
+    "Bearing support 0.0 \u2014 WRITE worm left + D header + POWER input + CLK external left + WRITE output left + Feedback left + D header inner": 2,
+    "Bearing support 1.0 \u2014 D transfer left": 2,
+    "Bearing support 2.0 \u2014 D transfer right": 2,
+    "Bearing support 3.0 \u2014 Master data left + WRITE worm right": 2,
+    "Bearing support 4.0 \u2014 Master data right": 2,
+    "Bearing support 5.0 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right": 2,
+    "Bearing support 5.1 \u2014 M worm left + WRITE output right + M output left + M idler left + CLK external right": 2,
+    "Bearing support 6.1 \u2014 CLK worm left + POWER bus left + M worm right + M idler right + M output right + Q gate left": 2,
+    "Bearing support 8.0 \u2014 CLK worm right + Q output left": 2,
+    "Bearing support 9.0 \u2014 Q idler left": 2,
+    "Bearing support 10.0 \u2014 Q worm right + Q output right": 2,
+    "Bearing support 10.1 \u2014 Q worm right + Q output right": 2,
+    "Bearing support 11.0 \u2014 Feedback right": 2,
+    "master lock bolt": 0,
+    "master compact bolt guide": 2,
+    "slave lock bolt": 0,
+    "slave compact bolt guide": 2,
+    "master_gate Carriage fork and roof": 2,
+    "master_gate Right carriage bearing support": 2,
+    "slave_gate Carriage fork and roof": 2,
+    "slave_gate Right carriage bearing support": 2,
+    "Common fork and cam bar": 2,
+    "Clock output post": 2,
+    "Captured crosshead guide 0": 2,
+    "Captured crosshead guide 106": 2,
+    "Clock amplifier front and input shoe": 2,
+    "Clock amplifier rear and output shoe": 2,
+    "Clock front pivot cradle": 2,
+    "Clock rear pivot bearing bridge": 1,
+    "Compact frame left": 34,
+    "Compact frame right": 28,
+    "Clock track and shaft support module": 6
+  },
+  "mechanically_qualified": false
+}

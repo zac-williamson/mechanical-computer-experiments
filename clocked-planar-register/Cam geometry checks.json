@@ -1,0 +1,26 @@
+{
+  "scope": "Cam rail against actual planar bolt, guide and carriage solids only",
+  "rail_samples": 401,
+  "max_intersections_mm3": {
+    "master/bolt-guide": 0,
+    "master/bolt-locked-carriage": 0,
+    "master/guide": 0,
+    "master/bolt": 0,
+    "master/carriage": 0,
+    "slave/bolt-guide": 0,
+    "slave/bolt-locked-carriage": 0,
+    "slave/guide": 0,
+    "slave/bolt": 0,
+    "slave/carriage": 0
+  },
+  "max_analytic_roller_contact_error_mm": 1.687538997430238e-14,
+  "failures": [],
+  "print_ready": false,
+  "missing": [
+    "Rail guides and pin-jointed split",
+    "Clock lever and its supports",
+    "Positive clutch fork drives",
+    "Connected gear routing",
+    "Whole frame and all-parts sweep"
+  ]
+}

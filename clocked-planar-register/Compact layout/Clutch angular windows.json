@@ -1,0 +1,87 @@
+{
+  "scope": "Conservative angular free windows from the native clutch tip geometry.\n\nAxial-tip surface projection supplies a non-interpenetration screen. It is not\nan axial force/chamfer model. Four-fold symmetry is checked conservatively.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "interfaces": {
+    "master L072": {
+      "side": 1,
+      "period_deg": 90.0,
+      "lower_deg": 0.44854292849015814,
+      "upper_deg": 64.55145709863461,
+      "free_play_deg": 64.10291417014446,
+      "nominal_axial_contact_mm": 0.7999963760375977,
+      "profile_depth_mm": 2.0,
+      "native_geometry_sha256": "1a370ee725ef6402f1ced07b4553216e42ddf5d36f90fbb2f1059758c6354990"
+    },
+    "master L102": {
+      "side": -1,
+      "period_deg": 90.0,
+      "lower_deg": 80.94859649461398,
+      "upper_deg": 145.05140493578108,
+      "free_play_deg": 64.1028084411671,
+      "nominal_axial_contact_mm": 0.8000001907348633,
+      "profile_depth_mm": 2.0,
+      "native_geometry_sha256": "ec7962c6058456c91b279702e05ce402ead14b5d6f1e38032e64af5b0d90ba92"
+    },
+    "slave L072": {
+      "side": 1,
+      "period_deg": 90.0,
+      "lower_deg": 0.44854292849015814,
+      "upper_deg": 64.55145709863461,
+      "free_play_deg": 64.10291417014446,
+      "nominal_axial_contact_mm": 0.7999963760375977,
+      "profile_depth_mm": 2.0,
+      "native_geometry_sha256": "35bb7592fa0e30f93415140ba09e1c64acde47c7675c3218e5673d648393c86a"
+    },
+    "slave L102": {
+      "side": -1,
+      "period_deg": 90.0,
+      "lower_deg": 80.94859649461398,
+      "upper_deg": 145.05140493578108,
+      "free_play_deg": 64.1028084411671,
+      "nominal_axial_contact_mm": 0.8000001907348633,
+      "profile_depth_mm": 2.0,
+      "native_geometry_sha256": "aedb28d69131570eac625fa528578cedd4aa741761d564a5938b6711768aca36"
+    },
+    "write L072": {
+      "side": -1,
+      "period_deg": 90.0,
+      "lower_deg": 57.948542943216694,
+      "upper_deg": 122.0514570567833,
+      "free_play_deg": 64.10291411356661,
+      "nominal_axial_contact_mm": 0.7999963760375977,
+      "profile_depth_mm": 2.0,
+      "native_geometry_sha256": "ec795aa4ebbd4c062243ded7fa87851e17fcc788122ef6825ff50b91704ffd5a"
+    },
+    "write L102": {
+      "side": 1,
+      "period_deg": 90.0,
+      "lower_deg": 57.94859382305697,
+      "upper_deg": 122.05140472454548,
+      "free_play_deg": 64.10281090148851,
+      "nominal_axial_contact_mm": 0.8000001907348633,
+      "profile_depth_mm": 2.0,
+      "native_geometry_sha256": "6c77aa4df02a7a763f7e1f12fd843a3d0047da78304fd8893f497df8849e2ba4"
+    },
+    "master_gate L102": {
+      "side": 1,
+      "period_deg": 90.0,
+      "lower_deg": 46.49592575331155,
+      "upper_deg": 110.598840090512,
+      "free_play_deg": 64.10291433720045,
+      "nominal_axial_contact_mm": 6.799996376037598,
+      "profile_depth_mm": 2.0,
+      "native_geometry_sha256": "a3bd08ec86cfd8347b51df11f5301f04d9300f24927ff71fde5c948c92768449"
+    },
+    "slave_gate L102": {
+      "side": -1,
+      "period_deg": 90.0,
+      "lower_deg": 46.49592575331155,
+      "upper_deg": 110.598840090512,
+      "free_play_deg": 64.10291433720045,
+      "nominal_axial_contact_mm": 6.800004005432129,
+      "profile_depth_mm": 2.0,
+      "native_geometry_sha256": "efad04bb274e48c18deb329a59f7a787544fb2e8a75b9046003b0688192adf0f"
+    }
+  },
+  "mechanically_qualified": false
+}

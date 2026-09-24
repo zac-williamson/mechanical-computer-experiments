@@ -1,0 +1,7 @@
+{
+  "scope": "Elastic loop geometry against printed solids over conservative lever ranges.\nNo elastic force, preload, installation or fatigue qualification.\n",
+  "geometry_sha256": "d59e1bf96f650514e585751d3c247684fd88977d7b8961deb87094697245f392",
+  "checks": 5865,
+  "hits": [],
+  "mechanically_qualified": false
+}

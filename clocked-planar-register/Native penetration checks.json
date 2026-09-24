@@ -1,0 +1,2327 @@
+{
+  "scope": "Five sampled poses, native vertices inside printed solids; edge-only intersections not tested",
+  "intersections": [
+    {
+      "native": "slave_gate O-left 3L axle",
+      "printed": "Slave gate clutch left bearing",
+      "depth_mm": 1.599999237060544,
+      "frame": 200,
+      "point_local": [
+        46.8,
+        11.70871014331032,
+        17.839831242322212
+      ]
+    },
+    {
+      "native": "Clock frame pin 28 16",
+      "printed": "clock Right side frame",
+      "depth_mm": 1.0918500844659231,
+      "frame": 0,
+      "point_local": [
+        103.40000000596046,
+        24.6,
+        95.87959995269776
+      ]
+    },
+    {
+      "native": "Clock frame pin -28 16",
+      "printed": "clock Left side frame",
+      "depth_mm": 1.091850084442472,
+      "frame": 0,
+      "point_local": [
+        47.400000005960464,
+        24.6,
+        95.87959995269776
+      ]
+    },
+    {
+      "native": "Rail guide pin 134 35",
+      "printed": "Base right",
+      "depth_mm": 0.40000036954879903,
+      "frame": 0,
+      "point_local": [
+        134.9180000424385,
+        31.799999988079072,
+        37.21760010719299
+      ]
+    },
+    {
+      "native": "write Carriage support pin 1 18.0",
+      "printed": "write Carriage fork and roof",
+      "depth_mm": 0.1813981448348291,
+      "frame": 0,
+      "point_local": [
+        -84.8,
+        25.788344573974612,
+        100.0612892150879
+      ]
+    },
+    {
+      "native": "master_gate fork joining pin 24",
+      "printed": "master_gate Carriage fork and roof",
+      "depth_mm": 0.17025979527306428,
+      "frame": 0,
+      "point_local": [
+        -84.8,
+        21.39992904663086,
+        19.50021982335602
+      ]
+    },
+    {
+      "native": "slave_gate fork joining pin 24",
+      "printed": "slave_gate Carriage fork and roof",
+      "depth_mm": 0.17025979527306428,
+      "frame": 0,
+      "point_local": [
+        75.2,
+        21.39992904663086,
+        19.50021982335602
+      ]
+    },
+    {
+      "native": "write Carriage support pin 1 2.0",
+      "printed": "write Carriage fork and roof",
+      "depth_mm": 0.17025971806772763,
+      "frame": 0,
+      "point_local": [
+        -84.8,
+        21.39992904663086,
+        85.90021934509278
+      ]
+    },
+    {
+      "native": "clock Carriage support pin 1 18.0",
+      "printed": "clock Carriage fork and roof",
+      "depth_mm": 0.1518472644715194,
+      "frame": 0,
+      "point_local": [
+        75.99999971389771,
+        21.54799957275391,
+        102.89519920349122
+      ]
+    },
+    {
+      "native": "master Carriage support pin 1 18.0",
+      "printed": "master Carriage fork and roof",
+      "depth_mm": 0.1518471956132799,
+      "frame": 0,
+      "point_local": [
+        0.9999997138977044,
+        21.54799957275391,
+        20.49519920349121
+      ]
+    },
+    {
+      "native": "slave Carriage support pin 1 18.0",
+      "printed": "slave Carriage fork and roof",
+      "depth_mm": 0.1518471956132799,
+      "frame": 0,
+      "point_local": [
+        160.9999997138977,
+        21.54799957275391,
+        20.49519920349121
+      ]
+    },
+    {
+      "native": "master Carriage support pin 1 2.0",
+      "printed": "master Right carriage bearing support",
+      "depth_mm": 0.15042670964450858,
+      "frame": 0,
+      "point_local": [
+        15.400000762939452,
+        25.83871078491211,
+        5.338344573974609
+      ]
+    },
+    {
+      "native": "slave Carriage support pin 1 2.0",
+      "printed": "slave Right carriage bearing support",
+      "depth_mm": 0.15042670922875373,
+      "frame": 0,
+      "point_local": [
+        175.40000076293944,
+        25.83871078491211,
+        5.338344573974609
+      ]
+    },
+    {
+      "native": "master_gate fork joining pin 24",
+      "printed": "master_gate Right carriage bearing support",
+      "depth_mm": 0.15042661970821966,
+      "frame": 0,
+      "point_local": [
+        -69.5999997138977,
+        25.83871078491211,
+        21.338344931602478
+      ]
+    },
+    {
+      "native": "slave_gate fork joining pin 24",
+      "printed": "slave_gate Right carriage bearing support",
+      "depth_mm": 0.15042661970821966,
+      "frame": 0,
+      "point_local": [
+        90.4000002861023,
+        25.83871078491211,
+        21.338344931602478
+      ]
+    },
+    {
+      "native": "master Carriage support pin 1 18.0",
+      "printed": "master Right carriage bearing support",
+      "depth_mm": 0.15042585477947415,
+      "frame": 0,
+      "point_local": [
+        15.400000762939452,
+        25.788710784912112,
+        21.33834457397461
+      ]
+    },
+    {
+      "native": "slave Carriage support pin 1 18.0",
+      "printed": "slave Right carriage bearing support",
+      "depth_mm": 0.1504258543647971,
+      "frame": 0,
+      "point_local": [
+        175.40000076293944,
+        25.788710784912112,
+        21.33834457397461
+      ]
+    },
+    {
+      "native": "write Carriage support pin 1 2.0",
+      "printed": "write Right carriage bearing support",
+      "depth_mm": 0.15042535253273773,
+      "frame": 0,
+      "point_local": [
+        -69.59999923706054,
+        25.83871078491211,
+        87.73834457397462
+      ]
+    },
+    {
+      "native": "write Carriage support pin 1 18.0",
+      "printed": "write Right carriage bearing support",
+      "depth_mm": 0.15042483217166058,
+      "frame": 0,
+      "point_local": [
+        -69.59999923706054,
+        25.788710784912112,
+        103.73834457397462
+      ]
+    },
+    {
+      "native": "clock Carriage support pin 1 18.0",
+      "printed": "clock Right carriage bearing support",
+      "depth_mm": 0.15042483217166058,
+      "frame": 0,
+      "point_local": [
+        90.40000076293946,
+        25.788710784912112,
+        103.73834457397462
+      ]
+    },
+    {
+      "native": "write Baseboard pin X-8 Z-18.4",
+      "printed": "write Left inner bearing wall",
+      "depth_mm": 0.15008885985521364,
+      "frame": 0,
+      "point_local": [
+        -94.83871078491211,
+        22.4,
+        65.83834457397461
+      ]
+    },
+    {
+      "native": "write Baseboard pin X8 Z-18.4",
+      "printed": "write Right inner bearing wall",
+      "depth_mm": 0.15008885985521364,
+      "frame": 0,
+      "point_local": [
+        -78.83871078491211,
+        22.4,
+        65.83834457397461
+      ]
+    },
+    {
+      "native": "write Baseboard pin X-28 Z10",
+      "printed": "WRITE port inner bearing",
+      "depth_mm": 0.15008778276293563,
+      "frame": 0,
+      "point_local": [
+        -114.83871078491211,
+        22.4,
+        95.73834457397462
+      ]
+    },
+    {
+      "native": "write Baseboard pin X28 Z10",
+      "printed": "Master gate and route bearing",
+      "depth_mm": 0.15008778276293563,
+      "frame": 0,
+      "point_local": [
+        -58.83871078491211,
+        22.4,
+        95.73834457397462
+      ]
+    },
+    {
+      "native": "master Carriage support pin 1 2.0",
+      "printed": "master Carriage fork and roof",
+      "depth_mm": 0.1500868379744908,
+      "frame": 0,
+      "point_local": [
+        0.1999999999999993,
+        22.16165542602539,
+        5.338710784912109
+      ]
+    },
+    {
+      "native": "slave Carriage support pin 1 2.0",
+      "printed": "slave Carriage fork and roof",
+      "depth_mm": 0.1500868379744908,
+      "frame": 0,
+      "point_local": [
+        160.2,
+        22.16165542602539,
+        5.338710784912109
+      ]
+    },
+    {
+      "native": "write Baseboard pin X-8 Z-9.2",
+      "printed": "write Left inner bearing wall",
+      "depth_mm": 0.150086705678431,
+      "frame": 0,
+      "point_local": [
+        -91.16128921508789,
+        22.4,
+        71.3616554260254
+      ]
+    },
+    {
+      "native": "write Baseboard pin X8 Z-9.2",
+      "printed": "write Right inner bearing wall",
+      "depth_mm": 0.150086705678431,
+      "frame": 0,
+      "point_local": [
+        -75.16128921508789,
+        22.4,
+        71.3616554260254
+      ]
+    },
+    {
+      "native": "slave Guide mount friction pin 1",
+      "printed": "Base right",
+      "depth_mm": 0.14147278751921336,
+      "frame": 0,
+      "point_local": [
+        143.05007095336913,
+        36.099778747558595,
+        36.0
+      ]
+    },
+    {
+      "native": "slave Guide mount friction pin 2",
+      "printed": "Base right",
+      "depth_mm": 0.14147278751921336,
+      "frame": 0,
+      "point_local": [
+        172.05007095336913,
+        36.099778747558595,
+        36.0
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Left side frame 0",
+      "printed": "master Left side frame",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        -30.60007095336914,
+        24.6,
+        -16.000221252441406
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Left side frame 1",
+      "printed": "master Left side frame",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        -30.60007095336914,
+        24.6,
+        15.999778747558594
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Right side frame 0",
+      "printed": "master Right side frame",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        25.39992904663086,
+        24.6,
+        -16.000221252441406
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Right side frame 1",
+      "printed": "master Right side frame",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        25.39992904663086,
+        24.6,
+        15.999778747558594
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Left inner bearing wall 1",
+      "printed": "master Left inner bearing wall",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        -10.60007095336914,
+        24.6,
+        -12.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Left side frame 0",
+      "printed": "slave Left side frame",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        129.39992904663086,
+        24.6,
+        -16.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Left side frame 1",
+      "printed": "slave Left side frame",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        129.39992904663086,
+        24.6,
+        15.999778747558594
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Right side frame 0",
+      "printed": "slave Right side frame",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        185.39992904663086,
+        24.6,
+        -16.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Right side frame 1",
+      "printed": "slave Right side frame",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        185.39992904663086,
+        24.6,
+        15.999778747558594
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Left inner bearing wall 1",
+      "printed": "slave Left inner bearing wall",
+      "depth_mm": 0.14147224904313907,
+      "frame": 0,
+      "point_local": [
+        149.39992904663086,
+        24.6,
+        -12.000221252441406
+      ]
+    },
+    {
+      "native": "Master gate left bearing mounting pin -4",
+      "printed": "Master gate left bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        24.6,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Master gate left bearing mounting pin 20",
+      "printed": "Master gate left bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        24.6,
+        19.99978017664398
+      ]
+    },
+    {
+      "native": "Data route right bearing mounting pin -4",
+      "printed": "Data route right bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        -38.60007095336914,
+        24.6,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Data route right bearing mounting pin 35",
+      "printed": "Data route right bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        -38.60007095336914,
+        24.6,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Data route right bearing mounting pin 54",
+      "printed": "Data route right bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        -38.60007095336914,
+        24.6,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Slave gate clutch left bearing mounting pin 20",
+      "printed": "Slave gate clutch left bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        46.39992904663086,
+        24.6,
+        19.99978017664398
+      ]
+    },
+    {
+      "native": "Slave gate data left bearing mounting pin -4",
+      "printed": "Slave gate data left bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        56.39992904663086,
+        24.6,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Slave gate right bearing mounting pin -4",
+      "printed": "Slave gate right bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        100.39992904663086,
+        24.6,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Slave gate right bearing mounting pin 20",
+      "printed": "Slave gate right bearing",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        100.39992904663086,
+        24.6,
+        19.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 216 mounting pin -4",
+      "printed": "Q return bearing 216",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        213.39992904663086,
+        24.6,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Q return bearing 216 mounting pin 35",
+      "printed": "Q return bearing 216",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        213.39992904663086,
+        24.6,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 216 mounting pin 54",
+      "printed": "Q return bearing 216",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        213.39992904663086,
+        24.6,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 232 mounting pin -4",
+      "printed": "Q return bearing 232",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        229.39992904663086,
+        24.6,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Q return bearing 232 mounting pin 35",
+      "printed": "Q return bearing 232",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        229.39992904663086,
+        24.6,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Feedback bus bearing 30 mounting pin 64",
+      "printed": "Feedback bus bearing 30",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        27.39992904663086,
+        24.6,
+        63.99978017664398
+      ]
+    },
+    {
+      "native": "Feedback bus bearing 120 mounting pin 64",
+      "printed": "Feedback bus bearing 120",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        117.39992904663086,
+        24.6,
+        63.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin -45 35",
+      "printed": "Rail guide -45",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        -47.60007095336914,
+        24.6,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin -45 54",
+      "printed": "Rail guide -45",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        -47.60007095336914,
+        24.6,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 40 35",
+      "printed": "Rail guide 40",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        37.39992904663086,
+        24.6,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 40 54",
+      "printed": "Rail guide 40",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        37.39992904663086,
+        24.6,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 134 35",
+      "printed": "Rail guide 134",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        131.39992904663086,
+        24.6,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 134 62",
+      "printed": "Rail guide 134",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        131.39992904663086,
+        24.6,
+        61.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 200 35",
+      "printed": "Rail guide 200",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        197.39992904663086,
+        24.6,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 200 54",
+      "printed": "Rail guide 200",
+      "depth_mm": 0.14147224681537007,
+      "frame": 0,
+      "point_local": [
+        197.39992904663086,
+        24.6,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "master Guide mount friction pin 1",
+      "printed": "Base middle",
+      "depth_mm": 0.14147117325333408,
+      "frame": 0,
+      "point_local": [
+        -22.15007095336914,
+        36.10022125244141,
+        36.0
+      ]
+    },
+    {
+      "native": "master Guide mount friction pin 2",
+      "printed": "Base middle",
+      "depth_mm": 0.14147076372379383,
+      "frame": 0,
+      "point_local": [
+        12.05007095336914,
+        36.099778747558595,
+        36.0
+      ]
+    },
+    {
+      "native": "Master gate and route bearing mounting pin 56",
+      "printed": "Master gate and route bearing",
+      "depth_mm": 0.1414399360500464,
+      "frame": 0,
+      "point_local": [
+        -58.83834493160248,
+        24.6,
+        54.16128921508789
+      ]
+    },
+    {
+      "native": "Data route right bearing mounting pin 88",
+      "printed": "Data route right bearing",
+      "depth_mm": 0.1414399360500464,
+      "frame": 0,
+      "point_local": [
+        -37.83834493160248,
+        24.6,
+        86.16128921508789
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Left inner bearing wall 0",
+      "printed": "master Left inner bearing wall",
+      "depth_mm": 0.14143951984838626,
+      "frame": 0,
+      "point_local": [
+        -6.161655426025391,
+        24.6,
+        -18.16128921508789
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Right inner bearing wall 0",
+      "printed": "master Right inner bearing wall",
+      "depth_mm": 0.14143951861377388,
+      "frame": 0,
+      "point_local": [
+        6.161289215087891,
+        24.6,
+        -18.16165542602539
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Right inner bearing wall 1",
+      "printed": "master Right inner bearing wall",
+      "depth_mm": 0.14143904172142663,
+      "frame": 0,
+      "point_local": [
+        6.161655426025391,
+        24.6,
+        -13.83871078491211
+      ]
+    },
+    {
+      "native": "Q return bearing 232 mounting pin 54",
+      "printed": "Q return bearing 232",
+      "depth_mm": 0.14143613091540166,
+      "frame": 0,
+      "point_local": [
+        230.16165506839752,
+        24.6,
+        52.16128921508789
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Left inner bearing wall 0",
+      "printed": "slave Left inner bearing wall",
+      "depth_mm": 0.14143595255730118,
+      "frame": 0,
+      "point_local": [
+        153.8383445739746,
+        24.6,
+        -18.16128921508789
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Right inner bearing wall 0",
+      "printed": "slave Right inner bearing wall",
+      "depth_mm": 0.14143595255730118,
+      "frame": 0,
+      "point_local": [
+        169.8383445739746,
+        24.6,
+        -18.16128921508789
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Right inner bearing wall 1",
+      "printed": "slave Right inner bearing wall",
+      "depth_mm": 0.1414354744182822,
+      "frame": 0,
+      "point_local": [
+        166.1616554260254,
+        24.6,
+        -13.83871078491211
+      ]
+    },
+    {
+      "native": "Master gate and route bearing mounting pin 18",
+      "printed": "Master gate and route bearing",
+      "depth_mm": 0.14142762082799948,
+      "frame": 0,
+      "point_local": [
+        -57.99519997835159,
+        24.6,
+        20.402000188827515
+      ]
+    },
+    {
+      "native": "slave Guide mount friction pin 1",
+      "printed": "slave Detachable bolt guide",
+      "depth_mm": 0.10007424634694699,
+      "frame": 0,
+      "point_local": [
+        143.05007095336913,
+        36.099778747558595,
+        51.20000076293945
+      ]
+    },
+    {
+      "native": "slave Guide mount friction pin 2",
+      "printed": "slave Detachable bolt guide",
+      "depth_mm": 0.10007424634694699,
+      "frame": 0,
+      "point_local": [
+        172.05007095336913,
+        36.099778747558595,
+        51.20000076293945
+      ]
+    },
+    {
+      "native": "Base joint -42 -4",
+      "printed": "Base left",
+      "depth_mm": 0.10007272068430491,
+      "frame": 0,
+      "point_local": [
+        -50.0,
+        40.70007095336914,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Base joint -42 82",
+      "printed": "Base left",
+      "depth_mm": 0.10007272068430491,
+      "frame": 0,
+      "point_local": [
+        -50.0,
+        40.70007095336914,
+        81.99978017664398
+      ]
+    },
+    {
+      "native": "Base joint -42 82",
+      "printed": "Base middle",
+      "depth_mm": 0.10007272068430491,
+      "frame": 0,
+      "point_local": [
+        -34.799999713897705,
+        40.70007095336914,
+        81.99978017664398
+      ]
+    },
+    {
+      "native": "Base joint 112 -4",
+      "printed": "Base right",
+      "depth_mm": 0.10007272068430491,
+      "frame": 0,
+      "point_local": [
+        119.2000002861023,
+        40.70007095336914,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Base joint 112 82",
+      "printed": "Base middle",
+      "depth_mm": 0.10007272068430491,
+      "frame": 0,
+      "point_local": [
+        104.0,
+        40.70007095336914,
+        81.99978017664398
+      ]
+    },
+    {
+      "native": "master Guide mount friction pin 1",
+      "printed": "master Detachable bolt guide",
+      "depth_mm": 0.10007196428135011,
+      "frame": 0,
+      "point_local": [
+        -22.15007095336914,
+        36.10022125244141,
+        51.20000076293945
+      ]
+    },
+    {
+      "native": "master Guide mount friction pin 2",
+      "printed": "master Detachable bolt guide",
+      "depth_mm": 0.10007138533090487,
+      "frame": 0,
+      "point_local": [
+        12.05007095336914,
+        36.099778747558595,
+        51.20000076293945
+      ]
+    },
+    {
+      "native": "write Baseboard pin X-8 Z-9.2",
+      "printed": "Base left",
+      "depth_mm": 0.10007120475232875,
+      "frame": 0,
+      "point_local": [
+        -90.39992904663086,
+        37.60000076293945,
+        73.20022125244141
+      ]
+    },
+    {
+      "native": "write Baseboard pin X8 Z-9.2",
+      "printed": "Base left",
+      "depth_mm": 0.10007120475232875,
+      "frame": 0,
+      "point_local": [
+        -74.39992904663086,
+        37.60000076293945,
+        73.20022125244141
+      ]
+    },
+    {
+      "native": "write Baseboard pin X-28 Z10",
+      "printed": "Base left",
+      "depth_mm": 0.10007120134378679,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        37.60000076293945,
+        93.8997787475586
+      ]
+    },
+    {
+      "native": "write Baseboard pin X28 Z10",
+      "printed": "Base left",
+      "depth_mm": 0.10007120134378679,
+      "frame": 0,
+      "point_local": [
+        -59.60007095336914,
+        37.60000076293945,
+        93.8997787475586
+      ]
+    },
+    {
+      "native": "Clock frame pin -28 16",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        44.39992904663086,
+        39.800000286102296,
+        98.39978017664399
+      ]
+    },
+    {
+      "native": "Clock frame pin -28 32",
+      "printed": "clock Left side frame",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        44.39992904663086,
+        25.399999713897706,
+        114.39978017664399
+      ]
+    },
+    {
+      "native": "Clock frame pin -28 32",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        44.39992904663086,
+        39.800000286102296,
+        114.39978017664399
+      ]
+    },
+    {
+      "native": "Clock frame pin 28 16",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        100.39992904663086,
+        39.800000286102296,
+        98.39978017664399
+      ]
+    },
+    {
+      "native": "Clock frame pin 28 32",
+      "printed": "clock Right side frame",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        100.39992904663086,
+        25.399999713897706,
+        114.39978017664399
+      ]
+    },
+    {
+      "native": "Clock frame pin 28 32",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        100.39992904663086,
+        39.800000286102296,
+        114.39978017664399
+      ]
+    },
+    {
+      "native": "WRITE port outer bearing mounting pin 106.4",
+      "printed": "WRITE port outer bearing",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        -139.60007095336914,
+        25.399999713897706,
+        106.39978017664399
+      ]
+    },
+    {
+      "native": "WRITE port outer bearing mounting pin 106.4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        -139.60007095336914,
+        39.800000286102296,
+        106.39978017664399
+      ]
+    },
+    {
+      "native": "WRITE port outer bearing mounting pin 122.4",
+      "printed": "WRITE port outer bearing",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        -139.60007095336914,
+        25.399999713897706,
+        122.39978017664399
+      ]
+    },
+    {
+      "native": "WRITE port outer bearing mounting pin 122.4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        -139.60007095336914,
+        39.800000286102296,
+        122.39978017664399
+      ]
+    },
+    {
+      "native": "WRITE port inner bearing mounting pin 106.4",
+      "printed": "WRITE port inner bearing",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        25.399999713897706,
+        106.39978017664399
+      ]
+    },
+    {
+      "native": "WRITE port inner bearing mounting pin 106.4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        39.800000286102296,
+        106.39978017664399
+      ]
+    },
+    {
+      "native": "WRITE port inner bearing mounting pin 122.4",
+      "printed": "WRITE port inner bearing",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        25.399999713897706,
+        122.39978017664399
+      ]
+    },
+    {
+      "native": "WRITE port inner bearing mounting pin 122.4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        39.800000286102296,
+        122.39978017664399
+      ]
+    },
+    {
+      "native": "Clock second carriage pin",
+      "printed": "clock Carriage fork and roof",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        75.99999971389771,
+        26.60007095336914,
+        109.89978017664399
+      ]
+    },
+    {
+      "native": "Clock second carriage pin",
+      "printed": "clock Right carriage bearing support",
+      "depth_mm": 0.10007119817256371,
+      "frame": 0,
+      "point_local": [
+        90.4000002861023,
+        26.60007095336914,
+        109.89978017664399
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Left side frame 0",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -30.60007095336914,
+        39.800000762939455,
+        -16.000221252441406
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Left side frame 1",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -30.60007095336914,
+        39.800000762939455,
+        15.999778747558594
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Right side frame 0",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        25.39992904663086,
+        39.800000762939455,
+        -16.000221252441406
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Right side frame 1",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        25.39992904663086,
+        39.800000762939455,
+        15.999778747558594
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Left inner bearing wall 0",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -10.60007095336914,
+        39.800000762939455,
+        -20.000221252441406
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Left inner bearing wall 1",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -10.60007095336914,
+        39.800000762939455,
+        -12.000221252441406
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Right inner bearing wall 0",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        5.399929046630859,
+        39.800000762939455,
+        -20.000221252441406
+      ]
+    },
+    {
+      "native": "master Frame pin Memory \u2014 Right inner bearing wall 1",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        5.399929046630859,
+        39.800000762939455,
+        -12.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Left side frame 0",
+      "printed": "Base right",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        129.39992904663086,
+        39.800000762939455,
+        -16.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Left side frame 1",
+      "printed": "Base right",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        129.39992904663086,
+        39.800000762939455,
+        15.999778747558594
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Right side frame 0",
+      "printed": "Base right",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        185.39992904663086,
+        39.800000762939455,
+        -16.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Right side frame 1",
+      "printed": "Base right",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        185.39992904663086,
+        39.800000762939455,
+        15.999778747558594
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Left inner bearing wall 0",
+      "printed": "Base right",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        149.39992904663086,
+        39.800000762939455,
+        -20.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Left inner bearing wall 1",
+      "printed": "Base right",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        149.39992904663086,
+        39.800000762939455,
+        -12.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Right inner bearing wall 0",
+      "printed": "Base right",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        165.39992904663086,
+        39.800000762939455,
+        -20.000221252441406
+      ]
+    },
+    {
+      "native": "slave Frame pin Memory \u2014 Right inner bearing wall 1",
+      "printed": "Base right",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        165.39992904663086,
+        39.800000762939455,
+        -12.000221252441406
+      ]
+    },
+    {
+      "native": "write Baseboard pin X-28 Z-18.4",
+      "printed": "WRITE port inner bearing",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -110.39992904663086,
+        22.4,
+        64.0002212524414
+      ]
+    },
+    {
+      "native": "write Baseboard pin X-28 Z-18.4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -110.39992904663086,
+        37.60000076293945,
+        64.0002212524414
+      ]
+    },
+    {
+      "native": "write Baseboard pin X-8 Z-18.4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -90.39992904663086,
+        37.60000076293945,
+        64.0002212524414
+      ]
+    },
+    {
+      "native": "write Baseboard pin X28 Z-18.4",
+      "printed": "Master gate and route bearing",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -54.39992904663086,
+        22.4,
+        64.0002212524414
+      ]
+    },
+    {
+      "native": "write Baseboard pin X28 Z-18.4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -54.39992904663086,
+        37.60000076293945,
+        64.0002212524414
+      ]
+    },
+    {
+      "native": "write Baseboard pin X8 Z-18.4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119795851124,
+      "frame": 0,
+      "point_local": [
+        -74.39992904663086,
+        37.60000076293945,
+        64.0002212524414
+      ]
+    },
+    {
+      "native": "Master gate left bearing mounting pin -4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        39.800000286102296,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Master gate left bearing mounting pin 20",
+      "printed": "Base left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -115.60007095336914,
+        39.800000286102296,
+        19.99978017664398
+      ]
+    },
+    {
+      "native": "Master gate and route bearing mounting pin -4",
+      "printed": "Master gate and route bearing",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -59.60007095336914,
+        24.6,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Master gate and route bearing mounting pin -4",
+      "printed": "Base left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -59.60007095336914,
+        39.800000286102296,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Master gate and route bearing mounting pin 18",
+      "printed": "Base left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -59.60007095336914,
+        39.800000286102296,
+        17.99978017664398
+      ]
+    },
+    {
+      "native": "Master gate and route bearing mounting pin 56",
+      "printed": "Base left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -59.60007095336914,
+        39.800000286102296,
+        55.99978017664398
+      ]
+    },
+    {
+      "native": "Master gate and route bearing mounting pin 72",
+      "printed": "Master gate and route bearing",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -59.60007095336914,
+        24.6,
+        71.99978017664398
+      ]
+    },
+    {
+      "native": "Master gate and route bearing mounting pin 72",
+      "printed": "Base left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -59.60007095336914,
+        39.800000286102296,
+        71.99978017664398
+      ]
+    },
+    {
+      "native": "Data route right bearing mounting pin -4",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -33.39992904663086,
+        39.800000286102296,
+        -3.9997801766439807
+      ]
+    },
+    {
+      "native": "Data route right bearing mounting pin 35",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -38.60007095336914,
+        39.800000286102296,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Data route right bearing mounting pin 54",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -38.60007095336914,
+        39.800000286102296,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Data route right bearing mounting pin 88",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -38.60007095336914,
+        39.800000286102296,
+        87.99978017664398
+      ]
+    },
+    {
+      "native": "Slave gate clutch left bearing mounting pin 8",
+      "printed": "Slave gate clutch left bearing",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        46.39992904663086,
+        25.399999713897706,
+        7.999780176643981
+      ]
+    },
+    {
+      "native": "Slave gate clutch left bearing mounting pin 8",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        46.39992904663086,
+        39.800000286102296,
+        7.999780176643981
+      ]
+    },
+    {
+      "native": "Slave gate clutch left bearing mounting pin 20",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        46.39992904663086,
+        39.800000286102296,
+        19.99978017664398
+      ]
+    },
+    {
+      "native": "Slave gate data left bearing mounting pin -4",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        56.39992904663086,
+        39.800000286102296,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Slave gate data left bearing mounting pin 8",
+      "printed": "Slave gate data left bearing",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        56.39992904663086,
+        25.399999713897706,
+        7.999780176643981
+      ]
+    },
+    {
+      "native": "Slave gate data left bearing mounting pin 8",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        56.39992904663086,
+        39.800000286102296,
+        7.999780176643981
+      ]
+    },
+    {
+      "native": "Slave gate right bearing mounting pin -4",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        100.39992904663086,
+        39.800000286102296,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Slave gate right bearing mounting pin 20",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        100.39992904663086,
+        39.800000286102296,
+        19.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 216 mounting pin -4",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        213.39992904663086,
+        39.800000286102296,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Q return bearing 216 mounting pin 35",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        213.39992904663086,
+        39.800000286102296,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 216 mounting pin 54",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        213.39992904663086,
+        39.800000286102296,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 216 mounting pin 72",
+      "printed": "Q return bearing 216",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        213.39992904663086,
+        25.399999713897706,
+        71.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 216 mounting pin 72",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        213.39992904663086,
+        39.800000286102296,
+        71.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 232 mounting pin -4",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        229.39992904663086,
+        39.800000286102296,
+        -4.000219823356019
+      ]
+    },
+    {
+      "native": "Q return bearing 232 mounting pin 35",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        229.39992904663086,
+        39.800000286102296,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 232 mounting pin 54",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        229.39992904663086,
+        39.800000286102296,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 232 mounting pin 72",
+      "printed": "Q return bearing 232",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        229.39992904663086,
+        25.399999713897706,
+        71.99978017664398
+      ]
+    },
+    {
+      "native": "Q return bearing 232 mounting pin 72",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        229.39992904663086,
+        39.800000286102296,
+        71.99978017664398
+      ]
+    },
+    {
+      "native": "Feedback bus bearing 30 mounting pin 64",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        27.39992904663086,
+        39.800000286102296,
+        63.99978017664398
+      ]
+    },
+    {
+      "native": "Feedback bus bearing 30 mounting pin 80",
+      "printed": "Feedback bus bearing 30",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        27.39992904663086,
+        25.399999713897706,
+        79.99978017664398
+      ]
+    },
+    {
+      "native": "Feedback bus bearing 30 mounting pin 80",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        27.39992904663086,
+        39.800000286102296,
+        79.99978017664398
+      ]
+    },
+    {
+      "native": "Feedback bus bearing 120 mounting pin 64",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        117.39992904663086,
+        39.800000286102296,
+        63.99978017664398
+      ]
+    },
+    {
+      "native": "Feedback bus bearing 120 mounting pin 80",
+      "printed": "Feedback bus bearing 120",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        117.39992904663086,
+        25.399999713897706,
+        79.99978017664398
+      ]
+    },
+    {
+      "native": "Feedback bus bearing 120 mounting pin 80",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        117.39992904663086,
+        39.800000286102296,
+        79.99978017664398
+      ]
+    },
+    {
+      "native": "master_gate fork joining pin 32",
+      "printed": "master_gate Carriage fork and roof",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -84.00000028610229,
+        29.39992904663086,
+        19.50021982335602
+      ]
+    },
+    {
+      "native": "master_gate fork joining pin 32",
+      "printed": "master_gate Right carriage bearing support",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -69.5999997138977,
+        29.39992904663086,
+        19.50021982335602
+      ]
+    },
+    {
+      "native": "slave_gate fork joining pin 32",
+      "printed": "slave_gate Carriage fork and roof",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        75.99999971389771,
+        29.39992904663086,
+        19.50021982335602
+      ]
+    },
+    {
+      "native": "slave_gate fork joining pin 32",
+      "printed": "slave_gate Right carriage bearing support",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        90.4000002861023,
+        29.39992904663086,
+        19.50021982335602
+      ]
+    },
+    {
+      "native": "Rail joining pin 38",
+      "printed": "Sequencer rail right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        117.2000002861023,
+        26.39992904663086,
+        38.00021982335602
+      ]
+    },
+    {
+      "native": "Rail joining pin 38",
+      "printed": "Sequencer rail left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        102.7999997138977,
+        26.39992904663086,
+        38.00021982335602
+      ]
+    },
+    {
+      "native": "Rail joining pin 46",
+      "printed": "Sequencer rail right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        117.2000002861023,
+        26.39992904663086,
+        46.00021982335602
+      ]
+    },
+    {
+      "native": "Rail joining pin 46",
+      "printed": "Sequencer rail left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        102.0,
+        26.39992904663086,
+        46.00021982335602
+      ]
+    },
+    {
+      "native": "Rail guide pin -45 35",
+      "printed": "Base left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -47.60007095336914,
+        39.800000286102296,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin -45 54",
+      "printed": "Base left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        -47.60007095336914,
+        39.800000286102296,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 40 35",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        37.39992904663086,
+        39.800000286102296,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 40 54",
+      "printed": "Base middle",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        37.39992904663086,
+        39.800000286102296,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 134 62",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        131.39992904663086,
+        39.800000286102296,
+        61.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 200 35",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        197.39992904663086,
+        39.800000286102296,
+        34.99978017664398
+      ]
+    },
+    {
+      "native": "Rail guide pin 200 54",
+      "printed": "Base right",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        197.39992904663086,
+        39.800000286102296,
+        53.99978017664398
+      ]
+    },
+    {
+      "native": "Clock drive post pin 71 44",
+      "printed": "Sequencer rail left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        68.39992904663086,
+        26.399999713897706,
+        43.99978017664398
+      ]
+    },
+    {
+      "native": "Clock drive post pin 71 44",
+      "printed": "Clock rail drive post",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        68.39992904663086,
+        40.800000286102296,
+        43.99978017664398
+      ]
+    },
+    {
+      "native": "Clock drive post pin 79 44",
+      "printed": "Sequencer rail left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        76.39992904663086,
+        26.399999713897706,
+        43.99978017664398
+      ]
+    },
+    {
+      "native": "Clock drive post pin 79 44",
+      "printed": "Clock rail drive post",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        76.39992904663086,
+        40.800000286102296,
+        43.99978017664398
+      ]
+    },
+    {
+      "native": "Clock drive post pin 75 56",
+      "printed": "Sequencer rail left",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        72.39992904663086,
+        26.399999713897706,
+        55.99978017664398
+      ]
+    },
+    {
+      "native": "Clock drive post pin 75 56",
+      "printed": "Clock rail drive post",
+      "depth_mm": 0.10007119480907864,
+      "frame": 0,
+      "point_local": [
+        72.39992904663086,
+        40.800000286102296,
+        55.99978017664398
+      ]
+    },
+    {
+      "native": "Base joint 112 82",
+      "printed": "Base right",
+      "depth_mm": 0.10002443519336093,
+      "frame": 0,
+      "point_local": [
+        119.2000002861023,
+        36.26165506839752,
+        83.83871078491211
+      ]
+    },
+    {
+      "native": "Base joint -42 -4",
+      "printed": "Base middle",
+      "depth_mm": 0.10002392812062713,
+      "frame": 0,
+      "point_local": [
+        -34.0,
+        36.26165506839752,
+        -2.1612892150878906
+      ]
+    },
+    {
+      "native": "Base joint 112 -4",
+      "printed": "Base middle",
+      "depth_mm": 0.10000750898005577,
+      "frame": 0,
+      "point_local": [
+        104.0,
+        37.10480002164841,
+        -6.402000188827515
+      ]
+    },
+    {
+      "native": "write Cartridge 3L pin 40 -12.5",
+      "printed": "write Front bearing cheek",
+      "depth_mm": 0.05034851464935146,
+      "frame": 0,
+      "point_local": [
+        -46.768,
+        2.9999999999999982,
+        118.36800000000001
+      ]
+    },
+    {
+      "native": "write Cartridge 3L pin 40 -12.5",
+      "printed": "write Rear bearing cheek",
+      "depth_mm": 0.05034851464935146,
+      "frame": 0,
+      "point_local": [
+        -46.768,
+        16.6,
+        118.36800000000001
+      ]
+    },
+    {
+      "native": "write Cartridge 3L pin 40 -12.5",
+      "printed": "Master gate and route bearing",
+      "depth_mm": 0.05034851464935146,
+      "frame": 0,
+      "point_local": [
+        -46.768,
+        8.599999999999998,
+        118.36800000000001
+      ]
+    },
+    {
+      "native": "clock Cartridge 3L pin 40 -12.5",
+      "printed": "clock Front bearing cheek",
+      "depth_mm": 0.05034851464935146,
+      "frame": 0,
+      "point_local": [
+        113.232,
+        2.9999999999999982,
+        118.36800000000001
+      ]
+    },
+    {
+      "native": "clock Cartridge 3L pin 40 -12.5",
+      "printed": "clock Rear bearing cheek",
+      "depth_mm": 0.05034851464935146,
+      "frame": 0,
+      "point_local": [
+        113.232,
+        16.6,
+        118.36800000000001
+      ]
+    },
+    {
+      "native": "clock Cartridge 3L pin 40 -12.5",
+      "printed": "clock Right side frame",
+      "depth_mm": 0.05034851464935146,
+      "frame": 0,
+      "point_local": [
+        113.232,
+        8.599999999999998,
+        118.36800000000001
+      ]
+    },
+    {
+      "native": "write Cartridge 3L pin 40 0.7",
+      "printed": "write Front bearing cheek",
+      "depth_mm": 0.05034851464934141,
+      "frame": 0,
+      "point_local": [
+        -46.768,
+        2.9999999999999982,
+        101.632
+      ]
+    },
+    {
+      "native": "write Cartridge 3L pin 40 0.7",
+      "printed": "write Rear bearing cheek",
+      "depth_mm": 0.05034851464934141,
+      "frame": 0,
+      "point_local": [
+        -46.768,
+        16.6,
+        101.632
+      ]
+    },
+    {
+      "native": "write Cartridge 3L pin 40 0.7",
+      "printed": "Master gate and route bearing",
+      "depth_mm": 0.05034851464934141,
+      "frame": 0,
+      "point_local": [
+        -46.768,
+        8.599999999999998,
+        101.632
+      ]
+    },
+    {
+      "native": "clock Cartridge 3L pin 40 0.7",
+      "printed": "clock Front bearing cheek",
+      "depth_mm": 0.05034851464934141,
+      "frame": 0,
+      "point_local": [
+        113.232,
+        2.9999999999999982,
+        101.632
+      ]
+    },
+    {
+      "native": "clock Cartridge 3L pin 40 0.7",
+      "printed": "clock Rear bearing cheek",
+      "depth_mm": 0.05034851464934141,
+      "frame": 0,
+      "point_local": [
+        113.232,
+        16.6,
+        101.632
+      ]
+    },
+    {
+      "native": "clock Cartridge 3L pin 40 0.7",
+      "printed": "clock Right side frame",
+      "depth_mm": 0.05034851464934141,
+      "frame": 0,
+      "point_local": [
+        113.232,
+        8.599999999999998,
+        101.632
+      ]
+    },
+    {
+      "native": "master Cartridge 3L pin 40 -12.5",
+      "printed": "master Front bearing cheek",
+      "depth_mm": 0.0503479751610118,
+      "frame": 0,
+      "point_local": [
+        38.232,
+        2.9999999999999982,
+        32.432
+      ]
+    },
+    {
+      "native": "master Cartridge 3L pin 40 -12.5",
+      "printed": "master Rear bearing cheek",
+      "depth_mm": 0.0503479751610118,
+      "frame": 0,
+      "point_local": [
+        38.232,
+        16.6,
+        32.432
+      ]
+    },
+    {
+      "native": "master Cartridge 3L pin 40 -12.5",
+      "printed": "master Right side frame",
+      "depth_mm": 0.0503479751610118,
+      "frame": 0,
+      "point_local": [
+        38.232,
+        8.599999999999998,
+        32.432
+      ]
+    },
+    {
+      "native": "master Cartridge 3L pin 40 0.7",
+      "printed": "master Front bearing cheek",
+      "depth_mm": 0.05034608699737511,
+      "frame": 0,
+      "point_local": [
+        38.232,
+        2.9999999999999982,
+        19.232
+      ]
+    },
+    {
+      "native": "master Cartridge 3L pin 40 0.7",
+      "printed": "master Rear bearing cheek",
+      "depth_mm": 0.05034608699737511,
+      "frame": 0,
+      "point_local": [
+        38.232,
+        16.6,
+        19.232
+      ]
+    },
+    {
+      "native": "master Cartridge 3L pin 40 0.7",
+      "printed": "master Right side frame",
+      "depth_mm": 0.05034608699737511,
+      "frame": 0,
+      "point_local": [
+        38.232,
+        8.599999999999998,
+        19.232
+      ]
+    },
+    {
+      "native": "slave Cartridge 3L pin 40 -12.5",
+      "printed": "slave Front bearing cheek",
+      "depth_mm": 0.05034258071127207,
+      "frame": 0,
+      "point_local": [
+        198.232,
+        2.9999999999999982,
+        32.432
+      ]
+    },
+    {
+      "native": "slave Cartridge 3L pin 40 -12.5",
+      "printed": "slave Rear bearing cheek",
+      "depth_mm": 0.05034258071127207,
+      "frame": 0,
+      "point_local": [
+        198.232,
+        16.6,
+        32.432
+      ]
+    },
+    {
+      "native": "slave Cartridge 3L pin 40 -12.5",
+      "printed": "slave Right side frame",
+      "depth_mm": 0.05034258071127207,
+      "frame": 0,
+      "point_local": [
+        198.232,
+        8.599999999999998,
+        32.432
+      ]
+    },
+    {
+      "native": "slave Cartridge 3L pin 40 0.7",
+      "printed": "slave Front bearing cheek",
+      "depth_mm": 0.05034069234530197,
+      "frame": 0,
+      "point_local": [
+        198.232,
+        2.9999999999999982,
+        19.232
+      ]
+    },
+    {
+      "native": "slave Cartridge 3L pin 40 0.7",
+      "printed": "slave Rear bearing cheek",
+      "depth_mm": 0.05034069234530197,
+      "frame": 0,
+      "point_local": [
+        198.232,
+        16.6,
+        19.232
+      ]
+    },
+    {
+      "native": "slave Cartridge 3L pin 40 0.7",
+      "printed": "slave Right side frame",
+      "depth_mm": 0.05034069234530197,
+      "frame": 0,
+      "point_local": [
+        198.232,
+        8.599999999999998,
+        19.232
+      ]
+    }
+  ],
+  "assembly_sha256": "172dc0e5c7cac11337790cb18105acc1cb833cada1a289e5eddfd6bd6470054e"
+}

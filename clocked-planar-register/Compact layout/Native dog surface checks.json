@@ -1,0 +1,9 @@
+{
+  "scope": "Native clutch surface crossings in every recorded phase-model pose.\n\nChecks actual triangular surfaces, including the shallow entry chamfers.\nSurface contact does not establish force, friction, or impact performance.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "checks": 13187,
+  "crossing_poses": 0,
+  "examples": [],
+  "sampled_dog_surface_pass": true,
+  "mechanically_qualified": false
+}

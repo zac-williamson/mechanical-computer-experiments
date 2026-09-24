@@ -1,0 +1,750 @@
+{
+  "scope": "All native/native triangle contacts over the recorded operation trace.\n\nNo pair is excluded. This reports surface contacts, including intentional\nkeyed fits, shared boundaries and meshing teeth. It cannot turn all contacts\ninto either failures or exemptions without interface-specific verification.\n",
+  "geometry_sha256": "b9269d5256fb8a977353c3f6b3a8afbf76b6aba4205329548a5e14fee67b4e86",
+  "recorded_frames": 56112,
+  "unique_assembly_poses": 36916,
+  "surface_contacts": [
+    {
+      "a": "clock U015",
+      "b": "clock U022",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Selected data route 16T",
+      "b": "WRITE selector output right",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave idler axle 9L",
+      "b": "slave reversing idler 16T 16",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L097",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate L099",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L069",
+      "b": "master L072",
+      "contact_poses": 33168,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master U015",
+      "b": "master U022",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master_gate L102",
+      "b": "master_gate worm drive 10L",
+      "contact_poses": 36910,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER shaft right 12L",
+      "b": "slave POWER 16T -16",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "D header output 8T",
+      "b": "WRITE D input axle 4L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER shaft left 8L",
+      "b": "master POWER 16T 32",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "D external input 4L",
+      "b": "D header input 8T",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER shaft joiner",
+      "b": "POWER shaft left 8L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Feedback retainer",
+      "b": "Q feedback shaft 32L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Master idler retainer",
+      "b": "master idler axle 9L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L072",
+      "b": "master L097",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate worm drive 9L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "CLK header gear 0",
+      "b": "CLK incoming right 8L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L072",
+      "b": "master output right 6L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Q feedback front gear 150",
+      "b": "Q feedback shaft 32L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "CLK incoming joiner",
+      "b": "CLK incoming left 8L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate left clutch stub 3L stop",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE D input axle 4L",
+      "b": "WRITE D input gear",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER header gear",
+      "b": "POWER incoming right 12L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Master gate data stub 2L",
+      "b": "master_gate B-input",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L097",
+      "b": "master output right 6L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE input axle",
+      "b": "WRITE worm retainer right",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master_gate L097",
+      "b": "master_gate L099",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Master worm retainer gear",
+      "b": "master_gate worm drive 10L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master roller axle",
+      "b": "master roller bush 27.6",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER incoming joiner",
+      "b": "POWER incoming right 12L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L072",
+      "b": "slave output right 7L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master_gate L097",
+      "b": "master_gate L102",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master idler axle 9L",
+      "b": "master reversing idler 16T 32",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master idler axle 9L",
+      "b": "master reversing idler 16T -16",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "CLK incoming joiner",
+      "b": "CLK incoming right 8L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "CLK input axle",
+      "b": "CLOCK worm retainer",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L105",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "clock pivot-retainer",
+      "b": "clock pivot-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L069",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave U015",
+      "b": "slave U022",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L102",
+      "b": "master output left 3L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Master worm retainer bearing",
+      "b": "master_gate worm drive 10L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write L097",
+      "b": "write L099",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE output retainer",
+      "b": "WRITE selector output left",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave roller axle",
+      "b": "slave roller bush 27.6",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Q takeoff gear",
+      "b": "slave output right 7L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L069",
+      "b": "slave L072",
+      "contact_poses": 33948,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L097",
+      "b": "master L102",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write U022",
+      "b": "write reaction-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L072",
+      "b": "slave L097",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave reaction-retainer",
+      "b": "slave reaction-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write L069",
+      "b": "write L072",
+      "contact_poses": 34654,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L097",
+      "b": "slave L099",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L069",
+      "b": "master output right 6L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master reaction-retainer",
+      "b": "master reaction-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Q feedback front gear -92",
+      "b": "Q feedback shaft 32L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE input axle",
+      "b": "WRITE worm retainer left",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write L072",
+      "b": "write L097",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "CLK input axle",
+      "b": "clock U015",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master_gate L097",
+      "b": "master_gate worm drive 10L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write pivot-retainer",
+      "b": "write pivot-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "CLK incoming retainer left",
+      "b": "CLK incoming right 8L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master pivot-retainer",
+      "b": "master pivot-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE input axle",
+      "b": "write U015",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave roller axle",
+      "b": "slave roller bush 15.6",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER shaft left 8L",
+      "b": "master POWER 16T 16",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L097",
+      "b": "slave output left 3L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave U022",
+      "b": "slave reaction-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L097",
+      "b": "slave L102",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master U022",
+      "b": "master reaction-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L097",
+      "b": "master L099",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L097",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "clock reaction-retainer",
+      "b": "clock reaction-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write L097",
+      "b": "write L102",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L102",
+      "b": "slave output left 3L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "CLK incoming retainer right",
+      "b": "CLK incoming right 8L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave pivot-retainer",
+      "b": "slave pivot-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master output right 6L",
+      "b": "slave_gate B-input",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER shaft right 12L",
+      "b": "slave POWER 16T 32",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Clock amplifier pivot",
+      "b": "Clock pivot bush 48",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master L097",
+      "b": "master output left 3L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave U015",
+      "b": "slave_gate worm drive 9L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master roller axle",
+      "b": "master roller bush 15.6",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave_gate L102",
+      "b": "slave_gate left clutch stub 3L stop",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER shaft joiner",
+      "b": "POWER shaft right 12L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "D external input 4L",
+      "b": "D input retainer",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "clock U022",
+      "b": "clock reaction-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Clock amplifier pivot",
+      "b": "Clock pivot bush 32",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER incoming retainer right",
+      "b": "POWER incoming right 12L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE selector output right",
+      "b": "write L102",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER incoming retainer left",
+      "b": "POWER incoming right 12L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write U015",
+      "b": "write U022",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L097",
+      "b": "slave output right 7L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave L069",
+      "b": "slave output right 7L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write L102",
+      "b": "write L105",
+      "contact_poses": 33276,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "write reaction-retainer",
+      "b": "write reaction-stop-axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "master U015",
+      "b": "master_gate worm drive 10L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "D transfer retainer",
+      "b": "WRITE D input axle 4L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave idler axle 9L",
+      "b": "slave reversing idler 16T 32",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "POWER incoming joiner",
+      "b": "POWER incoming left 12L",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "WRITE selector output left",
+      "b": "write L072",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "CLK header gear 2",
+      "b": "CLK input axle",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "slave_gate L097",
+      "b": "slave_gate L102",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    },
+    {
+      "a": "Slave worm retainer gear",
+      "b": "slave_gate left clutch stub 3L stop",
+      "contact_poses": 36916,
+      "first_case": 0,
+      "first_frame": 0
+    }
+  ],
+  "mechanically_qualified": false,
+  "scope_reuse": {
+    "previous_geometry_sha256": "de139df4c637d42f16b7ab55b5ac03d9823f3d8b249dfb2ed39a95a065842055",
+    "native_geometry_and_metadata_sha256": "d795599ee9fe5306ac13cda026e0edb753ef83178dcd6b9c358a4f4abab80cf1",
+    "exact_recorded_case_equality": true,
+    "reason": "Only the printed rear pivot bridge changed; every native triangle, native metadata except storage offsets, and recorded operation case is identical. Native/native findings are retained; native/printed and printed/printed checks are rerun."
+  }
+}

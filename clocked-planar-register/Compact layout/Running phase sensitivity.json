@@ -1,0 +1,6 @@
+{
+  "cases": 896,
+  "failures": [],
+  "scope": "Eight running-phase offsets, 112 transitions each; rigid unloaded kinematics only",
+  "mechanically_qualified": false
+}
