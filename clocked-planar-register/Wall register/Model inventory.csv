@@ -1,0 +1,324 @@
+instance,module,kind,native_part_or_inherited_source,one_bit_quantity,eight_bit_quantity,development_stl
+master Short lever,bit,printed,master Short lever,1,8,Development parts/master Short lever.stl
+master Carriage fork and roof,bit,printed,master Carriage fork and roof,1,8,Development parts/master Carriage fork and roof.stl
+master Right carriage bearing support,bit,printed,master Right carriage bearing support,1,8,Development parts/master Right carriage bearing support.stl
+master U015,bit,native,master U015,1,8,
+master U022,bit,native,master U022,1,8,
+master reaction-stop-axle,bit,native,24316,1,8,
+master reaction-retainer,bit,native,32123a,1,8,
+master pivot-stop-axle,bit,native,24316,1,8,
+master pivot-retainer,bit,native,32123a,1,8,
+master Carriage support pin 1 2.0,bit,native,2780,1,8,
+master Carriage support pin 1 18.0,bit,native,2780,1,8,
+master L072,bit,native,master L072,1,8,
+master L097,bit,native,26287,1,8,
+master L099,bit,native,master L099,1,8,
+master L102,bit,native,master L102,1,8,
+master L069,bit,native,master L069,1,8,
+master POWER 16T 16,bit,native,94925,1,8,
+master POWER 16T 32,bit,native,94925,1,8,
+master reversing idler 16T -16,bit,native,94925,1,8,
+master reversing idler 16T 32,bit,native,94925,1,8,
+master output left 3L,bit,native,4519,1,8,
+master output right 6L,bit,native,3706,1,8,
+slave Short lever,bit,printed,slave Short lever,1,8,Development parts/slave Short lever.stl
+slave Carriage fork and roof,bit,printed,slave Carriage fork and roof,1,8,Development parts/slave Carriage fork and roof.stl
+slave Right carriage bearing support,bit,printed,slave Right carriage bearing support,1,8,Development parts/slave Right carriage bearing support.stl
+slave U015,bit,native,slave U015,1,8,
+slave U022,bit,native,slave U022,1,8,
+slave reaction-stop-axle,bit,native,24316,1,8,
+slave reaction-retainer,bit,native,32123a,1,8,
+slave pivot-stop-axle,bit,native,24316,1,8,
+slave pivot-retainer,bit,native,32123a,1,8,
+slave Carriage support pin 1 2.0,bit,native,2780,1,8,
+slave Carriage support pin 1 18.0,bit,native,2780,1,8,
+slave L072,bit,native,slave L072,1,8,
+slave L097,bit,native,26287,1,8,
+slave L099,bit,native,slave L099,1,8,
+slave L102,bit,native,slave L102,1,8,
+slave L069,bit,native,slave L069,1,8,
+slave POWER 16T -16,bit,native,94925,1,8,
+slave reversing idler 16T 16,bit,native,94925,1,8,
+slave output right 7L,bit,native,44294,1,8,
+master_gate L097,bit,native,26287,1,8,
+master_gate L099,bit,native,master_gate L099,1,8,
+master_gate L102,bit,native,master_gate L102,1,8,
+master_gate B-input,bit,native,94925,1,8,
+master_gate worm drive 10L,bit,native,3737,1,8,
+slave_gate L097,bit,native,26287,1,8,
+slave_gate L099,bit,native,slave_gate L099,1,8,
+slave_gate L102,bit,native,slave_gate L102,1,8,
+slave_gate B-input,bit,native,94925,1,8,
+master cheek joining pin 28.4,bit,native,2780,1,8,
+master cheek joining pin 35.6,bit,native,2780,1,8,
+slave cheek joining pin 28.4,bit,native,2780,1,8,
+slave cheek joining pin 35.6,bit,native,2780,1,8,
+master lock bolt,bit,printed,,1,8,Development parts/master lock bolt.stl
+master roller axle,bit,native,32062,1,8,
+master roller bush 15.6,bit,native,32123a,1,8,
+master roller bush 27.6,bit,native,32123a,1,8,
+master return band,bit,elastic,,1,8,
+slave lock bolt,bit,printed,,1,8,Development parts/slave lock bolt.stl
+slave roller axle,bit,native,32062,1,8,
+slave roller bush 15.6,bit,native,32123a,1,8,
+slave roller bush 27.6,bit,native,32123a,1,8,
+slave return band,bit,elastic,,1,8,
+master_gate Carriage fork and roof,bit,printed,,1,8,Development parts/master_gate Carriage fork and roof.stl
+master_gate fork bias band -10,bit,elastic,,1,8,
+master_gate crosshead pin -10 13.2,bit,native,2780,1,8,
+master_gate Right carriage bearing support,bit,printed,,1,8,Development parts/master_gate Right carriage bearing support.stl
+master_gate crosshead pin 12 13.2,bit,native,2780,1,8,
+master_gate fork joining pin,bit,native,2780,1,8,
+slave_gate Carriage fork and roof,bit,printed,,1,8,Development parts/slave_gate Carriage fork and roof.stl
+slave_gate fork bias band -10,bit,elastic,,1,8,
+slave_gate crosshead pin -10 13.2,bit,native,2780,1,8,
+slave_gate Right carriage bearing support,bit,printed,,1,8,Development parts/slave_gate Right carriage bearing support.stl
+slave_gate crosshead pin 12 13.2,bit,native,2780,1,8,
+slave_gate fork joining pin,bit,native,2780,1,8,
+master actuator return band,bit,elastic,,1,8,
+slave actuator return band,bit,elastic,,1,8,
+slave_gate left clutch stub 4L,bit,native,3705,1,8,
+slave output left 4L,bit,native,3705,1,8,
+slave_gate worm drive 10L,bit,native,3737,1,8,
+write L072,bit,native,write L072,1,8,
+write L097,bit,native,write L097,1,8,
+write L099,bit,native,write L099,1,8,
+write L102,bit,native,write L102,1,8,
+write L069,bit,native,write L069,1,8,
+write L105,bit,native,write L105,1,8,
+WRITE selector output left,bit,native,3705,1,8,
+WRITE output retainer,bit,native,4265c,1,8,
+WRITE D input gear,bit,native,94925,1,8,
+Selected data route 16T,bit,native,94925,1,8,
+Master worm retainer gear,bit,native,3713,1,8,
+Master idler retainer,bit,native,4265c,1,8,
+WRITE selector output right 7L,bit,native,44294,1,8,
+WRITE D input axle 5L,bit,native,32073,1,8,
+D external input 5L,bit,native,32073,1,8,
+D header input 8T,bit,native,10928,1,8,
+D header output 8T,bit,native,10928,1,8,
+Master gate data stub 3L,bit,native,4519,1,8,
+Slave worm retainer gear,bit,native,3713,1,8,
+Passive write Carriage fork and roof,bit,printed,,1,8,Development parts/Passive write Carriage fork and roof.stl
+write Carriage support pin 1 2.0,bit,native,2780,1,8,
+POWER header gear,bit,native,94925,1,8,
+Q feedback shaft 32L,bit,native,50450,1,8,
+Q feedback front gear -92,bit,native,94925,1,8,
+Q feedback front gear 150,bit,native,94925,1,8,
+Q takeoff gear,bit,native,94925,1,8,
+Feedback retainer,bit,native,4265c,1,8,
+Shared reverse shaft left 10L,bit,native,3737,1,8,
+Shared reverse shaft right 10L,bit,native,3737,1,8,
+Shared reverse coupling,bit,native,59443,1,8,
+POWER distribution 12L,bit,native,3708,1,8,
+POWER local input 4L,bit,native,3705,1,8,
+Local clock cam and fork bar,bit,printed,,1,8,Development parts/Local clock cam and fork bar.stl
+bit clock bellcrank,bit,printed,,1,8,Development parts/bit clock bellcrank.stl
+bit clock pivot axle,bit,native,3705,1,8,
+bit clock pivot bush 16,bit,native,32123a,1,8,
+bit clock pivot bush 40.4,bit,native,32123a,1,8,
+bit clock input follower axle,bit,native,4519,1,8,
+bit clock input free roller,bit,native,4265c,1,8,
+bit clock input follower bush 7,bit,native,32123a,1,8,
+bit clock input follower bush 27,bit,native,32123a,1,8,
+bit clock output follower axle,bit,native,3705,1,8,
+bit clock output free roller,bit,native,4265c,1,8,
+bit clock output follower bush 16,bit,native,32123a,1,8,
+bit clock output follower bush 39,bit,native,32123a,1,8,
+bit write bellcrank,bit,printed,,1,8,Development parts/bit write bellcrank.stl
+bit write pivot axle,bit,native,3705,1,8,
+bit write pivot bush 19,bit,native,32123a,1,8,
+bit write pivot bush 42,bit,native,32123a,1,8,
+bit write input follower axle,bit,native,4519,1,8,
+bit write input free roller,bit,native,4265c,1,8,
+bit write input follower bush 19,bit,native,32123a,1,8,
+bit write input follower bush 35,bit,native,32123a,1,8,
+bit write output follower axle,bit,native,4519,1,8,
+bit write output free roller,bit,native,4265c,1,8,
+bit write output follower bush 19,bit,native,32123a,1,8,
+bit write output follower bush 34,bit,native,32123a,1,8,
+bit clock vertical control rod,bit,printed,,1,8,Development parts/bit clock vertical control rod.stl
+clock pinned rod splice bridge,coupler,printed,,1,8,Development parts/clock pinned rod splice bridge.stl
+clock rod coupler friction pin 1,coupler,native,2780,1,8,
+clock rod coupler friction pin 2,coupler,native,2780,1,8,
+bit write vertical control rod,bit,printed,,1,8,Development parts/bit write vertical control rod.stl
+write pinned rod splice bridge,coupler,printed,,1,8,Development parts/write pinned rod splice bridge.stl
+write rod coupler friction pin 1,coupler,native,2780,1,8,
+write rod coupler friction pin 2,coupler,native,2780,1,8,
+Chassis joint pin -28,bit,native,2780,1,8,
+Chassis joint pin 56,bit,native,2780,1,8,
+master Front bearing cheek,bit,printed,,1,8,Development parts/master Front bearing cheek.stl
+slave Front bearing cheek,bit,printed,,1,8,Development parts/slave Front bearing cheek.stl
+bit WRITE fork and pickup,bit,printed,,1,8,Development parts/bit WRITE fork and pickup.stl
+Control clock Short lever,control,printed,master Short lever,1,1,Development parts/Control clock Short lever.stl
+Control clock U015,control,native,master U015,1,1,
+Control clock U022,control,native,master U022,1,1,
+Control clock reaction-stop-axle,control,native,24316,1,1,
+Control clock reaction-retainer,control,native,32123a,1,1,
+Control clock pivot-stop-axle,control,native,24316,1,1,
+Control clock pivot-retainer,control,native,32123a,1,1,
+Control clock Carriage support pin 1 18.0,control,native,2780,1,1,
+Control clock Carriage fork and roof,control,printed,master Carriage fork and roof,1,1,Development parts/Control clock Carriage fork and roof.stl
+Control clock Right carriage bearing support,control,printed,master Right carriage bearing support,1,1,Development parts/Control clock Right carriage bearing support.stl
+Control CLK input axle,control,native,3737,1,1,
+Control CLOCK worm retainer,control,native,4265c,1,1,
+Control clock Front bearing cheek,control,printed,,1,1,Development parts/Control clock Front bearing cheek.stl
+Control clock cheek joining pin 28.4,control,native,2780,1,1,
+Control clock cheek joining pin 35.6,control,native,2780,1,1,
+Control CLOCK direct rod and pickup,control,printed,,1,1,Development parts/Control CLOCK direct rod and pickup.stl
+Control Clock amplifier joining pin 35.5,control,native,2780,1,1,
+Control Clock amplifier joining pin 44.5,control,native,2780,1,1,
+Control Clock amplifier front and input shoe,control,printed,,1,1,Development parts/Control Clock amplifier front and input shoe.stl
+Control Clock amplifier rear and output shoe,control,printed,,1,1,Development parts/Control Clock amplifier rear and output shoe.stl
+Control Clock amplifier pivot,control,native,4519,1,1,
+Control Clock pivot bush 32,control,native,32123a,1,1,
+Control Clock pivot bush 48,control,native,32123a,1,1,
+Control Clock pivot cradle mount 20,control,native,2780,1,1,
+Control Clock pivot cradle mount 52,control,native,2780,1,1,
+Control clock actuator return band,control,elastic,,1,1,
+Control CLK input 16T,control,native,94925,1,1,
+Control CLK receiving 16T,control,native,94925,1,1,
+Control CLK external axle,control,native,3705,1,1,
+Control write Short lever,control,printed,write Short lever,1,1,Development parts/Control write Short lever.stl
+Control write Carriage fork and roof,control,printed,write Carriage fork and roof,1,1,Development parts/Control write Carriage fork and roof.stl
+Control WRITE direct rod and pickup,control,printed,write Right carriage bearing support,1,1,Development parts/Control WRITE direct rod and pickup.stl
+Control write U015,control,native,write U015,1,1,
+Control write U022,control,native,write U022,1,1,
+Control write reaction-stop-axle,control,native,24316,1,1,
+Control write reaction-retainer,control,native,32123a,1,1,
+Control write pivot-stop-axle,control,native,24316,1,1,
+Control write pivot-retainer,control,native,32123a,1,1,
+Control write Carriage support pin 1 2.0,control,native,2780,1,1,
+Control write Carriage support pin 1 18.0,control,native,2780,1,1,
+Control WRITE input axle,control,native,60485,1,1,
+Control WRITE worm retainer left,control,native,4265c,1,1,
+Control WRITE worm retainer right,control,native,4265c,1,1,
+Control write Front bearing cheek,control,printed,,1,1,Development parts/Control write Front bearing cheek.stl
+Control write cheek joining pin 28.4,control,native,2780,1,1,
+Control write cheek joining pin 35.6,control,native,2780,1,1,
+Control write actuator return band,control,elastic,,1,1,
+M output axial stop 26.8,bit,native,4265c,1,8,
+M output axial stop 37.8,bit,native,4265c,1,8,
+Q output axial stop 76.2,bit,native,4265c,1,8,
+Q output axial stop 83.8,bit,native,4265c,1,8,
+Master worm axial stop -26.2,bit,native,4265c,1,8,
+Slave worm axial stop 128.2,bit,native,4265c,1,8,
+Slave worm axial stop 135.4,bit,native,4265c,1,8,
+Selected data axial stop -33.8,bit,native,4265c,1,8,
+Selected data axial stop -26.2,bit,native,4265c,1,8,
+D inverted axial stop -75.8,bit,native,4265c,1,8,
+D inverted axial stop -68.2,bit,native,4265c,1,8,
+D input axial stop -105.9,bit,native,4265c,1,8,
+D input axial stop -98.3,bit,native,4265c,1,8,
+Master data stub axial stop -53.8,bit,native,4265c,1,8,
+Master data stub axial stop -34.2,bit,native,4265c,1,8,
+POWER minus axial stop 76.2,bit,native,4265c,1,8,
+POWER minus axial stop 83.8,bit,native,4265c,1,8,
+POWER plus axial stop 76.2,bit,native,4265c,1,8,
+POWER plus axial stop 83.8,bit,native,4265c,1,8,
+POWER input axial stop 56.2,bit,native,4265c,1,8,
+POWER input axial stop 63.8,bit,native,4265c,1,8,
+Feedback axial stop 26.8,bit,native,4265c,1,8,
+Feedback axial stop 37.8,bit,native,4265c,1,8,
+CLOCK worm axial stop -73.8,control,native,4265c,1,1,
+CLOCK worm axial stop -66.2,control,native,4265c,1,1,
+CLOCK input axial stop -147.8,control,native,4265c,1,1,
+CLOCK input axial stop -140.2,control,native,4265c,1,1,
+WRITE worm axial stop -217.8,control,native,4265c,1,1,
+WRITE worm axial stop -210.2,control,native,4265c,1,1,
+bit bearing wall 0 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 0 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 0,bit,printed,,1,8,Development parts/bit removable bearing wall 0.stl
+bit bearing wall 1 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 1 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 1,bit,printed,,1,8,Development parts/bit removable bearing wall 1.stl
+bit bearing wall 2 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 2 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 2,bit,printed,,1,8,Development parts/bit removable bearing wall 2.stl
+bit bearing wall 3 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 3 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 3,bit,printed,,1,8,Development parts/bit removable bearing wall 3.stl
+bit bearing wall 4 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 4 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 4,bit,printed,,1,8,Development parts/bit removable bearing wall 4.stl
+bit bearing wall 5 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 5 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 5,bit,printed,,1,8,Development parts/bit removable bearing wall 5.stl
+bit bearing wall 6 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 6 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 6,bit,printed,,1,8,Development parts/bit removable bearing wall 6.stl
+bit bearing wall 7 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 7 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 7,bit,printed,,1,8,Development parts/bit removable bearing wall 7.stl
+bit bearing wall 8 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 8 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 8,bit,printed,,1,8,Development parts/bit removable bearing wall 8.stl
+bit bearing wall 9 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 9 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 9,bit,printed,,1,8,Development parts/bit removable bearing wall 9.stl
+bit bearing wall 10 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 10 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 10,bit,printed,,1,8,Development parts/bit removable bearing wall 10.stl
+bit bearing wall 11 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 11 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 11,bit,printed,,1,8,Development parts/bit removable bearing wall 11.stl
+bit bearing wall 12 mounting pin 1,bit,native,2780,1,8,
+bit bearing wall 12 mounting pin 2,bit,native,2780,1,8,
+bit removable bearing wall 12,bit,printed,,1,8,Development parts/bit removable bearing wall 12.stl
+control bearing wall 0 mounting pin 1,control,native,2780,1,1,
+control bearing wall 0 mounting pin 2,control,native,2780,1,1,
+control removable bearing wall 0,control,printed,,1,1,Development parts/control removable bearing wall 0.stl
+control bearing wall 1 mounting pin 1,control,native,2780,1,1,
+control bearing wall 1 mounting pin 2,control,native,2780,1,1,
+control removable bearing wall 1,control,printed,,1,1,Development parts/control removable bearing wall 1.stl
+control bearing wall 2 mounting pin 1,control,native,2780,1,1,
+control bearing wall 2 mounting pin 2,control,native,2780,1,1,
+control removable bearing wall 2,control,printed,,1,1,Development parts/control removable bearing wall 2.stl
+control bearing wall 3 mounting pin 1,control,native,2780,1,1,
+control bearing wall 3 mounting pin 2,control,native,2780,1,1,
+control removable bearing wall 3,control,printed,,1,1,Development parts/control removable bearing wall 3.stl
+control bearing wall 4 mounting pin 1,control,native,2780,1,1,
+control bearing wall 4 mounting pin 2,control,native,2780,1,1,
+control removable bearing wall 4,control,printed,,1,1,Development parts/control removable bearing wall 4.stl
+bit frame 0 fixture 0 pin 1,bit,native,2780,1,8,
+bit frame 0 fixture 0 pin 2,bit,native,2780,1,8,
+bit frame 0 removable fixture 0,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 0.stl
+bit frame 0 fixture 1 pin 1,bit,native,2780,1,8,
+bit frame 0 fixture 1 pin 2,bit,native,2780,1,8,
+bit frame 0 removable fixture 1,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 1.stl
+bit frame 0 fixture 2 pin 1,bit,native,2780,1,8,
+bit frame 0 fixture 2 pin 2,bit,native,2780,1,8,
+bit frame 0 removable fixture 2,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 2.stl
+bit frame 0 fixture 3 pin 1,bit,native,2780,1,8,
+bit frame 0 fixture 3 pin 2,bit,native,2780,1,8,
+bit frame 0 removable fixture 3,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 3.stl
+bit coordinated chassis 0,bit,printed,,1,8,Development parts/bit coordinated chassis 0.stl
+bit frame 1 fixture 0 pin 1,bit,native,2780,1,8,
+bit frame 1 fixture 0 pin 2,bit,native,2780,1,8,
+bit frame 1 removable fixture 0,bit,printed,,1,8,Development parts/bit frame 1 removable fixture 0.stl
+bit frame 1 fixture 1 pin 1,bit,native,2780,1,8,
+bit frame 1 fixture 1 pin 2,bit,native,2780,1,8,
+bit frame 1 removable fixture 1,bit,printed,,1,8,Development parts/bit frame 1 removable fixture 1.stl
+bit frame 1 fixture 2 pin 1,bit,native,2780,1,8,
+bit frame 1 fixture 2 pin 2,bit,native,2780,1,8,
+bit frame 1 removable fixture 2,bit,printed,,1,8,Development parts/bit frame 1 removable fixture 2.stl
+bit coordinated chassis 1,bit,printed,,1,8,Development parts/bit coordinated chassis 1.stl
+control frame 0 fixture 0 pin 1,control,native,2780,1,1,
+control frame 0 fixture 0 pin 2,control,native,2780,1,1,
+control frame 0 fixture 0 pin 3,control,native,2780,1,1,
+control frame 0 fixture 0 pin 4,control,native,2780,1,1,
+control frame 0 removable fixture 0,control,printed,,1,1,Development parts/control frame 0 removable fixture 0.stl
+control frame 0 fixture 1 pin 1,control,native,2780,1,1,
+control frame 0 fixture 1 pin 2,control,native,2780,1,1,
+control frame 0 fixture 1 pin 3,control,native,2780,1,1,
+control frame 0 fixture 1 pin 4,control,native,2780,1,1,
+control frame 0 removable fixture 1,control,printed,,1,1,Development parts/control frame 0 removable fixture 1.stl
+control frame 0 fixture 2 pin 1,control,native,2780,1,1,
+control frame 0 fixture 2 pin 2,control,native,2780,1,1,
+control frame 0 fixture 2 pin 3,control,native,2780,1,1,
+control frame 0 fixture 2 pin 4,control,native,2780,1,1,
+control frame 0 removable fixture 2,control,printed,,1,1,Development parts/control frame 0 removable fixture 2.stl
+control frame 0 fixture 3 pin 1,control,native,2780,1,1,
+control frame 0 fixture 3 pin 2,control,native,2780,1,1,
+control frame 0 removable fixture 3,control,printed,,1,1,Development parts/control frame 0 removable fixture 3.stl
+control coordinated chassis 0,control,printed,,1,1,Development parts/control coordinated chassis 0.stl

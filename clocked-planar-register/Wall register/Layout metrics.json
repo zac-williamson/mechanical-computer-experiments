@@ -1,0 +1,56 @@
+{
+  "bit": {
+    "bounds": [
+      [
+        -135.0,
+        -12.32008653715014,
+        -47.8
+      ],
+      [
+        166.2,
+        48.5,
+        64.4
+      ]
+    ],
+    "static_xyz_mm": [
+      301.2,
+      60.82008653715014,
+      112.2
+    ],
+    "parts": 230
+  },
+  "control": {
+    "bounds": [
+      [
+        -173.8,
+        -18.463680076599122,
+        -224.0
+      ],
+      [
+        -84.0,
+        56.5,
+        -48.2
+      ]
+    ],
+    "static_xyz_mm": [
+      89.80000000000001,
+      74.96368007659912,
+      175.8
+    ],
+    "parts": 87
+  },
+  "row_pitch_mm": 112.0,
+  "storage_offset_mm": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "worm_actuators_one_bit": 4,
+  "worm_actuators_eight_bits": 18,
+  "clock_header_teeth": [
+    16,
+    16
+  ],
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "status": "development candidate; checks required; not a print release"
+}

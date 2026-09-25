@@ -1,0 +1,232 @@
+{
+  "master Short lever": {
+    "module": "bit",
+    "motion": "rocker",
+    "volume_mm3": 1603.2163028042767
+  },
+  "master Carriage fork and roof": {
+    "module": "bit",
+    "motion": "carriage",
+    "volume_mm3": 8756.287042341519
+  },
+  "master Right carriage bearing support": {
+    "module": "bit",
+    "motion": "carriage",
+    "volume_mm3": 1501.7900297611557
+  },
+  "slave Short lever": {
+    "module": "bit",
+    "motion": "rocker",
+    "volume_mm3": 1603.2161440790915
+  },
+  "slave Carriage fork and roof": {
+    "module": "bit",
+    "motion": "carriage",
+    "volume_mm3": 8822.489372230135
+  },
+  "slave Right carriage bearing support": {
+    "module": "bit",
+    "motion": "carriage",
+    "volume_mm3": 1428.4716176417471
+  },
+  "master lock bolt": {
+    "module": "bit",
+    "motion": "bolt",
+    "volume_mm3": 1063.2785276121117
+  },
+  "slave lock bolt": {
+    "module": "bit",
+    "motion": "bolt",
+    "volume_mm3": 1063.2785276121103
+  },
+  "master_gate Carriage fork and roof": {
+    "module": "bit",
+    "motion": "gate-fork",
+    "volume_mm3": 1699.6505144134624
+  },
+  "master_gate Right carriage bearing support": {
+    "module": "bit",
+    "motion": "gate-fork",
+    "volume_mm3": 591.2186885182733
+  },
+  "slave_gate Carriage fork and roof": {
+    "module": "bit",
+    "motion": "gate-fork",
+    "volume_mm3": 1687.5528423906842
+  },
+  "slave_gate Right carriage bearing support": {
+    "module": "bit",
+    "motion": "gate-fork",
+    "volume_mm3": 591.2188906602036
+  },
+  "Passive write Carriage fork and roof": {
+    "module": "bit",
+    "motion": "write-fork",
+    "volume_mm3": 1390.0765614559834
+  },
+  "Stepped local clock cam and fork bar": {
+    "module": "bit",
+    "motion": "crosshead",
+    "volume_mm3": 21698.200248288453
+  },
+  "Control write Short lever": {
+    "module": "control",
+    "motion": "lever",
+    "volume_mm3": 1603.2168870964003
+  },
+  "Control write Carriage fork and roof": {
+    "module": "control",
+    "motion": "carriage",
+    "volume_mm3": 9181.153285524444
+  },
+  "Control clock Short lever": {
+    "module": "control",
+    "motion": "rocker",
+    "volume_mm3": 1603.2163028042767
+  },
+  "Control clock Carriage fork and roof": {
+    "module": "control",
+    "motion": "carriage",
+    "volume_mm3": 7944.453792981974
+  },
+  "Control clock Right carriage bearing support": {
+    "module": "control",
+    "motion": "carriage",
+    "volume_mm3": 1123.9173187323001
+  },
+  "Control Clock output post": {
+    "module": "control",
+    "motion": "crosshead",
+    "volume_mm3": 4871.453682479049
+  },
+  "Control Clock amplifier front and input shoe": {
+    "module": "control",
+    "motion": "amplifier",
+    "volume_mm3": 1156.0011057070012
+  },
+  "Control Clock amplifier rear and output shoe": {
+    "module": "control",
+    "motion": "amplifier",
+    "volume_mm3": 1739.4401608969201
+  },
+  "Control clock horizontal output link": {
+    "module": "control",
+    "motion": "crosshead",
+    "volume_mm3": 6026.868036320285
+  },
+  "bit clock bellcrank": {
+    "module": "bit",
+    "motion": "bellcrank",
+    "volume_mm3": 1108.4465031851603
+  },
+  "bit write bellcrank": {
+    "module": "bit",
+    "motion": "bellcrank",
+    "volume_mm3": 1497.2857806090333
+  },
+  "control clock bellcrank": {
+    "module": "control",
+    "motion": "bellcrank",
+    "volume_mm3": 1108.4465031851614
+  },
+  "control write bellcrank": {
+    "module": "control",
+    "motion": "bellcrank",
+    "volume_mm3": 1497.2857806090324
+  },
+  "bit clock vertical control rod": {
+    "module": "bit",
+    "motion": "control-rod",
+    "volume_mm3": 5189.337908509603
+  },
+  "control clock vertical control rod": {
+    "module": "control",
+    "motion": "control-rod",
+    "volume_mm3": 5621.337908509619
+  },
+  "clock rod coupler front": {
+    "module": "coupler",
+    "motion": "control-rod",
+    "volume_mm3": 1652.263744676501
+  },
+  "clock rod coupler rear": {
+    "module": "coupler",
+    "motion": "control-rod",
+    "volume_mm3": 1652.263744676499
+  },
+  "bit write vertical control rod": {
+    "module": "bit",
+    "motion": "control-rod",
+    "volume_mm3": 5189.337908509602
+  },
+  "control write vertical control rod": {
+    "module": "control",
+    "motion": "control-rod",
+    "volume_mm3": 5621.337908509621
+  },
+  "write rod coupler front": {
+    "module": "coupler",
+    "motion": "control-rod",
+    "volume_mm3": 1652.263744676502
+  },
+  "write rod coupler rear": {
+    "module": "coupler",
+    "motion": "control-rod",
+    "volume_mm3": 1652.2637446765002
+  },
+  "bit chassis 0": {
+    "module": "bit",
+    "motion": "fixed",
+    "volume_mm3": 78027.50280066876
+  },
+  "bit chassis 1": {
+    "module": "bit",
+    "motion": "fixed",
+    "volume_mm3": 2249.332265531009
+  },
+  "bit chassis 2": {
+    "module": "bit",
+    "motion": "fixed",
+    "volume_mm3": 2495.683150214812
+  },
+  "bit chassis 3": {
+    "module": "bit",
+    "motion": "fixed",
+    "volume_mm3": 69474.93324843886
+  },
+  "bit chassis 4": {
+    "module": "bit",
+    "motion": "fixed",
+    "volume_mm3": 2249.3323401744224
+  },
+  "control chassis 0": {
+    "module": "control",
+    "motion": "fixed",
+    "volume_mm3": 82216.37907877642
+  },
+  "control chassis 1": {
+    "module": "control",
+    "motion": "fixed",
+    "volume_mm3": 2249.3323375745917
+  },
+  "control chassis 2": {
+    "module": "control",
+    "motion": "fixed",
+    "volume_mm3": 2541.8143723058124
+  },
+  "control chassis 3": {
+    "module": "control",
+    "motion": "fixed",
+    "volume_mm3": 2249.332340319577
+  },
+  "bit WRITE fork and pickup": {
+    "module": "bit",
+    "motion": "write-fork",
+    "volume_mm3": 2456.031139412796
+  },
+  "control WRITE fork and pickup": {
+    "module": "control",
+    "motion": "write-fork",
+    "volume_mm3": 3501.083739441006
+  }
+}

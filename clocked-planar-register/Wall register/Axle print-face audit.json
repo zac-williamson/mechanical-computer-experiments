@@ -1,0 +1,2920 @@
+{
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "scope": "Inventory actual axle-bearing parts and check whether their rings start on bed.\n\nThis distinguishes a vertical bore from a bore suspended above the print bed.\nOther overhangs are measured and reported, not waived as bridgeable.\n",
+  "moved_retainer_checks": [
+    {
+      "part": "M output axial stop 26.8",
+      "gap_mm": 0.19999999999999574,
+      "axle_engagement_mm": 4.0000000000000036,
+      "pass_check": true
+    },
+    {
+      "part": "Feedback axial stop 26.8",
+      "gap_mm": 0.19999999999999574,
+      "axle_engagement_mm": 4.0000000000000036,
+      "pass_check": true
+    },
+    {
+      "part": "Slave worm axial stop 128.2",
+      "gap_mm": 0.20000000000001705,
+      "axle_engagement_mm": 4.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock pivot bush 40.4",
+      "gap_mm": 0.19999999999999574,
+      "axle_engagement_mm": 3.6000000000000014,
+      "pass_check": true
+    }
+  ],
+  "clearance_only_frame_passages": {},
+  "frame_clearance_print_pass": true,
+  "parts": [
+    {
+      "part": "master Front bearing cheek",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 1.7999999523162842,
+      "holes": [
+        {
+          "axle": "master reaction-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            8.881784197001252e-16,
+            7.7,
+            24.0
+          ],
+          "bed_ring_fraction": 0.9999998126578623,
+          "on_bed": true
+        },
+        {
+          "axle": "master pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            13.192323603988665,
+            7.699999999999999,
+            32.12844869819761
+          ],
+          "bed_ring_fraction": 1.0000000000000002,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/master Front bearing cheek.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        39.4,
+        22.0,
+        -1.7999999523162842
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit frame 0 removable fixture 3",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 8.0,
+      "holes": [
+        {
+          "axle": "master reaction-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            8.881784197001252e-16,
+            7.7,
+            24.0
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        },
+        {
+          "axle": "master pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            13.192323603988665,
+            7.699999999999999,
+            32.12844869819761
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        }
+      ],
+      "holes_on_bed": 0,
+      "other_unsupported_area_mm2": 2645.6558453268945,
+      "axle_bed_face_pass": false,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        64.4,
+        34.392323604,
+        -8.0
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "master Short lever",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 14.399999618530273,
+      "holes": [
+        {
+          "axle": "master pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            13.192323603988665,
+            7.699999999999999,
+            32.12844869819761
+          ],
+          "bed_ring_fraction": 0.9999999999999988,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 0.7211994938323986,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/master Short lever.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        38.72710037231445,
+        -2.1563000679016113,
+        14.399999618530273
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 4",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": -31.6,
+      "holes": [
+        {
+          "axle": "M output",
+          "axis": 0,
+          "centre_mm": [
+            12.000000000000002,
+            10.2,
+            0.0
+          ],
+          "bed_ring_fraction": 0.9999999999999972,
+          "on_bed": true
+        },
+        {
+          "axle": "Master worm",
+          "axis": 0,
+          "centre_mm": [
+            -15.799999999999999,
+            10.2,
+            16.0
+          ],
+          "bed_ring_fraction": 0.999999999999993,
+          "on_bed": true
+        },
+        {
+          "axle": "Selected data",
+          "axis": 0,
+          "centre_mm": [
+            -64.0,
+            10.2,
+            -16.0
+          ],
+          "bed_ring_fraction": 1.0000000000000013,
+          "on_bed": true
+        },
+        {
+          "axle": "POWER plus",
+          "axis": 0,
+          "centre_mm": [
+            53.0,
+            24.056406460551017,
+            -8.0
+          ],
+          "bed_ring_fraction": 1.0000000000000049,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 4,
+      "other_unsupported_area_mm2": 1638.2737758952746,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        48.0,
+        -5.199999999999999,
+        31.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 10",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": 28.999999999999996,
+      "holes": [
+        {
+          "axle": "M output",
+          "axis": 0,
+          "centre_mm": [
+            12.000000000000002,
+            10.2,
+            0.0
+          ],
+          "bed_ring_fraction": 0.9999999999999937,
+          "on_bed": true
+        },
+        {
+          "axle": "Slave worm",
+          "axis": 0,
+          "centre_mm": [
+            84.5,
+            10.2,
+            16.0
+          ],
+          "bed_ring_fraction": 0.9999999999999067,
+          "on_bed": true
+        },
+        {
+          "axle": "Feedback",
+          "axis": 0,
+          "centre_mm": [
+            28.0,
+            -3.6564064605510183,
+            -8.0
+          ],
+          "bed_ring_fraction": 1.0000000000000007,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 3,
+      "other_unsupported_area_mm2": 839.5253986104361,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        48.0,
+        8.656406462192535,
+        -28.999999999999996
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "slave Front bearing cheek",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 1.7999999523162842,
+      "holes": [
+        {
+          "axle": "slave reaction-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            106.0,
+            7.7,
+            24.0
+          ],
+          "bed_ring_fraction": 0.999999812644596,
+          "on_bed": true
+        },
+        {
+          "axle": "slave pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            119.19232360398867,
+            7.699999999999999,
+            32.12844869819761
+          ],
+          "bed_ring_fraction": 0.9999999999999999,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/slave Front bearing cheek.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        39.4,
+        128.0,
+        -1.7999999523162842
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit frame 1 removable fixture 0",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 8.0,
+      "holes": [
+        {
+          "axle": "slave reaction-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            106.0,
+            7.7,
+            24.0
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        },
+        {
+          "axle": "slave pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            119.19232360398867,
+            7.699999999999999,
+            32.12844869819761
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        }
+      ],
+      "holes_on_bed": 0,
+      "other_unsupported_area_mm2": 906.8584228497359,
+      "axle_bed_face_pass": false,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        63.8,
+        140.392323604,
+        -8.0
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "slave Short lever",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 14.399999618530273,
+      "holes": [
+        {
+          "axle": "slave pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            119.19232360398867,
+            7.699999999999999,
+            32.12844869819761
+          ],
+          "bed_ring_fraction": 0.9999999999999966,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 0.7212031310055307,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/slave Short lever.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        38.72710037231445,
+        -108.15629577636719,
+        14.399999618530273
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 12",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": 130.4,
+      "holes": [
+        {
+          "axle": "Q output",
+          "axis": 0,
+          "centre_mm": [
+            118.0,
+            10.2,
+            0.0
+          ],
+          "bed_ring_fraction": 0.9999999999999829,
+          "on_bed": true
+        },
+        {
+          "axle": "Slave worm",
+          "axis": 0,
+          "centre_mm": [
+            84.5,
+            10.2,
+            16.0
+          ],
+          "bed_ring_fraction": 1.000000000000051,
+          "on_bed": true
+        },
+        {
+          "axle": "POWER plus",
+          "axis": 0,
+          "centre_mm": [
+            53.0,
+            24.056406460551017,
+            -8.0
+          ],
+          "bed_ring_fraction": 0.9999999999999767,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 3,
+      "other_unsupported_area_mm2": 1028.155369814805,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        48.0,
+        -5.199999999999999,
+        -130.4
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "master Carriage fork and roof",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": -15.600000381469727,
+      "holes": [
+        {
+          "axle": "master_gate worm drive 10L",
+          "axis": 0,
+          "centre_mm": [
+            -15.799999999999999,
+            10.2,
+            16.0
+          ],
+          "bed_ring_fraction": 0.9999999999999983,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 154.4449953526235,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/master Carriage fork and roof.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        45.29949951171875,
+        -1.5499999523162842,
+        15.600000381469727
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "axis": "X",
+      "sign": -1,
+      "bed_plane_mm": 15.600000381469727,
+      "holes": [
+        {
+          "axle": "master_gate worm drive 10L",
+          "axis": 0,
+          "centre_mm": [
+            -15.799999999999999,
+            10.2,
+            16.0
+          ],
+          "bed_ring_fraction": 1.0000000000000024,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/master Right carriage bearing support.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        0.30000001192092896,
+        -4.699999809265137,
+        15.600000381469727
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 7",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": 20.4,
+      "holes": [
+        {
+          "axle": "Master worm",
+          "axis": 0,
+          "centre_mm": [
+            -15.799999999999999,
+            10.2,
+            16.0
+          ],
+          "bed_ring_fraction": 1.0000000000000027,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 254.69409567720152,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        48.0,
+        -5.199999999999999,
+        -20.4
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "master lock bolt",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 18.0,
+      "holes": [
+        {
+          "axle": "master roller axle",
+          "axis": 1,
+          "centre_mm": [
+            -5.05,
+            21.6,
+            53.3
+          ],
+          "bed_ring_fraction": 1.0000000000000009,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 11.228808562420452,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/master lock bolt.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        60.4,
+        0.949999988079071,
+        -18.0
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "slave lock bolt",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 18.0,
+      "holes": [
+        {
+          "axle": "slave roller axle",
+          "axis": 1,
+          "centre_mm": [
+            100.95,
+            21.6,
+            53.3
+          ],
+          "bed_ring_fraction": 1.0000000000000024,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 11.228808562420454,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/slave lock bolt.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        60.4,
+        106.94999998807907,
+        -18.0
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 9",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": 78.4,
+      "holes": [
+        {
+          "axle": "Q output",
+          "axis": 0,
+          "centre_mm": [
+            118.0,
+            10.2,
+            0.0
+          ],
+          "bed_ring_fraction": 1.0000000000000133,
+          "on_bed": true
+        },
+        {
+          "axle": "POWER minus",
+          "axis": 0,
+          "centre_mm": [
+            56.0,
+            10.2,
+            -16.0
+          ],
+          "bed_ring_fraction": 1.0000000000000107,
+          "on_bed": true
+        },
+        {
+          "axle": "POWER plus",
+          "axis": 0,
+          "centre_mm": [
+            53.0,
+            24.056406460551017,
+            -8.0
+          ],
+          "bed_ring_fraction": 0.9999999999999799,
+          "on_bed": true
+        },
+        {
+          "axle": "POWER input",
+          "axis": 0,
+          "centre_mm": [
+            70.0,
+            -3.6564064605510183,
+            -24.0
+          ],
+          "bed_ring_fraction": 0.9999999999999885,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 4,
+      "other_unsupported_area_mm2": 599.3264344114641,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        8.656406462192535,
+        -78.4
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "slave Carriage fork and roof",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": 90.39999389648438,
+      "holes": [
+        {
+          "axle": "slave_gate worm drive 10L",
+          "axis": 0,
+          "centre_mm": [
+            104.19999999999999,
+            10.2,
+            16.0
+          ],
+          "bed_ring_fraction": 1.0000000000000144,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 148.5355128322543,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/slave Carriage fork and roof.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        45.29949951171875,
+        -1.5499999523162842,
+        -90.39999389648438
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "slave Right carriage bearing support",
+      "axis": "X",
+      "sign": -1,
+      "bed_plane_mm": 121.60000610351562,
+      "holes": [
+        {
+          "axle": "slave_gate worm drive 10L",
+          "axis": 0,
+          "centre_mm": [
+            104.19999999999999,
+            10.2,
+            16.0
+          ],
+          "bed_ring_fraction": 1.0000000000000022,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/slave Right carriage bearing support.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -0.38976374970263505,
+        -4.699999809265137,
+        121.60000610351562
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 0",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": -103.69999999999999,
+      "holes": [
+        {
+          "axle": "Selected data",
+          "axis": 0,
+          "centre_mm": [
+            -64.0,
+            10.2,
+            -16.0
+          ],
+          "bed_ring_fraction": 0.9999999999999839,
+          "on_bed": true
+        },
+        {
+          "axle": "D input",
+          "axis": 0,
+          "centre_mm": [
+            -88.0,
+            2.2,
+            0.0
+          ],
+          "bed_ring_fraction": 0.9999999999999656,
+          "on_bed": true
+        },
+        {
+          "axle": "Feedback",
+          "axis": 0,
+          "centre_mm": [
+            28.0,
+            -3.6564064605510183,
+            -8.0
+          ],
+          "bed_ring_fraction": 0.9999999999999848,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 3,
+      "other_unsupported_area_mm2": 642.4396049890925,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        8.656406462192535,
+        103.69999999999999
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 1",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": -73.6,
+      "holes": [
+        {
+          "axle": "D inverted",
+          "axis": 0,
+          "centre_mm": [
+            -76.5,
+            10.2,
+            0.0
+          ],
+          "bed_ring_fraction": 0.9999999999999993,
+          "on_bed": true
+        },
+        {
+          "axle": "D input",
+          "axis": 0,
+          "centre_mm": [
+            -88.0,
+            2.2,
+            0.0
+          ],
+          "bed_ring_fraction": 0.9999999999999943,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 218.19355716016736,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        2.8,
+        73.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 2",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": -91.6,
+      "holes": [
+        {
+          "axle": "D inverted",
+          "axis": 0,
+          "centre_mm": [
+            -76.5,
+            10.2,
+            0.0
+          ],
+          "bed_ring_fraction": 0.9999999999999986,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 194.58142711405856,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        -5.199999999999999,
+        91.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 3",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": -51.6,
+      "holes": [
+        {
+          "axle": "Master data stub",
+          "axis": 0,
+          "centre_mm": [
+            -43.8,
+            10.2,
+            0.0
+          ],
+          "bed_ring_fraction": 1.0000000000000075,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 270.2683768562702,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        -5.199999999999999,
+        51.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 6",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": -39.6,
+      "holes": [
+        {
+          "axle": "Master data stub",
+          "axis": 0,
+          "centre_mm": [
+            -43.8,
+            10.2,
+            0.0
+          ],
+          "bed_ring_fraction": 1.0000000000000053,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 270.2683768562702,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        -5.199999999999999,
+        39.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 11",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": 142.4,
+      "holes": [
+        {
+          "axle": "Feedback",
+          "axis": 0,
+          "centre_mm": [
+            28.0,
+            -3.6564064605510183,
+            -8.0
+          ],
+          "bed_ring_fraction": 1.0000000000000033,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 362.58155679964955,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -3.0,
+        8.656406462192535,
+        -142.4
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 5",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": 8.399999999999999,
+      "holes": [
+        {
+          "axle": "POWER minus",
+          "axis": 0,
+          "centre_mm": [
+            56.0,
+            10.2,
+            -16.0
+          ],
+          "bed_ring_fraction": 0.9999999999999556,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 232.16839398834622,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -11.0,
+        -5.199999999999999,
+        -8.399999999999999
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit removable bearing wall 8",
+      "axis": "X",
+      "sign": 1,
+      "bed_plane_mm": 58.4,
+      "holes": [
+        {
+          "axle": "POWER input",
+          "axis": 0,
+          "centre_mm": [
+            70.0,
+            -3.6564064605510183,
+            -24.0
+          ],
+          "bed_ring_fraction": 0.9999999999999917,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 348.5704210162943,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -18.2,
+        8.656406462192535,
+        -58.4
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit clock bellcrank",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 18.0,
+      "holes": [
+        {
+          "axle": "bit clock pivot axle",
+          "axis": 1,
+          "centre_mm": [
+            -96.0,
+            26.0,
+            40.0
+          ],
+          "bed_ring_fraction": 1.000000000000004,
+          "on_bed": true
+        },
+        {
+          "axle": "bit clock input follower axle",
+          "axis": 1,
+          "centre_mm": [
+            -116.0,
+            17.0,
+            40.0
+          ],
+          "bed_ring_fraction": 1.0000000000000042,
+          "on_bed": true
+        },
+        {
+          "axle": "bit clock output follower axle",
+          "axis": 1,
+          "centre_mm": [
+            -96.0,
+            25.0,
+            20.0
+          ],
+          "bed_ring_fraction": 0.9999999999999994,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 3,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/bit clock bellcrank.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        44.5,
+        -91.5,
+        -18.0
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit frame 0 removable fixture 2",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 38.2,
+      "holes": [
+        {
+          "axle": "bit clock pivot axle",
+          "axis": 1,
+          "centre_mm": [
+            -96.0,
+            26.0,
+            40.0
+          ],
+          "bed_ring_fraction": 0.9999999999999947,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 575.4757054815806,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/bit frame 0 removable fixture 2.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        62.8,
+        134.0,
+        38.2
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit write bellcrank",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 22.2,
+      "holes": [
+        {
+          "axle": "bit write pivot axle",
+          "axis": 1,
+          "centre_mm": [
+            -104.0,
+            30.0,
+            8.0
+          ],
+          "bed_ring_fraction": 0.9999999999999944,
+          "on_bed": true
+        },
+        {
+          "axle": "bit write input follower axle",
+          "axis": 1,
+          "centre_mm": [
+            -128.0,
+            25.0,
+            8.0
+          ],
+          "bed_ring_fraction": 0.9999999999999966,
+          "on_bed": true
+        },
+        {
+          "axle": "bit write output follower axle",
+          "axis": 1,
+          "centre_mm": [
+            -104.0,
+            29.0,
+            -16.0
+          ],
+          "bed_ring_fraction": 0.9999999999999994,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 3,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/bit write bellcrank.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        12.5,
+        -99.5,
+        -22.2
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "bit frame 0 removable fixture 0",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 38.2,
+      "holes": [
+        {
+          "axle": "bit write pivot axle",
+          "axis": 1,
+          "centre_mm": [
+            -104.0,
+            30.0,
+            8.0
+          ],
+          "bed_ring_fraction": 0.9999999999999983,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 1090.5808479614336,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/bit frame 0 removable fixture 0.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        13.5,
+        134.0,
+        38.2
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control clock Front bearing cheek",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": -2.200000047683716,
+      "holes": [
+        {
+          "axle": "Control clock reaction-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -140.0,
+            3.7,
+            -104.0
+          ],
+          "bed_ring_fraction": 0.9999998065113074,
+          "on_bed": true
+        },
+        {
+          "axle": "Control clock pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -148.1284486981976,
+            3.6999999999999993,
+            -90.80767639601133
+          ],
+          "bed_ring_fraction": 1.0000000000000002,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control clock Front bearing cheek.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -82.0,
+        -134.9000030517578,
+        2.200000047683716
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "control frame 0 removable fixture 2",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 48.5,
+      "holes": [
+        {
+          "axle": "Control clock reaction-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -140.0,
+            3.7,
+            -104.0
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        },
+        {
+          "axle": "Control clock pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -148.1284486981976,
+            3.6999999999999993,
+            -90.80767639601133
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        },
+        {
+          "axle": "Control Clock amplifier pivot",
+          "axis": 1,
+          "centre_mm": [
+            -156.0,
+            34.0,
+            -104.0
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        }
+      ],
+      "holes_on_bed": 0,
+      "other_unsupported_area_mm2": 2961.8393350326587,
+      "axle_bed_face_pass": false,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -65.2,
+        172.8,
+        48.5
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control clock Short lever",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 10.399999618530273,
+      "holes": [
+        {
+          "axle": "Control clock pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -148.1284486981976,
+            3.6999999999999993,
+            -90.80767639601133
+          ],
+          "bed_ring_fraction": 0.999999999999998,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 0.7211994938323986,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control clock Short lever.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -78.60770034790039,
+        154.72710037231445,
+        10.399999618530273
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control clock Carriage fork and roof",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -119.60000038146973,
+      "holes": [
+        {
+          "axle": "Control CLK input axle",
+          "axis": 2,
+          "centre_mm": [
+            -132.0,
+            6.199999999999999,
+            -104.0
+          ],
+          "bed_ring_fraction": 1.0000000000000018,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 176.4130158672832,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control clock Carriage fork and roof.stl",
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        161.29949951171875,
+        2.450000047683716,
+        119.60000038146973
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control clock Right carriage bearing support",
+      "axis": "Z",
+      "sign": -1,
+      "bed_plane_mm": -88.39999961853027,
+      "holes": [
+        {
+          "axle": "Control CLK input axle",
+          "axis": 2,
+          "centre_mm": [
+            -132.0,
+            6.199999999999999,
+            -104.0
+          ],
+          "bed_ring_fraction": 0.999999999999992,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control clock Right carriage bearing support.stl",
+      "assembly_to_print_rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -124.0,
+        -0.6999998092651367,
+        -88.39999961853027
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "control removable bearing wall 1",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -145.6,
+      "holes": [
+        {
+          "axle": "CLOCK input",
+          "axis": 2,
+          "centre_mm": [
+            -132.0,
+            -9.8,
+            -134.0
+          ],
+          "bed_ring_fraction": 1.0000000000000013,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 496.470162291451,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        14.8,
+        145.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "control removable bearing wall 3",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -127.6,
+      "holes": [
+        {
+          "axle": "CLOCK worm",
+          "axis": 2,
+          "centre_mm": [
+            -132.0,
+            6.199999999999999,
+            -104.0
+          ],
+          "bed_ring_fraction": 1.0000000000000446,
+          "on_bed": true
+        },
+        {
+          "axle": "CLOCK input",
+          "axis": 2,
+          "centre_mm": [
+            -132.0,
+            -9.8,
+            -134.0
+          ],
+          "bed_ring_fraction": 1.000000000000019,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 481.49789110141444,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        14.8,
+        127.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "control removable bearing wall 4",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -71.6,
+      "holes": [
+        {
+          "axle": "CLOCK worm",
+          "axis": 2,
+          "centre_mm": [
+            -132.0,
+            6.199999999999999,
+            -104.0
+          ],
+          "bed_ring_fraction": 1.0000000000000144,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 323.3282010173172,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        -1.1999999999999993,
+        71.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control Clock amplifier front and input shoe",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 35.6,
+      "holes": [
+        {
+          "axle": "Control Clock amplifier pivot",
+          "axis": 1,
+          "centre_mm": [
+            -156.0,
+            34.0,
+            -104.0
+          ],
+          "bed_ring_fraction": 0.9999999999999871,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 31.992216239562364,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control Clock amplifier front and input shoe.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -95.7,
+        162.0,
+        35.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control Clock amplifier rear and output shoe",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": 36.0,
+      "holes": [
+        {
+          "axle": "Control Clock amplifier pivot",
+          "axis": 1,
+          "centre_mm": [
+            -156.0,
+            34.0,
+            -104.0
+          ],
+          "bed_ring_fraction": 1.0000000000000087,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 27.01892178955044,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control Clock amplifier rear and output shoe.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -95.7,
+        -120.0,
+        -36.0
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control write Front bearing cheek",
+      "axis": "Y",
+      "sign": 1,
+      "bed_plane_mm": -10.200000047683716,
+      "holes": [
+        {
+          "axle": "Control write reaction-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -144.0,
+            -4.300000000000001,
+            -184.0
+          ],
+          "bed_ring_fraction": 0.999999806511302,
+          "on_bed": true
+        },
+        {
+          "axle": "Control write pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -152.1284486981976,
+            -4.300000000000001,
+            -170.80767639601135
+          ],
+          "bed_ring_fraction": 0.9999999999999997,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 0.0,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control write Front bearing cheek.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -162.0,
+        -138.9000030517578,
+        10.200000047683716
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "control frame 0 removable fixture 0",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 48.5,
+      "holes": [
+        {
+          "axle": "Control write reaction-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -144.0,
+            -4.300000000000001,
+            -184.0
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        },
+        {
+          "axle": "Control write pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -152.1284486981976,
+            -4.300000000000001,
+            -170.80767639601135
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        }
+      ],
+      "holes_on_bed": 0,
+      "other_unsupported_area_mm2": 950.177088184552,
+      "axle_bed_face_pass": false,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -150.607676396,
+        160.8,
+        48.5
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control write Short lever",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 2.3999996185302734,
+      "holes": [
+        {
+          "axle": "Control write pivot-stop-axle",
+          "axis": 1,
+          "centre_mm": [
+            -152.1284486981976,
+            -4.300000000000001,
+            -170.80767639601135
+          ],
+          "bed_ring_fraction": 0.9999999999999997,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 0.7211974687211525,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control write Short lever.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -158.6077003479004,
+        158.7270980834961,
+        2.3999996185302734
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control write Carriage fork and roof",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -199.5999984741211,
+      "holes": [
+        {
+          "axle": "Control WRITE input axle",
+          "axis": 2,
+          "centre_mm": [
+            -136.0,
+            -1.8000000000000007,
+            -184.0
+          ],
+          "bed_ring_fraction": 0.9999999999999578,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 28.849627148692075,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control write Carriage fork and roof.stl",
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        165.29950103759765,
+        10.450000047683716,
+        199.5999984741211
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "Control WRITE direct rod and pickup",
+      "axis": "Z",
+      "sign": -1,
+      "bed_plane_mm": -48.2,
+      "holes": [
+        {
+          "axle": "Control WRITE input axle",
+          "axis": 2,
+          "centre_mm": [
+            -136.0,
+            -1.8000000000000007,
+            -184.0
+          ],
+          "bed_ring_fraction": 0.0,
+          "on_bed": false
+        }
+      ],
+      "holes_on_bed": 0,
+      "other_unsupported_area_mm2": 294.00826975396296,
+      "axle_bed_face_pass": false,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -122.8,
+        7.300000190734863,
+        -48.2
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "control removable bearing wall 0",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -215.6,
+      "holes": [
+        {
+          "axle": "WRITE worm",
+          "axis": 2,
+          "centre_mm": [
+            -136.0,
+            -1.8000000000000007,
+            -184.0
+          ],
+          "bed_ring_fraction": 1.0000000000000009,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 428.5938393982557,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        6.800000000000001,
+        215.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "control removable bearing wall 2",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -155.6,
+      "holes": [
+        {
+          "axle": "WRITE worm",
+          "axis": 2,
+          "centre_mm": [
+            -136.0,
+            -1.8000000000000007,
+            -184.0
+          ],
+          "bed_ring_fraction": 1.0000000000000029,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 427.2780007508895,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        6.800000000000001,
+        155.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    }
+  ],
+  "all_axle_bed_faces_pass": false,
+  "unresolved_parts": [
+    "bit frame 0 removable fixture 3",
+    "bit frame 1 removable fixture 0",
+    "control frame 0 removable fixture 2",
+    "control frame 0 removable fixture 0",
+    "Control WRITE direct rod and pickup"
+  ],
+  "limitations": [
+    "An annular bed-contact screen of detected native-axle interfaces, not an exhaustive hole-feature recognizer.",
+    "Vertical holes with bed-supported rings do not imply the rest of a part is support-free. Unsupported surface area is reported separately.",
+    "Assembly access, material strength and bore fit require separate validation."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "scope": "Phase screen for each CAD-discovered external mesh, with inherited phases fixed.\nNew idler shafts may be assembled at a free phase; inherited shafts may not.\n",
+  "shaft_phases_deg": {
+    "Master output": 1.125,
+    "POWER internal": 1.25,
+    "Q inverted": 18.75,
+    "CLK worm": 0,
+    "fixed:master L072": 0.0,
+    "fixed:master L102": 15.75,
+    "fixed:master POWER 16T 16": 1.25,
+    "fixed:master POWER 16T 32": 1.25,
+    "fixed:master reversing idler 16T -16": 2.5,
+    "fixed:master reversing idler 16T 32": 2.5,
+    "fixed:slave L072": 6.25,
+    "fixed:slave L102": 9.5,
+    "fixed:slave POWER 16T -16": 1.25,
+    "fixed:slave reversing idler 16T 16": 2.5,
+    "fixed:master_gate L102": 0.0,
+    "fixed:master_gate B-input": 1.125,
+    "fixed:slave_gate L102": 0.0,
+    "fixed:slave_gate B-input": 1.125,
+    "fixed:write L072": 0.0,
+    "fixed:write L102": 0.0,
+    "fixed:WRITE D input gear": 11.25,
+    "fixed:Selected data route 16T": 17.375,
+    "fixed:D header input 8T": 11.25,
+    "fixed:D header output 8T": 11.25,
+    "fixed:POWER header gear": 2.5,
+    "fixed:Q feedback front gear -92": 18.75,
+    "fixed:Q feedback front gear 150": 18.75,
+    "fixed:Q takeoff gear": 7.499999999999999,
+    "CLK incoming": 16.25
+  },
+  "meshes": [
+    {
+      "a": "master L072",
+      "b": "master POWER 16T 16",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "master L102",
+      "b": "master reversing idler 16T -16",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "master POWER 16T 32",
+      "b": "master reversing idler 16T 32",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "master POWER 16T 32",
+      "b": "POWER header gear",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "slave L072",
+      "b": "slave reversing idler 16T 16",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "slave L102",
+      "b": "slave POWER 16T -16",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "master_gate L102",
+      "b": "master_gate B-input",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "master_gate B-input",
+      "b": "Selected data route 16T",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "slave_gate L102",
+      "b": "slave_gate B-input",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "write L072",
+      "b": "Q feedback front gear -92",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "write L102",
+      "b": "WRITE D input gear",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "D header input 8T",
+      "b": "D header output 8T",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "Q feedback front gear 150",
+      "b": "Q takeoff gear",
+      "max_projected_overlap_mm2": 0.0
+    },
+    {
+      "a": "Control CLK input 16T",
+      "b": "Control CLK receiving 16T",
+      "max_projected_overlap_mm2": 0.0
+    }
+  ],
+  "external_profile_pass": true,
+  "mechanically_qualified": false
+}

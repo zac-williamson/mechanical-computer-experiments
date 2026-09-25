@@ -1,0 +1,236 @@
+{
+  "expected_mesh_pairs": [
+    [
+      "master L072",
+      "master POWER 16T 16"
+    ],
+    [
+      "master L102",
+      "master reversing idler 16T -16"
+    ],
+    [
+      "master POWER 16T 32",
+      "master reversing idler 16T 32"
+    ],
+    [
+      "POWER header gear",
+      "master POWER 16T 32"
+    ],
+    [
+      "slave L072",
+      "slave reversing idler 16T 16"
+    ],
+    [
+      "slave L102",
+      "slave POWER 16T -16"
+    ],
+    [
+      "master_gate B-input",
+      "master_gate L102"
+    ],
+    [
+      "Selected data route 16T",
+      "master_gate B-input"
+    ],
+    [
+      "slave_gate B-input",
+      "slave_gate L102"
+    ],
+    [
+      "Q feedback front gear -92",
+      "write L072"
+    ],
+    [
+      "WRITE D input gear",
+      "write L102"
+    ],
+    [
+      "D header input 8T",
+      "D header output 8T"
+    ],
+    [
+      "Q feedback front gear 150",
+      "Q takeoff gear"
+    ],
+    [
+      "Control CLK input 16T",
+      "Control CLK receiving 16T"
+    ]
+  ],
+  "topology_pass": true,
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "meshes": [
+    {
+      "a": "master L072",
+      "b": "master POWER 16T 16",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 16.000000025620444,
+      "face_overlap_mm": 3.79999577999115,
+      "max_velocity_error_rad": 0.0
+    },
+    {
+      "a": "master L102",
+      "b": "master reversing idler 16T -16",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.99999321228543,
+      "face_overlap_mm": 3.799999237060547,
+      "max_velocity_error_rad": 2.0816681711721685e-17
+    },
+    {
+      "a": "master POWER 16T 32",
+      "b": "master reversing idler 16T 32",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.999999999999998,
+      "face_overlap_mm": 3.799999952316284,
+      "max_velocity_error_rad": 3.469446951953614e-18
+    },
+    {
+      "a": "master POWER 16T 32",
+      "b": "POWER header gear",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.999999999999998,
+      "face_overlap_mm": 3.799999952316284,
+      "max_velocity_error_rad": 3.469446951953614e-18
+    },
+    {
+      "a": "slave L072",
+      "b": "slave reversing idler 16T 16",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.999999716771278,
+      "face_overlap_mm": 3.79999577999115,
+      "max_velocity_error_rad": 6.938893903907228e-18
+    },
+    {
+      "a": "slave L102",
+      "b": "slave POWER 16T -16",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.99999255680629,
+      "face_overlap_mm": 3.799999237060547,
+      "max_velocity_error_rad": 3.469446951953614e-18
+    },
+    {
+      "a": "master_gate L102",
+      "b": "master_gate B-input",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.999999673776243,
+      "face_overlap_mm": 3.7999954223632812,
+      "max_velocity_error_rad": 0.0
+    },
+    {
+      "a": "master_gate B-input",
+      "b": "Selected data route 16T",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 16.000000268868686,
+      "face_overlap_mm": 3.799999237060547,
+      "max_velocity_error_rad": 2.42861286636753e-17
+    },
+    {
+      "a": "slave_gate L102",
+      "b": "slave_gate B-input",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.999999673776243,
+      "face_overlap_mm": 3.7999954223632812,
+      "max_velocity_error_rad": 3.469446951953614e-18
+    },
+    {
+      "a": "write L072",
+      "b": "Q feedback front gear -92",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.999999938057035,
+      "face_overlap_mm": 3.79999577999115,
+      "max_velocity_error_rad": 2.42861286636753e-17
+    },
+    {
+      "a": "write L102",
+      "b": "WRITE D input gear",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.999992370605469,
+      "face_overlap_mm": 3.799999237060547,
+      "max_velocity_error_rad": 3.469446951953614e-18
+    },
+    {
+      "a": "D header input 8T",
+      "b": "D header output 8T",
+      "teeth": [
+        8,
+        8
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 8.0,
+      "face_overlap_mm": 3.799999952316284,
+      "max_velocity_error_rad": 0.0
+    },
+    {
+      "a": "Q feedback front gear 150",
+      "b": "Q takeoff gear",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 15.999999999999998,
+      "face_overlap_mm": 3.799999952316284,
+      "max_velocity_error_rad": 2.7755575615628914e-17
+    },
+    {
+      "a": "Control CLK input 16T",
+      "b": "Control CLK receiving 16T",
+      "teeth": [
+        16,
+        16
+      ],
+      "ratio": -1.0,
+      "centre_distance_mm": 16.0,
+      "face_overlap_mm": 3.799999952316284,
+      "max_velocity_error_rad": 0.0
+    }
+  ],
+  "unit_magnitude_pass": true,
+  "rotation_identity_pass": true,
+  "scope": "Actual CAD-discovered external mesh identities for all seven independent angle drivers; excludes engagement dynamics",
+  "constant_rpm_during_reversal": false
+}

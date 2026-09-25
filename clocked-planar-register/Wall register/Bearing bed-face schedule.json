@@ -1,0 +1,620 @@
+{
+  "walls": [
+    {
+      "part": "bit removable bearing wall 0",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": -103.69999999999999,
+      "bearings": [
+        {
+          "shaft": "Selected data",
+          "axis": "X",
+          "centre_mm": [
+            -64.0,
+            10.2,
+            -16.0
+          ],
+          "original_land_start_mm": -103.69999999999999,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -103.69999999999999,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "D input",
+          "axis": "X",
+          "centre_mm": [
+            -88.0,
+            2.2,
+            0.0
+          ],
+          "original_land_start_mm": -103.69999999999999,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -103.69999999999999,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "Feedback",
+          "axis": "X",
+          "centre_mm": [
+            28.0,
+            -3.6564064605510183,
+            -8.0
+          ],
+          "original_land_start_mm": -99.69999999999999,
+          "original_land_mm": 3.2,
+          "extension_mm": 4.0,
+          "bed_plane_mm": -103.69999999999999,
+          "relieved_radius_mm": 3.2
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 1",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": -73.6,
+      "bearings": [
+        {
+          "shaft": "D inverted",
+          "axis": "X",
+          "centre_mm": [
+            -76.5,
+            10.2,
+            0.0
+          ],
+          "original_land_start_mm": -73.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -73.6,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "D input",
+          "axis": "X",
+          "centre_mm": [
+            -88.0,
+            2.2,
+            0.0
+          ],
+          "original_land_start_mm": -73.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -73.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 2",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": -91.6,
+      "bearings": [
+        {
+          "shaft": "D inverted",
+          "axis": "X",
+          "centre_mm": [
+            -76.5,
+            10.2,
+            0.0
+          ],
+          "original_land_start_mm": -91.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -91.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 3",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": -51.6,
+      "bearings": [
+        {
+          "shaft": "Master data stub",
+          "axis": "X",
+          "centre_mm": [
+            -43.8,
+            10.2,
+            0.0
+          ],
+          "original_land_start_mm": -51.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -51.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 4",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": -31.6,
+      "bearings": [
+        {
+          "shaft": "M output",
+          "axis": "X",
+          "centre_mm": [
+            12.000000000000002,
+            10.2,
+            0.0
+          ],
+          "original_land_start_mm": -25.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 6.0,
+          "bed_plane_mm": -31.6,
+          "relieved_radius_mm": 3.2
+        },
+        {
+          "shaft": "Master worm",
+          "axis": "X",
+          "centre_mm": [
+            -15.799999999999999,
+            10.2,
+            16.0
+          ],
+          "original_land_start_mm": -31.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -31.6,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "Selected data",
+          "axis": "X",
+          "centre_mm": [
+            -64.0,
+            10.2,
+            -16.0
+          ],
+          "original_land_start_mm": -31.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -31.6,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "POWER plus",
+          "axis": "X",
+          "centre_mm": [
+            53.0,
+            24.056406460551017,
+            -8.0
+          ],
+          "original_land_start_mm": -25.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 6.0,
+          "bed_plane_mm": -31.6,
+          "relieved_radius_mm": 3.2
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 5",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": 8.399999999999999,
+      "bearings": [
+        {
+          "shaft": "POWER minus",
+          "axis": "X",
+          "centre_mm": [
+            56.0,
+            10.2,
+            -16.0
+          ],
+          "original_land_start_mm": 8.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 1.7763568394002505e-15,
+          "bed_plane_mm": 8.399999999999999,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 6",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": -39.6,
+      "bearings": [
+        {
+          "shaft": "Master data stub",
+          "axis": "X",
+          "centre_mm": [
+            -43.8,
+            10.2,
+            0.0
+          ],
+          "original_land_start_mm": -39.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -39.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 7",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": 20.4,
+      "bearings": [
+        {
+          "shaft": "Master worm",
+          "axis": "X",
+          "centre_mm": [
+            -15.799999999999999,
+            10.2,
+            16.0
+          ],
+          "original_land_start_mm": 20.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 20.4,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 8",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": 58.4,
+      "bearings": [
+        {
+          "shaft": "POWER input",
+          "axis": "X",
+          "centre_mm": [
+            70.0,
+            -3.6564064605510183,
+            -24.0
+          ],
+          "original_land_start_mm": 58.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 58.4,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 9",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": 78.4,
+      "bearings": [
+        {
+          "shaft": "Q output",
+          "axis": "X",
+          "centre_mm": [
+            118.0,
+            10.2,
+            0.0
+          ],
+          "original_land_start_mm": 78.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 78.4,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "POWER minus",
+          "axis": "X",
+          "centre_mm": [
+            56.0,
+            10.2,
+            -16.0
+          ],
+          "original_land_start_mm": 78.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 78.4,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "POWER plus",
+          "axis": "X",
+          "centre_mm": [
+            53.0,
+            24.056406460551017,
+            -8.0
+          ],
+          "original_land_start_mm": 78.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 78.4,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "POWER input",
+          "axis": "X",
+          "centre_mm": [
+            70.0,
+            -3.6564064605510183,
+            -24.0
+          ],
+          "original_land_start_mm": 78.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 78.4,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 10",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": 28.999999999999996,
+      "bearings": [
+        {
+          "shaft": "M output",
+          "axis": "X",
+          "centre_mm": [
+            12.000000000000002,
+            10.2,
+            0.0
+          ],
+          "original_land_start_mm": 32.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 3.400000000000002,
+          "bed_plane_mm": 28.999999999999996,
+          "relieved_radius_mm": 3.2
+        },
+        {
+          "shaft": "Slave worm",
+          "axis": "X",
+          "centre_mm": [
+            84.5,
+            10.2,
+            16.0
+          ],
+          "original_land_start_mm": 29.0,
+          "original_land_mm": 2.4,
+          "extension_mm": 3.552713678800501e-15,
+          "bed_plane_mm": 28.999999999999996,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "Feedback",
+          "axis": "X",
+          "centre_mm": [
+            28.0,
+            -3.6564064605510183,
+            -8.0
+          ],
+          "original_land_start_mm": 32.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 3.400000000000002,
+          "bed_plane_mm": 28.999999999999996,
+          "relieved_radius_mm": 3.2
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 11",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": 142.4,
+      "bearings": [
+        {
+          "shaft": "Feedback",
+          "axis": "X",
+          "centre_mm": [
+            28.0,
+            -3.6564064605510183,
+            -8.0
+          ],
+          "original_land_start_mm": 142.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 142.4,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "bit removable bearing wall 12",
+      "axis": "X",
+      "print_up_sign": 1,
+      "bed_plane_mm": 130.4,
+      "bearings": [
+        {
+          "shaft": "Q output",
+          "axis": "X",
+          "centre_mm": [
+            118.0,
+            10.2,
+            0.0
+          ],
+          "original_land_start_mm": 130.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 130.4,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "Slave worm",
+          "axis": "X",
+          "centre_mm": [
+            84.5,
+            10.2,
+            16.0
+          ],
+          "original_land_start_mm": 130.8,
+          "original_land_mm": 2.4,
+          "extension_mm": 0.4000000000000057,
+          "bed_plane_mm": 130.4,
+          "relieved_radius_mm": 3.100000000000006
+        },
+        {
+          "shaft": "POWER plus",
+          "axis": "X",
+          "centre_mm": [
+            53.0,
+            24.056406460551017,
+            -8.0
+          ],
+          "original_land_start_mm": 130.4,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": 130.4,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "control removable bearing wall 0",
+      "axis": "Z",
+      "print_up_sign": 1,
+      "bed_plane_mm": -215.6,
+      "bearings": [
+        {
+          "shaft": "WRITE worm",
+          "axis": "Z",
+          "centre_mm": [
+            -136.0,
+            -1.8000000000000007,
+            -184.0
+          ],
+          "original_land_start_mm": -215.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -215.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "control removable bearing wall 1",
+      "axis": "Z",
+      "print_up_sign": 1,
+      "bed_plane_mm": -145.6,
+      "bearings": [
+        {
+          "shaft": "CLOCK input",
+          "axis": "Z",
+          "centre_mm": [
+            -132.0,
+            -9.8,
+            -134.0
+          ],
+          "original_land_start_mm": -145.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -145.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "control removable bearing wall 2",
+      "axis": "Z",
+      "print_up_sign": 1,
+      "bed_plane_mm": -155.6,
+      "bearings": [
+        {
+          "shaft": "WRITE worm",
+          "axis": "Z",
+          "centre_mm": [
+            -136.0,
+            -1.8000000000000007,
+            -184.0
+          ],
+          "original_land_start_mm": -155.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -155.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "control removable bearing wall 3",
+      "axis": "Z",
+      "print_up_sign": 1,
+      "bed_plane_mm": -127.6,
+      "bearings": [
+        {
+          "shaft": "CLOCK worm",
+          "axis": "Z",
+          "centre_mm": [
+            -132.0,
+            6.199999999999999,
+            -104.0
+          ],
+          "original_land_start_mm": -127.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -127.6,
+          "relieved_radius_mm": 2.65
+        },
+        {
+          "shaft": "CLOCK input",
+          "axis": "Z",
+          "centre_mm": [
+            -132.0,
+            -9.8,
+            -134.0
+          ],
+          "original_land_start_mm": -127.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -127.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    },
+    {
+      "part": "control removable bearing wall 4",
+      "axis": "Z",
+      "print_up_sign": 1,
+      "bed_plane_mm": -71.6,
+      "bearings": [
+        {
+          "shaft": "CLOCK worm",
+          "axis": "Z",
+          "centre_mm": [
+            -132.0,
+            6.199999999999999,
+            -104.0
+          ],
+          "original_land_start_mm": -71.6,
+          "original_land_mm": 3.2,
+          "extension_mm": 0,
+          "bed_plane_mm": -71.6,
+          "relieved_radius_mm": 2.65
+        }
+      ]
+    }
+  ],
+  "moved_collars": [
+    {
+      "part": "M output axial stop 26.8",
+      "old_part": "M output axial stop 30.2",
+      "shift_mm": -3.4,
+      "contact_face_mm": 29.0,
+      "endplay_mm": 0.2
+    },
+    {
+      "part": "Feedback axial stop 26.8",
+      "old_part": "Feedback axial stop 30.2",
+      "shift_mm": -3.4,
+      "contact_face_mm": 29.0,
+      "endplay_mm": 0.2
+    },
+    {
+      "part": "Slave worm axial stop 128.2",
+      "old_part": "Slave worm axial stop 128.6",
+      "shift_mm": -0.4,
+      "contact_face_mm": 130.4,
+      "endplay_mm": 0.2
+    }
+  ],
+  "scope": "Bring staggered transmission bearing rings to the wall's common print face.\n\nOnly rings are extended, rather than projecting the entire wall into neighbouring\nmechanisms. Extensions have relieved bores and 45-degree lead-ins; original\nbearing lands, shaft positions and two-pin mounting interfaces are retained.\n"
+}

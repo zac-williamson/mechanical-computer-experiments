@@ -1,0 +1,149 @@
+{
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "scope": "Frames only: rear face on bed, vertical mounting holes, 45-degree roofs over horizontal frame joining pins. No bridge exemption.",
+  "parts": [
+    {
+      "part": "bit coordinated chassis 0",
+      "file": "Print oriented frames/Bit frame left.stl",
+      "bounds_mm": [
+        103.6,
+        163.3,
+        13.5
+      ],
+      "flat_bed_contact_mm2": 5819.896301422292,
+      "unsupported_area_over_45_degrees_mm2": 0.0,
+      "unsupported_face_bounds": null,
+      "connected_solids": 1,
+      "watertight": true,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        63.8,
+        135.0,
+        48.5
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit coordinated chassis 1",
+      "file": "Print oriented frames/Bit frame right.stl",
+      "bounds_mm": [
+        101.6,
+        136.3,
+        11.100000000000001
+      ],
+      "flat_bed_contact_mm2": 4655.483339925679,
+      "unsupported_area_over_45_degrees_mm2": 0.0,
+      "unsupported_face_bounds": null,
+      "connected_solids": 1,
+      "watertight": true,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        63.8,
+        -28.7,
+        48.5
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control coordinated chassis 0",
+      "file": "Print oriented frames/Control frame.stl",
+      "bounds_mm": [
+        160.0,
+        89.80000000000001,
+        9.799999999999997
+      ],
+      "flat_bed_contact_mm2": 4972.886317290717,
+      "unsupported_area_over_45_degrees_mm2": 0.0,
+      "unsupported_face_bounds": null,
+      "connected_solids": 1,
+      "watertight": true,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -64.0,
+        173.8,
+        56.3
+      ],
+      "pass_check": true
+    }
+  ],
+  "frame_print_geometry_pass": true,
+  "limitations": [
+    "A geometric overhang screen, not a printer/material calibration.",
+    "Detached working fixtures and bearing walls are separate parts; this report does not qualify their print orientations."
+  ]
+}

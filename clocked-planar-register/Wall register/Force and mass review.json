@@ -1,0 +1,368 @@
+{
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "scope": "Geometric mass proxy and force-path audit; not measured actuation force.",
+  "moving_printed_material": {
+    "bit": {
+      "before_printed_moving_volume_mm3": 68940.38455003541,
+      "after_printed_moving_volume_mm3": 67557.73302577673,
+      "reduction_percent": 2.005575590103037
+    },
+    "control": {
+      "before_printed_moving_volume_mm3": 52599.21241279709,
+      "after_printed_moving_volume_mm3": 37952.38303585106,
+      "reduction_percent": 27.84610016971003
+    }
+  },
+  "parts": {
+    "master Short lever": {
+      "module": "bit",
+      "motion": "rocker",
+      "volume_mm3": 1603.2163028042767
+    },
+    "master Carriage fork and roof": {
+      "module": "bit",
+      "motion": "carriage",
+      "volume_mm3": 8756.287042341519
+    },
+    "master Right carriage bearing support": {
+      "module": "bit",
+      "motion": "carriage",
+      "volume_mm3": 1501.7900297611557
+    },
+    "slave Short lever": {
+      "module": "bit",
+      "motion": "rocker",
+      "volume_mm3": 1603.2161440790896
+    },
+    "slave Carriage fork and roof": {
+      "module": "bit",
+      "motion": "carriage",
+      "volume_mm3": 8822.489372230137
+    },
+    "slave Right carriage bearing support": {
+      "module": "bit",
+      "motion": "carriage",
+      "volume_mm3": 1428.4716176417471
+    },
+    "master lock bolt": {
+      "module": "bit",
+      "motion": "bolt",
+      "volume_mm3": 1063.2785276121117
+    },
+    "slave lock bolt": {
+      "module": "bit",
+      "motion": "bolt",
+      "volume_mm3": 1063.278527612113
+    },
+    "master_gate Carriage fork and roof": {
+      "module": "bit",
+      "motion": "gate-fork",
+      "volume_mm3": 1699.6505144134624
+    },
+    "master_gate Right carriage bearing support": {
+      "module": "bit",
+      "motion": "gate-fork",
+      "volume_mm3": 591.2186885182733
+    },
+    "slave_gate Carriage fork and roof": {
+      "module": "bit",
+      "motion": "gate-fork",
+      "volume_mm3": 1687.5528423906824
+    },
+    "slave_gate Right carriage bearing support": {
+      "module": "bit",
+      "motion": "gate-fork",
+      "volume_mm3": 591.2188906602008
+    },
+    "Passive write Carriage fork and roof": {
+      "module": "bit",
+      "motion": "write-fork",
+      "volume_mm3": 1390.0765614559834
+    },
+    "Local clock cam and fork bar": {
+      "module": "bit",
+      "motion": "crosshead",
+      "volume_mm3": 21105.830068413045
+    },
+    "bit clock bellcrank": {
+      "module": "bit",
+      "motion": "bellcrank",
+      "volume_mm3": 979.6774070498346
+    },
+    "bit write bellcrank": {
+      "module": "bit",
+      "motion": "bellcrank",
+      "volume_mm3": 1024.4243618220735
+    },
+    "bit clock vertical control rod": {
+      "module": "bit",
+      "motion": "control-rod",
+      "volume_mm3": 5148.899583716814
+    },
+    "clock pinned rod splice bridge": {
+      "module": "coupler",
+      "motion": "control-rod",
+      "volume_mm3": 2351.133308332884
+    },
+    "bit write vertical control rod": {
+      "module": "bit",
+      "motion": "control-rod",
+      "volume_mm3": 5148.899583716819
+    },
+    "write pinned rod splice bridge": {
+      "module": "coupler",
+      "motion": "control-rod",
+      "volume_mm3": 2351.133308332879
+    },
+    "master Front bearing cheek": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2249.332265531009
+    },
+    "slave Front bearing cheek": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2249.3323401744224
+    },
+    "bit WRITE fork and pickup": {
+      "module": "bit",
+      "motion": "write-fork",
+      "volume_mm3": 2348.2569595373884
+    },
+    "Control clock Short lever": {
+      "module": "control",
+      "motion": "rocker",
+      "volume_mm3": 1603.216302804278
+    },
+    "Control clock Carriage fork and roof": {
+      "module": "control",
+      "motion": "carriage",
+      "volume_mm3": 7944.453792981972
+    },
+    "Control clock Right carriage bearing support": {
+      "module": "control",
+      "motion": "carriage",
+      "volume_mm3": 1123.9173187322988
+    },
+    "Control clock Front bearing cheek": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2249.332340319576
+    },
+    "Control CLOCK direct rod and pickup": {
+      "module": "control",
+      "motion": "crosshead",
+      "volume_mm3": 6610.352441817609
+    },
+    "Control Clock amplifier front and input shoe": {
+      "module": "control",
+      "motion": "amplifier",
+      "volume_mm3": 1156.0011057069999
+    },
+    "Control Clock amplifier rear and output shoe": {
+      "module": "control",
+      "motion": "amplifier",
+      "volume_mm3": 1739.4401608969201
+    },
+    "Control write Short lever": {
+      "module": "control",
+      "motion": "lever",
+      "volume_mm3": 1603.2168870964003
+    },
+    "Control write Carriage fork and roof": {
+      "module": "control",
+      "motion": "carriage",
+      "volume_mm3": 8128.213595312544
+    },
+    "Control WRITE direct rod and pickup": {
+      "module": "control",
+      "motion": "carriage",
+      "volume_mm3": 8043.57143050203
+    },
+    "Control write Front bearing cheek": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2249.3323375745917
+    },
+    "bit removable bearing wall 0": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 4530.796174267792
+    },
+    "bit removable bearing wall 1": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2491.433074880692
+    },
+    "bit removable bearing wall 2": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2099.1344432341043
+    },
+    "bit removable bearing wall 3": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2290.9912782046945
+    },
+    "bit removable bearing wall 4": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 9266.506146355832
+    },
+    "bit removable bearing wall 5": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 1887.8479529358174
+    },
+    "bit removable bearing wall 6": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2290.9912782046945
+    },
+    "bit removable bearing wall 7": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2749.85425623139
+    },
+    "bit removable bearing wall 8": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2312.306265242844
+    },
+    "bit removable bearing wall 9": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 4535.05109295579
+    },
+    "bit removable bearing wall 10": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 5450.529611937421
+    },
+    "bit removable bearing wall 11": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2595.258742871801
+    },
+    "bit removable bearing wall 12": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 4808.914308783123
+    },
+    "control removable bearing wall 0": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 3010.4392540326494
+    },
+    "control removable bearing wall 1": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 3748.361174636036
+    },
+    "control removable bearing wall 2": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 3006.360154215477
+    },
+    "control removable bearing wall 3": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 4219.4266377006725
+    },
+    "control removable bearing wall 4": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 3111.9659402900706
+    },
+    "bit frame 0 removable fixture 0": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 5712.848987334509
+    },
+    "bit frame 0 removable fixture 1": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 1742.7072327872363
+    },
+    "bit frame 0 removable fixture 2": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 3967.893176006026
+    },
+    "bit frame 0 removable fixture 3": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 15322.594877561272
+    },
+    "bit coordinated chassis 0": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 56440.16581451532
+    },
+    "bit frame 1 removable fixture 0": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 5487.208829027336
+    },
+    "bit frame 1 removable fixture 1": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 3260.323448421935
+    },
+    "bit frame 1 removable fixture 2": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 6372.383884253191
+    },
+    "bit coordinated chassis 1": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 45426.760716713674
+    },
+    "control frame 0 removable fixture 0": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 6931.272322525309
+    },
+    "control frame 0 removable fixture 1": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 6473.556347329112
+    },
+    "control frame 0 removable fixture 2": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 14894.263121745835
+    },
+    "control frame 0 removable fixture 3": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2305.4391878678507
+    },
+    "control coordinated chassis 0": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 39489.614943986046
+    }
+  },
+  "controller_direction_bellcranks_before": 2,
+  "controller_direction_bellcranks_after": 0,
+  "added_free_rollers_per_bit": 4,
+  "write_rod_total_travel_before_mm": 11.25,
+  "write_rod_total_travel_after_mm": 7.5,
+  "force_model": {
+    "WRITE_ideal_actuator_force": "N * F_write_selector; unchanged overall ideal mechanical advantage",
+    "WRITE_shared_rod_force": "N * F_write_selector, versus (2/3)*N*F_write_selector previously; shorter rod travel trades for higher rod force",
+    "CLOCK_ideal_actuator_force": "2.5 * N * F_local_clock_bar; retained 2.5:1 stroke amplifier",
+    "actual_force": "Add guide, pivot, rolling resistance and clutch friction, plus inertial force. Values are unmeasured.",
+    "roller_assumption": "Bush and axle rotate together in circular crank bores. The viewer prescribes carrier motion; it does not solve free roller spin or prove rolling rather than skid."
+  },
+  "minimum_new_bellcrank_web_mm": 6,
+  "minimum_new_pivot_radial_wall_mm": 2,
+  "limitations": [
+    "No load, stiffness, fatigue or friction qualification.",
+    "Printed volume is a mass proxy; native hardware and infill are not included.",
+    "N=8 multiplies row loads; lower component count does not prove that the shared actuator has adequate force.",
+    "Native bush rollers are plain-bearing rollers, not ball bearings."
+  ]
+}

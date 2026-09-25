@@ -1,0 +1,1607 @@
+{
+  "removable_frame_fixtures": [
+    {
+      "part": "bit frame 0 removable fixture 0",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "bit frame 0 fixture 0 pin 1",
+          "centre_mm": [
+            -118.0,
+            38.0,
+            -36.0
+          ]
+        },
+        {
+          "part": "bit frame 0 fixture 0 pin 2",
+          "centre_mm": [
+            -96.0,
+            38.0,
+            8.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 49.193495504995376,
+      "interface_y_mm": 38.0,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 0 fixture 0 pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            0.9999999999999998,
+            1.0000000000000016,
+            0.9999999999999983
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 0 fixture 0 pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000004,
+            1.0000000000000036,
+            1.000000000000003
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 1",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "bit frame 0 fixture 1 pin 1",
+          "centre_mm": [
+            -62.0,
+            38.0,
+            -35.0
+          ]
+        },
+        {
+          "part": "bit frame 0 fixture 1 pin 2",
+          "centre_mm": [
+            -56.0,
+            38.0,
+            -3.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 32.55764119219941,
+      "interface_y_mm": 38.0,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 0 fixture 1 pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998,
+            1.0000000000000022,
+            1.0000000000000013
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 0 fixture 1 pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998,
+            1.0000000000000004,
+            1.0000000000000009
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 2",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "bit frame 0 fixture 2 pin 1",
+          "centre_mm": [
+            -120.0,
+            38.0,
+            23.0
+          ]
+        },
+        {
+          "part": "bit frame 0 fixture 2 pin 2",
+          "centre_mm": [
+            -94.0,
+            38.0,
+            59.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 44.40720662234904,
+      "interface_y_mm": 38.0,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 0 fixture 2 pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000009,
+            1.0000000000000009,
+            1.0000000000000018,
+            1.0000000000000022
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 0 fixture 2 pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            0.9999999999999998,
+            1.0000000000000024,
+            1.0000000000000004
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 3",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "bit frame 0 fixture 3 pin 1",
+          "centre_mm": [
+            -17.0,
+            38.0,
+            60.0
+          ]
+        },
+        {
+          "part": "bit frame 0 fixture 3 pin 2",
+          "centre_mm": [
+            3.0,
+            38.0,
+            -20.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 82.46211251235322,
+      "interface_y_mm": 38.0,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 0 fixture 3 pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000002,
+            0.9999999999999997,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 0 fixture 3 pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002,
+            0.9999999999999998,
+            0.9999999999999997
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 0",
+      "frame": "bit coordinated chassis 1",
+      "fasteners": [
+        {
+          "part": "bit frame 1 fixture 0 pin 1",
+          "centre_mm": [
+            62.0,
+            38.0,
+            60.0
+          ]
+        },
+        {
+          "part": "bit frame 1 fixture 0 pin 2",
+          "centre_mm": [
+            98.0,
+            38.0,
+            28.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 48.16637831516918,
+      "interface_y_mm": 38.0,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 1 fixture 0 pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002,
+            1.0,
+            0.9999999999999984
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 1 fixture 0 pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            0.9999999999999997,
+            1.0000000000000007,
+            1.0000000000000029
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 1",
+      "frame": "bit coordinated chassis 1",
+      "fasteners": [
+        {
+          "part": "bit frame 1 fixture 1 pin 1",
+          "centre_mm": [
+            86.0,
+            38.0,
+            -10.0
+          ]
+        },
+        {
+          "part": "bit frame 1 fixture 1 pin 2",
+          "centre_mm": [
+            122.0,
+            38.0,
+            32.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 55.31726674375732,
+      "interface_y_mm": 38.0,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 1 fixture 1 pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            1.0,
+            1.0000000000000036,
+            0.9999999999999984
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 1 fixture 1 pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0,
+            1.0000000000000044,
+            1.000000000000002
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 2",
+      "frame": "bit coordinated chassis 1",
+      "fasteners": [
+        {
+          "part": "bit frame 1 fixture 2 pin 1",
+          "centre_mm": [
+            89.0,
+            38.0,
+            59.0
+          ]
+        },
+        {
+          "part": "bit frame 1 fixture 2 pin 2",
+          "centre_mm": [
+            111.0,
+            38.0,
+            -15.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 77.20103626247513,
+      "interface_y_mm": 38.0,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 1 fixture 2 pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            0.9999999999999998,
+            1.0000000000000024,
+            0.9999999999999988
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 1 fixture 2 pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002,
+            1.0000000000000018,
+            1.0000000000000049
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 0",
+      "frame": "control coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "control frame 0 fixture 0 pin 1",
+          "centre_mm": [
+            -157.0,
+            48.3,
+            -203.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 0 pin 2",
+          "centre_mm": [
+            -131.0,
+            48.3,
+            -183.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 0 pin 3",
+          "centre_mm": [
+            -153.0,
+            48.3,
+            -183.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 0 pin 4",
+          "centre_mm": [
+            -141.0,
+            48.3,
+            -197.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 32.802438933713454,
+      "interface_y_mm": 48.3,
+      "seating_plane_y_mm": 48.5,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "control frame 0 fixture 0 pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000009,
+            1.000000000000001,
+            1.0000000000000007,
+            1.0000000000000038
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 0 pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000004,
+            1.000000000000001,
+            1.0000000000000024
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 0 pin 3",
+          "socket_wall_fraction": [
+            1.000000000000001,
+            1.000000000000001,
+            1.000000000000001,
+            1.000000000000003
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 0 pin 4",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000007,
+            0.9999999999999993,
+            1.000000000000001
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 1",
+      "frame": "control coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "control frame 0 fixture 1 pin 1",
+          "centre_mm": [
+            -169.0,
+            48.3,
+            -220.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 1 pin 2",
+          "centre_mm": [
+            -89.0,
+            48.3,
+            -122.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 1 pin 3",
+          "centre_mm": [
+            -89.0,
+            48.3,
+            -214.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 1 pin 4",
+          "centre_mm": [
+            -113.0,
+            48.3,
+            -168.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 126.50691680694776,
+      "interface_y_mm": 48.3,
+      "seating_plane_y_mm": 48.5,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "control frame 0 fixture 1 pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000007,
+            0.9999999999999998,
+            1.000000000000001
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 1 pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999997,
+            1.0000000000000027,
+            0.9999999999999937
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 1 pin 3",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998,
+            1.0000000000000004,
+            1.0000000000000033
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 1 pin 4",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            0.9999999999999997,
+            1.0000000000000027,
+            1.000000000000005
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 2",
+      "frame": "control coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "control frame 0 fixture 2 pin 1",
+          "centre_mm": [
+            -169.0,
+            48.3,
+            -115.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 2 pin 2",
+          "centre_mm": [
+            -89.0,
+            48.3,
+            -69.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 2 pin 3",
+          "centre_mm": [
+            -143.0,
+            48.3,
+            -77.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 2 pin 4",
+          "centre_mm": [
+            -169.0,
+            48.3,
+            -87.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 92.28217596047462,
+      "interface_y_mm": 48.3,
+      "seating_plane_y_mm": 48.5,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "control frame 0 fixture 2 pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            1.0000000000000002,
+            0.999999999999999,
+            0.9999999999999921
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 2 pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0000000000000002,
+            1.0000000000000018,
+            0.9999999999999941
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 2 pin 3",
+          "socket_wall_fraction": [
+            1.0,
+            1.0000000000000002,
+            1.000000000000003,
+            0.999999999999993
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 2 pin 4",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000004,
+            1.000000000000004,
+            0.9999999999999944
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 3",
+      "frame": "control coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "control frame 0 fixture 3 pin 1",
+          "centre_mm": [
+            -169.0,
+            48.3,
+            -133.0
+          ]
+        },
+        {
+          "part": "control frame 0 fixture 3 pin 2",
+          "centre_mm": [
+            -115.0,
+            48.3,
+            -137.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 54.147945482723536,
+      "interface_y_mm": 48.3,
+      "seating_plane_y_mm": 48.5,
+      "seating_land_radius_mm": 3.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "control frame 0 fixture 3 pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000004,
+            1.000000000000003,
+            1.0000000000000024
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "control frame 0 fixture 3 pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            1.0,
+            1.0000000000000004,
+            1.0000000000000004
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    }
+  ],
+  "frame_joint": {
+    "frame_parts": [
+      "bit coordinated chassis 0",
+      "bit coordinated chassis 1"
+    ],
+    "seam_x_mm": 28.5,
+    "seam_gap_mm": 0.4,
+    "material_in_seam_mm3": 0.0,
+    "pins": [
+      {
+        "part": "Chassis joint pin -28",
+        "socket_wall_fraction": [
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        "pass_check": true
+      },
+      {
+        "part": "Chassis joint pin 56",
+        "socket_wall_fraction": [
+          1.0000000000000002,
+          1.0000000000000002
+        ],
+        "pass_check": true
+      }
+    ],
+    "pass_check": true
+  },
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "removable_bearing_cheeks": [
+    {
+      "component": "master Front bearing cheek",
+      "attachment": "two spaced pin axes",
+      "spacing_mm": 7.200000000000003,
+      "sockets": [
+        {
+          "pin": "master cheek joining pin 28.4",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "master cheek joining pin 35.6",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "component": "slave Front bearing cheek",
+      "attachment": "two spaced pin axes",
+      "spacing_mm": 7.200000000000003,
+      "sockets": [
+        {
+          "pin": "slave cheek joining pin 28.4",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "slave cheek joining pin 35.6",
+          "socket_wall_fraction": [
+            0.9999999999999991,
+            0.9999999999999991
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "component": "Control clock Front bearing cheek",
+      "attachment": "two spaced pin axes",
+      "spacing_mm": 7.199999999999989,
+      "sockets": [
+        {
+          "pin": "Control clock cheek joining pin 28.4",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999997
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "Control clock cheek joining pin 35.6",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "component": "Control write Front bearing cheek",
+      "attachment": "two spaced pin axes",
+      "spacing_mm": 7.199999999999989,
+      "sockets": [
+        {
+          "pin": "Control write cheek joining pin 28.4",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "Control write cheek joining pin 35.6",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            0.9999999999999997
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    }
+  ],
+  "removable_transmission_walls": [
+    {
+      "part": "bit removable bearing wall 0",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 0 mounting pin 1",
+          "centre_mm": [
+            -99.89999999999999,
+            40.5,
+            -36.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 0 mounting pin 2",
+          "centre_mm": [
+            -95.89999999999999,
+            40.5,
+            -24.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.649110640673518,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 0 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000004
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 0 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 1",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 1 mounting pin 1",
+          "centre_mm": [
+            -69.8,
+            40.5,
+            -36.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 1 mounting pin 2",
+          "centre_mm": [
+            -69.8,
+            40.5,
+            -24.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 1 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            1.0
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 1 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 2",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 2 mounting pin 1",
+          "centre_mm": [
+            -87.8,
+            40.5,
+            -36.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 2 mounting pin 2",
+          "centre_mm": [
+            -87.8,
+            40.5,
+            -24.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 2 mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            0.9999999999999997
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 2 mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            0.9999999999999997
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 3",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 3 mounting pin 1",
+          "centre_mm": [
+            -47.800000000000004,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 3 mounting pin 2",
+          "centre_mm": [
+            -47.800000000000004,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 3 mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 3 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 4",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 4 mounting pin 1",
+          "centre_mm": [
+            -21.8,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 4 mounting pin 2",
+          "centre_mm": [
+            -27.8,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 13.416407864998739,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 4 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 4 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 5",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 5 mounting pin 1",
+          "centre_mm": [
+            12.2,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 5 mounting pin 2",
+          "centre_mm": [
+            12.2,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 5 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            1.0
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 5 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 6",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 6 mounting pin 1",
+          "centre_mm": [
+            -35.800000000000004,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 6 mounting pin 2",
+          "centre_mm": [
+            -35.800000000000004,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 6 mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999997
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 6 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 7",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 7 mounting pin 1",
+          "centre_mm": [
+            24.2,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 7 mounting pin 2",
+          "centre_mm": [
+            24.2,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 7 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            1.0
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 7 mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 8",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 8 mounting pin 1",
+          "centre_mm": [
+            62.199999999999996,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 8 mounting pin 2",
+          "centre_mm": [
+            62.199999999999996,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 8 mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 8 mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 9",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 9 mounting pin 1",
+          "centre_mm": [
+            82.2,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 9 mounting pin 2",
+          "centre_mm": [
+            82.2,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 9 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 9 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 10",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 10 mounting pin 1",
+          "centre_mm": [
+            36.199999999999996,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 10 mounting pin 2",
+          "centre_mm": [
+            32.8,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.472369462135092,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 10 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            1.0
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 10 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 11",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 11 mounting pin 1",
+          "centre_mm": [
+            146.20000000000002,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 11 mounting pin 2",
+          "centre_mm": [
+            146.20000000000002,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 11 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 11 mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            1.0
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 12",
+      "module": "bit",
+      "pins": [
+        {
+          "part": "bit bearing wall 12 mounting pin 1",
+          "centre_mm": [
+            134.20000000000002,
+            40.5,
+            -34.0
+          ]
+        },
+        {
+          "part": "bit bearing wall 12 mounting pin 2",
+          "centre_mm": [
+            134.20000000000002,
+            40.5,
+            -22.0
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "X",
+      "print_bed_normal": "X",
+      "frame_interface_depth_mm": 40.5,
+      "sockets": [
+        {
+          "pin": "bit bearing wall 12 mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            0.9999999999999997
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "bit bearing wall 12 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 0",
+      "module": "control",
+      "pins": [
+        {
+          "part": "control bearing wall 0 mounting pin 1",
+          "centre_mm": [
+            -170.0,
+            48.5,
+            -211.79999999999998
+          ]
+        },
+        {
+          "part": "control bearing wall 0 mounting pin 2",
+          "centre_mm": [
+            -158.0,
+            48.5,
+            -211.79999999999998
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "Z",
+      "print_bed_normal": "Z",
+      "frame_interface_depth_mm": 48.5,
+      "sockets": [
+        {
+          "pin": "control bearing wall 0 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000004
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "control bearing wall 0 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000009,
+            1.0000000000000009
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 1",
+      "module": "control",
+      "pins": [
+        {
+          "part": "control bearing wall 1 mounting pin 1",
+          "centre_mm": [
+            -170.0,
+            48.5,
+            -141.79999999999998
+          ]
+        },
+        {
+          "part": "control bearing wall 1 mounting pin 2",
+          "centre_mm": [
+            -158.0,
+            48.5,
+            -141.79999999999998
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "Z",
+      "print_bed_normal": "Z",
+      "frame_interface_depth_mm": 48.5,
+      "sockets": [
+        {
+          "pin": "control bearing wall 1 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "control bearing wall 1 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000004
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 2",
+      "module": "control",
+      "pins": [
+        {
+          "part": "control bearing wall 2 mounting pin 1",
+          "centre_mm": [
+            -170.0,
+            48.5,
+            -151.79999999999998
+          ]
+        },
+        {
+          "part": "control bearing wall 2 mounting pin 2",
+          "centre_mm": [
+            -158.0,
+            48.5,
+            -151.79999999999998
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "Z",
+      "print_bed_normal": "Z",
+      "frame_interface_depth_mm": 48.5,
+      "sockets": [
+        {
+          "pin": "control bearing wall 2 mounting pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "control bearing wall 2 mounting pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000007
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 3",
+      "module": "control",
+      "pins": [
+        {
+          "part": "control bearing wall 3 mounting pin 1",
+          "centre_mm": [
+            -170.0,
+            48.5,
+            -123.8
+          ]
+        },
+        {
+          "part": "control bearing wall 3 mounting pin 2",
+          "centre_mm": [
+            -158.0,
+            48.5,
+            -123.8
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "Z",
+      "print_bed_normal": "Z",
+      "frame_interface_depth_mm": 48.5,
+      "sockets": [
+        {
+          "pin": "control bearing wall 3 mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999989,
+            0.9999999999999988
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "control bearing wall 3 mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 4",
+      "module": "control",
+      "pins": [
+        {
+          "part": "control bearing wall 4 mounting pin 1",
+          "centre_mm": [
+            -170.0,
+            48.5,
+            -67.8
+          ]
+        },
+        {
+          "part": "control bearing wall 4 mounting pin 2",
+          "centre_mm": [
+            -158.0,
+            48.5,
+            -67.8
+          ]
+        }
+      ],
+      "pin_spacing_mm": 12.0,
+      "bearing_axis": "Z",
+      "print_bed_normal": "Z",
+      "frame_interface_depth_mm": 48.5,
+      "sockets": [
+        {
+          "pin": "control bearing wall 4 mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999988,
+            0.9999999999999988
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "control bearing wall 4 mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999993,
+            0.9999999999999993
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    }
+  ],
+  "unassigned_fixed_components": [],
+  "attachment_pass": true,
+  "limitations": [
+    "Checks attachment geometry, not pin-fit stiffness, layer adhesion or loaded deflection.",
+    "Bearing holes are perpendicular to the supplied wall print orientation; overhang and pin-hole finishing still need slicer review."
+  ]
+}

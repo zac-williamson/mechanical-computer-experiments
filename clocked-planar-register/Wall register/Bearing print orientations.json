@@ -1,0 +1,730 @@
+{
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "parts": [
+    {
+      "part": "bit removable bearing wall 0",
+      "file": "Print oriented bearing walls/bit removable bearing wall 0.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        8.656406462192535,
+        103.69999999999999
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 3
+    },
+    {
+      "part": "bit removable bearing wall 1",
+      "file": "Print oriented bearing walls/bit removable bearing wall 1.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        2.8,
+        73.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 2
+    },
+    {
+      "part": "bit removable bearing wall 2",
+      "file": "Print oriented bearing walls/bit removable bearing wall 2.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        -5.199999999999999,
+        91.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "bit removable bearing wall 3",
+      "file": "Print oriented bearing walls/bit removable bearing wall 3.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        -5.199999999999999,
+        51.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "bit removable bearing wall 4",
+      "file": "Print oriented bearing walls/bit removable bearing wall 4.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        48.0,
+        -5.199999999999999,
+        31.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 4
+    },
+    {
+      "part": "bit removable bearing wall 5",
+      "file": "Print oriented bearing walls/bit removable bearing wall 5.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -11.0,
+        -5.199999999999999,
+        -8.399999999999999
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "bit removable bearing wall 6",
+      "file": "Print oriented bearing walls/bit removable bearing wall 6.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        -5.199999999999999,
+        39.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "bit removable bearing wall 7",
+      "file": "Print oriented bearing walls/bit removable bearing wall 7.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        48.0,
+        -5.199999999999999,
+        -20.4
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "bit removable bearing wall 8",
+      "file": "Print oriented bearing walls/bit removable bearing wall 8.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -18.2,
+        8.656406462192535,
+        -58.4
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "bit removable bearing wall 9",
+      "file": "Print oriented bearing walls/bit removable bearing wall 9.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        5.0,
+        8.656406462192535,
+        -78.4
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 4
+    },
+    {
+      "part": "bit removable bearing wall 10",
+      "file": "Print oriented bearing walls/bit removable bearing wall 10.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        48.0,
+        8.656406462192535,
+        -28.999999999999996
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 3
+    },
+    {
+      "part": "bit removable bearing wall 11",
+      "file": "Print oriented bearing walls/bit removable bearing wall 11.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -3.0,
+        8.656406462192535,
+        -142.4
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "bit removable bearing wall 12",
+      "file": "Print oriented bearing walls/bit removable bearing wall 12.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        48.0,
+        -5.199999999999999,
+        -130.4
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 3
+    },
+    {
+      "part": "control removable bearing wall 0",
+      "file": "Print oriented bearing walls/control removable bearing wall 0.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        6.800000000000001,
+        215.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "control removable bearing wall 1",
+      "file": "Print oriented bearing walls/control removable bearing wall 1.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        14.8,
+        145.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "control removable bearing wall 2",
+      "file": "Print oriented bearing walls/control removable bearing wall 2.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        6.800000000000001,
+        155.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    },
+    {
+      "part": "control removable bearing wall 3",
+      "file": "Print oriented bearing walls/control removable bearing wall 3.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        14.8,
+        127.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 2
+    },
+    {
+      "part": "control removable bearing wall 4",
+      "file": "Print oriented bearing walls/control removable bearing wall 4.stl",
+      "bed_normal_alignment": 1.0,
+      "bed_min_z_mm": 0.0,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        -1.1999999999999993,
+        71.6
+      ],
+      "mounting_pins": 2,
+      "bearing_rings_on_bed": true,
+      "bearing_ring_count": 1
+    }
+  ],
+  "orientation_pass": true,
+  "limitations": [
+    "Hole axes are vertical and all scheduled bearing rings meet the bed. Slicer review of stepped faces, mounting-pad overhangs and horizontal pin holes is still required.",
+    "This export is not a material, fit, strength or print-support qualification."
+  ]
+}

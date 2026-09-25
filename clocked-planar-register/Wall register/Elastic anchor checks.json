@@ -1,0 +1,152 @@
+{
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "scope": "Verify material exists at both named anchor centres for every elastic loop.\nThis checks anchor presence and kinematic attachment, not band force or retention.\n",
+  "anchors": [
+    {
+      "band": "master return band",
+      "anchor": 1,
+      "hosts": [
+        "bit frame 0 removable fixture 3"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "master return band",
+      "anchor": 2,
+      "hosts": [
+        "master lock bolt"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "slave return band",
+      "anchor": 1,
+      "hosts": [
+        "bit frame 1 removable fixture 2"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "slave return band",
+      "anchor": 2,
+      "hosts": [
+        "slave lock bolt"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "master_gate fork bias band -10",
+      "anchor": 1,
+      "hosts": [
+        "master_gate Carriage fork and roof"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "master_gate fork bias band -10",
+      "anchor": 2,
+      "hosts": [
+        "Local clock cam and fork bar"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "slave_gate fork bias band -10",
+      "anchor": 1,
+      "hosts": [
+        "slave_gate Carriage fork and roof"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "slave_gate fork bias band -10",
+      "anchor": 2,
+      "hosts": [
+        "Local clock cam and fork bar"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "master actuator return band",
+      "anchor": 1,
+      "hosts": [
+        "bit frame 0 removable fixture 3"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "master actuator return band",
+      "anchor": 2,
+      "hosts": [
+        "master Short lever"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "slave actuator return band",
+      "anchor": 1,
+      "hosts": [
+        "bit frame 1 removable fixture 0"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "slave actuator return band",
+      "anchor": 2,
+      "hosts": [
+        "slave Short lever"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "Control clock actuator return band",
+      "anchor": 1,
+      "hosts": [
+        "control frame 0 removable fixture 2"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "Control clock actuator return band",
+      "anchor": 2,
+      "hosts": [
+        "Control clock Short lever"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "Control write actuator return band",
+      "anchor": 1,
+      "hosts": [
+        "control frame 0 removable fixture 0"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    },
+    {
+      "band": "Control write actuator return band",
+      "anchor": 2,
+      "hosts": [
+        "Control write Short lever"
+      ],
+      "poses": 1904,
+      "missing_anchor_poses": 0
+    }
+  ],
+  "anchor_presence_pass": true,
+  "mechanically_qualified": false
+}

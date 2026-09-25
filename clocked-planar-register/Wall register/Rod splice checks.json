@@ -1,0 +1,64 @@
+{
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "splices": [
+    {
+      "control": "clock",
+      "pins": [
+        {
+          "pin": "clock rod coupler friction pin 1",
+          "rod": "Control CLOCK direct rod and pickup",
+          "socket_material_fractions": [
+            1.0000000000000007,
+            1.0000000000000004
+          ],
+          "blocked_bore_mm3": 0.0,
+          "pass_check": true
+        },
+        {
+          "pin": "clock rod coupler friction pin 2",
+          "rod": "bit clock vertical control rod",
+          "socket_material_fractions": [
+            1.0000000000000007,
+            1.0000000000000004
+          ],
+          "blocked_bore_mm3": 0.0,
+          "pass_check": true
+        }
+      ],
+      "pin_spacing_mm": 14,
+      "pass_check": true
+    },
+    {
+      "control": "write",
+      "pins": [
+        {
+          "pin": "write rod coupler friction pin 1",
+          "rod": "Control WRITE direct rod and pickup",
+          "socket_material_fractions": [
+            1.0,
+            0.9999999999999994
+          ],
+          "blocked_bore_mm3": 0.0,
+          "pass_check": true
+        },
+        {
+          "pin": "write rod coupler friction pin 2",
+          "rod": "bit write vertical control rod",
+          "socket_material_fractions": [
+            1.0000000000000004,
+            0.9999999999999993
+          ],
+          "blocked_bore_mm3": 0.0,
+          "pass_check": true
+        }
+      ],
+      "pin_spacing_mm": 14,
+      "pass_check": true
+    }
+  ],
+  "rod_splice_pass": true,
+  "limitations": [
+    "Nominal socket geometry and shear load path; physical pin grip, fatigue and clearance require printing.",
+    "This does not validate the existing closed-guide assembly sequence."
+  ]
+}

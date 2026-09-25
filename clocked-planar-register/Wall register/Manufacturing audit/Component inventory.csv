@@ -1,0 +1,324 @@
+Part,Kind,Module,LEGO part,Motion,Watertight,Solids,Dimensions mm,Best cardinal up,Downward area over 45deg mm2
+master Short lever,printed,bit,,rocker,True,1,"[23.235999584197998, 8.399999618530273, 14.533100128173828]",Y-,0.7211994938323986
+master Carriage fork and roof,printed,bit,,carriage,True,1,"[42.199501037597656, 26.250000047683717, 45.59949952363968]",X+,154.4449953526235
+master Right carriage bearing support,printed,bit,,carriage,True,1,"[7.600000381469727, 23.300000190734863, 23.599999248981476]",X-,0.0
+master U015,native,bit,,worm,,,,,
+master U022,native,bit,,gear,,,,,
+master reaction-stop-axle,native,bit,24316,gear,,,,,
+master reaction-retainer,native,bit,32123a,gear,,,,,
+master pivot-stop-axle,native,bit,24316,fixed,,,,,
+master pivot-retainer,native,bit,32123a,fixed,,,,,
+master Carriage support pin 1 2.0,native,bit,2780,carriage,,,,,
+master Carriage support pin 1 18.0,native,bit,2780,carriage,,,,,
+master L072,native,bit,,A,,,,,
+master L097,native,bit,26287,O-route,,,,,
+master L099,native,bit,,clutch-ring,,,,,
+master L102,native,bit,,B,,,,,
+master L069,native,bit,,O-route,,,,,
+master POWER 16T 16,native,bit,94925,fixed,,,,,
+master POWER 16T 32,native,bit,94925,fixed,,,,,
+master reversing idler 16T -16,native,bit,94925,fixed,,,,,
+master reversing idler 16T 32,native,bit,94925,fixed,,,,,
+master output left 3L,native,bit,4519,fixed,,,,,
+master output right 6L,native,bit,3706,fixed,,,,,
+slave Short lever,printed,bit,,rocker,True,1,"[23.236007690429688, 8.399999618530273, 14.533100128173828]",Y-,0.7212031310055307
+slave Carriage fork and roof,printed,bit,,carriage,True,1,"[42.19950866699219, 26.250000047683717, 45.59949952363968]",X+,148.5355128322543
+slave Right carriage bearing support,printed,bit,,carriage,True,1,"[7.600006103515625, 23.300000190734863, 22.910235487357912]",X-,0.0
+slave U015,native,bit,,worm,,,,,
+slave U022,native,bit,,gear,,,,,
+slave reaction-stop-axle,native,bit,24316,gear,,,,,
+slave reaction-retainer,native,bit,32123a,gear,,,,,
+slave pivot-stop-axle,native,bit,24316,fixed,,,,,
+slave pivot-retainer,native,bit,32123a,fixed,,,,,
+slave Carriage support pin 1 2.0,native,bit,2780,carriage,,,,,
+slave Carriage support pin 1 18.0,native,bit,2780,carriage,,,,,
+slave L072,native,bit,,A,,,,,
+slave L097,native,bit,26287,O-route,,,,,
+slave L099,native,bit,,clutch-ring,,,,,
+slave L102,native,bit,,B,,,,,
+slave L069,native,bit,,O-route,,,,,
+slave POWER 16T -16,native,bit,94925,fixed,,,,,
+slave reversing idler 16T 16,native,bit,94925,fixed,,,,,
+slave output right 7L,native,bit,44294,fixed,,,,,
+master_gate L097,native,bit,26287,O-route,,,,,
+master_gate L099,native,bit,,clutch-ring,,,,,
+master_gate L102,native,bit,,B,,,,,
+master_gate B-input,native,bit,94925,B,,,,,
+master_gate worm drive 10L,native,bit,3737,fixed,,,,,
+slave_gate L097,native,bit,26287,O-route,,,,,
+slave_gate L099,native,bit,,clutch-ring,,,,,
+slave_gate L102,native,bit,,B,,,,,
+slave_gate B-input,native,bit,94925,B,,,,,
+master cheek joining pin 28.4,native,bit,2780,fixed,,,,,
+master cheek joining pin 35.6,native,bit,2780,fixed,,,,,
+slave cheek joining pin 28.4,native,bit,2780,fixed,,,,,
+slave cheek joining pin 35.6,native,bit,2780,fixed,,,,,
+master lock bolt,printed,bit,,bolt,True,1,"[12.000000178813934, 20.9, 18.300001525878905]",Y+,11.228808562420452
+master roller axle,native,bit,32062,fixed,,,,,
+master roller bush 15.6,native,bit,32123a,fixed,,,,,
+master roller bush 27.6,native,bit,32123a,fixed,,,,,
+master return band,elastic,bit,,elastic,,,,,
+slave lock bolt,printed,bit,,bolt,True,1,"[12.000000178813934, 20.9, 18.300001525878905]",Y+,11.228808562420454
+slave roller axle,native,bit,32062,fixed,,,,,
+slave roller bush 15.6,native,bit,32123a,fixed,,,,,
+slave roller bush 27.6,native,bit,32123a,fixed,,,,,
+slave return band,elastic,bit,,elastic,,,,,
+master_gate Carriage fork and roof,printed,bit,,gate-fork,True,1,"[23.40000057220459, 26.450000047683716, 18.9]",X+,160.04212084251608
+master_gate fork bias band -10,elastic,bit,,fork-band,,,,,
+master_gate crosshead pin -10 13.2,native,bit,2780,gate-fork,,,,,
+master_gate Right carriage bearing support,printed,bit,,gate-fork,True,1,"[7.799999999999997, 13.366987036761762, 14.799999999999999]",X-,37.5832202316688
+master_gate crosshead pin 12 13.2,native,bit,2780,gate-fork,,,,,
+master_gate fork joining pin,native,bit,2780,gate-fork,,,,,
+slave_gate Carriage fork and roof,printed,bit,,gate-fork,True,1,"[28.90000057220459, 26.450000047683716, 18.9]",X+,159.69459612829195
+slave_gate fork bias band -10,elastic,bit,,fork-band,,,,,
+slave_gate crosshead pin -10 13.2,native,bit,2780,gate-fork,,,,,
+slave_gate Right carriage bearing support,printed,bit,,gate-fork,True,1,"[7.799999999999997, 13.366987036761762, 14.799999999999999]",X-,37.58322023166878
+slave_gate crosshead pin 12 13.2,native,bit,2780,gate-fork,,,,,
+slave_gate fork joining pin,native,bit,2780,gate-fork,,,,,
+master actuator return band,elastic,bit,,actuator-band,,,,,
+slave actuator return band,elastic,bit,,actuator-band,,,,,
+slave_gate left clutch stub 4L,native,bit,3705,fixed,,,,,
+slave output left 4L,native,bit,3705,fixed,,,,,
+slave_gate worm drive 10L,native,bit,3737,fixed,,,,,
+write L072,native,bit,,A,,,,,
+write L097,native,bit,,O-route,,,,,
+write L099,native,bit,,clutch-ring,,,,,
+write L102,native,bit,,B,,,,,
+write L069,native,bit,,O-route,,,,,
+write L105,native,bit,,O-route,,,,,
+WRITE selector output left,native,bit,3705,fixed,,,,,
+WRITE output retainer,native,bit,4265c,shaft-retainer,,,,,
+WRITE D input gear,native,bit,94925,fixed,,,,,
+Selected data route 16T,native,bit,94925,fixed,,,,,
+Master worm retainer gear,native,bit,3713,shaft-retainer,,,,,
+Master idler retainer,native,bit,4265c,shaft-retainer,,,,,
+WRITE selector output right 7L,native,bit,44294,fixed,,,,,
+WRITE D input axle 5L,native,bit,32073,fixed,,,,,
+D external input 5L,native,bit,32073,fixed,,,,,
+D header input 8T,native,bit,10928,fixed,,,,,
+D header output 8T,native,bit,10928,fixed,,,,,
+Master gate data stub 3L,native,bit,4519,fixed,,,,,
+Slave worm retainer gear,native,bit,3713,shaft-retainer,,,,,
+Passive write Carriage fork and roof,printed,bit,,write-fork,True,1,"[23.400001525878906, 26.249999284744263, 10.300001525878912]",X-,54.08368392614593
+write Carriage support pin 1 2.0,native,bit,2780,carriage,,,,,
+POWER header gear,native,bit,94925,fixed,,,,,
+Q feedback shaft 32L,native,bit,50450,fixed,,,,,
+Q feedback front gear -92,native,bit,94925,fixed,,,,,
+Q feedback front gear 150,native,bit,94925,fixed,,,,,
+Q takeoff gear,native,bit,94925,fixed,,,,,
+Feedback retainer,native,bit,4265c,shaft-retainer,,,,,
+Shared reverse shaft left 10L,native,bit,3737,fixed,,,,,
+Shared reverse shaft right 10L,native,bit,3737,fixed,,,,,
+Shared reverse coupling,native,bit,59443,fixed,,,,,
+POWER distribution 12L,native,bit,3708,fixed,,,,,
+POWER local input 4L,native,bit,3705,fixed,,,,,
+Local clock cam and fork bar,printed,bit,,crosshead,True,1,"[259.0, 17.7, 48.7]",X-,902.0151990331917
+bit clock bellcrank,printed,bit,,bellcrank,True,1,"[29.0, 3.6000000000000014, 29.0]",Y-,0.0
+bit clock pivot axle,native,bit,3705,fixed,,,,,
+bit clock pivot bush 16,native,bit,32123a,fixed,,,,,
+bit clock pivot bush 40.4,native,bit,32123a,fixed,,,,,
+bit clock input follower axle,native,bit,4519,bellcrank,,,,,
+bit clock input free roller,native,bit,4265c,bellcrank,,,,,
+bit clock input follower bush 7,native,bit,32123a,bellcrank,,,,,
+bit clock input follower bush 27,native,bit,32123a,bellcrank,,,,,
+bit clock output follower axle,native,bit,3705,bellcrank,,,,,
+bit clock output free roller,native,bit,4265c,bellcrank,,,,,
+bit clock output follower bush 16,native,bit,32123a,bellcrank,,,,,
+bit clock output follower bush 39,native,bit,32123a,bellcrank,,,,,
+bit write bellcrank,printed,bit,,bellcrank,True,1,"[33.0, 3.1999999999999993, 33.0]",Y-,0.0
+bit write pivot axle,native,bit,3705,fixed,,,,,
+bit write pivot bush 19,native,bit,32123a,fixed,,,,,
+bit write pivot bush 42,native,bit,32123a,fixed,,,,,
+bit write input follower axle,native,bit,4519,bellcrank,,,,,
+bit write input free roller,native,bit,4265c,bellcrank,,,,,
+bit write input follower bush 19,native,bit,32123a,bellcrank,,,,,
+bit write input follower bush 35,native,bit,32123a,bellcrank,,,,,
+bit write output follower axle,native,bit,4519,bellcrank,,,,,
+bit write output free roller,native,bit,4265c,bellcrank,,,,,
+bit write output follower bush 19,native,bit,32123a,bellcrank,,,,,
+bit write output follower bush 34,native,bit,32123a,bellcrank,,,,,
+bit clock vertical control rod,printed,bit,,control-rod,True,1,"[17.0, 7.600000000000001, 111.6]",Y+,28.967011012954757
+clock pinned rod splice bridge,printed,coupler,,control-rod,True,1,"[13.199999999999989, 9.5, 25.299999999999997]",Y+,0.0
+clock rod coupler friction pin 1,native,coupler,2780,control-rod,,,,,
+clock rod coupler friction pin 2,native,coupler,2780,control-rod,,,,,
+bit write vertical control rod,printed,bit,,control-rod,True,1,"[17.0, 7.600000000000001, 111.6]",Y+,28.967011012954785
+write pinned rod splice bridge,printed,coupler,,control-rod,True,1,"[13.199999999999989, 9.5, 25.299999999999997]",Y+,0.0
+write rod coupler friction pin 1,native,coupler,2780,control-rod,,,,,
+write rod coupler friction pin 2,native,coupler,2780,control-rod,,,,,
+Chassis joint pin -28,native,bit,2780,fixed,,,,,
+Chassis joint pin 56,native,bit,2780,fixed,,,,,
+master Front bearing cheek,printed,bit,,fixed,True,1,"[49.8, 7.8000000476837155, 20.500000381469725]",Y+,0.0
+slave Front bearing cheek,printed,bit,,fixed,True,1,"[49.8, 7.8000000476837155, 20.500000381469725]",Y+,0.0
+bit WRITE fork and pickup,printed,bit,,write-fork,True,1,"[36.0, 19.25, 18.0]",X-,24.256281039483362
+Control clock Short lever,printed,control,,rocker,True,1,"[14.533100128173828, 8.399999618530273, 23.235999584197998]",Y-,0.7211994938323986
+Control clock U015,native,control,,worm,,,,,
+Control clock U022,native,control,,gear,,,,,
+Control clock reaction-stop-axle,native,control,24316,gear,,,,,
+Control clock reaction-retainer,native,control,32123a,gear,,,,,
+Control clock pivot-stop-axle,native,control,24316,fixed,,,,,
+Control clock pivot-retainer,native,control,32123a,fixed,,,,,
+Control clock Carriage support pin 1 18.0,native,control,2780,carriage,,,,,
+Control clock Carriage fork and roof,printed,control,,carriage,True,1,"[37.29949951171875, 30.450000047683716, 42.199501037597656]",Z+,176.4130158672832
+Control clock Right carriage bearing support,printed,control,,carriage,True,1,"[15.299999237060547, 23.050000190734863, 7.600000381469727]",Z-,0.0
+Control CLK input axle,native,control,3737,fixed,,,,,
+Control CLOCK worm retainer,native,control,4265c,shaft-retainer,,,,,
+Control clock Front bearing cheek,printed,control,,fixed,True,1,"[20.4999969482422, 7.8000000476837155, 49.80000000000001]",Y+,0.0
+Control clock cheek joining pin 28.4,native,control,2780,fixed,,,,,
+Control clock cheek joining pin 35.6,native,control,2780,fixed,,,,,
+Control CLOCK direct rod and pickup,printed,control,,crosshead,True,1,"[26.0, 35.2, 99.8]",Z-,276.2063729648189
+Control Clock amplifier joining pin 35.5,native,control,2780,amplifier,,,,,
+Control Clock amplifier joining pin 44.5,native,control,2780,amplifier,,,,,
+Control Clock amplifier front and input shoe,printed,control,,amplifier,True,1,"[27.0, 11.600000000000001, 16.599999999999994]",Y-,31.992216239562364
+Control Clock amplifier rear and output shoe,printed,control,,amplifier,True,1,"[42.0, 8.0, 16.599999999999994]",Y+,27.01892178955044
+Control Clock amplifier pivot,native,control,4519,fixed,,,,,
+Control Clock pivot bush 32,native,control,32123a,fixed,,,,,
+Control Clock pivot bush 48,native,control,32123a,fixed,,,,,
+Control Clock pivot cradle mount 20,native,control,2780,fixed,,,,,
+Control Clock pivot cradle mount 52,native,control,2780,fixed,,,,,
+Control clock actuator return band,elastic,control,,actuator-band,,,,,
+Control CLK input 16T,native,control,94925,fixed,,,,,
+Control CLK receiving 16T,native,control,94925,fixed,,,,,
+Control CLK external axle,native,control,3705,fixed,,,,,
+Control write Short lever,printed,control,,lever,True,1,"[14.533096313476562, 8.399999618530273, 23.23599624633789]",Y-,0.7211974687211525
+Control write Carriage fork and roof,printed,control,,carriage,True,1,"[37.29950103759765, 26.200000047683716, 42.19949722290039]",Z+,28.849627148692075
+Control WRITE direct rod and pickup,printed,control,,carriage,True,1,"[20.499996948242185, 40.900000190734865, 163.8]",Z-,294.00826975396296
+Control write U015,native,control,,worm,,,,,
+Control write U022,native,control,,gear,,,,,
+Control write reaction-stop-axle,native,control,24316,gear,,,,,
+Control write reaction-retainer,native,control,32123a,gear,,,,,
+Control write pivot-stop-axle,native,control,24316,fixed,,,,,
+Control write pivot-retainer,native,control,32123a,fixed,,,,,
+Control write Carriage support pin 1 2.0,native,control,2780,carriage,,,,,
+Control write Carriage support pin 1 18.0,native,control,2780,carriage,,,,,
+Control WRITE input axle,native,control,60485,fixed,,,,,
+Control WRITE worm retainer left,native,control,4265c,shaft-retainer,,,,,
+Control WRITE worm retainer right,native,control,4265c,shaft-retainer,,,,,
+Control write Front bearing cheek,printed,control,,fixed,True,1,"[20.4999969482422, 7.8000000476837155, 49.80000000000001]",Y+,0.0
+Control write cheek joining pin 28.4,native,control,2780,fixed,,,,,
+Control write cheek joining pin 35.6,native,control,2780,fixed,,,,,
+Control write actuator return band,elastic,control,,actuator-band,,,,,
+M output axial stop 26.8,native,bit,4265c,fixed,,,,,
+M output axial stop 37.8,native,bit,4265c,fixed,,,,,
+Q output axial stop 76.2,native,bit,4265c,fixed,,,,,
+Q output axial stop 83.8,native,bit,4265c,fixed,,,,,
+Master worm axial stop -26.2,native,bit,4265c,fixed,,,,,
+Slave worm axial stop 128.2,native,bit,4265c,fixed,,,,,
+Slave worm axial stop 135.4,native,bit,4265c,fixed,,,,,
+Selected data axial stop -33.8,native,bit,4265c,fixed,,,,,
+Selected data axial stop -26.2,native,bit,4265c,fixed,,,,,
+D inverted axial stop -75.8,native,bit,4265c,fixed,,,,,
+D inverted axial stop -68.2,native,bit,4265c,fixed,,,,,
+D input axial stop -105.9,native,bit,4265c,fixed,,,,,
+D input axial stop -98.3,native,bit,4265c,fixed,,,,,
+Master data stub axial stop -53.8,native,bit,4265c,fixed,,,,,
+Master data stub axial stop -34.2,native,bit,4265c,fixed,,,,,
+POWER minus axial stop 76.2,native,bit,4265c,fixed,,,,,
+POWER minus axial stop 83.8,native,bit,4265c,fixed,,,,,
+POWER plus axial stop 76.2,native,bit,4265c,fixed,,,,,
+POWER plus axial stop 83.8,native,bit,4265c,fixed,,,,,
+POWER input axial stop 56.2,native,bit,4265c,fixed,,,,,
+POWER input axial stop 63.8,native,bit,4265c,fixed,,,,,
+Feedback axial stop 26.8,native,bit,4265c,fixed,,,,,
+Feedback axial stop 37.8,native,bit,4265c,fixed,,,,,
+CLOCK worm axial stop -73.8,native,control,4265c,fixed,,,,,
+CLOCK worm axial stop -66.2,native,control,4265c,fixed,,,,,
+CLOCK input axial stop -147.8,native,control,4265c,fixed,,,,,
+CLOCK input axial stop -140.2,native,control,4265c,fixed,,,,,
+WRITE worm axial stop -217.8,native,control,4265c,fixed,,,,,
+WRITE worm axial stop -210.2,native,control,4265c,fixed,,,,,
+bit bearing wall 0 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 0 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 0,printed,bit,,fixed,True,1,"[11.599999999999994, 48.95640646219253, 44.8]",Y-,228.88787770421519
+bit bearing wall 1 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 1 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 1,printed,bit,,fixed,True,1,"[7.599999999999994, 43.099999999999994, 44.8]",Y-,35.055014765974136
+bit bearing wall 2 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 2 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 2,printed,bit,,fixed,True,1,"[7.599999999999994, 35.099999999999994, 44.8]",Y-,27.622214739212794
+bit bearing wall 3 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 3 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 3,printed,bit,,fixed,True,1,"[7.599999999999994, 35.099999999999994, 42.8]",Y-,20.573840118222407
+bit bearing wall 4 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 4 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 4,printed,bit,,fixed,True,1,"[13.600000000000001, 35.099999999999994, 85.8]",Y-,239.12025937267268
+bit bearing wall 5 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 5 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 5,printed,bit,,fixed,True,1,"[7.600000000000001, 35.099999999999994, 26.799999999999997]",Y-,20.663983097774167
+bit bearing wall 6 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 6 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 6,printed,bit,,fixed,True,1,"[7.599999999999994, 35.099999999999994, 42.8]",Y-,20.573840118222407
+bit bearing wall 7 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 7 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 7,printed,bit,,fixed,True,1,"[7.600000000000001, 35.099999999999994, 85.8]",Y-,56.12408370970792
+bit bearing wall 8 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 8 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 8,printed,bit,,fixed,True,1,"[7.600000000000001, 48.95640646219253, 19.599999999999998]",Y-,24.695203049497145
+bit bearing wall 9 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 9 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 9,printed,bit,,fixed,True,1,"[7.599999999999994, 48.95640646219253, 42.8]",Y-,107.737965260197
+bit bearing wall 10 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 10 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 10,printed,bit,,fixed,True,1,"[10.999999999999996, 48.95640646219253, 85.8]",Y-,233.2439791631263
+bit bearing wall 11 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 11 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 11,printed,bit,,fixed,True,1,"[7.600000000000023, 48.95640646219253, 34.8]",Y-,20.507576469437428
+bit bearing wall 12 mounting pin 1,native,bit,2780,fixed,,,,,
+bit bearing wall 12 mounting pin 2,native,bit,2780,fixed,,,,,
+bit removable bearing wall 12,printed,bit,,fixed,True,1,"[7.600000000000023, 35.099999999999994, 85.8]",Y-,119.08722451346314
+control bearing wall 0 mounting pin 1,native,control,2780,fixed,,,,,
+control bearing wall 0 mounting pin 2,native,control,2780,fixed,,,,,
+control removable bearing wall 0,printed,control,,fixed,True,1,"[42.80000000000001, 55.099999999999994, 7.600000000000023]",Y-,20.464183129034637
+control bearing wall 1 mounting pin 1,native,control,2780,fixed,,,,,
+control bearing wall 1 mounting pin 2,native,control,2780,fixed,,,,,
+control removable bearing wall 1,printed,control,,fixed,True,1,"[73.80000000000001, 63.099999999999994, 7.600000000000023]",Y-,26.87043142494005
+control bearing wall 2 mounting pin 1,native,control,2780,fixed,,,,,
+control bearing wall 2 mounting pin 2,native,control,2780,fixed,,,,,
+control removable bearing wall 2,printed,control,,fixed,True,1,"[42.80000000000001, 55.099999999999994, 7.600000000000023]",Y-,20.464183129034637
+control bearing wall 3 mounting pin 1,native,control,2780,fixed,,,,,
+control bearing wall 3 mounting pin 2,native,control,2780,fixed,,,,,
+control removable bearing wall 3,printed,control,,fixed,True,1,"[73.80000000000001, 63.099999999999994, 7.599999999999994]",Y-,41.905070289532944
+control bearing wall 4 mounting pin 1,native,control,2780,fixed,,,,,
+control bearing wall 4 mounting pin 2,native,control,2780,fixed,,,,,
+control removable bearing wall 4,printed,control,,fixed,True,1,"[73.80000000000001, 47.099999999999994, 7.599999999999994]",Y-,78.73453567942704
+bit frame 0 fixture 0 pin 1,native,bit,2780,fixed,,,,,
+bit frame 0 fixture 0 pin 2,native,bit,2780,fixed,,,,,
+bit frame 0 removable fixture 0,printed,bit,,fixed,True,1,"[41.8, 30.200000000000003, 53.3]",X+,750.6171625503396
+bit frame 0 fixture 1 pin 1,native,bit,2780,fixed,,,,,
+bit frame 0 fixture 1 pin 2,native,bit,2780,fixed,,,,,
+bit frame 0 removable fixture 1,printed,bit,,fixed,True,1,"[44.349999999999994, 22.650000000000002, 39.599999999999994]",Y+,262.44690727901144
+bit frame 0 fixture 2 pin 1,native,bit,2780,fixed,,,,,
+bit frame 0 fixture 2 pin 2,native,bit,2780,fixed,,,,,
+bit frame 0 removable fixture 2,printed,bit,,fixed,True,1,"[43.8, 30.200000000000003, 43.599999999999994]",Y-,575.4757054815806
+bit frame 0 fixture 3 pin 1,native,bit,2780,fixed,,,,,
+bit frame 0 fixture 3 pin 2,native,bit,2780,fixed,,,,,
+bit frame 0 removable fixture 3,printed,bit,,fixed,True,1,"[62.592323604, 30.200000000000003, 88.2]",X-,1973.9794443857295
+bit coordinated chassis 0,printed,bit,,fixed,True,1,"[163.3, 13.5, 103.6]",Y-,0.0
+bit frame 1 fixture 0 pin 1,native,bit,2780,fixed,,,,,
+bit frame 1 fixture 0 pin 2,native,bit,2780,fixed,,,,,
+bit frame 1 removable fixture 0,printed,bit,,fixed,True,1,"[82.19232360400001, 30.200000000000003, 44.900000381469724]",Z-,729.174450020538
+bit frame 1 fixture 1 pin 1,native,bit,2780,fixed,,,,,
+bit frame 1 fixture 1 pin 2,native,bit,2780,fixed,,,,,
+bit frame 1 removable fixture 1,printed,bit,,fixed,True,1,"[48.000000000000014, 22.650000000000002, 49.599999999999994]",Y+,320.778940855561
+bit frame 1 fixture 2 pin 1,native,bit,2780,fixed,,,,,
+bit frame 1 fixture 2 pin 2,native,bit,2780,fixed,,,,,
+bit frame 1 removable fixture 2,printed,bit,,fixed,True,1,"[29.599999999999994, 24.200000000000003, 83.2]",Y+,790.0392303808865
+bit coordinated chassis 1,printed,bit,,fixed,True,1,"[136.3, 11.100000000000001, 101.6]",Y-,0.0
+control frame 0 fixture 0 pin 1,native,control,2780,fixed,,,,,
+control frame 0 fixture 0 pin 2,native,control,2780,fixed,,,,,
+control frame 0 fixture 0 pin 3,native,control,2780,fixed,,,,,
+control frame 0 fixture 0 pin 4,native,control,2780,fixed,,,,,
+control frame 0 removable fixture 0,printed,control,,fixed,True,1,"[33.60000000000001, 52.5, 61.59232360400003]",Y-,950.177088184552
+control frame 0 fixture 1 pin 1,native,control,2780,fixed,,,,,
+control frame 0 fixture 1 pin 2,native,control,2780,fixed,,,,,
+control frame 0 fixture 1 pin 3,native,control,2780,fixed,,,,,
+control frame 0 fixture 1 pin 4,native,control,2780,fixed,,,,,
+control frame 0 removable fixture 1,printed,control,,fixed,True,1,"[88.80000000000001, 44.95, 105.8]",Z-,883.1330053534657
+control frame 0 fixture 2 pin 1,native,control,2780,fixed,,,,,
+control frame 0 fixture 2 pin 2,native,control,2780,fixed,,,,,
+control frame 0 fixture 2 pin 3,native,control,2780,fixed,,,,,
+control frame 0 fixture 2 pin 4,native,control,2780,fixed,,,,,
+control frame 0 removable fixture 2,printed,control,,fixed,True,1,"[88.80000000000001, 44.5, 66.60000000000001]",Z+,1849.2871254665342
+control frame 0 fixture 3 pin 1,native,control,2780,fixed,,,,,
+control frame 0 fixture 3 pin 2,native,control,2780,fixed,,,,,
+control frame 0 removable fixture 3,printed,control,,fixed,True,1,"[62.80000000000001, 40.5, 14.40000000000002]",X+,472.4071683264435
+control coordinated chassis 0,printed,control,,fixed,True,1,"[89.80000000000001, 9.799999999999997, 160.0]",Y-,0.0

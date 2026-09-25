@@ -1,0 +1,4846 @@
+{
+  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "scope": "All 323 components inventoried; all 66 printed meshes screened in six cardinal orientations. Surface-normal screen only, not slicing, strength, or assembly-path certification.",
+  "parts": [
+    {
+      "part": "master Short lever",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "rocker",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        23.235999584197998,
+        8.399999618530273,
+        14.533100128173828
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.7211994938323986
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 160.59712691681435
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 146.42807213089182
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.7211994938323986
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 36.26257258172336
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 261.3806356130127
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 255.12156483057043
+        }
+      ]
+    },
+    {
+      "part": "master Carriage fork and roof",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "carriage",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        42.199501037597656,
+        26.250000047683717,
+        45.59949952363968
+      ],
+      "best_six_axis_screen": {
+        "up": "X+",
+        "unsupported_area_mm2": 154.4449953526235
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 553.3391732777905
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 154.4449953526235
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 1283.4148745615867
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 1399.2851996549475
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 821.7869226264818
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 1423.7746314730541
+        }
+      ]
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "carriage",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.600000381469727,
+        23.300000190734863,
+        23.599999248981476
+      ],
+      "best_six_axis_screen": {
+        "up": "X-",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 13.50946089477534
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 292.7127557128423
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 293.88228620155985
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 280.1577166751023
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 302.32487085574786
+        }
+      ]
+    },
+    {
+      "part": "master U015",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "worm"
+    },
+    {
+      "part": "master U022",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "gear"
+    },
+    {
+      "part": "master reaction-stop-axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "24316",
+      "motion": "gear"
+    },
+    {
+      "part": "master reaction-retainer",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "gear"
+    },
+    {
+      "part": "master pivot-stop-axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "24316",
+      "motion": "fixed"
+    },
+    {
+      "part": "master pivot-retainer",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "master Carriage support pin 1 2.0",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "carriage"
+    },
+    {
+      "part": "master Carriage support pin 1 18.0",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "carriage"
+    },
+    {
+      "part": "master L072",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "A"
+    },
+    {
+      "part": "master L097",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "26287",
+      "motion": "O-route"
+    },
+    {
+      "part": "master L099",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "clutch-ring"
+    },
+    {
+      "part": "master L102",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "B"
+    },
+    {
+      "part": "master L069",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "O-route"
+    },
+    {
+      "part": "master POWER 16T 16",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "master POWER 16T 32",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "master reversing idler 16T -16",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "master reversing idler 16T 32",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "master output left 3L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4519",
+      "motion": "fixed"
+    },
+    {
+      "part": "master output right 6L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3706",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave Short lever",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "rocker",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        23.236007690429688,
+        8.399999618530273,
+        14.533100128173828
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.7212031310055307
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 160.59709665443103
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 146.42802633866836
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.7212031310055307
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 36.26253123031347
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 261.3806907041462
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 255.12154835159012
+        }
+      ]
+    },
+    {
+      "part": "slave Carriage fork and roof",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "carriage",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        42.19950866699219,
+        26.250000047683717,
+        45.59949952363968
+      ],
+      "best_six_axis_screen": {
+        "up": "X+",
+        "unsupported_area_mm2": 148.5355128322543
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 553.5837737115116
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 148.5355128322543
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 1283.415255957384
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 1404.5278234871353
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 837.3851537713715
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 1381.9744633528867
+        }
+      ]
+    },
+    {
+      "part": "slave Right carriage bearing support",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "carriage",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.600006103515625,
+        23.300000190734863,
+        22.910235487357912
+      ],
+      "best_six_axis_screen": {
+        "up": "X-",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 13.840708196218703
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 287.04790403679397
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 288.64026664052335
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 280.67565420579626
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 361.90863024837483
+        }
+      ]
+    },
+    {
+      "part": "slave U015",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "worm"
+    },
+    {
+      "part": "slave U022",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "gear"
+    },
+    {
+      "part": "slave reaction-stop-axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "24316",
+      "motion": "gear"
+    },
+    {
+      "part": "slave reaction-retainer",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "gear"
+    },
+    {
+      "part": "slave pivot-stop-axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "24316",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave pivot-retainer",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave Carriage support pin 1 2.0",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "carriage"
+    },
+    {
+      "part": "slave Carriage support pin 1 18.0",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "carriage"
+    },
+    {
+      "part": "slave L072",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "A"
+    },
+    {
+      "part": "slave L097",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "26287",
+      "motion": "O-route"
+    },
+    {
+      "part": "slave L099",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "clutch-ring"
+    },
+    {
+      "part": "slave L102",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "B"
+    },
+    {
+      "part": "slave L069",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "O-route"
+    },
+    {
+      "part": "slave POWER 16T -16",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave reversing idler 16T 16",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave output right 7L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "44294",
+      "motion": "fixed"
+    },
+    {
+      "part": "master_gate L097",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "26287",
+      "motion": "O-route"
+    },
+    {
+      "part": "master_gate L099",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "clutch-ring"
+    },
+    {
+      "part": "master_gate L102",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "B"
+    },
+    {
+      "part": "master_gate B-input",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "B"
+    },
+    {
+      "part": "master_gate worm drive 10L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3737",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave_gate L097",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "26287",
+      "motion": "O-route"
+    },
+    {
+      "part": "slave_gate L099",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "clutch-ring"
+    },
+    {
+      "part": "slave_gate L102",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "B"
+    },
+    {
+      "part": "slave_gate B-input",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "B"
+    },
+    {
+      "part": "master cheek joining pin 28.4",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "master cheek joining pin 35.6",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave cheek joining pin 28.4",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave cheek joining pin 35.6",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "master lock bolt",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "bolt",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        12.000000178813934,
+        20.9,
+        18.300001525878905
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 11.228808562420452
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 91.4624262876053
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 91.46242756296992
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 128.4452558316819
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 11.228808562420452
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 208.23718162588725
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 192.61964978802445
+        }
+      ]
+    },
+    {
+      "part": "master roller axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32062",
+      "motion": "fixed"
+    },
+    {
+      "part": "master roller bush 15.6",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "master roller bush 27.6",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "master return band",
+      "kind": "elastic",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "elastic"
+    },
+    {
+      "part": "slave lock bolt",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "bolt",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        12.000000178813934,
+        20.9,
+        18.300001525878905
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 11.228808562420454
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 91.46242628760531
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 91.46242756296992
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 128.4452558316819
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 11.228808562420454
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 208.23718162588722
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 192.61964978802442
+        }
+      ]
+    },
+    {
+      "part": "slave roller axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32062",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave roller bush 15.6",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave roller bush 27.6",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave return band",
+      "kind": "elastic",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "elastic"
+    },
+    {
+      "part": "master_gate Carriage fork and roof",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "gate-fork",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        23.40000057220459,
+        26.450000047683716,
+        18.9
+      ],
+      "best_six_axis_screen": {
+        "up": "X+",
+        "unsupported_area_mm2": 160.04212084251608
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 171.76175393323348
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 160.04212084251608
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 249.02146734503074
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 315.0136742192388
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 426.2740196164244
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 490.5599511463687
+        }
+      ]
+    },
+    {
+      "part": "master_gate fork bias band -10",
+      "kind": "elastic",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fork-band"
+    },
+    {
+      "part": "master_gate crosshead pin -10 13.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "gate-fork"
+    },
+    {
+      "part": "master_gate Right carriage bearing support",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "gate-fork",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.799999999999997,
+        13.366987036761762,
+        14.799999999999999
+      ],
+      "best_six_axis_screen": {
+        "up": "X-",
+        "unsupported_area_mm2": 37.5832202316688
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 37.5832202316688
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 103.87265976835064
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 48.029276753967764
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 117.7311713518468
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 108.12564126875802
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 111.09008277162386
+        }
+      ]
+    },
+    {
+      "part": "master_gate crosshead pin 12 13.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "gate-fork"
+    },
+    {
+      "part": "master_gate fork joining pin",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "gate-fork"
+    },
+    {
+      "part": "slave_gate Carriage fork and roof",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "gate-fork",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        28.90000057220459,
+        26.450000047683716,
+        18.9
+      ],
+      "best_six_axis_screen": {
+        "up": "X+",
+        "unsupported_area_mm2": 159.69459612829195
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 193.12351021600585
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 159.69459612829195
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 257.5004946836989
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 312.732532747566
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 427.6000418420461
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 495.27194879309116
+        }
+      ]
+    },
+    {
+      "part": "slave_gate fork bias band -10",
+      "kind": "elastic",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fork-band"
+    },
+    {
+      "part": "slave_gate crosshead pin -10 13.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "gate-fork"
+    },
+    {
+      "part": "slave_gate Right carriage bearing support",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "gate-fork",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.799999999999997,
+        13.366987036761762,
+        14.799999999999999
+      ],
+      "best_six_axis_screen": {
+        "up": "X-",
+        "unsupported_area_mm2": 37.58322023166878
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 37.58322023166878
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 103.8725440598817
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 48.029276753967864
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 117.7312618631579
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 108.12564121487179
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 111.09008277162388
+        }
+      ]
+    },
+    {
+      "part": "slave_gate crosshead pin 12 13.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "gate-fork"
+    },
+    {
+      "part": "slave_gate fork joining pin",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "gate-fork"
+    },
+    {
+      "part": "master actuator return band",
+      "kind": "elastic",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "actuator-band"
+    },
+    {
+      "part": "slave actuator return band",
+      "kind": "elastic",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "actuator-band"
+    },
+    {
+      "part": "slave_gate left clutch stub 4L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3705",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave output left 4L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3705",
+      "motion": "fixed"
+    },
+    {
+      "part": "slave_gate worm drive 10L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3737",
+      "motion": "fixed"
+    },
+    {
+      "part": "write L072",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "A"
+    },
+    {
+      "part": "write L097",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "O-route"
+    },
+    {
+      "part": "write L099",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "clutch-ring"
+    },
+    {
+      "part": "write L102",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "B"
+    },
+    {
+      "part": "write L069",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "O-route"
+    },
+    {
+      "part": "write L105",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "O-route"
+    },
+    {
+      "part": "WRITE selector output left",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3705",
+      "motion": "fixed"
+    },
+    {
+      "part": "WRITE output retainer",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "shaft-retainer"
+    },
+    {
+      "part": "WRITE D input gear",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "Selected data route 16T",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "Master worm retainer gear",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3713",
+      "motion": "shaft-retainer"
+    },
+    {
+      "part": "Master idler retainer",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "shaft-retainer"
+    },
+    {
+      "part": "WRITE selector output right 7L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "44294",
+      "motion": "fixed"
+    },
+    {
+      "part": "WRITE D input axle 5L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32073",
+      "motion": "fixed"
+    },
+    {
+      "part": "D external input 5L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32073",
+      "motion": "fixed"
+    },
+    {
+      "part": "D header input 8T",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "10928",
+      "motion": "fixed"
+    },
+    {
+      "part": "D header output 8T",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "10928",
+      "motion": "fixed"
+    },
+    {
+      "part": "Master gate data stub 3L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4519",
+      "motion": "fixed"
+    },
+    {
+      "part": "Slave worm retainer gear",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3713",
+      "motion": "shaft-retainer"
+    },
+    {
+      "part": "Passive write Carriage fork and roof",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "write-fork",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        23.400001525878906,
+        26.249999284744263,
+        10.300001525878912
+      ],
+      "best_six_axis_screen": {
+        "up": "X-",
+        "unsupported_area_mm2": 54.08368392614593
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 54.08368392614593
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 78.37948297160987
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 169.43928995658555
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 292.3817803718073
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 286.721671376421
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 313.71218385261517
+        }
+      ]
+    },
+    {
+      "part": "write Carriage support pin 1 2.0",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "carriage"
+    },
+    {
+      "part": "POWER header gear",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "Q feedback shaft 32L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "50450",
+      "motion": "fixed"
+    },
+    {
+      "part": "Q feedback front gear -92",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "Q feedback front gear 150",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "Q takeoff gear",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "Feedback retainer",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "shaft-retainer"
+    },
+    {
+      "part": "Shared reverse shaft left 10L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3737",
+      "motion": "fixed"
+    },
+    {
+      "part": "Shared reverse shaft right 10L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3737",
+      "motion": "fixed"
+    },
+    {
+      "part": "Shared reverse coupling",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "59443",
+      "motion": "fixed"
+    },
+    {
+      "part": "POWER distribution 12L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3708",
+      "motion": "fixed"
+    },
+    {
+      "part": "POWER local input 4L",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3705",
+      "motion": "fixed"
+    },
+    {
+      "part": "Local clock cam and fork bar",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "crosshead",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        259.0,
+        17.7,
+        48.7
+      ],
+      "best_six_axis_screen": {
+        "up": "X-",
+        "unsupported_area_mm2": 902.0151990331917
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 902.0151990331917
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 1161.7546293756186
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 4433.6133648239265
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 4547.335507157912
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 2504.4318238176625
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 3041.9088565877746
+        }
+      ]
+    },
+    {
+      "part": "bit clock bellcrank",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "bellcrank",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        29.0,
+        3.6000000000000014,
+        29.0
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 142.86493714907996
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 142.86493714907996
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 142.86493714908
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 142.86493714907994
+        }
+      ]
+    },
+    {
+      "part": "bit clock pivot axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3705",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit clock pivot bush 16",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit clock pivot bush 40.4",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit clock input follower axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4519",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit clock input free roller",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit clock input follower bush 7",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit clock input follower bush 27",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit clock output follower axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3705",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit clock output free roller",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit clock output follower bush 16",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit clock output follower bush 39",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit write bellcrank",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "bellcrank",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        33.0,
+        3.1999999999999993,
+        33.0
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 139.79105524362654
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 139.7910552436265
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 139.79105524362652
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 139.79105524362654
+        }
+      ]
+    },
+    {
+      "part": "bit write pivot axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "3705",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit write pivot bush 19",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit write pivot bush 42",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit write input follower axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4519",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit write input free roller",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit write input follower bush 19",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit write input follower bush 35",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit write output follower axle",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4519",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit write output free roller",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit write output follower bush 19",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit write output follower bush 34",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "32123a",
+      "motion": "bellcrank"
+    },
+    {
+      "part": "bit clock vertical control rod",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "control-rod",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        17.0,
+        7.600000000000001,
+        111.6
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 28.967011012954757
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 733.7634041446656
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 733.7634041446656
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 580.5223792306551
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 28.967011012954757
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 225.16340414466583
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 225.16340414466583
+        }
+      ]
+    },
+    {
+      "part": "clock pinned rod splice bridge",
+      "kind": "printed",
+      "module": "coupler",
+      "lego_part": null,
+      "motion": "control-rod",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        13.199999999999989,
+        9.5,
+        25.299999999999997
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 108.16626907886013
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 108.16626907886011
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 234.22193559677467
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 60.09626907886019
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 60.09626907886019
+        }
+      ]
+    },
+    {
+      "part": "clock rod coupler friction pin 1",
+      "kind": "native",
+      "module": "coupler",
+      "lego_part": "2780",
+      "motion": "control-rod"
+    },
+    {
+      "part": "clock rod coupler friction pin 2",
+      "kind": "native",
+      "module": "coupler",
+      "lego_part": "2780",
+      "motion": "control-rod"
+    },
+    {
+      "part": "bit write vertical control rod",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "control-rod",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        17.0,
+        7.600000000000001,
+        111.6
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 28.967011012954785
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 733.7634041446659
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 733.7634041446656
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 580.5223792306549
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 28.967011012954785
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 225.16340414466572
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 225.16340414466572
+        }
+      ]
+    },
+    {
+      "part": "write pinned rod splice bridge",
+      "kind": "printed",
+      "module": "coupler",
+      "lego_part": null,
+      "motion": "control-rod",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        13.199999999999989,
+        9.5,
+        25.299999999999997
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 108.16626907886044
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 108.1662690788601
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 234.22193559677467
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 60.09626907886006
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 60.09626907886007
+        }
+      ]
+    },
+    {
+      "part": "write rod coupler friction pin 1",
+      "kind": "native",
+      "module": "coupler",
+      "lego_part": "2780",
+      "motion": "control-rod"
+    },
+    {
+      "part": "write rod coupler friction pin 2",
+      "kind": "native",
+      "module": "coupler",
+      "lego_part": "2780",
+      "motion": "control-rod"
+    },
+    {
+      "part": "Chassis joint pin -28",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "Chassis joint pin 56",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "master Front bearing cheek",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        49.8,
+        7.8000000476837155,
+        20.500000381469725
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 194.6176175430703
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 175.22797088326564
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 509.6650323781679
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 330.2358281468821
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 329.33114673043474
+        }
+      ]
+    },
+    {
+      "part": "slave Front bearing cheek",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        49.8,
+        7.8000000476837155,
+        20.500000381469725
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 194.6118275178286
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 175.20479331987934
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 509.66504967208186
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 330.25900391027807
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 329.3427480347534
+        }
+      ]
+    },
+    {
+      "part": "bit WRITE fork and pickup",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "write-fork",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        36.0,
+        19.25,
+        18.0
+      ],
+      "best_six_axis_screen": {
+        "up": "X-",
+        "unsupported_area_mm2": 24.256281039483362
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 24.256281039483362
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 88.13533292325855
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 80.53526335754842
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 585.0937818357254
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 177.68960969295242
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 279.23755144703557
+        }
+      ]
+    },
+    {
+      "part": "Control clock Short lever",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "rocker",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        14.533100128173828,
+        8.399999618530273,
+        23.235999584197998
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.7211994938323986
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 255.12156483057043
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 261.3806356130127
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.7211994938323986
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 36.26257258172336
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 160.59712691681435
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 146.42807213089182
+        }
+      ]
+    },
+    {
+      "part": "Control clock U015",
+      "kind": "native",
+      "module": "control",
+      "lego_part": null,
+      "motion": "worm"
+    },
+    {
+      "part": "Control clock U022",
+      "kind": "native",
+      "module": "control",
+      "lego_part": null,
+      "motion": "gear"
+    },
+    {
+      "part": "Control clock reaction-stop-axle",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "24316",
+      "motion": "gear"
+    },
+    {
+      "part": "Control clock reaction-retainer",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "32123a",
+      "motion": "gear"
+    },
+    {
+      "part": "Control clock pivot-stop-axle",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "24316",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control clock pivot-retainer",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control clock Carriage support pin 1 18.0",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "carriage"
+    },
+    {
+      "part": "Control clock Carriage fork and roof",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "carriage",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        37.29949951171875,
+        30.450000047683716,
+        42.199501037597656
+      ],
+      "best_six_axis_screen": {
+        "up": "Z+",
+        "unsupported_area_mm2": 176.4130158672832
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1249.2698391139702
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 674.745281250458
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 1151.5422217349444
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 1183.2298479472188
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 532.6571378926153
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 176.4130158672832
+        }
+      ]
+    },
+    {
+      "part": "Control clock Right carriage bearing support",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "carriage",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        15.299999237060547,
+        23.050000190734863,
+        7.600000381469727
+      ],
+      "best_six_axis_screen": {
+        "up": "Z-",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 225.03011909656425
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 221.44345470065372
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 158.7584942842199
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 208.21769401281574
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 0.0
+        }
+      ]
+    },
+    {
+      "part": "Control CLK input axle",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "3737",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control CLOCK worm retainer",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "shaft-retainer"
+    },
+    {
+      "part": "Control clock Front bearing cheek",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        20.4999969482422,
+        7.8000000476837155,
+        49.80000000000001
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 329.3418452954494
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 330.23623586265853
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 509.6650571199396
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 194.62323308596154
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 175.2170812797978
+        }
+      ]
+    },
+    {
+      "part": "Control clock cheek joining pin 28.4",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control clock cheek joining pin 35.6",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control CLOCK direct rod and pickup",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "crosshead",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        26.0,
+        35.2,
+        99.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Z-",
+        "unsupported_area_mm2": 276.2063729648189
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 875.046372964819
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 875.046372964819
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 1075.6236865903795
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 489.5762242984697
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 276.2063729648189
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 319.246372964819
+        }
+      ]
+    },
+    {
+      "part": "Control Clock amplifier joining pin 35.5",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "amplifier"
+    },
+    {
+      "part": "Control Clock amplifier joining pin 44.5",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "amplifier"
+    },
+    {
+      "part": "Control Clock amplifier front and input shoe",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "amplifier",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        27.0,
+        11.600000000000001,
+        16.599999999999994
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 31.992216239562364
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 198.4228623253392
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 182.6075796874905
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 31.992216239562364
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 202.85358565054156
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 182.11652670840886
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 182.11674883381994
+        }
+      ]
+    },
+    {
+      "part": "Control Clock amplifier rear and output shoe",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "amplifier",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        42.0,
+        8.0,
+        16.599999999999994
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 27.01892178955044
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 185.05328732338822
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 190.21718610510692
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 394.09362675842925
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 27.01892178955044
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 259.4464443614074
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 259.44644436140743
+        }
+      ]
+    },
+    {
+      "part": "Control Clock amplifier pivot",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4519",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control Clock pivot bush 32",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control Clock pivot bush 48",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control Clock pivot cradle mount 20",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control Clock pivot cradle mount 52",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control clock actuator return band",
+      "kind": "elastic",
+      "module": "control",
+      "lego_part": null,
+      "motion": "actuator-band"
+    },
+    {
+      "part": "Control CLK input 16T",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control CLK receiving 16T",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "94925",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control CLK external axle",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "3705",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control write Short lever",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "lever",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        14.533096313476562,
+        8.399999618530273,
+        23.23599624633789
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.7211974687211525
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 255.12142483884372
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 261.380532137087
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.7211974687211525
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 36.262557352602016
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 160.5971933237779
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 146.42819290942083
+        }
+      ]
+    },
+    {
+      "part": "Control write Carriage fork and roof",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "carriage",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        37.29950103759765,
+        26.200000047683716,
+        42.19949722290039
+      ],
+      "best_six_axis_screen": {
+        "up": "Z+",
+        "unsupported_area_mm2": 28.849627148692075
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1182.547622942347
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 557.0570269441408
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 908.3914782907461
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 1051.8181077116228
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 388.86630171315454
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 28.849627148692075
+        }
+      ]
+    },
+    {
+      "part": "Control WRITE direct rod and pickup",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "carriage",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        20.499996948242185,
+        40.900000190734865,
+        163.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Z-",
+        "unsupported_area_mm2": 294.00826975396296
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1301.76602573495
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 1315.5666279601228
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 1168.7184001801613
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 1269.7606321512442
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 294.00826975396296
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 294.01307799966924
+        }
+      ]
+    },
+    {
+      "part": "Control write U015",
+      "kind": "native",
+      "module": "control",
+      "lego_part": null,
+      "motion": "worm"
+    },
+    {
+      "part": "Control write U022",
+      "kind": "native",
+      "module": "control",
+      "lego_part": null,
+      "motion": "gear"
+    },
+    {
+      "part": "Control write reaction-stop-axle",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "24316",
+      "motion": "gear"
+    },
+    {
+      "part": "Control write reaction-retainer",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "32123a",
+      "motion": "gear"
+    },
+    {
+      "part": "Control write pivot-stop-axle",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "24316",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control write pivot-retainer",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "32123a",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control write Carriage support pin 1 2.0",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "carriage"
+    },
+    {
+      "part": "Control write Carriage support pin 1 18.0",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "carriage"
+    },
+    {
+      "part": "Control WRITE input axle",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "60485",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control WRITE worm retainer left",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "shaft-retainer"
+    },
+    {
+      "part": "Control WRITE worm retainer right",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "shaft-retainer"
+    },
+    {
+      "part": "Control write Front bearing cheek",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        20.4999969482422,
+        7.8000000476837155,
+        49.80000000000001
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 329.34184529544933
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 330.2362363997769
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 509.6650564336934
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 194.6232330859618
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 175.21708127979772
+        }
+      ]
+    },
+    {
+      "part": "Control write cheek joining pin 28.4",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control write cheek joining pin 35.6",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "Control write actuator return band",
+      "kind": "elastic",
+      "module": "control",
+      "lego_part": null,
+      "motion": "actuator-band"
+    },
+    {
+      "part": "M output axial stop 26.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "M output axial stop 37.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Q output axial stop 76.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Q output axial stop 83.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Master worm axial stop -26.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Slave worm axial stop 128.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Slave worm axial stop 135.4",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Selected data axial stop -33.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Selected data axial stop -26.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "D inverted axial stop -75.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "D inverted axial stop -68.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "D input axial stop -105.9",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "D input axial stop -98.3",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Master data stub axial stop -53.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Master data stub axial stop -34.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "POWER minus axial stop 76.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "POWER minus axial stop 83.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "POWER plus axial stop 76.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "POWER plus axial stop 83.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "POWER input axial stop 56.2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "POWER input axial stop 63.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Feedback axial stop 26.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "Feedback axial stop 37.8",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "CLOCK worm axial stop -73.8",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "CLOCK worm axial stop -66.2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "CLOCK input axial stop -147.8",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "CLOCK input axial stop -140.2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "WRITE worm axial stop -217.8",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "WRITE worm axial stop -210.2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "4265c",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 0 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 0 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 0",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        11.599999999999994,
+        48.95640646219253,
+        44.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 228.88787770421519
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 989.3266529005148
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 642.4396049890925
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 228.88787770421519
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 416.3580999404199
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 535.2024956064229
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 424.9134779959302
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 1 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 1 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 1",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.599999999999994,
+        43.099999999999994,
+        44.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 35.055014765974136
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 582.2438303360098
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 218.19355716016736
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 35.055014765974136
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 252.77619454072465
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 254.71630801656363
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 217.00094156115134
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 2 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 2 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 2",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.599999999999994,
+        35.099999999999994,
+        44.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 27.622214739212794
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 458.9126939197614
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 194.58142711405856
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 27.622214739212794
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 249.04667546351754
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 241.12572566004707
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 188.6643218886131
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 3 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 3 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 3",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.599999999999994,
+        35.099999999999994,
+        42.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 20.573840118222407
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 521.2409942486379
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 270.2683768562702
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 20.573840118222407
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 187.58116073598558
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 225.88718482220995
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 188.86651171457228
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 4 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 4 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 4",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        13.600000000000001,
+        35.099999999999994,
+        85.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 239.12025937267268
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 2289.3529150990316
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 1638.2737758952746
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 239.12025937267268
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 491.30849417832206
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 438.1383982916309
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 393.26131588393184
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 5 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 5 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 5",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.600000000000001,
+        35.099999999999994,
+        26.799999999999997
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 20.663983097774167
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 393.9663072586301
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 232.16839398834622
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 20.663983097774167
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 134.48998110488617
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 205.90464395046973
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 165.90729624907658
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 6 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 6 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 6",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.599999999999994,
+        35.099999999999994,
+        42.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 20.573840118222407
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 521.2409942486379
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 270.2683768562702
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 20.573840118222407
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 187.58116073598558
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 225.88718482220995
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 188.86651171457228
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 7 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 7 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 7",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.600000000000001,
+        35.099999999999994,
+        85.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 56.12408370970792
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 663.9086441958871
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 254.69409567720152
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 56.12408370970792
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 359.0755588775254
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 256.92242040570886
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 211.59519261437424
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 8 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 8 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 8",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.600000000000001,
+        48.95640646219253,
+        19.599999999999998
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 24.695203049497145
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 530.5790782233208
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 348.5704210162943
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 24.695203049497145
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 112.8055867853582
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 201.90885566797937
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 203.19820712690918
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 9 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 9 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 9",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.599999999999994,
+        48.95640646219253,
+        42.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 107.737965260197
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1232.9933679689866
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 599.3264344114641
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 107.737965260197
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 296.4399540856648
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 228.33115407513765
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 248.16144348553615
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 10 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 10 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 10",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        10.999999999999996,
+        48.95640646219253,
+        85.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 233.2439791631263
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1396.3211583041857
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 839.5253986104361
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 233.2439791631263
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 808.181899544994
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 374.55644590658926
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 376.9034678288795
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 11 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 11 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 11",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.600000000000023,
+        48.95640646219253,
+        34.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 20.507576469437428
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 619.1408703722096
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 362.58155679964955
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 20.507576469437428
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 160.10892896483026
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 255.82359692746226
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 216.63578141766587
+        }
+      ]
+    },
+    {
+      "part": "bit bearing wall 12 mounting pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit bearing wall 12 mounting pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit removable bearing wall 12",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.600000000000023,
+        35.099999999999994,
+        85.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 119.08722451346314
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1578.2178385155787
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 1028.155369814805
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 119.08722451346314
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 294.1935916066976
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 230.61169332724734
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 213.23631609793125
+        }
+      ]
+    },
+    {
+      "part": "control bearing wall 0 mounting pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control bearing wall 0 mounting pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control removable bearing wall 0",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        42.80000000000001,
+        55.099999999999994,
+        7.600000000000023
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 20.464183129034637
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 283.121968013263
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 244.80923665885985
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 20.464183129034637
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 185.8469210499559
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 751.016218631014
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 428.5938393982557
+        }
+      ]
+    },
+    {
+      "part": "control bearing wall 1 mounting pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control bearing wall 1 mounting pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control removable bearing wall 1",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        73.80000000000001,
+        63.099999999999994,
+        7.600000000000023
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 26.87043142494005
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 317.89507020234913
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 265.4456732658301
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 26.87043142494005
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 288.7039671319798
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 983.4975582815509
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 496.470162291451
+        }
+      ]
+    },
+    {
+      "part": "control bearing wall 2 mounting pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control bearing wall 2 mounting pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control removable bearing wall 2",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        42.80000000000001,
+        55.099999999999994,
+        7.600000000000023
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 20.464183129034637
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 283.12196800790224
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 243.19072373994592
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 20.464183129034637
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 189.3038374933053
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 749.7003799831623
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 427.2780007508895
+        }
+      ]
+    },
+    {
+      "part": "control bearing wall 3 mounting pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control bearing wall 3 mounting pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control removable bearing wall 3",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        73.80000000000001,
+        63.099999999999994,
+        7.599999999999994
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 41.905070289532944
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 332.60986143700006
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 283.7804061762645
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 41.905070289532944
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 297.5312529186215
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 1130.2376320105138
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 481.49789110141444
+        }
+      ]
+    },
+    {
+      "part": "control bearing wall 4 mounting pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control bearing wall 4 mounting pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control removable bearing wall 4",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        73.80000000000001,
+        47.099999999999994,
+        7.599999999999994
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 78.73453567942704
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 297.3083794723093
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 230.9368270184409
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 78.73453567942704
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 335.13744752735255
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 779.2133612545291
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 323.3282010173172
+        }
+      ]
+    },
+    {
+      "part": "bit frame 0 fixture 0 pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 0 fixture 0 pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 0 removable fixture 0",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        41.8,
+        30.200000000000003,
+        53.3
+      ],
+      "best_six_axis_screen": {
+        "up": "X+",
+        "unsupported_area_mm2": 750.6171625503396
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 850.8653868646095
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 750.6171625503396
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 1090.5808479614336
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 1078.124727443486
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 839.2391942616786
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 795.2505225490108
+        }
+      ]
+    },
+    {
+      "part": "bit frame 0 fixture 1 pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 0 fixture 1 pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 0 removable fixture 1",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        44.349999999999994,
+        22.650000000000002,
+        39.599999999999994
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 262.44690727901144
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 271.728039117142
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 290.6069125206851
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 275.9265835430712
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 262.44690727901144
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 829.2378420179507
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 823.553921018794
+        }
+      ]
+    },
+    {
+      "part": "bit frame 0 fixture 2 pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 0 fixture 2 pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 0 removable fixture 2",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        43.8,
+        30.200000000000003,
+        43.599999999999994
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 575.4757054815806
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 706.8824338009692
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 611.0191895252292
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 575.4757054815806
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 587.4932921466223
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 609.7279093530879
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 617.0145568180018
+        }
+      ]
+    },
+    {
+      "part": "bit frame 0 fixture 3 pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 0 fixture 3 pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 0 removable fixture 3",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        62.592323604,
+        30.200000000000003,
+        88.2
+      ],
+      "best_six_axis_screen": {
+        "up": "X-",
+        "unsupported_area_mm2": 1973.9794443857295
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1973.9794443857295
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 1995.1191954530175
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 2646.1409622064116
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 2645.6558453268945
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 2186.223400318302
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 2348.2253327772137
+        }
+      ]
+    },
+    {
+      "part": "bit coordinated chassis 0",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        163.3,
+        13.5,
+        103.6
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 5351.971065885684
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 4570.88688087509
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 5811.025589104725
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 6182.138017281421
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 6058.048435370707
+        }
+      ]
+    },
+    {
+      "part": "bit frame 1 fixture 0 pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 1 fixture 0 pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 1 removable fixture 0",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        82.19232360400001,
+        30.200000000000003,
+        44.900000381469724
+      ],
+      "best_six_axis_screen": {
+        "up": "Z-",
+        "unsupported_area_mm2": 729.174450020538
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 795.4364401077248
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 730.5520052451259
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 916.6275412130003
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 906.8584228497359
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 729.174450020538
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 783.7766018523755
+        }
+      ]
+    },
+    {
+      "part": "bit frame 1 fixture 1 pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 1 fixture 1 pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 1 removable fixture 1",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        48.000000000000014,
+        22.650000000000002,
+        49.599999999999994
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 320.778940855561
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 466.81846049057003
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 411.0272260758178
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 406.0166802745288
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 320.778940855561
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 868.8518359020361
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 869.6236068061594
+        }
+      ]
+    },
+    {
+      "part": "bit frame 1 fixture 2 pin 1",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 1 fixture 2 pin 2",
+      "kind": "native",
+      "module": "bit",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "bit frame 1 removable fixture 2",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        29.599999999999994,
+        24.200000000000003,
+        83.2
+      ],
+      "best_six_axis_screen": {
+        "up": "Y+",
+        "unsupported_area_mm2": 790.0392303808865
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1258.9181416370677
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 1258.9854022466552
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 995.9574606880622
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 790.0392303808865
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 818.7381165772215
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 961.4037042764859
+        }
+      ]
+    },
+    {
+      "part": "bit coordinated chassis 1",
+      "kind": "printed",
+      "module": "bit",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        136.3,
+        11.100000000000001,
+        101.6
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 4136.02107504736
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 4177.187928815569
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 4597.0383931312745
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 5176.605124249769
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 4963.680913378053
+        }
+      ]
+    },
+    {
+      "part": "control frame 0 fixture 0 pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 0 pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 0 pin 3",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 0 pin 4",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 removable fixture 0",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        33.60000000000001,
+        52.5,
+        61.59232360400003
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 950.177088184552
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1086.8533520628193
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 1103.6128726551328
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 950.177088184552
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 962.5196829349434
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 1073.3579384919467
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 1086.9532239499113
+        }
+      ]
+    },
+    {
+      "part": "control frame 0 fixture 1 pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 1 pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 1 pin 3",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 1 pin 4",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 removable fixture 1",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        88.80000000000001,
+        44.95,
+        105.8
+      ],
+      "best_six_axis_screen": {
+        "up": "Z-",
+        "unsupported_area_mm2": 883.1330053534657
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 1492.8451209182074
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 1453.2299589490995
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 1689.667823195085
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 1615.1923443571488
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 883.1330053534657
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 919.0759928049499
+        }
+      ]
+    },
+    {
+      "part": "control frame 0 fixture 2 pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 2 pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 2 pin 3",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 2 pin 4",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 removable fixture 2",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        88.80000000000001,
+        44.5,
+        66.60000000000001
+      ],
+      "best_six_axis_screen": {
+        "up": "Z+",
+        "unsupported_area_mm2": 1849.2871254665342
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 2863.413881268385
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 2771.8319396568936
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 2961.8393350326587
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 2972.8521034254086
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 2100.148335113567
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 1849.2871254665342
+        }
+      ]
+    },
+    {
+      "part": "control frame 0 fixture 3 pin 1",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 fixture 3 pin 2",
+      "kind": "native",
+      "module": "control",
+      "lego_part": "2780",
+      "motion": "fixed"
+    },
+    {
+      "part": "control frame 0 removable fixture 3",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        62.80000000000001,
+        40.5,
+        14.40000000000002
+      ],
+      "best_six_axis_screen": {
+        "up": "X+",
+        "unsupported_area_mm2": 472.4071683264435
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 491.7090667920107
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 472.4071683264435
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 572.3953671314796
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 546.5576277125115
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 491.44835319811597
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 502.096811226275
+        }
+      ]
+    },
+    {
+      "part": "control coordinated chassis 0",
+      "kind": "printed",
+      "module": "control",
+      "lego_part": null,
+      "motion": "fixed",
+      "watertight": true,
+      "connected_solids": 1,
+      "dimensions_mm": [
+        89.80000000000001,
+        9.799999999999997,
+        160.0
+      ],
+      "best_six_axis_screen": {
+        "up": "Y-",
+        "unsupported_area_mm2": 0.0
+      },
+      "orientations": [
+        {
+          "up": "X-",
+          "unsupported_area_mm2": 4671.306048967223
+        },
+        {
+          "up": "X+",
+          "unsupported_area_mm2": 4561.064786944071
+        },
+        {
+          "up": "Y-",
+          "unsupported_area_mm2": 0.0
+        },
+        {
+          "up": "Y+",
+          "unsupported_area_mm2": 4574.486006105579
+        },
+        {
+          "up": "Z-",
+          "unsupported_area_mm2": 3581.2557508812715
+        },
+        {
+          "up": "Z+",
+          "unsupported_area_mm2": 3704.26382641975
+        }
+      ]
+    }
+  ],
+  "guide_membership": [
+    {
+      "module": "bit",
+      "rod": "CLOCK",
+      "z": -22,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "bit frame 0 removable fixture 0",
+          "ring_fraction": 0.9999999999999992
+        }
+      ]
+    },
+    {
+      "module": "bit",
+      "rod": "CLOCK",
+      "z": 21.5,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "bit frame 0 removable fixture 2",
+          "ring_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "module": "bit",
+      "rod": "WRITE",
+      "z": -12,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "bit frame 0 removable fixture 0",
+          "ring_fraction": 0.8449023861171371
+        }
+      ]
+    },
+    {
+      "module": "bit",
+      "rod": "WRITE",
+      "z": 32,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "bit frame 0 removable fixture 2",
+          "ring_fraction": 1.000000000000002
+        }
+      ]
+    },
+    {
+      "module": "control",
+      "rod": "CLOCK",
+      "z": -132,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "control frame 0 removable fixture 3",
+          "ring_fraction": 1.0000000000000058
+        }
+      ]
+    },
+    {
+      "module": "control",
+      "rod": "CLOCK",
+      "z": -72,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "control frame 0 removable fixture 2",
+          "ring_fraction": 0.9999999999999981
+        }
+      ]
+    },
+    {
+      "module": "control",
+      "rod": "WRITE",
+      "z": -204,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "control frame 0 removable fixture 1",
+          "ring_fraction": 0.9999999999999923
+        }
+      ]
+    },
+    {
+      "module": "control",
+      "rod": "WRITE",
+      "z": -140,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "control frame 0 removable fixture 3",
+          "ring_fraction": 0.9999999999999923
+        }
+      ]
+    },
+    {
+      "module": "control",
+      "rod": "WRITE",
+      "z": -72,
+      "opening_mm": [
+        6.8,
+        6.8
+      ],
+      "owners": [
+        {
+          "part": "control frame 0 removable fixture 2",
+          "ring_fraction": 0.9999999999999942
+        }
+      ]
+    }
+  ]
+}
