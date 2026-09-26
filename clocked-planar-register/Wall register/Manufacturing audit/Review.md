@@ -1,3 +1,5 @@
+> Historical revision notes below. Superseded by [Assembly and print revision](../Assembly%20and%20print%20revision.md), including the removable guides, five corrected bearing components and revised pin counts.
+
 # Manufacturing and assembly review — 25 September 2026
 
 **Verdict: this is not ready for a complete print-and-build.** There are concrete assembly and manufacturing problems, plus unresolved functional risks. Passing the existing motion animation is not evidence that the device can be assembled or will move under its own applied forces.

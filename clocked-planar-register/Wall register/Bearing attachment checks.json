@@ -9,31 +9,34 @@
           "centre_mm": [
             -118.0,
             38.0,
-            -36.0
+            -34.0
           ]
         },
         {
           "part": "bit frame 0 fixture 0 pin 2",
           "centre_mm": [
-            -96.0,
+            -112.0,
             38.0,
             8.0
           ]
         }
       ],
-      "fastener_spacing_mm": 49.193495504995376,
+      "fastener_spacing_mm": 42.42640687119285,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
           "part": "bit frame 0 fixture 0 pin 1",
           "socket_wall_fraction": [
-            1.0,
             0.9999999999999998,
-            1.0000000000000016,
-            0.9999999999999983
+            1.0,
+            1.0,
+            1.0000000000000018
           ],
           "pass_check": true
         },
@@ -41,9 +44,9 @@
           "part": "bit frame 0 fixture 0 pin 2",
           "socket_wall_fraction": [
             1.0000000000000004,
-            1.0000000000000004,
-            1.0000000000000036,
-            1.000000000000003
+            1.0000000000000002,
+            0.999999999999997,
+            1.0000000000000004
           ],
           "pass_check": true
         }
@@ -59,40 +62,43 @@
           "centre_mm": [
             -62.0,
             38.0,
-            -35.0
+            -3.0
           ]
         },
         {
           "part": "bit frame 0 fixture 1 pin 2",
           "centre_mm": [
-            -56.0,
+            -58.0,
             38.0,
-            -3.0
+            -35.0
           ]
         }
       ],
-      "fastener_spacing_mm": 32.55764119219941,
+      "fastener_spacing_mm": 32.2490309931942,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
           "part": "bit frame 0 fixture 1 pin 1",
           "socket_wall_fraction": [
             0.9999999999999998,
-            0.9999999999999998,
-            1.0000000000000022,
-            1.0000000000000013
+            1.0,
+            1.0000000000000013,
+            1.000000000000003
           ],
           "pass_check": true
         },
         {
           "part": "bit frame 0 fixture 1 pin 2",
           "socket_wall_fraction": [
+            1.0,
             0.9999999999999998,
-            0.9999999999999998,
-            1.0000000000000004,
+            1.0000000000000024,
             1.0000000000000009
           ],
           "pass_check": true
@@ -123,8 +129,11 @@
       ],
       "fastener_spacing_mm": 44.40720662234904,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
@@ -132,8 +141,8 @@
           "socket_wall_fraction": [
             1.0000000000000009,
             1.0000000000000009,
-            1.0000000000000018,
-            1.0000000000000022
+            0.9999999999999974,
+            1.000000000000003
           ],
           "pass_check": true
         },
@@ -142,8 +151,8 @@
           "socket_wall_fraction": [
             1.0,
             0.9999999999999998,
-            1.0000000000000024,
-            1.0000000000000004
+            1.000000000000001,
+            1.0000000000000007
           ],
           "pass_check": true
         }
@@ -157,43 +166,152 @@
         {
           "part": "bit frame 0 fixture 3 pin 1",
           "centre_mm": [
-            -17.0,
+            -23.0,
             38.0,
-            60.0
+            10.0
           ]
         },
         {
           "part": "bit frame 0 fixture 3 pin 2",
           "centre_mm": [
-            3.0,
+            15.0,
             38.0,
-            -20.0
+            -6.0
           ]
         }
       ],
-      "fastener_spacing_mm": 82.46211251235322,
+      "fastener_spacing_mm": 41.23105625617661,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
           "part": "bit frame 0 fixture 3 pin 1",
           "socket_wall_fraction": [
-            1.0000000000000004,
-            1.0000000000000002,
-            0.9999999999999997,
-            1.0000000000000002
+            0.9999999999999998,
+            0.9999999999999998,
+            0.9999999999999993,
+            0.9999999999999974
           ],
           "pass_check": true
         },
         {
           "part": "bit frame 0 fixture 3 pin 2",
           "socket_wall_fraction": [
-            1.0000000000000002,
-            1.0000000000000002,
             0.9999999999999998,
-            0.9999999999999997
+            1.0,
+            0.9999999999999963,
+            0.9999999999999994
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 4",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "bit frame 0 fixture 4 pin 1",
+          "centre_mm": [
+            -22.0,
+            38.0,
+            30.0
+          ]
+        },
+        {
+          "part": "bit frame 0 fixture 4 pin 2",
+          "centre_mm": [
+            -10.0,
+            38.0,
+            30.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 12.0,
+      "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 0 fixture 4 pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000002,
+            1.000000000000001,
+            0.9999999999999974
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 0 fixture 4 pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0,
+            0.9999999999999998,
+            1.0000000000000024
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 5",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "bit frame 0 fixture 5 pin 1",
+          "centre_mm": [
+            -19.0,
+            38.0,
+            59.0
+          ]
+        },
+        {
+          "part": "bit frame 0 fixture 5 pin 2",
+          "centre_mm": [
+            3.0,
+            38.0,
+            -15.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 77.20103626247513,
+      "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "mount_checks": [
+        {
+          "part": "bit frame 0 fixture 5 pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            1.0000000000000002,
+            1.000000000000003,
+            0.9999999999999988
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "bit frame 0 fixture 5 pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            0.9999999999999998,
+            0.9999999999999944,
+            0.9999999999999967
           ],
           "pass_check": true
         }
@@ -207,43 +325,46 @@
         {
           "part": "bit frame 1 fixture 0 pin 1",
           "centre_mm": [
-            62.0,
+            74.0,
             38.0,
-            60.0
+            40.0
           ]
         },
         {
           "part": "bit frame 1 fixture 0 pin 2",
           "centre_mm": [
-            98.0,
+            96.0,
             38.0,
-            28.0
+            30.0
           ]
         }
       ],
-      "fastener_spacing_mm": 48.16637831516918,
+      "fastener_spacing_mm": 24.166091947189145,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
           "part": "bit frame 1 fixture 0 pin 1",
           "socket_wall_fraction": [
-            1.0000000000000002,
+            1.0,
             1.0000000000000002,
             1.0,
-            0.9999999999999984
+            1.0000000000000033
           ],
           "pass_check": true
         },
         {
           "part": "bit frame 1 fixture 0 pin 2",
           "socket_wall_fraction": [
-            0.9999999999999997,
-            0.9999999999999997,
-            1.0000000000000007,
-            1.0000000000000029
+            1.0000000000000002,
+            1.0,
+            0.9999999999999988,
+            1.0000000000000013
           ],
           "pass_check": true
         }
@@ -257,7 +378,7 @@
         {
           "part": "bit frame 1 fixture 1 pin 1",
           "centre_mm": [
-            86.0,
+            88.0,
             38.0,
             -10.0
           ]
@@ -265,25 +386,28 @@
         {
           "part": "bit frame 1 fixture 1 pin 2",
           "centre_mm": [
-            122.0,
+            124.0,
             38.0,
-            32.0
+            10.0
           ]
         }
       ],
-      "fastener_spacing_mm": 55.31726674375732,
+      "fastener_spacing_mm": 41.182520563948,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
           "part": "bit frame 1 fixture 1 pin 1",
           "socket_wall_fraction": [
-            1.0,
-            1.0,
-            1.0000000000000036,
-            0.9999999999999984
+            1.0000000000000002,
+            1.0000000000000002,
+            0.9999999999999984,
+            1.000000000000001
           ],
           "pass_check": true
         },
@@ -291,9 +415,9 @@
           "part": "bit frame 1 fixture 1 pin 2",
           "socket_wall_fraction": [
             1.0,
-            1.0,
-            1.0000000000000044,
-            1.000000000000002
+            0.9999999999999998,
+            0.999999999999998,
+            1.0000000000000009
           ],
           "pass_check": true
         }
@@ -307,7 +431,7 @@
         {
           "part": "bit frame 1 fixture 2 pin 1",
           "centre_mm": [
-            89.0,
+            87.0,
             38.0,
             59.0
           ]
@@ -321,19 +445,22 @@
           ]
         }
       ],
-      "fastener_spacing_mm": 77.20103626247513,
+      "fastener_spacing_mm": 77.79460135510689,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
           "part": "bit frame 1 fixture 2 pin 1",
           "socket_wall_fraction": [
-            0.9999999999999997,
-            0.9999999999999998,
-            1.0000000000000024,
-            0.9999999999999988
+            1.0,
+            1.0000000000000002,
+            1.0000000000000013,
+            0.9999999999999997
           ],
           "pass_check": true
         },
@@ -342,8 +469,8 @@
           "socket_wall_fraction": [
             1.0000000000000002,
             1.0000000000000002,
-            1.0000000000000018,
-            1.0000000000000049
+            0.999999999999998,
+            1.0000000000000044
           ],
           "pass_check": true
         }
@@ -357,7 +484,7 @@
         {
           "part": "control frame 0 fixture 0 pin 1",
           "centre_mm": [
-            -157.0,
+            -155.0,
             48.3,
             -203.0
           ]
@@ -381,25 +508,28 @@
         {
           "part": "control frame 0 fixture 0 pin 4",
           "centre_mm": [
-            -141.0,
+            -143.0,
             48.3,
-            -197.0
+            -195.0
           ]
         }
       ],
-      "fastener_spacing_mm": 32.802438933713454,
+      "fastener_spacing_mm": 31.240998703626616,
       "interface_y_mm": 48.3,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 48.5,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
           "part": "control frame 0 fixture 0 pin 1",
           "socket_wall_fraction": [
-            1.0000000000000009,
-            1.000000000000001,
-            1.0000000000000007,
-            1.0000000000000038
+            1.0000000000000004,
+            1.0000000000000002,
+            0.999999999999998,
+            1.0000000000000002
           ],
           "pass_check": true
         },
@@ -408,8 +538,8 @@
           "socket_wall_fraction": [
             1.0000000000000004,
             1.0000000000000004,
-            1.000000000000001,
-            1.0000000000000024
+            0.9999999999999993,
+            1.000000000000001
           ],
           "pass_check": true
         },
@@ -418,8 +548,8 @@
           "socket_wall_fraction": [
             1.000000000000001,
             1.000000000000001,
-            1.000000000000001,
-            1.000000000000003
+            1.0000000000000002,
+            1.0000000000000038
           ],
           "pass_check": true
         },
@@ -427,9 +557,9 @@
           "part": "control frame 0 fixture 0 pin 4",
           "socket_wall_fraction": [
             1.0000000000000004,
-            1.0000000000000007,
-            0.9999999999999993,
-            1.000000000000001
+            1.0000000000000004,
+            0.9999999999999981,
+            1.0000000000000018
           ],
           "pass_check": true
         }
@@ -443,9 +573,9 @@
         {
           "part": "control frame 0 fixture 1 pin 1",
           "centre_mm": [
-            -169.0,
+            -125.0,
             48.3,
-            -220.0
+            -218.0
           ]
         },
         {
@@ -459,33 +589,36 @@
         {
           "part": "control frame 0 fixture 1 pin 3",
           "centre_mm": [
-            -89.0,
+            -113.0,
             48.3,
-            -214.0
+            -168.0
           ]
         },
         {
           "part": "control frame 0 fixture 1 pin 4",
           "centre_mm": [
-            -113.0,
+            -89.0,
             48.3,
-            -168.0
+            -212.0
           ]
         }
       ],
-      "fastener_spacing_mm": 126.50691680694776,
+      "fastener_spacing_mm": 102.52804494381037,
       "interface_y_mm": 48.3,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 48.5,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
           "part": "control frame 0 fixture 1 pin 1",
           "socket_wall_fraction": [
-            1.0000000000000004,
-            1.0000000000000007,
-            0.9999999999999998,
-            1.000000000000001
+            0.9999999999999994,
+            0.9999999999999994,
+            0.9999999999999983,
+            0.9999999999999931
           ],
           "pass_check": true
         },
@@ -494,28 +627,28 @@
           "socket_wall_fraction": [
             0.9999999999999998,
             0.9999999999999997,
-            1.0000000000000027,
-            0.9999999999999937
+            1.0000000000000004,
+            0.9999999999999938
           ],
           "pass_check": true
         },
         {
           "part": "control frame 0 fixture 1 pin 3",
           "socket_wall_fraction": [
-            0.9999999999999998,
-            0.9999999999999998,
-            1.0000000000000004,
-            1.0000000000000033
+            0.9999999999999997,
+            0.9999999999999997,
+            0.9999999999999991,
+            1.0000000000000044
           ],
           "pass_check": true
         },
         {
           "part": "control frame 0 fixture 1 pin 4",
           "socket_wall_fraction": [
+            0.9999999999999994,
             0.9999999999999997,
-            0.9999999999999997,
-            1.0000000000000027,
-            1.000000000000005
+            0.9999999999999981,
+            0.9999999999999993
           ],
           "pass_check": true
         }
@@ -545,7 +678,7 @@
         {
           "part": "control frame 0 fixture 2 pin 3",
           "centre_mm": [
-            -143.0,
+            -137.0,
             48.3,
             -77.0
           ]
@@ -555,14 +688,17 @@
           "centre_mm": [
             -169.0,
             48.3,
-            -87.0
+            -81.0
           ]
         }
       ],
       "fastener_spacing_mm": 92.28217596047462,
       "interface_y_mm": 48.3,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 48.5,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
@@ -570,8 +706,8 @@
           "socket_wall_fraction": [
             1.0,
             1.0000000000000002,
-            0.999999999999999,
-            0.9999999999999921
+            1.0000000000000024,
+            0.9999999999999943
           ],
           "pass_check": true
         },
@@ -580,8 +716,8 @@
           "socket_wall_fraction": [
             1.0,
             1.0000000000000002,
-            1.0000000000000018,
-            0.9999999999999941
+            1.0000000000000002,
+            0.9999999999999937
           ],
           "pass_check": true
         },
@@ -589,19 +725,19 @@
           "part": "control frame 0 fixture 2 pin 3",
           "socket_wall_fraction": [
             1.0,
-            1.0000000000000002,
-            1.000000000000003,
-            0.999999999999993
+            0.9999999999999998,
+            1.000000000000002,
+            0.9999999999999958
           ],
           "pass_check": true
         },
         {
           "part": "control frame 0 fixture 2 pin 4",
           "socket_wall_fraction": [
-            1.0000000000000002,
             1.0000000000000004,
-            1.000000000000004,
-            0.9999999999999944
+            1.0000000000000004,
+            1.0000000000000058,
+            0.9999999999999984
           ],
           "pass_check": true
         }
@@ -623,16 +759,19 @@
         {
           "part": "control frame 0 fixture 3 pin 2",
           "centre_mm": [
-            -115.0,
+            -117.0,
             48.3,
             -137.0
           ]
         }
       ],
-      "fastener_spacing_mm": 54.147945482723536,
+      "fastener_spacing_mm": 52.15361924162119,
       "interface_y_mm": 48.3,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 48.5,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0,
       "mount_checks": [
         {
@@ -640,18 +779,18 @@
           "socket_wall_fraction": [
             1.0000000000000004,
             1.0000000000000004,
-            1.000000000000003,
-            1.0000000000000024
+            1.0000000000000002,
+            1.000000000000005
           ],
           "pass_check": true
         },
         {
           "part": "control frame 0 fixture 3 pin 2",
           "socket_wall_fraction": [
-            0.9999999999999998,
             1.0,
-            1.0000000000000004,
-            1.0000000000000004
+            1.0,
+            0.9999999999999941,
+            0.9999999999999973
           ],
           "pass_check": true
         }
@@ -687,7 +826,7 @@
     ],
     "pass_check": true
   },
-  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
   "removable_bearing_cheeks": [
     {
       "component": "master Front bearing cheek",
@@ -698,7 +837,7 @@
           "pin": "master cheek joining pin 28.4",
           "socket_wall_fraction": [
             1.0000000000000002,
-            1.0000000000000002
+            1.0
           ],
           "pass_check": true
         },
@@ -730,7 +869,7 @@
           "pin": "slave cheek joining pin 35.6",
           "socket_wall_fraction": [
             0.9999999999999991,
-            0.9999999999999991
+            0.9999999999999993
           ],
           "pass_check": true
         }
@@ -778,7 +917,7 @@
           "pin": "Control write cheek joining pin 35.6",
           "socket_wall_fraction": [
             0.9999999999999997,
-            0.9999999999999997
+            0.9999999999999994
           ],
           "pass_check": true
         }
@@ -1599,6 +1738,1020 @@
     }
   ],
   "unassigned_fixed_components": [],
+  "revision_connections": {
+    "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+    "connections": [
+      {
+        "part": "bit clock rod guide cap -22",
+        "host": "bit frame 0 removable fixture 0",
+        "module": "bit",
+        "control": "clock",
+        "guide_centre_mm": [
+          -116,
+          10,
+          -22
+        ],
+        "guide_half_length_mm": 3,
+        "pins": [
+          {
+            "part": "bit clock rod guide cap -22 friction pin 1",
+            "centre_mm": [
+              -129.5,
+              9.6,
+              -20.0
+            ]
+          },
+          {
+            "part": "bit clock rod guide cap -22 friction pin 2",
+            "centre_mm": [
+              -129.5,
+              9.6,
+              -6.0
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 1.8000000000000007,
+        "seating_face_mm": 9.4,
+        "pin_interface_mm": 9.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "bit clock rod guide cap -22 friction pin 1",
+            "socket_fractions": [
+              [
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "bit clock rod guide cap -22 friction pin 2",
+            "socket_fractions": [
+              [
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000002
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 14.0,
+        "pass_check": true
+      },
+      {
+        "part": "bit clock rod guide cap 21.5",
+        "host": "bit frame 0 removable fixture 2",
+        "module": "bit",
+        "control": "clock",
+        "guide_centre_mm": [
+          -116,
+          10,
+          21.5
+        ],
+        "guide_half_length_mm": 2,
+        "pins": [
+          {
+            "part": "bit clock rod guide cap 21.5 friction pin 1",
+            "centre_mm": [
+              -129.5,
+              9.6,
+              21.5
+            ]
+          },
+          {
+            "part": "bit clock rod guide cap 21.5 friction pin 2",
+            "centre_mm": [
+              -129.5,
+              9.6,
+              35.5
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 1.8000000000000007,
+        "seating_face_mm": 9.4,
+        "pin_interface_mm": 9.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "bit clock rod guide cap 21.5 friction pin 1",
+            "socket_fractions": [
+              [
+                0.9999999999999993,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999993
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "bit clock rod guide cap 21.5 friction pin 2",
+            "socket_fractions": [
+              [
+                0.9999999999999997,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999997
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 14.0,
+        "pass_check": true
+      },
+      {
+        "part": "bit write rod guide cap -12",
+        "host": "bit frame 0 removable fixture 0",
+        "module": "bit",
+        "control": "write",
+        "guide_centre_mm": [
+          -128,
+          26,
+          -12
+        ],
+        "guide_half_length_mm": 5,
+        "pins": [
+          {
+            "part": "bit write rod guide cap -12 friction pin 1",
+            "centre_mm": [
+              -136.5,
+              25.6,
+              -25.5
+            ]
+          },
+          {
+            "part": "bit write rod guide cap -12 friction pin 2",
+            "centre_mm": [
+              -136.5,
+              25.6,
+              -11.5
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 17.8,
+        "seating_face_mm": 25.4,
+        "pin_interface_mm": 25.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "bit write rod guide cap -12 friction pin 1",
+            "socket_fractions": [
+              [
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "bit write rod guide cap -12 friction pin 2",
+            "socket_fractions": [
+              [
+                0.9999999999999998,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999998
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 14.0,
+        "pass_check": true
+      },
+      {
+        "part": "bit write rod guide cap 32",
+        "host": "bit frame 0 removable fixture 2",
+        "module": "bit",
+        "control": "write",
+        "guide_centre_mm": [
+          -128,
+          26,
+          32
+        ],
+        "guide_half_length_mm": 5,
+        "pins": [
+          {
+            "part": "bit write rod guide cap 32 friction pin 1",
+            "centre_mm": [
+              -136.5,
+              25.6,
+              28.0
+            ]
+          },
+          {
+            "part": "bit write rod guide cap 32 friction pin 2",
+            "centre_mm": [
+              -136.5,
+              25.6,
+              42.0
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 17.8,
+        "seating_face_mm": 25.4,
+        "pin_interface_mm": 25.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "bit write rod guide cap 32 friction pin 1",
+            "socket_fractions": [
+              [
+                1.0000000000000004,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000002
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "bit write rod guide cap 32 friction pin 2",
+            "socket_fractions": [
+              [
+                1.0000000000000002,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000002
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 14.0,
+        "pass_check": true
+      },
+      {
+        "part": "control clock rod guide cap -132",
+        "host": "control frame 0 removable fixture 3",
+        "module": "control",
+        "control": "clock",
+        "guide_centre_mm": [
+          -116,
+          10,
+          -132
+        ],
+        "guide_half_length_mm": 2,
+        "pins": [
+          {
+            "part": "control clock rod guide cap -132 friction pin 1",
+            "centre_mm": [
+              -100.5,
+              9.6,
+              -130.0
+            ]
+          },
+          {
+            "part": "control clock rod guide cap -132 friction pin 2",
+            "centre_mm": [
+              -100.5,
+              9.6,
+              -116.0
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 1.8000000000000007,
+        "seating_face_mm": 9.4,
+        "pin_interface_mm": 9.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "control clock rod guide cap -132 friction pin 1",
+            "socket_fractions": [
+              [
+                1.0000000000000002,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000002
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "control clock rod guide cap -132 friction pin 2",
+            "socket_fractions": [
+              [
+                1.0000000000000004,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000004
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 14.0,
+        "pass_check": true
+      },
+      {
+        "part": "control clock rod guide cap -72",
+        "host": "control frame 0 removable fixture 2",
+        "module": "control",
+        "control": "clock",
+        "guide_centre_mm": [
+          -116,
+          10,
+          -72
+        ],
+        "guide_half_length_mm": 2,
+        "pins": [
+          {
+            "part": "control clock rod guide cap -72 friction pin 1",
+            "centre_mm": [
+              -100.5,
+              9.6,
+              -90.0
+            ]
+          },
+          {
+            "part": "control clock rod guide cap -72 friction pin 2",
+            "centre_mm": [
+              -100.5,
+              9.6,
+              -76.0
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 1.8000000000000007,
+        "seating_face_mm": 9.4,
+        "pin_interface_mm": 9.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "control clock rod guide cap -72 friction pin 1",
+            "socket_fractions": [
+              [
+                1.0000000000000009,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000007
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "control clock rod guide cap -72 friction pin 2",
+            "socket_fractions": [
+              [
+                1.0000000000000007,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000004
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 14.0,
+        "pass_check": true
+      },
+      {
+        "part": "control write rod guide cap -204",
+        "host": "control frame 0 removable fixture 1",
+        "module": "control",
+        "control": "write",
+        "guide_centre_mm": [
+          -128,
+          26,
+          -204
+        ],
+        "guide_half_length_mm": 2,
+        "pins": [
+          {
+            "part": "control write rod guide cap -204 friction pin 1",
+            "centre_mm": [
+              -112.5,
+              25.6,
+              -202.0
+            ]
+          },
+          {
+            "part": "control write rod guide cap -204 friction pin 2",
+            "centre_mm": [
+              -112.5,
+              25.6,
+              -188.0
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 17.8,
+        "seating_face_mm": 25.4,
+        "pin_interface_mm": 25.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "control write rod guide cap -204 friction pin 1",
+            "socket_fractions": [
+              [
+                0.9999999999999998,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999998
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "control write rod guide cap -204 friction pin 2",
+            "socket_fractions": [
+              [
+                0.9999999999999997,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999997
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 14.0,
+        "pass_check": true
+      },
+      {
+        "part": "control write rod guide cap -140",
+        "host": "control frame 0 removable fixture 3",
+        "module": "control",
+        "control": "write",
+        "guide_centre_mm": [
+          -128,
+          26,
+          -140
+        ],
+        "guide_half_length_mm": 2,
+        "pins": [
+          {
+            "part": "control write rod guide cap -140 friction pin 1",
+            "centre_mm": [
+              -112.5,
+              25.6,
+              -163.0
+            ]
+          },
+          {
+            "part": "control write rod guide cap -140 friction pin 2",
+            "centre_mm": [
+              -112.5,
+              25.6,
+              -137.0
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 17.8,
+        "seating_face_mm": 25.4,
+        "pin_interface_mm": 25.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "control write rod guide cap -140 friction pin 1",
+            "socket_fractions": [
+              [
+                1.0000000000000004,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000004
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "control write rod guide cap -140 friction pin 2",
+            "socket_fractions": [
+              [
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 26.0,
+        "pass_check": true
+      },
+      {
+        "part": "control write rod guide cap -72",
+        "host": "control frame 0 removable fixture 2",
+        "module": "control",
+        "control": "write",
+        "guide_centre_mm": [
+          -128,
+          26,
+          -72
+        ],
+        "guide_half_length_mm": 2,
+        "pins": [
+          {
+            "part": "control write rod guide cap -72 friction pin 1",
+            "centre_mm": [
+              -141.5,
+              25.6,
+              -76.0
+            ]
+          },
+          {
+            "part": "control write rod guide cap -72 friction pin 2",
+            "centre_mm": [
+              -141.5,
+              25.6,
+              -54.0
+            ]
+          }
+        ],
+        "axis": "Y",
+        "print_up_sign": 1,
+        "bed_plane_mm": 17.8,
+        "seating_face_mm": 25.4,
+        "pin_interface_mm": 25.6,
+        "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves.",
+        "socket_checks": [
+          {
+            "pin": "control write rod guide cap -72 friction pin 1",
+            "socket_fractions": [
+              [
+                1.0000000000000004,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000004
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "control write rod guide cap -72 friction pin 2",
+            "socket_fractions": [
+              [
+                0.9999999999999997,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999997
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 22.0,
+        "pass_check": true
+      },
+      {
+        "part": "master removable rear bearing cheek",
+        "host": "bit frame 0 removable fixture 4",
+        "additional_hosts": [
+          "master Front bearing cheek"
+        ],
+        "pins": [
+          {
+            "part": "master cheek joining pin 28.4",
+            "centre_mm": [
+              -24.0,
+              13.8,
+              28.4
+            ],
+            "axis": 1,
+            "engagement_intervals_mm": [
+              [
+                12.0,
+                18.1
+              ],
+              [
+                19.3,
+                25.3
+              ]
+            ]
+          },
+          {
+            "part": "master cheek joining pin 35.6",
+            "centre_mm": [
+              -24.0,
+              13.8,
+              35.6
+            ],
+            "axis": 1,
+            "engagement_intervals_mm": [
+              [
+                12.0,
+                18.1
+              ],
+              [
+                19.3,
+                25.3
+              ]
+            ]
+          }
+        ],
+        "print_axis": 1,
+        "print_up_sign": -1,
+        "bed_plane_mm": 18.6,
+        "assembly": "Seat rear cheek on carrier. Insert long ends of two 3L pins into rear cheek and carrier; then press front cheek onto exposed short ends. Central collars remain between front and rear cheeks.",
+        "socket_checks": [
+          {
+            "pin": "master cheek joining pin 28.4",
+            "socket_fractions": [
+              [
+                0.9999999999999998,
+                0.0
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "master cheek joining pin 35.6",
+            "socket_fractions": [
+              [
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999998
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 7.200000000000003,
+        "pass_check": true
+      },
+      {
+        "part": "slave removable rear bearing cheek",
+        "host": "bit frame 1 removable fixture 0",
+        "additional_hosts": [
+          "slave Front bearing cheek"
+        ],
+        "pins": [
+          {
+            "part": "slave cheek joining pin 28.4",
+            "centre_mm": [
+              82.0,
+              13.8,
+              28.4
+            ],
+            "axis": 1,
+            "engagement_intervals_mm": [
+              [
+                12.0,
+                18.1
+              ],
+              [
+                19.3,
+                25.3
+              ]
+            ]
+          },
+          {
+            "part": "slave cheek joining pin 35.6",
+            "centre_mm": [
+              82.0,
+              13.8,
+              35.6
+            ],
+            "axis": 1,
+            "engagement_intervals_mm": [
+              [
+                12.0,
+                18.1
+              ],
+              [
+                19.3,
+                25.3
+              ]
+            ]
+          }
+        ],
+        "print_axis": 1,
+        "print_up_sign": -1,
+        "bed_plane_mm": 18.6,
+        "assembly": "Seat rear cheek on carrier. Insert long ends of two 3L pins into rear cheek and carrier; then press front cheek onto exposed short ends. Central collars remain between front and rear cheeks.",
+        "socket_checks": [
+          {
+            "pin": "slave cheek joining pin 28.4",
+            "socket_fractions": [
+              [
+                0.9999999999999997,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000002
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "slave cheek joining pin 35.6",
+            "socket_fractions": [
+              [
+                0.9999999999999994,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999993
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 7.200000000000003,
+        "pass_check": true
+      },
+      {
+        "part": "Control clock removable rear bearing cheek",
+        "host": "control frame 0 removable fixture 2",
+        "additional_hosts": [
+          "Control clock Front bearing cheek"
+        ],
+        "pins": [
+          {
+            "part": "Control clock cheek joining pin 28.4",
+            "centre_mm": [
+              -144.4,
+              9.8,
+              -128.0
+            ],
+            "axis": 1,
+            "engagement_intervals_mm": [
+              [
+                8.0,
+                14.100000000000001
+              ],
+              [
+                15.3,
+                21.3
+              ]
+            ]
+          },
+          {
+            "part": "Control clock cheek joining pin 35.6",
+            "centre_mm": [
+              -151.6,
+              9.8,
+              -128.0
+            ],
+            "axis": 1,
+            "engagement_intervals_mm": [
+              [
+                8.0,
+                14.100000000000001
+              ],
+              [
+                15.3,
+                21.3
+              ]
+            ]
+          }
+        ],
+        "print_axis": 1,
+        "print_up_sign": -1,
+        "bed_plane_mm": 14.600000000000001,
+        "assembly": "Seat rear cheek on carrier. Insert long ends of two 3L pins into rear cheek and carrier; then press front cheek onto exposed short ends. Central collars remain between front and rear cheeks.",
+        "socket_checks": [
+          {
+            "pin": "Control clock cheek joining pin 28.4",
+            "socket_fractions": [
+              [
+                0.9999999999999984,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999997
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "Control clock cheek joining pin 35.6",
+            "socket_fractions": [
+              [
+                0.999999999999999,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999998
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 7.199999999999989,
+        "pass_check": true
+      },
+      {
+        "part": "Control write removable rear bearing cheek",
+        "host": "control frame 0 removable fixture 0",
+        "additional_hosts": [
+          "Control write Front bearing cheek"
+        ],
+        "pins": [
+          {
+            "part": "Control write cheek joining pin 28.4",
+            "centre_mm": [
+              -148.4,
+              1.8000000000000007,
+              -208.0
+            ],
+            "axis": 1,
+            "engagement_intervals_mm": [
+              [
+                0.0,
+                6.100000000000001
+              ],
+              [
+                7.300000000000001,
+                13.3
+              ]
+            ]
+          },
+          {
+            "part": "Control write cheek joining pin 35.6",
+            "centre_mm": [
+              -155.6,
+              1.8000000000000007,
+              -208.0
+            ],
+            "axis": 1,
+            "engagement_intervals_mm": [
+              [
+                0.0,
+                6.100000000000001
+              ],
+              [
+                7.300000000000001,
+                13.3
+              ]
+            ]
+          }
+        ],
+        "print_axis": 1,
+        "print_up_sign": -1,
+        "bed_plane_mm": 6.600000000000001,
+        "assembly": "Seat rear cheek on carrier. Insert long ends of two 3L pins into rear cheek and carrier; then press front cheek onto exposed short ends. Central collars remain between front and rear cheeks.",
+        "socket_checks": [
+          {
+            "pin": "Control write cheek joining pin 28.4",
+            "socket_fractions": [
+              [
+                1.0000000000000004,
+                0.0
+              ],
+              [
+                0.0,
+                1.0000000000000002
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "Control write cheek joining pin 35.6",
+            "socket_fractions": [
+              [
+                0.9999999999999998,
+                0.0
+              ],
+              [
+                0.0,
+                0.9999999999999994
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 7.199999999999989,
+        "pass_check": true
+      },
+      {
+        "part": "Control WRITE detachable bearing shoe",
+        "host": "Control WRITE direct rod and pickup",
+        "pins": [
+          {
+            "part": "Control WRITE bearing shoe friction pin 1",
+            "centre_mm": [
+              -151.0,
+              25.8,
+              -171.0
+            ],
+            "axis": 1
+          },
+          {
+            "part": "Control WRITE bearing shoe friction pin 2",
+            "centre_mm": [
+              -139.6,
+              25.8,
+              -171.0
+            ],
+            "axis": 1
+          }
+        ],
+        "print_axis": 2,
+        "print_up_sign": 1,
+        "bed_plane_mm": -176,
+        "assembly": "Insert both pins into bearing shoe from +Y; press rod plate onto exposed halves. Attach bearing shoe to carriage before closing rod guide caps.",
+        "socket_checks": [
+          {
+            "pin": "Control WRITE bearing shoe friction pin 1",
+            "socket_fractions": [
+              [
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ],
+            "pass_check": true
+          },
+          {
+            "pin": "Control WRITE bearing shoe friction pin 2",
+            "socket_fractions": [
+              [
+                1.0000000000000002,
+                0.0
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ],
+            "pass_check": true
+          }
+        ],
+        "min_pin_spacing_mm": 11.400000000000006,
+        "pass_check": true
+      }
+    ],
+    "connection_pass": true,
+    "scope": "Verify actual paired pin socket material at detachable manufacturing joints.",
+    "limitations": [
+      "Socket material and pin count are checked; insertion paths and print orientation are checked separately."
+    ]
+  },
   "attachment_pass": true,
   "limitations": [
     "Checks attachment geometry, not pin-fit stiffness, layer adhesion or loaded deflection.",

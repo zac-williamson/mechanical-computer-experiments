@@ -1,16 +1,16 @@
 {
-  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
   "scope": "Geometric mass proxy and force-path audit; not measured actuation force.",
   "moving_printed_material": {
     "bit": {
       "before_printed_moving_volume_mm3": 68940.38455003541,
-      "after_printed_moving_volume_mm3": 67557.73302577673,
-      "reduction_percent": 2.005575590103037
+      "after_printed_moving_volume_mm3": 67543.24952027027,
+      "reduction_percent": 2.0265843291766505
     },
     "control": {
       "before_printed_moving_volume_mm3": 52599.21241279709,
-      "after_printed_moving_volume_mm3": 37952.38303585106,
-      "reduction_percent": 27.84610016971003
+      "after_printed_moving_volume_mm3": 40273.04219101055,
+      "reduction_percent": 23.434134574204478
     }
   },
   "parts": {
@@ -97,22 +97,22 @@
     "bit clock vertical control rod": {
       "module": "bit",
       "motion": "control-rod",
-      "volume_mm3": 5148.899583716814
+      "volume_mm3": 5141.657830963591
     },
     "clock pinned rod splice bridge": {
       "module": "coupler",
       "motion": "control-rod",
-      "volume_mm3": 2351.133308332884
+      "volume_mm3": 2336.649802826414
     },
     "bit write vertical control rod": {
       "module": "bit",
       "motion": "control-rod",
-      "volume_mm3": 5148.899583716819
+      "volume_mm3": 5141.657830963585
     },
     "write pinned rod splice bridge": {
       "module": "coupler",
       "motion": "control-rod",
-      "volume_mm3": 2351.133308332879
+      "volume_mm3": 2336.649802826399
     },
     "master Front bearing cheek": {
       "module": "bit",
@@ -152,7 +152,7 @@
     "Control CLOCK direct rod and pickup": {
       "module": "control",
       "motion": "crosshead",
-      "volume_mm3": 6610.352441817609
+      "volume_mm3": 6603.110689064386
     },
     "Control Clock amplifier front and input shoe": {
       "module": "control",
@@ -177,7 +177,7 @@
     "Control WRITE direct rod and pickup": {
       "module": "control",
       "motion": "carriage",
-      "volume_mm3": 8043.57143050203
+      "volume_mm3": 7619.962704239618
     },
     "Control write Front bearing cheek": {
       "module": "control",
@@ -277,72 +277,152 @@
     "bit frame 0 removable fixture 0": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 5712.848987334509
+      "volume_mm3": 8704.875454108638
     },
     "bit frame 0 removable fixture 1": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 1742.7072327872363
+      "volume_mm3": 2336.522930910926
     },
     "bit frame 0 removable fixture 2": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 3967.893176006026
+      "volume_mm3": 6824.747899534662
     },
     "bit frame 0 removable fixture 3": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 15322.594877561272
+      "volume_mm3": 3757.8622530456364
+    },
+    "bit frame 0 removable fixture 4": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2305.4304835638627
+    },
+    "bit frame 0 removable fixture 5": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 6946.748596000488
     },
     "bit coordinated chassis 0": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 56440.16581451532
+      "volume_mm3": 61034.893759379156
     },
     "bit frame 1 removable fixture 0": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 5487.208829027336
+      "volume_mm3": 2814.401193211859
     },
     "bit frame 1 removable fixture 1": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 3260.323448421935
+      "volume_mm3": 3485.622351744165
     },
     "bit frame 1 removable fixture 2": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 6372.383884253191
+      "volume_mm3": 7000.926011249193
     },
     "bit coordinated chassis 1": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 45426.760716713674
+      "volume_mm3": 44907.288632557524
     },
     "control frame 0 removable fixture 0": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 6931.272322525309
+      "volume_mm3": 4840.336121162159
     },
     "control frame 0 removable fixture 1": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 6473.556347329112
+      "volume_mm3": 8707.849628039958
     },
     "control frame 0 removable fixture 2": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 14894.263121745835
+      "volume_mm3": 16270.013684180672
     },
     "control frame 0 removable fixture 3": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 2305.4391878678507
+      "volume_mm3": 5691.4567938585815
     },
     "control coordinated chassis 0": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 39489.614943986046
+      "volume_mm3": 41490.35618074701
+    },
+    "master removable rear bearing cheek": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2740.9481351818436
+    },
+    "slave removable rear bearing cheek": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2718.619320334157
+    },
+    "Control clock removable rear bearing cheek": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2644.2871501604677
+    },
+    "Control write removable rear bearing cheek": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2719.3647597291274
+    },
+    "Control WRITE detachable bearing shoe": {
+      "module": "control",
+      "motion": "carriage",
+      "volume_mm3": 2751.5096341751246
+    },
+    "bit clock rod guide cap -22": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2511.5273758513345
+    },
+    "bit clock rod guide cap 21.5": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2351.042646915726
+    },
+    "bit write rod guide cap -12": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2115.4184799203413
+    },
+    "bit write rod guide cap 32": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 2057.7974385266457
+    },
+    "control clock rod guide cap -132": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2580.145359884853
+    },
+    "control clock rod guide cap -72": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2644.3285040504657
+    },
+    "control write rod guide cap -204": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2580.145359884848
+    },
+    "control write rod guide cap -140": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 3019.066021775618
+    },
+    "control write rod guide cap -72": {
+      "module": "control",
+      "motion": "fixed",
+      "volume_mm3": 2409.7668010177526
     }
   },
   "controller_direction_bellcranks_before": 2,

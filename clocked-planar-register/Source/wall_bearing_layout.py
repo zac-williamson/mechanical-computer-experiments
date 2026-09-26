@@ -38,20 +38,20 @@ def rebuild_bearings(g):
    for component in clipped.decompose():
     if component.volume()<.001:continue
     mm=component.to_mesh64();vv=mm.vert_properties[:,:3][mm.tri_verts].reshape(-1,3)
-    scene.append((dict(p,kind='working_clearance'),vv))
+    scene.append((dict(p,kind='working_clearance'),vv,[np.eye(4)],vv.min(0),vv.max(0)))
    continue
-  seen=set();vs=[];centre=(a.min(0)+a.max(0))/2
+  seen=set();matrices=[];centre=(a.min(0)+a.max(0))/2;lo=a.min(0);hi=a.max(0)
   for f in frames:
    tf=transform(p,f)
    if p['kind']=='native':
-    delta=tf[:3,:3]@centre+tf[:3,3]-centre;key=tuple(np.round(delta,5))
-    if key in seen:continue
-    seen.add(key);vs.append(a+delta)
-   else:
-    key=tuple(np.round(tf.ravel(),5))
-    if key in seen:continue
-    seen.add(key);vs.append(vertices(p,a,f))
-  scene.append((p,np.concatenate(vs)))
+    delta=tf[:3,:3]@centre+tf[:3,3]-centre;key=tuple(np.round(delta,5));matrix=np.eye(4);matrix[:3,3]=delta
+   else:key=tuple(np.round(tf.ravel(),5));matrix=tf
+   if key in seen:continue
+   seen.add(key);matrices.append(matrix)
+  lows=[];highs=[]
+  for matrix in matrices:
+   moved=a@matrix[:3,:3].T+matrix[:3,3];lows.append(moved.min(0));highs.append(moved.max(0))
+  scene.append((p,a,matrices,np.min(lows,axis=0),np.max(highs,axis=0)))
  reports=[];planned=[];retention=[];plate_sections={}
  for name,names,targets in schedule:
   ids=[next(i for i,p in enumerate(P) if p['id']==n) for n in names]
@@ -61,20 +61,24 @@ def rebuild_bearings(g):
   anchors=[-28,40,56] if module=='bit' else [-164,-108]
   def cross_obstacles(t,half):
    shapes=[];shape_names=[]
-   for p,a in scene:
+   for p,base,matrices,lo,hi in scene:
     if p['module'] not in [module,'coupler'] or p['id'] in names:continue
-    lo=a.min(0);hi=a.max(0)
     if lo[axis]>=t+half+.15 or hi[axis]<=t-half-.15:continue
-    # Projection of triangles intersecting this slab; conservative around edges.
-    tri=a.reshape(-1,3,3);ok=(tri[:,:,axis].min(1)<t+half+.15)&(tri[:,:,axis].max(1)>t-half-.15)
-    tri=tri[ok];flat=tri.reshape(-1,3)
-    inside=flat[(flat[:,axis]>=t-half-.15)&(flat[:,axis]<=t+half+.15)]
-    edges=np.concatenate([tri[:,[0,1]],tri[:,[1,2]],tri[:,[2,0]]]);dd=edges[:,1,axis]-edges[:,0,axis];edges=edges[abs(dd)>1e-9];dd=edges[:,1,axis]-edges[:,0,axis]
-    clips=[inside]
-    for plane in [t-half-.15,t+half+.15]:
-     frac=(plane-edges[:,0,axis])/dd;valid=(frac>=0)&(frac<=1)
-     clips.append(edges[valid,0]+frac[valid,None]*(edges[valid,1]-edges[valid,0]))
-    clipped=np.concatenate(clips);pts=clipped[:,cross]
+    # Stream poses: retaining all transformed triangle arrays caused excessive RAM use.
+    projected=[]
+    for matrix in matrices:
+     a=base@matrix[:3,:3].T+matrix[:3,3]
+     tri=a.reshape(-1,3,3);ok=(tri[:,:,axis].min(1)<t+half+.15)&(tri[:,:,axis].max(1)>t-half-.15)
+     tri=tri[ok]
+     if not len(tri):continue
+     flat=tri.reshape(-1,3);inside=flat[(flat[:,axis]>=t-half-.15)&(flat[:,axis]<=t+half+.15)]
+     edges=np.concatenate([tri[:,[0,1]],tri[:,[1,2]],tri[:,[2,0]]]);dd=edges[:,1,axis]-edges[:,0,axis];edges=edges[abs(dd)>1e-9];dd=edges[:,1,axis]-edges[:,0,axis]
+     clips=[inside]
+     for plane in [t-half-.15,t+half+.15]:
+      frac=(plane-edges[:,0,axis])/dd;valid=(frac>=0)&(frac<=1)
+      clips.append(edges[valid,0]+frac[valid,None]*(edges[valid,1]-edges[valid,0]))
+     projected.append(np.concatenate(clips)[:,cross])
+    pts=np.concatenate(projected) if projected else np.empty((0,2))
     if not len(pts):continue
     shape=MultiPoint(np.unique(np.round(pts,5),axis=0)).convex_hull
     if p['kind']=='native':

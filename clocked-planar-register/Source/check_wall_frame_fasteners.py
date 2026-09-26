@@ -1,6 +1,7 @@
 """Screen fixture and rod-splice friction pins against other hardware and parts."""
 from pathlib import Path
 import json,hashlib
+from collections import OrderedDict
 import numpy as np,trimesh,manifold3d as m
 from wall_pose import joint,transform
 from wall_flat_frame import native_envelope
@@ -11,6 +12,10 @@ fixtures=json.loads((O/'Frame fixture schedule.json').read_text())['fixtures']
 hosts={f['part']:{e['part'],e['frame']} for e in fixtures for f in e['fasteners']}
 for key in ['clock','write']:
  for i in [1,2]:hosts[key+' rod coupler friction pin '+str(i)]={key+' pinned rod splice bridge',('Control '+key.upper()+' direct rod and pickup') if i==1 else ('bit '+key+' vertical control rod')}
+from wall_extra_connections import extra_connections
+extras=extra_connections(O)
+for e in extras:
+ for pin in e['pins']:hosts[pin['part']]={e['part'],e['host']}|set(e.get('additional_hosts',[]))
 def solid(a):
  t=trimesh.Trimesh(a,np.arange(len(a)).reshape(-1,3),process=True);return m.Manifold(m.Mesh64(t.vertices.astype(float),t.faces.astype(np.uint64)))
 scene=[]
@@ -20,9 +25,9 @@ for p in P:
  ss=native_envelope(p,a,joint,frames[0]) if p['kind']=='native' else solid(a)
  scene.append((p,ss,np.array(ss.bounding_box()).reshape(2,3)))
 pins=[entry for entry in scene if entry[0]['id'] in hosts]
-assert len(pins)==sum(len(e['fasteners']) for e in fixtures)+4 and all(p.get('lego_part')=='2780' for p,s,b in pins)
+assert len(pins)==len(hosts) and all(p.get('lego_part') in ['2780','6558'] for p,s,b in pins)
 assert not any('M3' in p.get('hardware','') or 'screw' in p['id'].lower() for p in P)
-hits={};seen=set();pose_cache={};seen_frames=set();count=0
+hits={};seen=set();pose_cache=OrderedDict();seen_frames=set();count=0
 for f in frames:
  moved={}
  for p,s,b in scene:
@@ -30,11 +35,9 @@ for f in frames:
   if p['kind']=='native':
    c=b.mean(0);d=t[:3,:3]@c+t[:3,3]-c;key=tuple(d)
   else:key=tuple(t.ravel())
-  cache_key=(p['id'],key)
-  if cache_key not in pose_cache:
-   ss=s.translate(d) if p['kind']=='native' else s.transform(t[:3])
-   pose_cache[cache_key]=(ss,np.array(ss.bounding_box()).reshape(2,3),key)
-  moved[p['id']]=pose_cache[cache_key]
+  corners=np.array([[x,y,z] for x in b[:,0] for y in b[:,1] for z in b[:,2]])
+  points=corners+d if p['kind']=='native' else corners@t[:3,:3].T+t[:3,3]
+  moved[p['id']]=(None,np.array([points.min(0),points.max(0)]),key)
  frame_key=tuple(moved[p['id']][2] for p,s,b in scene)
  if frame_key in seen_frames:continue
  seen_frames.add(frame_key)
@@ -49,7 +52,18 @@ for f in frames:
    if np.any(np.minimum(pb[1],qb[1])-np.maximum(pb[0],qb[0])<=1e-5):continue
    k=(name,other,pk,qk)
    if k in seen:continue
-   seen.add(k);count+=1;v=(ps^qs).volume()
+   seen.add(k);count+=1
+   def resolve(part,base,key):
+    ck=(part['id'],key)
+    if ck not in pose_cache:
+     pose_cache[ck]=base.translate(key) if part['kind']=='native' else base.transform(np.array(key).reshape(4,4)[:3])
+    pose_cache.move_to_end(ck)
+    result=pose_cache[ck]
+    while len(pose_cache)>24:pose_cache.popitem(last=False)
+    return result
+   ps=resolve(p,next(base for part,base,_ in pins if part['id']==name),pk)
+   qs=resolve(q,s,qk)
+   v=(ps^qs).volume()
    if v>.005:hits[(name,other)]=max(hits.get((name,other),0),v)
 report=dict(geometry_sha256=hashlib.sha256((O/'geometry.npz').read_bytes()).hexdigest(),pins=len(pins),scope=__doc__,narrow_checks=count,collisions=[dict(pin=a,other=b,volume_mm3=v) for (a,b),v in hits.items()],pin_clearance_pass=not hits,exclusions='Only each pin\'s named mating socket parts; nominal friction interference is intentional. All other printed and native hardware tested across 112 cases, 17 samples each.')
 (O/'Frame pin clearance checks.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

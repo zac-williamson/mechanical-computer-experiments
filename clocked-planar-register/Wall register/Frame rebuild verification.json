@@ -1,46 +1,7 @@
 {
-  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
-  "rebuilt_geometry_sha256": "e449c2c4988355944b77449048bc03fd66701d6ad6cd01427c4600589bbf66c8",
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "rebuilt_geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
   "geometry_reproduction_pass": true,
-  "exact_mesh_reproduction_pass": false,
-  "part_count": 323,
-  "triangulation_differences": [
-    {
-      "part": "bit clock vertical control rod",
-      "symmetric_difference_mm3": 0.0,
-      "bounds_difference_mm": 0.0
-    },
-    {
-      "part": "clock pinned rod splice bridge",
-      "symmetric_difference_mm3": 0.0,
-      "bounds_difference_mm": 0.0
-    },
-    {
-      "part": "bit write vertical control rod",
-      "symmetric_difference_mm3": 0.0,
-      "bounds_difference_mm": 0.0
-    },
-    {
-      "part": "write pinned rod splice bridge",
-      "symmetric_difference_mm3": 0.0,
-      "bounds_difference_mm": 0.0
-    },
-    {
-      "part": "Control CLOCK direct rod and pickup",
-      "symmetric_difference_mm3": 0.0,
-      "bounds_difference_mm": 0.0
-    },
-    {
-      "part": "Control WRITE direct rod and pickup",
-      "symmetric_difference_mm3": 6.9200224907335e-08,
-      "bounds_difference_mm": 0.0
-    },
-    {
-      "part": "control removable bearing wall 3",
-      "symmetric_difference_mm3": 0.0,
-      "bounds_difference_mm": 0.0
-    }
-  ],
-  "metadata_differences": [],
-  "scope": "Full wall_register.py rebuild into a separate directory. Part-wise solid difference <=0.001 mm3 and bounds <=0.001 mm; pose metadata identical."
+  "exact_mesh_reproduction_pass": true,
+  "scope": "Independent full source rebuild in an empty temporary directory; exact geometry bytes and all part/pose metadata compared."
 }

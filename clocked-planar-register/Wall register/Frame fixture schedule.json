@@ -9,22 +9,25 @@
           "centre_mm": [
             -118.0,
             38.0,
-            -36.0
+            -34.0
           ]
         },
         {
           "part": "bit frame 0 fixture 0 pin 2",
           "centre_mm": [
-            -96.0,
+            -112.0,
             38.0,
             8.0
           ]
         }
       ],
-      "fastener_spacing_mm": 49.193495504995376,
+      "fastener_spacing_mm": 42.42640687119285,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -36,22 +39,25 @@
           "centre_mm": [
             -62.0,
             38.0,
-            -35.0
+            -3.0
           ]
         },
         {
           "part": "bit frame 0 fixture 1 pin 2",
           "centre_mm": [
-            -56.0,
+            -58.0,
             38.0,
-            -3.0
+            -35.0
           ]
         }
       ],
-      "fastener_spacing_mm": 32.55764119219941,
+      "fastener_spacing_mm": 32.2490309931942,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -77,8 +83,11 @@
       ],
       "fastener_spacing_mm": 44.40720662234904,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -88,24 +97,87 @@
         {
           "part": "bit frame 0 fixture 3 pin 1",
           "centre_mm": [
-            -17.0,
+            -23.0,
             38.0,
-            60.0
+            10.0
           ]
         },
         {
           "part": "bit frame 0 fixture 3 pin 2",
           "centre_mm": [
-            3.0,
+            15.0,
             38.0,
-            -20.0
+            -6.0
           ]
         }
       ],
-      "fastener_spacing_mm": 82.46211251235322,
+      "fastener_spacing_mm": 41.23105625617661,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0
+    },
+    {
+      "part": "bit frame 0 removable fixture 4",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "bit frame 0 fixture 4 pin 1",
+          "centre_mm": [
+            -22.0,
+            38.0,
+            30.0
+          ]
+        },
+        {
+          "part": "bit frame 0 fixture 4 pin 2",
+          "centre_mm": [
+            -10.0,
+            38.0,
+            30.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 12.0,
+      "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0
+    },
+    {
+      "part": "bit frame 0 removable fixture 5",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "bit frame 0 fixture 5 pin 1",
+          "centre_mm": [
+            -19.0,
+            38.0,
+            59.0
+          ]
+        },
+        {
+          "part": "bit frame 0 fixture 5 pin 2",
+          "centre_mm": [
+            3.0,
+            38.0,
+            -15.0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 77.20103626247513,
+      "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -115,24 +187,27 @@
         {
           "part": "bit frame 1 fixture 0 pin 1",
           "centre_mm": [
-            62.0,
+            74.0,
             38.0,
-            60.0
+            40.0
           ]
         },
         {
           "part": "bit frame 1 fixture 0 pin 2",
           "centre_mm": [
-            98.0,
+            96.0,
             38.0,
-            28.0
+            30.0
           ]
         }
       ],
-      "fastener_spacing_mm": 48.16637831516918,
+      "fastener_spacing_mm": 24.166091947189145,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -142,7 +217,7 @@
         {
           "part": "bit frame 1 fixture 1 pin 1",
           "centre_mm": [
-            86.0,
+            88.0,
             38.0,
             -10.0
           ]
@@ -150,16 +225,19 @@
         {
           "part": "bit frame 1 fixture 1 pin 2",
           "centre_mm": [
-            122.0,
+            124.0,
             38.0,
-            32.0
+            10.0
           ]
         }
       ],
-      "fastener_spacing_mm": 55.31726674375732,
+      "fastener_spacing_mm": 41.182520563948,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -169,7 +247,7 @@
         {
           "part": "bit frame 1 fixture 2 pin 1",
           "centre_mm": [
-            89.0,
+            87.0,
             38.0,
             59.0
           ]
@@ -183,10 +261,13 @@
           ]
         }
       ],
-      "fastener_spacing_mm": 77.20103626247513,
+      "fastener_spacing_mm": 77.79460135510689,
       "interface_y_mm": 38.0,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -196,7 +277,7 @@
         {
           "part": "control frame 0 fixture 0 pin 1",
           "centre_mm": [
-            -157.0,
+            -155.0,
             48.3,
             -203.0
           ]
@@ -220,16 +301,19 @@
         {
           "part": "control frame 0 fixture 0 pin 4",
           "centre_mm": [
-            -141.0,
+            -143.0,
             48.3,
-            -197.0
+            -195.0
           ]
         }
       ],
-      "fastener_spacing_mm": 32.802438933713454,
+      "fastener_spacing_mm": 31.240998703626616,
       "interface_y_mm": 48.3,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 48.5,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -239,9 +323,9 @@
         {
           "part": "control frame 0 fixture 1 pin 1",
           "centre_mm": [
-            -169.0,
+            -125.0,
             48.3,
-            -220.0
+            -218.0
           ]
         },
         {
@@ -255,24 +339,27 @@
         {
           "part": "control frame 0 fixture 1 pin 3",
           "centre_mm": [
-            -89.0,
+            -113.0,
             48.3,
-            -214.0
+            -168.0
           ]
         },
         {
           "part": "control frame 0 fixture 1 pin 4",
           "centre_mm": [
-            -113.0,
+            -89.0,
             48.3,
-            -168.0
+            -212.0
           ]
         }
       ],
-      "fastener_spacing_mm": 126.50691680694776,
+      "fastener_spacing_mm": 102.52804494381037,
       "interface_y_mm": 48.3,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 48.5,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -298,7 +385,7 @@
         {
           "part": "control frame 0 fixture 2 pin 3",
           "centre_mm": [
-            -143.0,
+            -137.0,
             48.3,
             -77.0
           ]
@@ -308,14 +395,17 @@
           "centre_mm": [
             -169.0,
             48.3,
-            -87.0
+            -81.0
           ]
         }
       ],
       "fastener_spacing_mm": 92.28217596047462,
       "interface_y_mm": 48.3,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 48.5,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     },
     {
@@ -333,16 +423,19 @@
         {
           "part": "control frame 0 fixture 3 pin 2",
           "centre_mm": [
-            -115.0,
+            -117.0,
             48.3,
             -137.0
           ]
         }
       ],
-      "fastener_spacing_mm": 54.147945482723536,
+      "fastener_spacing_mm": 52.15361924162119,
       "interface_y_mm": 48.3,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
       "seating_plane_y_mm": 48.5,
-      "seating_land_radius_mm": 3.8,
+      "seating_land_radius_mm": 4.8,
       "seating_gap_mm": 0
     }
   ],

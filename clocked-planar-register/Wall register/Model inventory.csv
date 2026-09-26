@@ -49,10 +49,6 @@ slave_gate L097,bit,native,26287,1,8,
 slave_gate L099,bit,native,slave_gate L099,1,8,
 slave_gate L102,bit,native,slave_gate L102,1,8,
 slave_gate B-input,bit,native,94925,1,8,
-master cheek joining pin 28.4,bit,native,2780,1,8,
-master cheek joining pin 35.6,bit,native,2780,1,8,
-slave cheek joining pin 28.4,bit,native,2780,1,8,
-slave cheek joining pin 35.6,bit,native,2780,1,8,
 master lock bolt,bit,printed,,1,8,Development parts/master lock bolt.stl
 master roller axle,bit,native,32062,1,8,
 master roller bush 15.6,bit,native,32123a,1,8,
@@ -163,8 +159,6 @@ Control clock Right carriage bearing support,control,printed,master Right carria
 Control CLK input axle,control,native,3737,1,1,
 Control CLOCK worm retainer,control,native,4265c,1,1,
 Control clock Front bearing cheek,control,printed,,1,1,Development parts/Control clock Front bearing cheek.stl
-Control clock cheek joining pin 28.4,control,native,2780,1,1,
-Control clock cheek joining pin 35.6,control,native,2780,1,1,
 Control CLOCK direct rod and pickup,control,printed,,1,1,Development parts/Control CLOCK direct rod and pickup.stl
 Control Clock amplifier joining pin 35.5,control,native,2780,1,1,
 Control Clock amplifier joining pin 44.5,control,native,2780,1,1,
@@ -194,8 +188,6 @@ Control WRITE input axle,control,native,60485,1,1,
 Control WRITE worm retainer left,control,native,4265c,1,1,
 Control WRITE worm retainer right,control,native,4265c,1,1,
 Control write Front bearing cheek,control,printed,,1,1,Development parts/Control write Front bearing cheek.stl
-Control write cheek joining pin 28.4,control,native,2780,1,1,
-Control write cheek joining pin 35.6,control,native,2780,1,1,
 Control write actuator return band,control,elastic,,1,1,
 M output axial stop 26.8,bit,native,4265c,1,8,
 M output axial stop 37.8,bit,native,4265c,1,8,
@@ -292,6 +284,12 @@ bit frame 0 removable fixture 2,bit,printed,,1,8,Development parts/bit frame 0 r
 bit frame 0 fixture 3 pin 1,bit,native,2780,1,8,
 bit frame 0 fixture 3 pin 2,bit,native,2780,1,8,
 bit frame 0 removable fixture 3,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 3.stl
+bit frame 0 fixture 4 pin 1,bit,native,2780,1,8,
+bit frame 0 fixture 4 pin 2,bit,native,2780,1,8,
+bit frame 0 removable fixture 4,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 4.stl
+bit frame 0 fixture 5 pin 1,bit,native,2780,1,8,
+bit frame 0 fixture 5 pin 2,bit,native,2780,1,8,
+bit frame 0 removable fixture 5,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 5.stl
 bit coordinated chassis 0,bit,printed,,1,8,Development parts/bit coordinated chassis 0.stl
 bit frame 1 fixture 0 pin 1,bit,native,2780,1,8,
 bit frame 1 fixture 0 pin 2,bit,native,2780,1,8,
@@ -322,3 +320,45 @@ control frame 0 fixture 3 pin 1,control,native,2780,1,1,
 control frame 0 fixture 3 pin 2,control,native,2780,1,1,
 control frame 0 removable fixture 3,control,printed,,1,1,Development parts/control frame 0 removable fixture 3.stl
 control coordinated chassis 0,control,printed,,1,1,Development parts/control coordinated chassis 0.stl
+master cheek joining pin 28.4,bit,native,6558,1,8,
+master cheek joining pin 35.6,bit,native,6558,1,8,
+master removable rear bearing cheek,bit,printed,,1,8,Development parts/master removable rear bearing cheek.stl
+slave cheek joining pin 28.4,bit,native,6558,1,8,
+slave cheek joining pin 35.6,bit,native,6558,1,8,
+slave removable rear bearing cheek,bit,printed,,1,8,Development parts/slave removable rear bearing cheek.stl
+Control clock cheek joining pin 28.4,control,native,6558,1,1,
+Control clock cheek joining pin 35.6,control,native,6558,1,1,
+Control clock removable rear bearing cheek,control,printed,,1,1,Development parts/Control clock removable rear bearing cheek.stl
+Control write cheek joining pin 28.4,control,native,6558,1,1,
+Control write cheek joining pin 35.6,control,native,6558,1,1,
+Control write removable rear bearing cheek,control,printed,,1,1,Development parts/Control write removable rear bearing cheek.stl
+Control WRITE detachable bearing shoe,control,printed,write Right carriage bearing support,1,1,Development parts/Control WRITE detachable bearing shoe.stl
+Control WRITE bearing shoe friction pin 1,control,native,2780,1,1,
+Control WRITE bearing shoe friction pin 2,control,native,2780,1,1,
+bit clock rod guide cap -22,bit,printed,,1,8,Development parts/bit clock rod guide cap -22.stl
+bit clock rod guide cap -22 friction pin 1,bit,native,2780,1,8,
+bit clock rod guide cap -22 friction pin 2,bit,native,2780,1,8,
+bit clock rod guide cap 21.5,bit,printed,,1,8,Development parts/bit clock rod guide cap 21.5.stl
+bit clock rod guide cap 21.5 friction pin 1,bit,native,2780,1,8,
+bit clock rod guide cap 21.5 friction pin 2,bit,native,2780,1,8,
+bit write rod guide cap -12,bit,printed,,1,8,Development parts/bit write rod guide cap -12.stl
+bit write rod guide cap -12 friction pin 1,bit,native,2780,1,8,
+bit write rod guide cap -12 friction pin 2,bit,native,2780,1,8,
+bit write rod guide cap 32,bit,printed,,1,8,Development parts/bit write rod guide cap 32.stl
+bit write rod guide cap 32 friction pin 1,bit,native,2780,1,8,
+bit write rod guide cap 32 friction pin 2,bit,native,2780,1,8,
+control clock rod guide cap -132,control,printed,,1,1,Development parts/control clock rod guide cap -132.stl
+control clock rod guide cap -132 friction pin 1,control,native,2780,1,1,
+control clock rod guide cap -132 friction pin 2,control,native,2780,1,1,
+control clock rod guide cap -72,control,printed,,1,1,Development parts/control clock rod guide cap -72.stl
+control clock rod guide cap -72 friction pin 1,control,native,2780,1,1,
+control clock rod guide cap -72 friction pin 2,control,native,2780,1,1,
+control write rod guide cap -204,control,printed,,1,1,Development parts/control write rod guide cap -204.stl
+control write rod guide cap -204 friction pin 1,control,native,2780,1,1,
+control write rod guide cap -204 friction pin 2,control,native,2780,1,1,
+control write rod guide cap -140,control,printed,,1,1,Development parts/control write rod guide cap -140.stl
+control write rod guide cap -140 friction pin 1,control,native,2780,1,1,
+control write rod guide cap -140 friction pin 2,control,native,2780,1,1,
+control write rod guide cap -72,control,printed,,1,1,Development parts/control write rod guide cap -72.stl
+control write rod guide cap -72 friction pin 1,control,native,2780,1,1,
+control write rod guide cap -72 friction pin 2,control,native,2780,1,1,

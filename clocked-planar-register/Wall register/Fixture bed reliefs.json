@@ -1,0 +1,9 @@
+[
+  {
+    "part": "control frame 0 removable fixture 2",
+    "axle": "Control Clock amplifier pivot",
+    "bed_probe_inner_mm": 4.0,
+    "bed_probe_outer_mm": 4.9,
+    "relieved_bore_radius_mm": 3.85
+  }
+]

@@ -1,3 +1,5 @@
+Latest manufacturing changes: [assembly order and print orientations](Wall%20register/Assembly%20and%20print%20revision.md).
+
 Current connections: [LEGO friction pins; no screw connections](Wall%20register/Friction-pin%20connections.md).
 
 Current axle-hole manufacturing review: [bed-face correction and remaining exceptions](Wall%20register/Axle-hole%20printing.md).
@@ -21,7 +23,7 @@ Every geometry report must match the current geometry hash. Historical full-size
 
 ## Modular wall-register candidate
 
-[Open the separate shared-control model](Wall%20register.html) for one, two, four or eight vertically arranged rows. It uses rotated shared CLOCK/WRITE actuators with direct rod outputs, a 16T CLOCK header, coplanar storage stages, roller followers and a coordinated chassis. [Design notes](Wall%20register/Design.md) and [current validation status](Wall%20register/Validation%20status.md) distinguish the passing CAD screens from the remaining mechanical work. The repeated bit is thinner with about 4.6% less face area than the original compact model; row pitch is 112 mm. Controller moving printed volume is about 29% lower than the previous wall candidate. Loaded force and printed strength remain unmeasured; development STLs are not a print release.
+[Open the separate shared-control model](Wall%20register.html) for one, two, four or eight vertically arranged rows. It uses rotated shared CLOCK/WRITE actuators with direct rod outputs, a 16T CLOCK header, coplanar storage stages, roller followers and a coordinated chassis. [Design notes](Wall%20register/Design.md) and [current validation status](Wall%20register/Validation%20status.md) distinguish the passing CAD screens from the remaining mechanical work. The current row pitch is 112 mm; the latest guide keeper projects 6.8 mm beyond the previous left envelope. Current fixture and moving-part volumes are recorded in the force and mass review. Loaded force and printed strength remain unmeasured; development STLs are not a print release.
 
 The wall candidate now uses a shared reversing shaft and a rebuilt shaft-based bearing schedule. See [transmission redesign](Wall%20register/Transmission%20redesign.md). Its eight elastic loops follow their moving anchors in the viewer.
 
@@ -36,3 +38,5 @@ Use the existing `work/register-print-env/bin/python` environment from the works
 5. `publish_compact_motion.py` publishes the animation; `compact_qualification_status.py` reports remaining qualification requirements.
 
 Printed structure, materials, band preload, motor acceleration, joint grip and loaded friction are not established by the nominal motion trace. Do not treat a successful script exit as a working-machine certificate.
+
+For wall-register generation and checks, run each script sequentially through `Source/run_wall_job.py`, using the existing register-print environment. This enforces one geometry worker, low priority, an exclusive job lock and a 1.2 GiB memory guard. Do not launch concurrent geometry jobs. `Source/package_wall_register.py` refuses to package stale or failed required reports.

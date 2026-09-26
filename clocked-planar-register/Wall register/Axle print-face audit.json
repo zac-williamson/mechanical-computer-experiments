@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
   "scope": "Inventory actual axle-bearing parts and check whether their rings start on bed.\n\nThis distinguishes a vertical bore from a bore suspended above the print bed.\nOther overhangs are measured and reported, not waived as bridgeable.\n",
   "moved_retainer_checks": [
     {
@@ -98,10 +98,10 @@
       "connected_solids": 1
     },
     {
-      "part": "bit frame 0 removable fixture 3",
+      "part": "master removable rear bearing cheek",
       "axis": "Y",
-      "sign": 1,
-      "bed_plane_mm": 8.0,
+      "sign": -1,
+      "bed_plane_mm": 18.60001,
       "holes": [
         {
           "axle": "master reaction-stop-axle",
@@ -111,8 +111,8 @@
             7.7,
             24.0
           ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
+          "bed_ring_fraction": 0.9997585548232911,
+          "on_bed": true
         },
         {
           "axle": "master pivot-stop-axle",
@@ -122,14 +122,14 @@
             7.699999999999999,
             32.12844869819761
           ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
+          "bed_ring_fraction": 0.9997545559488953,
+          "on_bed": true
         }
       ],
-      "holes_on_bed": 0,
-      "other_unsupported_area_mm2": 2645.6558453268945,
-      "axle_bed_face_pass": false,
-      "file": null,
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 19.547602546874927,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/master removable rear bearing cheek.stl",
       "assembly_to_print_rotation": [
         [
           0.0,
@@ -138,14 +138,14 @@
           0.0
         ],
         [
-          -1.0,
+          1.0,
           0.0,
           0.0,
           0.0
         ],
         [
           0.0,
-          1.0,
+          -1.0,
           0.0,
           0.0
         ],
@@ -157,9 +157,9 @@
         ]
       ],
       "print_translation_mm": [
-        64.4,
-        34.392323604,
-        -8.0
+        39.4,
+        27.8,
+        18.60001
       ],
       "watertight": true,
       "connected_solids": 1
@@ -455,10 +455,10 @@
       "connected_solids": 1
     },
     {
-      "part": "bit frame 1 removable fixture 0",
+      "part": "slave removable rear bearing cheek",
       "axis": "Y",
-      "sign": 1,
-      "bed_plane_mm": 8.0,
+      "sign": -1,
+      "bed_plane_mm": 18.60001,
       "holes": [
         {
           "axle": "slave reaction-stop-axle",
@@ -468,8 +468,8 @@
             7.7,
             24.0
           ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
+          "bed_ring_fraction": 0.9997586202876924,
+          "on_bed": true
         },
         {
           "axle": "slave pivot-stop-axle",
@@ -479,14 +479,14 @@
             7.699999999999999,
             32.12844869819761
           ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
+          "bed_ring_fraction": 0.9997545573662849,
+          "on_bed": true
         }
       ],
-      "holes_on_bed": 0,
-      "other_unsupported_area_mm2": 906.8584228497359,
-      "axle_bed_face_pass": false,
-      "file": null,
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 30.516846538530622,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/slave removable rear bearing cheek.stl",
       "assembly_to_print_rotation": [
         [
           0.0,
@@ -495,14 +495,14 @@
           0.0
         ],
         [
-          -1.0,
+          1.0,
           0.0,
           0.0,
           0.0
         ],
         [
           0.0,
-          1.0,
+          -1.0,
           0.0,
           0.0
         ],
@@ -514,9 +514,9 @@
         ]
       ],
       "print_translation_mm": [
-        63.8,
-        140.392323604,
-        -8.0
+        39.4,
+        -78.2,
+        18.60001
       ],
       "watertight": true,
       "connected_solids": 1
@@ -1714,7 +1714,7 @@
         }
       ],
       "holes_on_bed": 1,
-      "other_unsupported_area_mm2": 575.4757054815806,
+      "other_unsupported_area_mm2": 789.9651516303048,
       "axle_bed_face_pass": true,
       "file": "Print oriented axle parts/bit frame 0 removable fixture 2.stl",
       "assembly_to_print_rotation": [
@@ -1744,8 +1744,8 @@
         ]
       ],
       "print_translation_mm": [
-        62.8,
-        134.0,
+        63.8,
+        141.8,
         38.2
       ],
       "watertight": true,
@@ -1843,12 +1843,12 @@
             30.0,
             8.0
           ],
-          "bed_ring_fraction": 0.9999999999999983,
+          "bed_ring_fraction": 0.9999999999999972,
           "on_bed": true
         }
       ],
       "holes_on_bed": 1,
-      "other_unsupported_area_mm2": 1090.5808479614336,
+      "other_unsupported_area_mm2": 1277.1603183654274,
       "axle_bed_face_pass": true,
       "file": "Print oriented axle parts/bit frame 0 removable fixture 0.stl",
       "assembly_to_print_rotation": [
@@ -1879,7 +1879,7 @@
       ],
       "print_translation_mm": [
         13.5,
-        134.0,
+        141.8,
         38.2
       ],
       "watertight": true,
@@ -1953,10 +1953,10 @@
       "connected_solids": 1
     },
     {
-      "part": "control frame 0 removable fixture 2",
+      "part": "Control clock removable rear bearing cheek",
       "axis": "Y",
       "sign": -1,
-      "bed_plane_mm": 48.5,
+      "bed_plane_mm": 14.600010000000001,
       "holes": [
         {
           "axle": "Control clock reaction-stop-axle",
@@ -1966,8 +1966,8 @@
             3.7,
             -104.0
           ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
+          "bed_ring_fraction": 0.9997578583741862,
+          "on_bed": true
         },
         {
           "axle": "Control clock pivot-stop-axle",
@@ -1977,25 +1977,14 @@
             3.6999999999999993,
             -90.80767639601133
           ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
-        },
-        {
-          "axle": "Control Clock amplifier pivot",
-          "axis": 1,
-          "centre_mm": [
-            -156.0,
-            34.0,
-            -104.0
-          ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
+          "bed_ring_fraction": 0.999754543139487,
+          "on_bed": true
         }
       ],
-      "holes_on_bed": 0,
-      "other_unsupported_area_mm2": 2961.8393350326587,
-      "axle_bed_face_pass": false,
-      "file": null,
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 12.029293874999937,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control clock removable rear bearing cheek.stl",
       "assembly_to_print_rotation": [
         [
           0.0,
@@ -2023,9 +2012,9 @@
         ]
       ],
       "print_translation_mm": [
-        -65.2,
-        172.8,
-        48.5
+        -72.007676396,
+        155.4,
+        14.600010000000001
       ],
       "watertight": true,
       "connected_solids": 1
@@ -2194,62 +2183,6 @@
         -124.0,
         -0.6999998092651367,
         -88.39999961853027
-      ],
-      "watertight": true,
-      "connected_solids": 1
-    },
-    {
-      "part": "control removable bearing wall 1",
-      "axis": "Z",
-      "sign": 1,
-      "bed_plane_mm": -145.6,
-      "holes": [
-        {
-          "axle": "CLOCK input",
-          "axis": 2,
-          "centre_mm": [
-            -132.0,
-            -9.8,
-            -134.0
-          ],
-          "bed_ring_fraction": 1.0000000000000013,
-          "on_bed": true
-        }
-      ],
-      "holes_on_bed": 1,
-      "other_unsupported_area_mm2": 496.470162291451,
-      "axle_bed_face_pass": true,
-      "file": null,
-      "assembly_to_print_rotation": [
-        [
-          1.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          1.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          1.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ]
-      ],
-      "print_translation_mm": [
-        173.8,
-        14.8,
-        145.6
       ],
       "watertight": true,
       "connected_solids": 1
@@ -2490,6 +2423,120 @@
       "connected_solids": 1
     },
     {
+      "part": "control frame 0 removable fixture 2",
+      "axis": "Y",
+      "sign": -1,
+      "bed_plane_mm": 48.5,
+      "holes": [
+        {
+          "axle": "Control Clock amplifier pivot",
+          "axis": 1,
+          "centre_mm": [
+            -156.0,
+            34.0,
+            -104.0
+          ],
+          "bed_probe_inner_mm": 4.0,
+          "bed_probe_outer_mm": 4.9,
+          "bed_ring_fraction": 1.0000000000000018,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 2698.2592714977814,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/control frame 0 removable fixture 2.stl",
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -48.7,
+        173.8,
+        48.5
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
+      "part": "control removable bearing wall 1",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -145.6,
+      "holes": [
+        {
+          "axle": "CLOCK input",
+          "axis": 2,
+          "centre_mm": [
+            -132.0,
+            -9.8,
+            -134.0
+          ],
+          "bed_ring_fraction": 1.0000000000000013,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 496.470162291451,
+      "axle_bed_face_pass": true,
+      "file": null,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        173.8,
+        14.8,
+        145.6
+      ],
+      "watertight": true,
+      "connected_solids": 1
+    },
+    {
       "part": "Control write Front bearing cheek",
       "axis": "Y",
       "sign": 1,
@@ -2557,10 +2604,10 @@
       "connected_solids": 1
     },
     {
-      "part": "control frame 0 removable fixture 0",
+      "part": "Control write removable rear bearing cheek",
       "axis": "Y",
       "sign": -1,
-      "bed_plane_mm": 48.5,
+      "bed_plane_mm": 6.600010000000001,
       "holes": [
         {
           "axle": "Control write reaction-stop-axle",
@@ -2570,8 +2617,8 @@
             -4.300000000000001,
             -184.0
           ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
+          "bed_ring_fraction": 0.9997580671601816,
+          "on_bed": true
         },
         {
           "axle": "Control write pivot-stop-axle",
@@ -2581,14 +2628,14 @@
             -4.300000000000001,
             -170.80767639601135
           ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
+          "bed_ring_fraction": 0.9997545381974823,
+          "on_bed": true
         }
       ],
-      "holes_on_bed": 0,
-      "other_unsupported_area_mm2": 950.177088184552,
-      "axle_bed_face_pass": false,
-      "file": null,
+      "holes_on_bed": 2,
+      "other_unsupported_area_mm2": 19.547602546874998,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control write removable rear bearing cheek.stl",
       "assembly_to_print_rotation": [
         [
           0.0,
@@ -2617,8 +2664,8 @@
       ],
       "print_translation_mm": [
         -150.607676396,
-        160.8,
-        48.5
+        159.4,
+        6.600010000000001
       ],
       "watertight": true,
       "connected_solids": 1
@@ -2736,62 +2783,6 @@
       "connected_solids": 1
     },
     {
-      "part": "Control WRITE direct rod and pickup",
-      "axis": "Z",
-      "sign": -1,
-      "bed_plane_mm": -48.2,
-      "holes": [
-        {
-          "axle": "Control WRITE input axle",
-          "axis": 2,
-          "centre_mm": [
-            -136.0,
-            -1.8000000000000007,
-            -184.0
-          ],
-          "bed_ring_fraction": 0.0,
-          "on_bed": false
-        }
-      ],
-      "holes_on_bed": 0,
-      "other_unsupported_area_mm2": 294.00826975396296,
-      "axle_bed_face_pass": false,
-      "file": null,
-      "assembly_to_print_rotation": [
-        [
-          -1.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          1.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          -1.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ]
-      ],
-      "print_translation_mm": [
-        -122.8,
-        7.300000190734863,
-        -48.2
-      ],
-      "watertight": true,
-      "connected_solids": 1
-    },
-    {
       "part": "control removable bearing wall 0",
       "axis": "Z",
       "sign": 1,
@@ -2902,16 +2893,66 @@
       ],
       "watertight": true,
       "connected_solids": 1
+    },
+    {
+      "part": "Control WRITE detachable bearing shoe",
+      "axis": "Z",
+      "sign": 1,
+      "bed_plane_mm": -176.0,
+      "holes": [
+        {
+          "axle": "Control WRITE input axle",
+          "axis": 2,
+          "centre_mm": [
+            -136.0,
+            -1.8000000000000007,
+            -184.0
+          ],
+          "bed_ring_fraction": 0.9999999999999686,
+          "on_bed": true
+        }
+      ],
+      "holes_on_bed": 1,
+      "other_unsupported_area_mm2": 272.4511204210244,
+      "axle_bed_face_pass": true,
+      "file": "Print oriented axle parts/Control WRITE detachable bearing shoe.stl",
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        155.8,
+        7.300000190734863,
+        176.0
+      ],
+      "watertight": true,
+      "connected_solids": 1
     }
   ],
-  "all_axle_bed_faces_pass": false,
-  "unresolved_parts": [
-    "bit frame 0 removable fixture 3",
-    "bit frame 1 removable fixture 0",
-    "control frame 0 removable fixture 2",
-    "control frame 0 removable fixture 0",
-    "Control WRITE direct rod and pickup"
-  ],
+  "all_axle_bed_faces_pass": true,
+  "unresolved_parts": [],
   "limitations": [
     "An annular bed-contact screen of detected native-axle interfaces, not an exhaustive hole-feature recognizer.",
     "Vertical holes with bed-supported rings do not imply the rest of a part is support-free. Unsupported surface area is reported separately.",

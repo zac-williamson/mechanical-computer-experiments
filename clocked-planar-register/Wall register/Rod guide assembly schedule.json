@@ -1,0 +1,329 @@
+{
+  "connections": [
+    {
+      "part": "bit clock rod guide cap -22",
+      "host": "bit frame 0 removable fixture 0",
+      "module": "bit",
+      "control": "clock",
+      "guide_centre_mm": [
+        -116,
+        10,
+        -22
+      ],
+      "guide_half_length_mm": 3,
+      "pins": [
+        {
+          "part": "bit clock rod guide cap -22 friction pin 1",
+          "centre_mm": [
+            -129.5,
+            9.6,
+            -20.0
+          ]
+        },
+        {
+          "part": "bit clock rod guide cap -22 friction pin 2",
+          "centre_mm": [
+            -129.5,
+            9.6,
+            -6.0
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 1.8000000000000007,
+      "seating_face_mm": 9.4,
+      "pin_interface_mm": 9.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    },
+    {
+      "part": "bit clock rod guide cap 21.5",
+      "host": "bit frame 0 removable fixture 2",
+      "module": "bit",
+      "control": "clock",
+      "guide_centre_mm": [
+        -116,
+        10,
+        21.5
+      ],
+      "guide_half_length_mm": 2,
+      "pins": [
+        {
+          "part": "bit clock rod guide cap 21.5 friction pin 1",
+          "centre_mm": [
+            -129.5,
+            9.6,
+            21.5
+          ]
+        },
+        {
+          "part": "bit clock rod guide cap 21.5 friction pin 2",
+          "centre_mm": [
+            -129.5,
+            9.6,
+            35.5
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 1.8000000000000007,
+      "seating_face_mm": 9.4,
+      "pin_interface_mm": 9.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    },
+    {
+      "part": "bit write rod guide cap -12",
+      "host": "bit frame 0 removable fixture 0",
+      "module": "bit",
+      "control": "write",
+      "guide_centre_mm": [
+        -128,
+        26,
+        -12
+      ],
+      "guide_half_length_mm": 5,
+      "pins": [
+        {
+          "part": "bit write rod guide cap -12 friction pin 1",
+          "centre_mm": [
+            -136.5,
+            25.6,
+            -25.5
+          ]
+        },
+        {
+          "part": "bit write rod guide cap -12 friction pin 2",
+          "centre_mm": [
+            -136.5,
+            25.6,
+            -11.5
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 17.8,
+      "seating_face_mm": 25.4,
+      "pin_interface_mm": 25.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    },
+    {
+      "part": "bit write rod guide cap 32",
+      "host": "bit frame 0 removable fixture 2",
+      "module": "bit",
+      "control": "write",
+      "guide_centre_mm": [
+        -128,
+        26,
+        32
+      ],
+      "guide_half_length_mm": 5,
+      "pins": [
+        {
+          "part": "bit write rod guide cap 32 friction pin 1",
+          "centre_mm": [
+            -136.5,
+            25.6,
+            28.0
+          ]
+        },
+        {
+          "part": "bit write rod guide cap 32 friction pin 2",
+          "centre_mm": [
+            -136.5,
+            25.6,
+            42.0
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 17.8,
+      "seating_face_mm": 25.4,
+      "pin_interface_mm": 25.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    },
+    {
+      "part": "control clock rod guide cap -132",
+      "host": "control frame 0 removable fixture 3",
+      "module": "control",
+      "control": "clock",
+      "guide_centre_mm": [
+        -116,
+        10,
+        -132
+      ],
+      "guide_half_length_mm": 2,
+      "pins": [
+        {
+          "part": "control clock rod guide cap -132 friction pin 1",
+          "centre_mm": [
+            -100.5,
+            9.6,
+            -130.0
+          ]
+        },
+        {
+          "part": "control clock rod guide cap -132 friction pin 2",
+          "centre_mm": [
+            -100.5,
+            9.6,
+            -116.0
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 1.8000000000000007,
+      "seating_face_mm": 9.4,
+      "pin_interface_mm": 9.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    },
+    {
+      "part": "control clock rod guide cap -72",
+      "host": "control frame 0 removable fixture 2",
+      "module": "control",
+      "control": "clock",
+      "guide_centre_mm": [
+        -116,
+        10,
+        -72
+      ],
+      "guide_half_length_mm": 2,
+      "pins": [
+        {
+          "part": "control clock rod guide cap -72 friction pin 1",
+          "centre_mm": [
+            -100.5,
+            9.6,
+            -90.0
+          ]
+        },
+        {
+          "part": "control clock rod guide cap -72 friction pin 2",
+          "centre_mm": [
+            -100.5,
+            9.6,
+            -76.0
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 1.8000000000000007,
+      "seating_face_mm": 9.4,
+      "pin_interface_mm": 9.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    },
+    {
+      "part": "control write rod guide cap -204",
+      "host": "control frame 0 removable fixture 1",
+      "module": "control",
+      "control": "write",
+      "guide_centre_mm": [
+        -128,
+        26,
+        -204
+      ],
+      "guide_half_length_mm": 2,
+      "pins": [
+        {
+          "part": "control write rod guide cap -204 friction pin 1",
+          "centre_mm": [
+            -112.5,
+            25.6,
+            -202.0
+          ]
+        },
+        {
+          "part": "control write rod guide cap -204 friction pin 2",
+          "centre_mm": [
+            -112.5,
+            25.6,
+            -188.0
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 17.8,
+      "seating_face_mm": 25.4,
+      "pin_interface_mm": 25.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    },
+    {
+      "part": "control write rod guide cap -140",
+      "host": "control frame 0 removable fixture 3",
+      "module": "control",
+      "control": "write",
+      "guide_centre_mm": [
+        -128,
+        26,
+        -140
+      ],
+      "guide_half_length_mm": 2,
+      "pins": [
+        {
+          "part": "control write rod guide cap -140 friction pin 1",
+          "centre_mm": [
+            -112.5,
+            25.6,
+            -163.0
+          ]
+        },
+        {
+          "part": "control write rod guide cap -140 friction pin 2",
+          "centre_mm": [
+            -112.5,
+            25.6,
+            -137.0
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 17.8,
+      "seating_face_mm": 25.4,
+      "pin_interface_mm": 25.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    },
+    {
+      "part": "control write rod guide cap -72",
+      "host": "control frame 0 removable fixture 2",
+      "module": "control",
+      "control": "write",
+      "guide_centre_mm": [
+        -128,
+        26,
+        -72
+      ],
+      "guide_half_length_mm": 2,
+      "pins": [
+        {
+          "part": "control write rod guide cap -72 friction pin 1",
+          "centre_mm": [
+            -141.5,
+            25.6,
+            -76.0
+          ]
+        },
+        {
+          "part": "control write rod guide cap -72 friction pin 2",
+          "centre_mm": [
+            -141.5,
+            25.6,
+            -54.0
+          ]
+        }
+      ],
+      "axis": "Y",
+      "print_up_sign": 1,
+      "bed_plane_mm": 17.8,
+      "seating_face_mm": 25.4,
+      "pin_interface_mm": 25.6,
+      "assembly": "On the detached carrier, remove cap. CLOCK enters from front (-Y). WRITE enters sideways at Y=17.8, then seats toward +Y: from right for controller guide -204, from left for other WRITE guides. Fit carriers to rods before attaching to frame and fitting followers/actuator hardware. Seat pins from mating faces, then press cap onto exposed halves."
+    }
+  ],
+  "scope": "Front-open rod guides with removable, two-pin keeper caps.\n\nRods enter sideways before caps are fitted; no enlarged rod end passes through\nan enclosed ring. Cap pin axes are normal to their broad print-bed face.\n"
+}

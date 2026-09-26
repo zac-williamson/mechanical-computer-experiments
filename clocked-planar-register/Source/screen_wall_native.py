@@ -21,28 +21,8 @@ for p in parts:
  a=v[p['offset']//3:p['offset']//3+p['vertices']]
  if p['kind']=='printed':printed.append((p,solid(a)))
  elif p['kind']=='native' and p.get('lego_part')!='2780' and 'pin' not in p['id'].lower():
-  sh,ax,cen,ang=joint(p,frames[0]);axis=int(np.argmax(abs(ax)))
-  if p.get('axis') is not None:axis=p['axis']
-  elif p.get('motion')=='gear' or 'stop-axle' in p['id'] or 'retainer' in p['id']:axis=1
-  cross=[j for j in range(3) if j!=axis];centre=(a.min(0)+a.max(0))/2
-  # Slice actual triangle edges on BOTH sides of every axial step. Merely
-  # joining maximum-radius vertices creates fictitious cones at gear hubs
-  # and axle stops, falsely reporting bearing-wall collisions.
-  tri=a.reshape(-1,3,3);edges=np.concatenate([tri[:,[0,1]],tri[:,[1,2]],tri[:,[2,0]]]);dx=edges[:,1,axis]-edges[:,0,axis]
-  edges=edges[abs(dx)>1e-9];dx=edges[:,1,axis]-edges[:,0,axis]
-  xx=np.unique(np.round(a[:,axis],4));eps=1e-5
-  grid=np.unique(np.clip(np.r_[xx-eps,xx+eps,(xx[:-1]+xx[1:])/2],a[:,axis].min()+1e-7,a[:,axis].max()-1e-7))
-  radii=[];positions=[]
-  for position in grid:
-   frac=(position-edges[:,0,axis])/dx;ok=(frac>=0)&(frac<=1)
-   if not ok.any():continue
-   pts=edges[ok,0]+frac[ok,None]*(edges[ok,1]-edges[ok,0])
-   radii.append(np.linalg.norm(pts[:,cross]-centre[cross],axis=1).max());positions.append(position)
-  profile=np.vstack([[0,positions[0]],np.stack([radii,positions],axis=1),[0,positions[-1]]])
-  mesh=trimesh.creation.revolve(profile,sections=64)
-  mesh.apply_transform(trimesh.geometry.align_vectors([0,0,1],np.eye(3)[axis]));delta=centre.copy();delta[axis]=0;mesh.apply_translation(delta)
-  s=m.Manifold(m.Mesh64(mesh.vertices.astype(float),mesh.faces.astype(np.uint64)))
-  assert s.status()==m.Error.NoError,p['id']
+  from wall_flat_frame import native_envelope
+  s=native_envelope(p,a,joint,frames[0])
   native.append((p,s))
 hits={};cache={};seen=set();checks=0;count=0
 # A coarse frame stride is only for the first screening run; report it explicitly.

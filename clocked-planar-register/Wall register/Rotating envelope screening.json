@@ -1,33 +1,33 @@
 {
   "scope": "Full-revolution native envelopes against printed solids at operation poses.\n\nAn envelope hit is a potential collision, not proof: working tooth/lever and\nring/fork contacts need phase-resolved narrow checks. No hit proves separation\nfor every rotation phase at the sampled relative poses, not between samples.\n",
-  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
   "frame_stride": 1,
   "case_coverage": "112 inherited cases with 17 samples each",
   "unique_poses": 1013,
-  "narrow_checks": 14846,
+  "narrow_checks": 14546,
   "potential_collisions": [
     {
       "native": "master U022",
       "printed": "master Short lever",
-      "volume_mm3": 6.753794607494841,
+      "volume_mm3": 6.7537946074948385,
       "sampled_frame": 177
     },
     {
       "native": "slave U022",
       "printed": "slave Short lever",
-      "volume_mm3": 6.471692351902757,
+      "volume_mm3": 6.471692351902789,
       "sampled_frame": 533
     },
     {
       "native": "Control clock U022",
       "printed": "Control clock Short lever",
-      "volume_mm3": 6.471463771437926,
+      "volume_mm3": 6.471463771437952,
       "sampled_frame": 2
     },
     {
       "native": "Control write U022",
       "printed": "Control write Short lever",
-      "volume_mm3": 6.471459851270727,
+      "volume_mm3": 6.471459851270741,
       "sampled_frame": 478
     }
   ],

@@ -2,7 +2,11 @@
 import numpy as np
 import trimesh
 import manifold3d as m
-import json
+import json,hashlib
+
+# 1.5 mm radial material beyond the 3.3 mm friction-pin collar relief.
+FIXTURE_PAD_RADIUS=4.8
+REAR_WEB_DEPTH=3.8
 from shapely.geometry import Polygon
 from shapely.ops import unary_union,nearest_points
 
@@ -17,6 +21,7 @@ def project_back(s,back):
  return m.Manifold.batch_boolean(solids,m.OpType.Add)
 
 
+_ENVELOPE_CACHE={}
 def native_envelope(p,a,joint,f):
  """Same axial-step envelope used by the independent rotating-part screen."""
  sh,ax,cen,ang=joint(p,f);axis=int(np.argmax(abs(ax)))
@@ -24,6 +29,8 @@ def native_envelope(p,a,joint,f):
  elif p.get('axis') is not None:axis=p['axis']
  elif p.get('motion')=='gear' or 'stop-axle' in p['id'] or 'retainer' in p['id']:axis=1
  cross=[j for j in range(3) if j!=axis];centre=(a.min(0)+a.max(0))/2
+ key=(axis,hashlib.sha256(np.round(a-centre,5).tobytes()).hexdigest())
+ if key in _ENVELOPE_CACHE:return _ENVELOPE_CACHE[key].translate(centre)
  tri=a.reshape(-1,3,3);edges=np.concatenate([tri[:,[0,1]],tri[:,[1,2]],tri[:,[2,0]]]);dx=edges[:,1,axis]-edges[:,0,axis]
  edges=edges[abs(dx)>1e-9];dx=edges[:,1,axis]-edges[:,0,axis]
  xx=np.unique(np.round(a[:,axis],4));eps=1e-5
@@ -34,10 +41,14 @@ def native_envelope(p,a,joint,f):
   if not ok.any():continue
   pts=edges[ok,0]+frac[ok,None]*(edges[ok,1]-edges[ok,0])
   radii.append(np.linalg.norm(pts[:,cross]-centre[cross],axis=1).max());positions.append(position)
- profile=np.vstack([[0,positions[0]],np.stack([radii,positions],axis=1),[0,positions[-1]]])
+ from shapely.geometry import LineString
+ rim=np.array(LineString(np.stack([radii,positions],axis=1)).simplify(1e-7).coords)
+ profile=np.vstack([[0,positions[0]],rim,[0,positions[-1]]])
  mesh=trimesh.creation.revolve(profile,sections=64)
  mesh.apply_transform(trimesh.geometry.align_vectors([0,0,1],np.eye(3)[axis]));delta=centre.copy();delta[axis]=0;mesh.apply_translation(delta)
- return m.Manifold(m.Mesh64(mesh.vertices.astype(float),mesh.faces.astype(np.uint64)))
+ result=m.Manifold(m.Mesh64(mesh.vertices.astype(float),mesh.faces.astype(np.uint64)))
+ _ENVELOPE_CACHE[key]=result.translate(-centre)
+ return result
 
 def rebuild_flat_frames(g):
  P,A=g['P'],g['A'];box,cyl=g['box'],g['cyl'];records=[]
@@ -51,9 +62,9 @@ def rebuild_flat_frames(g):
  for p,a in zip(P,A):
   if p['kind']=='elastic' or 'coordinated chassis' in p['id']:continue
   if p['kind']=='native':
-   a=native_envelope(p,a,joint,frames[0]).to_mesh64()
-   a=a.vert_properties[:,:3][a.tri_verts].reshape(-1,3)
-  centre=(a.min(0)+a.max(0))/2;shape=g['solid'](a)
+   shape=native_envelope(p,a,joint,frames[0]);bounds=np.array(shape.bounding_box()).reshape(2,3)
+  else:shape=g['solid'](a);bounds=np.array([a.min(0),a.max(0)])
+  centre=bounds.mean(0)
   seen=set()
   for f in frames:
    tf=transform(p,f)
@@ -62,12 +73,17 @@ def rebuild_flat_frames(g):
    else:key=tuple(np.round(tf.ravel(),5))
    if key in seen:continue
    seen.add(key)
-   ss=shape.translate(delta) if p['kind']=='native' else shape.transform(tf[:3])
-   lo,hi=np.array(ss.bounding_box()).reshape(2,3)
-   obstacles.append((p['id'],lo,hi,ss))
+   # Store transforms, not thousands of fully evaluated duplicate meshes.
+   if p['kind']=='native':
+    lo,hi=bounds[0]+delta,bounds[1]+delta
+    matrix=np.eye(4);matrix[:3,3]=delta
+   else:
+    moved=a@tf[:3,:3].T+tf[:3,3];lo,hi=moved.min(0),moved.max(0);matrix=tf
+   obstacles.append((p['id'],lo,hi,(shape,matrix[:3].copy())))
  print('FRAME ROUTING OBSTACLES',len(obstacles),flush=True)
  for i in reversed(ids):P.pop(i);A.pop(i)
  protected=None;reserved_ignore=set();foot_limit=None;cache_len=-1;cache_lo=None;cache_hi=None
+ def resolved(o):return o[0].transform(o[1]) if isinstance(o,tuple) else o
  def clear(s,ignore=()):
   nonlocal cache_len,cache_lo,cache_hi
   if protected is not None and (s^protected).volume()>.005:return False
@@ -79,7 +95,7 @@ def rebuild_flat_frames(g):
   for ix in indices:
    name,lo,hi,o=obstacles[ix]
    if name in ignore or name in reserved_ignore:continue
-   if (s^o).volume()>.005:return False
+   if (s^resolved(o)).volume()>.005:return False
   return True
  for p,original in saved:
   foot_limit=np.array(original.bounding_box()).reshape(2,3)
@@ -88,7 +104,7 @@ def rebuild_flat_frames(g):
    reserved_stem=box([-113,17.8,-77],[-110,interface-.2,-73.8])
    for xx in [-110,-102]:
     cc=np.array([xx,interface,-78.])
-    reserved_stem+=box([xx-3,back-16.2,-81],[xx+3,interface-.2,-75])+g['link']([xx,-78],[-111,-76],2.3,interface-2.8,interface-.2)
+    reserved_stem+=box([xx-3,back-16.2,-81],[xx+3,interface-.2,-75])+g['link']([xx,-78],[-111,-76],2.3,interface-REAR_WEB_DEPTH,interface-.2)
    obstacles.append(('Reserved upper guide root',*np.array(reserved_stem.bounding_box()).reshape(2,3),reserved_stem))
   front=original^box([-300,-60,-400],[300,interface-.2,200])
   base=original^box([-300,interface+.2,-400],[300,back,200])
@@ -119,10 +135,16 @@ def rebuild_flat_frames(g):
      ba=np.array(sa.bounding_box()).reshape(2,3);bb=np.array(sb.bounding_box()).reshape(2,3)
      gap=np.maximum(0,np.maximum(ba[0,[0,2]]-bb[1,[0,2]],bb[0,[0,2]]-ba[1,[0,2]]))
      if np.linalg.norm(gap)>(30 if module=='control' else 12):continue
-     slab=box([-300,interface-(1.8 if module=='control' else 2.8),-400],[300,interface-.2,200])
+     slab=box([-300,interface-REAR_WEB_DEPTH,-400],[300,interface-.2,200])
      ra=sa^slab;rb=sb^slab
      if ra.is_empty() or rb.is_empty():continue
      heel=(ra+rb).hull()
+     # Broad rear roots may only overlap a thin slice: give their bridge
+     # a real 3.6 mm bending depth, not merely a wider 1.6 mm skin.
+     hb=np.array(heel.bounding_box()).reshape(2,3)
+     depth=REAR_WEB_DEPTH-.2
+     if hb[1,1]-hb[0,1]<depth:
+      heel=(heel+heel.translate([0,-(depth-(hb[1,1]-hb[0,1])),0])).hull()
      if not clear(heel) and module=='control':
       # Connect the actual nearest rear roots, not centres of broad bounding
       # boxes that may lie across a transmission wall or amplifier pivot.
@@ -132,9 +154,11 @@ def rebuild_flat_frames(g):
        poly=unary_union([Polygon(t[:,[0,2]]) for t in tri if Polygon(t[:,[0,2]]).area>1e-8])
        inset=poly.buffer(-.5);profiles.append(inset if not inset.is_empty else poly)
       aa,bb2=nearest_points(*profiles)
-      candidate=g['link'](np.array(aa.coords[0]),np.array(bb2.coords[0]),2.3,interface-1.8,interface-.2)
+      candidate=g['link'](np.array(aa.coords[0]),np.array(bb2.coords[0]),2.3,interface-REAR_WEB_DEPTH,interface-.2)
       bounds=np.array([ra.bounding_box(),rb.bounding_box()]).reshape(2,2,3)
-      candidate ^= box(bounds[:,0].min(0),bounds[:,1].max(0))
+      clip_lo=bounds[:,0].min(0);clip_hi=bounds[:,1].max(0)
+      clip_lo[1]=interface-REAR_WEB_DEPTH;clip_hi[1]=interface-.2
+      candidate ^= box(clip_lo,clip_hi)
       if clear(candidate) and (candidate^sa).volume()>1 and (candidate^sb).volume()>1:heel=candidate
      if not clear(heel):
       heel=None
@@ -147,10 +171,10 @@ def rebuild_flat_frames(g):
         legs=[]
         for cc in [ca,cb]:
          lo=cc.copy();hi=cc.copy();lo[ax]=min(route,cc[ax])-1.8;hi[ax]=max(route,cc[ax])+1.8
-         lo[other]-=1.8;hi[other]+=1.8;lo[1]=interface-(1.8 if module=='control' else 2.8);hi[1]=interface-.2
+         lo[other]-=1.8;hi[other]+=1.8;lo[1]=interface-REAR_WEB_DEPTH;hi[1]=interface-.2
          legs.append(box(lo,hi))
         lo=ca.copy();hi=cb.copy();lo[ax]=route-1.8;hi[ax]=route+1.8
-        lo[other]=min(ca[other],cb[other])-1.8;hi[other]=max(ca[other],cb[other])+1.8;lo[1]=interface-(1.8 if module=='control' else 2.8);hi[1]=interface-.2
+        lo[other]=min(ca[other],cb[other])-1.8;hi[other]=max(ca[other],cb[other])+1.8;lo[1]=interface-REAR_WEB_DEPTH;hi[1]=interface-.2
         candidate=legs[0]+legs[1]+box(lo,hi)
         if clear(candidate) and (candidate^sa).volume()>1 and (candidate^sb).volume()>1:
          heel=candidate;break
@@ -160,7 +184,9 @@ def rebuild_flat_frames(g):
   if module=='control':
    # Route the rear CLOCK cheek around the existing transmission-wall pin.
    # The bridge is behind the amplifier and its pivot hardware, below 48.1 Y.
-   bridge=g['link']([-147.3,-122],[-147.3,-114],2.3,46.5,48.08)+g['link']([-147.3,-114],[-163.5,-114],2.3,46.5,48.08)
+   # Shift the crossbar above the cradle-pin end, permitting a full-depth
+   # bridge rather than the former 1.58 mm skin over the pin envelope.
+   bridge=g['link']([-147.3,-122],[-147.3,-110.5],2.3,44.48,48.08)+g['link']([-147.3,-110.5],[-163.5,-110.5],2.3,44.48,48.08)
    assert clear(bridge), 'Controller rear-cheek bridge obstruction'
    touching=[k for k,ss in enumerate(fixtures) if (bridge^ss).volume()>.001]
    assert touching
@@ -178,7 +204,7 @@ def rebuild_flat_frames(g):
    assert ip!=il
    bridge=None
    for route in [-116.,-118.,-120.,-122.]:
-    candidate=g['link']([route,-27],[route,6],2.4,35.2,37.72)+g['link']([route,6],[-109.8,6],2.4,35.2,37.72)+g['link']([route,-27],[-108,-27],2.4,35.2,37.72)
+    candidate=g['link']([route,-27],[route,6],3.0,33.22,37.72)+g['link']([route,6],[-109.8,6],3.0,33.22,37.72)+g['link']([route,-27],[-108,-27],3.0,33.22,37.72)
     if clear(candidate):bridge=candidate;break
    if bridge is None:raise ValueError('No clear braced WRITE pivot route')
    touching=[k for k,ss in enumerate(fixtures) if (bridge^ss).volume()>.001]
@@ -196,7 +222,7 @@ def rebuild_flat_frames(g):
     reserved_ignore={'Reserved upper guide root'}
     stem=box([-113,17.8,-77],[-110,interface-.2,-73.8])
     if not clear(stem):
-     print('STEM OBSTACLES',[(n,(stem^o).volume()) for n,lo,hi,o in obstacles if (stem^o).volume()>.005], 'reserved',(stem^protected).volume(),flush=True)
+     print('STEM OBSTACLES',[(n,(stem^resolved(o)).volume()) for n,lo,hi,o in obstacles if (stem^resolved(o)).volume()>.005], 'reserved',(stem^protected).volume(),flush=True)
      raise ValueError('Upper guide right-hand root obstructed')
     s+=stem
    # Prefer the original root footprint. Search only its immediate vicinity.
@@ -218,12 +244,12 @@ def rebuild_flat_frames(g):
    grid=[np.array([x,interface,z]) for x in np.arange(np.floor(rb[0,0])-18,np.ceil(rb[1,0])+19,2) for z in np.arange(np.floor(rb[0,2])-18,np.ceil(rb[1,2])+19,2)]
    for c in known+grid:
     if np.any(c[[0,2]]<rb[0,[0,2]]-18) or np.any(c[[0,2]]>rb[1,[0,2]]+18):continue
-    pad=box(c+[-3.8,-7.8,-3.8],c+[3.8,-.2,3.8]);bore=cyl(2.5,interface-8.1,back+.1,1,c)
+    pad=box(c+[-FIXTURE_PAD_RADIUS,-7.8,-FIXTURE_PAD_RADIUS],c+[FIXTURE_PAD_RADIUS,-.2,FIXTURE_PAD_RADIUS]);bore=cyl(2.5,interface-8.1,back+.1,1,c)
     original_bounds=np.array(original.bounding_box()).reshape(2,3)
-    if np.any(c[[0,2]]-3.8<original_bounds[0,[0,2]]) or np.any(c[[0,2]]+3.8>original_bounds[1,[0,2]]):continue
+    if np.any(c[[0,2]]-FIXTURE_PAD_RADIUS<original_bounds[0,[0,2]]) or np.any(c[[0,2]]+FIXTURE_PAD_RADIUS>original_bounds[1,[0,2]]):continue
     if (pad^s).volume()<15:
      target=np.clip(c[[0,2]],rb[0,[0,2]]+1,rb[1,[0,2]]-1)
-     neck=g['link'](c[[0,2]],target,2.3,interface-2.8,interface-.2)
+     neck=g['link'](c[[0,2]],target,2.3,interface-REAR_WEB_DEPTH,interface-.2)
      if (neck^s).volume()<2:continue
      pad+=neck
     # Reserve the full friction-pin envelope, including its centre collar.
@@ -245,7 +271,7 @@ def rebuild_flat_frames(g):
    for k,(c,pad) in enumerate(mounts):
     bore=cyl(2.5,interface-8.1,back+.1,1,c)+cyl(3.3,interface-.4,interface+.4,1,c)
     s=(s+pad)-bore
-    foot=box(c+[-3.8,.2,-3.8],[c[0]+3.8,back,c[2]+3.8])
+    foot=box(c+[-FIXTURE_PAD_RADIUS,.2,-FIXTURE_PAD_RADIUS],[c[0]+FIXTURE_PAD_RADIUS,back,c[2]+FIXTURE_PAD_RADIUS])
     foot+=project_back(pad,back)^box([-300,interface+.2,-400],[300,back,200])
     base=(base+foot)-bore
     name=p['id'].replace('coordinated chassis','frame')+' fixture '+str(j)+' pin '+str(k+1)
@@ -256,7 +282,7 @@ def rebuild_flat_frames(g):
    name=p['id'].replace('coordinated chassis','frame')+' removable fixture '+str(j)
    g['emit'](name,s,module=module,motion='fixed',color=(.42,.65,.60))
    obstacles.append((name,*np.array(s.bounding_box()).reshape(2,3),s))
-   records.append(dict(part=name,frame=p['id'],fasteners=pins,fastener_spacing_mm=float(np.linalg.norm(a[0]-b[0])),interface_y_mm=interface))
+   records.append(dict(part=name,frame=p['id'],fasteners=pins,fastener_spacing_mm=float(np.linalg.norm(a[0]-b[0])),interface_y_mm=interface,mount_pad_width_mm=2*FIXTURE_PAD_RADIUS,collar_relief_radius_mm=3.3,minimum_collar_ligament_mm=FIXTURE_PAD_RADIUS-3.3))
   # Join isolated socket feet to the rear lattice with bed-level ribs.
   def rear_shape(ss):
    mm=ss.to_mesh64();tt=trimesh.Trimesh(mm.vert_properties[:,:3],mm.tri_verts,process=True)
@@ -331,9 +357,9 @@ def add_fixture_seating_lands(g):
   s=g['solid'](g['A'][i]);y=record['interface_y_mm']
   for fastener in record['fasteners']:
    c=fastener['centre_mm']
-   s+=g['cyl'](3.8,y-.25,y+.2,1,c)-g['cyl'](3.3,y-.3,y+.3,1,c)
+   s+=g['cyl'](FIXTURE_PAD_RADIUS,y-.25,y+.2,1,c)-g['cyl'](3.3,y-.3,y+.3,1,c)
   g['A'][i]=g['triangles'](s);g['P'][i]['vertices']=len(g['A'][i])
   record['seating_plane_y_mm']=y+.2
-  record['seating_land_radius_mm']=3.8
+  record['seating_land_radius_mm']=FIXTURE_PAD_RADIUS
   record['seating_gap_mm']=0
  (g['OUT']/'Frame fixture schedule.json').write_text(json.dumps(schedule,indent=2))

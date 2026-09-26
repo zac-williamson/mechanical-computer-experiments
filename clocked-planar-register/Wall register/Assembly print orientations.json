@@ -1,0 +1,610 @@
+{
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "parts": [
+    {
+      "part": "bit clock rod guide cap -22",
+      "file": "Print oriented assembly parts/bit clock rod guide cap -22.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -0.7000000000000002,
+        -112.6,
+        -1.8000000000000007
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "bit clock rod guide cap 21.5",
+      "file": "Print oriented assembly parts/bit clock rod guide cap 21.5.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        40.8,
+        -112.6,
+        -1.8000000000000007
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "bit write rod guide cap -12",
+      "file": "Print oriented assembly parts/bit write rod guide cap -12.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -6.2,
+        -124.6,
+        -17.8
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "bit write rod guide cap 32",
+      "file": "Print oriented assembly parts/bit write rod guide cap 32.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        47.3,
+        -124.6,
+        -17.8
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "control clock rod guide cap -132",
+      "file": "Print oriented assembly parts/control clock rod guide cap -132.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -110.7,
+        -95.2,
+        -1.8000000000000007
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "control clock rod guide cap -72",
+      "file": "Print oriented assembly parts/control clock rod guide cap -72.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -70.0,
+        -95.2,
+        -1.8000000000000007
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "control write rod guide cap -204",
+      "file": "Print oriented assembly parts/control write rod guide cap -204.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -182.7,
+        -107.2,
+        -17.8
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "control write rod guide cap -140",
+      "file": "Print oriented assembly parts/control write rod guide cap -140.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -131.7,
+        -107.2,
+        -17.8
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "control write rod guide cap -72",
+      "file": "Print oriented assembly parts/control write rod guide cap -72.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -48.7,
+        -124.6,
+        -17.8
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "part": "master removable rear bearing cheek",
+      "file": "Print oriented assembly parts/master removable rear bearing cheek.stl",
+      "print_up_axis": "Y",
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        39.4,
+        27.8,
+        18.60001
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 19.54760254687494
+    },
+    {
+      "part": "slave removable rear bearing cheek",
+      "file": "Print oriented assembly parts/slave removable rear bearing cheek.stl",
+      "print_up_axis": "Y",
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        39.4,
+        -78.2,
+        18.60001
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 30.516846538530622
+    },
+    {
+      "part": "Control clock removable rear bearing cheek",
+      "file": "Print oriented assembly parts/Control clock removable rear bearing cheek.stl",
+      "print_up_axis": "Y",
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -72.007676396,
+        155.4,
+        14.600010000000001
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 12.029293874999937
+    },
+    {
+      "part": "Control write removable rear bearing cheek",
+      "file": "Print oriented assembly parts/Control write removable rear bearing cheek.stl",
+      "print_up_axis": "Y",
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -150.607676396,
+        159.4,
+        6.600010000000001
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 19.547602546874998
+    },
+    {
+      "part": "Control WRITE detachable bearing shoe",
+      "file": "Print oriented assembly parts/Control WRITE detachable bearing shoe.stl",
+      "print_up_axis": "Z",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        155.8,
+        7.300000190734863,
+        176.0
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 272.4511204210244
+    },
+    {
+      "part": "Control WRITE direct rod and pickup",
+      "file": "Print oriented assembly parts/Control WRITE direct rod and pickup.stl",
+      "print_up_axis": "Y",
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -48.2,
+        -122.8,
+        -26.0
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 43.45051651943239
+    }
+  ],
+  "scope": "Export new detachable pieces with their specified broad faces on the bed.",
+  "export_pass": true,
+  "limitations": [
+    "Other static non-running overhangs are accepted by the user; this report measures rather than certifies support-free printing. Axle-ring bed contact is checked separately."
+  ]
+}

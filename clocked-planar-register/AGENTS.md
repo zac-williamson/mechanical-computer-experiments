@@ -14,3 +14,16 @@ The bit frame must remain two separate printable solids joined by two horizontal
 Frame parts must have a flat rear bed face and pass the frame overhang screen with no bridge exemption. Export their actual print orientations. Keep working actuator/guide fixtures separately mounted; do not fuse their undercuts back into the frames. Every detached fixture requires two spaced fasteners. Horizontal frame-joint pin holes have 45-degree roofs; bearing walls retain their paired pins.
 
 All mechanism connections must use LEGO friction pins, not screws, bolts or nuts. Detached fixtures require at least two spaced engaged pins. Rod splices must transmit axial force through engaged pins in shear, not screw-clamp preload.
+
+Manufacturing revision scope: keep axle-bearing rings on a common print-bed
+face. Other overhangs are acceptable on static surfaces that do not touch moving
+parts; avoid unnecessary redesign to eliminate every overhang. Shared rods must
+have an explicit installation/removal path through their guides. Strengthen pin
+socket edges and fixture load paths without moving gear centres or increasing
+frame height. The user has physically tested the axle-based follower approach;
+do not redesign rollers or investigate shaft alignment as part of this revision.
+
+Run geometry generation and checks sequentially through Source/run_wall_job.py.
+It limits TBB/BLAS to one worker, lowers process priority, enforces a single-job
+lock, and stops at 1.2 GiB resident memory. Do not spawn agents or simultaneous
+geometry jobs: the user explicitly revoked parallelisation after a machine freeze.

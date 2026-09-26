@@ -1,12 +1,12 @@
 {
-  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
   "scope": "Check bearing lands, axle engagement, stops and shared-drive connections.",
   "bearings": [
     {
       "shaft": "M output",
       "station_mm": -24,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.421558776256577e-09,
+      "missing_ring_mm3": 1.4215587777859594e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.200000000000003,
       "pass_check": true
@@ -33,7 +33,7 @@
       "shaft": "Q output",
       "station_mm": 132,
       "land_mm": 3.2,
-      "missing_ring_mm3": 6.668964502159972e-09,
+      "missing_ring_mm3": 6.6689642801153674e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -87,7 +87,7 @@
       "shaft": "Selected data",
       "station_mm": -30,
       "land_mm": 3.2,
-      "missing_ring_mm3": 9.54831547046296e-10,
+      "missing_ring_mm3": 9.548314360239935e-10,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.200000000000003,
       "pass_check": true
@@ -96,7 +96,7 @@
       "shaft": "D inverted",
       "station_mm": -90,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.5269881195023396e-09,
+      "missing_ring_mm3": 1.5269887018749663e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -114,7 +114,7 @@
       "shaft": "D input",
       "station_mm": -102.1,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.4487400871112147e-09,
+      "missing_ring_mm3": 1.4487405926564108e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -132,7 +132,7 @@
       "shaft": "Master data stub",
       "station_mm": -50,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.5269901101129348e-09,
+      "missing_ring_mm3": 1.5269904709353946e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.200000000000003,
       "pass_check": true
@@ -141,7 +141,7 @@
       "shaft": "Master data stub",
       "station_mm": -38,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.5269903999120064e-09,
+      "missing_ring_mm3": 1.5269904431789893e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.200000000000003,
       "pass_check": true
@@ -150,7 +150,7 @@
       "shaft": "POWER minus",
       "station_mm": 10,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.3508169698288458e-09,
+      "missing_ring_mm3": 1.3508169714303171e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999993,
       "pass_check": true
@@ -177,7 +177,7 @@
       "shaft": "POWER plus",
       "station_mm": 80,
       "land_mm": 3.2,
-      "missing_ring_mm3": 4.5657746203586886e-10,
+      "missing_ring_mm3": 4.5657757305822426e-10,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -213,7 +213,7 @@
       "shaft": "Feedback",
       "station_mm": -98.1,
       "land_mm": 3.2,
-      "missing_ring_mm3": 5.906187327911048e-10,
+      "missing_ring_mm3": 5.90618465624011e-10,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -249,7 +249,7 @@
       "shaft": "CLOCK worm",
       "station_mm": -70,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.4223477084044342e-09,
+      "missing_ring_mm3": 1.4223477084044303e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -267,7 +267,7 @@
       "shaft": "CLOCK input",
       "station_mm": -126,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.4177606178903986e-09,
+      "missing_ring_mm3": 1.4177606178904383e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -276,7 +276,7 @@
       "shaft": "WRITE worm",
       "station_mm": -214,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.4141460826155408e-09,
+      "missing_ring_mm3": 1.4141460826153795e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -285,7 +285,7 @@
       "shaft": "WRITE worm",
       "station_mm": -154,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.4431910157390114e-09,
+      "missing_ring_mm3": 1.443191903917431e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true

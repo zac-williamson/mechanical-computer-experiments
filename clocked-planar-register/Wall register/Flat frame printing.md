@@ -1,3 +1,5 @@
+> Historical revision notes below. Superseded by [Assembly and print revision](Assembly%20and%20print%20revision.md), including the removable guides, five corrected bearing components and revised pin counts.
+
 # Flat-bed frame revision
 
 The two bit-frame halves and the controller frame are separate frame parts.

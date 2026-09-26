@@ -27,7 +27,13 @@ for p in P:
   l,h=max(lo[axis],bl[axis]),min(hi[axis],bh[axis])
   if h-l<.5:continue
   ring=cyl(3.5,l,h,axis,c)-cyl(2.7,l-.01,h+.01,axis,c)
-  if (ring^s).volume()>5:H.setdefault(n,[]).append(dict(axle=p['id'],axis=axis,centre_mm=c.tolist()))
+  if (ring^s).volume()>5:
+   # A nearby web is not an axle hole: require a complete annular section.
+   full=False
+   for pos in np.linspace(l+.1,h-.1,9):
+    rr=cyl(3.4,pos-.05,pos+.05,axis,c)-cyl(2.9,pos-.06,pos+.06,axis,c)
+    if (rr^s).volume()/rr.volume()>.97:full=True;break
+   if full:H.setdefault(n,[]).append(dict(axle=p['id'],axis=axis,centre_mm=c.tolist()))
 # Include all scheduled transmission bearings, including short axle ends that
 # do not reach the newly extended print feet.
 beds=json.loads((O/'Bearing bed-face schedule.json').read_text())
@@ -40,6 +46,11 @@ frame_report=json.loads((O/'Frame print checks.json').read_text())
 assert frame_report['geometry_sha256']==hashlib.sha256((O/'geometry.npz').read_bytes()).hexdigest()
 clearance_only={n:H.pop(n) for n in list(H) if 'coordinated chassis' in n}
 for f in D.glob('*.stl'):f.unlink()
+relief_file=O/'Fixture bed reliefs.json'
+reliefs=json.loads(relief_file.read_text()) if relief_file.exists() else []
+for entry in reliefs:
+ for hole in H.get(entry['part'],[]):
+  if hole['axle']==entry['axle']:hole.update({k:v for k,v in entry.items() if k.startswith('bed_probe_')})
 results=[]
 for n,holes in H.items():
  axes=set(h['axis'] for h in holes);assert len(axes)==1,(n,axes)
@@ -49,7 +60,7 @@ for n,holes in H.items():
   for h in holes:
    c=h['centre_mm'];l,r=(bed,bed+.04) if sign==1 else (bed-.04,bed)
    # Check outer annulus, clear of the relieved bore in extended rings.
-   radius=4.65 if n in wall_names else 3.4;inner=3.3 if n in wall_names else 2.9
+   radius=h.get('bed_probe_outer_mm',4.65 if n in wall_names else 3.4);inner=h.get('bed_probe_inner_mm',3.3 if n in wall_names else 2.9)
    probe=cyl(radius,l,r,axis,c)-cyl(inner,l-.01,r+.01,axis,c)
    ratio=(probe^s).volume()/probe.volume()
    checks.append(dict(**h,bed_ring_fraction=float(ratio),on_bed=ratio>.97))

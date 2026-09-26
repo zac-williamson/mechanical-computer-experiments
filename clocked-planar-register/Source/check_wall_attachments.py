@@ -48,6 +48,11 @@ for entry in json.loads((O/'Frame fixture schedule.json').read_text())['fixtures
   checks_mount.append(dict(part=bolt['part'],socket_wall_fraction=frac,pass_check=min(frac)>.95 and pin.get('lego_part')=='2780'))
  fixturechecks.append(dict(**entry,mount_checks=checks_mount,pass_check=len(checks_mount)>=2 and entry['fastener_spacing_mm']>=6 and all(a['pass_check'] for a in checks_mount)))
 allowed={x['part'] for x in fixturechecks}|{name for name,_ in pairs}|{x['part'] for x in schedule['removable_walls']}|{'bit coordinated chassis 0','bit coordinated chassis 1','control coordinated chassis 0'}
+from wall_extra_connections import extra_connections
+extra=extra_connections(O)
+allowed|={e['part'] for e in extra}|{e['host'] for e in extra}
+revision=json.loads((O/'Revision connection checks.json').read_text()) if extra else {'connection_pass':True}
+if extra:assert revision['geometry_sha256']==hashlib.sha256((O/'geometry.npz').read_bytes()).hexdigest()
 unassigned=[p['id'] for p in P if p['kind']=='printed' and p.get('motion','fixed')=='fixed' and p['module'] in ['bit','control'] and p['id'] not in allowed]
 # Two actual frame solids, an open seam, and two engaged horizontal pins.
 frame_parts=[p for p in P if p['id'].startswith('bit coordinated chassis ')]
@@ -66,5 +71,5 @@ for z in [-28,56]:
   sides.append(max((ring^ss).volume()/ring.volume() for ss in frame_solids))
  frame_pins.append(dict(part=pin['id'],socket_wall_fraction=sides,pass_check=min(sides)>.95))
 frame_joint=dict(frame_parts=[p['id'] for p in frame_parts],seam_x_mm=28.5,seam_gap_mm=.4,material_in_seam_mm3=seam_volume,pins=frame_pins,pass_check=len(frame_parts)==2 and seam_volume<.001 and all(x['pass_check'] for x in frame_pins))
-report=dict(removable_frame_fixtures=fixturechecks,frame_joint=frame_joint,geometry_sha256=hashlib.sha256((O/'geometry.npz').read_bytes()).hexdigest(),removable_bearing_cheeks=checks,removable_transmission_walls=wallchecks,unassigned_fixed_components=unassigned,attachment_pass=frame_joint['pass_check'] and not unassigned and all(x['pass_check'] for x in checks+wallchecks+fixturechecks),limitations=['Checks attachment geometry, not pin-fit stiffness, layer adhesion or loaded deflection.','Bearing holes are perpendicular to the supplied wall print orientation; overhang and pin-hole finishing still need slicer review.'])
+report=dict(removable_frame_fixtures=fixturechecks,frame_joint=frame_joint,geometry_sha256=hashlib.sha256((O/'geometry.npz').read_bytes()).hexdigest(),removable_bearing_cheeks=checks,removable_transmission_walls=wallchecks,unassigned_fixed_components=unassigned,revision_connections=revision,attachment_pass=revision['connection_pass'] and frame_joint['pass_check'] and not unassigned and all(x['pass_check'] for x in checks+wallchecks+fixturechecks),limitations=['Checks attachment geometry, not pin-fit stiffness, layer adhesion or loaded deflection.','Bearing holes are perpendicular to the supplied wall print orientation; overhang and pin-hole finishing still need slicer review.'])
 (O/'Bearing attachment checks.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

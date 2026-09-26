@@ -1,12 +1,12 @@
 {
-  "geometry_sha256": "492e2b00ef440a7b57109ae9ab88796a69b30568055c53163b1074b52506a96b",
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
   "scope": "Verify material exists at both named anchor centres for every elastic loop.\nThis checks anchor presence and kinematic attachment, not band force or retention.\n",
   "anchors": [
     {
       "band": "master return band",
       "anchor": 1,
       "hosts": [
-        "bit frame 0 removable fixture 3"
+        "bit frame 0 removable fixture 5"
       ],
       "poses": 1904,
       "missing_anchor_poses": 0
@@ -78,7 +78,7 @@
       "band": "master actuator return band",
       "anchor": 1,
       "hosts": [
-        "bit frame 0 removable fixture 3"
+        "master removable rear bearing cheek"
       ],
       "poses": 1904,
       "missing_anchor_poses": 0
@@ -96,7 +96,7 @@
       "band": "slave actuator return band",
       "anchor": 1,
       "hosts": [
-        "bit frame 1 removable fixture 0"
+        "slave removable rear bearing cheek"
       ],
       "poses": 1904,
       "missing_anchor_poses": 0
@@ -114,7 +114,7 @@
       "band": "Control clock actuator return band",
       "anchor": 1,
       "hosts": [
-        "control frame 0 removable fixture 2"
+        "Control clock removable rear bearing cheek"
       ],
       "poses": 1904,
       "missing_anchor_poses": 0
@@ -132,7 +132,7 @@
       "band": "Control write actuator return band",
       "anchor": 1,
       "hosts": [
-        "control frame 0 removable fixture 0"
+        "Control write removable rear bearing cheek"
       ],
       "poses": 1904,
       "missing_anchor_poses": 0

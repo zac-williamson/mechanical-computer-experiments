@@ -73,7 +73,7 @@ def native(name,num,c,axis=0,drive=None,module='bit',motion='fixed',**meta):
   ld=LDraw(Path('/Applications/Studio 2.0/ldraw/parts')/(num+'.dat'));v,_=ld.mesh()
   if ld.missing:raise ValueError(ld.missing)
   a=v.reshape(-1,3)*.4;a-=(a.min(0)+a.max(0))/2;CACHE[num]=a
- a=CACHE[num].copy();long=num in ['3713','24316','2780','44294','60485','4519','32062','3705','3706','3707','3708','3737','50450','59443','32073']
+ a=CACHE[num].copy();long=num in ['6558','3713','24316','2780','44294','60485','4519','32062','3705','3706','3707','3708','3737','50450','59443','32073']
  orig=int(np.argmax(np.ptp(a,axis=0)) if long else np.argmin(np.ptp(a,axis=0)))
  a=trimesh.transform_points(a,trimesh.geometry.align_vectors(np.eye(3)[orig],np.eye(3)[axis]))
  if name=='Control CLK receiving 16T':
@@ -306,6 +306,14 @@ reopen_control_pivots(globals())
 add_fixture_seating_lands(globals())
 from wall_bed_bearings import extend_bearing_rings
 extend_bearing_rings(globals())
+from wall_fixture_print_faces import separate_fixture_bearing_faces
+separate_fixture_bearing_faces(globals())
+from wall_write_rod_print import separate_write_rod
+separate_write_rod(globals())
+from wall_rod_assembly import open_rod_guides
+open_rod_guides(globals())
+from wall_pin_seats import finish_pin_seats
+finish_pin_seats(globals())
 
 assert len({p['id'] for p in P})==len(P), 'Duplicate part IDs'
 # Assign serialization offsets only after consolidation.

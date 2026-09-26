@@ -1,0 +1,398 @@
+{
+  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "guide_corridors": [
+    {
+      "part": "bit clock rod guide cap -22",
+      "host": "bit frame 0 removable fixture 0",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock rod guide cap 21.5",
+      "host": "bit frame 0 removable fixture 2",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    },
+    {
+      "part": "bit write rod guide cap -12",
+      "host": "bit frame 0 removable fixture 0",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    },
+    {
+      "part": "bit write rod guide cap 32",
+      "host": "bit frame 0 removable fixture 2",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    },
+    {
+      "part": "control clock rod guide cap -132",
+      "host": "control frame 0 removable fixture 3",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    },
+    {
+      "part": "control clock rod guide cap -72",
+      "host": "control frame 0 removable fixture 2",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -204",
+      "host": "control frame 0 removable fixture 1",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -140",
+      "host": "control frame 0 removable fixture 3",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -72",
+      "host": "control frame 0 removable fixture 2",
+      "insertion_corridor_occupied_mm3": 0.0,
+      "pins": 2,
+      "pass_check": true
+    }
+  ],
+  "mount_sections": [
+    {
+      "part": "bit frame 0 removable fixture 0",
+      "pin": "bit frame 0 fixture 0 pin 1",
+      "section_material_fraction": [
+        0.9999999999999993,
+        1.0000000000000004
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 0",
+      "pin": "bit frame 0 fixture 0 pin 2",
+      "section_material_fraction": [
+        1.0000000000000002,
+        0.9999999999999998
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 1",
+      "pin": "bit frame 0 fixture 1 pin 1",
+      "section_material_fraction": [
+        0.9999999999999969,
+        0.9999999999999993
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 1",
+      "pin": "bit frame 0 fixture 1 pin 2",
+      "section_material_fraction": [
+        0.9999999999999981,
+        0.9999999999999996
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 2",
+      "pin": "bit frame 0 fixture 2 pin 1",
+      "section_material_fraction": [
+        1.000000000000002,
+        0.9999999999999998
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 2",
+      "pin": "bit frame 0 fixture 2 pin 2",
+      "section_material_fraction": [
+        1.0000000000000009,
+        0.9999999999999993
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 3",
+      "pin": "bit frame 0 fixture 3 pin 1",
+      "section_material_fraction": [
+        1.0000000000000009,
+        0.9999999999999987
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 3",
+      "pin": "bit frame 0 fixture 3 pin 2",
+      "section_material_fraction": [
+        1.000000000000004,
+        1.0000000000000027
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 4",
+      "pin": "bit frame 0 fixture 4 pin 1",
+      "section_material_fraction": [
+        1.0000000000000036,
+        1.0000000000000002
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 4",
+      "pin": "bit frame 0 fixture 4 pin 2",
+      "section_material_fraction": [
+        1.000000000000002,
+        1.0
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 5",
+      "pin": "bit frame 0 fixture 5 pin 1",
+      "section_material_fraction": [
+        1.0000000000000013,
+        1.0000000000000024
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 5",
+      "pin": "bit frame 0 fixture 5 pin 2",
+      "section_material_fraction": [
+        1.0,
+        1.0000000000000004
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 0",
+      "pin": "bit frame 1 fixture 0 pin 1",
+      "section_material_fraction": [
+        1.000000000000001,
+        0.9999999999999996
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 0",
+      "pin": "bit frame 1 fixture 0 pin 2",
+      "section_material_fraction": [
+        1.0000000000000018,
+        0.9999999999999984
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 1",
+      "pin": "bit frame 1 fixture 1 pin 1",
+      "section_material_fraction": [
+        0.9999999999999996,
+        1.0000000000000016
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 1",
+      "pin": "bit frame 1 fixture 1 pin 2",
+      "section_material_fraction": [
+        0.9999999999999992,
+        0.9999999999999991
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 2",
+      "pin": "bit frame 1 fixture 2 pin 1",
+      "section_material_fraction": [
+        1.0000000000000009,
+        0.9999999999999991
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 2",
+      "pin": "bit frame 1 fixture 2 pin 2",
+      "section_material_fraction": [
+        1.0000000000000033,
+        1.0000000000000016
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 0",
+      "pin": "control frame 0 fixture 0 pin 1",
+      "section_material_fraction": [
+        1.000000000000002,
+        1.0000000000000009
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 0",
+      "pin": "control frame 0 fixture 0 pin 2",
+      "section_material_fraction": [
+        1.0000000000000007,
+        1.0000000000000007
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 0",
+      "pin": "control frame 0 fixture 0 pin 3",
+      "section_material_fraction": [
+        1.000000000000002,
+        1.000000000000001
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 0",
+      "pin": "control frame 0 fixture 0 pin 4",
+      "section_material_fraction": [
+        1.0000000000000018,
+        1.0000000000000004
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 1",
+      "pin": "control frame 0 fixture 1 pin 1",
+      "section_material_fraction": [
+        1.0000000000000009,
+        0.9999999999999987
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 1",
+      "pin": "control frame 0 fixture 1 pin 2",
+      "section_material_fraction": [
+        1.0000000000000004,
+        1.0000000000000013
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 1",
+      "pin": "control frame 0 fixture 1 pin 3",
+      "section_material_fraction": [
+        0.9999999999999984,
+        0.999999999999999
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 1",
+      "pin": "control frame 0 fixture 1 pin 4",
+      "section_material_fraction": [
+        0.9999999999999986,
+        0.9999999999999991
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 2",
+      "pin": "control frame 0 fixture 2 pin 1",
+      "section_material_fraction": [
+        1.0000000000000038,
+        1.0000000000000027
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 2",
+      "pin": "control frame 0 fixture 2 pin 2",
+      "section_material_fraction": [
+        1.0000000000000004,
+        1.0000000000000013
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 2",
+      "pin": "control frame 0 fixture 2 pin 3",
+      "section_material_fraction": [
+        1.0000000000000036,
+        1.0000000000000024
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 2",
+      "pin": "control frame 0 fixture 2 pin 4",
+      "section_material_fraction": [
+        1.0000000000000038,
+        1.0000000000000027
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 3",
+      "pin": "control frame 0 fixture 3 pin 1",
+      "section_material_fraction": [
+        1.0000000000000018,
+        1.0000000000000002
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 3",
+      "pin": "control frame 0 fixture 3 pin 2",
+      "section_material_fraction": [
+        0.9999999999999983,
+        0.9999999999999988
+      ],
+      "pass_check": true
+    }
+  ],
+  "module_envelopes": [
+    {
+      "module": "bit",
+      "bounds_mm": [
+        [
+          -141.8,
+          -12.32008653715014,
+          -47.8
+        ],
+        [
+          166.2,
+          48.5,
+          64.4
+        ]
+      ],
+      "pass_check": true
+    },
+    {
+      "module": "control",
+      "bounds_mm": [
+        [
+          -173.8,
+          -18.463680076599122,
+          -224.0
+        ],
+        [
+          -84.0,
+          56.5,
+          -48.2
+        ]
+      ],
+      "pass_check": true
+    }
+  ],
+  "manufacturing_revision_pass": true,
+  "scope": "Check cap-off insertion corridors, reinforced mounting sections and retained envelope.",
+  "limitations": [
+    "Guide corridor proves the rod shank can enter an uncapped guide laterally; install guides/rods before obstructing followers and actuator hardware. It is not an exhaustive full-assembly path proof.",
+    "Mount section checks verify material, not printed strength."
+  ]
+}

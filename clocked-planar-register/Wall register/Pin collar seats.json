@@ -1,0 +1,842 @@
+[
+  {
+    "pin": "bit frame 0 fixture 0 pin 1",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -118.0,
+      38.0,
+      -34.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 0 pin 2",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -112.0,
+      38.0,
+      8.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 1 pin 1",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 1"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -62.0,
+      38.0,
+      -3.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 1 pin 2",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 1"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -58.0,
+      38.0,
+      -35.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 2 pin 1",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -120.0,
+      38.0,
+      23.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 2 pin 2",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -94.0,
+      38.0,
+      59.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 3 pin 1",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 3"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -23.0,
+      38.0,
+      10.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 3 pin 2",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 3"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      15.0,
+      38.0,
+      -6.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 4 pin 1",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 4"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -22.0,
+      38.0,
+      30.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 4 pin 2",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 4"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -10.0,
+      38.0,
+      30.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 5 pin 1",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 5"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -19.0,
+      38.0,
+      59.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 0 fixture 5 pin 2",
+    "hosts": [
+      "bit coordinated chassis 0",
+      "bit frame 0 removable fixture 5"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      3.0,
+      38.0,
+      -15.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 1 fixture 0 pin 1",
+    "hosts": [
+      "bit coordinated chassis 1",
+      "bit frame 1 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      74.0,
+      38.0,
+      40.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 1 fixture 0 pin 2",
+    "hosts": [
+      "bit coordinated chassis 1",
+      "bit frame 1 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      96.0,
+      38.0,
+      30.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 1 fixture 1 pin 1",
+    "hosts": [
+      "bit coordinated chassis 1",
+      "bit frame 1 removable fixture 1"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      88.0,
+      38.0,
+      -10.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 1 fixture 1 pin 2",
+    "hosts": [
+      "bit coordinated chassis 1",
+      "bit frame 1 removable fixture 1"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      124.0,
+      38.0,
+      10.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 1 fixture 2 pin 1",
+    "hosts": [
+      "bit coordinated chassis 1",
+      "bit frame 1 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      87.0,
+      38.0,
+      59.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit frame 1 fixture 2 pin 2",
+    "hosts": [
+      "bit coordinated chassis 1",
+      "bit frame 1 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      111.0,
+      38.0,
+      -15.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 0 pin 1",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -155.0,
+      48.3,
+      -203.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 0 pin 2",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -131.0,
+      48.3,
+      -183.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 0 pin 3",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -153.0,
+      48.3,
+      -183.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 0 pin 4",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -143.0,
+      48.3,
+      -195.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 1 pin 1",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 1"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -125.0,
+      48.3,
+      -218.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 1 pin 2",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 1"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -89.0,
+      48.3,
+      -122.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 1 pin 3",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 1"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -113.0,
+      48.3,
+      -168.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 1 pin 4",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 1"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -89.0,
+      48.3,
+      -212.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 2 pin 1",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -169.0,
+      48.3,
+      -115.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 2 pin 2",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -89.0,
+      48.3,
+      -69.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 2 pin 3",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -137.0,
+      48.3,
+      -77.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 2 pin 4",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -169.0,
+      48.3,
+      -81.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 3 pin 1",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 3"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -169.0,
+      48.3,
+      -133.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control frame 0 fixture 3 pin 2",
+    "hosts": [
+      "control coordinated chassis 0",
+      "control frame 0 removable fixture 3"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -117.0,
+      48.3,
+      -137.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "clock rod coupler friction pin 1",
+    "hosts": [
+      "Control CLOCK direct rod and pickup",
+      "clock pinned rod splice bridge"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -116.0,
+      9.8,
+      -55
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "clock rod coupler friction pin 2",
+    "hosts": [
+      "bit clock vertical control rod",
+      "clock pinned rod splice bridge"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -116.0,
+      9.8,
+      -41
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "write rod coupler friction pin 1",
+    "hosts": [
+      "Control WRITE direct rod and pickup",
+      "write pinned rod splice bridge"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -128.0,
+      25.8,
+      -55
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "write rod coupler friction pin 2",
+    "hosts": [
+      "bit write vertical control rod",
+      "write pinned rod splice bridge"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -128.0,
+      25.8,
+      -41
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit clock rod guide cap -22 friction pin 1",
+    "hosts": [
+      "bit clock rod guide cap -22",
+      "bit frame 0 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -129.5,
+      9.6,
+      -20.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit clock rod guide cap -22 friction pin 2",
+    "hosts": [
+      "bit clock rod guide cap -22",
+      "bit frame 0 removable fixture 0"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -129.5,
+      9.6,
+      -6.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit clock rod guide cap 21.5 friction pin 1",
+    "hosts": [
+      "bit clock rod guide cap 21.5",
+      "bit frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -129.5,
+      9.6,
+      21.5
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit clock rod guide cap 21.5 friction pin 2",
+    "hosts": [
+      "bit clock rod guide cap 21.5",
+      "bit frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -129.5,
+      9.6,
+      35.5
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit write rod guide cap -12 friction pin 1",
+    "hosts": [
+      "bit frame 0 removable fixture 0",
+      "bit write rod guide cap -12"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -136.5,
+      25.6,
+      -25.5
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit write rod guide cap -12 friction pin 2",
+    "hosts": [
+      "bit frame 0 removable fixture 0",
+      "bit write rod guide cap -12"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -136.5,
+      25.6,
+      -11.5
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit write rod guide cap 32 friction pin 1",
+    "hosts": [
+      "bit frame 0 removable fixture 2",
+      "bit write rod guide cap 32"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -136.5,
+      25.6,
+      28.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "bit write rod guide cap 32 friction pin 2",
+    "hosts": [
+      "bit frame 0 removable fixture 2",
+      "bit write rod guide cap 32"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -136.5,
+      25.6,
+      42.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control clock rod guide cap -132 friction pin 1",
+    "hosts": [
+      "control clock rod guide cap -132",
+      "control frame 0 removable fixture 3"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -100.5,
+      9.6,
+      -130.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control clock rod guide cap -132 friction pin 2",
+    "hosts": [
+      "control clock rod guide cap -132",
+      "control frame 0 removable fixture 3"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -100.5,
+      9.6,
+      -116.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control clock rod guide cap -72 friction pin 1",
+    "hosts": [
+      "control clock rod guide cap -72",
+      "control frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -100.5,
+      9.6,
+      -90.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control clock rod guide cap -72 friction pin 2",
+    "hosts": [
+      "control clock rod guide cap -72",
+      "control frame 0 removable fixture 2"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -100.5,
+      9.6,
+      -76.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control write rod guide cap -204 friction pin 1",
+    "hosts": [
+      "control frame 0 removable fixture 1",
+      "control write rod guide cap -204"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -112.5,
+      25.6,
+      -202.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control write rod guide cap -204 friction pin 2",
+    "hosts": [
+      "control frame 0 removable fixture 1",
+      "control write rod guide cap -204"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -112.5,
+      25.6,
+      -188.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control write rod guide cap -140 friction pin 1",
+    "hosts": [
+      "control frame 0 removable fixture 3",
+      "control write rod guide cap -140"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -112.5,
+      25.6,
+      -163.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control write rod guide cap -140 friction pin 2",
+    "hosts": [
+      "control frame 0 removable fixture 3",
+      "control write rod guide cap -140"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -112.5,
+      25.6,
+      -137.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control write rod guide cap -72 friction pin 1",
+    "hosts": [
+      "control frame 0 removable fixture 2",
+      "control write rod guide cap -72"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -141.5,
+      25.6,
+      -76.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "control write rod guide cap -72 friction pin 2",
+    "hosts": [
+      "control frame 0 removable fixture 2",
+      "control write rod guide cap -72"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -141.5,
+      25.6,
+      -54.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "Control WRITE bearing shoe friction pin 1",
+    "hosts": [
+      "Control WRITE detachable bearing shoe",
+      "Control WRITE direct rod and pickup"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -151.0,
+      25.8,
+      -171.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "Control WRITE bearing shoe friction pin 2",
+    "hosts": [
+      "Control WRITE detachable bearing shoe",
+      "Control WRITE direct rod and pickup"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -139.6,
+      25.8,
+      -171.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  }
+]
