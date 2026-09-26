@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
+  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
   "parts": [
     {
       "part": "bit clock rod guide cap -22",
@@ -560,6 +560,46 @@
       "watertight": true,
       "connected_solids": 1,
       "unsupported_area_mm2": 256.1261206499065
+    },
+    {
+      "part": "Control CLOCK detachable pickup",
+      "file": "Print oriented assembly parts/Control CLOCK detachable pickup.stl",
+      "print_up_axis": "Y",
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_translation_mm": [
+        -93.2,
+        132.0,
+        45.2
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "unsupported_area_mm2": 0.0
     },
     {
       "part": "Control WRITE direct rod and pickup",

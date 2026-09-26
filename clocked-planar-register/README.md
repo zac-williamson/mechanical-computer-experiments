@@ -1,3 +1,5 @@
+Latest rod topology and print orientations: [sliding surfaces without support contact](Wall%20register/Sliding%20surface%20printing.md).
+
 Latest carriage and band corrections: [planar fixes adopted](Wall%20register/Planar%20fixes%20adopted.md).
 
 Latest manufacturing changes: [assembly order and print orientations](Wall%20register/Assembly%20and%20print%20revision.md).

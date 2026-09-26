@@ -27,3 +27,8 @@ Run geometry generation and checks sequentially through Source/run_wall_job.py.
 It limits TBB/BLAS to one worker, lowers process priority, enforces a single-job
 lock, and stops at 1.2 GiB resident memory. Do not spawn agents or simultaneous
 geometry jobs: the user explicitly revoked parallelisation after a machine freeze.
+
+Rod/guide running faces must not print on support material. Maintain the explicit
+sliding-part orientations and the full-stroke sliding-face audit. The CLOCK
+pickup is a separate flat-backed part joined to its rod by two LEGO friction
+pins; do not fuse it back into a support-dependent rod.

@@ -778,5 +778,35 @@
     ],
     "collar_clearance_depth_mm": 1.8,
     "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "Control CLOCK pickup friction pin 1",
+    "hosts": [
+      "Control CLOCK detachable pickup",
+      "Control CLOCK direct rod and pickup"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -109,
+      36.8,
+      -110.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
+  },
+  {
+    "pin": "Control CLOCK pickup friction pin 2",
+    "hosts": [
+      "Control CLOCK detachable pickup",
+      "Control CLOCK direct rod and pickup"
+    ],
+    "axis": 1,
+    "centre_mm": [
+      -109,
+      36.8,
+      -98.0
+    ],
+    "collar_clearance_depth_mm": 1.8,
+    "collar_clearance_diameter_mm": 6.6
   }
 ]

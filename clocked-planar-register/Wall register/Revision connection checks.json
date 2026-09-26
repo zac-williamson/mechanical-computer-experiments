@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
+  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
   "connections": [
     {
       "part": "bit clock rod guide cap -22",
@@ -1003,6 +1003,66 @@
         }
       ],
       "min_pin_spacing_mm": 10.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLOCK detachable pickup",
+      "host": "Control CLOCK direct rod and pickup",
+      "pins": [
+        {
+          "part": "Control CLOCK pickup friction pin 1",
+          "centre_mm": [
+            -109,
+            36.8,
+            -110.0
+          ],
+          "axis": 1
+        },
+        {
+          "part": "Control CLOCK pickup friction pin 2",
+          "centre_mm": [
+            -109,
+            36.8,
+            -98.0
+          ],
+          "axis": 1
+        }
+      ],
+      "print_axis": 1,
+      "print_up_sign": -1,
+      "bed_plane_mm": 45.2,
+      "assembly": "Print the pickup rear-face down and rod front-face down. Seat both 2780 pins in the rod from +Y, then press the pickup onto the exposed halves before installing the rod and actuator.",
+      "socket_checks": [
+        {
+          "pin": "Control CLOCK pickup friction pin 1",
+          "socket_fractions": [
+            [
+              0.0,
+              1.0000000000000004
+            ],
+            [
+              1.0000000000000007,
+              0.0
+            ]
+          ],
+          "pass_check": true
+        },
+        {
+          "pin": "Control CLOCK pickup friction pin 2",
+          "socket_fractions": [
+            [
+              0.0,
+              1.0000000000000002
+            ],
+            [
+              1.0000000000000004,
+              0.0
+            ]
+          ],
+          "pass_check": true
+        }
+      ],
+      "min_pin_spacing_mm": 12.0,
       "pass_check": true
     }
   ],

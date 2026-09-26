@@ -1,3 +1,5 @@
+> Use [Print oriented sliding parts](Sliding%20surface%20printing.md) for rods, guide caps/carriers and the new separately pinned CLOCK pickup.
+
 > The latest matching carriage, track and band-anchor changes are described in [Planar fixes adopted](Planar%20fixes%20adopted.md). Use the current exports together.
 
 # Assembly and print revision

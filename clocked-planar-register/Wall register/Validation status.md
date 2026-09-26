@@ -2,7 +2,7 @@
 
 **Development candidate; not a print release.**
 
-Geometry SHA-256: `587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993`.
+Geometry SHA-256: `c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d`.
 
 | Screen | Current evidence |
 |---|---|
@@ -16,7 +16,7 @@ Geometry SHA-256: `587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f
 | [Bearing print orientations](Bearing%20print%20orientations.json) | PASS: 18 wall STLs with bearing axes normal to the bed |
 | [Axle print-face audit](Axle%20print-face%20audit.json) | PASS: 47 parts screened; 0 parts need further separation or bed-face work |
 | [Frame print checks](Frame%20print%20checks.json) | PASS: 3 flat-bed frame parts; no unsupported faces beyond 45 degrees; no bridge exemption |
-| [Frame pin clearance checks](Frame%20pin%20clearance%20checks.json) | PASS: 60 friction-pin envelopes checked against other hardware and parts through operating poses |
+| [Frame pin clearance checks](Frame%20pin%20clearance%20checks.json) | PASS: 62 friction-pin envelopes checked against other hardware and parts through operating poses |
 | [Rod splice checks](Rod%20splice%20checks.json) | PASS: two pinned rod splices, two engaged pin sockets each |
 | [Rod splice print checks](Rod%20splice%20print%20checks.json) | PASS: two splice bridges with pin holes normal to the bed and no unsupported faces beyond 45 degrees |
 | [Frame rebuild verification](Frame%20rebuild%20verification.json) | PASS: source rebuild reproduces the same solids and poses; triangle ordering may differ |
@@ -27,6 +27,7 @@ Geometry SHA-256: `587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f
 | [Assembly print orientations](Assembly%20print%20orientations.json) | PASS |
 | [Carriage section checks](Carriage%20section%20checks.json) | PASS: eight carriage halves; reinforced corners and backing sections |
 | [Band installation checks](Band%20installation%20checks.json) | PASS: closed-band insertion at both lock anchors |
+| [Sliding surface print checks](Sliding%20surface%20print%20checks.json) | PASS: all nine rod/guide interfaces; no support-facing running surfaces in supplied orientations |
 
 ## Scope
 

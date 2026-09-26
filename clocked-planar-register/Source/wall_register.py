@@ -312,6 +312,8 @@ from wall_fixture_print_faces import separate_fixture_bearing_faces
 separate_fixture_bearing_faces(globals())
 from wall_write_rod_print import separate_write_rod
 separate_write_rod(globals())
+from wall_rod_printing import separate_clock_pickup
+separate_clock_pickup(globals())
 from wall_rod_assembly import open_rod_guides
 open_rod_guides(globals())
 from wall_pin_seats import finish_pin_seats

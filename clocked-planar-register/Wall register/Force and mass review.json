@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
+  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
   "scope": "Geometric mass proxy and force-path audit; not measured actuation force.",
   "moving_printed_material": {
     "bit": {
@@ -9,8 +9,8 @@
     },
     "control": {
       "before_printed_moving_volume_mm3": 52599.21241279709,
-      "after_printed_moving_volume_mm3": 43486.28051686216,
-      "reduction_percent": 17.32522499465753
+      "after_printed_moving_volume_mm3": 45792.91423825667,
+      "reduction_percent": 12.939924121153734
     }
   },
   "parts": {
@@ -152,7 +152,7 @@
     "Control CLOCK direct rod and pickup": {
       "module": "control",
       "motion": "crosshead",
-      "volume_mm3": 6603.110689064386
+      "volume_mm3": 6338.903153566093
     },
     "Control Clock amplifier front and input shoe": {
       "module": "control",
@@ -368,6 +368,11 @@
       "module": "control",
       "motion": "carriage",
       "volume_mm3": 3489.763410407024
+    },
+    "Control CLOCK detachable pickup": {
+      "module": "control",
+      "motion": "crosshead",
+      "volume_mm3": 2570.841256892791
     },
     "bit clock rod guide cap -22": {
       "module": "bit",

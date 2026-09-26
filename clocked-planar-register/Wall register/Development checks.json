@@ -1,10 +1,10 @@
 {
-  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
+  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
   "scope": "Two adjacent rows plus controller: sampled printed collisions using inherited contact-resolved poses; repeated rows share the same data trace; no physical dynamics claim",
   "frames": 910,
   "case_coverage": "112 inherited traces, 17 samples each, unique printed poses",
-  "narrow_checks": 348698,
-  "unique_pair_checks": 21334,
+  "narrow_checks": 347932,
+  "unique_pair_checks": 20929,
   "cache_policy": "Exact part IDs and full rigid transforms; deforming parts are not cached",
   "invalid_solids": [],
   "parts": [
@@ -146,7 +146,7 @@
     {
       "part": "Control CLOCK direct rod and pickup",
       "connected_solids": 1,
-      "volume_mm3": 6603.110689064379
+      "volume_mm3": 6338.903153566083
     },
     {
       "part": "Control Clock amplifier front and input shoe",
@@ -362,6 +362,11 @@
       "part": "Control WRITE detachable bearing shoe",
       "connected_solids": 1,
       "volume_mm3": 3489.763410407021
+    },
+    {
+      "part": "Control CLOCK detachable pickup",
+      "connected_solids": 1,
+      "volume_mm3": 2570.8412568927915
     },
     {
       "part": "bit clock rod guide cap -22",

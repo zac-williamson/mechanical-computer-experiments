@@ -329,6 +329,9 @@ Control write removable rear bearing cheek,control,printed,,1,1,Development part
 Control WRITE detachable bearing shoe,control,printed,write Right carriage bearing support,1,1,Development parts/Control WRITE detachable bearing shoe.stl
 Control WRITE bearing shoe friction pin 1,control,native,2780,1,1,
 Control WRITE bearing shoe friction pin 2,control,native,2780,1,1,
+Control CLOCK detachable pickup,control,printed,,1,1,Development parts/Control CLOCK detachable pickup.stl
+Control CLOCK pickup friction pin 1,control,native,2780,1,1,
+Control CLOCK pickup friction pin 2,control,native,2780,1,1,
 bit clock rod guide cap -22,bit,printed,,1,8,Development parts/bit clock rod guide cap -22.stl
 bit clock rod guide cap -22 friction pin 1,bit,native,2780,1,8,
 bit clock rod guide cap -22 friction pin 2,bit,native,2780,1,8,

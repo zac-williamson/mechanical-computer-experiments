@@ -231,6 +231,34 @@
       "print_up_sign": 1,
       "bed_plane_mm": -176,
       "assembly": "Insert both pins into bearing shoe from +Y; press rod plate onto exposed halves. Attach bearing shoe to carriage before closing rod guide caps."
+    },
+    {
+      "part": "Control CLOCK detachable pickup",
+      "host": "Control CLOCK direct rod and pickup",
+      "pins": [
+        {
+          "part": "Control CLOCK pickup friction pin 1",
+          "centre_mm": [
+            -109,
+            36.8,
+            -110.0
+          ],
+          "axis": 1
+        },
+        {
+          "part": "Control CLOCK pickup friction pin 2",
+          "centre_mm": [
+            -109,
+            36.8,
+            -98.0
+          ],
+          "axis": 1
+        }
+      ],
+      "print_axis": 1,
+      "print_up_sign": -1,
+      "bed_plane_mm": 45.2,
+      "assembly": "Print the pickup rear-face down and rod front-face down. Seat both 2780 pins in the rod from +Y, then press the pickup onto the exposed halves before installing the rod and actuator."
     }
   ]
 }
