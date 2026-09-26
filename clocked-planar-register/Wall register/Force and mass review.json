@@ -1,16 +1,16 @@
 {
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
   "scope": "Geometric mass proxy and force-path audit; not measured actuation force.",
   "moving_printed_material": {
     "bit": {
       "before_printed_moving_volume_mm3": 68940.38455003541,
-      "after_printed_moving_volume_mm3": 67543.24952027027,
-      "reduction_percent": 2.0265843291766505
+      "after_printed_moving_volume_mm3": 70639.33458112317,
+      "reduction_percent": -2.4643756227595404
     },
     "control": {
       "before_printed_moving_volume_mm3": 52599.21241279709,
-      "after_printed_moving_volume_mm3": 40273.04219101055,
-      "reduction_percent": 23.434134574204478
+      "after_printed_moving_volume_mm3": 43486.28051686216,
+      "reduction_percent": 17.32522499465753
     }
   },
   "parts": {
@@ -22,12 +22,12 @@
     "master Carriage fork and roof": {
       "module": "bit",
       "motion": "carriage",
-      "volume_mm3": 8756.287042341519
+      "volume_mm3": 9448.615270676333
     },
     "master Right carriage bearing support": {
       "module": "bit",
       "motion": "carriage",
-      "volume_mm3": 1501.7900297611557
+      "volume_mm3": 2183.207304667041
     },
     "slave Short lever": {
       "module": "bit",
@@ -37,12 +37,12 @@
     "slave Carriage fork and roof": {
       "module": "bit",
       "motion": "carriage",
-      "volume_mm3": 8822.489372230137
+      "volume_mm3": 9447.750008108856
     },
     "slave Right carriage bearing support": {
       "module": "bit",
       "motion": "carriage",
-      "volume_mm3": 1428.4716176417471
+      "volume_mm3": 2109.8894319518827
     },
     "master lock bolt": {
       "module": "bit",
@@ -77,7 +77,7 @@
     "Passive write Carriage fork and roof": {
       "module": "bit",
       "motion": "write-fork",
-      "volume_mm3": 1390.0765614559834
+      "volume_mm3": 1631.599244951444
     },
     "Local clock cam and fork bar": {
       "module": "bit",
@@ -127,7 +127,7 @@
     "bit WRITE fork and pickup": {
       "module": "bit",
       "motion": "write-fork",
-      "volume_mm3": 2348.2569595373884
+      "volume_mm3": 2522.3953834652834
     },
     "Control clock Short lever": {
       "module": "control",
@@ -137,12 +137,12 @@
     "Control clock Carriage fork and roof": {
       "module": "control",
       "motion": "carriage",
-      "volume_mm3": 7944.453792981972
+      "volume_mm3": 8581.72819740464
     },
     "Control clock Right carriage bearing support": {
       "module": "control",
       "motion": "carriage",
-      "volume_mm3": 1123.9173187322988
+      "volume_mm3": 1765.0205896494197
     },
     "Control clock Front bearing cheek": {
       "module": "control",
@@ -172,12 +172,12 @@
     "Control write Carriage fork and roof": {
       "module": "control",
       "motion": "carriage",
-      "volume_mm3": 8128.213595312544
+      "volume_mm3": 9378.244469592466
     },
     "Control WRITE direct rod and pickup": {
       "module": "control",
       "motion": "carriage",
-      "volume_mm3": 7619.962704239618
+      "volume_mm3": 7566.538704239636
     },
     "Control write Front bearing cheek": {
       "module": "control",
@@ -192,12 +192,12 @@
     "bit removable bearing wall 1": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 2491.433074880692
+      "volume_mm3": 2442.8413828756734
     },
     "bit removable bearing wall 2": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 2099.1344432341043
+      "volume_mm3": 2096.1830744354884
     },
     "bit removable bearing wall 3": {
       "module": "bit",
@@ -282,7 +282,7 @@
     "bit frame 0 removable fixture 1": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 2336.522930910926
+      "volume_mm3": 1935.0621801025984
     },
     "bit frame 0 removable fixture 2": {
       "module": "bit",
@@ -292,42 +292,32 @@
     "bit frame 0 removable fixture 3": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 3757.8622530456364
+      "volume_mm3": 9111.075878998354
     },
     "bit frame 0 removable fixture 4": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 2305.4304835638627
-    },
-    "bit frame 0 removable fixture 5": {
-      "module": "bit",
-      "motion": "fixed",
-      "volume_mm3": 6946.748596000488
+      "volume_mm3": 2305.4304835638636
     },
     "bit coordinated chassis 0": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 61034.893759379156
+      "volume_mm3": 59500.54558351715
     },
     "bit frame 1 removable fixture 0": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 2814.401193211859
+      "volume_mm3": 2814.401193211854
     },
     "bit frame 1 removable fixture 1": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 3485.622351744165
-    },
-    "bit frame 1 removable fixture 2": {
-      "module": "bit",
-      "motion": "fixed",
-      "volume_mm3": 7000.926011249193
+      "volume_mm3": 8966.253294247057
     },
     "bit coordinated chassis 1": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 44907.288632557524
+      "volume_mm3": 43123.191661632874
     },
     "control frame 0 removable fixture 0": {
       "module": "control",
@@ -337,12 +327,12 @@
     "control frame 0 removable fixture 1": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 8707.849628039958
+      "volume_mm3": 8674.705545470304
     },
     "control frame 0 removable fixture 2": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 16270.013684180672
+      "volume_mm3": 16895.220395216045
     },
     "control frame 0 removable fixture 3": {
       "module": "control",
@@ -352,17 +342,17 @@
     "control coordinated chassis 0": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 41490.35618074701
+      "volume_mm3": 41324.654930747034
     },
     "master removable rear bearing cheek": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 2740.9481351818436
+      "volume_mm3": 2740.947354379546
     },
     "slave removable rear bearing cheek": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 2718.619320334157
+      "volume_mm3": 2718.6181822572075
     },
     "Control clock removable rear bearing cheek": {
       "module": "control",
@@ -377,7 +367,7 @@
     "Control WRITE detachable bearing shoe": {
       "module": "control",
       "motion": "carriage",
-      "volume_mm3": 2751.5096341751246
+      "volume_mm3": 3489.763410407024
     },
     "bit clock rod guide cap -22": {
       "module": "bit",
@@ -412,7 +402,7 @@
     "control write rod guide cap -204": {
       "module": "control",
       "motion": "fixed",
-      "volume_mm3": 2580.145359884848
+      "volume_mm3": 1948.6912083484942
     },
     "control write rod guide cap -140": {
       "module": "control",

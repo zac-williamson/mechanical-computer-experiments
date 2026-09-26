@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
   "parts": [
     {
       "part": "bit clock rod guide cap -22",
@@ -273,13 +273,13 @@
         ]
       ],
       "print_translation_mm": [
-        -182.7,
-        -107.2,
+        -202.0,
+        -113.7,
         -17.8
       ],
       "watertight": true,
       "connected_solids": 1,
-      "unsupported_area_mm2": 0.0
+      "unsupported_area_mm2": 13.364050053268631
     },
     {
       "part": "control write rod guide cap -140",
@@ -559,7 +559,7 @@
       ],
       "watertight": true,
       "connected_solids": 1,
-      "unsupported_area_mm2": 272.4511204210244
+      "unsupported_area_mm2": 256.1261206499065
     },
     {
       "part": "Control WRITE direct rod and pickup",

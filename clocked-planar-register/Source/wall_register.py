@@ -34,7 +34,9 @@ def cyl(r,lo,hi,axis,c):
  return s.translate(pos)
 def link(a,b,r,y0,y1):return (cyl(r,y0,y1,1,[a[0],0,a[1]])+cyl(r,y0,y1,1,[b[0],0,b[1]])).hull()
 def oldmesh(name):
- p=LOOK[name];return VERT[p['offset']//3:p['offset']//3+p['vertices']].copy()
+ p=LOOK[name];a=VERT[p['offset']//3:p['offset']//3+p['vertices']].copy()
+ from wall_carriage_reinforcement import revise
+ return revise(name,a,globals())
 def solid(a):
  t=trimesh.Trimesh(a,np.arange(len(a)).reshape(-1,3),process=True)
  return m.Manifold(m.Mesh64(t.vertices.astype(float),t.faces.astype(np.uint64)))
@@ -314,6 +316,9 @@ from wall_rod_assembly import open_rod_guides
 open_rod_guides(globals())
 from wall_pin_seats import finish_pin_seats
 finish_pin_seats(globals())
+from wall_carriage_reinforcement import reopen_band_access, seat_revised_cap
+reopen_band_access(globals())
+seat_revised_cap(globals())
 
 assert len({p['id'] for p in P})==len(P), 'Duplicate part IDs'
 # Assign serialization offsets only after consolidation.

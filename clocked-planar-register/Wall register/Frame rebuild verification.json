@@ -1,6 +1,6 @@
 {
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
-  "rebuilt_geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
+  "rebuilt_geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
   "geometry_reproduction_pass": true,
   "exact_mesh_reproduction_pass": true,
   "scope": "Independent full source rebuild in an empty temporary directory; exact geometry bytes and all part/pose metadata compared."

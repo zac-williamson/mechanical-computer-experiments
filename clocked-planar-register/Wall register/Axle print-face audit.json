@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
   "scope": "Inventory actual axle-bearing parts and check whether their rings start on bed.\n\nThis distinguishes a vertical bore from a bore suspended above the print bed.\nOther overhangs are measured and reported, not waived as bridgeable.\n",
   "moved_retainer_checks": [
     {
@@ -669,7 +669,7 @@
             10.2,
             16.0
           ],
-          "bed_ring_fraction": 0.9999999999999983,
+          "bed_ring_fraction": 1.0000000000000007,
           "on_bed": true
         }
       ],
@@ -725,7 +725,7 @@
             10.2,
             16.0
           ],
-          "bed_ring_fraction": 1.0000000000000024,
+          "bed_ring_fraction": 1.0000000000000022,
           "on_bed": true
         }
       ],
@@ -1038,12 +1038,12 @@
             10.2,
             16.0
           ],
-          "bed_ring_fraction": 1.0000000000000144,
+          "bed_ring_fraction": 1.0000000000000042,
           "on_bed": true
         }
       ],
       "holes_on_bed": 1,
-      "other_unsupported_area_mm2": 148.5355128322543,
+      "other_unsupported_area_mm2": 167.16551283225436,
       "axle_bed_face_pass": true,
       "file": "Print oriented axle parts/slave Carriage fork and roof.stl",
       "assembly_to_print_rotation": [
@@ -1094,7 +1094,7 @@
             10.2,
             16.0
           ],
-          "bed_ring_fraction": 1.0000000000000022,
+          "bed_ring_fraction": 1.0000000000000004,
           "on_bed": true
         }
       ],
@@ -1228,7 +1228,7 @@
             10.2,
             0.0
           ],
-          "bed_ring_fraction": 0.9999999999999993,
+          "bed_ring_fraction": 0.999999999999998,
           "on_bed": true
         },
         {
@@ -1239,12 +1239,12 @@
             2.2,
             0.0
           ],
-          "bed_ring_fraction": 0.9999999999999943,
+          "bed_ring_fraction": 1.0000000000000009,
           "on_bed": true
         }
       ],
       "holes_on_bed": 2,
-      "other_unsupported_area_mm2": 218.19355716016736,
+      "other_unsupported_area_mm2": 207.92993234110023,
       "axle_bed_face_pass": true,
       "file": null,
       "assembly_to_print_rotation": [
@@ -1300,7 +1300,7 @@
         }
       ],
       "holes_on_bed": 1,
-      "other_unsupported_area_mm2": 194.58142711405856,
+      "other_unsupported_area_mm2": 193.6293726628923,
       "axle_bed_face_pass": true,
       "file": null,
       "assembly_to_print_rotation": [
@@ -2089,7 +2089,7 @@
             6.199999999999999,
             -104.0
           ],
-          "bed_ring_fraction": 1.0000000000000018,
+          "bed_ring_fraction": 0.9999999999999877,
           "on_bed": true
         }
       ],
@@ -2145,7 +2145,7 @@
             6.199999999999999,
             -104.0
           ],
-          "bed_ring_fraction": 0.999999999999992,
+          "bed_ring_fraction": 0.9999999999999908,
           "on_bed": true
         }
       ],
@@ -2180,7 +2180,7 @@
         ]
       ],
       "print_translation_mm": [
-        -124.0,
+        -120.7,
         -0.6999998092651367,
         -88.39999961853027
       ],
@@ -2443,7 +2443,7 @@
         }
       ],
       "holes_on_bed": 1,
-      "other_unsupported_area_mm2": 2698.2592714977814,
+      "other_unsupported_area_mm2": 2944.550436425733,
       "axle_bed_face_pass": true,
       "file": "Print oriented axle parts/control frame 0 removable fixture 2.stl",
       "assembly_to_print_rotation": [
@@ -2740,12 +2740,12 @@
             -1.8000000000000007,
             -184.0
           ],
-          "bed_ring_fraction": 0.9999999999999578,
+          "bed_ring_fraction": 0.9999999999999521,
           "on_bed": true
         }
       ],
       "holes_on_bed": 1,
-      "other_unsupported_area_mm2": 28.849627148692075,
+      "other_unsupported_area_mm2": 58.65315922656381,
       "axle_bed_face_pass": true,
       "file": "Print oriented axle parts/Control write Carriage fork and roof.stl",
       "assembly_to_print_rotation": [
@@ -2908,12 +2908,12 @@
             -1.8000000000000007,
             -184.0
           ],
-          "bed_ring_fraction": 0.9999999999999686,
+          "bed_ring_fraction": 0.9999999999999527,
           "on_bed": true
         }
       ],
       "holes_on_bed": 1,
-      "other_unsupported_area_mm2": 272.4511204210244,
+      "other_unsupported_area_mm2": 256.12612064990657,
       "axle_bed_face_pass": true,
       "file": "Print oriented axle parts/Control WRITE detachable bearing shoe.stl",
       "assembly_to_print_rotation": [

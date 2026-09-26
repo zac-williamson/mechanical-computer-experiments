@@ -1,10 +1,10 @@
 {
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
   "scope": "Two adjacent rows plus controller: sampled printed collisions using inherited contact-resolved poses; repeated rows share the same data trace; no physical dynamics claim",
   "frames": 910,
   "case_coverage": "112 inherited traces, 17 samples each, unique printed poses",
-  "narrow_checks": 365784,
-  "unique_pair_checks": 22250,
+  "narrow_checks": 348698,
+  "unique_pair_checks": 21334,
   "cache_policy": "Exact part IDs and full rigid transforms; deforming parts are not cached",
   "invalid_solids": [],
   "parts": [
@@ -16,12 +16,12 @@
     {
       "part": "master Carriage fork and roof",
       "connected_solids": 1,
-      "volume_mm3": 8756.287042341519
+      "volume_mm3": 9448.615270676333
     },
     {
       "part": "master Right carriage bearing support",
       "connected_solids": 1,
-      "volume_mm3": 1501.790029761156
+      "volume_mm3": 2183.2073046670416
     },
     {
       "part": "slave Short lever",
@@ -31,12 +31,12 @@
     {
       "part": "slave Carriage fork and roof",
       "connected_solids": 1,
-      "volume_mm3": 8822.489372230139
+      "volume_mm3": 9447.75000810886
     },
     {
       "part": "slave Right carriage bearing support",
       "connected_solids": 1,
-      "volume_mm3": 1428.4716176417444
+      "volume_mm3": 2109.889431951883
     },
     {
       "part": "master lock bolt",
@@ -71,7 +71,7 @@
     {
       "part": "Passive write Carriage fork and roof",
       "connected_solids": 1,
-      "volume_mm3": 1390.0765614559832
+      "volume_mm3": 1631.5992449514436
     },
     {
       "part": "Local clock cam and fork bar",
@@ -116,12 +116,12 @@
     {
       "part": "slave Front bearing cheek",
       "connected_solids": 1,
-      "volume_mm3": 2249.3323401744224
+      "volume_mm3": 2249.332340174423
     },
     {
       "part": "bit WRITE fork and pickup",
       "connected_solids": 1,
-      "volume_mm3": 2348.256959537389
+      "volume_mm3": 2522.395383465283
     },
     {
       "part": "Control clock Short lever",
@@ -131,12 +131,12 @@
     {
       "part": "Control clock Carriage fork and roof",
       "connected_solids": 1,
-      "volume_mm3": 7944.453792981976
+      "volume_mm3": 8581.728197404662
     },
     {
       "part": "Control clock Right carriage bearing support",
       "connected_solids": 1,
-      "volume_mm3": 1123.9173187322997
+      "volume_mm3": 1765.0205896494185
     },
     {
       "part": "Control clock Front bearing cheek",
@@ -166,12 +166,12 @@
     {
       "part": "Control write Carriage fork and roof",
       "connected_solids": 1,
-      "volume_mm3": 8128.213595312537
+      "volume_mm3": 9378.244469592459
     },
     {
       "part": "Control WRITE direct rod and pickup",
       "connected_solids": 1,
-      "volume_mm3": 7619.962704239635
+      "volume_mm3": 7566.538704239635
     },
     {
       "part": "Control write Front bearing cheek",
@@ -186,12 +186,12 @@
     {
       "part": "bit removable bearing wall 1",
       "connected_solids": 1,
-      "volume_mm3": 2491.4330748806915
+      "volume_mm3": 2442.8413828756748
     },
     {
       "part": "bit removable bearing wall 2",
       "connected_solids": 1,
-      "volume_mm3": 2099.13444323411
+      "volume_mm3": 2096.1830744354947
     },
     {
       "part": "bit removable bearing wall 3",
@@ -276,7 +276,7 @@
     {
       "part": "bit frame 0 removable fixture 1",
       "connected_solids": 1,
-      "volume_mm3": 2336.5229309109272
+      "volume_mm3": 1935.0621801026005
     },
     {
       "part": "bit frame 0 removable fixture 2",
@@ -286,7 +286,7 @@
     {
       "part": "bit frame 0 removable fixture 3",
       "connected_solids": 1,
-      "volume_mm3": 3757.862253045636
+      "volume_mm3": 9111.075878998356
     },
     {
       "part": "bit frame 0 removable fixture 4",
@@ -294,14 +294,9 @@
       "volume_mm3": 2305.4304835638627
     },
     {
-      "part": "bit frame 0 removable fixture 5",
-      "connected_solids": 1,
-      "volume_mm3": 6946.748596000487
-    },
-    {
       "part": "bit coordinated chassis 0",
       "connected_solids": 1,
-      "volume_mm3": 61034.893759379156
+      "volume_mm3": 59500.54558351716
     },
     {
       "part": "bit frame 1 removable fixture 0",
@@ -311,17 +306,12 @@
     {
       "part": "bit frame 1 removable fixture 1",
       "connected_solids": 1,
-      "volume_mm3": 3485.622351744165
-    },
-    {
-      "part": "bit frame 1 removable fixture 2",
-      "connected_solids": 1,
-      "volume_mm3": 7000.926011249185
+      "volume_mm3": 8966.253294247052
     },
     {
       "part": "bit coordinated chassis 1",
       "connected_solids": 1,
-      "volume_mm3": 44907.288632557545
+      "volume_mm3": 43123.19166163288
     },
     {
       "part": "control frame 0 removable fixture 0",
@@ -331,12 +321,12 @@
     {
       "part": "control frame 0 removable fixture 1",
       "connected_solids": 1,
-      "volume_mm3": 8707.849628039949
+      "volume_mm3": 8674.705545470311
     },
     {
       "part": "control frame 0 removable fixture 2",
       "connected_solids": 1,
-      "volume_mm3": 16270.013684180665
+      "volume_mm3": 16895.220395216053
     },
     {
       "part": "control frame 0 removable fixture 3",
@@ -346,17 +336,17 @@
     {
       "part": "control coordinated chassis 0",
       "connected_solids": 1,
-      "volume_mm3": 41490.35618074704
+      "volume_mm3": 41324.65493074704
     },
     {
       "part": "master removable rear bearing cheek",
       "connected_solids": 1,
-      "volume_mm3": 2740.948135181844
+      "volume_mm3": 2740.947354379546
     },
     {
       "part": "slave removable rear bearing cheek",
       "connected_solids": 1,
-      "volume_mm3": 2718.619320334158
+      "volume_mm3": 2718.6181822572075
     },
     {
       "part": "Control clock removable rear bearing cheek",
@@ -371,7 +361,7 @@
     {
       "part": "Control WRITE detachable bearing shoe",
       "connected_solids": 1,
-      "volume_mm3": 2751.509634175126
+      "volume_mm3": 3489.763410407021
     },
     {
       "part": "bit clock rod guide cap -22",
@@ -406,7 +396,7 @@
     {
       "part": "control write rod guide cap -204",
       "connected_solids": 1,
-      "volume_mm3": 2580.145359884852
+      "volume_mm3": 1948.6912083484926
     },
     {
       "part": "control write rod guide cap -140",
@@ -426,12 +416,12 @@
     {
       "part": "master Carriage fork and roof [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 8756.287042341517
+      "volume_mm3": 9448.615270676331
     },
     {
       "part": "master Right carriage bearing support [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 1501.7900297611561
+      "volume_mm3": 2183.207304667042
     },
     {
       "part": "slave Short lever [row 2]",
@@ -441,12 +431,12 @@
     {
       "part": "slave Carriage fork and roof [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 8822.489372230142
+      "volume_mm3": 9447.750008108864
     },
     {
       "part": "slave Right carriage bearing support [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 1428.4716176417442
+      "volume_mm3": 2109.8894319518836
     },
     {
       "part": "master lock bolt [row 2]",
@@ -481,7 +471,7 @@
     {
       "part": "Passive write Carriage fork and roof [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 1390.0765614559837
+      "volume_mm3": 1631.5992449514429
     },
     {
       "part": "Local clock cam and fork bar [row 2]",
@@ -531,7 +521,7 @@
     {
       "part": "bit WRITE fork and pickup [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 2348.2569595373884
+      "volume_mm3": 2522.3953834652816
     },
     {
       "part": "bit removable bearing wall 0 [row 2]",
@@ -541,12 +531,12 @@
     {
       "part": "bit removable bearing wall 1 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 2491.433074880692
+      "volume_mm3": 2442.8413828756748
     },
     {
       "part": "bit removable bearing wall 2 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 2099.1344432341093
+      "volume_mm3": 2096.1830744354934
     },
     {
       "part": "bit removable bearing wall 3 [row 2]",
@@ -606,7 +596,7 @@
     {
       "part": "bit frame 0 removable fixture 1 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 2336.5229309109313
+      "volume_mm3": 1935.062180102607
     },
     {
       "part": "bit frame 0 removable fixture 2 [row 2]",
@@ -616,7 +606,7 @@
     {
       "part": "bit frame 0 removable fixture 3 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 3757.8622530456337
+      "volume_mm3": 9111.075878998356
     },
     {
       "part": "bit frame 0 removable fixture 4 [row 2]",
@@ -624,14 +614,9 @@
       "volume_mm3": 2305.4304835638663
     },
     {
-      "part": "bit frame 0 removable fixture 5 [row 2]",
-      "connected_solids": 1,
-      "volume_mm3": 6946.748596000485
-    },
-    {
       "part": "bit coordinated chassis 0 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 61034.89375937916
+      "volume_mm3": 59500.54558351717
     },
     {
       "part": "bit frame 1 removable fixture 0 [row 2]",
@@ -641,27 +626,22 @@
     {
       "part": "bit frame 1 removable fixture 1 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 3485.6223517441604
-    },
-    {
-      "part": "bit frame 1 removable fixture 2 [row 2]",
-      "connected_solids": 1,
-      "volume_mm3": 7000.926011249182
+      "volume_mm3": 8966.25329424705
     },
     {
       "part": "bit coordinated chassis 1 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 44907.288632557545
+      "volume_mm3": 43123.19166163289
     },
     {
       "part": "master removable rear bearing cheek [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 2740.9481351818445
+      "volume_mm3": 2740.947354379546
     },
     {
       "part": "slave removable rear bearing cheek [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 2718.6193203341577
+      "volume_mm3": 2718.618182257207
     },
     {
       "part": "bit clock rod guide cap -22 [row 2]",

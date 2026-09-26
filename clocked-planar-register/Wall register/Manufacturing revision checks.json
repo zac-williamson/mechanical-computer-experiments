@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
   "guide_corridors": [
     {
       "part": "bit clock rod guide cap -22",
@@ -124,8 +124,8 @@
       "part": "bit frame 0 removable fixture 3",
       "pin": "bit frame 0 fixture 3 pin 1",
       "section_material_fraction": [
-        1.0000000000000009,
-        0.9999999999999987
+        1.0000000000000013,
+        1.0000000000000024
       ],
       "pass_check": true
     },
@@ -133,8 +133,8 @@
       "part": "bit frame 0 removable fixture 3",
       "pin": "bit frame 0 fixture 3 pin 2",
       "section_material_fraction": [
-        1.000000000000004,
-        1.0000000000000027
+        1.0,
+        1.0000000000000004
       ],
       "pass_check": true
     },
@@ -153,24 +153,6 @@
       "section_material_fraction": [
         1.000000000000002,
         1.0
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 0 removable fixture 5",
-      "pin": "bit frame 0 fixture 5 pin 1",
-      "section_material_fraction": [
-        1.0000000000000013,
-        1.0000000000000024
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 0 removable fixture 5",
-      "pin": "bit frame 0 fixture 5 pin 2",
-      "section_material_fraction": [
-        1.0,
-        1.0000000000000004
       ],
       "pass_check": true
     },
@@ -196,32 +178,14 @@
       "part": "bit frame 1 removable fixture 1",
       "pin": "bit frame 1 fixture 1 pin 1",
       "section_material_fraction": [
-        0.9999999999999996,
-        1.0000000000000016
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 1 removable fixture 1",
-      "pin": "bit frame 1 fixture 1 pin 2",
-      "section_material_fraction": [
-        0.9999999999999992,
-        0.9999999999999991
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 1 removable fixture 2",
-      "pin": "bit frame 1 fixture 2 pin 1",
-      "section_material_fraction": [
         1.0000000000000009,
         0.9999999999999991
       ],
       "pass_check": true
     },
     {
-      "part": "bit frame 1 removable fixture 2",
-      "pin": "bit frame 1 fixture 2 pin 2",
+      "part": "bit frame 1 removable fixture 1",
+      "pin": "bit frame 1 fixture 1 pin 2",
       "section_material_fraction": [
         1.0000000000000033,
         1.0000000000000016

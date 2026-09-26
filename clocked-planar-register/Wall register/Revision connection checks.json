@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
   "connections": [
     {
       "part": "bit clock rod guide cap -22",
@@ -424,17 +424,17 @@
         {
           "part": "control write rod guide cap -204 friction pin 1",
           "centre_mm": [
-            -112.5,
+            -137.0,
             25.6,
-            -202.0
+            -213.0
           ]
         },
         {
           "part": "control write rod guide cap -204 friction pin 2",
           "centre_mm": [
-            -112.5,
+            -119.0,
             25.6,
-            -188.0
+            -213.0
           ]
         }
       ],
@@ -449,12 +449,12 @@
           "pin": "control write rod guide cap -204 friction pin 1",
           "socket_fractions": [
             [
-              0.9999999999999998,
+              0.9963052140419117,
               0.0
             ],
             [
               0.0,
-              0.9999999999999998
+              1.0000000000000004
             ]
           ],
           "pass_check": true
@@ -463,18 +463,18 @@
           "pin": "control write rod guide cap -204 friction pin 2",
           "socket_fractions": [
             [
-              0.9999999999999997,
+              1.0000000000000009,
               0.0
             ],
             [
               0.0,
-              0.9999999999999997
+              1.0000000000000009
             ]
           ],
           "pass_check": true
         }
       ],
-      "min_pin_spacing_mm": 14.0,
+      "min_pin_spacing_mm": 18.0,
       "pass_check": true
     },
     {
@@ -961,7 +961,7 @@
         {
           "part": "Control WRITE bearing shoe friction pin 2",
           "centre_mm": [
-            -139.6,
+            -141.0,
             25.8,
             -171.0
           ],
@@ -991,18 +991,18 @@
           "pin": "Control WRITE bearing shoe friction pin 2",
           "socket_fractions": [
             [
-              1.0000000000000002,
+              1.0000000000000007,
               0.0
             ],
             [
               0.0,
-              1.0
+              1.0000000000000007
             ]
           ],
           "pass_check": true
         }
       ],
-      "min_pin_spacing_mm": 11.400000000000006,
+      "min_pin_spacing_mm": 10.0,
       "pass_check": true
     }
   ],

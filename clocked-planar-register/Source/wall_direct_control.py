@@ -21,10 +21,11 @@ def build_controller(g):
     if n=='Clock track and shaft support module':
      # Keep only the known carriage guide profile; transmission supports are new.
      track=g['oldmesh']('master carriage track')
-     A[-1]=triangles(solid(track).rotate([0,180,0]).translate([40,0,-16]))
+     ss=solid(track)+box([-20,30,11.85],[20,37.8,15.9])+box([-20,30,5.3],[20,37.8,8.3])
+     A[-1]=triangles(ss.rotate([0,180,0]).translate([40,0,-16]))
     if n=='Clock output post':A[-1]=triangles(solid(A[-1])^box([-200,-20,-80],[200,70,-6]))
     if bank=='write' and n in ['write Carriage fork and roof','write Right carriage bearing support']:
-     A[-1]=triangles(solid(A[-1])^box([-200,-20,-80],[200,70,-24]))
+     A[-1]=triangles(solid(A[-1])^box([-200,-20,-80],[200,70,-20.7]))
   if bank=='clock':
    for name,c,d in [('Control CLK input 16T',[70,-5.8,-32],'CLK'),('Control CLK receiving 16T',[70,10.2,-32],'-CLK')]:native(name,'94925',c,drive=d,module='control')
    native('Control CLK external axle','3705',[70,-5.8,-32],drive='CLK',module='control')
@@ -94,7 +95,9 @@ def build_controller(g):
  # Ground the guide backs and the narrow track lip around the rod corridor.
  fixed+=box([-122,43.8,-134],[-119.5,52.3,-130])+box([-164,46.5,-134],[-120,52.3,-130])
  fixed+=box([-122,43.8,-74],[-119.5,52.3,-70])
- fixed+=box([-128.1,23,-85],[-120,25.6,-79])+box([-123,24,-82],[-120,52.3,-79])+box([-123,46.5,-82],[-120,52.3,-69])
+ fixed+=box([-128.1,23,-84.2],[-120,25.6,-79])+box([-123,24,-82],[-120,52.3,-79])+box([-123,46.5,-82],[-120,52.3,-69])
+ # Join the new CLOCK backing past its travel end, behind the WRITE rod.
+ fixed+=box([-123,32.6,-84.2],[-120,36,-79])
  # Two obsolete pin-mount pads were disconnected by the direct-rod channel.
  # They carry no shaft or working guide surface; do not retain floating sockets.
  for j,s in enumerate(fixed.decompose()):

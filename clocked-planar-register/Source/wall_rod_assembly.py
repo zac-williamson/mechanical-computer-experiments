@@ -62,7 +62,7 @@ def open_rod_guides(g):
    opening=box([x-3.4,y-2.01,z-half-.01],[x+3.4,y-.399,z+half+.01]);opened=original-opening
    success=None;fail=[]
    layouts=[(90,side,dz) for side in [-13.5,15.5,13.5,11,-11] for dz in [9,-11,10,-10,-9,11,-7,0,7,-14,14]]+[(angle,shift,0) for angle,shift in [(90,-11),(90,11),(-45,0),(-35,0),(-55,0),(0,0),(90,0),(45,0)]]
-   preferred={('bit','clock',-22):(90,-13.5,9),('bit','clock',21.5):(90,-13.5,7),('bit','write',-12):(90,-8.5,-6.5),('bit','write',32):(90,-8.5,3),('control','clock',-132):(90,15.5,9),('control','clock',-72):(90,15.5,-11),('control','write',-204):(90,15.5,9),('control','write',-140):(90,15.5,-10),('control','write',-72):(90,-13.5,9)}
+   preferred={('bit','clock',-22):(90,-13.5,9),('bit','clock',21.5):(90,-13.5,7),('bit','write',-12):(90,-8.5,-6.5),('bit','write',32):(90,-8.5,3),('control','clock',-132):(90,15.5,9),('control','clock',-72):(90,15.5,-11),('control','write',-204):(0,0,-9),('control','write',-140):(90,15.5,-10),('control','write',-72):(90,-13.5,9)}
    if (module,key,z) in preferred:layouts=[preferred[module,key,z]]+layouts
    for angle,shift,zshift in layouts:
     for radius in [7,9,11,13]:
@@ -92,6 +92,13 @@ def open_rod_guides(g):
       for ax in range(3):
        d=np.zeros(3);d[ax]=.35;keep+=oss[0].translate(d)+oss[0].translate(-d)
       ears-=keep;cap-=keep
+     if module=='control' and key=='write' and z==-204:
+      # Recess the front of the bridge above its lower pin row, leaving
+      # the rear keeper face clear of the strengthened carriage's full sweep.
+      for op,oss,obs in obstacle:
+       if op['id']=='Control write Carriage fork and roof':
+        bb=np.array(obs);clearance=box(bb[:,0,:].min(0)-.3,bb[:,1,:].max(0)+.3)
+        cap-=clearance;ears-=clearance
      if module=='control' and key=='write' and z==-72:
       # Relief on a stationary keeper wing for the complete splice travel.
       for op,oss,obs in obstacle:

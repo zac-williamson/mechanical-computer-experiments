@@ -1,8 +1,8 @@
 {
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
-  "pins": 64,
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
+  "pins": 60,
   "scope": "Screen fixture and rod-splice friction pins against other hardware and parts.",
-  "narrow_checks": 1733,
+  "narrow_checks": 2191,
   "collisions": [],
   "pin_clearance_pass": true,
   "exclusions": "Only each pin's named mating socket parts; nominal friction interference is intentional. All other printed and native hardware tested across 112 cases, 17 samples each."

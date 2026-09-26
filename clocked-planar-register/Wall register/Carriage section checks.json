@@ -1,0 +1,274 @@
+{
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
+  "parts": [
+    {
+      "bank": "master",
+      "half": "Carriage fork and roof",
+      "missing_section_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missing_backing_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "backing_material_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_check": true
+    },
+    {
+      "bank": "master",
+      "half": "Right carriage bearing support",
+      "missing_section_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missing_backing_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "backing_material_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_check": true
+    },
+    {
+      "bank": "slave",
+      "half": "Carriage fork and roof",
+      "missing_section_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missing_backing_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "backing_material_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_check": true
+    },
+    {
+      "bank": "slave",
+      "half": "Right carriage bearing support",
+      "missing_section_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missing_backing_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "backing_material_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_check": true
+    },
+    {
+      "bank": "clock",
+      "half": "Carriage fork and roof",
+      "missing_section_mm3": [
+        0.0,
+        0.0,
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "missing_backing_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "backing_material_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_check": true
+    },
+    {
+      "bank": "clock",
+      "half": "Right carriage bearing support",
+      "missing_section_mm3": [
+        0.0,
+        0.0,
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "missing_backing_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "backing_material_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_check": true
+    },
+    {
+      "bank": "write",
+      "half": "Carriage fork and roof",
+      "missing_section_mm3": [
+        0.0,
+        0.0,
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "missing_backing_mm3": [
+        0.011961535489855978,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "backing_material_fraction": [
+        0.9978331572263162,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_check": true
+    },
+    {
+      "bank": "write",
+      "half": "Right carriage bearing support",
+      "missing_section_mm3": [
+        0.0,
+        0.0,
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "missing_backing_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "backing_material_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_check": true
+    }
+  ],
+  "carriage_sections_pass": true,
+  "scope": "Verify adopted local rail, jaw and anti-rocking sections in actual output solids.",
+  "nominal_rail_mm": 2,
+  "nominal_rail_clearance_mm": 0.25,
+  "nominal_backing_gap_mm": 0.3
+}

@@ -97,9 +97,9 @@
     ],
     "axis": 1,
     "centre_mm": [
-      -23.0,
+      -19.0,
       38.0,
-      10.0
+      59.0
     ],
     "collar_clearance_depth_mm": 1.8,
     "collar_clearance_diameter_mm": 6.6
@@ -112,9 +112,9 @@
     ],
     "axis": 1,
     "centre_mm": [
-      15.0,
+      3.0,
       38.0,
-      -6.0
+      -15.0
     ],
     "collar_clearance_depth_mm": 1.8,
     "collar_clearance_diameter_mm": 6.6
@@ -145,36 +145,6 @@
       -10.0,
       38.0,
       30.0
-    ],
-    "collar_clearance_depth_mm": 1.8,
-    "collar_clearance_diameter_mm": 6.6
-  },
-  {
-    "pin": "bit frame 0 fixture 5 pin 1",
-    "hosts": [
-      "bit coordinated chassis 0",
-      "bit frame 0 removable fixture 5"
-    ],
-    "axis": 1,
-    "centre_mm": [
-      -19.0,
-      38.0,
-      59.0
-    ],
-    "collar_clearance_depth_mm": 1.8,
-    "collar_clearance_diameter_mm": 6.6
-  },
-  {
-    "pin": "bit frame 0 fixture 5 pin 2",
-    "hosts": [
-      "bit coordinated chassis 0",
-      "bit frame 0 removable fixture 5"
-    ],
-    "axis": 1,
-    "centre_mm": [
-      3.0,
-      38.0,
-      -15.0
     ],
     "collar_clearance_depth_mm": 1.8,
     "collar_clearance_diameter_mm": 6.6
@@ -217,9 +187,9 @@
     ],
     "axis": 1,
     "centre_mm": [
-      88.0,
+      87.0,
       38.0,
-      -10.0
+      59.0
     ],
     "collar_clearance_depth_mm": 1.8,
     "collar_clearance_diameter_mm": 6.6
@@ -229,36 +199,6 @@
     "hosts": [
       "bit coordinated chassis 1",
       "bit frame 1 removable fixture 1"
-    ],
-    "axis": 1,
-    "centre_mm": [
-      124.0,
-      38.0,
-      10.0
-    ],
-    "collar_clearance_depth_mm": 1.8,
-    "collar_clearance_diameter_mm": 6.6
-  },
-  {
-    "pin": "bit frame 1 fixture 2 pin 1",
-    "hosts": [
-      "bit coordinated chassis 1",
-      "bit frame 1 removable fixture 2"
-    ],
-    "axis": 1,
-    "centre_mm": [
-      87.0,
-      38.0,
-      59.0
-    ],
-    "collar_clearance_depth_mm": 1.8,
-    "collar_clearance_diameter_mm": 6.6
-  },
-  {
-    "pin": "bit frame 1 fixture 2 pin 2",
-    "hosts": [
-      "bit coordinated chassis 1",
-      "bit frame 1 removable fixture 2"
     ],
     "axis": 1,
     "centre_mm": [
@@ -727,9 +667,9 @@
     ],
     "axis": 1,
     "centre_mm": [
-      -112.5,
+      -137.0,
       25.6,
-      -202.0
+      -213.0
     ],
     "collar_clearance_depth_mm": 1.8,
     "collar_clearance_diameter_mm": 6.6
@@ -742,9 +682,9 @@
     ],
     "axis": 1,
     "centre_mm": [
-      -112.5,
+      -119.0,
       25.6,
-      -188.0
+      -213.0
     ],
     "collar_clearance_depth_mm": 1.8,
     "collar_clearance_diameter_mm": 6.6
@@ -832,7 +772,7 @@
     ],
     "axis": 1,
     "centre_mm": [
-      -139.6,
+      -141.0,
       25.8,
       -171.0
     ],

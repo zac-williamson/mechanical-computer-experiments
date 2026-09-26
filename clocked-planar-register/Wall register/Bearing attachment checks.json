@@ -36,7 +36,7 @@
             0.9999999999999998,
             1.0,
             1.0,
-            1.0000000000000018
+            1.0000000000000024
           ],
           "pass_check": true
         },
@@ -46,7 +46,7 @@
             1.0000000000000004,
             1.0000000000000002,
             0.999999999999997,
-            1.0000000000000004
+            1.0000000000000007
           ],
           "pass_check": true
         }
@@ -88,7 +88,7 @@
           "socket_wall_fraction": [
             0.9999999999999998,
             1.0,
-            1.0000000000000013,
+            1.000000000000002,
             1.000000000000003
           ],
           "pass_check": true
@@ -152,7 +152,7 @@
             1.0,
             0.9999999999999998,
             1.000000000000001,
-            1.0000000000000007
+            1.0000000000000004
           ],
           "pass_check": true
         }
@@ -166,21 +166,21 @@
         {
           "part": "bit frame 0 fixture 3 pin 1",
           "centre_mm": [
-            -23.0,
+            -19.0,
             38.0,
-            10.0
+            59.0
           ]
         },
         {
           "part": "bit frame 0 fixture 3 pin 2",
           "centre_mm": [
-            15.0,
+            3.0,
             38.0,
-            -6.0
+            -15.0
           ]
         }
       ],
-      "fastener_spacing_mm": 41.23105625617661,
+      "fastener_spacing_mm": 77.20103626247513,
       "interface_y_mm": 38.0,
       "mount_pad_width_mm": 9.6,
       "collar_relief_radius_mm": 3.3,
@@ -193,19 +193,19 @@
           "part": "bit frame 0 fixture 3 pin 1",
           "socket_wall_fraction": [
             0.9999999999999998,
-            0.9999999999999998,
-            0.9999999999999993,
-            0.9999999999999974
+            1.0000000000000002,
+            1.000000000000003,
+            0.9999999999999987
           ],
           "pass_check": true
         },
         {
           "part": "bit frame 0 fixture 3 pin 2",
           "socket_wall_fraction": [
-            0.9999999999999998,
             1.0,
-            0.9999999999999963,
-            0.9999999999999994
+            0.9999999999999998,
+            0.9999999999999948,
+            0.9999999999999973
           ],
           "pass_check": true
         }
@@ -248,7 +248,7 @@
             1.0000000000000002,
             1.0000000000000002,
             1.000000000000001,
-            0.9999999999999974
+            0.9999999999999983
           ],
           "pass_check": true
         },
@@ -258,60 +258,7 @@
             1.0,
             1.0,
             0.9999999999999998,
-            1.0000000000000024
-          ],
-          "pass_check": true
-        }
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 0 removable fixture 5",
-      "frame": "bit coordinated chassis 0",
-      "fasteners": [
-        {
-          "part": "bit frame 0 fixture 5 pin 1",
-          "centre_mm": [
-            -19.0,
-            38.0,
-            59.0
-          ]
-        },
-        {
-          "part": "bit frame 0 fixture 5 pin 2",
-          "centre_mm": [
-            3.0,
-            38.0,
-            -15.0
-          ]
-        }
-      ],
-      "fastener_spacing_mm": 77.20103626247513,
-      "interface_y_mm": 38.0,
-      "mount_pad_width_mm": 9.6,
-      "collar_relief_radius_mm": 3.3,
-      "minimum_collar_ligament_mm": 1.5,
-      "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 4.8,
-      "seating_gap_mm": 0,
-      "mount_checks": [
-        {
-          "part": "bit frame 0 fixture 5 pin 1",
-          "socket_wall_fraction": [
-            0.9999999999999998,
-            1.0000000000000002,
-            1.000000000000003,
-            0.9999999999999988
-          ],
-          "pass_check": true
-        },
-        {
-          "part": "bit frame 0 fixture 5 pin 2",
-          "socket_wall_fraction": [
-            1.0,
-            0.9999999999999998,
-            0.9999999999999944,
-            0.9999999999999967
+            1.000000000000002
           ],
           "pass_check": true
         }
@@ -353,8 +300,8 @@
           "socket_wall_fraction": [
             1.0,
             1.0000000000000002,
-            1.0,
-            1.0000000000000033
+            1.0000000000000004,
+            1.000000000000003
           ],
           "pass_check": true
         },
@@ -363,8 +310,8 @@
           "socket_wall_fraction": [
             1.0000000000000002,
             1.0,
-            0.9999999999999988,
-            1.0000000000000013
+            0.9999999999999991,
+            1.000000000000001
           ],
           "pass_check": true
         }
@@ -378,66 +325,13 @@
         {
           "part": "bit frame 1 fixture 1 pin 1",
           "centre_mm": [
-            88.0,
-            38.0,
-            -10.0
-          ]
-        },
-        {
-          "part": "bit frame 1 fixture 1 pin 2",
-          "centre_mm": [
-            124.0,
-            38.0,
-            10.0
-          ]
-        }
-      ],
-      "fastener_spacing_mm": 41.182520563948,
-      "interface_y_mm": 38.0,
-      "mount_pad_width_mm": 9.6,
-      "collar_relief_radius_mm": 3.3,
-      "minimum_collar_ligament_mm": 1.5,
-      "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 4.8,
-      "seating_gap_mm": 0,
-      "mount_checks": [
-        {
-          "part": "bit frame 1 fixture 1 pin 1",
-          "socket_wall_fraction": [
-            1.0000000000000002,
-            1.0000000000000002,
-            0.9999999999999984,
-            1.000000000000001
-          ],
-          "pass_check": true
-        },
-        {
-          "part": "bit frame 1 fixture 1 pin 2",
-          "socket_wall_fraction": [
-            1.0,
-            0.9999999999999998,
-            0.999999999999998,
-            1.0000000000000009
-          ],
-          "pass_check": true
-        }
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 1 removable fixture 2",
-      "frame": "bit coordinated chassis 1",
-      "fasteners": [
-        {
-          "part": "bit frame 1 fixture 2 pin 1",
-          "centre_mm": [
             87.0,
             38.0,
             59.0
           ]
         },
         {
-          "part": "bit frame 1 fixture 2 pin 2",
+          "part": "bit frame 1 fixture 1 pin 2",
           "centre_mm": [
             111.0,
             38.0,
@@ -455,21 +349,21 @@
       "seating_gap_mm": 0,
       "mount_checks": [
         {
-          "part": "bit frame 1 fixture 2 pin 1",
+          "part": "bit frame 1 fixture 1 pin 1",
           "socket_wall_fraction": [
             1.0,
             1.0000000000000002,
-            1.0000000000000013,
-            0.9999999999999997
+            1.000000000000001,
+            0.9999999999999994
           ],
           "pass_check": true
         },
         {
-          "part": "bit frame 1 fixture 2 pin 2",
+          "part": "bit frame 1 fixture 1 pin 2",
           "socket_wall_fraction": [
             1.0000000000000002,
             1.0000000000000002,
-            0.999999999999998,
+            0.9999999999999997,
             1.0000000000000044
           ],
           "pass_check": true
@@ -617,7 +511,7 @@
           "socket_wall_fraction": [
             0.9999999999999994,
             0.9999999999999994,
-            0.9999999999999983,
+            0.9999999999999978,
             0.9999999999999931
           ],
           "pass_check": true
@@ -627,7 +521,7 @@
           "socket_wall_fraction": [
             0.9999999999999998,
             0.9999999999999997,
-            1.0000000000000004,
+            1.000000000000001,
             0.9999999999999938
           ],
           "pass_check": true
@@ -637,7 +531,7 @@
           "socket_wall_fraction": [
             0.9999999999999997,
             0.9999999999999997,
-            0.9999999999999991,
+            0.9999999999999988,
             1.0000000000000044
           ],
           "pass_check": true
@@ -647,7 +541,7 @@
           "socket_wall_fraction": [
             0.9999999999999994,
             0.9999999999999997,
-            0.9999999999999981,
+            0.9999999999999978,
             0.9999999999999993
           ],
           "pass_check": true
@@ -826,7 +720,7 @@
     ],
     "pass_check": true
   },
-  "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
   "removable_bearing_cheeks": [
     {
       "component": "master Front bearing cheek",
@@ -1739,7 +1633,7 @@
   ],
   "unassigned_fixed_components": [],
   "revision_connections": {
-    "geometry_sha256": "d138483568f2f61e0c7aaa9000b4da160fd6726eec5afa54183fad1e30443853",
+    "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
     "connections": [
       {
         "part": "bit clock rod guide cap -22",
@@ -2164,17 +2058,17 @@
           {
             "part": "control write rod guide cap -204 friction pin 1",
             "centre_mm": [
-              -112.5,
+              -137.0,
               25.6,
-              -202.0
+              -213.0
             ]
           },
           {
             "part": "control write rod guide cap -204 friction pin 2",
             "centre_mm": [
-              -112.5,
+              -119.0,
               25.6,
-              -188.0
+              -213.0
             ]
           }
         ],
@@ -2189,12 +2083,12 @@
             "pin": "control write rod guide cap -204 friction pin 1",
             "socket_fractions": [
               [
-                0.9999999999999998,
+                0.9963052140419117,
                 0.0
               ],
               [
                 0.0,
-                0.9999999999999998
+                1.0000000000000004
               ]
             ],
             "pass_check": true
@@ -2203,18 +2097,18 @@
             "pin": "control write rod guide cap -204 friction pin 2",
             "socket_fractions": [
               [
-                0.9999999999999997,
+                1.0000000000000009,
                 0.0
               ],
               [
                 0.0,
-                0.9999999999999997
+                1.0000000000000009
               ]
             ],
             "pass_check": true
           }
         ],
-        "min_pin_spacing_mm": 14.0,
+        "min_pin_spacing_mm": 18.0,
         "pass_check": true
       },
       {
@@ -2701,7 +2595,7 @@
           {
             "part": "Control WRITE bearing shoe friction pin 2",
             "centre_mm": [
-              -139.6,
+              -141.0,
               25.8,
               -171.0
             ],
@@ -2731,18 +2625,18 @@
             "pin": "Control WRITE bearing shoe friction pin 2",
             "socket_fractions": [
               [
-                1.0000000000000002,
+                1.0000000000000007,
                 0.0
               ],
               [
                 0.0,
-                1.0
+                1.0000000000000007
               ]
             ],
             "pass_check": true
           }
         ],
-        "min_pin_spacing_mm": 11.400000000000006,
+        "min_pin_spacing_mm": 10.0,
         "pass_check": true
       }
     ],

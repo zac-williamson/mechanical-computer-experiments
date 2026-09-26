@@ -343,8 +343,8 @@
           0.0
         ],
         [
-          26.2,
-          -10.0
+          24.2,
+          -8.0
         ],
         [
           41,
@@ -403,8 +403,8 @@
           -6.0
         ],
         [
-          26.2,
-          -10.0
+          24.2,
+          -8.0
         ],
         [
           41,
@@ -1200,7 +1200,7 @@
       "shafts": [
         "D inverted"
       ],
-      "additional_bracing_mm3": 716.8884087383544,
+      "additional_bracing_mm3": 713.9370399397386,
       "attachment": "integral with coordinated chassis",
       "rear_foot_width_mm": 16
     },
@@ -1211,7 +1211,7 @@
         "D inverted",
         "D input"
       ],
-      "additional_bracing_mm3": 818.631517975261,
+      "additional_bracing_mm3": 786.4140958769146,
       "attachment": "integral with coordinated chassis",
       "rear_foot_width_mm": 16
     },

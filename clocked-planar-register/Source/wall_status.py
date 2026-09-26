@@ -4,7 +4,7 @@ import csv,json,hashlib
 R=Path(__file__).resolve().parents[1];O=R/'Wall register'
 digest=hashlib.sha256((O/'geometry.npz').read_bytes()).hexdigest()
 reports={}
-for name in ['Development checks','Rotation ratio checks','External gear phase checks','Rotating envelope screening','Axle crossing screening','Bearing and retention checks','Bearing attachment checks','Bearing print orientations','Axle print-face audit','Frame print checks','Frame pin clearance checks','Rod splice checks','Rod splice print checks','Frame rebuild verification','Elastic anchor checks','Force and mass review','Revision connection checks','Manufacturing revision checks','Assembly print orientations']:
+for name in ['Development checks','Rotation ratio checks','External gear phase checks','Rotating envelope screening','Axle crossing screening','Bearing and retention checks','Bearing attachment checks','Bearing print orientations','Axle print-face audit','Frame print checks','Frame pin clearance checks','Rod splice checks','Rod splice print checks','Frame rebuild verification','Elastic anchor checks','Force and mass review','Revision connection checks','Manufacturing revision checks','Assembly print orientations','Carriage section checks','Band installation checks']:
  path=O/(name+'.json')
  data=json.loads(path.read_text()) if path.exists() else {}
  reports[name]=dict(current=data.get('geometry_sha256')==digest,data=data)
@@ -41,6 +41,8 @@ for name,item in reports.items():
   elif name=='Frame print checks':status=f"{'PASS' if r['frame_print_geometry_pass'] else 'FAIL'}: {len(r['parts'])} flat-bed frame parts; no unsupported faces beyond 45 degrees; no bridge exemption"
   elif name=='Bearing print orientations':status=f"{'PASS' if r['orientation_pass'] else 'FAIL'}: {len(r['parts'])} wall STLs with bearing axes normal to the bed"
   elif name=='Axle print-face audit':status=f"{'PASS' if r['all_axle_bed_faces_pass'] else 'INCOMPLETE'}: {len(r['parts'])} parts screened; {len(r['unresolved_parts'])} parts need further separation or bed-face work"
+  elif name=='Carriage section checks':status='PASS: eight carriage halves; reinforced corners and backing sections' if r['carriage_sections_pass'] else 'FAIL'
+  elif name=='Band installation checks':status='PASS: closed-band insertion at both lock anchors' if r['band_installation_pass'] else 'FAIL'
   elif name in ['Revision connection checks','Manufacturing revision checks','Assembly print orientations']:
    key={'Revision connection checks':'connection_pass','Manufacturing revision checks':'manufacturing_revision_pass','Assembly print orientations':'export_pass'}[name];status='PASS' if r[key] else 'FAIL'
   elif name=='Axle crossing screening':status=f"{len(r['potential_crossings'])} potential axle crossings"

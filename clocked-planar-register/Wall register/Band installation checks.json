@@ -1,0 +1,19 @@
+{
+  "geometry_sha256": "587c33eaf07f7d5056ac771d8d2b1b2dadd5b4d19142e63c1d098bf47a68f993",
+  "scope": "Finite installation screen for a closed lock-return band over its free front lip.\n\nExpanded loop approaches along +Y with lock bolt absent. Other printed parts\nremain assembled at neutral; band thickness is 0.8 mm. This proves only this\nspecified geometric path, not a material stretch limit or hand/tool access.\n",
+  "anchors": [
+    {
+      "bank": "master",
+      "poses": 60,
+      "hits": [],
+      "pass_check": true
+    },
+    {
+      "bank": "slave",
+      "poses": 60,
+      "hits": [],
+      "pass_check": true
+    }
+  ],
+  "band_installation_pass": true
+}

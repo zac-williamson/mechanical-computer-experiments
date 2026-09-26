@@ -287,9 +287,6 @@ bit frame 0 removable fixture 3,bit,printed,,1,8,Development parts/bit frame 0 r
 bit frame 0 fixture 4 pin 1,bit,native,2780,1,8,
 bit frame 0 fixture 4 pin 2,bit,native,2780,1,8,
 bit frame 0 removable fixture 4,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 4.stl
-bit frame 0 fixture 5 pin 1,bit,native,2780,1,8,
-bit frame 0 fixture 5 pin 2,bit,native,2780,1,8,
-bit frame 0 removable fixture 5,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 5.stl
 bit coordinated chassis 0,bit,printed,,1,8,Development parts/bit coordinated chassis 0.stl
 bit frame 1 fixture 0 pin 1,bit,native,2780,1,8,
 bit frame 1 fixture 0 pin 2,bit,native,2780,1,8,
@@ -297,9 +294,6 @@ bit frame 1 removable fixture 0,bit,printed,,1,8,Development parts/bit frame 1 r
 bit frame 1 fixture 1 pin 1,bit,native,2780,1,8,
 bit frame 1 fixture 1 pin 2,bit,native,2780,1,8,
 bit frame 1 removable fixture 1,bit,printed,,1,8,Development parts/bit frame 1 removable fixture 1.stl
-bit frame 1 fixture 2 pin 1,bit,native,2780,1,8,
-bit frame 1 fixture 2 pin 2,bit,native,2780,1,8,
-bit frame 1 removable fixture 2,bit,printed,,1,8,Development parts/bit frame 1 removable fixture 2.stl
 bit coordinated chassis 1,bit,printed,,1,8,Development parts/bit coordinated chassis 1.stl
 control frame 0 fixture 0 pin 1,control,native,2780,1,1,
 control frame 0 fixture 0 pin 2,control,native,2780,1,1,

@@ -1,3 +1,5 @@
+> The latest matching carriage, track and band-anchor changes are described in [Planar fixes adopted](Planar%20fixes%20adopted.md). Use the current exports together.
+
 # Assembly and print revision
 
 This revision opens the nine orange-rod guides with removable, two-pin caps. It separates four rear bearing cheeks and the controller WRITE bearing shoe so their axle-bearing rings can start on the print bed. Mounting pads are wider and fixture webs thicker. Gear centres, clutch polarity, shafts and roller mechanisms are unchanged.

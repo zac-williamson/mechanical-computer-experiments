@@ -97,21 +97,21 @@
         {
           "part": "bit frame 0 fixture 3 pin 1",
           "centre_mm": [
-            -23.0,
+            -19.0,
             38.0,
-            10.0
+            59.0
           ]
         },
         {
           "part": "bit frame 0 fixture 3 pin 2",
           "centre_mm": [
-            15.0,
+            3.0,
             38.0,
-            -6.0
+            -15.0
           ]
         }
       ],
-      "fastener_spacing_mm": 41.23105625617661,
+      "fastener_spacing_mm": 77.20103626247513,
       "interface_y_mm": 38.0,
       "mount_pad_width_mm": 9.6,
       "collar_relief_radius_mm": 3.3,
@@ -142,36 +142,6 @@
         }
       ],
       "fastener_spacing_mm": 12.0,
-      "interface_y_mm": 38.0,
-      "mount_pad_width_mm": 9.6,
-      "collar_relief_radius_mm": 3.3,
-      "minimum_collar_ligament_mm": 1.5,
-      "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 4.8,
-      "seating_gap_mm": 0
-    },
-    {
-      "part": "bit frame 0 removable fixture 5",
-      "frame": "bit coordinated chassis 0",
-      "fasteners": [
-        {
-          "part": "bit frame 0 fixture 5 pin 1",
-          "centre_mm": [
-            -19.0,
-            38.0,
-            59.0
-          ]
-        },
-        {
-          "part": "bit frame 0 fixture 5 pin 2",
-          "centre_mm": [
-            3.0,
-            38.0,
-            -15.0
-          ]
-        }
-      ],
-      "fastener_spacing_mm": 77.20103626247513,
       "interface_y_mm": 38.0,
       "mount_pad_width_mm": 9.6,
       "collar_relief_radius_mm": 3.3,
@@ -217,43 +187,13 @@
         {
           "part": "bit frame 1 fixture 1 pin 1",
           "centre_mm": [
-            88.0,
-            38.0,
-            -10.0
-          ]
-        },
-        {
-          "part": "bit frame 1 fixture 1 pin 2",
-          "centre_mm": [
-            124.0,
-            38.0,
-            10.0
-          ]
-        }
-      ],
-      "fastener_spacing_mm": 41.182520563948,
-      "interface_y_mm": 38.0,
-      "mount_pad_width_mm": 9.6,
-      "collar_relief_radius_mm": 3.3,
-      "minimum_collar_ligament_mm": 1.5,
-      "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 4.8,
-      "seating_gap_mm": 0
-    },
-    {
-      "part": "bit frame 1 removable fixture 2",
-      "frame": "bit coordinated chassis 1",
-      "fasteners": [
-        {
-          "part": "bit frame 1 fixture 2 pin 1",
-          "centre_mm": [
             87.0,
             38.0,
             59.0
           ]
         },
         {
-          "part": "bit frame 1 fixture 2 pin 2",
+          "part": "bit frame 1 fixture 1 pin 2",
           "centre_mm": [
             111.0,
             38.0,

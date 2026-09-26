@@ -52,7 +52,7 @@
       0.61
     ],
     "module": "bit",
-    "vertices": 14562,
+    "vertices": 16044,
     "bounds": [
       [
         -15.600000381469727,
@@ -61,7 +61,7 @@
       ],
       [
         26.59950065612793,
-        27.8,
+        32.5,
         45.29949951171875
       ]
     ],
@@ -96,7 +96,7 @@
       0.61
     ],
     "module": "bit",
-    "vertices": 6474,
+    "vertices": 7446,
     "bounds": [
       [
         8.0,
@@ -105,7 +105,7 @@
       ],
       [
         15.600000381469727,
-        28.0,
+        32.5,
         23.299999237060547
       ]
     ],
@@ -129,7 +129,7 @@
       0.0,
       0.0
     ],
-    "offset": 69426
+    "offset": 73872
   },
   {
     "id": "master U015",
@@ -173,7 +173,7 @@
       0.0,
       0.0
     ],
-    "offset": 88848
+    "offset": 96210
   },
   {
     "id": "master U022",
@@ -217,7 +217,7 @@
       0.0,
       0.0
     ],
-    "offset": 103518
+    "offset": 110880
   },
   {
     "id": "master reaction-stop-axle",
@@ -261,7 +261,7 @@
       0.0,
       0.0
     ],
-    "offset": 108126
+    "offset": 115488
   },
   {
     "id": "master reaction-retainer",
@@ -305,7 +305,7 @@
       0.0,
       0.0
     ],
-    "offset": 109638
+    "offset": 117000
   },
   {
     "id": "master pivot-stop-axle",
@@ -349,7 +349,7 @@
       0.0,
       0.0
     ],
-    "offset": 113814
+    "offset": 121176
   },
   {
     "id": "master pivot-retainer",
@@ -393,7 +393,7 @@
       0.0,
       0.0
     ],
-    "offset": 115326
+    "offset": 122688
   },
   {
     "id": "master Carriage support pin 1 2.0",
@@ -438,7 +438,7 @@
       0.0,
       0.0
     ],
-    "offset": 119502
+    "offset": 126864
   },
   {
     "id": "master Carriage support pin 1 18.0",
@@ -482,7 +482,7 @@
       0.0,
       0.0
     ],
-    "offset": 133038
+    "offset": 140400
   },
   {
     "id": "master L072",
@@ -526,7 +526,7 @@
       0.0,
       0.0
     ],
-    "offset": 146574
+    "offset": 153936
   },
   {
     "id": "master L097",
@@ -570,7 +570,7 @@
       0.0,
       0.0
     ],
-    "offset": 157950
+    "offset": 165312
   },
   {
     "id": "master L099",
@@ -614,7 +614,7 @@
       0.0,
       0.0
     ],
-    "offset": 163422
+    "offset": 170784
   },
   {
     "id": "master L102",
@@ -658,7 +658,7 @@
       0.0,
       0.0
     ],
-    "offset": 172440
+    "offset": 179802
   },
   {
     "id": "master L069",
@@ -702,7 +702,7 @@
       0.0,
       0.0
     ],
-    "offset": 183816
+    "offset": 191178
   },
   {
     "id": "master POWER 16T 16",
@@ -740,7 +740,7 @@
       0.0,
       0.0
     ],
-    "offset": 187992
+    "offset": 195354
   },
   {
     "id": "master POWER 16T 32",
@@ -778,7 +778,7 @@
       0.0,
       0.0
     ],
-    "offset": 197352
+    "offset": 204714
   },
   {
     "id": "master reversing idler 16T -16",
@@ -816,7 +816,7 @@
       0.0,
       0.0
     ],
-    "offset": 206712
+    "offset": 214074
   },
   {
     "id": "master reversing idler 16T 32",
@@ -854,7 +854,7 @@
       0.0,
       0.0
     ],
-    "offset": 216072
+    "offset": 223434
   },
   {
     "id": "master output left 3L",
@@ -892,7 +892,7 @@
       0.0,
       0.0
     ],
-    "offset": 225432
+    "offset": 232794
   },
   {
     "id": "master output right 6L",
@@ -930,7 +930,7 @@
       0.0,
       0.0
     ],
-    "offset": 226008
+    "offset": 233370
   },
   {
     "id": "slave Short lever",
@@ -974,7 +974,7 @@
       0.0,
       0.0
     ],
-    "offset": 226584
+    "offset": 233946
   },
   {
     "id": "slave Carriage fork and roof",
@@ -985,7 +985,7 @@
       0.61
     ],
     "module": "bit",
-    "vertices": 14484,
+    "vertices": 15828,
     "bounds": [
       [
         90.39999389648438,
@@ -994,7 +994,7 @@
       ],
       [
         132.59950256347656,
-        27.8,
+        32.5,
         45.29949951171875
       ]
     ],
@@ -1018,7 +1018,7 @@
       0.0,
       0.0
     ],
-    "offset": 252324
+    "offset": 259686
   },
   {
     "id": "slave Right carriage bearing support",
@@ -1029,7 +1029,7 @@
       0.61
     ],
     "module": "bit",
-    "vertices": 6552,
+    "vertices": 7524,
     "bounds": [
       [
         114.0,
@@ -1038,7 +1038,7 @@
       ],
       [
         121.60000610351562,
-        28.0,
+        32.5,
         23.299999237060547
       ]
     ],
@@ -1062,7 +1062,7 @@
       0.0,
       0.0
     ],
-    "offset": 295776
+    "offset": 307170
   },
   {
     "id": "slave U015",
@@ -1106,7 +1106,7 @@
       0.0,
       0.0
     ],
-    "offset": 315432
+    "offset": 329742
   },
   {
     "id": "slave U022",
@@ -1150,7 +1150,7 @@
       0.0,
       0.0
     ],
-    "offset": 330102
+    "offset": 344412
   },
   {
     "id": "slave reaction-stop-axle",
@@ -1194,7 +1194,7 @@
       0.0,
       0.0
     ],
-    "offset": 334710
+    "offset": 349020
   },
   {
     "id": "slave reaction-retainer",
@@ -1238,7 +1238,7 @@
       0.0,
       0.0
     ],
-    "offset": 336222
+    "offset": 350532
   },
   {
     "id": "slave pivot-stop-axle",
@@ -1282,7 +1282,7 @@
       0.0,
       0.0
     ],
-    "offset": 340398
+    "offset": 354708
   },
   {
     "id": "slave pivot-retainer",
@@ -1326,7 +1326,7 @@
       0.0,
       0.0
     ],
-    "offset": 341910
+    "offset": 356220
   },
   {
     "id": "slave Carriage support pin 1 2.0",
@@ -1371,7 +1371,7 @@
       0.0,
       0.0
     ],
-    "offset": 346086
+    "offset": 360396
   },
   {
     "id": "slave Carriage support pin 1 18.0",
@@ -1415,7 +1415,7 @@
       0.0,
       0.0
     ],
-    "offset": 359622
+    "offset": 373932
   },
   {
     "id": "slave L072",
@@ -1459,7 +1459,7 @@
       0.0,
       0.0
     ],
-    "offset": 373158
+    "offset": 387468
   },
   {
     "id": "slave L097",
@@ -1503,7 +1503,7 @@
       0.0,
       0.0
     ],
-    "offset": 384534
+    "offset": 398844
   },
   {
     "id": "slave L099",
@@ -1547,7 +1547,7 @@
       0.0,
       0.0
     ],
-    "offset": 390006
+    "offset": 404316
   },
   {
     "id": "slave L102",
@@ -1591,7 +1591,7 @@
       0.0,
       0.0
     ],
-    "offset": 399024
+    "offset": 413334
   },
   {
     "id": "slave L069",
@@ -1635,7 +1635,7 @@
       0.0,
       0.0
     ],
-    "offset": 410400
+    "offset": 424710
   },
   {
     "id": "slave POWER 16T -16",
@@ -1673,7 +1673,7 @@
       0.0,
       0.0
     ],
-    "offset": 414576
+    "offset": 428886
   },
   {
     "id": "slave reversing idler 16T 16",
@@ -1711,7 +1711,7 @@
       0.0,
       0.0
     ],
-    "offset": 423936
+    "offset": 438246
   },
   {
     "id": "slave output right 7L",
@@ -1749,7 +1749,7 @@
       0.0,
       0.0
     ],
-    "offset": 433296
+    "offset": 447606
   },
   {
     "id": "master_gate L097",
@@ -1793,7 +1793,7 @@
       0.0,
       0.0
     ],
-    "offset": 433872
+    "offset": 448182
   },
   {
     "id": "master_gate L099",
@@ -1837,7 +1837,7 @@
       0.0,
       0.0
     ],
-    "offset": 439344
+    "offset": 453654
   },
   {
     "id": "master_gate L102",
@@ -1881,7 +1881,7 @@
       0.0,
       0.0
     ],
-    "offset": 448362
+    "offset": 462672
   },
   {
     "id": "master_gate B-input",
@@ -1925,7 +1925,7 @@
       0.0,
       0.0
     ],
-    "offset": 459738
+    "offset": 474048
   },
   {
     "id": "master_gate worm drive 10L",
@@ -1963,7 +1963,7 @@
       0.0,
       0.0
     ],
-    "offset": 469098
+    "offset": 483408
   },
   {
     "id": "slave_gate L097",
@@ -2007,7 +2007,7 @@
       0.0,
       0.0
     ],
-    "offset": 469674
+    "offset": 483984
   },
   {
     "id": "slave_gate L099",
@@ -2051,7 +2051,7 @@
       0.0,
       0.0
     ],
-    "offset": 475146
+    "offset": 489456
   },
   {
     "id": "slave_gate L102",
@@ -2095,7 +2095,7 @@
       0.0,
       0.0
     ],
-    "offset": 484164
+    "offset": 498474
   },
   {
     "id": "slave_gate B-input",
@@ -2139,7 +2139,7 @@
       0.0,
       0.0
     ],
-    "offset": 495540
+    "offset": 509850
   },
   {
     "id": "master lock bolt",
@@ -2171,7 +2171,7 @@
       0.0,
       0.0
     ],
-    "offset": 504900
+    "offset": 519210
   },
   {
     "id": "master roller axle",
@@ -2209,7 +2209,7 @@
       0.0,
       0.0
     ],
-    "offset": 513036
+    "offset": 527346
   },
   {
     "id": "master roller bush 15.6",
@@ -2247,7 +2247,7 @@
       0.0,
       0.0
     ],
-    "offset": 515340
+    "offset": 529650
   },
   {
     "id": "master roller bush 27.6",
@@ -2285,7 +2285,7 @@
       0.0,
       0.0
     ],
-    "offset": 519516
+    "offset": 533826
   },
   {
     "id": "master return band",
@@ -2317,7 +2317,7 @@
       0.0,
       0.0
     ],
-    "offset": 523692
+    "offset": 538002
   },
   {
     "id": "slave lock bolt",
@@ -2349,7 +2349,7 @@
       0.0,
       0.0
     ],
-    "offset": 544860
+    "offset": 559170
   },
   {
     "id": "slave roller axle",
@@ -2387,7 +2387,7 @@
       0.0,
       0.0
     ],
-    "offset": 552996
+    "offset": 567306
   },
   {
     "id": "slave roller bush 15.6",
@@ -2425,7 +2425,7 @@
       0.0,
       0.0
     ],
-    "offset": 555300
+    "offset": 569610
   },
   {
     "id": "slave roller bush 27.6",
@@ -2463,7 +2463,7 @@
       0.0,
       0.0
     ],
-    "offset": 559476
+    "offset": 573786
   },
   {
     "id": "slave return band",
@@ -2495,7 +2495,7 @@
       0.0,
       0.0
     ],
-    "offset": 563652
+    "offset": 577962
   },
   {
     "id": "master_gate Carriage fork and roof",
@@ -2527,7 +2527,7 @@
       0.0,
       0.0
     ],
-    "offset": 584820
+    "offset": 599130
   },
   {
     "id": "master_gate fork bias band -10",
@@ -2560,7 +2560,7 @@
       0.0,
       0.0
     ],
-    "offset": 611154
+    "offset": 625464
   },
   {
     "id": "master_gate crosshead pin -10 13.2",
@@ -2600,7 +2600,7 @@
       0.0,
       0.0
     ],
-    "offset": 614754
+    "offset": 629064
   },
   {
     "id": "master_gate Right carriage bearing support",
@@ -2632,7 +2632,7 @@
       0.0,
       0.0
     ],
-    "offset": 628290
+    "offset": 642600
   },
   {
     "id": "master_gate crosshead pin 12 13.2",
@@ -2672,7 +2672,7 @@
       0.0,
       0.0
     ],
-    "offset": 641862
+    "offset": 656172
   },
   {
     "id": "master_gate fork joining pin",
@@ -2712,7 +2712,7 @@
       0.0,
       0.0
     ],
-    "offset": 655398
+    "offset": 669708
   },
   {
     "id": "slave_gate Carriage fork and roof",
@@ -2744,7 +2744,7 @@
       0.0,
       0.0
     ],
-    "offset": 668934
+    "offset": 683244
   },
   {
     "id": "slave_gate fork bias band -10",
@@ -2777,7 +2777,7 @@
       0.0,
       0.0
     ],
-    "offset": 695268
+    "offset": 709578
   },
   {
     "id": "slave_gate crosshead pin -10 13.2",
@@ -2817,7 +2817,7 @@
       0.0,
       0.0
     ],
-    "offset": 698868
+    "offset": 713178
   },
   {
     "id": "slave_gate Right carriage bearing support",
@@ -2849,7 +2849,7 @@
       0.0,
       0.0
     ],
-    "offset": 712404
+    "offset": 726714
   },
   {
     "id": "slave_gate crosshead pin 12 13.2",
@@ -2889,7 +2889,7 @@
       0.0,
       0.0
     ],
-    "offset": 726246
+    "offset": 740556
   },
   {
     "id": "slave_gate fork joining pin",
@@ -2929,7 +2929,7 @@
       0.0,
       0.0
     ],
-    "offset": 739782
+    "offset": 754092
   },
   {
     "id": "master actuator return band",
@@ -2961,7 +2961,7 @@
       0.0,
       0.0
     ],
-    "offset": 753318
+    "offset": 767628
   },
   {
     "id": "slave actuator return band",
@@ -2993,7 +2993,7 @@
       0.0,
       0.0
     ],
-    "offset": 756918
+    "offset": 771228
   },
   {
     "id": "slave_gate left clutch stub 4L",
@@ -3032,7 +3032,7 @@
       0,
       0
     ],
-    "offset": 760518
+    "offset": 774828
   },
   {
     "id": "slave output left 4L",
@@ -3066,7 +3066,7 @@
     "drive": "Q",
     "motion": "fixed",
     "phase_deg": 7.5,
-    "offset": 761094
+    "offset": 775404
   },
   {
     "id": "slave_gate worm drive 10L",
@@ -3105,7 +3105,7 @@
       0,
       0
     ],
-    "offset": 761670
+    "offset": 775980
   },
   {
     "id": "write L072",
@@ -3149,7 +3149,7 @@
       0,
       0
     ],
-    "offset": 762246
+    "offset": 776556
   },
   {
     "id": "write L097",
@@ -3193,7 +3193,7 @@
       0,
       0
     ],
-    "offset": 773622
+    "offset": 787932
   },
   {
     "id": "write L099",
@@ -3237,7 +3237,7 @@
       0,
       0
     ],
-    "offset": 779094
+    "offset": 793404
   },
   {
     "id": "write L102",
@@ -3281,7 +3281,7 @@
       0,
       0
     ],
-    "offset": 788112
+    "offset": 802422
   },
   {
     "id": "write L069",
@@ -3325,7 +3325,7 @@
       0,
       0
     ],
-    "offset": 799488
+    "offset": 813798
   },
   {
     "id": "write L105",
@@ -3369,7 +3369,7 @@
       0,
       0
     ],
-    "offset": 803664
+    "offset": 817974
   },
   {
     "id": "WRITE selector output left",
@@ -3407,7 +3407,7 @@
       0,
       0
     ],
-    "offset": 807840
+    "offset": 822150
   },
   {
     "id": "WRITE output retainer",
@@ -3447,7 +3447,7 @@
       0,
       0
     ],
-    "offset": 808416
+    "offset": 822726
   },
   {
     "id": "WRITE D input gear",
@@ -3485,7 +3485,7 @@
       0,
       0
     ],
-    "offset": 812592
+    "offset": 826902
   },
   {
     "id": "Selected data route 16T",
@@ -3523,7 +3523,7 @@
       0,
       0
     ],
-    "offset": 821952
+    "offset": 836262
   },
   {
     "id": "Master worm retainer gear",
@@ -3563,7 +3563,7 @@
       0,
       0
     ],
-    "offset": 831312
+    "offset": 845622
   },
   {
     "id": "Master idler retainer",
@@ -3603,7 +3603,7 @@
       0,
       0
     ],
-    "offset": 835992
+    "offset": 850302
   },
   {
     "id": "WRITE selector output right 7L",
@@ -3637,7 +3637,7 @@
     "drive": "X",
     "motion": "fixed",
     "phase_deg": 17.375,
-    "offset": 840168
+    "offset": 854478
   },
   {
     "id": "WRITE D input axle 5L",
@@ -3671,7 +3671,7 @@
     "drive": "-D",
     "motion": "fixed",
     "phase_deg": 11.25,
-    "offset": 840744
+    "offset": 855054
   },
   {
     "id": "D external input 5L",
@@ -3705,7 +3705,7 @@
     "drive": "D",
     "motion": "fixed",
     "phase_deg": 11.25,
-    "offset": 841320
+    "offset": 855630
   },
   {
     "id": "D header input 8T",
@@ -3743,7 +3743,7 @@
       -16,
       0
     ],
-    "offset": 841896
+    "offset": 856206
   },
   {
     "id": "D header output 8T",
@@ -3781,7 +3781,7 @@
       0,
       0
     ],
-    "offset": 846504
+    "offset": 860814
   },
   {
     "id": "Master gate data stub 3L",
@@ -3815,7 +3815,7 @@
     "drive": "-X",
     "motion": "fixed",
     "phase_deg": 1.125,
-    "offset": 851112
+    "offset": 865422
   },
   {
     "id": "Slave worm retainer gear",
@@ -3855,7 +3855,7 @@
       0.0,
       0.0
     ],
-    "offset": 851688
+    "offset": 865998
   },
   {
     "id": "Passive write Carriage fork and roof",
@@ -3866,7 +3866,7 @@
       0.49
     ],
     "module": "bit",
-    "vertices": 2724,
+    "vertices": 2862,
     "bounds": [
       [
         -83.80000305175781,
@@ -3875,12 +3875,12 @@
       ],
       [
         -60.400001525878906,
-        27.799999237060547,
+        30.0,
         -15.699998474121088
       ]
     ],
     "motion": "write-fork",
-    "offset": 856368
+    "offset": 870678
   },
   {
     "id": "write Carriage support pin 1 2.0",
@@ -3924,7 +3924,7 @@
       0,
       0
     ],
-    "offset": 864540
+    "offset": 879264
   },
   {
     "id": "POWER header gear",
@@ -3962,7 +3962,7 @@
       0,
       0
     ],
-    "offset": 878076
+    "offset": 892800
   },
   {
     "id": "Q feedback shaft 32L",
@@ -4000,7 +4000,7 @@
       0,
       0
     ],
-    "offset": 887436
+    "offset": 902160
   },
   {
     "id": "Q feedback front gear -92",
@@ -4038,7 +4038,7 @@
       0,
       0
     ],
-    "offset": 888012
+    "offset": 902736
   },
   {
     "id": "Q feedback front gear 150",
@@ -4076,7 +4076,7 @@
       0,
       0
     ],
-    "offset": 897372
+    "offset": 912096
   },
   {
     "id": "Q takeoff gear",
@@ -4114,7 +4114,7 @@
       0,
       0
     ],
-    "offset": 906732
+    "offset": 921456
   },
   {
     "id": "Feedback retainer",
@@ -4154,7 +4154,7 @@
       0,
       0
     ],
-    "offset": 916092
+    "offset": 930816
   },
   {
     "id": "Shared reverse shaft left 10L",
@@ -4188,7 +4188,7 @@
     "drive": "POWER",
     "motion": "fixed",
     "phase_deg": 2.5,
-    "offset": 920268
+    "offset": 934992
   },
   {
     "id": "Shared reverse shaft right 10L",
@@ -4222,7 +4222,7 @@
     "drive": "POWER",
     "motion": "fixed",
     "phase_deg": 2.5,
-    "offset": 920844
+    "offset": 935568
   },
   {
     "id": "Shared reverse coupling",
@@ -4256,7 +4256,7 @@
     "drive": "POWER",
     "motion": "fixed",
     "phase_deg": 2.5,
-    "offset": 921420
+    "offset": 936144
   },
   {
     "id": "POWER distribution 12L",
@@ -4290,7 +4290,7 @@
     "drive": "-POWER",
     "motion": "fixed",
     "phase_deg": 1.25,
-    "offset": 925308
+    "offset": 940032
   },
   {
     "id": "POWER local input 4L",
@@ -4324,7 +4324,7 @@
     "drive": "POWER",
     "motion": "fixed",
     "phase_deg": 2.5,
-    "offset": 925884
+    "offset": 940608
   },
   {
     "id": "Local clock cam and fork bar",
@@ -4349,7 +4349,7 @@
       ]
     ],
     "motion": "crosshead",
-    "offset": 926460
+    "offset": 941184
   },
   {
     "id": "bit clock bellcrank",
@@ -4381,7 +4381,7 @@
       40.0
     ],
     "radius": 20.0,
-    "offset": 958734
+    "offset": 973458
   },
   {
     "id": "bit clock pivot axle",
@@ -4414,7 +4414,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 966798
+    "offset": 981522
   },
   {
     "id": "bit clock pivot bush 16",
@@ -4447,7 +4447,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 967374
+    "offset": 982098
   },
   {
     "id": "bit clock pivot bush 40.4",
@@ -4480,7 +4480,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 971550
+    "offset": 986274
   },
   {
     "id": "bit clock input follower axle",
@@ -4520,7 +4520,7 @@
       40.0
     ],
     "radius": 20.0,
-    "offset": 975726
+    "offset": 990450
   },
   {
     "id": "bit clock input free roller",
@@ -4561,7 +4561,7 @@
     ],
     "radius": 20.0,
     "free_rolling": true,
-    "offset": 976302
+    "offset": 991026
   },
   {
     "id": "bit clock input follower bush 7",
@@ -4601,7 +4601,7 @@
       40.0
     ],
     "radius": 20.0,
-    "offset": 980478
+    "offset": 995202
   },
   {
     "id": "bit clock input follower bush 27",
@@ -4641,7 +4641,7 @@
       40.0
     ],
     "radius": 20.0,
-    "offset": 984654
+    "offset": 999378
   },
   {
     "id": "bit clock output follower axle",
@@ -4681,7 +4681,7 @@
       40.0
     ],
     "radius": 20.0,
-    "offset": 988830
+    "offset": 1003554
   },
   {
     "id": "bit clock output free roller",
@@ -4722,7 +4722,7 @@
     ],
     "radius": 20.0,
     "free_rolling": true,
-    "offset": 989406
+    "offset": 1004130
   },
   {
     "id": "bit clock output follower bush 16",
@@ -4762,7 +4762,7 @@
       40.0
     ],
     "radius": 20.0,
-    "offset": 993582
+    "offset": 1008306
   },
   {
     "id": "bit clock output follower bush 39",
@@ -4802,7 +4802,7 @@
       40.0
     ],
     "radius": 20.0,
-    "offset": 997758
+    "offset": 1012482
   },
   {
     "id": "bit write bellcrank",
@@ -4834,7 +4834,7 @@
       8.0
     ],
     "radius": 24.0,
-    "offset": 1001934
+    "offset": 1016658
   },
   {
     "id": "bit write pivot axle",
@@ -4867,7 +4867,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1009998
+    "offset": 1024722
   },
   {
     "id": "bit write pivot bush 19",
@@ -4900,7 +4900,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1010574
+    "offset": 1025298
   },
   {
     "id": "bit write pivot bush 42",
@@ -4933,7 +4933,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1014750
+    "offset": 1029474
   },
   {
     "id": "bit write input follower axle",
@@ -4973,7 +4973,7 @@
       8.0
     ],
     "radius": 24.0,
-    "offset": 1018926
+    "offset": 1033650
   },
   {
     "id": "bit write input free roller",
@@ -5014,7 +5014,7 @@
     ],
     "radius": 24.0,
     "free_rolling": true,
-    "offset": 1019502
+    "offset": 1034226
   },
   {
     "id": "bit write input follower bush 19",
@@ -5054,7 +5054,7 @@
       8.0
     ],
     "radius": 24.0,
-    "offset": 1023678
+    "offset": 1038402
   },
   {
     "id": "bit write input follower bush 35",
@@ -5094,7 +5094,7 @@
       8.0
     ],
     "radius": 24.0,
-    "offset": 1027854
+    "offset": 1042578
   },
   {
     "id": "bit write output follower axle",
@@ -5134,7 +5134,7 @@
       8.0
     ],
     "radius": 24.0,
-    "offset": 1032030
+    "offset": 1046754
   },
   {
     "id": "bit write output free roller",
@@ -5175,7 +5175,7 @@
     ],
     "radius": 24.0,
     "free_rolling": true,
-    "offset": 1032606
+    "offset": 1047330
   },
   {
     "id": "bit write output follower bush 19",
@@ -5215,7 +5215,7 @@
       8.0
     ],
     "radius": 24.0,
-    "offset": 1036782
+    "offset": 1051506
   },
   {
     "id": "bit write output follower bush 34",
@@ -5255,7 +5255,7 @@
       8.0
     ],
     "radius": 24.0,
-    "offset": 1040958
+    "offset": 1055682
   },
   {
     "id": "bit clock vertical control rod",
@@ -5281,7 +5281,7 @@
     ],
     "motion": "control-rod",
     "control_key": "clock",
-    "offset": 1045134
+    "offset": 1059858
   },
   {
     "id": "clock pinned rod splice bridge",
@@ -5307,7 +5307,7 @@
     ],
     "motion": "control-rod",
     "control_key": "clock",
-    "offset": 1052136
+    "offset": 1066860
   },
   {
     "id": "clock rod coupler friction pin 1",
@@ -5341,7 +5341,7 @@
     "drive": null,
     "motion": "control-rod",
     "control_key": "clock",
-    "offset": 1058112
+    "offset": 1072836
   },
   {
     "id": "clock rod coupler friction pin 2",
@@ -5375,7 +5375,7 @@
     "drive": null,
     "motion": "control-rod",
     "control_key": "clock",
-    "offset": 1071648
+    "offset": 1086372
   },
   {
     "id": "bit write vertical control rod",
@@ -5401,7 +5401,7 @@
     ],
     "motion": "control-rod",
     "control_key": "write",
-    "offset": 1085184
+    "offset": 1099908
   },
   {
     "id": "write pinned rod splice bridge",
@@ -5427,7 +5427,7 @@
     ],
     "motion": "control-rod",
     "control_key": "write",
-    "offset": 1092204
+    "offset": 1106928
   },
   {
     "id": "write rod coupler friction pin 1",
@@ -5461,7 +5461,7 @@
     "drive": null,
     "motion": "control-rod",
     "control_key": "write",
-    "offset": 1098216
+    "offset": 1112940
   },
   {
     "id": "write rod coupler friction pin 2",
@@ -5495,7 +5495,7 @@
     "drive": null,
     "motion": "control-rod",
     "control_key": "write",
-    "offset": 1111752
+    "offset": 1126476
   },
   {
     "id": "Chassis joint pin -28",
@@ -5528,7 +5528,7 @@
     "axis": 0,
     "drive": null,
     "motion": "fixed",
-    "offset": 1125288
+    "offset": 1140012
   },
   {
     "id": "Chassis joint pin 56",
@@ -5561,7 +5561,7 @@
     "axis": 0,
     "drive": null,
     "motion": "fixed",
-    "offset": 1138824
+    "offset": 1153548
   },
   {
     "id": "master Front bearing cheek",
@@ -5586,7 +5586,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 1152360
+    "offset": 1167084
   },
   {
     "id": "slave Front bearing cheek",
@@ -5611,7 +5611,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 1178046
+    "offset": 1192770
   },
   {
     "id": "bit WRITE fork and pickup",
@@ -5622,11 +5622,11 @@
       0.18
     ],
     "module": "bit",
-    "vertices": 2838,
+    "vertices": 2880,
     "bounds": [
       [
         -120.0,
-        12.75,
+        11.15,
         -26.0
       ],
       [
@@ -5636,7 +5636,7 @@
       ]
     ],
     "motion": "write-fork",
-    "offset": 1203714
+    "offset": 1218438
   },
   {
     "id": "Control clock Short lever",
@@ -5703,7 +5703,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1212228
+    "offset": 1227078
   },
   {
     "id": "Control clock U015",
@@ -5770,7 +5770,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1237968
+    "offset": 1252818
   },
   {
     "id": "Control clock U022",
@@ -5837,7 +5837,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1252638
+    "offset": 1267488
   },
   {
     "id": "Control clock reaction-stop-axle",
@@ -5904,7 +5904,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1257246
+    "offset": 1272096
   },
   {
     "id": "Control clock reaction-retainer",
@@ -5971,7 +5971,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1258758
+    "offset": 1273608
   },
   {
     "id": "Control clock pivot-stop-axle",
@@ -6038,7 +6038,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1262934
+    "offset": 1277784
   },
   {
     "id": "Control clock pivot-retainer",
@@ -6105,7 +6105,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1264446
+    "offset": 1279296
   },
   {
     "id": "Control clock Carriage support pin 1 18.0",
@@ -6172,7 +6172,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1268622
+    "offset": 1283472
   },
   {
     "id": "Control clock Carriage fork and roof",
@@ -6183,7 +6183,7 @@
       0.61
     ],
     "module": "control",
-    "vertices": 9558,
+    "vertices": 10266,
     "bounds": [
       [
         -161.29949951171875,
@@ -6191,7 +6191,7 @@
         -119.60000038146973
       ],
       [
-        -124.0,
+        -120.7,
         28.0,
         -77.40049934387207
       ]
@@ -6239,7 +6239,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1282158
+    "offset": 1297008
   },
   {
     "id": "Control clock Right carriage bearing support",
@@ -6250,7 +6250,7 @@
       0.61
     ],
     "module": "control",
-    "vertices": 5148,
+    "vertices": 6120,
     "bounds": [
       [
         -139.29999923706055,
@@ -6258,8 +6258,8 @@
         -96.0
       ],
       [
-        -124.0,
-        23.75,
+        -120.7,
+        25.7,
         -88.39999961853027
       ]
     ],
@@ -6306,7 +6306,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1310832
+    "offset": 1327806
   },
   {
     "id": "Control CLK input axle",
@@ -6367,7 +6367,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1326276
+    "offset": 1346166
   },
   {
     "id": "Control CLOCK worm retainer",
@@ -6430,7 +6430,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1326852
+    "offset": 1346742
   },
   {
     "id": "Control clock Front bearing cheek",
@@ -6485,7 +6485,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1331028
+    "offset": 1350918
   },
   {
     "id": "Control CLOCK direct rod and pickup",
@@ -6540,7 +6540,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1356678
+    "offset": 1376568
   },
   {
     "id": "Control Clock amplifier joining pin 35.5",
@@ -6602,7 +6602,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1362060
+    "offset": 1381950
   },
   {
     "id": "Control Clock amplifier joining pin 44.5",
@@ -6664,7 +6664,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1375596
+    "offset": 1395486
   },
   {
     "id": "Control Clock amplifier front and input shoe",
@@ -6719,7 +6719,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1389132
+    "offset": 1409022
   },
   {
     "id": "Control Clock amplifier rear and output shoe",
@@ -6774,7 +6774,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1408608
+    "offset": 1428498
   },
   {
     "id": "Control Clock amplifier pivot",
@@ -6835,7 +6835,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1424520
+    "offset": 1444410
   },
   {
     "id": "Control Clock pivot bush 32",
@@ -6896,7 +6896,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1425096
+    "offset": 1444986
   },
   {
     "id": "Control Clock pivot bush 48",
@@ -6957,7 +6957,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1429272
+    "offset": 1449162
   },
   {
     "id": "Control Clock pivot cradle mount 20",
@@ -7018,7 +7018,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1433448
+    "offset": 1453338
   },
   {
     "id": "Control Clock pivot cradle mount 52",
@@ -7079,7 +7079,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1446984
+    "offset": 1466874
   },
   {
     "id": "Control clock actuator return band",
@@ -7134,7 +7134,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1460520
+    "offset": 1480410
   },
   {
     "id": "Control CLK input 16T",
@@ -7190,7 +7190,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1464120
+    "offset": 1484010
   },
   {
     "id": "Control CLK receiving 16T",
@@ -7246,7 +7246,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1473480
+    "offset": 1493370
   },
   {
     "id": "Control CLK external axle",
@@ -7302,7 +7302,7 @@
       -64.0
     ],
     "mesh_domain": "controller clock",
-    "offset": 1482840
+    "offset": 1502730
   },
   {
     "id": "Control write Short lever",
@@ -7369,7 +7369,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1483416
+    "offset": 1503306
   },
   {
     "id": "Control write Carriage fork and roof",
@@ -7380,7 +7380,7 @@
       0.19
     ],
     "module": "control",
-    "vertices": 3630,
+    "vertices": 5124,
     "bounds": [
       [
         -165.29950103759765,
@@ -7388,8 +7388,8 @@
         -199.5999984741211
       ],
       [
-        -128.0,
-        15.75,
+        -124.7,
+        20.5,
         -157.4005012512207
       ]
     ],
@@ -7436,7 +7436,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1509156
+    "offset": 1529046
   },
   {
     "id": "Control WRITE direct rod and pickup",
@@ -7503,7 +7503,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1520046
+    "offset": 1544418
   },
   {
     "id": "Control write U015",
@@ -7570,7 +7570,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1529082
+    "offset": 1553454
   },
   {
     "id": "Control write U022",
@@ -7637,7 +7637,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1543752
+    "offset": 1568124
   },
   {
     "id": "Control write reaction-stop-axle",
@@ -7704,7 +7704,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1548360
+    "offset": 1572732
   },
   {
     "id": "Control write reaction-retainer",
@@ -7771,7 +7771,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1549872
+    "offset": 1574244
   },
   {
     "id": "Control write pivot-stop-axle",
@@ -7838,7 +7838,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1554048
+    "offset": 1578420
   },
   {
     "id": "Control write pivot-retainer",
@@ -7905,7 +7905,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1555560
+    "offset": 1579932
   },
   {
     "id": "Control write Carriage support pin 1 2.0",
@@ -7972,7 +7972,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1559736
+    "offset": 1584108
   },
   {
     "id": "Control write Carriage support pin 1 18.0",
@@ -8039,7 +8039,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1573272
+    "offset": 1597644
   },
   {
     "id": "Control WRITE input axle",
@@ -8100,7 +8100,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1586808
+    "offset": 1611180
   },
   {
     "id": "Control WRITE worm retainer left",
@@ -8163,7 +8163,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1587384
+    "offset": 1611756
   },
   {
     "id": "Control WRITE worm retainer right",
@@ -8226,7 +8226,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1591560
+    "offset": 1615932
   },
   {
     "id": "Control write Front bearing cheek",
@@ -8281,7 +8281,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1595736
+    "offset": 1620108
   },
   {
     "id": "Control write actuator return band",
@@ -8336,7 +8336,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 1621386
+    "offset": 1645758
   },
   {
     "id": "M output axial stop 26.8",
@@ -8375,7 +8375,7 @@
       0.0,
       0.0
     ],
-    "offset": 1624986
+    "offset": 1649358
   },
   {
     "id": "M output axial stop 37.8",
@@ -8414,7 +8414,7 @@
       0.0,
       0.0
     ],
-    "offset": 1629162
+    "offset": 1653534
   },
   {
     "id": "Q output axial stop 76.2",
@@ -8448,7 +8448,7 @@
     "drive": "Q",
     "motion": "fixed",
     "phase_deg": 7.5,
-    "offset": 1633338
+    "offset": 1657710
   },
   {
     "id": "Q output axial stop 83.8",
@@ -8482,7 +8482,7 @@
     "drive": "Q",
     "motion": "fixed",
     "phase_deg": 7.5,
-    "offset": 1637514
+    "offset": 1661886
   },
   {
     "id": "Master worm axial stop -26.2",
@@ -8521,7 +8521,7 @@
       0.0,
       0.0
     ],
-    "offset": 1641690
+    "offset": 1666062
   },
   {
     "id": "Slave worm axial stop 128.2",
@@ -8560,7 +8560,7 @@
       0,
       0
     ],
-    "offset": 1645866
+    "offset": 1670238
   },
   {
     "id": "Slave worm axial stop 135.4",
@@ -8599,7 +8599,7 @@
       0,
       0
     ],
-    "offset": 1650042
+    "offset": 1674414
   },
   {
     "id": "Selected data axial stop -33.8",
@@ -8638,7 +8638,7 @@
       0,
       0
     ],
-    "offset": 1654218
+    "offset": 1678590
   },
   {
     "id": "Selected data axial stop -26.2",
@@ -8677,7 +8677,7 @@
       0,
       0
     ],
-    "offset": 1658394
+    "offset": 1682766
   },
   {
     "id": "D inverted axial stop -75.8",
@@ -8711,7 +8711,7 @@
     "drive": "-D",
     "motion": "fixed",
     "phase_deg": 11.25,
-    "offset": 1662570
+    "offset": 1686942
   },
   {
     "id": "D inverted axial stop -68.2",
@@ -8745,7 +8745,7 @@
     "drive": "-D",
     "motion": "fixed",
     "phase_deg": 11.25,
-    "offset": 1666746
+    "offset": 1691118
   },
   {
     "id": "D input axial stop -105.9",
@@ -8779,7 +8779,7 @@
     "drive": "D",
     "motion": "fixed",
     "phase_deg": 11.25,
-    "offset": 1670922
+    "offset": 1695294
   },
   {
     "id": "D input axial stop -98.3",
@@ -8813,7 +8813,7 @@
     "drive": "D",
     "motion": "fixed",
     "phase_deg": 11.25,
-    "offset": 1675098
+    "offset": 1699470
   },
   {
     "id": "Master data stub axial stop -53.8",
@@ -8847,7 +8847,7 @@
     "drive": "-X",
     "motion": "fixed",
     "phase_deg": 1.125,
-    "offset": 1679274
+    "offset": 1703646
   },
   {
     "id": "Master data stub axial stop -34.2",
@@ -8881,7 +8881,7 @@
     "drive": "-X",
     "motion": "fixed",
     "phase_deg": 1.125,
-    "offset": 1683450
+    "offset": 1707822
   },
   {
     "id": "POWER minus axial stop 76.2",
@@ -8915,7 +8915,7 @@
     "drive": "-POWER",
     "motion": "fixed",
     "phase_deg": 1.25,
-    "offset": 1687626
+    "offset": 1711998
   },
   {
     "id": "POWER minus axial stop 83.8",
@@ -8949,7 +8949,7 @@
     "drive": "-POWER",
     "motion": "fixed",
     "phase_deg": 1.25,
-    "offset": 1691802
+    "offset": 1716174
   },
   {
     "id": "POWER plus axial stop 76.2",
@@ -8983,7 +8983,7 @@
     "drive": "POWER",
     "motion": "fixed",
     "phase_deg": 2.5,
-    "offset": 1695978
+    "offset": 1720350
   },
   {
     "id": "POWER plus axial stop 83.8",
@@ -9017,7 +9017,7 @@
     "drive": "POWER",
     "motion": "fixed",
     "phase_deg": 2.5,
-    "offset": 1700154
+    "offset": 1724526
   },
   {
     "id": "POWER input axial stop 56.2",
@@ -9051,7 +9051,7 @@
     "drive": "POWER",
     "motion": "fixed",
     "phase_deg": 2.5,
-    "offset": 1704330
+    "offset": 1728702
   },
   {
     "id": "POWER input axial stop 63.8",
@@ -9085,7 +9085,7 @@
     "drive": "POWER",
     "motion": "fixed",
     "phase_deg": 2.5,
-    "offset": 1708506
+    "offset": 1732878
   },
   {
     "id": "Feedback axial stop 26.8",
@@ -9124,7 +9124,7 @@
       0,
       0
     ],
-    "offset": 1712682
+    "offset": 1737054
   },
   {
     "id": "Feedback axial stop 37.8",
@@ -9163,7 +9163,7 @@
       0,
       0
     ],
-    "offset": 1716858
+    "offset": 1741230
   },
   {
     "id": "CLOCK worm axial stop -73.8",
@@ -9224,7 +9224,7 @@
       -4.0,
       -64.0
     ],
-    "offset": 1721034
+    "offset": 1745406
   },
   {
     "id": "CLOCK worm axial stop -66.2",
@@ -9285,7 +9285,7 @@
       -4.0,
       -64.0
     ],
-    "offset": 1725210
+    "offset": 1749582
   },
   {
     "id": "CLOCK input axial stop -147.8",
@@ -9340,7 +9340,7 @@
       -4.0,
       -64.0
     ],
-    "offset": 1729386
+    "offset": 1753758
   },
   {
     "id": "CLOCK input axial stop -140.2",
@@ -9395,7 +9395,7 @@
       -4.0,
       -64.0
     ],
-    "offset": 1733562
+    "offset": 1757934
   },
   {
     "id": "WRITE worm axial stop -217.8",
@@ -9456,7 +9456,7 @@
       -12.0,
       -260.0
     ],
-    "offset": 1737738
+    "offset": 1762110
   },
   {
     "id": "WRITE worm axial stop -210.2",
@@ -9517,7 +9517,7 @@
       -12.0,
       -260.0
     ],
-    "offset": 1741914
+    "offset": 1766286
   },
   {
     "id": "bit bearing wall 0 mounting pin 1",
@@ -9550,7 +9550,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1746090
+    "offset": 1770462
   },
   {
     "id": "bit bearing wall 0 mounting pin 2",
@@ -9583,7 +9583,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1759626
+    "offset": 1783998
   },
   {
     "id": "bit removable bearing wall 0",
@@ -9608,7 +9608,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 1773162
+    "offset": 1797534
   },
   {
     "id": "bit bearing wall 1 mounting pin 1",
@@ -9641,7 +9641,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1796400
+    "offset": 1820772
   },
   {
     "id": "bit bearing wall 1 mounting pin 2",
@@ -9674,7 +9674,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1809936
+    "offset": 1834308
   },
   {
     "id": "bit removable bearing wall 1",
@@ -9685,7 +9685,7 @@
       0.47
     ],
     "module": "bit",
-    "vertices": 3726,
+    "vertices": 3618,
     "bounds": [
       [
         -73.6,
@@ -9699,7 +9699,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 1823472
+    "offset": 1847844
   },
   {
     "id": "bit bearing wall 2 mounting pin 1",
@@ -9732,7 +9732,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1834650
+    "offset": 1858698
   },
   {
     "id": "bit bearing wall 2 mounting pin 2",
@@ -9765,7 +9765,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1848186
+    "offset": 1872234
   },
   {
     "id": "bit removable bearing wall 2",
@@ -9776,7 +9776,7 @@
       0.47
     ],
     "module": "bit",
-    "vertices": 2862,
+    "vertices": 2802,
     "bounds": [
       [
         -91.6,
@@ -9790,7 +9790,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 1861722
+    "offset": 1885770
   },
   {
     "id": "bit bearing wall 3 mounting pin 1",
@@ -9823,7 +9823,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1870308
+    "offset": 1894176
   },
   {
     "id": "bit bearing wall 3 mounting pin 2",
@@ -9856,7 +9856,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1883844
+    "offset": 1907712
   },
   {
     "id": "bit removable bearing wall 3",
@@ -9881,7 +9881,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 1897380
+    "offset": 1921248
   },
   {
     "id": "bit bearing wall 4 mounting pin 1",
@@ -9914,7 +9914,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1904508
+    "offset": 1928376
   },
   {
     "id": "bit bearing wall 4 mounting pin 2",
@@ -9947,7 +9947,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1918044
+    "offset": 1941912
   },
   {
     "id": "bit removable bearing wall 4",
@@ -9972,7 +9972,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 1931580
+    "offset": 1955448
   },
   {
     "id": "bit bearing wall 5 mounting pin 1",
@@ -10005,7 +10005,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1960362
+    "offset": 1984230
   },
   {
     "id": "bit bearing wall 5 mounting pin 2",
@@ -10038,7 +10038,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1973898
+    "offset": 1997766
   },
   {
     "id": "bit removable bearing wall 5",
@@ -10063,7 +10063,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 1987434
+    "offset": 2011302
   },
   {
     "id": "bit bearing wall 6 mounting pin 1",
@@ -10096,7 +10096,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 1994490
+    "offset": 2018358
   },
   {
     "id": "bit bearing wall 6 mounting pin 2",
@@ -10129,7 +10129,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2008026
+    "offset": 2031894
   },
   {
     "id": "bit removable bearing wall 6",
@@ -10154,7 +10154,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2021562
+    "offset": 2045430
   },
   {
     "id": "bit bearing wall 7 mounting pin 1",
@@ -10187,7 +10187,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2028690
+    "offset": 2052558
   },
   {
     "id": "bit bearing wall 7 mounting pin 2",
@@ -10220,7 +10220,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2042226
+    "offset": 2066094
   },
   {
     "id": "bit removable bearing wall 7",
@@ -10245,7 +10245,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2055762
+    "offset": 2079630
   },
   {
     "id": "bit bearing wall 8 mounting pin 1",
@@ -10278,7 +10278,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2064024
+    "offset": 2087892
   },
   {
     "id": "bit bearing wall 8 mounting pin 2",
@@ -10311,7 +10311,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2077560
+    "offset": 2101428
   },
   {
     "id": "bit removable bearing wall 8",
@@ -10336,7 +10336,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2091096
+    "offset": 2114964
   },
   {
     "id": "bit bearing wall 9 mounting pin 1",
@@ -10369,7 +10369,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2098296
+    "offset": 2122164
   },
   {
     "id": "bit bearing wall 9 mounting pin 2",
@@ -10402,7 +10402,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2111832
+    "offset": 2135700
   },
   {
     "id": "bit removable bearing wall 9",
@@ -10427,7 +10427,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2125368
+    "offset": 2149236
   },
   {
     "id": "bit bearing wall 10 mounting pin 1",
@@ -10460,7 +10460,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2142414
+    "offset": 2166282
   },
   {
     "id": "bit bearing wall 10 mounting pin 2",
@@ -10493,7 +10493,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2155950
+    "offset": 2179818
   },
   {
     "id": "bit removable bearing wall 10",
@@ -10518,7 +10518,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2169486
+    "offset": 2193354
   },
   {
     "id": "bit bearing wall 11 mounting pin 1",
@@ -10551,7 +10551,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2191482
+    "offset": 2215350
   },
   {
     "id": "bit bearing wall 11 mounting pin 2",
@@ -10584,7 +10584,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2205018
+    "offset": 2228886
   },
   {
     "id": "bit removable bearing wall 11",
@@ -10609,7 +10609,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2218554
+    "offset": 2242422
   },
   {
     "id": "bit bearing wall 12 mounting pin 1",
@@ -10642,7 +10642,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2225934
+    "offset": 2249802
   },
   {
     "id": "bit bearing wall 12 mounting pin 2",
@@ -10675,7 +10675,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2239470
+    "offset": 2263338
   },
   {
     "id": "bit removable bearing wall 12",
@@ -10700,7 +10700,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2253006
+    "offset": 2276874
   },
   {
     "id": "control bearing wall 0 mounting pin 1",
@@ -10733,7 +10733,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2269908
+    "offset": 2293776
   },
   {
     "id": "control bearing wall 0 mounting pin 2",
@@ -10766,7 +10766,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2283444
+    "offset": 2307312
   },
   {
     "id": "control removable bearing wall 0",
@@ -10791,7 +10791,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2296980
+    "offset": 2320848
   },
   {
     "id": "control bearing wall 1 mounting pin 1",
@@ -10824,7 +10824,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2304234
+    "offset": 2328102
   },
   {
     "id": "control bearing wall 1 mounting pin 2",
@@ -10857,7 +10857,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2317770
+    "offset": 2341638
   },
   {
     "id": "control removable bearing wall 1",
@@ -10882,7 +10882,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2331306
+    "offset": 2355174
   },
   {
     "id": "control bearing wall 2 mounting pin 1",
@@ -10915,7 +10915,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2339478
+    "offset": 2363346
   },
   {
     "id": "control bearing wall 2 mounting pin 2",
@@ -10948,7 +10948,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2353014
+    "offset": 2376882
   },
   {
     "id": "control removable bearing wall 2",
@@ -10973,7 +10973,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2366550
+    "offset": 2390418
   },
   {
     "id": "control bearing wall 3 mounting pin 1",
@@ -11006,7 +11006,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2374038
+    "offset": 2397906
   },
   {
     "id": "control bearing wall 3 mounting pin 2",
@@ -11039,7 +11039,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2387574
+    "offset": 2411442
   },
   {
     "id": "control removable bearing wall 3",
@@ -11064,7 +11064,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2401110
+    "offset": 2424978
   },
   {
     "id": "control bearing wall 4 mounting pin 1",
@@ -11097,7 +11097,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2411748
+    "offset": 2435616
   },
   {
     "id": "control bearing wall 4 mounting pin 2",
@@ -11130,7 +11130,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2425284
+    "offset": 2449152
   },
   {
     "id": "control removable bearing wall 4",
@@ -11155,7 +11155,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2438820
+    "offset": 2462688
   },
   {
     "id": "bit frame 0 fixture 0 pin 1",
@@ -11188,7 +11188,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2446632
+    "offset": 2470500
   },
   {
     "id": "bit frame 0 fixture 0 pin 2",
@@ -11221,7 +11221,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2460168
+    "offset": 2484036
   },
   {
     "id": "bit frame 0 removable fixture 0",
@@ -11246,7 +11246,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2473704
+    "offset": 2497572
   },
   {
     "id": "bit frame 0 fixture 1 pin 1",
@@ -11279,7 +11279,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2505852
+    "offset": 2529720
   },
   {
     "id": "bit frame 0 fixture 1 pin 2",
@@ -11312,7 +11312,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2519388
+    "offset": 2543256
   },
   {
     "id": "bit frame 0 removable fixture 1",
@@ -11323,11 +11323,11 @@
       0.6
     ],
     "module": "bit",
-    "vertices": 4956,
+    "vertices": 4632,
     "bounds": [
       [
-        -96.35,
-        15.55,
+        -95.8,
+        17.05,
         -39.8
       ],
       [
@@ -11337,7 +11337,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2532924
+    "offset": 2556792
   },
   {
     "id": "bit frame 0 fixture 2 pin 1",
@@ -11370,7 +11370,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2547792
+    "offset": 2570688
   },
   {
     "id": "bit frame 0 fixture 2 pin 2",
@@ -11403,7 +11403,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2561328
+    "offset": 2584224
   },
   {
     "id": "bit frame 0 removable fixture 2",
@@ -11428,7 +11428,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2574864
+    "offset": 2597760
   },
   {
     "id": "bit frame 0 fixture 3 pin 1",
@@ -11442,26 +11442,26 @@
     "vertices": 4512,
     "bounds": [
       [
-        -26.120400190353394,
+        -22.120400190353394,
         30.0,
-        6.799787521362305
+        55.799787521362305
       ],
       [
-        -19.879599809646606,
+        -15.879599809646606,
         46.0,
-        13.200212478637695
+        62.200212478637695
       ]
     ],
     "lego_part": "2780",
     "centre": [
-      -23.0,
+      -19.0,
       38.0,
-      10.0
+      59.0
     ],
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2605068
+    "offset": 2627964
   },
   {
     "id": "bit frame 0 fixture 3 pin 2",
@@ -11475,26 +11475,26 @@
     "vertices": 4512,
     "bounds": [
       [
-        11.879599809646606,
+        -0.12040019035339355,
         30.0,
-        -9.200212478637695
+        -18.200212478637695
       ],
       [
-        18.120400190353394,
+        6.1204001903533936,
         46.0,
-        -2.7997875213623047
+        -11.799787521362305
       ]
     ],
     "lego_part": "2780",
     "centre": [
-      15.0,
+      3.0,
       38.0,
-      -6.0
+      -15.0
     ],
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2618604
+    "offset": 2641500
   },
   {
     "id": "bit frame 0 removable fixture 3",
@@ -11505,21 +11505,21 @@
       0.6
     ],
     "module": "bit",
-    "vertices": 6744,
+    "vertices": 11742,
     "bounds": [
       [
         -28.2,
-        15.55,
-        -10.8
+        14.0,
+        -19.8
       ],
       [
-        19.8,
-        38.2,
-        14.8
+        20.0,
+        40.4,
+        64.4
       ]
     ],
     "motion": "fixed",
-    "offset": 2632140
+    "offset": 2655036
   },
   {
     "id": "bit frame 0 fixture 4 pin 1",
@@ -11552,7 +11552,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2652372
+    "offset": 2690262
   },
   {
     "id": "bit frame 0 fixture 4 pin 2",
@@ -11585,7 +11585,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2665908
+    "offset": 2703798
   },
   {
     "id": "bit frame 0 removable fixture 4",
@@ -11596,7 +11596,7 @@
       0.6
     ],
     "module": "bit",
-    "vertices": 5088,
+    "vertices": 4770,
     "bounds": [
       [
         -28.2,
@@ -11610,98 +11610,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2679444
-  },
-  {
-    "id": "bit frame 0 fixture 5 pin 1",
-    "kind": "native",
-    "color": [
-      0.23,
-      0.28,
-      0.31
-    ],
-    "module": "bit",
-    "vertices": 4512,
-    "bounds": [
-      [
-        -22.120400190353394,
-        30.0,
-        55.799787521362305
-      ],
-      [
-        -15.879599809646606,
-        46.0,
-        62.200212478637695
-      ]
-    ],
-    "lego_part": "2780",
-    "centre": [
-      -19.0,
-      38.0,
-      59.0
-    ],
-    "axis": 1,
-    "drive": null,
-    "motion": "fixed",
-    "offset": 2694708
-  },
-  {
-    "id": "bit frame 0 fixture 5 pin 2",
-    "kind": "native",
-    "color": [
-      0.23,
-      0.28,
-      0.31
-    ],
-    "module": "bit",
-    "vertices": 4512,
-    "bounds": [
-      [
-        -0.12040019035339355,
-        30.0,
-        -18.200212478637695
-      ],
-      [
-        6.1204001903533936,
-        46.0,
-        -11.799787521362305
-      ]
-    ],
-    "lego_part": "2780",
-    "centre": [
-      3.0,
-      38.0,
-      -15.0
-    ],
-    "axis": 1,
-    "drive": null,
-    "motion": "fixed",
-    "offset": 2708244
-  },
-  {
-    "id": "bit frame 0 removable fixture 5",
-    "kind": "printed",
-    "color": [
-      0.42,
-      0.65,
-      0.6
-    ],
-    "module": "bit",
-    "vertices": 10632,
-    "bounds": [
-      [
-        -23.8,
-        14.0,
-        -19.8
-      ],
-      [
-        8.75,
-        38.2,
-        64.4
-      ]
-    ],
-    "motion": "fixed",
-    "offset": 2721780
+    "offset": 2717334
   },
   {
     "id": "bit coordinated chassis 0",
@@ -11712,7 +11621,7 @@
       0.41
     ],
     "module": "bit",
-    "vertices": 26682,
+    "vertices": 22746,
     "bounds": [
       [
         -135.0,
@@ -11726,7 +11635,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2753676
+    "offset": 2731644
   },
   {
     "id": "bit frame 1 fixture 0 pin 1",
@@ -11759,7 +11668,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2833722
+    "offset": 2799882
   },
   {
     "id": "bit frame 1 fixture 0 pin 2",
@@ -11792,7 +11701,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2847258
+    "offset": 2813418
   },
   {
     "id": "bit frame 1 removable fixture 0",
@@ -11803,7 +11712,7 @@
       0.6
     ],
     "module": "bit",
-    "vertices": 5490,
+    "vertices": 5124,
     "bounds": [
       [
         69.2,
@@ -11817,101 +11726,10 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2860794
+    "offset": 2826954
   },
   {
     "id": "bit frame 1 fixture 1 pin 1",
-    "kind": "native",
-    "color": [
-      0.23,
-      0.28,
-      0.31
-    ],
-    "module": "bit",
-    "vertices": 4512,
-    "bounds": [
-      [
-        84.8795998096466,
-        30.0,
-        -13.200212478637695
-      ],
-      [
-        91.1204001903534,
-        46.0,
-        -6.799787521362305
-      ]
-    ],
-    "lego_part": "2780",
-    "centre": [
-      88.0,
-      38.0,
-      -10.0
-    ],
-    "axis": 1,
-    "drive": null,
-    "motion": "fixed",
-    "offset": 2877264
-  },
-  {
-    "id": "bit frame 1 fixture 1 pin 2",
-    "kind": "native",
-    "color": [
-      0.23,
-      0.28,
-      0.31
-    ],
-    "module": "bit",
-    "vertices": 4512,
-    "bounds": [
-      [
-        120.8795998096466,
-        30.0,
-        6.799787521362305
-      ],
-      [
-        127.1204001903534,
-        46.0,
-        13.200212478637695
-      ]
-    ],
-    "lego_part": "2780",
-    "centre": [
-      124.0,
-      38.0,
-      10.0
-    ],
-    "axis": 1,
-    "drive": null,
-    "motion": "fixed",
-    "offset": 2890800
-  },
-  {
-    "id": "bit frame 1 removable fixture 1",
-    "kind": "printed",
-    "color": [
-      0.42,
-      0.65,
-      0.6
-    ],
-    "module": "bit",
-    "vertices": 6300,
-    "bounds": [
-      [
-        83.2,
-        15.55,
-        -14.8
-      ],
-      [
-        130.20000000000002,
-        38.2,
-        14.8
-      ]
-    ],
-    "motion": "fixed",
-    "offset": 2904336
-  },
-  {
-    "id": "bit frame 1 fixture 2 pin 1",
     "kind": "native",
     "color": [
       0.23,
@@ -11941,10 +11759,10 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2923236
+    "offset": 2842326
   },
   {
-    "id": "bit frame 1 fixture 2 pin 2",
+    "id": "bit frame 1 fixture 1 pin 2",
     "kind": "native",
     "color": [
       0.23,
@@ -11974,10 +11792,10 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 2936772
+    "offset": 2855862
   },
   {
-    "id": "bit frame 1 removable fixture 2",
+    "id": "bit frame 1 removable fixture 1",
     "kind": "printed",
     "color": [
       0.42,
@@ -11985,7 +11803,7 @@
       0.6
     ],
     "module": "bit",
-    "vertices": 10638,
+    "vertices": 11664,
     "bounds": [
       [
         82.2,
@@ -11993,13 +11811,13 @@
         -19.8
       ],
       [
-        115.8,
-        38.2,
+        130.20000000000002,
+        40.4,
         64.4
       ]
     ],
     "motion": "fixed",
-    "offset": 2950308
+    "offset": 2869398
   },
   {
     "id": "bit coordinated chassis 1",
@@ -12010,7 +11828,7 @@
       0.41
     ],
     "module": "bit",
-    "vertices": 16974,
+    "vertices": 13434,
     "bounds": [
       [
         28.7,
@@ -12024,7 +11842,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 2982222
+    "offset": 2904390
   },
   {
     "id": "control frame 0 fixture 0 pin 1",
@@ -12057,7 +11875,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3033144
+    "offset": 2944692
   },
   {
     "id": "control frame 0 fixture 0 pin 2",
@@ -12090,7 +11908,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3046680
+    "offset": 2958228
   },
   {
     "id": "control frame 0 fixture 0 pin 3",
@@ -12123,7 +11941,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3060216
+    "offset": 2971764
   },
   {
     "id": "control frame 0 fixture 0 pin 4",
@@ -12156,7 +11974,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3073752
+    "offset": 2985300
   },
   {
     "id": "control frame 0 removable fixture 0",
@@ -12181,7 +11999,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3087288
+    "offset": 2998836
   },
   {
     "id": "control frame 0 fixture 1 pin 1",
@@ -12214,7 +12032,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3115494
+    "offset": 3027042
   },
   {
     "id": "control frame 0 fixture 1 pin 2",
@@ -12247,7 +12065,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3129030
+    "offset": 3040578
   },
   {
     "id": "control frame 0 fixture 1 pin 3",
@@ -12280,7 +12098,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3142566
+    "offset": 3054114
   },
   {
     "id": "control frame 0 fixture 1 pin 4",
@@ -12313,7 +12131,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3156102
+    "offset": 3067650
   },
   {
     "id": "control frame 0 removable fixture 1",
@@ -12324,11 +12142,11 @@
       0.6
     ],
     "module": "control",
-    "vertices": 12456,
+    "vertices": 11526,
     "bounds": [
       [
         -167.0,
-        3.5500000000000007,
+        5.050000000000001,
         -224.0
       ],
       [
@@ -12338,7 +12156,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3169638
+    "offset": 3081186
   },
   {
     "id": "control frame 0 fixture 2 pin 1",
@@ -12371,7 +12189,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3207006
+    "offset": 3115764
   },
   {
     "id": "control frame 0 fixture 2 pin 2",
@@ -12404,7 +12222,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3220542
+    "offset": 3129300
   },
   {
     "id": "control frame 0 fixture 2 pin 3",
@@ -12437,7 +12255,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3234078
+    "offset": 3142836
   },
   {
     "id": "control frame 0 fixture 2 pin 4",
@@ -12470,7 +12288,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3247614
+    "offset": 3156372
   },
   {
     "id": "control frame 0 removable fixture 2",
@@ -12481,7 +12299,7 @@
       0.6
     ],
     "module": "control",
-    "vertices": 27576,
+    "vertices": 29196,
     "bounds": [
       [
         -173.8,
@@ -12495,7 +12313,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3261150
+    "offset": 3169908
   },
   {
     "id": "control frame 0 fixture 3 pin 1",
@@ -12528,7 +12346,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3343878
+    "offset": 3257496
   },
   {
     "id": "control frame 0 fixture 3 pin 2",
@@ -12561,7 +12379,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3357414
+    "offset": 3271032
   },
   {
     "id": "control frame 0 removable fixture 3",
@@ -12586,7 +12404,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3370950
+    "offset": 3284568
   },
   {
     "id": "control coordinated chassis 0",
@@ -12597,7 +12415,7 @@
       0.41
     ],
     "module": "control",
-    "vertices": 22038,
+    "vertices": 22056,
     "bounds": [
       [
         -173.8,
@@ -12611,7 +12429,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3398382
+    "offset": 3312000
   },
   {
     "id": "master cheek joining pin 28.4",
@@ -12644,7 +12462,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3464496
+    "offset": 3378168
   },
   {
     "id": "master cheek joining pin 35.6",
@@ -12677,7 +12495,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3483792
+    "offset": 3397464
   },
   {
     "id": "master removable rear bearing cheek",
@@ -12688,7 +12506,7 @@
       0.6
     ],
     "module": "bit",
-    "vertices": 11058,
+    "vertices": 11046,
     "bounds": [
       [
         -27.8,
@@ -12702,7 +12520,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3503088
+    "offset": 3416760
   },
   {
     "id": "slave cheek joining pin 28.4",
@@ -12735,7 +12553,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3536262
+    "offset": 3449898
   },
   {
     "id": "slave cheek joining pin 35.6",
@@ -12768,7 +12586,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3555558
+    "offset": 3469194
   },
   {
     "id": "slave removable rear bearing cheek",
@@ -12779,7 +12597,7 @@
       0.6
     ],
     "module": "bit",
-    "vertices": 11100,
+    "vertices": 11088,
     "bounds": [
       [
         78.2,
@@ -12793,7 +12611,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3574854
+    "offset": 3488490
   },
   {
     "id": "Control clock cheek joining pin 28.4",
@@ -12826,7 +12644,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3608154
+    "offset": 3521754
   },
   {
     "id": "Control clock cheek joining pin 35.6",
@@ -12859,7 +12677,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3627450
+    "offset": 3541050
   },
   {
     "id": "Control clock removable rear bearing cheek",
@@ -12884,7 +12702,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3646746
+    "offset": 3560346
   },
   {
     "id": "Control write cheek joining pin 28.4",
@@ -12917,7 +12735,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3682080
+    "offset": 3595680
   },
   {
     "id": "Control write cheek joining pin 35.6",
@@ -12950,7 +12768,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3701376
+    "offset": 3614976
   },
   {
     "id": "Control write removable rear bearing cheek",
@@ -12975,7 +12793,7 @@
       ]
     ],
     "motion": "fixed",
-    "offset": 3720672
+    "offset": 3634272
   },
   {
     "id": "Control WRITE detachable bearing shoe",
@@ -12986,7 +12804,7 @@
       0.19
     ],
     "module": "control",
-    "vertices": 6834,
+    "vertices": 7890,
     "bounds": [
       [
         -155.8,
@@ -12994,7 +12812,7 @@
         -176.0
       ],
       [
-        -128.0,
+        -124.7,
         25.6,
         -166.2
       ]
@@ -13042,7 +12860,7 @@
       -260.0
     ],
     "mesh_domain": "controller write",
-    "offset": 3755970
+    "offset": 3669570
   },
   {
     "id": "Control WRITE bearing shoe friction pin 1",
@@ -13076,7 +12894,7 @@
     "drive": null,
     "motion": "control-rod",
     "control_key": "write",
-    "offset": 3776472
+    "offset": 3693240
   },
   {
     "id": "Control WRITE bearing shoe friction pin 2",
@@ -13090,19 +12908,19 @@
     "vertices": 4512,
     "bounds": [
       [
-        -142.7204001903534,
+        -144.1204001903534,
         17.8,
         -174.2002124786377
       ],
       [
-        -136.4795998096466,
+        -137.8795998096466,
         33.8,
         -167.7997875213623
       ]
     ],
     "lego_part": "2780",
     "centre": [
-      -139.6,
+      -141.0,
       25.8,
       -171.0
     ],
@@ -13110,7 +12928,7 @@
     "drive": null,
     "motion": "control-rod",
     "control_key": "write",
-    "offset": 3790008
+    "offset": 3706776
   },
   {
     "id": "bit clock rod guide cap -22",
@@ -13136,7 +12954,7 @@
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 3803544
+    "offset": 3720312
   },
   {
     "id": "bit clock rod guide cap -22 friction pin 1",
@@ -13169,7 +12987,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3810312
+    "offset": 3727080
   },
   {
     "id": "bit clock rod guide cap -22 friction pin 2",
@@ -13202,7 +13020,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3823848
+    "offset": 3740616
   },
   {
     "id": "bit clock rod guide cap 21.5",
@@ -13228,7 +13046,7 @@
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 3837384
+    "offset": 3754152
   },
   {
     "id": "bit clock rod guide cap 21.5 friction pin 1",
@@ -13261,7 +13079,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3844386
+    "offset": 3761154
   },
   {
     "id": "bit clock rod guide cap 21.5 friction pin 2",
@@ -13294,7 +13112,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3857922
+    "offset": 3774690
   },
   {
     "id": "bit write rod guide cap -12",
@@ -13320,7 +13138,7 @@
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 3871458
+    "offset": 3788226
   },
   {
     "id": "bit write rod guide cap -12 friction pin 1",
@@ -13353,7 +13171,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3878046
+    "offset": 3794814
   },
   {
     "id": "bit write rod guide cap -12 friction pin 2",
@@ -13386,7 +13204,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3891582
+    "offset": 3808350
   },
   {
     "id": "bit write rod guide cap 32",
@@ -13412,7 +13230,7 @@
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 3905118
+    "offset": 3821886
   },
   {
     "id": "bit write rod guide cap 32 friction pin 1",
@@ -13445,7 +13263,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3912102
+    "offset": 3828870
   },
   {
     "id": "bit write rod guide cap 32 friction pin 2",
@@ -13478,7 +13296,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3925638
+    "offset": 3842406
   },
   {
     "id": "control clock rod guide cap -132",
@@ -13504,7 +13322,7 @@
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 3939174
+    "offset": 3855942
   },
   {
     "id": "control clock rod guide cap -132 friction pin 1",
@@ -13537,7 +13355,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3945924
+    "offset": 3862692
   },
   {
     "id": "control clock rod guide cap -132 friction pin 2",
@@ -13570,7 +13388,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3959460
+    "offset": 3876228
   },
   {
     "id": "control clock rod guide cap -72",
@@ -13596,7 +13414,7 @@
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 3972996
+    "offset": 3889764
   },
   {
     "id": "control clock rod guide cap -72 friction pin 1",
@@ -13629,7 +13447,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3979908
+    "offset": 3896676
   },
   {
     "id": "control clock rod guide cap -72 friction pin 2",
@@ -13662,7 +13480,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 3993444
+    "offset": 3910212
   },
   {
     "id": "control write rod guide cap -204",
@@ -13673,22 +13491,22 @@
       0.53
     ],
     "module": "control",
-    "vertices": 2220,
+    "vertices": 2418,
     "bounds": [
       [
-        -131.4,
+        -142.3,
         17.8,
-        -207.3
+        -218.3
       ],
       [
-        -107.2,
+        -113.7,
         25.4,
-        -182.7
+        -202.0
       ]
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 4006980
+    "offset": 3923748
   },
   {
     "id": "control write rod guide cap -204 friction pin 1",
@@ -13702,26 +13520,26 @@
     "vertices": 4512,
     "bounds": [
       [
-        -115.6204001903534,
+        -140.1204001903534,
         17.6,
-        -205.2002124786377
+        -216.2002124786377
       ],
       [
-        -109.3795998096466,
+        -133.8795998096466,
         33.6,
-        -198.7997875213623
+        -209.7997875213623
       ]
     ],
     "lego_part": "2780",
     "centre": [
-      -112.5,
+      -137.0,
       25.6,
-      -202.0
+      -213.0
     ],
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 4013640
+    "offset": 3931002
   },
   {
     "id": "control write rod guide cap -204 friction pin 2",
@@ -13735,26 +13553,26 @@
     "vertices": 4512,
     "bounds": [
       [
-        -115.6204001903534,
+        -122.1204001903534,
         17.6,
-        -191.2002124786377
+        -216.2002124786377
       ],
       [
-        -109.3795998096466,
+        -115.8795998096466,
         33.6,
-        -184.7997875213623
+        -209.7997875213623
       ]
     ],
     "lego_part": "2780",
     "centre": [
-      -112.5,
+      -119.0,
       25.6,
-      -188.0
+      -213.0
     ],
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 4027176
+    "offset": 3944538
   },
   {
     "id": "control write rod guide cap -140",
@@ -13780,7 +13598,7 @@
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 4040712
+    "offset": 3958074
   },
   {
     "id": "control write rod guide cap -140 friction pin 1",
@@ -13813,7 +13631,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 4047948
+    "offset": 3965310
   },
   {
     "id": "control write rod guide cap -140 friction pin 2",
@@ -13846,7 +13664,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 4061484
+    "offset": 3978846
   },
   {
     "id": "control write rod guide cap -72",
@@ -13872,7 +13690,7 @@
     ],
     "print_axis": 1,
     "print_up_sign": 1,
-    "offset": 4075020
+    "offset": 3992382
   },
   {
     "id": "control write rod guide cap -72 friction pin 1",
@@ -13905,7 +13723,7 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 4083282
+    "offset": 4000644
   },
   {
     "id": "control write rod guide cap -72 friction pin 2",
@@ -13938,6 +13756,6 @@
     "axis": 1,
     "drive": null,
     "motion": "fixed",
-    "offset": 4096818
+    "offset": 4014180
   }
 ]
