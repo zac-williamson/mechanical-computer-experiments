@@ -1,0 +1,73 @@
+{
+  "quality": [
+    {
+      "part": "Carriage body",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Carriage bearing end",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Upper actuator cheek",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Lower actuator cheek",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Actuator lever",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Locking bolt",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Locking bolt guide",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Carriage control rod",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Lock control rod",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Left bearing wall",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Right bearing wall",
+      "watertight": true,
+      "solids": 1
+    },
+    {
+      "part": "Module base",
+      "watertight": true,
+      "solids": 1
+    }
+  ],
+  "printed_interferences": [],
+  "hardware_interferences": [],
+  "band_interferences": [],
+  "poses": 26,
+  "notes": [
+    "Native open meshes use conservative solid envelopes. Pin friction fits are excluded only for named mating parts.",
+    "Clutch/fork uses the actual full-rotation profile. Gear/lever tooth engagement remains an intentional contact, not a force-driven validation.",
+    "Band loops checked at each pose; actual tension and deformation require physical testing."
+  ]
+}

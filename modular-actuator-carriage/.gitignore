@@ -1,0 +1,7 @@
+Source/build/
+Source/work/.cool-job.lock
+Source/work/matplotlib-cache/
+Source/work/render-cache/
+Source/.wall-job.lock
+__pycache__/
+*.pyc

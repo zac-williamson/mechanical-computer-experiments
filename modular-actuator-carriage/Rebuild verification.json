@@ -1,0 +1,19 @@
+{
+  "byte_identical_outputs": {
+    "Model.json": true,
+    "Viewer.html": true,
+    "Print layout.stl": true,
+    "Carriage control rod.stl": true,
+    "Lock control rod.stl": true,
+    "Carriage control rod print.stl": true,
+    "Lock control rod print.stl": true,
+    "Tiling geometry.json": true
+  },
+  "mechanism_poses": 26,
+  "tiling_passed": true,
+  "connector_insertion_passed": true,
+  "carriage_assembly_passed": true,
+  "rod_print_growth_comparison_passed": true,
+  "limitations": "Existing hole roof flags remain. No physical strength, friction or support-free certification.",
+  "inputs": "Bundled Source/Inputs and Source dependencies only."
+}

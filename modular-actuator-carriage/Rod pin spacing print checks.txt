@@ -1,0 +1,8 @@
+Waiting for the shared geometry slot.
+CPU throttle: 50 ms running, 450 ms paused; one worker, low priority.
+Priority adjustment unavailable; one-worker and external 10% duty-cycle limits remain active.
+Geometry job: single TBB/BLAS worker, low priority, 1.2 GiB memory guard.
+Carriage control rod [[6.4, 50.415, [3.3664648085832596, 0.0, 84.233533680439, 8.0]], [6.6, 6.079, [3.212912268936634, 6.602000571787357, 12.387086197733879, 8.0]]]
+Passed print-oriented layer-area comparison for Carriage control rod
+Lock control rod [[10.6, 20.542, [3.3664648085832596, 3.999999761581421, 84.233533680439, 10.40000033378601]], [10.8, 6.079, [3.212912268936634, 10.602000333368778, 12.387086197733879, 11.999999761581421]]]
+Passed print-oriented layer-area comparison for Lock control rod

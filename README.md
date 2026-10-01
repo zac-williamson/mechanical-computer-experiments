@@ -4,6 +4,7 @@ Mechanical designs, using LEGO axles, gears, bushings and friction pins with pri
 
 | Design | Model and instructions |
 |---|---|
+| Modular actuator, carriage and locking bolt | [Viewer](modular-actuator-carriage/Viewer.html) · [Print files and validation](modular-actuator-carriage/README.md) |
 | Multiplexer | [Viewer](multiplexer/Viewer.html) · [Build and print files](multiplexer/README.md) |
 | 1-bit register | [Viewer](register/Viewer.html) · [Build and print files](register/README.md) |
 | Preserved planar latch | [Viewer](planar-register/register-from-multiplexer/Planar%20register/Viewer.html) · [Snapshot and print files](planar-register/README.md) |

@@ -1,0 +1,206 @@
+[
+  {
+    "part": "Carriage body",
+    "watertight": true,
+    "bounds": [
+      [
+        142.0,
+        88.0,
+        0.0
+      ],
+      [
+        177.15870141983032,
+        108.84999966621399,
+        17.850000023841858
+      ]
+    ],
+    "bed_face": "right"
+  },
+  {
+    "part": "Carriage bearing end",
+    "watertight": true,
+    "bounds": [
+      [
+        72.0,
+        0.0,
+        0.0
+      ],
+      [
+        102.10000133514404,
+        42.24999928474426,
+        42.84950065612793
+      ]
+    ],
+    "bed_face": "left"
+  },
+  {
+    "part": "Upper actuator cheek",
+    "watertight": true,
+    "bounds": [
+      [
+        110.10000133514404,
+        0.0,
+        0.0
+      ],
+      [
+        155.2000012397766,
+        31.837021827697754,
+        23.500001907348633
+      ]
+    ],
+    "bed_face": "bottom"
+  },
+  {
+    "part": "Lower actuator cheek",
+    "watertight": true,
+    "bounds": [
+      [
+        163.2000012397766,
+        0.0,
+        0.0
+      ],
+      [
+        208.39999961853027,
+        31.837021827697754,
+        12.600001335144043
+      ]
+    ],
+    "bed_face": "bottom"
+  },
+  {
+    "part": "Actuator lever",
+    "watertight": true,
+    "bounds": [
+      [
+        0.0,
+        125.79999995231628,
+        0.0
+      ],
+      [
+        23.236031770706177,
+        140.33304858207703,
+        8.40000057220459
+      ]
+    ],
+    "bed_face": "bottom"
+  },
+  {
+    "part": "Locking bolt",
+    "watertight": true,
+    "bounds": [
+      [
+        103.5999984741211,
+        148.33304858207703,
+        0.0
+      ],
+      [
+        119.39999771118164,
+        158.33304858207703,
+        7.200000762939453
+      ]
+    ],
+    "bed_face": "front"
+  },
+  {
+    "part": "Locking bolt guide",
+    "watertight": true,
+    "bounds": [
+      [
+        185.15870141983032,
+        88.0,
+        0.0
+      ],
+      [
+        224.95870141983033,
+        106.0,
+        16.0
+      ]
+    ],
+    "bed_face": "bottom"
+  },
+  {
+    "part": "Carriage control rod",
+    "watertight": true,
+    "bounds": [
+      [
+        0.0,
+        148.33304858207703,
+        0.0
+      ],
+      [
+        87.5999984741211,
+        158.33304877579212,
+        7.599999999999998
+      ]
+    ],
+    "bed_face": "bottom"
+  },
+  {
+    "part": "Lock control rod",
+    "watertight": true,
+    "bounds": [
+      [
+        31.236031770706177,
+        125.79999995231628,
+        0.0
+      ],
+      [
+        118.83603024482727,
+        143.19999990463256,
+        14.0
+      ]
+    ],
+    "bed_face": "bottom"
+  },
+  {
+    "part": "Left bearing wall",
+    "watertight": true,
+    "bounds": [
+      [
+        0.0,
+        88.0,
+        0.0
+      ],
+      [
+        63.0,
+        117.79999999701977,
+        8.0
+      ]
+    ],
+    "bed_face": "right"
+  },
+  {
+    "part": "Right bearing wall",
+    "watertight": true,
+    "bounds": [
+      [
+        71.0,
+        88.0,
+        0.0
+      ],
+      [
+        134.0,
+        117.79999995231628,
+        8.0
+      ]
+    ],
+    "bed_face": "left"
+  },
+  {
+    "part": "Module base",
+    "watertight": true,
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        64.0,
+        72.0,
+        16.4
+      ]
+    ],
+    "bed_face": "rear"
+  }
+]

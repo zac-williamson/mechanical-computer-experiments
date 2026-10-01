@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "steps": [
+    {
+      "step": "Right half from -Y with actuator complete and worm positioned",
+      "part": "Carriage body",
+      "axis": 1,
+      "direction": -1,
+      "samples": 131,
+      "worst_intersections": {}
+    },
+    {
+      "step": "Left half from -X toward positioned right half",
+      "part": "Carriage bearing end",
+      "axis": 0,
+      "direction": -1,
+      "samples": 131,
+      "worst_intersections": {}
+    },
+    {
+      "step": "Preload rod attachment pin into carriage from -Y",
+      "part": "Control rod attachment pin -11.0",
+      "axis": 1,
+      "direction": -1,
+      "samples": 131,
+      "worst_intersections": {}
+    },
+    {
+      "step": "Preload rod attachment pin into carriage from -Y",
+      "part": "Control rod attachment pin 11.0",
+      "axis": 1,
+      "direction": -1,
+      "samples": 131,
+      "worst_intersections": {}
+    },
+    {
+      "step": "Control rod from -Y onto preloaded pins",
+      "part": "Carriage control rod",
+      "axis": 1,
+      "direction": -1,
+      "samples": 131,
+      "worst_intersections": {}
+    }
+  ],
+  "core": [
+    "Upper actuator cheek",
+    "Lower actuator cheek",
+    "Actuator lever",
+    "U022",
+    "reaction-stop-axle",
+    "reaction-retainer",
+    "pivot-stop-axle",
+    "pivot-retainer",
+    "Actuator cheek joining pin 31.4",
+    "Actuator cheek joining pin 39.4",
+    "Actuator return band"
+  ],
+  "pose": "Carriage centred at X=0; lever at model neutral angle; bolt and bearing walls installed afterwards.",
+  "scope": "0.5 mm sampled straight insertion paths, not merely fitted operating poses. Includes both cheek joining pins, gear, lever, axles and retainers."
+}
