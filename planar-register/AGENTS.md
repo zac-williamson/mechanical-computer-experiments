@@ -1,1 +1,1 @@
-Preserved planar latch prototype. Clock-triggered development belongs in ../clocked-planar-register. Do not change this design as a side effect of clocked-register work.
+Active preserved latched 1-bit register: a level-sensitive write-enabled latch. The other active design is ../modular-actuator-carriage/. Clock-triggered experiments are inactive under ../archive/clocked-planar-register/ and ../archive/register/. Do not replace this latch with an archived variant. Read README.md for source and validation entry points.

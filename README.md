@@ -1,19 +1,14 @@
-# Mechanical computer experiments
+# Mechanical computer modules
 
-Mechanical designs, using LEGO axles, gears, bushings and friction pins with printed frames.
+Build the next 1-bit register from a small collection of reusable mechanical modules. Only these two designs are active:
 
-| Design | Model and instructions |
+| Active design | Entry points |
 |---|---|
-| Modular actuator, carriage and locking bolt | [Viewer](modular-actuator-carriage/Viewer.html) · [Print files and validation](modular-actuator-carriage/README.md) |
-| Multiplexer | [Viewer](multiplexer/Viewer.html) · [Build and print files](multiplexer/README.md) |
-| 1-bit register | [Viewer](register/Viewer.html) · [Build and print files](register/README.md) |
-| Preserved planar latch | [Viewer](planar-register/register-from-multiplexer/Planar%20register/Viewer.html) · [Snapshot and print files](planar-register/README.md) |
-| Clocked planar register (planned) | [Separate design brief](clocked-planar-register/README.md) |
-| Register cam test | [Viewer](cam-test/Viewer.html) · [Build and print files](cam-test/README.md) |
-| 1-bit adder | [Viewer](adder/Viewer.html) · [Design](adder/README.md) |
+| Modular actuator, carriage and locking bolt | [Viewer](modular-actuator-carriage/Viewer.html) · [Design and print files](modular-actuator-carriage/README.md) · [Build and validation](modular-actuator-carriage/Source/README.md) |
+| Latched 1-bit register | [Viewer](planar-register/register-from-multiplexer/Planar%20register/Viewer.html) · [Design, sources and checks](planar-register/README.md) |
 
-The sole current multiplexer is in `multiplexer/`: aligned 16T axle spacing, two-piece carriage and +X cheek mounts. Its assembly meshes, viewer, print layout and validation tools live together there. Retired multiplexer variants are not part of the working tree; use Git history only when explicitly requested.
+Start with the modular actuator/carriage module when developing reusable components. Keep the latched 1-bit register as the assembly reference. It is a level-sensitive write-enabled latch, not the archived clocked master–slave register.
 
-These are physical prototypes. CAD checks and prescribed animations do not establish friction, wear, strength or reliable switching. The adder is an engineering layout, not a released print package. See each design's current check results.
+Read [AGENTS.md](AGENTS.md) before making changes. CAD checks do not establish physical strength, friction, wear or reliable switching; consult each design's reported limitations.
 
-For local viewing, serve this directory with `python3 -m http.server 8766` and open the required Viewer.html.
+All other designs are in [archive/](archive/README.md). They are historical references, not current candidates or starting points. Do not revive them unless explicitly requested.

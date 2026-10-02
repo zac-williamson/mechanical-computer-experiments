@@ -4,7 +4,7 @@
 
 This preserves the planar write-enabled latch, including the detachable pinned guide and restored rear bolt-retaining lips. It is not an edge-triggered register. The print layout has 20 printed parts. Geometry checks do not establish physical load capacity; the whole-register closing-data race remains unresolved.
 
-The separate clock-triggered development is in `../clocked-planar-register/`. Do not overwrite this prototype with that design.
+This is one of the two active designs. The separate clock-triggered development is archived in `../archive/clocked-planar-register/`; it is not the current assembly reference. Do not overwrite this latch with that design.
 
 ## Sources and reproducibility
 
