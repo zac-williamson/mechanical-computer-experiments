@@ -25,5 +25,6 @@ for p in P:
   row['unsupported_regions_in_assembly']=m.triangles_center[bad].tolist()
  rows.append(row)
  if q['print_geometry_pass']:t.export(O/'Candidate print parts'/(n+'.stl'))
+ else:(O/'Candidate print parts'/(n+'.stl')).unlink(missing_ok=True)
  print(n,q['print_geometry_pass'],round(q['unsupported_face_area_mm2'],3),len(q['layer_growth_failures']),flush=True)
 (O/'Inherited manufacturing checks.json').write_text(json.dumps(dict(geometry_sha256=hashlib.sha256((O/'geometry.npz').read_bytes()).hexdigest(),parts=rows,slicer_validated=False,physically_validated=False),indent=2))

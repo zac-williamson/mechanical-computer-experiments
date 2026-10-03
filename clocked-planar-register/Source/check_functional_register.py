@@ -11,6 +11,8 @@ def mesh(a):return trimesh.Trimesh(a,np.arange(len(a)).reshape(-1,3),process=Tru
 def solid(a):
  t=mesh(a);return m.Manifold(m.Mesh64(t.vertices.astype(float),t.faces.astype(np.uint64)))
 prints=[];paths=O/'Candidate print parts';paths.mkdir(exist_ok=True)
+for path in paths.glob('*.stl'):
+ if path.stem not in L:path.unlink()
 for name,(axis,sign) in D['print_orientations'].items():
  p=L[name];t,q=qualify(mesh(vv(p)),axis,sign)
  if p.get('inherited_cam') and not q['print_geometry_pass']:
