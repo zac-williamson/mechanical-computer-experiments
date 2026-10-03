@@ -1,0 +1,8 @@
+{
+  "geometry_sha256": "796a3f4dd198cb55c2f2f24f2e0f1cced2d46f6fcbbc41793d1d904bf2815219",
+  "checks": 10590,
+  "sampled_frames": 1008,
+  "collisions": [],
+  "pass_check": true,
+  "scope": "New printed parts against sampled inherited motion; native rotation envelopes. No slicer or physical validation."
+}

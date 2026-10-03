@@ -1,0 +1,53 @@
+{
+  "status": "DEVELOPMENT CHECKPOINT \u2014 NOT A PRINT RELEASE",
+  "task_complete": false,
+  "current_wall_design_replaced": false,
+  "geometry_sha256": "796a3f4dd198cb55c2f2f24f2e0f1cced2d46f6fcbbc41793d1d904bf2815219",
+  "implemented": [
+    "Master and slave mechanism cartridges with their own input clutch, storage clutch, lock, timing, power gearing, shafts and bearings",
+    "Three-piece timing assemblies and a removable four-pin timing link",
+    "Separate chassis with two horizontal friction pins and complete collar seats",
+    "Corrected carriage joining-pin through bores and collar seats, printing from the outer flat faces",
+    "Full-depth mounting holes reopened in both lock guides and rear bearing cheeks",
+    "Support-free rear cheek elastic-retaining heads, with the original band centres and seating planes retained",
+    "Terminal pins belong to their latch cartridges; joining adds only the external timing strap, couplings and frame pins"
+  ],
+  "verified": {
+    "new_or_modified_print_parts": 38,
+    "new_parts_geometry_pass": true,
+    "sampled_motion_frames": 1008,
+    "solid_intersection_checks": 10590,
+    "new_part_collisions": [],
+    "friction_pins": 90,
+    "collar_and_core_clearance_pass": true,
+    "external_gear_meshes": 11,
+    "unit_ratio_pass": true,
+    "fixed_external_phase_pass": true,
+    "joined_axle_ports_pass": true
+  },
+  "inherited_parts_requiring_surface_review": [
+    "master Short lever",
+    "master Carriage fork and roof",
+    "master lock bolt",
+    "master_gate Carriage fork and roof",
+    "master_gate Right carriage bearing support",
+    "master cheek carrier",
+    "slave Short lever",
+    "slave Carriage fork and roof",
+    "slave lock bolt",
+    "slave_gate Carriage fork and roof",
+    "slave_gate Right carriage bearing support",
+    "slave cheek carrier"
+  ],
+  "unfinished": [
+    "WRITE/feedback cartridge and shared-controller connection",
+    "Resolve inherited working-surface print limitations; static fixture overhangs remain separately identified",
+    "40 mm elastic-band fit and preload across travel",
+    "Single-layout complete functional test and subsequent incremental layout-only pack"
+  ],
+  "limits": [
+    "Geometric checks only; no slicer or physical validation. Bambu Studio was not launched.",
+    "External gear speed checks concern steady-state magnitude, not reversal transients.",
+    "Current Wall register viewer remains unchanged."
+  ]
+}

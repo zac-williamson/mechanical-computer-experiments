@@ -1,0 +1,1870 @@
+{
+  "geometry_sha256": "796a3f4dd198cb55c2f2f24f2e0f1cced2d46f6fcbbc41793d1d904bf2815219",
+  "parts": [
+    {
+      "part": "master timing guide -30.6",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -42.4,
+        -22.2,
+        -29.0
+      ],
+      "size_mm": [
+        34.4,
+        18.099999999999998,
+        10.100000000000001
+      ],
+      "volume_mm3": 2593.6818189214564,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master timing guide 34",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        76.8,
+        -22.2,
+        -32.4
+      ],
+      "size_mm": [
+        34.4,
+        18.099999999999998,
+        10.100000000000001
+      ],
+      "volume_mm3": 2593.6818188688426,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave timing guide 107.4",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -42.4,
+        -22.2,
+        109.0
+      ],
+      "size_mm": [
+        34.4,
+        18.099999999999998,
+        10.099999999999994
+      ],
+      "volume_mm3": 2466.0018189214493,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave timing guide 172",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        76.8,
+        -22.2,
+        -170.4
+      ],
+      "size_mm": [
+        34.4,
+        18.099999999999998,
+        10.099999999999994
+      ],
+      "volume_mm3": 2593.6818188688376,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master flat cam plate",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        76.8,
+        80.0,
+        29.80000000000001
+      ],
+      "size_mm": [
+        31.599999999999994,
+        144.8,
+        7.600000000000012
+      ],
+      "volume_mm3": 4904.792159957947,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master fork drive plate",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        36.3,
+        87.2,
+        29.80000000000001
+      ],
+      "size_mm": [
+        30.999999999999996,
+        47.0,
+        12.900000000000013
+      ],
+      "volume_mm3": 2064.130946322748,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master timing rear frame",
+      "axis": 1,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        76.8,
+        64.8,
+        -30.2
+      ],
+      "size_mm": [
+        67.39999999999999,
+        152.0,
+        7.599999999999998
+      ],
+      "volume_mm3": 11111.057299639404,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave flat cam plate",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        76.8,
+        -65.2,
+        29.80000000000001
+      ],
+      "size_mm": [
+        36.8,
+        149.60000000000002,
+        7.600000000000012
+      ],
+      "volume_mm3": 4950.217806489615,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave fork drive plate",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        36.3,
+        -64.8,
+        29.80000000000001
+      ],
+      "size_mm": [
+        30.999999999999996,
+        47.0,
+        12.900000000000013
+      ],
+      "volume_mm3": 2093.950052083646,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave timing rear frame",
+      "axis": 1,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        76.8,
+        214.8,
+        -30.2
+      ],
+      "size_mm": [
+        67.39999999999999,
+        150.0,
+        7.599999999999998
+      ],
+      "volume_mm3": 11599.457299639413,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "Removable timing connection",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        76.8,
+        -55.2,
+        21.8
+      ],
+      "size_mm": [
+        21.599999999999994,
+        19.599999999999994,
+        7.600000000000001
+      ],
+      "volume_mm3": 2561.7994501211065,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        0.30000001192092896,
+        -4.699999809265137,
+        15.600000381469727
+      ],
+      "size_mm": [
+        23.599999248981476,
+        27.800000190734863,
+        7.600000381469727
+      ],
+      "volume_mm3": 2149.706647854819,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave Right carriage bearing support",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -0.37666762213516664,
+        -4.699999809265137,
+        153.60000610351562
+      ],
+      "size_mm": [
+        22.92333161492538,
+        27.800000190734863,
+        7.600006103515625
+      ],
+      "volume_mm3": 2077.320081598186,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bolt guide left",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        64.4,
+        -14.0,
+        25.3
+      ],
+      "size_mm": [
+        20.200000000000003,
+        26.700000000000003,
+        15.650000001490117
+      ],
+      "volume_mm3": 5740.044941729832,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 1.6927621123321344e-10,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bolt guide right",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -44.2,
+        -14.0,
+        15.3
+      ],
+      "size_mm": [
+        20.200000000000003,
+        26.700000000000003,
+        15.750000002980233
+      ],
+      "volume_mm3": 5801.946942295993,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 1.3035056604944001e-09,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master removable rear bearing cheek",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        39.4,
+        27.8,
+        18.60001
+      ],
+      "size_mm": [
+        20.500000381469725,
+        62.24232360399999,
+        11.400010000000002
+      ],
+      "volume_mm3": 2750.191441897905,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bolt guide left",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        64.4,
+        -14.0,
+        -112.7
+      ],
+      "size_mm": [
+        20.200000000000003,
+        26.700000000000003,
+        15.650000001490113
+      ],
+      "volume_mm3": 5740.044941723739,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 2.4766608468253048e-08,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bolt guide right",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -44.2,
+        -14.0,
+        153.3
+      ],
+      "size_mm": [
+        20.200000000000003,
+        26.700000000000003,
+        15.750000002980244
+      ],
+      "volume_mm3": 5801.946942309162,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 2.0305702479086868e-13,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave removable rear bearing cheek",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        39.4,
+        -110.2,
+        18.60001
+      ],
+      "size_mm": [
+        20.500000381469725,
+        62.24232360399999,
+        11.400010000000002
+      ],
+      "volume_mm3": 2750.1909709310276,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate -24",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        5.0,
+        -5.200000002980232,
+        25.6
+      ],
+      "size_mm": [
+        42.8,
+        35.09999999701978,
+        10.100000000000001
+      ],
+      "volume_mm3": 2253.473164497526,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate 34",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        6.5,
+        -5.200000002980232,
+        -32.4
+      ],
+      "size_mm": [
+        44.3,
+        35.09999999701978,
+        10.100000000000001
+      ],
+      "volume_mm3": 2420.9666065768356,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate -30",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        21.0,
+        -5.200000002980232,
+        31.6
+      ],
+      "size_mm": [
+        82.8,
+        35.09999999701978,
+        10.100000000000001
+      ],
+      "volume_mm3": 2813.388764347628,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate 22",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        21.0,
+        8.656406462192535,
+        -20.4
+      ],
+      "size_mm": [
+        58.8,
+        48.95640646219255,
+        10.100000000000001
+      ],
+      "volume_mm3": 5589.546070443207,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate -50",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        5.0,
+        -5.200000002980232,
+        51.6
+      ],
+      "size_mm": [
+        42.8,
+        35.09999999701978,
+        10.100000000000001
+      ],
+      "volume_mm3": 2026.5086551407258,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate -38",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        61.8,
+        -5.200000002980232,
+        -36.4
+      ],
+      "size_mm": [
+        66.8,
+        35.09999999701978,
+        10.100000000000001
+      ],
+      "volume_mm3": 3219.5298307858484,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate -68",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -11.0,
+        -5.200000002980232,
+        69.6
+      ],
+      "size_mm": [
+        26.799999999999997,
+        35.09999999701978,
+        10.099999999999994
+      ],
+      "volume_mm3": 1847.9733675732289,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate 10",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -11.0,
+        -5.200000002980232,
+        -8.4
+      ],
+      "size_mm": [
+        26.799999999999997,
+        35.09999999701978,
+        10.1
+      ],
+      "volume_mm3": 1847.9733675732286,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate 46",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -3.0,
+        -5.200000002980232,
+        -44.4
+      ],
+      "size_mm": [
+        34.8,
+        35.09999999701978,
+        10.100000000000001
+      ],
+      "volume_mm3": 2518.2008650950334,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master bearing plate 38",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -19.0,
+        8.656406462192535,
+        -36.4
+      ],
+      "size_mm": [
+        42.8,
+        48.95640646219255,
+        10.100000000000001
+      ],
+      "volume_mm3": 2313.3623082679846,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bearing plate 112",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        5.0,
+        -5.200000002980232,
+        -110.4
+      ],
+      "size_mm": [
+        42.8,
+        35.09999999701978,
+        10.099999999999994
+      ],
+      "volume_mm3": 3058.440352742374,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bearing plate 164",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        21.0,
+        -5.200000002980232,
+        -162.4
+      ],
+      "size_mm": [
+        58.8,
+        35.09999999701978,
+        10.099999999999994
+      ],
+      "volume_mm3": 3305.1053695763753,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bearing plate 60.8",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        61.8,
+        0.29999999701976776,
+        62.4
+      ],
+      "size_mm": [
+        82.8,
+        40.59999999701978,
+        10.100000000000001
+      ],
+      "volume_mm3": 4136.239769147739,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bearing plate 64.2",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        5.0,
+        -5.200000002980232,
+        -62.6
+      ],
+      "size_mm": [
+        42.8,
+        35.09999999701978,
+        10.100000000000001
+      ],
+      "volume_mm3": 2026.5086553035617,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bearing plate 81.8",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        5.0,
+        -5.200000002980232,
+        -80.2
+      ],
+      "size_mm": [
+        42.8,
+        35.09999999701978,
+        10.099999999999994
+      ],
+      "volume_mm3": 2026.508655243275,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bearing plate 182",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -3.0,
+        8.656406462192535,
+        -180.4
+      ],
+      "size_mm": [
+        34.8,
+        48.95640646219255,
+        10.099999999999994
+      ],
+      "volume_mm3": 3469.323566798988,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave bearing plate 158",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -19.0,
+        8.656406462192535,
+        -156.4
+      ],
+      "size_mm": [
+        42.8,
+        48.95640646219255,
+        10.099999999999994
+      ],
+      "volume_mm3": 2313.362308267979,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "master cassette chassis",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        78.0,
+        71.8,
+        48.5
+      ],
+      "size_mm": [
+        142.0,
+        124.8,
+        10.700000000000003
+      ],
+      "volume_mm3": 41800.2288242074,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    },
+    {
+      "part": "slave cassette chassis",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        78.0,
+        -53.4,
+        48.5
+      ],
+      "size_mm": [
+        142.0,
+        136.79999999999998,
+        10.700000000000003
+      ],
+      "volume_mm3": 42145.234254362345,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true
+    }
+  ],
+  "new_parts_print_pass": true,
+  "slicer_validated": false,
+  "physically_validated": false
+}

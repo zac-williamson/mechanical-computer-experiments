@@ -1,0 +1,794 @@
+{
+  "source_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
+  "bearing_schedule": [
+    {
+      "owner": "master",
+      "shaft": "output",
+      "parts": [
+        "master output left 3L",
+        "master output right 6L"
+      ],
+      "axis": "X",
+      "station": -24,
+      "y": 10.2,
+      "z": 0,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "upper supply",
+      "parts": [
+        "master upper supply axle"
+      ],
+      "axis": "X",
+      "station": -24,
+      "y": 24.056406460551017,
+      "z": -8,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "output",
+      "parts": [
+        "master output left 3L",
+        "master output right 6L"
+      ],
+      "axis": "X",
+      "station": 34,
+      "y": 10.2,
+      "z": 0,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "worm",
+      "parts": [
+        "master_gate worm drive 10L"
+      ],
+      "axis": "X",
+      "station": -30,
+      "y": 10.2,
+      "z": 16,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "worm",
+      "parts": [
+        "master_gate worm drive 10L"
+      ],
+      "axis": "X",
+      "station": 22,
+      "y": 10.2,
+      "z": 16,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "power port",
+      "parts": [
+        "master power port axle"
+      ],
+      "axis": "X",
+      "station": 22,
+      "y": -3.6564064605510183,
+      "z": -24,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "data idler",
+      "parts": [
+        "Master gate data stub 3L"
+      ],
+      "axis": "X",
+      "station": -50,
+      "y": 10.2,
+      "z": 0,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "data idler",
+      "parts": [
+        "Master gate data stub 3L"
+      ],
+      "axis": "X",
+      "station": -38,
+      "y": 10.2,
+      "z": 0,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "data port",
+      "parts": [
+        "master data port axle"
+      ],
+      "axis": "X",
+      "station": -38,
+      "y": 10.2,
+      "z": -16,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "data port",
+      "parts": [
+        "master data port axle"
+      ],
+      "axis": "X",
+      "station": -68,
+      "y": 10.2,
+      "z": -16,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "lower supply",
+      "parts": [
+        "master lower supply axle"
+      ],
+      "axis": "X",
+      "station": 10,
+      "y": 10.2,
+      "z": -16,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "lower supply",
+      "parts": [
+        "master lower supply axle"
+      ],
+      "axis": "X",
+      "station": 46,
+      "y": 10.2,
+      "z": -16,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "upper supply",
+      "parts": [
+        "master upper supply axle"
+      ],
+      "axis": "X",
+      "station": 46,
+      "y": 24.056406460551017,
+      "z": -8,
+      "land": 3.2
+    },
+    {
+      "owner": "master",
+      "shaft": "power port",
+      "parts": [
+        "master power port axle"
+      ],
+      "axis": "X",
+      "station": 38,
+      "y": -3.6564064605510183,
+      "z": -24,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "output",
+      "parts": [
+        "slave output left 4L",
+        "slave output right 7L"
+      ],
+      "axis": "X",
+      "station": 112,
+      "y": 10.2,
+      "z": 0,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "lower supply",
+      "parts": [
+        "slave lower supply axle"
+      ],
+      "axis": "X",
+      "station": 112,
+      "y": 10.2,
+      "z": -16,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "upper supply",
+      "parts": [
+        "slave upper supply axle"
+      ],
+      "axis": "X",
+      "station": 112,
+      "y": 24.056406460551017,
+      "z": -8,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "output",
+      "parts": [
+        "slave output left 4L",
+        "slave output right 7L"
+      ],
+      "axis": "X",
+      "station": 164,
+      "y": 10.2,
+      "z": 0,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "worm",
+      "parts": [
+        "slave_gate left clutch stub 4L",
+        "slave_gate worm drive 10L"
+      ],
+      "axis": "X",
+      "station": 164,
+      "y": 10.2,
+      "z": 16,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "worm",
+      "parts": [
+        "slave_gate left clutch stub 4L",
+        "slave_gate worm drive 10L"
+      ],
+      "axis": "X",
+      "station": 60.8,
+      "y": 10.2,
+      "z": 16,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "data port",
+      "parts": [
+        "slave data port axle"
+      ],
+      "axis": "X",
+      "station": 64.2,
+      "y": 10.2,
+      "z": 0,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "data port",
+      "parts": [
+        "slave data port axle"
+      ],
+      "axis": "X",
+      "station": 81.8,
+      "y": 10.2,
+      "z": 0,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "lower supply",
+      "parts": [
+        "slave lower supply axle"
+      ],
+      "axis": "X",
+      "station": 182,
+      "y": 10.2,
+      "z": -16,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "upper supply",
+      "parts": [
+        "slave upper supply axle"
+      ],
+      "axis": "X",
+      "station": 182,
+      "y": 24.056406460551017,
+      "z": -8,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "power port",
+      "parts": [
+        "slave power port axle"
+      ],
+      "axis": "X",
+      "station": 182,
+      "y": -3.6564064605510183,
+      "z": -24,
+      "land": 3.2
+    },
+    {
+      "owner": "slave",
+      "shaft": "power port",
+      "parts": [
+        "slave power port axle"
+      ],
+      "axis": "X",
+      "station": 158,
+      "y": -3.6564064605510183,
+      "z": -24,
+      "land": 3.2
+    }
+  ],
+  "print_orientations": {
+    "master timing guide -30.6": [
+      0,
+      -1
+    ],
+    "master timing guide 34": [
+      0,
+      1
+    ],
+    "slave timing guide 107.4": [
+      0,
+      -1
+    ],
+    "slave timing guide 172": [
+      0,
+      1
+    ],
+    "master flat cam plate": [
+      1,
+      -1
+    ],
+    "master fork drive plate": [
+      1,
+      -1
+    ],
+    "master timing rear frame": [
+      1,
+      1
+    ],
+    "slave flat cam plate": [
+      1,
+      -1
+    ],
+    "slave fork drive plate": [
+      1,
+      -1
+    ],
+    "slave timing rear frame": [
+      1,
+      1
+    ],
+    "Removable timing connection": [
+      1,
+      -1
+    ],
+    "master Right carriage bearing support": [
+      0,
+      -1
+    ],
+    "slave Right carriage bearing support": [
+      0,
+      -1
+    ],
+    "master bolt guide left": [
+      0,
+      1
+    ],
+    "master bolt guide right": [
+      0,
+      -1
+    ],
+    "master removable rear bearing cheek": [
+      1,
+      -1
+    ],
+    "slave bolt guide left": [
+      0,
+      1
+    ],
+    "slave bolt guide right": [
+      0,
+      -1
+    ],
+    "slave removable rear bearing cheek": [
+      1,
+      -1
+    ],
+    "master bearing plate -24": [
+      0,
+      1
+    ],
+    "master bearing plate 34": [
+      0,
+      1
+    ],
+    "master bearing plate -30": [
+      0,
+      1
+    ],
+    "master bearing plate 22": [
+      0,
+      1
+    ],
+    "master bearing plate -50": [
+      0,
+      1
+    ],
+    "master bearing plate -38": [
+      0,
+      -1
+    ],
+    "master bearing plate -68": [
+      0,
+      1
+    ],
+    "master bearing plate 10": [
+      0,
+      1
+    ],
+    "master bearing plate 46": [
+      0,
+      1
+    ],
+    "master bearing plate 38": [
+      0,
+      1
+    ],
+    "slave bearing plate 112": [
+      0,
+      1
+    ],
+    "slave bearing plate 164": [
+      0,
+      1
+    ],
+    "slave bearing plate 60.8": [
+      0,
+      -1
+    ],
+    "slave bearing plate 64.2": [
+      0,
+      1
+    ],
+    "slave bearing plate 81.8": [
+      0,
+      1
+    ],
+    "slave bearing plate 182": [
+      0,
+      1
+    ],
+    "slave bearing plate 158": [
+      0,
+      1
+    ],
+    "master cassette chassis": [
+      1,
+      -1
+    ],
+    "slave cassette chassis": [
+      1,
+      -1
+    ]
+  },
+  "mounts": {
+    "master": [
+      [
+        -22.0,
+        38.0,
+        30.0
+      ],
+      [
+        -10.0,
+        38.0,
+        30.0
+      ],
+      [
+        -6.8,
+        38.0,
+        0.0
+      ],
+      [
+        6.8,
+        38.0,
+        0.0
+      ],
+      [
+        -20.5,
+        40.5,
+        49.0
+      ],
+      [
+        -20.5,
+        40.5,
+        59.0
+      ],
+      [
+        10.5,
+        40.5,
+        49.0
+      ],
+      [
+        10.5,
+        40.5,
+        59.0
+      ],
+      [
+        -13.5,
+        40.5,
+        39.8
+      ],
+      [
+        3.5,
+        40.5,
+        39.8
+      ],
+      [
+        -32.8,
+        40.5,
+        60.0
+      ],
+      [
+        -32.8,
+        40.5,
+        72.0
+      ],
+      [
+        36.199999999999996,
+        40.5,
+        60.0
+      ],
+      [
+        36.199999999999996,
+        40.5,
+        72.0
+      ],
+      [
+        -21.8,
+        40.5,
+        -34.0
+      ],
+      [
+        -21.8,
+        40.5,
+        -22.0
+      ],
+      [
+        36.2,
+        40.5,
+        -34.0
+      ],
+      [
+        36.2,
+        40.5,
+        -22.0
+      ],
+      [
+        -27.8,
+        40.5,
+        -58.0
+      ],
+      [
+        -27.8,
+        40.5,
+        -46.0
+      ],
+      [
+        24.2,
+        40.5,
+        -34.0
+      ],
+      [
+        24.2,
+        40.5,
+        -22.0
+      ],
+      [
+        -47.8,
+        40.5,
+        -34.0
+      ],
+      [
+        -47.8,
+        40.5,
+        -22.0
+      ],
+      [
+        -40.2,
+        40.5,
+        -58.0
+      ],
+      [
+        -40.2,
+        40.5,
+        -46.0
+      ],
+      [
+        -65.8,
+        40.5,
+        -34.0
+      ],
+      [
+        -65.8,
+        40.5,
+        -22.0
+      ],
+      [
+        12.2,
+        40.5,
+        -34.0
+      ],
+      [
+        12.2,
+        40.5,
+        -22.0
+      ],
+      [
+        48.2,
+        40.5,
+        -34.0
+      ],
+      [
+        48.2,
+        40.5,
+        -22.0
+      ],
+      [
+        40.2,
+        40.5,
+        -58.0
+      ],
+      [
+        40.2,
+        40.5,
+        -46.0
+      ]
+    ],
+    "slave": [
+      [
+        106.0,
+        38.0,
+        40.0
+      ],
+      [
+        128.0,
+        38.0,
+        30.0
+      ],
+      [
+        131.2,
+        38.0,
+        0.0
+      ],
+      [
+        144.8,
+        38.0,
+        0.0
+      ],
+      [
+        117.5,
+        40.5,
+        49.0
+      ],
+      [
+        117.5,
+        40.5,
+        59.0
+      ],
+      [
+        148.5,
+        40.5,
+        49.0
+      ],
+      [
+        148.5,
+        40.5,
+        59.0
+      ],
+      [
+        124.5,
+        40.5,
+        39.8
+      ],
+      [
+        141.5,
+        40.5,
+        39.8
+      ],
+      [
+        105.2,
+        40.5,
+        60.0
+      ],
+      [
+        105.2,
+        40.5,
+        72.0
+      ],
+      [
+        174.20000000000002,
+        40.5,
+        60.0
+      ],
+      [
+        174.20000000000002,
+        40.5,
+        72.0
+      ],
+      [
+        114.2,
+        40.5,
+        -34.0
+      ],
+      [
+        114.2,
+        40.5,
+        -22.0
+      ],
+      [
+        166.2,
+        40.5,
+        -34.0
+      ],
+      [
+        166.2,
+        40.5,
+        -22.0
+      ],
+      [
+        58.599999999999994,
+        40.5,
+        -58.0
+      ],
+      [
+        58.599999999999994,
+        40.5,
+        -46.0
+      ],
+      [
+        66.4,
+        40.5,
+        -34.0
+      ],
+      [
+        66.4,
+        40.5,
+        -22.0
+      ],
+      [
+        84.0,
+        40.5,
+        -34.0
+      ],
+      [
+        84.0,
+        40.5,
+        -22.0
+      ],
+      [
+        184.2,
+        40.5,
+        -34.0
+      ],
+      [
+        184.2,
+        40.5,
+        -22.0
+      ],
+      [
+        160.2,
+        40.5,
+        -58.0
+      ],
+      [
+        160.2,
+        40.5,
+        -46.0
+      ]
+    ]
+  },
+  "state": "development; interfaces and validation pending"
+}

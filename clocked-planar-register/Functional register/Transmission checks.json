@@ -1,0 +1,214 @@
+{
+  "geometry_sha256": "796a3f4dd198cb55c2f2f24f2e0f1cced2d46f6fcbbc41793d1d904bf2815219",
+  "parts_sha256": "5f43eeec6bc9ddaa4fab602171ba70fb4e061e5d4771594433786029d2bca3c9",
+  "meshes": [
+    {
+      "a": "master L072",
+      "b": "master lower clutch supply",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 16.000000025620444,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 0.0,
+      "fixed_phase_a_deg": 0.0,
+      "fixed_phase_b_deg": 1.25,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "master L102",
+      "b": "master upper clutch supply",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.99999321228543,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 2.0816681711721685e-17,
+      "fixed_phase_a_deg": 15.75,
+      "fixed_phase_b_deg": 2.5,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "master_gate L102",
+      "b": "master_gate B-input",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.999999673776243,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 0.0,
+      "fixed_phase_a_deg": 0.0,
+      "fixed_phase_b_deg": 1.125,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "master_gate B-input",
+      "b": "Selected data route 16T",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 16.000000268868686,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 2.42861286636753e-17,
+      "fixed_phase_a_deg": 1.125,
+      "fixed_phase_b_deg": 17.375,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "master inverter lower",
+      "b": "master inverter upper",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.999999999999998,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 3.469446951953614e-18,
+      "fixed_phase_a_deg": 1.25,
+      "fixed_phase_b_deg": 2.5,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "master inverter lower",
+      "b": "master power input gear",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.999999999999998,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 3.469446951953614e-18,
+      "fixed_phase_a_deg": 1.25,
+      "fixed_phase_b_deg": 2.5,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "slave L072",
+      "b": "slave upper clutch supply",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.999999716771278,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 6.938893903907228e-18,
+      "fixed_phase_a_deg": 6.25,
+      "fixed_phase_b_deg": 2.5,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "slave L102",
+      "b": "slave lower clutch supply",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.99999255680629,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 3.469446951953614e-18,
+      "fixed_phase_a_deg": 9.5,
+      "fixed_phase_b_deg": 1.25,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "slave_gate L102",
+      "b": "slave data port gear",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.999999673776243,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 3.469446951953614e-18,
+      "fixed_phase_a_deg": 0.0,
+      "fixed_phase_b_deg": 1.125,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "slave inverter lower",
+      "b": "slave inverter upper",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.999999999999998,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 3.469446951953614e-18,
+      "fixed_phase_a_deg": 1.25,
+      "fixed_phase_b_deg": 2.5,
+      "max_projected_tooth_overlap_mm2": 0.0
+    },
+    {
+      "a": "slave inverter lower",
+      "b": "slave power input gear",
+      "teeth": [
+        16,
+        16
+      ],
+      "centre_distance_mm": 15.999999999999998,
+      "ratio": -1.0,
+      "max_velocity_error_rad": 3.469446951953614e-18,
+      "fixed_phase_a_deg": 1.25,
+      "fixed_phase_b_deg": 2.5,
+      "max_projected_tooth_overlap_mm2": 0.0
+    }
+  ],
+  "expected_meshes": [
+    [
+      "master L072",
+      "master lower clutch supply"
+    ],
+    [
+      "master L102",
+      "master upper clutch supply"
+    ],
+    [
+      "master inverter lower",
+      "master inverter upper"
+    ],
+    [
+      "master inverter lower",
+      "master power input gear"
+    ],
+    [
+      "slave L072",
+      "slave upper clutch supply"
+    ],
+    [
+      "slave L102",
+      "slave lower clutch supply"
+    ],
+    [
+      "slave inverter lower",
+      "slave inverter upper"
+    ],
+    [
+      "slave inverter lower",
+      "slave power input gear"
+    ],
+    [
+      "Selected data route 16T",
+      "master_gate B-input"
+    ],
+    [
+      "master_gate B-input",
+      "master_gate L102"
+    ],
+    [
+      "slave data port gear",
+      "slave_gate L102"
+    ]
+  ],
+  "topology_pass": true,
+  "unit_magnitude_pass": true,
+  "rotation_identity_pass": true,
+  "fixed_external_phase_pass": true,
+  "limits": [
+    "External tooth profiles and speed identities only; inherited clutch/lock contact traces do not prove new loaded dynamics.",
+    "Steady-state RPM magnitude; reversal and dog-clutch transitions necessarily include transients."
+  ]
+}

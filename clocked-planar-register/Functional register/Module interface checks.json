@@ -1,0 +1,77 @@
+{
+  "geometry_sha256": "796a3f4dd198cb55c2f2f24f2e0f1cced2d46f6fcbbc41793d1d904bf2815219",
+  "parts_sha256": "5f43eeec6bc9ddaa4fab602171ba70fb4e061e5d4771594433786029d2bca3c9",
+  "ports": [
+    {
+      "coupling": "M interstage coupling",
+      "shaft_left": "master output right 6L",
+      "shaft_right": "slave data port axle",
+      "axis": "X",
+      "centre_mm": [
+        53.2,
+        10.2,
+        0.0
+      ],
+      "sleeve_overlap_each_mm": [
+        7.0,
+        7.0
+      ],
+      "shaft_end_gap_mm": 2.0,
+      "centre_error_mm": 0.0,
+      "keyed_phase_error_deg": 0.0,
+      "max_velocity_error_rad": 6.938893903907228e-18,
+      "pass_check": true
+    },
+    {
+      "coupling": "POWER coupling 49",
+      "shaft_left": "master power port axle",
+      "shaft_right": "POWER connection shaft",
+      "axis": "X",
+      "centre_mm": [
+        49.0,
+        -3.6564064605510183,
+        -24.0
+      ],
+      "sleeve_overlap_each_mm": [
+        7.0,
+        7.0
+      ],
+      "shaft_end_gap_mm": 2.0,
+      "centre_error_mm": 0.0,
+      "keyed_phase_error_deg": 0.0,
+      "max_velocity_error_rad": 0.0,
+      "pass_check": true
+    },
+    {
+      "coupling": "POWER coupling 147",
+      "shaft_left": "POWER connection shaft",
+      "shaft_right": "slave power port axle",
+      "axis": "X",
+      "centre_mm": [
+        147.0,
+        -3.6564064605510183,
+        -24.0
+      ],
+      "sleeve_overlap_each_mm": [
+        7.0,
+        7.0
+      ],
+      "shaft_end_gap_mm": 2.0,
+      "centre_error_mm": 0.0,
+      "keyed_phase_error_deg": 0.0,
+      "max_velocity_error_rad": 0.0,
+      "pass_check": true
+    }
+  ],
+  "port_pass": true,
+  "assembly_sequence": [
+    "Keep both complete cartridges separate along X. Set their timing plates to matching positions.",
+    "Fit the M coupling and the two POWER couplings/bridge while moving the slave toward the master along -X. Internal bearings and shafts stay installed.",
+    "Seat both horizontal chassis pins, then press the front timing strap onto the four terminal pins already installed in the latch cartridges.",
+    "For separation, remove the timing strap and draw the complete slave along +X to disengage the couplings and frame pins."
+  ],
+  "limits": [
+    "Nominal CAD centres, phase and engagement checks; not a tolerance stack, insertion-force or retention-force measurement.",
+    "WRITE/feedback and shared-controller connections remain unfinished."
+  ]
+}

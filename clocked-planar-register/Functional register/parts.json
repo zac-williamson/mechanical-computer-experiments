@@ -1,0 +1,9326 @@
+[
+  {
+    "id": "master Short lever",
+    "kind": "printed",
+    "color": [
+      0.48,
+      0.55,
+      0.47
+    ],
+    "module": "bit",
+    "vertices": 8580,
+    "bounds": [
+      [
+        2.1563000679016113,
+        6.0,
+        24.194000244140625
+      ],
+      [
+        25.39229965209961,
+        14.399999618530273,
+        38.72710037231445
+      ]
+    ],
+    "source": "master Short lever",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "rocker",
+    "lego_part": null,
+    "baseline_id": "master Short lever",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 0
+  },
+  {
+    "id": "master Carriage fork and roof",
+    "kind": "printed",
+    "color": [
+      0.09,
+      0.55,
+      0.61
+    ],
+    "module": "bit",
+    "vertices": 16044,
+    "bounds": [
+      [
+        -15.600000381469727,
+        1.5499999523162842,
+        -0.30000001192092896
+      ],
+      [
+        26.59950065612793,
+        32.5,
+        45.29949951171875
+      ]
+    ],
+    "source": "master Carriage fork and roof",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "carriage",
+    "lego_part": null,
+    "baseline_id": "master Carriage fork and roof",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 25740
+  },
+  {
+    "id": "master Right carriage bearing support",
+    "kind": "printed",
+    "color": [
+      0.09,
+      0.55,
+      0.61
+    ],
+    "module": "bit",
+    "vertices": 7746,
+    "bounds": [
+      [
+        8.0,
+        4.699999809265137,
+        -0.30000001192092896
+      ],
+      [
+        15.600000381469727,
+        32.5,
+        23.299999237060547
+      ]
+    ],
+    "source": "master Right carriage bearing support",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "carriage",
+    "lego_part": null,
+    "baseline_id": "master Right carriage bearing support",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 73872
+  },
+  {
+    "id": "master U015",
+    "kind": "native",
+    "color": [
+      0.5843137254901961,
+      0.403921568627451,
+      0.6392156862745098
+    ],
+    "module": "bit",
+    "vertices": 4890,
+    "bounds": [
+      [
+        -7.855200290679932,
+        5.205280768245688,
+        10.999928791861407
+      ],
+      [
+        7.855200290679932,
+        15.18725637715884,
+        20.964809099110386
+      ]
+    ],
+    "source": "master U015",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "worm",
+    "lego_part": null,
+    "baseline_id": "master U015",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 97110
+  },
+  {
+    "id": "master U022",
+    "kind": "native",
+    "color": [
+      0.3333333333333333,
+      0.3607843137254902,
+      0.3686274509803922
+    ],
+    "module": "bit",
+    "vertices": 1536,
+    "bounds": [
+      [
+        -4.90484083067593,
+        6.199999999999999,
+        19.095158883087144
+      ],
+      [
+        4.904840824023434,
+        14.200000000000001,
+        28.904841021777735
+      ]
+    ],
+    "source": "master U022",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "gear",
+    "lego_part": null,
+    "baseline_id": "master U022",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 111780
+  },
+  {
+    "id": "master reaction-stop-axle",
+    "kind": "native",
+    "color": [
+      0.3137254901960784,
+      0.3411764705882353,
+      0.3333333333333333
+    ],
+    "module": "bit",
+    "vertices": 504,
+    "bounds": [
+      [
+        -3.15774625760009,
+        -4.200000000000001,
+        20.84225374239991
+      ],
+      [
+        3.157746257600092,
+        19.6,
+        27.15774625760009
+      ]
+    ],
+    "source": "master reaction-stop-axle",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "gear",
+    "lego_part": "24316",
+    "baseline_id": "master reaction-stop-axle",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 116388
+  },
+  {
+    "id": "master reaction-retainer",
+    "kind": "native",
+    "color": [
+      0.3137254901960784,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        -3.552464850442126,
+        -2.3999998092651382,
+        20.447535479785937
+      ],
+      [
+        3.5524649063766898,
+        1.6000001907348622,
+        27.55246417486373
+      ]
+    ],
+    "source": "master reaction-retainer",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "gear",
+    "lego_part": "32123a",
+    "baseline_id": "master reaction-retainer",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 117900
+  },
+  {
+    "id": "master pivot-stop-axle",
+    "kind": "native",
+    "color": [
+      0.3137254901960784,
+      0.3411764705882353,
+      0.3333333333333333
+    ],
+    "module": "bit",
+    "vertices": 504,
+    "bounds": [
+      [
+        9.992323603988666,
+        -4.200000000000002,
+        28.92844869819761
+      ],
+      [
+        16.392323603988665,
+        19.6,
+        35.32844869819761
+      ]
+    ],
+    "source": "master pivot-stop-axle",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "fixed",
+    "lego_part": "24316",
+    "baseline_id": "master pivot-stop-axle",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 122076
+  },
+  {
+    "id": "master pivot-retainer",
+    "kind": "native",
+    "color": [
+      0.3137254901960784,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        9.59232326204353,
+        -2.3999998092651387,
+        28.528448565789656
+      ],
+      [
+        16.79232402498296,
+        1.6000001907348622,
+        35.72844837505477
+      ]
+    ],
+    "source": "master pivot-retainer",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "fixed",
+    "lego_part": "32123a",
+    "baseline_id": "master pivot-retainer",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 123588
+  },
+  {
+    "id": "master Carriage support pin 1 2.0",
+    "kind": "native",
+    "color": [
+      0.3333333333333333,
+      0.3607843137254902,
+      0.3686274509803922
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        0.1999999999999993,
+        20.879599571228027,
+        2.0997875213623045
+      ],
+      [
+        16.2,
+        27.120399475097656,
+        8.500212478637696
+      ]
+    ],
+    "source": "master Carriage support pin 1 2.0",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "carriage",
+    "lego_part": "2780",
+    "local_pin_shift_z": 1.8,
+    "baseline_id": "master Carriage support pin 1 2.0",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 127764
+  },
+  {
+    "id": "master Carriage support pin 1 18.0",
+    "kind": "native",
+    "color": [
+      0.3333333333333333,
+      0.3607843137254902,
+      0.3686274509803922
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        0.1999999999999993,
+        20.82959957122803,
+        16.299787521362305
+      ],
+      [
+        16.2,
+        27.07039947509766,
+        22.700212478637695
+      ]
+    ],
+    "source": "master Carriage support pin 1 18.0",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "carriage",
+    "lego_part": "2780",
+    "baseline_id": "master Carriage support pin 1 18.0",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 141300
+  },
+  {
+    "id": "master L072",
+    "kind": "native",
+    "color": [
+      0.21176470588235294,
+      0.5215686274509804,
+      0.7058823529411765
+    ],
+    "module": "bit",
+    "vertices": 3792,
+    "bounds": [
+      [
+        11.999996185302734,
+        1.5472364578681093,
+        -8.65276355672749
+      ],
+      [
+        19.999996185302734,
+        18.852764225804542,
+        8.652763607968371
+      ]
+    ],
+    "source": "master L072",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "A",
+    "lego_part": null,
+    "baseline_id": "master L072",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 154836
+  },
+  {
+    "id": "master L097",
+    "kind": "native",
+    "color": [
+      0.3254901960784314,
+      0.6039215686274509,
+      0.43137254901960786
+    ],
+    "module": "bit",
+    "vertices": 1824,
+    "bounds": [
+      [
+        -12.000007629394531,
+        6.710400104522705,
+        -3.4895999431610107
+      ],
+      [
+        12.000007629394531,
+        13.689599990844727,
+        3.4895999431610107
+      ]
+    ],
+    "source": "master L097",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "O-route",
+    "lego_part": "26287",
+    "baseline_id": "master L097",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 166212
+  },
+  {
+    "id": "master L099",
+    "kind": "native",
+    "color": [
+      0.7764705882352941,
+      0.27450980392156865,
+      0.22745098039215686
+    ],
+    "module": "bit",
+    "vertices": 3006,
+    "bounds": [
+      [
+        -11.199999809265137,
+        2.999999761581421,
+        -7.200000286102295
+      ],
+      [
+        11.199999809265137,
+        17.399999618530273,
+        7.200000286102295
+      ]
+    ],
+    "source": "master L099",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "clutch-ring",
+    "lego_part": null,
+    "baseline_id": "master L099",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 171684
+  },
+  {
+    "id": "master L102",
+    "kind": "native",
+    "color": [
+      0.8627450980392157,
+      0.5529411764705883,
+      0.17647058823529413
+    ],
+    "module": "bit",
+    "vertices": 3792,
+    "bounds": [
+      [
+        -20.0,
+        1.4811632216932886,
+        -8.718847432750959
+      ],
+      [
+        -12.0,
+        18.918843859203385,
+        8.718832546362759
+      ]
+    ],
+    "source": "master L102",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "B",
+    "lego_part": null,
+    "baseline_id": "master L102",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 180702
+  },
+  {
+    "id": "master L069",
+    "kind": "native",
+    "color": [
+      0.3254901960784314,
+      0.6039215686274509,
+      0.43137254901960786
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        19.999996185302734,
+        6.59999990463257,
+        -3.600000143051147
+      ],
+      [
+        23.999996185302734,
+        13.800000190734862,
+        3.600000143051147
+      ]
+    ],
+    "source": "master L069",
+    "source_centre": [
+      0,
+      0,
+      0
+    ],
+    "target_centre": [
+      0,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "O-route",
+    "lego_part": null,
+    "baseline_id": "master L069",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 192078
+  },
+  {
+    "id": "master output left 3L",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 192,
+    "bounds": [
+      [
+        -28.2,
+        7.799999904632568,
+        -2.4000000953674316
+      ],
+      [
+        -4.199999999999999,
+        12.600000095367431,
+        2.4000000953674316
+      ]
+    ],
+    "lego_part": "4519",
+    "centre": [
+      -16.2,
+      10.2,
+      0
+    ],
+    "axis": 0,
+    "key_phase_deg": 0.0,
+    "baseline_id": "master output left 3L",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 196254
+  },
+  {
+    "id": "master output right 6L",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 192,
+    "bounds": [
+      [
+        4.199999999999999,
+        7.799999904632568,
+        -2.4000000953674316
+      ],
+      [
+        52.2,
+        12.600000095367431,
+        2.4000000953674316
+      ]
+    ],
+    "lego_part": "3706",
+    "centre": [
+      28.2,
+      10.2,
+      0
+    ],
+    "axis": 0,
+    "key_phase_deg": 0.0,
+    "baseline_id": "master output right 6L",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 196830
+  },
+  {
+    "id": "master_gate L097",
+    "kind": "native",
+    "color": [
+      0.3254901960784314,
+      0.6039215686274509,
+      0.43137254901960786
+    ],
+    "module": "bit",
+    "vertices": 1824,
+    "bounds": [
+      [
+        -72.00000762939455,
+        6.558260088503319,
+        12.358260069862128
+      ],
+      [
+        -47.99999237060548,
+        13.841739994945122,
+        19.641739745473664
+      ]
+    ],
+    "source": "master_gate L097",
+    "source_centre": [
+      -85,
+      0,
+      16
+    ],
+    "target_centre": [
+      -60,
+      0,
+      16
+    ],
+    "flipped": false,
+    "motion": "O-route",
+    "lego_part": "26287",
+    "baseline_id": "master_gate L097",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 197406
+  },
+  {
+    "id": "master_gate L099",
+    "kind": "native",
+    "color": [
+      0.7764705882352941,
+      0.27450980392156865,
+      0.22745098039215686
+    ],
+    "module": "bit",
+    "vertices": 3006,
+    "bounds": [
+      [
+        -77.19999980926515,
+        3.045424220146132,
+        8.845424086089809
+      ],
+      [
+        -54.80000019073488,
+        17.35457523743899,
+        23.15457596007625
+      ]
+    ],
+    "source": "master_gate L099",
+    "source_centre": [
+      -85,
+      0,
+      16
+    ],
+    "target_centre": [
+      -66,
+      0,
+      16
+    ],
+    "flipped": false,
+    "motion": "clutch-ring",
+    "lego_part": null,
+    "baseline_id": "master_gate L099",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 202878
+  },
+  {
+    "id": "master_gate L102",
+    "kind": "native",
+    "color": [
+      0.8627450980392157,
+      0.5529411764705883,
+      0.17647058823529413
+    ],
+    "module": "bit",
+    "vertices": 3792,
+    "bounds": [
+      [
+        -48.00000381469728,
+        1.482609694446397,
+        7.282609663308399
+      ],
+      [
+        -40.00000381469728,
+        18.91739107865866,
+        24.717390221981443
+      ]
+    ],
+    "source": "master_gate L102",
+    "source_centre": [
+      -85,
+      0,
+      16
+    ],
+    "target_centre": [
+      -60,
+      0,
+      16
+    ],
+    "flipped": false,
+    "motion": "B",
+    "lego_part": null,
+    "baseline_id": "master_gate L102",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 211896
+  },
+  {
+    "id": "master_gate B-input",
+    "kind": "native",
+    "color": [
+      0.8627450980392157,
+      0.5529411764705883,
+      0.17647058823529413
+    ],
+    "module": "bit",
+    "vertices": 3120,
+    "bounds": [
+      [
+        -48.000000000000014,
+        1.5560114997619583,
+        -8.643988076814452
+      ],
+      [
+        -40.000000000000014,
+        18.843988452794527,
+        8.643988614551821
+      ]
+    ],
+    "source": "master_gate B-input",
+    "source_centre": [
+      -85,
+      0,
+      16
+    ],
+    "target_centre": [
+      -60,
+      0,
+      16
+    ],
+    "flipped": false,
+    "motion": "B",
+    "lego_part": "94925",
+    "baseline_id": "master_gate B-input",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 223272
+  },
+  {
+    "id": "master_gate worm drive 10L",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 192,
+    "bounds": [
+      [
+        -55.8,
+        7.85198536841769,
+        13.65198536841769
+      ],
+      [
+        24.2,
+        12.548014631582308,
+        18.34801463158231
+      ]
+    ],
+    "lego_part": "3737",
+    "centre": [
+      -15.8,
+      10.2,
+      16
+    ],
+    "axis": 0,
+    "key_phase_deg": 28.95261702488068,
+    "baseline_id": "master_gate worm drive 10L",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 232632
+  },
+  {
+    "id": "master lock bolt",
+    "kind": "printed",
+    "color": [
+      0.8,
+      0.64,
+      0.18
+    ],
+    "module": "bit",
+    "vertices": 2712,
+    "bounds": [
+      [
+        -11.050000190734863,
+        18.0,
+        42.099998474121094
+      ],
+      [
+        0.949999988079071,
+        38.9,
+        60.4
+      ]
+    ],
+    "motion": "bolt",
+    "bank": "master",
+    "baseline_id": "master lock bolt",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 233208
+  },
+  {
+    "id": "master roller axle",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 768,
+    "bounds": [
+      [
+        -7.4500000953674315,
+        13.600000000000001,
+        50.899999904632566
+      ],
+      [
+        -2.649999904632568,
+        29.6,
+        55.70000009536743
+      ]
+    ],
+    "lego_part": "32062",
+    "centre": [
+      -5.05,
+      21.6,
+      53.3
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "baseline_id": "master roller axle",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 241344
+  },
+  {
+    "id": "master roller bush 15.6",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        -8.650000143051148,
+        13.6,
+        49.69999985694885
+      ],
+      [
+        -1.4499998569488524,
+        17.6,
+        56.900000143051145
+      ]
+    ],
+    "lego_part": "32123a",
+    "centre": [
+      -5.05,
+      15.6,
+      53.3
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "baseline_id": "master roller bush 15.6",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 243648
+  },
+  {
+    "id": "master roller bush 27.6",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        -8.650000143051148,
+        25.6,
+        49.69999985694885
+      ],
+      [
+        -1.4499998569488524,
+        29.6,
+        56.900000143051145
+      ]
+    ],
+    "lego_part": "32123a",
+    "centre": [
+      -5.05,
+      27.6,
+      53.3
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "baseline_id": "master roller bush 27.6",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 247824
+  },
+  {
+    "id": "master return band",
+    "kind": "elastic",
+    "color": [
+      0.48,
+      0.2,
+      0.52
+    ],
+    "module": "bit",
+    "vertices": 7056,
+    "bounds": [
+      [
+        -7.65,
+        36.4,
+        47.4
+      ],
+      [
+        -2.4499999999999997,
+        37.699999999999996,
+        60.6
+      ]
+    ],
+    "motion": "elastic",
+    "bank": "master",
+    "baseline_id": "master return band",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 252000
+  },
+  {
+    "id": "master_gate Carriage fork and roof",
+    "kind": "printed",
+    "color": [
+      0.72,
+      0.4,
+      0.19
+    ],
+    "module": "bit",
+    "vertices": 8778,
+    "bounds": [
+      [
+        -75.60000038146973,
+        1.5499999523162842,
+        5.300000000000001
+      ],
+      [
+        -52.19999980926514,
+        28.0,
+        24.2
+      ]
+    ],
+    "motion": "gate-fork",
+    "bank": "master_gate",
+    "baseline_id": "master_gate Carriage fork and roof",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 273168
+  },
+  {
+    "id": "master_gate fork bias band -10",
+    "kind": "elastic",
+    "color": [
+      0.48,
+      0.2,
+      0.52
+    ],
+    "module": "bit",
+    "vertices": 1200,
+    "bounds": [
+      [
+        -74.1,
+        19.15,
+        5.699999999999999
+      ],
+      [
+        -63.4,
+        19.95,
+        9.9
+      ]
+    ],
+    "motion": "fork-band",
+    "bank": "master_gate",
+    "fork_x": -10,
+    "baseline_id": "master_gate fork bias band -10",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 299502
+  },
+  {
+    "id": "master_gate crosshead pin -10 13.2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -73.1204001903534,
+        20.0,
+        9.999787521362304
+      ],
+      [
+        -66.8795998096466,
+        36.0,
+        16.400212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -70,
+      28,
+      13.2
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "motion": "gate-fork",
+    "bank": "master_gate",
+    "baseline_id": "master_gate crosshead pin -10 13.2",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 303102
+  },
+  {
+    "id": "master_gate Right carriage bearing support",
+    "kind": "printed",
+    "color": [
+      0.72,
+      0.4,
+      0.19
+    ],
+    "module": "bit",
+    "vertices": 4524,
+    "bounds": [
+      [
+        -52.0,
+        14.633012963238238,
+        9.4
+      ],
+      [
+        -44.2,
+        28.0,
+        24.2
+      ]
+    ],
+    "motion": "gate-fork",
+    "bank": "master_gate",
+    "baseline_id": "master_gate Right carriage bearing support",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 316638
+  },
+  {
+    "id": "master_gate crosshead pin 12 13.2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -51.120400190353394,
+        20.0,
+        9.999787521362304
+      ],
+      [
+        -44.879599809646606,
+        36.0,
+        16.400212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -48,
+      28,
+      13.2
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "motion": "gate-fork",
+    "bank": "master_gate",
+    "baseline_id": "master_gate crosshead pin 12 13.2",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 330210
+  },
+  {
+    "id": "master_gate fork joining pin",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -59.8,
+        20.879599809646606,
+        16.299787521362305
+      ],
+      [
+        -43.8,
+        27.120400190353394,
+        22.700212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -51.8,
+      24,
+      19.5
+    ],
+    "axis": 0,
+    "key_phase_deg": 0.0,
+    "motion": "gate-fork",
+    "bank": "master_gate",
+    "baseline_id": "master_gate fork joining pin",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 343746
+  },
+  {
+    "id": "master actuator return band",
+    "kind": "elastic",
+    "color": [
+      0.48,
+      0.2,
+      0.52
+    ],
+    "module": "bit",
+    "vertices": 1200,
+    "bounds": [
+      [
+        18.994200209147102,
+        9.6,
+        25.930325303147104
+      ],
+      [
+        34.390446998852894,
+        10.8,
+        33.82657209285289
+      ]
+    ],
+    "motion": "actuator-band",
+    "bank": "master",
+    "baseline_id": "master actuator return band",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 357282
+  },
+  {
+    "id": "master Front bearing cheek",
+    "kind": "printed",
+    "color": [
+      0.3,
+      0.49,
+      0.47
+    ],
+    "module": "bit",
+    "vertices": 8562,
+    "bounds": [
+      [
+        -27.8,
+        1.7999999523162842,
+        18.899999618530273
+      ],
+      [
+        22.0,
+        9.6,
+        39.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 360882
+  },
+  {
+    "id": "master cheek joining pin 28.4",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 6432,
+    "bounds": [
+      [
+        -27.120400190353394,
+        1.8000000000000007,
+        25.199787521362303
+      ],
+      [
+        -20.879599809646606,
+        25.8,
+        31.600212478637694
+      ]
+    ],
+    "lego_part": "6558",
+    "centre": [
+      -24.0,
+      13.8,
+      28.4
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 386568
+  },
+  {
+    "id": "master cheek joining pin 35.6",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 6432,
+    "bounds": [
+      [
+        -27.120400190353394,
+        1.8000000000000007,
+        32.399787521362306
+      ],
+      [
+        -20.879599809646606,
+        25.8,
+        38.8002124786377
+      ]
+    ],
+    "lego_part": "6558",
+    "centre": [
+      -24.0,
+      13.8,
+      35.6
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 405864
+  },
+  {
+    "id": "master removable rear bearing cheek",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 12102,
+    "bounds": [
+      [
+        -27.8,
+        7.2,
+        18.899999618530273
+      ],
+      [
+        34.442323603999995,
+        18.60001,
+        39.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 425160
+  },
+  {
+    "id": "master rail and backing cartridge",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 2016,
+    "bounds": [
+      [
+        -20.0,
+        17.05,
+        -4.8
+      ],
+      [
+        20.0,
+        38.2,
+        15.900000000000002
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 461466
+  },
+  {
+    "id": "master bolt guide left",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 2010,
+    "bounds": [
+      [
+        -25.3,
+        14.0,
+        44.2
+      ],
+      [
+        -9.649999998509884,
+        40.7,
+        64.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 467514
+  },
+  {
+    "id": "master bolt guide right",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 1962,
+    "bounds": [
+      [
+        -0.45000000298023224,
+        14.0,
+        44.2
+      ],
+      [
+        15.3,
+        40.7,
+        64.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 473544
+  },
+  {
+    "id": "master replaceable band anchor",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 4572,
+    "bounds": [
+      [
+        -18.3,
+        33.0,
+        35.0
+      ],
+      [
+        8.3,
+        40.7,
+        52.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 479430
+  },
+  {
+    "id": "master rail and backing cartridge mounting pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -9.920400190353394,
+        30.0,
+        -3.2002124786376953
+      ],
+      [
+        -3.6795998096466063,
+        46.0,
+        3.2002124786376953
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -6.8,
+      38,
+      0
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 493146
+  },
+  {
+    "id": "master rail and backing cartridge mounting pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        3.6795998096466063,
+        30.0,
+        -3.2002124786376953
+      ],
+      [
+        9.920400190353394,
+        46.0,
+        3.2002124786376953
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      6.8,
+      38,
+      0
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 506682
+  },
+  {
+    "id": "master bolt guide left mounting pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -23.620400190353394,
+        32.5,
+        45.799787521362305
+      ],
+      [
+        -17.379599809646606,
+        48.5,
+        52.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -20.5,
+      40.5,
+      49
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 520218
+  },
+  {
+    "id": "master bolt guide left mounting pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -23.620400190353394,
+        32.5,
+        55.799787521362305
+      ],
+      [
+        -17.379599809646606,
+        48.5,
+        62.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -20.5,
+      40.5,
+      59
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 533754
+  },
+  {
+    "id": "master bolt guide right mounting pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        7.3795998096466064,
+        32.5,
+        45.799787521362305
+      ],
+      [
+        13.620400190353394,
+        48.5,
+        52.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      10.5,
+      40.5,
+      49
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 547290
+  },
+  {
+    "id": "master bolt guide right mounting pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        7.3795998096466064,
+        32.5,
+        55.799787521362305
+      ],
+      [
+        13.620400190353394,
+        48.5,
+        62.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      10.5,
+      40.5,
+      59
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 560826
+  },
+  {
+    "id": "master replaceable band anchor mounting pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -16.620400190353394,
+        32.5,
+        36.5997875213623
+      ],
+      [
+        -10.379599809646606,
+        48.5,
+        43.00021247863769
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -13.5,
+      40.5,
+      39.8
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 574362
+  },
+  {
+    "id": "master replaceable band anchor mounting pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        0.37959980964660645,
+        32.5,
+        36.5997875213623
+      ],
+      [
+        6.6204001903533936,
+        48.5,
+        43.00021247863769
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      3.5,
+      40.5,
+      39.8
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 587898
+  },
+  {
+    "id": "Master worm retainer gear",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1560,
+    "bounds": [
+      [
+        -39.8,
+        6.622712089210955,
+        12.422712089210956
+      ],
+      [
+        -31.799999999999997,
+        13.777287910789044,
+        19.577287910789046
+      ]
+    ],
+    "lego_part": "3713",
+    "centre": [
+      -35.8,
+      10.2,
+      16
+    ],
+    "axis": 0,
+    "key_phase_deg": 28.95261702488068,
+    "motion": "shaft-retainer",
+    "drive_group": "master worm",
+    "baseline_id": "Master worm retainer gear",
+    "placement_shift": [
+      0,
+      0,
+      0
+    ],
+    "owner": "master",
+    "offset": 601434
+  },
+  {
+    "id": "Master gate data stub 3L",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 192,
+    "bounds": [
+      [
+        -55.8,
+        7.799999904632568,
+        -2.4000000953674316
+      ],
+      [
+        -31.799999999999997,
+        12.600000095367431,
+        2.4000000953674316
+      ]
+    ],
+    "lego_part": "4519",
+    "centre": [
+      -43.8,
+      10.2,
+      0
+    ],
+    "axis": 0,
+    "drive": "-X",
+    "motion": "fixed",
+    "phase_deg": 1.125,
+    "owner": "master",
+    "offset": 606114
+  },
+  {
+    "id": "Master worm axial stop -26.2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        -28.2,
+        6.599999856948852,
+        12.399999856948853
+      ],
+      [
+        -24.2,
+        13.800000143051147,
+        19.600000143051147
+      ]
+    ],
+    "lego_part": "4265c",
+    "centre": [
+      -26.2,
+      10.2,
+      16.0
+    ],
+    "axis": 0,
+    "drive": null,
+    "motion": "fixed",
+    "baseline_id": "master_gate worm drive 10L",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 606690
+  },
+  {
+    "id": "M output axial stop 37.8",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        35.8,
+        6.599999856948852,
+        -3.6000001430511475
+      ],
+      [
+        39.8,
+        13.800000143051147,
+        3.6000001430511475
+      ]
+    ],
+    "lego_part": "4265c",
+    "centre": [
+      37.8,
+      10.2,
+      0.0
+    ],
+    "axis": 0,
+    "drive": null,
+    "motion": "fixed",
+    "baseline_id": "master output left 3L",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "master",
+    "offset": 610866
+  },
+  {
+    "id": "Master data stub axial stop -53.8",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        -55.8,
+        6.599999856948852,
+        -3.6000001430511475
+      ],
+      [
+        -51.8,
+        13.800000143051147,
+        3.6000001430511475
+      ]
+    ],
+    "lego_part": "4265c",
+    "centre": [
+      -53.8,
+      10.2,
+      0.0
+    ],
+    "axis": 0,
+    "drive": "-X",
+    "motion": "fixed",
+    "phase_deg": 1.125,
+    "owner": "master",
+    "offset": 615042
+  },
+  {
+    "id": "Master data stub axial stop -34.2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        -36.2,
+        6.599999856948852,
+        -3.6000001430511475
+      ],
+      [
+        -32.2,
+        13.800000143051147,
+        3.6000001430511475
+      ]
+    ],
+    "lego_part": "4265c",
+    "centre": [
+      -34.2,
+      10.2,
+      0.0
+    ],
+    "axis": 0,
+    "drive": "-X",
+    "motion": "fixed",
+    "phase_deg": 1.125,
+    "owner": "master",
+    "offset": 619218
+  },
+  {
+    "id": "master cheek carrier",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 4770,
+    "bounds": [
+      [
+        -28.2,
+        19.0,
+        24.2
+      ],
+      [
+        -5.199999999999999,
+        38.2,
+        43.0
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 623394
+  },
+  {
+    "id": "bit frame 0 fixture 4 pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -25.120400190353394,
+        30.0,
+        26.799787521362305
+      ],
+      [
+        -18.879599809646606,
+        46.0,
+        33.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -22.0,
+      38.0,
+      30.0
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 637704
+  },
+  {
+    "id": "bit frame 0 fixture 4 pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        -13.120400190353394,
+        30.0,
+        26.799787521362305
+      ],
+      [
+        -6.8795998096466064,
+        46.0,
+        33.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      -10.0,
+      38.0,
+      30.0
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "master",
+    "offset": 651240
+  },
+  {
+    "id": "master lower clutch supply",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      16,
+      10.2,
+      -16
+    ],
+    "drive": "-POWER",
+    "motion": "fixed",
+    "phase_deg": 1.25,
+    "offset": 664776,
+    "vertices": 3120,
+    "bounds": [
+      [
+        12.0,
+        1.5363199234008782,
+        -24.66368007659912
+      ],
+      [
+        20.0,
+        18.86368007659912,
+        -7.336319923400879
+      ]
+    ]
+  },
+  {
+    "id": "master upper clutch supply",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      -16,
+      24.056406460551017,
+      -8
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 674136,
+    "vertices": 3120,
+    "bounds": [
+      [
+        -20.0,
+        15.392726383951896,
+        -16.66368007659912
+      ],
+      [
+        -12.0,
+        32.72008653715014,
+        0.6636800765991211
+      ]
+    ]
+  },
+  {
+    "id": "master inverter lower",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      32,
+      10.2,
+      -16
+    ],
+    "drive": "-POWER",
+    "motion": "fixed",
+    "phase_deg": 1.25,
+    "offset": 683496,
+    "vertices": 3120,
+    "bounds": [
+      [
+        28.0,
+        1.5363199234008782,
+        -24.66368007659912
+      ],
+      [
+        36.0,
+        18.86368007659912,
+        -7.336319923400879
+      ]
+    ]
+  },
+  {
+    "id": "master inverter upper",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      32,
+      24.056406460551017,
+      -8
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 692856,
+    "vertices": 3120,
+    "bounds": [
+      [
+        28.0,
+        15.392726383951896,
+        -16.66368007659912
+      ],
+      [
+        36.0,
+        32.72008653715014,
+        0.6636800765991211
+      ]
+    ]
+  },
+  {
+    "id": "master power input gear",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      32,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 702216,
+    "vertices": 3120,
+    "bounds": [
+      [
+        28.0,
+        -12.32008653715014,
+        -32.66368007659912
+      ],
+      [
+        36.0,
+        5.007273616048103,
+        -15.336319923400879
+      ]
+    ]
+  },
+  {
+    "id": "master lower supply axle",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "3706",
+    "axis": 0,
+    "centre": [
+      28,
+      10.2,
+      -16
+    ],
+    "drive": "-POWER",
+    "motion": "fixed",
+    "phase_deg": 1.25,
+    "offset": 711576,
+    "vertices": 192,
+    "bounds": [
+      [
+        4.0,
+        7.799999904632568,
+        -18.40000009536743
+      ],
+      [
+        52.0,
+        12.600000095367431,
+        -13.599999904632568
+      ]
+    ]
+  },
+  {
+    "id": "master upper supply axle",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "3737",
+    "axis": 0,
+    "centre": [
+      12,
+      24.056406460551017,
+      -8
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 712152,
+    "vertices": 192,
+    "bounds": [
+      [
+        -28.0,
+        21.656406365183585,
+        -10.400000095367432
+      ],
+      [
+        52.0,
+        26.45640655591845,
+        -5.599999904632568
+      ]
+    ]
+  },
+  {
+    "id": "master power port axle",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "3705",
+    "axis": 0,
+    "centre": [
+      32,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 712728,
+    "vertices": 192,
+    "bounds": [
+      [
+        16.0,
+        -6.05640655591845,
+        -26.40000009536743
+      ],
+      [
+        48.0,
+        -1.2564063651835866,
+        -21.59999990463257
+      ]
+    ]
+  },
+  {
+    "id": "master data port axle",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "44294",
+    "axis": 0,
+    "centre": [
+      -59.8,
+      10.2,
+      -16
+    ],
+    "drive": "X",
+    "motion": "fixed",
+    "phase_deg": 17.375,
+    "offset": 713304,
+    "vertices": 192,
+    "bounds": [
+      [
+        -87.8,
+        7.799999904632568,
+        -18.40000009536743
+      ],
+      [
+        -31.799999999999997,
+        12.600000095367431,
+        -13.599999904632568
+      ]
+    ]
+  },
+  {
+    "id": "Selected data route 16T",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 3120,
+    "bounds": [
+      [
+        -48.0,
+        1.5363199234008782,
+        -24.66368007659912
+      ],
+      [
+        -40.0,
+        18.86368007659912,
+        -7.336319923400879
+      ]
+    ],
+    "lego_part": "94925",
+    "centre": [
+      -44,
+      10.2,
+      -16
+    ],
+    "axis": 0,
+    "key_phase_deg": 0.0,
+    "baseline_id": "Selected data route 16T",
+    "placement_shift": [
+      0,
+      0,
+      0
+    ],
+    "owner": "master",
+    "offset": 713880
+  },
+  {
+    "id": "master output inboard stop",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      30.2,
+      10.2,
+      0
+    ],
+    "drive": "M",
+    "motion": "fixed",
+    "phase_deg": 1.125,
+    "offset": 723240,
+    "vertices": 1392,
+    "bounds": [
+      [
+        28.2,
+        6.599999856948852,
+        -3.6000001430511475
+      ],
+      [
+        32.2,
+        13.800000143051147,
+        3.6000001430511475
+      ]
+    ]
+  },
+  {
+    "id": "master timing guide -30.6 pin 60",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -32.8,
+      40.5,
+      60
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 727416,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -35.92040019035339,
+        32.5,
+        56.799787521362305
+      ],
+      [
+        -29.679599809646604,
+        48.5,
+        63.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "master timing guide -30.6 pin 72",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -32.8,
+      40.5,
+      72
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 740952,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -35.92040019035339,
+        32.5,
+        68.7997875213623
+      ],
+      [
+        -29.679599809646604,
+        48.5,
+        75.2002124786377
+      ]
+    ]
+  },
+  {
+    "id": "master timing guide -30.6",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 754488,
+    "vertices": 1536,
+    "bounds": [
+      [
+        -39.1,
+        22.2,
+        42.4
+      ],
+      [
+        -29.0,
+        40.3,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "master timing guide 34 pin 60",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      36.199999999999996,
+      40.5,
+      60
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 759096,
+    "vertices": 4512,
+    "bounds": [
+      [
+        33.0795998096466,
+        32.5,
+        56.799787521362305
+      ],
+      [
+        39.32040019035339,
+        48.5,
+        63.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "master timing guide 34 pin 72",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      36.199999999999996,
+      40.5,
+      72
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 772632,
+    "vertices": 4512,
+    "bounds": [
+      [
+        33.0795998096466,
+        32.5,
+        68.7997875213623
+      ],
+      [
+        39.32040019035339,
+        48.5,
+        75.2002124786377
+      ]
+    ]
+  },
+  {
+    "id": "master timing guide 34",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 786168,
+    "vertices": 1530,
+    "bounds": [
+      [
+        32.4,
+        22.2,
+        42.4
+      ],
+      [
+        42.5,
+        40.3,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "slave Short lever",
+    "kind": "printed",
+    "color": [
+      0.48,
+      0.55,
+      0.47
+    ],
+    "module": "bit",
+    "vertices": 8580,
+    "bounds": [
+      [
+        140.1562957763672,
+        6.0,
+        24.194000244140625
+      ],
+      [
+        163.39230346679688,
+        14.399999618530273,
+        38.72710037231445
+      ]
+    ],
+    "source": "slave Short lever",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "rocker",
+    "lego_part": null,
+    "baseline_id": "slave Short lever",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 790758
+  },
+  {
+    "id": "slave Carriage fork and roof",
+    "kind": "printed",
+    "color": [
+      0.09,
+      0.55,
+      0.61
+    ],
+    "module": "bit",
+    "vertices": 15828,
+    "bounds": [
+      [
+        122.39999389648438,
+        1.5499999523162842,
+        -0.30000001192092896
+      ],
+      [
+        164.59950256347656,
+        32.5,
+        45.29949951171875
+      ]
+    ],
+    "source": "slave Carriage fork and roof",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "carriage",
+    "lego_part": null,
+    "baseline_id": "slave Carriage fork and roof",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 816498
+  },
+  {
+    "id": "slave Right carriage bearing support",
+    "kind": "printed",
+    "color": [
+      0.09,
+      0.55,
+      0.61
+    ],
+    "module": "bit",
+    "vertices": 7926,
+    "bounds": [
+      [
+        146.0,
+        4.699999809265137,
+        0.37666762213516664
+      ],
+      [
+        153.60000610351562,
+        32.5,
+        23.299999237060547
+      ]
+    ],
+    "source": "slave Right carriage bearing support",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "carriage",
+    "lego_part": null,
+    "baseline_id": "slave Right carriage bearing support",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 863982
+  },
+  {
+    "id": "slave U015",
+    "kind": "native",
+    "color": [
+      0.5843137254901961,
+      0.403921568627451,
+      0.6392156862745098
+    ],
+    "module": "bit",
+    "vertices": 4890,
+    "bounds": [
+      [
+        130.14479970932007,
+        5.205280768245688,
+        10.999928791861407
+      ],
+      [
+        145.85520029067993,
+        15.18725637715884,
+        20.964809099110386
+      ]
+    ],
+    "source": "slave U015",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "worm",
+    "lego_part": null,
+    "baseline_id": "slave U015",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 887760
+  },
+  {
+    "id": "slave U022",
+    "kind": "native",
+    "color": [
+      0.3333333333333333,
+      0.3607843137254902,
+      0.3686274509803922
+    ],
+    "module": "bit",
+    "vertices": 1536,
+    "bounds": [
+      [
+        133.09515916932406,
+        6.199999999999999,
+        19.095158883087144
+      ],
+      [
+        142.90484082402344,
+        14.200000000000001,
+        28.904841021777735
+      ]
+    ],
+    "source": "slave U022",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "gear",
+    "lego_part": null,
+    "baseline_id": "slave U022",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 902430
+  },
+  {
+    "id": "slave reaction-stop-axle",
+    "kind": "native",
+    "color": [
+      0.3137254901960784,
+      0.3411764705882353,
+      0.3333333333333333
+    ],
+    "module": "bit",
+    "vertices": 504,
+    "bounds": [
+      [
+        134.84225374239992,
+        -4.200000000000001,
+        20.84225374239991
+      ],
+      [
+        141.15774625760008,
+        19.6,
+        27.15774625760009
+      ]
+    ],
+    "source": "slave reaction-stop-axle",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "gear",
+    "lego_part": "24316",
+    "baseline_id": "slave reaction-stop-axle",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 907038
+  },
+  {
+    "id": "slave reaction-retainer",
+    "kind": "native",
+    "color": [
+      0.3137254901960784,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        134.44753514955786,
+        -2.3999998092651382,
+        20.447535479785937
+      ],
+      [
+        141.55246490637668,
+        1.6000001907348622,
+        27.55246417486373
+      ]
+    ],
+    "source": "slave reaction-retainer",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "gear",
+    "lego_part": "32123a",
+    "baseline_id": "slave reaction-retainer",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 908550
+  },
+  {
+    "id": "slave pivot-stop-axle",
+    "kind": "native",
+    "color": [
+      0.3137254901960784,
+      0.3411764705882353,
+      0.3333333333333333
+    ],
+    "module": "bit",
+    "vertices": 504,
+    "bounds": [
+      [
+        147.99232360398867,
+        -4.200000000000002,
+        28.92844869819761
+      ],
+      [
+        154.39232360398867,
+        19.6,
+        35.32844869819761
+      ]
+    ],
+    "source": "slave pivot-stop-axle",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "fixed",
+    "lego_part": "24316",
+    "baseline_id": "slave pivot-stop-axle",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 912726
+  },
+  {
+    "id": "slave pivot-retainer",
+    "kind": "native",
+    "color": [
+      0.3137254901960784,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        147.59232326204352,
+        -2.3999998092651387,
+        28.528448565789656
+      ],
+      [
+        154.79232402498297,
+        1.6000001907348622,
+        35.72844837505477
+      ]
+    ],
+    "source": "slave pivot-retainer",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "fixed",
+    "lego_part": "32123a",
+    "baseline_id": "slave pivot-retainer",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 914238
+  },
+  {
+    "id": "slave Carriage support pin 1 2.0",
+    "kind": "native",
+    "color": [
+      0.3333333333333333,
+      0.3607843137254902,
+      0.3686274509803922
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        138.2,
+        20.879599571228027,
+        2.0997875213623045
+      ],
+      [
+        154.2,
+        27.120399475097656,
+        8.500212478637696
+      ]
+    ],
+    "source": "slave Carriage support pin 1 2.0",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "carriage",
+    "lego_part": "2780",
+    "local_pin_shift_z": 1.8,
+    "baseline_id": "slave Carriage support pin 1 2.0",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 918414
+  },
+  {
+    "id": "slave Carriage support pin 1 18.0",
+    "kind": "native",
+    "color": [
+      0.3333333333333333,
+      0.3607843137254902,
+      0.3686274509803922
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        138.2,
+        20.82959957122803,
+        16.299787521362305
+      ],
+      [
+        154.2,
+        27.07039947509766,
+        22.700212478637695
+      ]
+    ],
+    "source": "slave Carriage support pin 1 18.0",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "carriage",
+    "lego_part": "2780",
+    "baseline_id": "slave Carriage support pin 1 18.0",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 931950
+  },
+  {
+    "id": "slave L072",
+    "kind": "native",
+    "color": [
+      0.21176470588235294,
+      0.5215686274509804,
+      0.7058823529411765
+    ],
+    "module": "bit",
+    "vertices": 3792,
+    "bounds": [
+      [
+        149.99999618530273,
+        1.5472364578681093,
+        -8.65276355672749
+      ],
+      [
+        157.99999618530273,
+        18.852764225804542,
+        8.652763607968371
+      ]
+    ],
+    "source": "slave L072",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "A",
+    "lego_part": null,
+    "baseline_id": "slave L072",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 945486
+  },
+  {
+    "id": "slave L097",
+    "kind": "native",
+    "color": [
+      0.3254901960784314,
+      0.6039215686274509,
+      0.43137254901960786
+    ],
+    "module": "bit",
+    "vertices": 1824,
+    "bounds": [
+      [
+        125.99999237060547,
+        6.710400104522705,
+        -3.4895999431610107
+      ],
+      [
+        150.00000762939453,
+        13.689599990844727,
+        3.4895999431610107
+      ]
+    ],
+    "source": "slave L097",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "O-route",
+    "lego_part": "26287",
+    "baseline_id": "slave L097",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 956862
+  },
+  {
+    "id": "slave L099",
+    "kind": "native",
+    "color": [
+      0.7764705882352941,
+      0.27450980392156865,
+      0.22745098039215686
+    ],
+    "module": "bit",
+    "vertices": 3006,
+    "bounds": [
+      [
+        126.80000019073486,
+        2.999999761581421,
+        -7.200000286102295
+      ],
+      [
+        149.19999980926514,
+        17.399999618530273,
+        7.200000286102295
+      ]
+    ],
+    "source": "slave L099",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "clutch-ring",
+    "lego_part": null,
+    "baseline_id": "slave L099",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 962334
+  },
+  {
+    "id": "slave L102",
+    "kind": "native",
+    "color": [
+      0.8627450980392157,
+      0.5529411764705883,
+      0.17647058823529413
+    ],
+    "module": "bit",
+    "vertices": 3792,
+    "bounds": [
+      [
+        118.0,
+        1.4811632216932886,
+        -8.718847432750959
+      ],
+      [
+        126.0,
+        18.918843859203385,
+        8.718832546362759
+      ]
+    ],
+    "source": "slave L102",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "B",
+    "lego_part": null,
+    "baseline_id": "slave L102",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 971352
+  },
+  {
+    "id": "slave L069",
+    "kind": "native",
+    "color": [
+      0.3254901960784314,
+      0.6039215686274509,
+      0.43137254901960786
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        157.99999618530273,
+        6.59999990463257,
+        -3.600000143051147
+      ],
+      [
+        161.99999618530273,
+        13.800000190734862,
+        3.600000143051147
+      ]
+    ],
+    "source": "slave L069",
+    "source_centre": [
+      160,
+      0,
+      0
+    ],
+    "target_centre": [
+      106,
+      0,
+      0
+    ],
+    "flipped": false,
+    "motion": "O-route",
+    "lego_part": null,
+    "baseline_id": "slave L069",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 982728
+  },
+  {
+    "id": "slave output right 7L",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 192,
+    "bounds": [
+      [
+        142.2,
+        7.799999904632568,
+        -2.4000000953674316
+      ],
+      [
+        198.2,
+        12.600000095367431,
+        2.4000000953674316
+      ]
+    ],
+    "lego_part": "44294",
+    "centre": [
+      138.2,
+      10.2,
+      0
+    ],
+    "axis": 0,
+    "key_phase_deg": 0.0,
+    "baseline_id": "slave output right 7L",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 986904
+  },
+  {
+    "id": "slave_gate L097",
+    "kind": "native",
+    "color": [
+      0.3254901960784314,
+      0.6039215686274509,
+      0.43137254901960786
+    ],
+    "module": "bit",
+    "vertices": 1824,
+    "bounds": [
+      [
+        79.99999237060545,
+        6.558260088503319,
+        12.358260069862128
+      ],
+      [
+        104.00000762939452,
+        13.841739994945122,
+        19.641739745473664
+      ]
+    ],
+    "source": "slave_gate L097",
+    "source_centre": [
+      75,
+      0,
+      16
+    ],
+    "target_centre": [
+      60,
+      0,
+      16
+    ],
+    "flipped": false,
+    "motion": "O-route",
+    "lego_part": "26287",
+    "baseline_id": "slave_gate L097",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 987480
+  },
+  {
+    "id": "slave_gate L099",
+    "kind": "native",
+    "color": [
+      0.7764705882352941,
+      0.27450980392156865,
+      0.22745098039215686
+    ],
+    "module": "bit",
+    "vertices": 3006,
+    "bounds": [
+      [
+        86.80000019073485,
+        3.045424220146132,
+        8.845424086089809
+      ],
+      [
+        109.19999980926512,
+        17.35457523743899,
+        23.15457596007625
+      ]
+    ],
+    "source": "slave_gate L099",
+    "source_centre": [
+      75,
+      0,
+      16
+    ],
+    "target_centre": [
+      66,
+      0,
+      16
+    ],
+    "flipped": false,
+    "motion": "clutch-ring",
+    "lego_part": null,
+    "baseline_id": "slave_gate L099",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 992952
+  },
+  {
+    "id": "slave_gate L102",
+    "kind": "native",
+    "color": [
+      0.8627450980392157,
+      0.5529411764705883,
+      0.17647058823529413
+    ],
+    "module": "bit",
+    "vertices": 3792,
+    "bounds": [
+      [
+        71.99999618530272,
+        1.482609694446397,
+        7.282609663308399
+      ],
+      [
+        79.99999618530272,
+        18.91739107865866,
+        24.717390221981443
+      ]
+    ],
+    "source": "slave_gate L102",
+    "source_centre": [
+      75,
+      0,
+      16
+    ],
+    "target_centre": [
+      28,
+      0,
+      16
+    ],
+    "flipped": false,
+    "motion": "B",
+    "lego_part": null,
+    "baseline_id": "slave_gate L102",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1001970
+  },
+  {
+    "id": "slave lock bolt",
+    "kind": "printed",
+    "color": [
+      0.8,
+      0.64,
+      0.18
+    ],
+    "module": "bit",
+    "vertices": 2712,
+    "bounds": [
+      [
+        126.94999980926514,
+        18.0,
+        42.099998474121094
+      ],
+      [
+        138.94999998807907,
+        38.9,
+        60.4
+      ]
+    ],
+    "motion": "bolt",
+    "bank": "slave",
+    "baseline_id": "slave lock bolt",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1013346
+  },
+  {
+    "id": "slave roller axle",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 768,
+    "bounds": [
+      [
+        130.54999990463256,
+        13.600000000000001,
+        50.899999904632566
+      ],
+      [
+        135.35000009536742,
+        29.6,
+        55.70000009536743
+      ]
+    ],
+    "lego_part": "32062",
+    "centre": [
+      100.95,
+      21.6,
+      53.3
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "baseline_id": "slave roller axle",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1021482
+  },
+  {
+    "id": "slave roller bush 15.6",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        129.34999985694884,
+        13.6,
+        49.69999985694885
+      ],
+      [
+        136.55000014305114,
+        17.6,
+        56.900000143051145
+      ]
+    ],
+    "lego_part": "32123a",
+    "centre": [
+      100.95,
+      15.6,
+      53.3
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "baseline_id": "slave roller bush 15.6",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1023786
+  },
+  {
+    "id": "slave roller bush 27.6",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        129.34999985694884,
+        25.6,
+        49.69999985694885
+      ],
+      [
+        136.55000014305114,
+        29.6,
+        56.900000143051145
+      ]
+    ],
+    "lego_part": "32123a",
+    "centre": [
+      100.95,
+      27.6,
+      53.3
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "baseline_id": "slave roller bush 27.6",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1027962
+  },
+  {
+    "id": "slave return band",
+    "kind": "elastic",
+    "color": [
+      0.48,
+      0.2,
+      0.52
+    ],
+    "module": "bit",
+    "vertices": 7056,
+    "bounds": [
+      [
+        130.35,
+        36.4,
+        47.4
+      ],
+      [
+        135.55,
+        37.699999999999996,
+        60.6
+      ]
+    ],
+    "motion": "elastic",
+    "bank": "slave",
+    "baseline_id": "slave return band",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1032138
+  },
+  {
+    "id": "slave_gate Carriage fork and roof",
+    "kind": "printed",
+    "color": [
+      0.72,
+      0.4,
+      0.19
+    ],
+    "module": "bit",
+    "vertices": 8778,
+    "bounds": [
+      [
+        76.39999961853027,
+        1.5499999523162842,
+        5.300000000000001
+      ],
+      [
+        105.30000019073486,
+        28.0,
+        24.2
+      ]
+    ],
+    "motion": "gate-fork",
+    "bank": "slave_gate",
+    "baseline_id": "slave_gate Carriage fork and roof",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1053306
+  },
+  {
+    "id": "slave_gate fork bias band -10",
+    "kind": "elastic",
+    "color": [
+      0.48,
+      0.2,
+      0.52
+    ],
+    "module": "bit",
+    "vertices": 1200,
+    "bounds": [
+      [
+        71.4,
+        19.15,
+        5.699999999999999
+      ],
+      [
+        82.1,
+        19.95,
+        9.9
+      ]
+    ],
+    "motion": "fork-band",
+    "bank": "slave_gate",
+    "fork_x": -10,
+    "baseline_id": "slave_gate fork bias band -10",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1079640
+  },
+  {
+    "id": "slave_gate crosshead pin -10 13.2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        78.8795998096466,
+        20.0,
+        9.999787521362304
+      ],
+      [
+        85.1204001903534,
+        36.0,
+        16.400212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      50,
+      28,
+      13.2
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "motion": "gate-fork",
+    "bank": "slave_gate",
+    "baseline_id": "slave_gate crosshead pin -10 13.2",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1083240
+  },
+  {
+    "id": "slave_gate Right carriage bearing support",
+    "kind": "printed",
+    "color": [
+      0.72,
+      0.4,
+      0.19
+    ],
+    "module": "bit",
+    "vertices": 4614,
+    "bounds": [
+      [
+        100.0,
+        14.633012963238238,
+        9.4
+      ],
+      [
+        107.8,
+        28.0,
+        24.2
+      ]
+    ],
+    "motion": "gate-fork",
+    "bank": "slave_gate",
+    "baseline_id": "slave_gate Right carriage bearing support",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1096776
+  },
+  {
+    "id": "slave_gate crosshead pin 12 13.2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        100.8795998096466,
+        20.0,
+        9.999787521362304
+      ],
+      [
+        107.1204001903534,
+        36.0,
+        16.400212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      72,
+      28,
+      13.2
+    ],
+    "axis": 1,
+    "key_phase_deg": 0.0,
+    "motion": "gate-fork",
+    "bank": "slave_gate",
+    "baseline_id": "slave_gate crosshead pin 12 13.2",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1110618
+  },
+  {
+    "id": "slave_gate fork joining pin",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        92.2,
+        20.879599809646606,
+        16.299787521362305
+      ],
+      [
+        108.2,
+        27.120400190353394,
+        22.700212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      68.2,
+      24,
+      19.5
+    ],
+    "axis": 0,
+    "key_phase_deg": 0.0,
+    "motion": "gate-fork",
+    "bank": "slave_gate",
+    "baseline_id": "slave_gate fork joining pin",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1124154
+  },
+  {
+    "id": "slave actuator return band",
+    "kind": "elastic",
+    "color": [
+      0.48,
+      0.2,
+      0.52
+    ],
+    "module": "bit",
+    "vertices": 1200,
+    "bounds": [
+      [
+        156.9942002091471,
+        9.6,
+        25.930325303147104
+      ],
+      [
+        172.3904469988529,
+        10.8,
+        33.82657209285289
+      ]
+    ],
+    "motion": "actuator-band",
+    "bank": "slave",
+    "baseline_id": "slave actuator return band",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1137690
+  },
+  {
+    "id": "slave_gate left clutch stub 4L",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 192,
+    "bounds": [
+      [
+        56.8,
+        7.799999904632568,
+        13.599999904632568
+      ],
+      [
+        88.8,
+        12.600000095367431,
+        18.40000009536743
+      ]
+    ],
+    "lego_part": "3705",
+    "centre": [
+      40.8,
+      10.2,
+      16
+    ],
+    "axis": 0,
+    "drive": null,
+    "motion": "fixed",
+    "baseline_id": "slave_gate left clutch stub 3L stop",
+    "placement_shift": [
+      0,
+      0,
+      0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1141290
+  },
+  {
+    "id": "slave output left 4L",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 192,
+    "bounds": [
+      [
+        101.8,
+        7.799999904632568,
+        -2.4000000953674316
+      ],
+      [
+        133.8,
+        12.600000095367431,
+        2.4000000953674316
+      ]
+    ],
+    "lego_part": "3705",
+    "centre": [
+      85.8,
+      10.2,
+      0
+    ],
+    "axis": 0,
+    "drive": "Q",
+    "motion": "fixed",
+    "phase_deg": 7.5,
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1141866
+  },
+  {
+    "id": "slave_gate worm drive 10L",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 192,
+    "bounds": [
+      [
+        96.2,
+        7.799999904632568,
+        13.599999904632568
+      ],
+      [
+        176.2,
+        12.600000095367431,
+        18.40000009536743
+      ]
+    ],
+    "lego_part": "3737",
+    "centre": [
+      104.2,
+      10.2,
+      16
+    ],
+    "axis": 0,
+    "drive": null,
+    "motion": "fixed",
+    "baseline_id": "slave_gate worm drive 9L",
+    "placement_shift": [
+      0,
+      0,
+      0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1142442
+  },
+  {
+    "id": "slave Front bearing cheek",
+    "kind": "printed",
+    "color": [
+      0.3,
+      0.49,
+      0.47
+    ],
+    "module": "bit",
+    "vertices": 8556,
+    "bounds": [
+      [
+        110.2,
+        1.7999999523162842,
+        18.899999618530273
+      ],
+      [
+        160.0,
+        9.6,
+        39.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1143018
+  },
+  {
+    "id": "slave cheek joining pin 28.4",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 6432,
+    "bounds": [
+      [
+        110.8795998096466,
+        1.8000000000000007,
+        25.199787521362303
+      ],
+      [
+        117.1204001903534,
+        25.8,
+        31.600212478637694
+      ]
+    ],
+    "lego_part": "6558",
+    "centre": [
+      82.0,
+      13.8,
+      28.4
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1168686
+  },
+  {
+    "id": "slave cheek joining pin 35.6",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 6432,
+    "bounds": [
+      [
+        110.8795998096466,
+        1.8000000000000007,
+        32.399787521362306
+      ],
+      [
+        117.1204001903534,
+        25.8,
+        38.8002124786377
+      ]
+    ],
+    "lego_part": "6558",
+    "centre": [
+      82.0,
+      13.8,
+      35.6
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1187982
+  },
+  {
+    "id": "slave removable rear bearing cheek",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 12084,
+    "bounds": [
+      [
+        110.2,
+        7.2,
+        18.899999618530273
+      ],
+      [
+        172.442323604,
+        18.60001,
+        39.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1207278
+  },
+  {
+    "id": "slave rail and backing cartridge",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 2052,
+    "bounds": [
+      [
+        118.2,
+        17.05,
+        -4.8
+      ],
+      [
+        158.0,
+        38.2,
+        15.900000000000002
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1243530
+  },
+  {
+    "id": "slave bolt guide left",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 2052,
+    "bounds": [
+      [
+        112.7,
+        14.0,
+        44.2
+      ],
+      [
+        128.35000000149012,
+        40.7,
+        64.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1249686
+  },
+  {
+    "id": "slave bolt guide right",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 2100,
+    "bounds": [
+      [
+        137.54999999701977,
+        14.0,
+        44.2
+      ],
+      [
+        153.3,
+        40.7,
+        64.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1255842
+  },
+  {
+    "id": "slave replaceable band anchor",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 4404,
+    "bounds": [
+      [
+        119.7,
+        33.0,
+        35.0
+      ],
+      [
+        146.3,
+        40.7,
+        52.4
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1262142
+  },
+  {
+    "id": "slave rail and backing cartridge mounting pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        128.0795998096466,
+        30.0,
+        -3.2002124786376953
+      ],
+      [
+        134.32040019035338,
+        46.0,
+        3.2002124786376953
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      99.2,
+      38,
+      0
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1275354
+  },
+  {
+    "id": "slave rail and backing cartridge mounting pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        141.67959980964662,
+        30.0,
+        -3.2002124786376953
+      ],
+      [
+        147.9204001903534,
+        46.0,
+        3.2002124786376953
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      112.8,
+      38,
+      0
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1288890
+  },
+  {
+    "id": "slave bolt guide left mounting pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        114.3795998096466,
+        32.5,
+        45.799787521362305
+      ],
+      [
+        120.6204001903534,
+        48.5,
+        52.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      85.5,
+      40.5,
+      49
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1302426
+  },
+  {
+    "id": "slave bolt guide left mounting pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        114.3795998096466,
+        32.5,
+        55.799787521362305
+      ],
+      [
+        120.6204001903534,
+        48.5,
+        62.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      85.5,
+      40.5,
+      59
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1315962
+  },
+  {
+    "id": "slave bolt guide right mounting pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        145.3795998096466,
+        32.5,
+        45.799787521362305
+      ],
+      [
+        151.6204001903534,
+        48.5,
+        52.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      116.5,
+      40.5,
+      49
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1329498
+  },
+  {
+    "id": "slave bolt guide right mounting pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        145.3795998096466,
+        32.5,
+        55.799787521362305
+      ],
+      [
+        151.6204001903534,
+        48.5,
+        62.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      116.5,
+      40.5,
+      59
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1343034
+  },
+  {
+    "id": "slave replaceable band anchor mounting pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        121.3795998096466,
+        32.5,
+        36.5997875213623
+      ],
+      [
+        127.6204001903534,
+        48.5,
+        43.00021247863769
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      92.5,
+      40.5,
+      39.8
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1356570
+  },
+  {
+    "id": "slave replaceable band anchor mounting pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        138.3795998096466,
+        32.5,
+        36.5997875213623
+      ],
+      [
+        144.6204001903534,
+        48.5,
+        43.00021247863769
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      109.5,
+      40.5,
+      39.8
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1370106
+  },
+  {
+    "id": "Slave worm retainer gear",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1560,
+    "bounds": [
+      [
+        63.8,
+        6.622712089210955,
+        12.422712089210956
+      ],
+      [
+        71.8,
+        13.777287910789044,
+        19.577287910789046
+      ]
+    ],
+    "lego_part": "3713",
+    "centre": [
+      35.8,
+      10.2,
+      16
+    ],
+    "axis": 0,
+    "key_phase_deg": 28.95261702488068,
+    "motion": "shaft-retainer",
+    "drive_group": "slave worm",
+    "baseline_id": "Slave worm retainer gear",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1383642
+  },
+  {
+    "id": "Slave worm axial stop 128.2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        158.2,
+        6.599999856948852,
+        12.399999856948853
+      ],
+      [
+        162.2,
+        13.800000143051147,
+        19.600000143051147
+      ]
+    ],
+    "lego_part": "4265c",
+    "centre": [
+      128.2,
+      10.2,
+      16.0
+    ],
+    "axis": 0,
+    "drive": null,
+    "motion": "fixed",
+    "baseline_id": "slave_gate left clutch stub 3L stop",
+    "placement_shift": [
+      0,
+      0,
+      0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1388322
+  },
+  {
+    "id": "Slave worm axial stop 135.4",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        165.8,
+        6.599999856948852,
+        12.399999856948853
+      ],
+      [
+        169.8,
+        13.800000143051147,
+        19.600000143051147
+      ]
+    ],
+    "lego_part": "4265c",
+    "centre": [
+      135.4,
+      10.2,
+      16.0
+    ],
+    "axis": 0,
+    "drive": null,
+    "motion": "fixed",
+    "baseline_id": "slave_gate left clutch stub 3L stop",
+    "placement_shift": [
+      0,
+      0,
+      0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32.4,
+      0,
+      0
+    ],
+    "offset": 1392498
+  },
+  {
+    "id": "Q output axial stop 76.2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        106.2,
+        6.599999856948852,
+        -3.6000001430511475
+      ],
+      [
+        110.2,
+        13.800000143051147,
+        3.6000001430511475
+      ]
+    ],
+    "lego_part": "4265c",
+    "centre": [
+      76.2,
+      10.2,
+      0.0
+    ],
+    "axis": 0,
+    "drive": "Q",
+    "motion": "fixed",
+    "phase_deg": 7.5,
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1396674
+  },
+  {
+    "id": "Q output axial stop 83.8",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 1392,
+    "bounds": [
+      [
+        113.8,
+        6.599999856948852,
+        -3.6000001430511475
+      ],
+      [
+        117.8,
+        13.800000143051147,
+        3.6000001430511475
+      ]
+    ],
+    "lego_part": "4265c",
+    "centre": [
+      83.8,
+      10.2,
+      0.0
+    ],
+    "axis": 0,
+    "drive": "Q",
+    "motion": "fixed",
+    "phase_deg": 7.5,
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1400850
+  },
+  {
+    "id": "slave cheek carrier",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.65,
+      0.6
+    ],
+    "module": "bit",
+    "vertices": 5124,
+    "bounds": [
+      [
+        101.2,
+        19.0,
+        24.2
+      ],
+      [
+        132.8,
+        38.2,
+        44.8
+      ]
+    ],
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1405026
+  },
+  {
+    "id": "bit frame 1 fixture 0 pin 1",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        102.8795998096466,
+        30.0,
+        36.799787521362305
+      ],
+      [
+        109.1204001903534,
+        46.0,
+        43.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      74.0,
+      38.0,
+      40.0
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1420398
+  },
+  {
+    "id": "bit frame 1 fixture 0 pin 2",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 4512,
+    "bounds": [
+      [
+        124.8795998096466,
+        30.0,
+        26.799787521362305
+      ],
+      [
+        131.1204001903534,
+        46.0,
+        33.200212478637695
+      ]
+    ],
+    "lego_part": "2780",
+    "centre": [
+      96.0,
+      38.0,
+      30.0
+    ],
+    "axis": 1,
+    "drive": null,
+    "motion": "fixed",
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1433934
+  },
+  {
+    "id": "slave lower clutch supply",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      122,
+      10.2,
+      -16
+    ],
+    "drive": "-POWER",
+    "motion": "fixed",
+    "phase_deg": 1.25,
+    "offset": 1447470,
+    "vertices": 3120,
+    "bounds": [
+      [
+        118.0,
+        1.5363199234008782,
+        -24.66368007659912
+      ],
+      [
+        126.0,
+        18.86368007659912,
+        -7.336319923400879
+      ]
+    ]
+  },
+  {
+    "id": "slave upper clutch supply",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      154,
+      24.056406460551017,
+      -8
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 1456830,
+    "vertices": 3120,
+    "bounds": [
+      [
+        150.0,
+        15.392726383951896,
+        -16.66368007659912
+      ],
+      [
+        158.0,
+        32.72008653715014,
+        0.6636800765991211
+      ]
+    ]
+  },
+  {
+    "id": "slave inverter lower",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      170,
+      10.2,
+      -16
+    ],
+    "drive": "-POWER",
+    "motion": "fixed",
+    "phase_deg": 1.25,
+    "offset": 1466190,
+    "vertices": 3120,
+    "bounds": [
+      [
+        166.0,
+        1.5363199234008782,
+        -24.66368007659912
+      ],
+      [
+        174.0,
+        18.86368007659912,
+        -7.336319923400879
+      ]
+    ]
+  },
+  {
+    "id": "slave inverter upper",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      170,
+      24.056406460551017,
+      -8
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 1475550,
+    "vertices": 3120,
+    "bounds": [
+      [
+        166.0,
+        15.392726383951896,
+        -16.66368007659912
+      ],
+      [
+        174.0,
+        32.72008653715014,
+        0.6636800765991211
+      ]
+    ]
+  },
+  {
+    "id": "slave power input gear",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "94925",
+    "axis": 0,
+    "centre": [
+      170,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 1484910,
+    "vertices": 3120,
+    "bounds": [
+      [
+        166.0,
+        -12.32008653715014,
+        -32.66368007659912
+      ],
+      [
+        174.0,
+        5.007273616048103,
+        -15.336319923400879
+      ]
+    ]
+  },
+  {
+    "id": "slave lower supply axle",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "3737",
+    "axis": 0,
+    "centre": [
+      146,
+      10.2,
+      -16
+    ],
+    "drive": "-POWER",
+    "motion": "fixed",
+    "phase_deg": 1.25,
+    "offset": 1494270,
+    "vertices": 192,
+    "bounds": [
+      [
+        106.0,
+        7.799999904632568,
+        -18.40000009536743
+      ],
+      [
+        186.0,
+        12.600000095367431,
+        -13.599999904632568
+      ]
+    ]
+  },
+  {
+    "id": "slave upper supply axle",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "3737",
+    "axis": 0,
+    "centre": [
+      146,
+      24.056406460551017,
+      -8
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 1494846,
+    "vertices": 192,
+    "bounds": [
+      [
+        106.0,
+        21.656406365183585,
+        -10.400000095367432
+      ],
+      [
+        186.0,
+        26.45640655591845,
+        -5.599999904632568
+      ]
+    ]
+  },
+  {
+    "id": "slave power port axle",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "32073",
+    "axis": 0,
+    "centre": [
+      168,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 1495422,
+    "vertices": 192,
+    "bounds": [
+      [
+        148.0,
+        -6.05640655591845,
+        -26.40000009536743
+      ],
+      [
+        188.0,
+        -1.2564063651835866,
+        -21.59999990463257
+      ]
+    ]
+  },
+  {
+    "id": "slave data port axle",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "32073",
+    "axis": 0,
+    "centre": [
+      74.2,
+      10.2,
+      0
+    ],
+    "drive": "M",
+    "motion": "fixed",
+    "phase_deg": 1.125,
+    "offset": 1495998,
+    "vertices": 192,
+    "bounds": [
+      [
+        54.2,
+        7.799999904632568,
+        -2.4000000953674316
+      ],
+      [
+        94.2,
+        12.600000095367431,
+        2.4000000953674316
+      ]
+    ]
+  },
+  {
+    "id": "slave data port gear",
+    "kind": "native",
+    "color": [
+      0.8627450980392157,
+      0.5529411764705883,
+      0.17647058823529413
+    ],
+    "module": "bit",
+    "vertices": 3120,
+    "bounds": [
+      [
+        71.99999999999999,
+        1.5560114997619583,
+        -8.643988076814452
+      ],
+      [
+        79.99999999999999,
+        18.843988452794527,
+        8.643988614551821
+      ]
+    ],
+    "source": "slave_gate B-input",
+    "source_centre": [
+      75,
+      0,
+      16
+    ],
+    "target_centre": [
+      28,
+      0,
+      16
+    ],
+    "flipped": false,
+    "motion": "B",
+    "lego_part": "94925",
+    "baseline_id": "slave_gate B-input",
+    "placement_shift": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1496574
+  },
+  {
+    "id": "slave feedback output gear",
+    "kind": "native",
+    "color": [
+      0.23,
+      0.28,
+      0.31
+    ],
+    "module": "bit",
+    "vertices": 3120,
+    "bounds": [
+      [
+        178.0,
+        1.5363199234008782,
+        -8.663680076599121
+      ],
+      [
+        186.0,
+        18.86368007659912,
+        8.663680076599121
+      ]
+    ],
+    "lego_part": "94925",
+    "centre": [
+      150,
+      10.2,
+      0
+    ],
+    "axis": 0,
+    "key_phase_deg": 0.0,
+    "baseline_id": "Q takeoff gear",
+    "placement_shift": [
+      0,
+      0,
+      0
+    ],
+    "owner": "slave",
+    "assembly_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "assembly_translation": [
+      32,
+      0,
+      0
+    ],
+    "offset": 1505934
+  },
+  {
+    "id": "slave timing guide 107.4 pin 60",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      105.2,
+      40.5,
+      60
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1515294,
+    "vertices": 4512,
+    "bounds": [
+      [
+        102.07959980964661,
+        32.5,
+        56.799787521362305
+      ],
+      [
+        108.3204001903534,
+        48.5,
+        63.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "slave timing guide 107.4 pin 72",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      105.2,
+      40.5,
+      72
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1528830,
+    "vertices": 4512,
+    "bounds": [
+      [
+        102.07959980964661,
+        32.5,
+        68.7997875213623
+      ],
+      [
+        108.3204001903534,
+        48.5,
+        75.2002124786377
+      ]
+    ]
+  },
+  {
+    "id": "slave timing guide 107.4",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 1542366,
+    "vertices": 1578,
+    "bounds": [
+      [
+        98.9,
+        22.2,
+        42.4
+      ],
+      [
+        109.0,
+        40.3,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "slave timing guide 172 pin 60",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      174.20000000000002,
+      40.5,
+      60
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1547100,
+    "vertices": 4512,
+    "bounds": [
+      [
+        171.07959980964662,
+        32.5,
+        56.799787521362305
+      ],
+      [
+        177.3204001903534,
+        48.5,
+        63.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "slave timing guide 172 pin 72",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      174.20000000000002,
+      40.5,
+      72
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1560636,
+    "vertices": 4512,
+    "bounds": [
+      [
+        171.07959980964662,
+        32.5,
+        68.7997875213623
+      ],
+      [
+        177.3204001903534,
+        48.5,
+        75.2002124786377
+      ]
+    ]
+  },
+  {
+    "id": "slave timing guide 172",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 1574172,
+    "vertices": 1530,
+    "bounds": [
+      [
+        170.4,
+        22.2,
+        42.4
+      ],
+      [
+        180.5,
+        40.3,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "M interstage coupling",
+    "kind": "native",
+    "module": "bit",
+    "owner": "connections",
+    "lego_part": "59443",
+    "axis": 0,
+    "centre": [
+      53.2,
+      10.2,
+      0
+    ],
+    "drive": "M",
+    "motion": "fixed",
+    "phase_deg": 1.125,
+    "offset": 1578762,
+    "vertices": 1296,
+    "bounds": [
+      [
+        45.2,
+        6.710245561599731,
+        -3.4000000953674316
+      ],
+      [
+        61.2,
+        13.689754438400268,
+        3.4000000953674316
+      ]
+    ]
+  },
+  {
+    "id": "POWER connection shaft",
+    "kind": "native",
+    "module": "bit",
+    "owner": "connections",
+    "lego_part": "3708",
+    "axis": 0,
+    "centre": [
+      98,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 1582650,
+    "vertices": 192,
+    "bounds": [
+      [
+        50.0,
+        -6.05640655591845,
+        -26.40000009536743
+      ],
+      [
+        146.0,
+        -1.2564063651835866,
+        -21.59999990463257
+      ]
+    ]
+  },
+  {
+    "id": "POWER coupling 49",
+    "kind": "native",
+    "module": "bit",
+    "owner": "connections",
+    "lego_part": "59443",
+    "axis": 0,
+    "centre": [
+      49,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 1583226,
+    "vertices": 1296,
+    "bounds": [
+      [
+        41.0,
+        -7.146160898951287,
+        -27.40000009536743
+      ],
+      [
+        57.0,
+        -0.1666520221507497,
+        -20.59999990463257
+      ]
+    ]
+  },
+  {
+    "id": "POWER coupling 147",
+    "kind": "native",
+    "module": "bit",
+    "owner": "connections",
+    "lego_part": "59443",
+    "axis": 0,
+    "centre": [
+      147,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": "POWER",
+    "motion": "fixed",
+    "phase_deg": 2.5,
+    "offset": 1587114,
+    "vertices": 1296,
+    "bounds": [
+      [
+        139.0,
+        -7.146160898951287,
+        -27.40000009536743
+      ],
+      [
+        155.0,
+        -0.1666520221507497,
+        -20.59999990463257
+      ]
+    ]
+  },
+  {
+    "id": "master data port stop -71.8",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      -71.8,
+      10.2,
+      -16
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1591002,
+    "vertices": 1392,
+    "bounds": [
+      [
+        -73.8,
+        6.599999856948852,
+        -19.600000143051147
+      ],
+      [
+        -69.8,
+        13.800000143051147,
+        -12.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "master data port stop -64.2",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      -64.2,
+      10.2,
+      -16
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1595178,
+    "vertices": 1392,
+    "bounds": [
+      [
+        -66.2,
+        6.599999856948852,
+        -19.600000143051147
+      ],
+      [
+        -62.2,
+        13.800000143051147,
+        -12.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "master minus port stop 42.2",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      42.2,
+      10.2,
+      -16
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1599354,
+    "vertices": 1392,
+    "bounds": [
+      [
+        40.2,
+        6.599999856948852,
+        -19.600000143051147
+      ],
+      [
+        44.2,
+        13.800000143051147,
+        -12.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "master minus port stop 49.8",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      49.8,
+      10.2,
+      -16
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1603530,
+    "vertices": 1392,
+    "bounds": [
+      [
+        47.8,
+        6.599999856948852,
+        -19.600000143051147
+      ],
+      [
+        51.8,
+        13.800000143051147,
+        -12.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "master plus port stop 42.2",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      42.2,
+      24.056406460551017,
+      -8
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1607706,
+    "vertices": 1392,
+    "bounds": [
+      [
+        40.2,
+        20.45640631749987,
+        -11.600000143051147
+      ],
+      [
+        44.2,
+        27.656406603602164,
+        -4.3999998569488525
+      ]
+    ]
+  },
+  {
+    "id": "master plus port stop 49.8",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      49.8,
+      24.056406460551017,
+      -8
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1611882,
+    "vertices": 1392,
+    "bounds": [
+      [
+        47.8,
+        20.45640631749987,
+        -11.600000143051147
+      ],
+      [
+        51.8,
+        27.656406603602164,
+        -4.3999998569488525
+      ]
+    ]
+  },
+  {
+    "id": "master input port stop 18.2",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      18.2,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1616058,
+    "vertices": 1392,
+    "bounds": [
+      [
+        16.2,
+        -7.256406603602166,
+        -27.600000143051147
+      ],
+      [
+        20.2,
+        -0.056406317499870795,
+        -20.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "master input port stop 25.8",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      25.8,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1620234,
+    "vertices": 1392,
+    "bounds": [
+      [
+        23.8,
+        -7.256406603602166,
+        -27.600000143051147
+      ],
+      [
+        27.8,
+        -0.056406317499870795,
+        -20.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "slave minus port stop 108.2",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      108.2,
+      10.2,
+      -16
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1624410,
+    "vertices": 1392,
+    "bounds": [
+      [
+        106.2,
+        6.599999856948852,
+        -19.600000143051147
+      ],
+      [
+        110.2,
+        13.800000143051147,
+        -12.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "slave minus port stop 115.8",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      115.8,
+      10.2,
+      -16
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1628586,
+    "vertices": 1392,
+    "bounds": [
+      [
+        113.8,
+        6.599999856948852,
+        -19.600000143051147
+      ],
+      [
+        117.8,
+        13.800000143051147,
+        -12.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "slave plus port stop 108.2",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      108.2,
+      24.056406460551017,
+      -8
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1632762,
+    "vertices": 1392,
+    "bounds": [
+      [
+        106.2,
+        20.45640631749987,
+        -11.600000143051147
+      ],
+      [
+        110.2,
+        27.656406603602164,
+        -4.3999998569488525
+      ]
+    ]
+  },
+  {
+    "id": "slave plus port stop 115.8",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      115.8,
+      24.056406460551017,
+      -8
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1636938,
+    "vertices": 1392,
+    "bounds": [
+      [
+        113.8,
+        20.45640631749987,
+        -11.600000143051147
+      ],
+      [
+        117.8,
+        27.656406603602164,
+        -4.3999998569488525
+      ]
+    ]
+  },
+  {
+    "id": "slave input port stop 178.2",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      178.2,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1641114,
+    "vertices": 1392,
+    "bounds": [
+      [
+        176.2,
+        -7.256406603602166,
+        -27.600000143051147
+      ],
+      [
+        180.2,
+        -0.056406317499870795,
+        -20.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "slave input port stop 185.8",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      185.8,
+      -3.6564064605510183,
+      -24
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1645290,
+    "vertices": 1392,
+    "bounds": [
+      [
+        183.8,
+        -7.256406603602166,
+        -27.600000143051147
+      ],
+      [
+        187.8,
+        -0.056406317499870795,
+        -20.399999856948853
+      ]
+    ]
+  },
+  {
+    "id": "slave data port stop 85.6",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "4265c",
+    "axis": 0,
+    "centre": [
+      85.6,
+      10.2,
+      0
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1649466,
+    "vertices": 1392,
+    "bounds": [
+      [
+        83.6,
+        6.599999856948852,
+        -3.6000001430511475
+      ],
+      [
+        87.6,
+        13.800000143051147,
+        3.6000001430511475
+      ]
+    ]
+  },
+  {
+    "id": "master cam plate pin -74",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -74,
+      30,
+      50
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1653642,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -77.1204001903534,
+        22.0,
+        46.799787521362305
+      ],
+      [
+        -70.8795998096466,
+        38.0,
+        53.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "master cam plate pin -62",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -62,
+      30,
+      50
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1667178,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -65.1204001903534,
+        22.0,
+        46.799787521362305
+      ],
+      [
+        -58.879599809646606,
+        38.0,
+        53.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "master fork plate pin 19.1",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -82,
+      30,
+      19.1
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1680714,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -85.1204001903534,
+        22.0,
+        15.899787521362306
+      ],
+      [
+        -78.8795998096466,
+        38.0,
+        22.300212478637697
+      ]
+    ]
+  },
+  {
+    "id": "master fork plate pin 31.1",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -82,
+      30,
+      31.1
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1694250,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -85.1204001903534,
+        22.0,
+        27.899787521362306
+      ],
+      [
+        -78.8795998096466,
+        38.0,
+        34.3002124786377
+      ]
+    ]
+  },
+  {
+    "id": "master flat cam plate",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "motion": "crosshead",
+    "offset": 1707786,
+    "vertices": 3720,
+    "bounds": [
+      [
+        -80.0,
+        22.2,
+        45.2
+      ],
+      [
+        64.8,
+        29.80000000000001,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "master fork drive plate",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "motion": "crosshead",
+    "offset": 1718946,
+    "vertices": 9516,
+    "bounds": [
+      [
+        -87.2,
+        16.9,
+        5.3
+      ],
+      [
+        -40.2,
+        29.80000000000001,
+        36.3
+      ]
+    ]
+  },
+  {
+    "id": "master timing rear frame",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "motion": "crosshead",
+    "offset": 1747494,
+    "vertices": 6018,
+    "bounds": [
+      [
+        -87.2,
+        30.2,
+        9.4
+      ],
+      [
+        64.8,
+        37.8,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "slave cam plate pin 198",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      198,
+      30,
+      50
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1765548,
+    "vertices": 4512,
+    "bounds": [
+      [
+        194.8795998096466,
+        22.0,
+        46.799787521362305
+      ],
+      [
+        201.1204001903534,
+        38.0,
+        53.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "slave cam plate pin 210",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      210,
+      30,
+      50
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1779084,
+    "vertices": 4512,
+    "bounds": [
+      [
+        206.8795998096466,
+        22.0,
+        46.799787521362305
+      ],
+      [
+        213.1204001903534,
+        38.0,
+        53.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "slave fork plate pin 19.1",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      70,
+      30,
+      19.1
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1792620,
+    "vertices": 4512,
+    "bounds": [
+      [
+        66.8795998096466,
+        22.0,
+        15.899787521362306
+      ],
+      [
+        73.1204001903534,
+        38.0,
+        22.300212478637697
+      ]
+    ]
+  },
+  {
+    "id": "slave fork plate pin 31.1",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      70,
+      30,
+      31.1
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1806156,
+    "vertices": 4512,
+    "bounds": [
+      [
+        66.8795998096466,
+        22.0,
+        27.899787521362306
+      ],
+      [
+        73.1204001903534,
+        38.0,
+        34.3002124786377
+      ]
+    ]
+  },
+  {
+    "id": "slave flat cam plate",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "motion": "crosshead",
+    "offset": 1819692,
+    "vertices": 3684,
+    "bounds": [
+      [
+        65.2,
+        22.2,
+        40.0
+      ],
+      [
+        214.8,
+        29.80000000000001,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "slave fork drive plate",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "motion": "crosshead",
+    "offset": 1830744,
+    "vertices": 9204,
+    "bounds": [
+      [
+        64.8,
+        16.9,
+        5.3
+      ],
+      [
+        111.8,
+        29.80000000000001,
+        36.3
+      ]
+    ]
+  },
+  {
+    "id": "slave timing rear frame",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "motion": "crosshead",
+    "offset": 1858356,
+    "vertices": 6066,
+    "bounds": [
+      [
+        64.8,
+        30.2,
+        9.4
+      ],
+      [
+        214.8,
+        37.8,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "Timing connection 3L pin 60 60",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "6558",
+    "axis": 1,
+    "centre": [
+      60,
+      26,
+      60
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1876554,
+    "vertices": 6432,
+    "bounds": [
+      [
+        56.879599809646606,
+        14.0,
+        56.799787521362305
+      ],
+      [
+        63.120400190353394,
+        38.0,
+        63.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "Timing connection 3L pin 60 72",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "6558",
+    "axis": 1,
+    "centre": [
+      60,
+      26,
+      72
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1895850,
+    "vertices": 6432,
+    "bounds": [
+      [
+        56.879599809646606,
+        14.0,
+        68.7997875213623
+      ],
+      [
+        63.120400190353394,
+        38.0,
+        75.2002124786377
+      ]
+    ]
+  },
+  {
+    "id": "Timing connection 3L pin 70 60",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "6558",
+    "axis": 1,
+    "centre": [
+      70,
+      26,
+      60
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1915146,
+    "vertices": 6432,
+    "bounds": [
+      [
+        66.8795998096466,
+        14.0,
+        56.799787521362305
+      ],
+      [
+        73.1204001903534,
+        38.0,
+        63.200212478637695
+      ]
+    ]
+  },
+  {
+    "id": "Timing connection 3L pin 70 72",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "6558",
+    "axis": 1,
+    "centre": [
+      70,
+      26,
+      72
+    ],
+    "drive": null,
+    "motion": "crosshead",
+    "offset": 1934442,
+    "vertices": 6432,
+    "bounds": [
+      [
+        66.8795998096466,
+        14.0,
+        68.7997875213623
+      ],
+      [
+        73.1204001903534,
+        38.0,
+        75.2002124786377
+      ]
+    ]
+  },
+  {
+    "id": "Removable timing connection",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "connections",
+    "motion": "crosshead",
+    "offset": 1953738,
+    "vertices": 3156,
+    "bounds": [
+      [
+        55.2,
+        14.2,
+        55.2
+      ],
+      [
+        74.8,
+        21.8,
+        76.8
+      ]
+    ]
+  },
+  {
+    "id": "master wall -24 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -21.8,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1963206,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -24.920400190353394,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        -18.679599809646607,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall -24 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -21.8,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 1976742,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -24.920400190353394,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        -18.679599809646607,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate -24",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 1990278,
+    "vertices": 3522,
+    "bounds": [
+      [
+        -25.6,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        -15.5,
+        40.30000000000001,
+        5.0
+      ]
+    ]
+  },
+  {
+    "id": "master wall 34 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      36.2,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2000844,
+    "vertices": 4512,
+    "bounds": [
+      [
+        33.07959980964661,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        39.320400190353396,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall 34 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      36.2,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2014380,
+    "vertices": 4512,
+    "bounds": [
+      [
+        33.07959980964661,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        39.320400190353396,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate 34",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2027916,
+    "vertices": 19290,
+    "bounds": [
+      [
+        32.4,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        42.5,
+        40.30000000000001,
+        6.5
+      ]
+    ]
+  },
+  {
+    "id": "master wall -30 pin -58",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -27.8,
+      40.5,
+      -58
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2085786,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -30.920400190353394,
+        32.5,
+        -61.200212478637695
+      ],
+      [
+        -24.679599809646607,
+        48.5,
+        -54.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall -30 pin -46",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -27.8,
+      40.5,
+      -46
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2099322,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -30.920400190353394,
+        32.5,
+        -49.200212478637695
+      ],
+      [
+        -24.679599809646607,
+        48.5,
+        -42.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate -30",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2112858,
+    "vertices": 2688,
+    "bounds": [
+      [
+        -31.6,
+        5.200000002980232,
+        -61.8
+      ],
+      [
+        -21.5,
+        40.30000000000001,
+        21.0
+      ]
+    ]
+  },
+  {
+    "id": "master wall 22 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      24.2,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2120922,
+    "vertices": 4512,
+    "bounds": [
+      [
+        21.079599809646606,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        27.320400190353393,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall 22 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      24.2,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2134458,
+    "vertices": 4512,
+    "bounds": [
+      [
+        21.079599809646606,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        27.320400190353393,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate 22",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2147994,
+    "vertices": 15600,
+    "bounds": [
+      [
+        20.4,
+        -8.656406462192535,
+        -37.8
+      ],
+      [
+        30.5,
+        40.30000000000001,
+        21.0
+      ]
+    ]
+  },
+  {
+    "id": "master wall -50 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -47.8,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2194794,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -50.92040019035339,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        -44.679599809646604,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall -50 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -47.8,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2208330,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -50.92040019035339,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        -44.679599809646604,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate -50",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2221866,
+    "vertices": 2670,
+    "bounds": [
+      [
+        -51.6,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        -41.5,
+        40.30000000000001,
+        5.0
+      ]
+    ]
+  },
+  {
+    "id": "master wall -38 pin -58",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -40.2,
+      40.5,
+      -58
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2229876,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -43.320400190353396,
+        32.5,
+        -61.200212478637695
+      ],
+      [
+        -37.07959980964661,
+        48.5,
+        -54.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall -38 pin -46",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -40.2,
+      40.5,
+      -46
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2243412,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -43.320400190353396,
+        32.5,
+        -49.200212478637695
+      ],
+      [
+        -37.07959980964661,
+        48.5,
+        -42.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate -38",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2256948,
+    "vertices": 3546,
+    "bounds": [
+      [
+        -46.5,
+        5.200000002980232,
+        -61.8
+      ],
+      [
+        -36.4,
+        40.30000000000001,
+        5.0
+      ]
+    ]
+  },
+  {
+    "id": "master wall -68 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -65.8,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2267586,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -68.92040019035339,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        -62.679599809646604,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall -68 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      -65.8,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2281122,
+    "vertices": 4512,
+    "bounds": [
+      [
+        -68.92040019035339,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        -62.679599809646604,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate -68",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2294658,
+    "vertices": 2664,
+    "bounds": [
+      [
+        -69.6,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        -59.5,
+        40.30000000000001,
+        -11.0
+      ]
+    ]
+  },
+  {
+    "id": "master wall 10 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      12.2,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2302650,
+    "vertices": 4512,
+    "bounds": [
+      [
+        9.079599809646606,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        15.320400190353393,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall 10 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      12.2,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2316186,
+    "vertices": 4512,
+    "bounds": [
+      [
+        9.079599809646606,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        15.320400190353393,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate 10",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2329722,
+    "vertices": 2664,
+    "bounds": [
+      [
+        8.4,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        18.5,
+        40.30000000000001,
+        -11.0
+      ]
+    ]
+  },
+  {
+    "id": "master wall 46 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      48.2,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2337714,
+    "vertices": 4512,
+    "bounds": [
+      [
+        45.07959980964661,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        51.320400190353396,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall 46 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      48.2,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2351250,
+    "vertices": 4512,
+    "bounds": [
+      [
+        45.07959980964661,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        51.320400190353396,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate 46",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2364786,
+    "vertices": 3534,
+    "bounds": [
+      [
+        44.4,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        54.5,
+        40.30000000000001,
+        -3.0
+      ]
+    ]
+  },
+  {
+    "id": "master wall 38 pin -58",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      40.2,
+      40.5,
+      -58
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2375388,
+    "vertices": 4512,
+    "bounds": [
+      [
+        37.07959980964661,
+        32.5,
+        -61.200212478637695
+      ],
+      [
+        43.320400190353396,
+        48.5,
+        -54.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master wall 38 pin -46",
+    "kind": "native",
+    "module": "bit",
+    "owner": "master",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      40.2,
+      40.5,
+      -46
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2388924,
+    "vertices": 4512,
+    "bounds": [
+      [
+        37.07959980964661,
+        32.5,
+        -49.200212478637695
+      ],
+      [
+        43.320400190353396,
+        48.5,
+        -42.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "master bearing plate 38",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2402460,
+    "vertices": 2670,
+    "bounds": [
+      [
+        36.4,
+        -8.656406462192535,
+        -61.8
+      ],
+      [
+        46.5,
+        40.30000000000001,
+        -19.0
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 112 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      114.2,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2410470,
+    "vertices": 4512,
+    "bounds": [
+      [
+        111.07959980964661,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        117.3204001903534,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 112 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      114.2,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2424006,
+    "vertices": 4512,
+    "bounds": [
+      [
+        111.07959980964661,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        117.3204001903534,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave bearing plate 112",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 2437542,
+    "vertices": 4350,
+    "bounds": [
+      [
+        110.4,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        120.5,
+        40.30000000000001,
+        5.0
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 164 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      166.2,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2450592,
+    "vertices": 4512,
+    "bounds": [
+      [
+        163.0795998096466,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        169.32040019035338,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 164 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      166.2,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2464128,
+    "vertices": 4512,
+    "bounds": [
+      [
+        163.0795998096466,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        169.32040019035338,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave bearing plate 164",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 2477664,
+    "vertices": 6096,
+    "bounds": [
+      [
+        162.4,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        172.5,
+        40.30000000000001,
+        21.0
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 60.8 pin -58",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      58.599999999999994,
+      40.5,
+      -58
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2495952,
+    "vertices": 4512,
+    "bounds": [
+      [
+        55.4795998096466,
+        32.5,
+        -61.200212478637695
+      ],
+      [
+        61.72040019035339,
+        48.5,
+        -54.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 60.8 pin -46",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      58.599999999999994,
+      40.5,
+      -46
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2509488,
+    "vertices": 4512,
+    "bounds": [
+      [
+        55.4795998096466,
+        32.5,
+        -49.200212478637695
+      ],
+      [
+        61.72040019035339,
+        48.5,
+        -42.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave bearing plate 60.8",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 2523024,
+    "vertices": 11652,
+    "bounds": [
+      [
+        52.3,
+        -0.29999999701976776,
+        -61.8
+      ],
+      [
+        62.4,
+        40.30000000000001,
+        21.0
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 64.2 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      66.4,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2557980,
+    "vertices": 4512,
+    "bounds": [
+      [
+        63.27959980964661,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        69.5204001903534,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 64.2 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      66.4,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2571516,
+    "vertices": 4512,
+    "bounds": [
+      [
+        63.27959980964661,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        69.5204001903534,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave bearing plate 64.2",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 2585052,
+    "vertices": 2670,
+    "bounds": [
+      [
+        62.6,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        72.7,
+        40.30000000000001,
+        5.0
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 81.8 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      84.0,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2593062,
+    "vertices": 4512,
+    "bounds": [
+      [
+        80.8795998096466,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        87.1204001903534,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 81.8 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      84.0,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2606598,
+    "vertices": 4512,
+    "bounds": [
+      [
+        80.8795998096466,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        87.1204001903534,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave bearing plate 81.8",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 2620134,
+    "vertices": 2670,
+    "bounds": [
+      [
+        80.2,
+        5.200000002980232,
+        -37.8
+      ],
+      [
+        90.3,
+        40.30000000000001,
+        5.0
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 182 pin -34",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      184.2,
+      40.5,
+      -34
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2628144,
+    "vertices": 4512,
+    "bounds": [
+      [
+        181.0795998096466,
+        32.5,
+        -37.200212478637695
+      ],
+      [
+        187.32040019035338,
+        48.5,
+        -30.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 182 pin -22",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      184.2,
+      40.5,
+      -22
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2641680,
+    "vertices": 4512,
+    "bounds": [
+      [
+        181.0795998096466,
+        32.5,
+        -25.200212478637695
+      ],
+      [
+        187.32040019035338,
+        48.5,
+        -18.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave bearing plate 182",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 2655216,
+    "vertices": 5376,
+    "bounds": [
+      [
+        180.4,
+        -8.656406462192535,
+        -37.8
+      ],
+      [
+        190.5,
+        40.30000000000001,
+        -3.0
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 158 pin -58",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      160.2,
+      40.5,
+      -58
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2671344,
+    "vertices": 4512,
+    "bounds": [
+      [
+        157.0795998096466,
+        32.5,
+        -61.200212478637695
+      ],
+      [
+        163.32040019035338,
+        48.5,
+        -54.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave wall 158 pin -46",
+    "kind": "native",
+    "module": "bit",
+    "owner": "slave",
+    "lego_part": "2780",
+    "axis": 1,
+    "centre": [
+      160.2,
+      40.5,
+      -46
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2684880,
+    "vertices": 4512,
+    "bounds": [
+      [
+        157.0795998096466,
+        32.5,
+        -49.200212478637695
+      ],
+      [
+        163.32040019035338,
+        48.5,
+        -42.799787521362305
+      ]
+    ]
+  },
+  {
+    "id": "slave bearing plate 158",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 2698416,
+    "vertices": 2670,
+    "bounds": [
+      [
+        156.4,
+        -8.656406462192535,
+        -61.8
+      ],
+      [
+        166.5,
+        40.30000000000001,
+        -19.0
+      ]
+    ]
+  },
+  {
+    "id": "master cassette chassis",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "master",
+    "offset": 2706426,
+    "vertices": 32676,
+    "bounds": [
+      [
+        -71.8,
+        37.8,
+        -64.0
+      ],
+      [
+        53.0,
+        48.5,
+        78.0
+      ]
+    ]
+  },
+  {
+    "id": "slave cassette chassis",
+    "kind": "printed",
+    "module": "bit",
+    "owner": "slave",
+    "offset": 2804454,
+    "vertices": 27468,
+    "bounds": [
+      [
+        53.4,
+        37.8,
+        -64.0
+      ],
+      [
+        190.2,
+        48.5,
+        78.0
+      ]
+    ]
+  },
+  {
+    "id": "Cassette frame joint -5",
+    "kind": "native",
+    "module": "bit",
+    "owner": "connections",
+    "lego_part": "2780",
+    "axis": 0,
+    "centre": [
+      53.2,
+      44.5,
+      -5
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2886858,
+    "vertices": 4512,
+    "bounds": [
+      [
+        45.2,
+        41.379599809646606,
+        -8.200212478637695
+      ],
+      [
+        61.2,
+        47.620400190353394,
+        -1.7997875213623047
+      ]
+    ]
+  },
+  {
+    "id": "Cassette frame joint 40",
+    "kind": "native",
+    "module": "bit",
+    "owner": "connections",
+    "lego_part": "2780",
+    "axis": 0,
+    "centre": [
+      53.2,
+      44.5,
+      40
+    ],
+    "drive": null,
+    "motion": "fixed",
+    "offset": 2900394,
+    "vertices": 4512,
+    "bounds": [
+      [
+        45.2,
+        41.379599809646606,
+        36.799787521362305
+      ],
+      [
+        61.2,
+        47.620400190353394,
+        43.200212478637695
+      ]
+    ]
+  }
+]

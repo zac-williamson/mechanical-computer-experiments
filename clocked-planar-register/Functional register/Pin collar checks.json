@@ -1,0 +1,999 @@
+{
+  "geometry_sha256": "796a3f4dd198cb55c2f2f24f2e0f1cced2d46f6fcbbc41793d1d904bf2815219",
+  "pins": [
+    {
+      "pin": "master Carriage support pin 1 2.0",
+      "axis": 0,
+      "collar_interval_mm": [
+        7.399999809265136,
+        9.000000190734863
+      ],
+      "collar_radius_mm": 3.2002126370805097,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master Carriage support pin 1 18.0",
+      "axis": 0,
+      "collar_interval_mm": [
+        7.399999809265136,
+        9.000000190734863
+      ],
+      "collar_radius_mm": 3.20021263708051,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master_gate crosshead pin -10 13.2",
+      "axis": 1,
+      "collar_interval_mm": [
+        27.19999998807907,
+        28.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master_gate crosshead pin 12 13.2",
+      "axis": 1,
+      "collar_interval_mm": [
+        27.19999998807907,
+        28.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master_gate fork joining pin",
+      "axis": 0,
+      "collar_interval_mm": [
+        -52.600000011920926,
+        -50.99999998807907
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master cheek joining pin 28.4",
+      "axis": 1,
+      "collar_interval_mm": [
+        8.999999809265137,
+        10.599999952316285
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master cheek joining pin 35.6",
+      "axis": 1,
+      "collar_interval_mm": [
+        8.999999809265137,
+        10.599999952316285
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master rail and backing cartridge mounting pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        37.19999998807907,
+        38.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401167,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master rail and backing cartridge mounting pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        37.19999998807907,
+        38.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401167,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master bolt guide left mounting pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master bolt guide left mounting pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master bolt guide right mounting pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master bolt guide right mounting pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master replaceable band anchor mounting pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master replaceable band anchor mounting pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "bit frame 0 fixture 4 pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        37.19999998807907,
+        38.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "bit frame 0 fixture 4 pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        37.19999998807907,
+        38.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master timing guide -30.6 pin 60",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master timing guide -30.6 pin 72",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master timing guide 34 pin 60",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master timing guide 34 pin 72",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave Carriage support pin 1 2.0",
+      "axis": 0,
+      "collar_interval_mm": [
+        145.39999980926513,
+        147.00000019073485
+      ],
+      "collar_radius_mm": 3.2002126370805097,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave Carriage support pin 1 18.0",
+      "axis": 0,
+      "collar_interval_mm": [
+        145.39999980926513,
+        147.00000019073485
+      ],
+      "collar_radius_mm": 3.20021263708051,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave_gate crosshead pin -10 13.2",
+      "axis": 1,
+      "collar_interval_mm": [
+        27.19999998807907,
+        28.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave_gate crosshead pin 12 13.2",
+      "axis": 1,
+      "collar_interval_mm": [
+        27.19999998807907,
+        28.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave_gate fork joining pin",
+      "axis": 0,
+      "collar_interval_mm": [
+        99.39999998807907,
+        101.00000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave cheek joining pin 28.4",
+      "axis": 1,
+      "collar_interval_mm": [
+        8.999999809265137,
+        10.599999952316285
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave cheek joining pin 35.6",
+      "axis": 1,
+      "collar_interval_mm": [
+        8.999999809265137,
+        10.599999952316285
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave rail and backing cartridge mounting pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        37.19999998807907,
+        38.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave rail and backing cartridge mounting pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        37.19999998807907,
+        38.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave bolt guide left mounting pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave bolt guide left mounting pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave bolt guide right mounting pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave bolt guide right mounting pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave replaceable band anchor mounting pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave replaceable band anchor mounting pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "bit frame 1 fixture 0 pin 1",
+      "axis": 1,
+      "collar_interval_mm": [
+        37.19999998807907,
+        38.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "bit frame 1 fixture 0 pin 2",
+      "axis": 1,
+      "collar_interval_mm": [
+        37.19999998807907,
+        38.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave timing guide 107.4 pin 60",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave timing guide 107.4 pin 72",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave timing guide 172 pin 60",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave timing guide 172 pin 72",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master cam plate pin -74",
+      "axis": 1,
+      "collar_interval_mm": [
+        29.19999998807907,
+        30.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master cam plate pin -62",
+      "axis": 1,
+      "collar_interval_mm": [
+        29.19999998807907,
+        30.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master fork plate pin 19.1",
+      "axis": 1,
+      "collar_interval_mm": [
+        29.19999998807907,
+        30.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master fork plate pin 31.1",
+      "axis": 1,
+      "collar_interval_mm": [
+        29.19999998807907,
+        30.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave cam plate pin 198",
+      "axis": 1,
+      "collar_interval_mm": [
+        29.19999998807907,
+        30.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave cam plate pin 210",
+      "axis": 1,
+      "collar_interval_mm": [
+        29.19999998807907,
+        30.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave fork plate pin 19.1",
+      "axis": 1,
+      "collar_interval_mm": [
+        29.19999998807907,
+        30.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave fork plate pin 31.1",
+      "axis": 1,
+      "collar_interval_mm": [
+        29.19999998807907,
+        30.80000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "Timing connection 3L pin 60 60",
+      "axis": 1,
+      "collar_interval_mm": [
+        21.199999809265137,
+        22.799999952316284
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "Timing connection 3L pin 60 72",
+      "axis": 1,
+      "collar_interval_mm": [
+        21.199999809265137,
+        22.799999952316284
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "Timing connection 3L pin 70 60",
+      "axis": 1,
+      "collar_interval_mm": [
+        21.199999809265137,
+        22.799999952316284
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "Timing connection 3L pin 70 72",
+      "axis": 1,
+      "collar_interval_mm": [
+        21.199999809265137,
+        22.799999952316284
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -24 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -24 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 34 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 34 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -30 pin -58",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -30 pin -46",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 22 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 22 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -50 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -50 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -38 pin -58",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -38 pin -46",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -68 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall -68 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 10 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 10 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 46 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 46 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 38 pin -58",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "master wall 38 pin -46",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 112 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 112 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 164 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 164 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 60.8 pin -58",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 60.8 pin -46",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 64.2 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 64.2 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 81.8 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 81.8 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 182 pin -34",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 182 pin -22",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 158 pin -58",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "slave wall 158 pin -46",
+      "axis": 1,
+      "collar_interval_mm": [
+        39.69999998807907,
+        41.30000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "Cassette frame joint -5",
+      "axis": 0,
+      "collar_interval_mm": [
+        52.399999988079074,
+        54.00000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    },
+    {
+      "pin": "Cassette frame joint 40",
+      "axis": 0,
+      "collar_interval_mm": [
+        52.399999988079074,
+        54.00000001192093
+      ],
+      "collar_radius_mm": 3.2002126369401163,
+      "hits": [],
+      "shank_hits": []
+    }
+  ],
+  "collar_clearance_pass": true,
+  "pin_clearance_pass": true,
+  "scope": "Separate collar-clearance audit; friction ribs are intentionally excluded.",
+  "physical_validation": false
+}
