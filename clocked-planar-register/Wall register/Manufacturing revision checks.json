@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "guide_corridors": [
     {
       "part": "bit clock rod guide cap -22",
@@ -121,24 +121,6 @@
       "pass_check": true
     },
     {
-      "part": "bit frame 0 removable fixture 3",
-      "pin": "bit frame 0 fixture 3 pin 1",
-      "section_material_fraction": [
-        1.0000000000000013,
-        1.0000000000000024
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 0 removable fixture 3",
-      "pin": "bit frame 0 fixture 3 pin 2",
-      "section_material_fraction": [
-        1.0,
-        1.0000000000000004
-      ],
-      "pass_check": true
-    },
-    {
       "part": "bit frame 0 removable fixture 4",
       "pin": "bit frame 0 fixture 4 pin 1",
       "section_material_fraction": [
@@ -171,24 +153,6 @@
       "section_material_fraction": [
         1.0000000000000018,
         0.9999999999999984
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 1 removable fixture 1",
-      "pin": "bit frame 1 fixture 1 pin 1",
-      "section_material_fraction": [
-        1.0000000000000009,
-        0.9999999999999991
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 1 removable fixture 1",
-      "pin": "bit frame 1 fixture 1 pin 2",
-      "section_material_fraction": [
-        1.0000000000000033,
-        1.0000000000000016
       ],
       "pass_check": true
     },
@@ -315,6 +279,150 @@
       "section_material_fraction": [
         0.9999999999999983,
         0.9999999999999988
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master rail and backing cartridge",
+      "pin": "master rail and backing cartridge mounting pin 1",
+      "section_material_fraction": [
+        1.0000000000000049,
+        1.000000000000004
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master rail and backing cartridge",
+      "pin": "master rail and backing cartridge mounting pin 2",
+      "section_material_fraction": [
+        1.0000000000000009,
+        1.0000000000000018
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide left",
+      "pin": "master bolt guide left mounting pin 1",
+      "section_material_fraction": [
+        1.0000000000000024,
+        1.0000000000000029
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide left",
+      "pin": "master bolt guide left mounting pin 2",
+      "section_material_fraction": [
+        1.0000000000000024,
+        1.0000000000000029
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide right",
+      "pin": "master bolt guide right mounting pin 1",
+      "section_material_fraction": [
+        0.9999999999999986,
+        0.9999999999999994
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide right",
+      "pin": "master bolt guide right mounting pin 2",
+      "section_material_fraction": [
+        0.9999999999999984,
+        0.9999999999999993
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master replaceable band anchor",
+      "pin": "master replaceable band anchor mounting pin 1",
+      "section_material_fraction": [
+        1.0000000000000002,
+        1.0000000000000009
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master replaceable band anchor",
+      "pin": "master replaceable band anchor mounting pin 2",
+      "section_material_fraction": [
+        1.0,
+        0.9999999999999998
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave rail and backing cartridge",
+      "pin": "slave rail and backing cartridge mounting pin 1",
+      "section_material_fraction": [
+        0.9999999999999981,
+        0.999999999999999
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave rail and backing cartridge",
+      "pin": "slave rail and backing cartridge mounting pin 2",
+      "section_material_fraction": [
+        0.9999999999999981,
+        0.999999999999999
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide left",
+      "pin": "slave bolt guide left mounting pin 1",
+      "section_material_fraction": [
+        1.0000000000000007,
+        1.0000000000000007
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide left",
+      "pin": "slave bolt guide left mounting pin 2",
+      "section_material_fraction": [
+        1.0000000000000004,
+        1.000000000000001
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide right",
+      "pin": "slave bolt guide right mounting pin 1",
+      "section_material_fraction": [
+        1.0000000000000029,
+        1.0000000000000013
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide right",
+      "pin": "slave bolt guide right mounting pin 2",
+      "section_material_fraction": [
+        1.0000000000000027,
+        1.000000000000001
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave replaceable band anchor",
+      "pin": "slave replaceable band anchor mounting pin 1",
+      "section_material_fraction": [
+        1.000000000000001,
+        1.0000000000000013
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave replaceable band anchor",
+      "pin": "slave replaceable band anchor mounting pin 2",
+      "section_material_fraction": [
+        1.0000000000000013,
+        1.0000000000000013
       ],
       "pass_check": true
     }

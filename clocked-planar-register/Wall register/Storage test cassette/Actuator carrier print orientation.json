@@ -1,0 +1,68 @@
+{
+  "assembly_to_print_rotation": [
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "translation_mm": [
+    43.0,
+    28.2,
+    38.2
+  ],
+  "size_mm": [
+    18.8,
+    23.0,
+    19.200000000000003
+  ],
+  "volume_mm3": 2305.4304835638627,
+  "watertight": true,
+  "solids": 1,
+  "unsupported_face_area_mm2": 213.1139215333668,
+  "layer_height_mm": 0.2,
+  "maximum_unsupported_layer_growth_mm2": 116.6040324267429,
+  "layer_growth_failures": [
+    {
+      "height_mm": 0.5010000000000001,
+      "unsupported_growth_mm2": 116.6040324267429
+    },
+    {
+      "height_mm": 1.1010000000000002,
+      "unsupported_growth_mm2": 20.860924097651665
+    },
+    {
+      "height_mm": 1.3010000000000002,
+      "unsupported_growth_mm2": 3.8810628693205778
+    },
+    {
+      "height_mm": 8.301000000000002,
+      "unsupported_growth_mm2": 32.20435908436565
+    },
+    {
+      "height_mm": 12.301000000000002,
+      "unsupported_growth_mm2": 8.891434466586544
+    }
+  ],
+  "print_geometry_pass": false,
+  "scope": "Unchanged static actuator-cheek carrier; no axle bores or running surfaces. Overhangs remain; not included in the new support-free geometry claim."
+}

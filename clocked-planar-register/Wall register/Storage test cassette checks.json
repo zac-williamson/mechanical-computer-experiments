@@ -1,0 +1,323 @@
+{
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
+  "scope": "Small hand-operated storage test base using unchanged production interfaces.\n\nThe base prints with its Y48.5 rear face on the bed, building in -Y. All\npin bores are vertical in that orientation. The gear/axle/guide coordinates\nare copied unchanged. It is a component test fixture, not a powered register.\n",
+  "base_print": {
+    "assembly_to_print_rotation": [
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation_mm": [
+      65.0,
+      43.0,
+      48.5
+    ],
+    "size_mm": [
+      105.0,
+      86.0,
+      10.299999999999997
+    ],
+    "volume_mm3": 20626.2613874958,
+    "watertight": true,
+    "solids": 1,
+    "unsupported_face_area_mm2": 0.0,
+    "layer_height_mm": 0.2,
+    "maximum_unsupported_layer_growth_mm2": 0,
+    "layer_growth_failures": [],
+    "print_geometry_pass": true
+  },
+  "production_parts": [
+    "M output axial stop 26.8",
+    "M output axial stop 37.8",
+    "Master worm axial stop -26.2",
+    "Master worm retainer gear",
+    "bit bearing wall 10 mounting pin 1",
+    "bit bearing wall 10 mounting pin 2",
+    "bit bearing wall 4 mounting pin 1",
+    "bit bearing wall 4 mounting pin 2",
+    "bit bearing wall 6 mounting pin 1",
+    "bit bearing wall 6 mounting pin 2",
+    "bit bearing wall 7 mounting pin 1",
+    "bit bearing wall 7 mounting pin 2",
+    "bit frame 0 fixture 4 pin 1",
+    "bit frame 0 fixture 4 pin 2",
+    "bit frame 0 removable fixture 4",
+    "bit removable bearing wall 10",
+    "bit removable bearing wall 4",
+    "bit removable bearing wall 6",
+    "bit removable bearing wall 7",
+    "master Carriage fork and roof",
+    "master Carriage support pin 1 18.0",
+    "master Carriage support pin 1 2.0",
+    "master Front bearing cheek",
+    "master L069",
+    "master L072",
+    "master L097",
+    "master L099",
+    "master L102",
+    "master Right carriage bearing support",
+    "master Short lever",
+    "master U015",
+    "master U022",
+    "master actuator return band",
+    "master bolt guide left",
+    "master bolt guide left mounting pin 1",
+    "master bolt guide left mounting pin 2",
+    "master bolt guide right",
+    "master bolt guide right mounting pin 1",
+    "master bolt guide right mounting pin 2",
+    "master cheek joining pin 28.4",
+    "master cheek joining pin 35.6",
+    "master lock bolt",
+    "master output left 3L",
+    "master output right 6L",
+    "master pivot-retainer",
+    "master pivot-stop-axle",
+    "master rail and backing cartridge",
+    "master rail and backing cartridge mounting pin 1",
+    "master rail and backing cartridge mounting pin 2",
+    "master reaction-retainer",
+    "master reaction-stop-axle",
+    "master removable rear bearing cheek",
+    "master replaceable band anchor",
+    "master replaceable band anchor mounting pin 1",
+    "master replaceable band anchor mounting pin 2",
+    "master return band",
+    "master roller axle",
+    "master roller bush 15.6",
+    "master roller bush 27.6",
+    "master_gate worm drive 10L"
+  ],
+  "print_parts": [
+    "master Short lever",
+    "master Carriage fork and roof",
+    "master Right carriage bearing support",
+    "master lock bolt",
+    "master Front bearing cheek",
+    "bit removable bearing wall 4",
+    "bit removable bearing wall 6",
+    "bit removable bearing wall 7",
+    "bit removable bearing wall 10",
+    "bit frame 0 removable fixture 4",
+    "master removable rear bearing cheek",
+    "master rail and backing cartridge",
+    "master bolt guide left",
+    "master bolt guide right",
+    "master replaceable band anchor",
+    "Storage test base"
+  ],
+  "base_size_mm": [
+    86.0,
+    10.299999999999997,
+    105.0
+  ],
+  "base_volume_mm3": 20626.261387495815,
+  "poses": 1304,
+  "intersections": [],
+  "sockets": [
+    {
+      "part": "bit frame 0 fixture 4 pin 1",
+      "centre_mm": [
+        -22.0,
+        38.0,
+        30.0
+      ],
+      "socket_wall_fraction": 1.0000000000000002,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 4 pin 2",
+      "centre_mm": [
+        -10.0,
+        38.0,
+        30.0
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "master rail and backing cartridge mounting pin 1",
+      "centre_mm": [
+        -6.8,
+        38,
+        0
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "master rail and backing cartridge mounting pin 2",
+      "centre_mm": [
+        6.8,
+        38,
+        0
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide left mounting pin 1",
+      "centre_mm": [
+        -20.5,
+        40.5,
+        49
+      ],
+      "socket_wall_fraction": 1.0000000000000002,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide left mounting pin 2",
+      "centre_mm": [
+        -20.5,
+        40.5,
+        59
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide right mounting pin 1",
+      "centre_mm": [
+        10.5,
+        40.5,
+        49
+      ],
+      "socket_wall_fraction": 1.0000000000000002,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide right mounting pin 2",
+      "centre_mm": [
+        10.5,
+        40.5,
+        59
+      ],
+      "socket_wall_fraction": 0.9999999999999999,
+      "pass_check": true
+    },
+    {
+      "part": "master replaceable band anchor mounting pin 1",
+      "centre_mm": [
+        -13.5,
+        40.5,
+        39.8
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "master replaceable band anchor mounting pin 2",
+      "centre_mm": [
+        3.5,
+        40.5,
+        39.8
+      ],
+      "socket_wall_fraction": 1.0000000000000002,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 4 mounting pin 1",
+      "centre_mm": [
+        -21.8,
+        40.5,
+        -34.0
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 4 mounting pin 2",
+      "centre_mm": [
+        -27.8,
+        40.5,
+        -22.0
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 6 mounting pin 1",
+      "centre_mm": [
+        -35.800000000000004,
+        40.5,
+        -34.0
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 6 mounting pin 2",
+      "centre_mm": [
+        -35.800000000000004,
+        40.5,
+        -22.0
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 7 mounting pin 1",
+      "centre_mm": [
+        24.2,
+        40.5,
+        -34.0
+      ],
+      "socket_wall_fraction": 0.9999999999999999,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 7 mounting pin 2",
+      "centre_mm": [
+        24.2,
+        40.5,
+        -22.0
+      ],
+      "socket_wall_fraction": 1.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 10 mounting pin 1",
+      "centre_mm": [
+        36.199999999999996,
+        40.5,
+        -34.0
+      ],
+      "socket_wall_fraction": 1.0000000000000002,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 10 mounting pin 2",
+      "centre_mm": [
+        32.8,
+        40.5,
+        -22.0
+      ],
+      "socket_wall_fraction": 0.9999999999999999,
+      "pass_check": true
+    }
+  ],
+  "cassette_pass": true,
+  "slicer_validated": false,
+  "physically_validated": false
+}

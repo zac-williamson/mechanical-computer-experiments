@@ -26,7 +26,7 @@ for p in P:
    gx,bias=(-60,1) if bank=='master_gate' else (60,-1)
    points=[[gx-12+f['rail']+f.get(bank+'_lag',0),19.55,7.8],[gx-12+f['rail']+6.5*bias,19.55,7.8]];hosts=[bank+' Carriage fork and roof','Local clock cam and fork bar']
   else:
-   bx=-5.05+(106 if bank=='slave' else 0);points=[[bx,37.3,50],[bx,37.3,58.6+f[bank+'_lift']]];hosts=[None,bank+' lock bolt']
+   bx=-5.05+(106 if bank=='slave' else 0);points=[[bx,36.8,50],[bx,37.3,58.6+f[bank+'_lift']]];hosts=[None,bank+' lock bolt']
   for i,point in enumerate(points):anchors[i].append(point)
  for i,host in enumerate(hosts):
   points=np.array(anchors[i]);matched=[];inside=np.zeros(len(points),dtype=bool)

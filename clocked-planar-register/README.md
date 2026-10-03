@@ -1,3 +1,5 @@
+Current iteration design: [replaceable storage modules and staged bench tests](Wall%20register/Modular%20testing.md), [small test print pack](Wall%20register/Storage%20test%20cassette.zip). In the [wall viewer](Wall%20register.html), choose **Show → Storage test cassette**.
+
 Latest rod topology and print orientations: [sliding surfaces without support contact](Wall%20register/Sliding%20surface%20printing.md).
 
 Latest carriage and band corrections: [planar fixes adopted](Wall%20register/Planar%20fixes%20adopted.md).
@@ -44,3 +46,5 @@ Use the existing `work/register-print-env/bin/python` environment from the works
 Printed structure, materials, band preload, motor acceleration, joint grip and loaded friction are not established by the nominal motion trace. Do not treat a successful script exit as a working-machine certificate.
 
 For wall-register generation and checks, run each script sequentially through `Source/run_wall_job.py`, using the existing register-print environment. This enforces one geometry worker, low priority, an exclusive job lock and a 1.2 GiB memory guard. Do not launch concurrent geometry jobs. `Source/package_wall_register.py` refuses to package stale or failed required reports.
+
+The storage-module build is part of `wall_register.py`. Refresh `export_wall_storage_modules.py` and `build_wall_test_cassette.py` after building. Generate the normal production oriented exports before `package_wall_test_cassette.py`; then publish the viewer and run `node Source/check_wall_viewer.cjs` before `wall_status.py` and the main package. These checks are serial; do not launch Bambu Studio.

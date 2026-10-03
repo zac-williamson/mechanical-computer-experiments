@@ -1,10 +1,10 @@
 {
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "scope": "Two adjacent rows plus controller: sampled printed collisions using inherited contact-resolved poses; repeated rows share the same data trace; no physical dynamics claim",
   "frames": 910,
   "case_coverage": "112 inherited traces, 17 samples each, unique printed poses",
-  "narrow_checks": 347932,
-  "unique_pair_checks": 20929,
+  "narrow_checks": 384264,
+  "unique_pair_checks": 22015,
   "cache_policy": "Exact part IDs and full rigid transforms; deforming parts are not cached",
   "invalid_solids": [],
   "parts": [
@@ -284,11 +284,6 @@
       "volume_mm3": 6824.74789953466
     },
     {
-      "part": "bit frame 0 removable fixture 3",
-      "connected_solids": 1,
-      "volume_mm3": 9111.075878998356
-    },
-    {
       "part": "bit frame 0 removable fixture 4",
       "connected_solids": 1,
       "volume_mm3": 2305.4304835638627
@@ -296,7 +291,7 @@
     {
       "part": "bit coordinated chassis 0",
       "connected_solids": 1,
-      "volume_mm3": 59500.54558351716
+      "volume_mm3": 71519.81821306903
     },
     {
       "part": "bit frame 1 removable fixture 0",
@@ -304,14 +299,9 @@
       "volume_mm3": 2814.401193211859
     },
     {
-      "part": "bit frame 1 removable fixture 1",
-      "connected_solids": 1,
-      "volume_mm3": 8966.253294247052
-    },
-    {
       "part": "bit coordinated chassis 1",
       "connected_solids": 1,
-      "volume_mm3": 43123.19166163288
+      "volume_mm3": 55475.42757897281
     },
     {
       "part": "control frame 0 removable fixture 0",
@@ -412,6 +402,46 @@
       "part": "control write rod guide cap -72",
       "connected_solids": 1,
       "volume_mm3": 2409.766801017752
+    },
+    {
+      "part": "master rail and backing cartridge",
+      "connected_solids": 1,
+      "volume_mm3": 4462.097694894084
+    },
+    {
+      "part": "master bolt guide left",
+      "connected_solids": 1,
+      "volume_mm3": 5758.838538460764
+    },
+    {
+      "part": "master bolt guide right",
+      "connected_solids": 1,
+      "volume_mm3": 5820.740539028172
+    },
+    {
+      "part": "master replaceable band anchor",
+      "connected_solids": 1,
+      "volume_mm3": 1623.207326319397
+    },
+    {
+      "part": "slave rail and backing cartridge",
+      "connected_solids": 1,
+      "volume_mm3": 4241.673694897212
+    },
+    {
+      "part": "slave bolt guide left",
+      "connected_solids": 1,
+      "volume_mm3": 5758.838538460699
+    },
+    {
+      "part": "slave bolt guide right",
+      "connected_solids": 1,
+      "volume_mm3": 5820.740539042671
+    },
+    {
+      "part": "slave replaceable band anchor",
+      "connected_solids": 1,
+      "volume_mm3": 1623.2073263193972
     },
     {
       "part": "master Short lever [row 2]",
@@ -609,11 +639,6 @@
       "volume_mm3": 6824.747899534663
     },
     {
-      "part": "bit frame 0 removable fixture 3 [row 2]",
-      "connected_solids": 1,
-      "volume_mm3": 9111.075878998356
-    },
-    {
       "part": "bit frame 0 removable fixture 4 [row 2]",
       "connected_solids": 1,
       "volume_mm3": 2305.4304835638663
@@ -621,7 +646,7 @@
     {
       "part": "bit coordinated chassis 0 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 59500.54558351717
+      "volume_mm3": 71519.81821306903
     },
     {
       "part": "bit frame 1 removable fixture 0 [row 2]",
@@ -629,14 +654,9 @@
       "volume_mm3": 2814.4011932118656
     },
     {
-      "part": "bit frame 1 removable fixture 1 [row 2]",
-      "connected_solids": 1,
-      "volume_mm3": 8966.25329424705
-    },
-    {
       "part": "bit coordinated chassis 1 [row 2]",
       "connected_solids": 1,
-      "volume_mm3": 43123.19166163289
+      "volume_mm3": 55475.42757897281
     },
     {
       "part": "master removable rear bearing cheek [row 2]",
@@ -667,6 +687,46 @@
       "part": "bit write rod guide cap 32 [row 2]",
       "connected_solids": 1,
       "volume_mm3": 2057.797438526642
+    },
+    {
+      "part": "master rail and backing cartridge [row 2]",
+      "connected_solids": 1,
+      "volume_mm3": 4462.097694894086
+    },
+    {
+      "part": "master bolt guide left [row 2]",
+      "connected_solids": 1,
+      "volume_mm3": 5758.838538460766
+    },
+    {
+      "part": "master bolt guide right [row 2]",
+      "connected_solids": 1,
+      "volume_mm3": 5820.740539028173
+    },
+    {
+      "part": "master replaceable band anchor [row 2]",
+      "connected_solids": 1,
+      "volume_mm3": 1623.207326319398
+    },
+    {
+      "part": "slave rail and backing cartridge [row 2]",
+      "connected_solids": 1,
+      "volume_mm3": 4241.67369489721
+    },
+    {
+      "part": "slave bolt guide left [row 2]",
+      "connected_solids": 1,
+      "volume_mm3": 5758.838538460699
+    },
+    {
+      "part": "slave bolt guide right [row 2]",
+      "connected_solids": 1,
+      "volume_mm3": 5820.740539042672
+    },
+    {
+      "part": "slave replaceable band anchor [row 2]",
+      "connected_solids": 1,
+      "volume_mm3": 1623.207326319398
     }
   ],
   "intersections": [],

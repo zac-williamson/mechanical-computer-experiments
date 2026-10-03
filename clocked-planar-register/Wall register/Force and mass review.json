@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "scope": "Geometric mass proxy and force-path audit; not measured actuation force.",
   "moving_printed_material": {
     "bit": {
@@ -289,11 +289,6 @@
       "motion": "fixed",
       "volume_mm3": 6824.747899534662
     },
-    "bit frame 0 removable fixture 3": {
-      "module": "bit",
-      "motion": "fixed",
-      "volume_mm3": 9111.075878998354
-    },
     "bit frame 0 removable fixture 4": {
       "module": "bit",
       "motion": "fixed",
@@ -302,22 +297,17 @@
     "bit coordinated chassis 0": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 59500.54558351715
+      "volume_mm3": 71519.81821306901
     },
     "bit frame 1 removable fixture 0": {
       "module": "bit",
       "motion": "fixed",
       "volume_mm3": 2814.401193211854
     },
-    "bit frame 1 removable fixture 1": {
-      "module": "bit",
-      "motion": "fixed",
-      "volume_mm3": 8966.253294247057
-    },
     "bit coordinated chassis 1": {
       "module": "bit",
       "motion": "fixed",
-      "volume_mm3": 43123.191661632874
+      "volume_mm3": 55475.42757897279
     },
     "control frame 0 removable fixture 0": {
       "module": "control",
@@ -418,6 +408,46 @@
       "module": "control",
       "motion": "fixed",
       "volume_mm3": 2409.7668010177526
+    },
+    "master rail and backing cartridge": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 4462.097694894083
+    },
+    "master bolt guide left": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 5758.838538460764
+    },
+    "master bolt guide right": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 5820.740539028171
+    },
+    "master replaceable band anchor": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 1623.2073263193972
+    },
+    "slave rail and backing cartridge": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 4241.67369489721
+    },
+    "slave bolt guide left": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 5758.838538460689
+    },
+    "slave bolt guide right": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 5820.740539042672
+    },
+    "slave replaceable band anchor": {
+      "module": "bit",
+      "motion": "fixed",
+      "volume_mm3": 1623.2073263193972
     }
   },
   "controller_direction_bellcranks_before": 2,

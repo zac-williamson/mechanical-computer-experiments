@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "scope": "Check bearing lands, axle engagement, stops and shared-drive connections.",
   "bearings": [
     {
@@ -96,7 +96,7 @@
       "shaft": "D inverted",
       "station_mm": -90,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.5269887018749663e-09,
+      "missing_ring_mm3": 1.5269887018749686e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999886,
       "pass_check": true
@@ -150,7 +150,7 @@
       "shaft": "POWER minus",
       "station_mm": 10,
       "land_mm": 3.2,
-      "missing_ring_mm3": 1.3508169714303304e-09,
+      "missing_ring_mm3": 1.3508169714303171e-09,
       "occupied_bore_mm3": 0.0,
       "axle_engagement_mm": 3.1999999999999993,
       "pass_check": true

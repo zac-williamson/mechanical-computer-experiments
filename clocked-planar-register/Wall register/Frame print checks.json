@@ -1,16 +1,16 @@
 {
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "scope": "Frames only: rear face on bed, vertical mounting holes, 45-degree roofs over horizontal frame joining pins. No bridge exemption.",
   "parts": [
     {
       "part": "bit coordinated chassis 0",
       "file": "Print oriented frames/Bit frame left.stl",
       "bounds_mm": [
-        103.6,
+        104.2,
         163.3,
         13.5
       ],
-      "flat_bed_contact_mm2": 6133.987783929817,
+      "flat_bed_contact_mm2": 8748.720505810894,
       "unsupported_area_over_45_degrees_mm2": 0.0,
       "unsupported_face_bounds": null,
       "connected_solids": 1,
@@ -42,7 +42,7 @@
         ]
       ],
       "print_translation_mm": [
-        63.8,
+        64.4,
         135.0,
         48.5
       ],
@@ -52,11 +52,11 @@
       "part": "bit coordinated chassis 1",
       "file": "Print oriented frames/Bit frame right.stl",
       "bounds_mm": [
-        101.6,
+        102.2,
         136.3,
         11.100000000000001
       ],
-      "flat_bed_contact_mm2": 4415.3710921102465,
+      "flat_bed_contact_mm2": 7140.784069748028,
       "unsupported_area_over_45_degrees_mm2": 0.0,
       "unsupported_face_bounds": null,
       "connected_solids": 1,
@@ -88,7 +88,7 @@
         ]
       ],
       "print_translation_mm": [
-        63.8,
+        64.4,
         -28.7,
         48.5
       ],

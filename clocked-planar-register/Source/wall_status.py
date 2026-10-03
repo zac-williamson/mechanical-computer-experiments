@@ -4,7 +4,7 @@ import csv,json,hashlib
 R=Path(__file__).resolve().parents[1];O=R/'Wall register'
 digest=hashlib.sha256((O/'geometry.npz').read_bytes()).hexdigest()
 reports={}
-for name in ['Development checks','Rotation ratio checks','External gear phase checks','Rotating envelope screening','Axle crossing screening','Bearing and retention checks','Bearing attachment checks','Bearing print orientations','Axle print-face audit','Frame print checks','Frame pin clearance checks','Rod splice checks','Rod splice print checks','Frame rebuild verification','Elastic anchor checks','Force and mass review','Revision connection checks','Manufacturing revision checks','Assembly print orientations','Carriage section checks','Band installation checks','Sliding surface print checks']:
+for name in ['Development checks','Rotation ratio checks','External gear phase checks','Rotating envelope screening','Axle crossing screening','Bearing and retention checks','Bearing attachment checks','Bearing print orientations','Axle print-face audit','Frame print checks','Frame pin clearance checks','Rod splice checks','Rod splice print checks','Frame rebuild verification','Elastic anchor checks','Force and mass review','Revision connection checks','Manufacturing revision checks','Assembly print orientations','Carriage section checks','Band installation checks','Sliding surface print checks','Storage module print checks','Storage test cassette checks','Viewer interaction checks']:
  path=O/(name+'.json')
  data=json.loads(path.read_text()) if path.exists() else {}
  reports[name]=dict(current=data.get('geometry_sha256')==digest,data=data)
@@ -41,6 +41,9 @@ for name,item in reports.items():
   elif name=='Frame print checks':status=f"{'PASS' if r['frame_print_geometry_pass'] else 'FAIL'}: {len(r['parts'])} flat-bed frame parts; no unsupported faces beyond 45 degrees; no bridge exemption"
   elif name=='Bearing print orientations':status=f"{'PASS' if r['orientation_pass'] else 'FAIL'}: {len(r['parts'])} wall STLs with bearing axes normal to the bed"
   elif name=='Axle print-face audit':status=f"{'PASS' if r['all_axle_bed_faces_pass'] else 'INCOMPLETE'}: {len(r['parts'])} parts screened; {len(r['unresolved_parts'])} parts need further separation or bed-face work"
+  elif name=='Viewer interaction checks':status='PASS: offline view, scene, label and small-screen axes checks (not browser visual inspection)' if r['pass'] else 'FAIL'
+  elif name=='Storage module print checks':status='PASS: eight modular supports and both changed frames; full face and layer-growth checks' if r['modular_print_pass'] else 'FAIL'
+  elif name=='Storage test cassette checks':status='PASS: small base print geometry, mount sockets and sampled clearance' if r['cassette_pass'] else 'FAIL'
   elif name=='Sliding surface print checks':status='PASS: all nine rod/guide interfaces; no support-facing running surfaces in supplied orientations' if r['sliding_surfaces_print_pass'] else 'FAIL'
   elif name=='Carriage section checks':status='PASS: eight carriage halves; reinforced corners and backing sections' if r['carriage_sections_pass'] else 'FAIL'
   elif name=='Band installation checks':status='PASS: closed-band insertion at both lock anchors' if r['band_installation_pass'] else 'FAIL'
@@ -51,6 +54,6 @@ for name,item in reports.items():
  lines.append(f'| [{name}]({name.replace(" ","%20")}.json) | {status} |')
 lines+=['','## Scope','','The printed screen samples 17 positions from each of 112 inherited transition/initial-state traces, deduplicates identical printed poses, and adds a neighbouring row. It checks volumetric intersections above 0.01 mm³ without contact exclusions, plus watertightness and connected-solid count. It is a sampled screen, not a continuous swept-volume proof. The linkage equations separately cover 1,001 points across each nominal stroke.','', 'Full-revolution native envelopes are conservative. Their remaining actuator U022 / Short lever flags are reported rather than silently excluded; identifying an inherited working interface does not establish that it is correct in hardware.','', '## Open requirements','']+['- '+b for b in blocks]
 (O/'Validation status.md').write_text('\n'.join(lines)+'\n')
-status=dict(geometry_sha256=digest,parts_sha256=hashlib.sha256((O/'parts.json').read_bytes()).hexdigest(),all_reports_current=all(r['current'] for r in reports.values()),mechanically_qualified=False,print_release=False,open_requirements=blocks,source_sha256={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in list((R/'Source').glob('*wall*.py'))+list((R/'Source').glob('wall_*.js'))})
+status=dict(geometry_sha256=digest,parts_sha256=hashlib.sha256((O/'parts.json').read_bytes()).hexdigest(),all_reports_current=all(r['current'] for r in reports.values()),mechanically_qualified=False,print_release=False,open_requirements=blocks,source_sha256={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in list((R/'Source').glob('*wall*.py'))+list((R/'Source').glob('wall_*.js'))+list((R/'Source').glob('*wall*.cjs'))})
 (O/'Qualification status.json').write_text(json.dumps(status,indent=2))
 print(json.dumps({k:v for k,v in status.items() if k!='source_sha256'},indent=2))

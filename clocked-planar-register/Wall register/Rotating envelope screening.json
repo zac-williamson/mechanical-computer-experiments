@@ -1,10 +1,10 @@
 {
   "scope": "Full-revolution native envelopes against printed solids at operation poses.\n\nAn envelope hit is a potential collision, not proof: working tooth/lever and\nring/fork contacts need phase-resolved narrow checks. No hit proves separation\nfor every rotation phase at the sampled relative poses, not between samples.\n",
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "frame_stride": 1,
   "case_coverage": "112 inherited cases with 17 samples each",
   "unique_poses": 1013,
-  "narrow_checks": 14202,
+  "narrow_checks": 13801,
   "potential_collisions": [
     {
       "native": "master U022",

@@ -1,0 +1,653 @@
+{
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
+  "parts": [
+    {
+      "part": "master Short lever",
+      "stage": 3,
+      "file": "Print parts/master Short lever.stl",
+      "source": "Print oriented axle parts/master Short lever.stl",
+      "volume_mm3": 1603.2163370503306,
+      "size_mm": [
+        14.533100128173828,
+        23.236000061035156,
+        8.399999618530273
+      ],
+      "sha256": "c947f00e24aa13ddc75689260465b6c88745f302740c683586ffc9319927559f"
+    },
+    {
+      "part": "master Carriage fork and roof",
+      "stage": 1,
+      "file": "Print parts/master Carriage fork and roof.stl",
+      "source": "Print oriented axle parts/master Carriage fork and roof.stl",
+      "volume_mm3": 9448.615523625342,
+      "size_mm": [
+        45.5994987487793,
+        30.950000762939453,
+        42.199501037597656
+      ],
+      "sha256": "1581aa86cf9047b7c6a559effc10d81626cbe774eacd9c0ba95626cf7a7f6bfe"
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "stage": 1,
+      "file": "Print parts/master Right carriage bearing support.stl",
+      "source": "Print oriented axle parts/master Right carriage bearing support.stl",
+      "volume_mm3": 2183.2071125416423,
+      "size_mm": [
+        23.599998474121094,
+        27.799999237060547,
+        7.600000381469727
+      ],
+      "sha256": "3849383198145d875ab9a9b86bafd0013de827cefb375095423f5c3fe9c47c66"
+    },
+    {
+      "part": "master lock bolt",
+      "stage": 2,
+      "file": "Print parts/master lock bolt.stl",
+      "source": "Print oriented axle parts/master lock bolt.stl",
+      "volume_mm3": 1063.278495936548,
+      "size_mm": [
+        18.30000114440918,
+        12.0,
+        20.899999618530273
+      ],
+      "sha256": "e02d8afa5204b040874dcce6d6231a988d6321f4663903fdcb159eff66690fb0"
+    },
+    {
+      "part": "master Front bearing cheek",
+      "stage": 3,
+      "file": "Print parts/master Front bearing cheek.stl",
+      "source": "Print oriented axle parts/master Front bearing cheek.stl",
+      "volume_mm3": 2249.332158342649,
+      "size_mm": [
+        20.5,
+        49.79999923706055,
+        7.800000190734863
+      ],
+      "sha256": "30d3a32638df0e7fe6f6e5c82bc01cd0c36bfcb84d5cad620c320014b70a86bc"
+    },
+    {
+      "part": "bit removable bearing wall 4",
+      "stage": 3,
+      "file": "Print parts/bit removable bearing wall 4.stl",
+      "source": "Print oriented bearing walls/bit removable bearing wall 4.stl",
+      "volume_mm3": 9266.50607211723,
+      "size_mm": [
+        85.80000305175781,
+        35.099998474121094,
+        13.600000381469727
+      ],
+      "sha256": "d12f12f55698607c69b80a16caf020c072d2f9dadf1749a0015c38a5cc2c9ab6"
+    },
+    {
+      "part": "bit removable bearing wall 6",
+      "stage": 3,
+      "file": "Print parts/bit removable bearing wall 6.stl",
+      "source": "Print oriented bearing walls/bit removable bearing wall 6.stl",
+      "volume_mm3": 2290.990940756897,
+      "size_mm": [
+        42.79999923706055,
+        35.099998474121094,
+        7.599999904632568
+      ],
+      "sha256": "6cd091d17307ddb84ea0e2376313354b9e25c729a76757c7d6e454103ef222f4"
+    },
+    {
+      "part": "bit removable bearing wall 7",
+      "stage": 3,
+      "file": "Print parts/bit removable bearing wall 7.stl",
+      "source": "Print oriented bearing walls/bit removable bearing wall 7.stl",
+      "volume_mm3": 2749.8539624835485,
+      "size_mm": [
+        85.80000305175781,
+        35.099998474121094,
+        7.599999904632568
+      ],
+      "sha256": "01dedf9b1775b24d5b0f1ff36dbb7ecdd6e6afee7b79b7380e0675a7b7f6ba5c"
+    },
+    {
+      "part": "bit removable bearing wall 10",
+      "stage": 3,
+      "file": "Print parts/bit removable bearing wall 10.stl",
+      "source": "Print oriented bearing walls/bit removable bearing wall 10.stl",
+      "volume_mm3": 5450.529778048391,
+      "size_mm": [
+        85.80000305175781,
+        48.95640563964844,
+        11.0
+      ],
+      "sha256": "91954dce6cd6e96d965da4cfa3b3db7c78837a3d6c59e56538420480767a3635"
+    },
+    {
+      "part": "bit frame 0 removable fixture 4",
+      "stage": 3,
+      "file": "Print parts/bit frame 0 removable fixture 4.stl",
+      "source": "Storage test cassette/bit frame 0 removable fixture 4 - PRINT THIS.stl",
+      "volume_mm3": 2305.4304388206033,
+      "size_mm": [
+        18.799999237060547,
+        23.0,
+        19.200000762939453
+      ],
+      "sha256": "822a973b5787911af699eebcc5d45e85f5fb0238e3ad2787608cd50c4b65eb76"
+    },
+    {
+      "part": "master removable rear bearing cheek",
+      "stage": 3,
+      "file": "Print parts/master removable rear bearing cheek.stl",
+      "source": "Print oriented axle parts/master removable rear bearing cheek.stl",
+      "volume_mm3": 2740.947235657428,
+      "size_mm": [
+        20.5,
+        62.19232177734375,
+        10.60000991821289
+      ],
+      "sha256": "b571122e13f08ab4ee58e45822de889a13cb21faa92af0a1cc4a36e920ebbb45"
+    },
+    {
+      "part": "master rail and backing cartridge",
+      "stage": 1,
+      "file": "Print parts/master rail and backing cartridge.stl",
+      "source": "Print oriented storage modules/master rail and backing cartridge.stl",
+      "volume_mm3": 4462.097894450672,
+      "size_mm": [
+        20.700000762939453,
+        40.0,
+        21.149999618530273
+      ],
+      "sha256": "7cd9f1db81728bdfdc3f0e85adadb1ab8f78b0de0c9edfd2a0134dcf4b4b0e8d"
+    },
+    {
+      "part": "master bolt guide left",
+      "stage": 2,
+      "file": "Print parts/master bolt guide left.stl",
+      "source": "Print oriented storage modules/master bolt guide left.stl",
+      "volume_mm3": 5758.838943228693,
+      "size_mm": [
+        20.200000762939453,
+        26.700000762939453,
+        15.649999618530273
+      ],
+      "sha256": "5cd784f93208cb4cb500207112b985b430c52d991fe7917bdeee8a5e17729c1a"
+    },
+    {
+      "part": "master bolt guide right",
+      "stage": 2,
+      "file": "Print parts/master bolt guide right.stl",
+      "source": "Print oriented storage modules/master bolt guide right.stl",
+      "volume_mm3": 5820.740844757398,
+      "size_mm": [
+        20.200000762939453,
+        26.700000762939453,
+        15.75
+      ],
+      "sha256": "89a902ac29ac371559faaa4c1c5619daff039e7519e9e1347ac120131238176d"
+    },
+    {
+      "part": "master replaceable band anchor",
+      "stage": 2,
+      "file": "Print parts/master replaceable band anchor.stl",
+      "source": "Print oriented storage modules/master replaceable band anchor.stl",
+      "volume_mm3": 1623.2072500501854,
+      "size_mm": [
+        17.399999618530273,
+        26.600000381469727,
+        7.699999809265137
+      ],
+      "sha256": "8ea6ee4ff661122c580a032ae55d3faea854ca16596eb8d63478013c8cf4d8a1"
+    },
+    {
+      "part": "Storage test base",
+      "stage": 2,
+      "file": "Print parts/Storage test base.stl",
+      "source": "Storage test cassette/Storage test base - PRINT THIS.stl",
+      "volume_mm3": 20626.263074490296,
+      "size_mm": [
+        105.0,
+        86.0,
+        10.300000190734863
+      ],
+      "sha256": "cc4756b61d9e7f42bb843ca6e6318c6a9d32bbf11aa58c4f58bc5b9ef215eadd"
+    }
+  ],
+  "layouts": [
+    {
+      "stage": 1,
+      "file": "Stage 1 - additional parts.stl",
+      "size_mm": [
+        99.89949798583984,
+        40.0,
+        42.199501037597656
+      ],
+      "parts": [
+        {
+          "part": "master Carriage fork and roof",
+          "translation_mm": [
+            0.0,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "master Right carriage bearing support",
+          "translation_mm": [
+            50.5994987487793,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "master rail and backing cartridge",
+          "translation_mm": [
+            79.19949722290039,
+            0.0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "file": "Stage 2 - additional parts.stl",
+      "size_mm": [
+        201.10000228881836,
+        86.0,
+        20.899999618530273
+      ],
+      "parts": [
+        {
+          "part": "master lock bolt",
+          "translation_mm": [
+            0.0,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "master bolt guide left",
+          "translation_mm": [
+            23.30000114440918,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "master bolt guide right",
+          "translation_mm": [
+            48.50000190734863,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "master replaceable band anchor",
+          "translation_mm": [
+            73.70000267028809,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "Storage test base",
+          "translation_mm": [
+            96.10000228881836,
+            0.0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "file": "Stage 3 - additional parts.stl",
+      "size_mm": [
+        225.90000534057617,
+        116.9923210144043,
+        19.200000762939453
+      ],
+      "parts": [
+        {
+          "part": "master Short lever",
+          "translation_mm": [
+            0.0,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "master Front bearing cheek",
+          "translation_mm": [
+            19.533100128173828,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "bit removable bearing wall 4",
+          "translation_mm": [
+            45.03310012817383,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "bit removable bearing wall 6",
+          "translation_mm": [
+            135.83310317993164,
+            0.0,
+            0
+          ]
+        },
+        {
+          "part": "bit removable bearing wall 7",
+          "translation_mm": [
+            0,
+            54.79999923706055,
+            0
+          ]
+        },
+        {
+          "part": "bit removable bearing wall 10",
+          "translation_mm": [
+            90.80000305175781,
+            54.79999923706055,
+            0
+          ]
+        },
+        {
+          "part": "bit frame 0 removable fixture 4",
+          "translation_mm": [
+            181.60000610351562,
+            54.79999923706055,
+            0
+          ]
+        },
+        {
+          "part": "master removable rear bearing cheek",
+          "translation_mm": [
+            205.40000534057617,
+            54.79999923706055,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "total_printed_volume_mm3": 79643.05606235785,
+  "native_parts": [
+    {
+      "part": "M output axial stop 26.8",
+      "lego_part": "4265c",
+      "baseline_id": "master output left 3L",
+      "kind": "native"
+    },
+    {
+      "part": "M output axial stop 37.8",
+      "lego_part": "4265c",
+      "baseline_id": "master output left 3L",
+      "kind": "native"
+    },
+    {
+      "part": "Master worm axial stop -26.2",
+      "lego_part": "4265c",
+      "baseline_id": "master_gate worm drive 10L",
+      "kind": "native"
+    },
+    {
+      "part": "Master worm retainer gear",
+      "lego_part": "3713",
+      "baseline_id": "Master worm retainer gear",
+      "kind": "native"
+    },
+    {
+      "part": "bit bearing wall 10 mounting pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit bearing wall 10 mounting pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit bearing wall 4 mounting pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit bearing wall 4 mounting pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit bearing wall 6 mounting pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit bearing wall 6 mounting pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit bearing wall 7 mounting pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit bearing wall 7 mounting pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit frame 0 fixture 4 pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "bit frame 0 fixture 4 pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master Carriage support pin 1 18.0",
+      "lego_part": "2780",
+      "baseline_id": "master Carriage support pin 1 18.0",
+      "kind": "native"
+    },
+    {
+      "part": "master Carriage support pin 1 2.0",
+      "lego_part": "2780",
+      "baseline_id": "master Carriage support pin 1 2.0",
+      "kind": "native"
+    },
+    {
+      "part": "master L069",
+      "lego_part": null,
+      "baseline_id": "master L069",
+      "kind": "native"
+    },
+    {
+      "part": "master L072",
+      "lego_part": null,
+      "baseline_id": "master L072",
+      "kind": "native"
+    },
+    {
+      "part": "master L097",
+      "lego_part": "26287",
+      "baseline_id": "master L097",
+      "kind": "native"
+    },
+    {
+      "part": "master L099",
+      "lego_part": null,
+      "baseline_id": "master L099",
+      "kind": "native"
+    },
+    {
+      "part": "master L102",
+      "lego_part": null,
+      "baseline_id": "master L102",
+      "kind": "native"
+    },
+    {
+      "part": "master U015",
+      "lego_part": null,
+      "baseline_id": "master U015",
+      "kind": "native"
+    },
+    {
+      "part": "master U022",
+      "lego_part": null,
+      "baseline_id": "master U022",
+      "kind": "native"
+    },
+    {
+      "part": "master actuator return band",
+      "lego_part": null,
+      "baseline_id": "master actuator return band",
+      "kind": "elastic"
+    },
+    {
+      "part": "master bolt guide left mounting pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master bolt guide left mounting pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master bolt guide right mounting pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master bolt guide right mounting pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master cheek joining pin 28.4",
+      "lego_part": "6558",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master cheek joining pin 35.6",
+      "lego_part": "6558",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master output left 3L",
+      "lego_part": "4519",
+      "baseline_id": "master output left 3L",
+      "kind": "native"
+    },
+    {
+      "part": "master output right 6L",
+      "lego_part": "3706",
+      "baseline_id": "master output right 6L",
+      "kind": "native"
+    },
+    {
+      "part": "master pivot-retainer",
+      "lego_part": "32123a",
+      "baseline_id": "master pivot-retainer",
+      "kind": "native"
+    },
+    {
+      "part": "master pivot-stop-axle",
+      "lego_part": "24316",
+      "baseline_id": "master pivot-stop-axle",
+      "kind": "native"
+    },
+    {
+      "part": "master rail and backing cartridge mounting pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master rail and backing cartridge mounting pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master reaction-retainer",
+      "lego_part": "32123a",
+      "baseline_id": "master reaction-retainer",
+      "kind": "native"
+    },
+    {
+      "part": "master reaction-stop-axle",
+      "lego_part": "24316",
+      "baseline_id": "master reaction-stop-axle",
+      "kind": "native"
+    },
+    {
+      "part": "master replaceable band anchor mounting pin 1",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master replaceable band anchor mounting pin 2",
+      "lego_part": "2780",
+      "baseline_id": null,
+      "kind": "native"
+    },
+    {
+      "part": "master return band",
+      "lego_part": null,
+      "baseline_id": "master return band",
+      "kind": "elastic"
+    },
+    {
+      "part": "master roller axle",
+      "lego_part": "32062",
+      "baseline_id": "master roller axle",
+      "kind": "native"
+    },
+    {
+      "part": "master roller bush 15.6",
+      "lego_part": "32123a",
+      "baseline_id": "master roller bush 15.6",
+      "kind": "native"
+    },
+    {
+      "part": "master roller bush 27.6",
+      "lego_part": "32123a",
+      "baseline_id": "master roller bush 27.6",
+      "kind": "native"
+    },
+    {
+      "part": "master_gate worm drive 10L",
+      "lego_part": "3737",
+      "baseline_id": "master_gate worm drive 10L",
+      "kind": "native"
+    }
+  ],
+  "limitations": [
+    "This is a hand-operated component test; no shared controller, sequencer, powered data path or bit logic test.",
+    "Reused production parts are unchanged; use the existing axle-bed-face report for those orientations. Strict complete-part overhang/layer checks apply to the new support pieces and base, not automatically to every inherited part."
+  ]
+}

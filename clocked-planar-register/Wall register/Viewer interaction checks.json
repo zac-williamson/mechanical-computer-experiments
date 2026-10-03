@@ -1,0 +1,265 @@
+{
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
+  "viewer_sha256": "847683ac3c57df23fb7d0b13f486459545e64664f7823e25f3be7a94a148ba7b",
+  "scope": "Offline JavaScript initialisation, draw filters, axes bounds and view/overlay/navigation event checks. No browser visual inspection.",
+  "pass": true,
+  "runs": [
+    {
+      "width": 1000,
+      "scene": "assembly",
+      "view": "front",
+      "labels": "all",
+      "drawCount": 378
+    },
+    {
+      "width": 1000,
+      "scene": "assembly",
+      "view": "front",
+      "labels": "off",
+      "drawCount": 378
+    },
+    {
+      "width": 1000,
+      "scene": "assembly",
+      "view": "endView",
+      "labels": "all",
+      "drawCount": 378
+    },
+    {
+      "width": 1000,
+      "scene": "assembly",
+      "view": "endView",
+      "labels": "off",
+      "drawCount": 378
+    },
+    {
+      "width": 1000,
+      "scene": "assembly",
+      "view": "oblique",
+      "labels": "all",
+      "drawCount": 378
+    },
+    {
+      "width": 1000,
+      "scene": "assembly",
+      "view": "oblique",
+      "labels": "off",
+      "drawCount": 378
+    },
+    {
+      "width": 1000,
+      "scene": "frames",
+      "view": "front",
+      "labels": "all",
+      "drawCount": 3
+    },
+    {
+      "width": 1000,
+      "scene": "frames",
+      "view": "front",
+      "labels": "off",
+      "drawCount": 3
+    },
+    {
+      "width": 1000,
+      "scene": "frames",
+      "view": "endView",
+      "labels": "all",
+      "drawCount": 3
+    },
+    {
+      "width": 1000,
+      "scene": "frames",
+      "view": "endView",
+      "labels": "off",
+      "drawCount": 3
+    },
+    {
+      "width": 1000,
+      "scene": "frames",
+      "view": "oblique",
+      "labels": "all",
+      "drawCount": 3
+    },
+    {
+      "width": 1000,
+      "scene": "frames",
+      "view": "oblique",
+      "labels": "off",
+      "drawCount": 3
+    },
+    {
+      "width": 1000,
+      "scene": "test",
+      "view": "front",
+      "labels": "all",
+      "drawCount": 61
+    },
+    {
+      "width": 1000,
+      "scene": "test",
+      "view": "front",
+      "labels": "off",
+      "drawCount": 61
+    },
+    {
+      "width": 1000,
+      "scene": "test",
+      "view": "endView",
+      "labels": "all",
+      "drawCount": 61
+    },
+    {
+      "width": 1000,
+      "scene": "test",
+      "view": "endView",
+      "labels": "off",
+      "drawCount": 61
+    },
+    {
+      "width": 1000,
+      "scene": "test",
+      "view": "oblique",
+      "labels": "all",
+      "drawCount": 61
+    },
+    {
+      "width": 1000,
+      "scene": "test",
+      "view": "oblique",
+      "labels": "off",
+      "drawCount": 61
+    },
+    {
+      "width": 320,
+      "scene": "assembly",
+      "view": "front",
+      "labels": "all",
+      "drawCount": 378
+    },
+    {
+      "width": 320,
+      "scene": "assembly",
+      "view": "front",
+      "labels": "off",
+      "drawCount": 378
+    },
+    {
+      "width": 320,
+      "scene": "assembly",
+      "view": "endView",
+      "labels": "all",
+      "drawCount": 378
+    },
+    {
+      "width": 320,
+      "scene": "assembly",
+      "view": "endView",
+      "labels": "off",
+      "drawCount": 378
+    },
+    {
+      "width": 320,
+      "scene": "assembly",
+      "view": "oblique",
+      "labels": "all",
+      "drawCount": 378
+    },
+    {
+      "width": 320,
+      "scene": "assembly",
+      "view": "oblique",
+      "labels": "off",
+      "drawCount": 378
+    },
+    {
+      "width": 320,
+      "scene": "frames",
+      "view": "front",
+      "labels": "all",
+      "drawCount": 3
+    },
+    {
+      "width": 320,
+      "scene": "frames",
+      "view": "front",
+      "labels": "off",
+      "drawCount": 3
+    },
+    {
+      "width": 320,
+      "scene": "frames",
+      "view": "endView",
+      "labels": "all",
+      "drawCount": 3
+    },
+    {
+      "width": 320,
+      "scene": "frames",
+      "view": "endView",
+      "labels": "off",
+      "drawCount": 3
+    },
+    {
+      "width": 320,
+      "scene": "frames",
+      "view": "oblique",
+      "labels": "all",
+      "drawCount": 3
+    },
+    {
+      "width": 320,
+      "scene": "frames",
+      "view": "oblique",
+      "labels": "off",
+      "drawCount": 3
+    },
+    {
+      "width": 320,
+      "scene": "test",
+      "view": "front",
+      "labels": "all",
+      "drawCount": 61
+    },
+    {
+      "width": 320,
+      "scene": "test",
+      "view": "front",
+      "labels": "off",
+      "drawCount": 61
+    },
+    {
+      "width": 320,
+      "scene": "test",
+      "view": "endView",
+      "labels": "all",
+      "drawCount": 61
+    },
+    {
+      "width": 320,
+      "scene": "test",
+      "view": "endView",
+      "labels": "off",
+      "drawCount": 61
+    },
+    {
+      "width": 320,
+      "scene": "test",
+      "view": "oblique",
+      "labels": "all",
+      "drawCount": 61
+    },
+    {
+      "width": 320,
+      "scene": "test",
+      "view": "oblique",
+      "labels": "off",
+      "drawCount": 61
+    }
+  ],
+  "part_counts": {
+    "assembly": 378,
+    "frames": 3,
+    "test": 61
+  }
+}

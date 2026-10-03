@@ -321,6 +321,8 @@ finish_pin_seats(globals())
 from wall_carriage_reinforcement import reopen_band_access, seat_revised_cap
 reopen_band_access(globals())
 seat_revised_cap(globals())
+from wall_storage_modules import split_storage
+split_storage(globals())
 
 assert len({p['id'] for p in P})==len(P), 'Duplicate part IDs'
 # Assign serialization offsets only after consolidation.

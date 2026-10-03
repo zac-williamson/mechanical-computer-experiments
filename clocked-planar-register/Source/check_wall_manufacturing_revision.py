@@ -28,7 +28,9 @@ for e in json.loads((O/'Frame fixture schedule.json').read_text())['fixtures']:
  for pin in e['fasteners']:
   c=pin['centre_mm'];sections=[]
   for lo,hi in [(y-.35,y-.25),(y+.05,y+.15)]:
-   ring=cyl(4.7,lo,hi,c)-cyl(3.35,lo-.01,hi+.01,c);sections.append((ring^s).volume()/ring.volume())
+   ring=cyl(4.7,lo,hi,c)-cyl(3.35,lo-.01,hi+.01,c)
+   from wall_socket_probe import socket_probe
+   ring=socket_probe(ring,e,c,lo-.1,hi+.1);sections.append((ring^s).volume()/ring.volume())
   mounts.append(dict(part=e['part'],pin=pin['part'],section_material_fraction=sections,pass_check=min(sections)>.99))
 limits={'bit':np.array([[-141.8,-12.320086537,-47.8],[166.2,48.5,64.4]]),'control':np.array([[-173.8,-18.463680077,-224],[-84,56.5,-48.2]])};bounds=[]
 for mod,limit in limits.items():

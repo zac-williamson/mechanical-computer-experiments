@@ -160,59 +160,6 @@
       "pass_check": true
     },
     {
-      "part": "bit frame 0 removable fixture 3",
-      "frame": "bit coordinated chassis 0",
-      "fasteners": [
-        {
-          "part": "bit frame 0 fixture 3 pin 1",
-          "centre_mm": [
-            -19.0,
-            38.0,
-            59.0
-          ]
-        },
-        {
-          "part": "bit frame 0 fixture 3 pin 2",
-          "centre_mm": [
-            3.0,
-            38.0,
-            -15.0
-          ]
-        }
-      ],
-      "fastener_spacing_mm": 77.20103626247513,
-      "interface_y_mm": 38.0,
-      "mount_pad_width_mm": 9.6,
-      "collar_relief_radius_mm": 3.3,
-      "minimum_collar_ligament_mm": 1.5,
-      "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 4.8,
-      "seating_gap_mm": 0,
-      "mount_checks": [
-        {
-          "part": "bit frame 0 fixture 3 pin 1",
-          "socket_wall_fraction": [
-            0.9999999999999998,
-            1.0000000000000002,
-            1.000000000000003,
-            0.9999999999999987
-          ],
-          "pass_check": true
-        },
-        {
-          "part": "bit frame 0 fixture 3 pin 2",
-          "socket_wall_fraction": [
-            1.0,
-            0.9999999999999998,
-            0.9999999999999948,
-            0.9999999999999973
-          ],
-          "pass_check": true
-        }
-      ],
-      "pass_check": true
-    },
-    {
       "part": "bit frame 0 removable fixture 4",
       "frame": "bit coordinated chassis 0",
       "fasteners": [
@@ -258,7 +205,7 @@
             1.0,
             1.0,
             0.9999999999999998,
-            1.000000000000002
+            1.0000000000000033
           ],
           "pass_check": true
         }
@@ -301,7 +248,7 @@
             1.0,
             1.0000000000000002,
             1.0000000000000004,
-            1.000000000000003
+            1.0000000000000036
           ],
           "pass_check": true
         },
@@ -312,59 +259,6 @@
             1.0,
             0.9999999999999991,
             1.000000000000001
-          ],
-          "pass_check": true
-        }
-      ],
-      "pass_check": true
-    },
-    {
-      "part": "bit frame 1 removable fixture 1",
-      "frame": "bit coordinated chassis 1",
-      "fasteners": [
-        {
-          "part": "bit frame 1 fixture 1 pin 1",
-          "centre_mm": [
-            87.0,
-            38.0,
-            59.0
-          ]
-        },
-        {
-          "part": "bit frame 1 fixture 1 pin 2",
-          "centre_mm": [
-            111.0,
-            38.0,
-            -15.0
-          ]
-        }
-      ],
-      "fastener_spacing_mm": 77.79460135510689,
-      "interface_y_mm": 38.0,
-      "mount_pad_width_mm": 9.6,
-      "collar_relief_radius_mm": 3.3,
-      "minimum_collar_ligament_mm": 1.5,
-      "seating_plane_y_mm": 38.2,
-      "seating_land_radius_mm": 4.8,
-      "seating_gap_mm": 0,
-      "mount_checks": [
-        {
-          "part": "bit frame 1 fixture 1 pin 1",
-          "socket_wall_fraction": [
-            1.0,
-            1.0000000000000002,
-            1.000000000000001,
-            0.9999999999999994
-          ],
-          "pass_check": true
-        },
-        {
-          "part": "bit frame 1 fixture 1 pin 2",
-          "socket_wall_fraction": [
-            1.0000000000000002,
-            1.0000000000000002,
-            0.9999999999999997,
-            1.0000000000000044
           ],
           "pass_check": true
         }
@@ -690,6 +584,446 @@
         }
       ],
       "pass_check": true
+    },
+    {
+      "part": "master rail and backing cartridge",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "master rail and backing cartridge mounting pin 1",
+          "centre_mm": [
+            -6.8,
+            38,
+            0
+          ]
+        },
+        {
+          "part": "master rail and backing cartridge mounting pin 2",
+          "centre_mm": [
+            6.8,
+            38,
+            0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 13.6,
+      "interface_y_mm": 38,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "pin_roof_axis": null,
+      "pin_roof_sign": null,
+      "mount_checks": [
+        {
+          "part": "master rail and backing cartridge mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            1.0,
+            1.0000000000000007,
+            0.9999999999999987
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "master rail and backing cartridge mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            1.0,
+            0.9999999999999994,
+            0.9999999999999981
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide left",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "master bolt guide left mounting pin 1",
+          "centre_mm": [
+            -20.5,
+            40.5,
+            49
+          ]
+        },
+        {
+          "part": "master bolt guide left mounting pin 2",
+          "centre_mm": [
+            -20.5,
+            40.5,
+            59
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 10.0,
+      "interface_y_mm": 40.5,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 40.7,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "pin_roof_axis": 0,
+      "pin_roof_sign": 1,
+      "mount_checks": [
+        {
+          "part": "master bolt guide left mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            0.9999999999999998,
+            1.0000000000000013,
+            1.0000000000000016
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "master bolt guide left mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999999,
+            1.0,
+            1.000000000000001,
+            1.0000000000000018
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide right",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "master bolt guide right mounting pin 1",
+          "centre_mm": [
+            10.5,
+            40.5,
+            49
+          ]
+        },
+        {
+          "part": "master bolt guide right mounting pin 2",
+          "centre_mm": [
+            10.5,
+            40.5,
+            59
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 10.0,
+      "interface_y_mm": 40.5,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 40.7,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "pin_roof_axis": 0,
+      "pin_roof_sign": -1,
+      "mount_checks": [
+        {
+          "part": "master bolt guide right mounting pin 1",
+          "socket_wall_fraction": [
+            1.0,
+            1.0,
+            0.9999999999999999,
+            1.0000000000000024
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "master bolt guide right mounting pin 2",
+          "socket_wall_fraction": [
+            0.9999999999999999,
+            1.0,
+            1.0000000000000002,
+            1.0000000000000013
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "master replaceable band anchor",
+      "frame": "bit coordinated chassis 0",
+      "fasteners": [
+        {
+          "part": "master replaceable band anchor mounting pin 1",
+          "centre_mm": [
+            -13.5,
+            40.5,
+            39.8
+          ]
+        },
+        {
+          "part": "master replaceable band anchor mounting pin 2",
+          "centre_mm": [
+            3.5,
+            40.5,
+            39.8
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 17.0,
+      "interface_y_mm": 40.5,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 40.7,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "pin_roof_axis": null,
+      "pin_roof_sign": null,
+      "mount_checks": [
+        {
+          "part": "master replaceable band anchor mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999998,
+            1.0,
+            1.0000000000000022,
+            1.0000000000000004
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "master replaceable band anchor mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0,
+            1.0000000000000002,
+            1.000000000000001
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave rail and backing cartridge",
+      "frame": "bit coordinated chassis 1",
+      "fasteners": [
+        {
+          "part": "slave rail and backing cartridge mounting pin 1",
+          "centre_mm": [
+            99.2,
+            38,
+            0
+          ]
+        },
+        {
+          "part": "slave rail and backing cartridge mounting pin 2",
+          "centre_mm": [
+            112.8,
+            38,
+            0
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 13.6,
+      "interface_y_mm": 38,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 38.2,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "pin_roof_axis": null,
+      "pin_roof_sign": null,
+      "mount_checks": [
+        {
+          "part": "slave rail and backing cartridge mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999997,
+            1.0,
+            1.0000000000000018,
+            0.9999999999999961
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "slave rail and backing cartridge mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0000000000000004,
+            1.000000000000002,
+            0.9999999999999983
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide left",
+      "frame": "bit coordinated chassis 1",
+      "fasteners": [
+        {
+          "part": "slave bolt guide left mounting pin 1",
+          "centre_mm": [
+            85.5,
+            40.5,
+            49
+          ]
+        },
+        {
+          "part": "slave bolt guide left mounting pin 2",
+          "centre_mm": [
+            85.5,
+            40.5,
+            59
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 10.0,
+      "interface_y_mm": 40.5,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 40.7,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "pin_roof_axis": 0,
+      "pin_roof_sign": 1,
+      "mount_checks": [
+        {
+          "part": "slave bolt guide left mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999996,
+            0.9999999999999997,
+            0.9999999999999961,
+            0.9999999999999992
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "slave bolt guide left mounting pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000002,
+            1.0000000000000004,
+            0.9999999999999956,
+            1.0000000000000022
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide right",
+      "frame": "bit coordinated chassis 1",
+      "fasteners": [
+        {
+          "part": "slave bolt guide right mounting pin 1",
+          "centre_mm": [
+            116.5,
+            40.5,
+            49
+          ]
+        },
+        {
+          "part": "slave bolt guide right mounting pin 2",
+          "centre_mm": [
+            116.5,
+            40.5,
+            59
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 10.0,
+      "interface_y_mm": 40.5,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 40.7,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "pin_roof_axis": 0,
+      "pin_roof_sign": -1,
+      "mount_checks": [
+        {
+          "part": "slave bolt guide right mounting pin 1",
+          "socket_wall_fraction": [
+            0.9999999999999994,
+            0.9999999999999997,
+            1.0000000000000036,
+            1.0000000000000002
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "slave bolt guide right mounting pin 2",
+          "socket_wall_fraction": [
+            1.0,
+            1.0000000000000002,
+            1.0000000000000029,
+            1.0000000000000022
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "slave replaceable band anchor",
+      "frame": "bit coordinated chassis 1",
+      "fasteners": [
+        {
+          "part": "slave replaceable band anchor mounting pin 1",
+          "centre_mm": [
+            92.5,
+            40.5,
+            39.8
+          ]
+        },
+        {
+          "part": "slave replaceable band anchor mounting pin 2",
+          "centre_mm": [
+            109.5,
+            40.5,
+            39.8
+          ]
+        }
+      ],
+      "fastener_spacing_mm": 17.0,
+      "interface_y_mm": 40.5,
+      "mount_pad_width_mm": 9.6,
+      "collar_relief_radius_mm": 3.3,
+      "minimum_collar_ligament_mm": 1.5,
+      "seating_plane_y_mm": 40.7,
+      "seating_land_radius_mm": 4.8,
+      "seating_gap_mm": 0,
+      "pin_roof_axis": null,
+      "pin_roof_sign": null,
+      "mount_checks": [
+        {
+          "part": "slave replaceable band anchor mounting pin 1",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000004,
+            0.9999999999999963,
+            1.000000000000003
+          ],
+          "pass_check": true
+        },
+        {
+          "part": "slave replaceable band anchor mounting pin 2",
+          "socket_wall_fraction": [
+            1.0000000000000004,
+            1.0000000000000004,
+            0.9999999999999964,
+            1.0000000000000018
+          ],
+          "pass_check": true
+        }
+      ],
+      "pass_check": true
     }
   ],
   "frame_joint": {
@@ -720,7 +1054,7 @@
     ],
     "pass_check": true
   },
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "removable_bearing_cheeks": [
     {
       "component": "master Front bearing cheek",
@@ -1633,7 +1967,7 @@
   ],
   "unassigned_fixed_components": [],
   "revision_connections": {
-    "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+    "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
     "connections": [
       {
         "part": "bit clock rod guide cap -22",

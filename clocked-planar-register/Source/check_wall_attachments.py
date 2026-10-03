@@ -43,6 +43,8 @@ for entry in json.loads((O/'Frame fixture schedule.json').read_text())['fixtures
   seat=y+.2
   land_front=cyl(3.7,seat-.1,seat,1,c)-cyl(3.4,seat-.2,seat+.1,1,c)
   land_back=cyl(3.7,seat,seat+.1,1,c)-cyl(3.4,seat-.1,seat+.2,1,c)
+  from wall_socket_probe import socket_probe
+  shell=socket_probe(shell,entry,c,y-8,y+8);land_front=socket_probe(land_front,entry,c,y-8,y+8);land_back=socket_probe(land_back,entry,c,y-8,y+8)
   frac=[(shell^ss).volume()/shell.volume(),(frame_shell^bs).volume()/frame_shell.volume(),(land_front^ss).volume()/land_front.volume(),(land_back^bs).volume()/land_back.volume()]
   pin=next(p for p in P if p['id']==bolt['part'])
   checks_mount.append(dict(part=bolt['part'],socket_wall_fraction=frac,pass_check=min(frac)>.95 and pin.get('lego_part')=='2780'))

@@ -1,3 +1,5 @@
+Current storage supports: [replaceable rail, separate lock guides, detachable band anchor and small test base](Modular%20testing.md). This supersedes the combined storage fixture and previous band installation instructions below.
+
 # Adopting the tested planar-register lessons
 
 Source conversation: **Strengthen planar 1-bit register**. The accepted late revision restarted from f973a1c and used small local reinforcements; the earlier broad bracket redesign was rejected. This adaptation uses the final local reduced-rail approach rather than those superseded changes.

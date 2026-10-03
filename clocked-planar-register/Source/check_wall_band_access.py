@@ -1,7 +1,7 @@
-"""Finite installation screen for a closed lock-return band over its free front lip.
+"""Finite bench installation screen for a closed band over the removable anchor rear lip.
 
-Expanded loop approaches along +Y with lock bolt absent. Other printed parts
-remain assembled at neutral; band thickness is 0.8 mm. This proves only this
+Expanded loop approaches along -Y on the detached anchor before its two pins
+are seated in the frame; band thickness is 0.8 mm. This proves only this
 specified geometric path, not a material stretch limit or hand/tool access.
 """
 from pathlib import Path
@@ -15,12 +15,12 @@ rows=[]
 for bank,x in [('master',-5.05),('slave',100.95)]:
  scene=[]
  for p in P:
-  if p['kind']!='printed' or p['module']!='bit' or p['id']==bank+' lock bolt':continue
+  if p['id']!=bank+' replaceable band anchor':continue
   b=np.array(p['bounds']);
-  if np.all(b[1]>[x-3.5,30,46.8]) and np.all(b[0]<[x+3.5,38,53.2]):scene.append((p['id'],solid(V[p['offset']//3:p['offset']//3+p['vertices']])))
+  if np.all(b[1]>[x-3.5,30,46.8]) and np.all(b[0]<[x+3.5,42,53.2]):scene.append((p['id'],solid(V[p['offset']//3:p['offset']//3+p['vertices']])))
  hits=[]
  # Expand to clear 2.4 mm retaining flange, then contract into 1.8 mm seat.
- poses=[(float(y),2.6) for y in np.linspace(33.5,37.3,40)]+[(37.3,float(r)) for r in np.linspace(2.6,1.8,20)]
+ poses=[(float(y),2.6) for y in np.linspace(41,36.8,40)]+[(36.8,float(r)) for r in np.linspace(2.6,1.8,20)]
  for y,r in poses:
   loop=cyl(r+.8,y-.4,y+.4,[x,50])-cyl(r,y-.41,y+.41,[x,50])
   for n,s in scene:

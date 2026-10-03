@@ -1,0 +1,551 @@
+{
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
+  "scope": "Export and qualify every new modular part and the changed bit frames.\n\nNormals check every downward face against 45 degrees. Independent 0.2 mm\nlayer slices check outward growth against the preceding slice offset by the\nsame height. Neither test treats disconnected-island checks as overhang proof.\n",
+  "printer": "Bambu Lab P2S, PLA Basic, 0.4 mm nozzle",
+  "parts": [
+    {
+      "part": "master rail and backing cartridge",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        15.900000000000002,
+        20.0,
+        38.2
+      ],
+      "size_mm": [
+        20.700000000000003,
+        40.0,
+        21.150000000000002
+      ],
+      "volume_mm3": 4462.097694894084,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/master rail and backing cartridge.stl"
+    },
+    {
+      "part": "master bolt guide left",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        64.4,
+        -14.0,
+        25.3
+      ],
+      "size_mm": [
+        20.200000000000003,
+        26.700000000000003,
+        15.650000001490117
+      ],
+      "volume_mm3": 5758.838538460764,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 3.799635316350119e-08,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/master bolt guide left.stl"
+    },
+    {
+      "part": "master bolt guide right",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -44.2,
+        -14.0,
+        15.3
+      ],
+      "size_mm": [
+        20.200000000000003,
+        26.700000000000003,
+        15.750000002980233
+      ],
+      "volume_mm3": 5820.740539028172,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/master bolt guide right.stl"
+    },
+    {
+      "part": "master replaceable band anchor",
+      "axis": 1,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        52.4,
+        8.3,
+        -33.0
+      ],
+      "size_mm": [
+        17.4,
+        26.6,
+        7.700000000000003
+      ],
+      "volume_mm3": 1623.2073263193972,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/master replaceable band anchor.stl"
+    },
+    {
+      "part": "slave rail and backing cartridge",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        15.900000000000002,
+        -86.2,
+        38.2
+      ],
+      "size_mm": [
+        20.700000000000003,
+        39.8,
+        21.150000000000002
+      ],
+      "volume_mm3": 4241.673694897214,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/slave rail and backing cartridge.stl"
+    },
+    {
+      "part": "slave bolt guide left",
+      "axis": 0,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        64.4,
+        -14.0,
+        -80.7
+      ],
+      "size_mm": [
+        20.200000000000003,
+        26.700000000000003,
+        15.650000001490113
+      ],
+      "volume_mm3": 5758.8385384607,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 3.7996673069778704e-08,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/slave bolt guide left.stl"
+    },
+    {
+      "part": "slave bolt guide right",
+      "axis": 0,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -44.2,
+        -14.0,
+        121.3
+      ],
+      "size_mm": [
+        20.200000000000003,
+        26.700000000000003,
+        15.75000000298023
+      ],
+      "volume_mm3": 5820.740539042673,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/slave bolt guide right.stl"
+    },
+    {
+      "part": "slave replaceable band anchor",
+      "axis": 1,
+      "sign": 1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        52.4,
+        114.3,
+        -33.0
+      ],
+      "size_mm": [
+        17.4,
+        26.599999999999994,
+        7.700000000000003
+      ],
+      "volume_mm3": 1623.207326319397,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/slave replaceable band anchor.stl"
+    },
+    {
+      "part": "bit coordinated chassis 0",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        64.4,
+        135.0,
+        48.5
+      ],
+      "size_mm": [
+        104.2,
+        163.3,
+        13.5
+      ],
+      "volume_mm3": 71519.81821306904,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/bit coordinated chassis 0.stl"
+    },
+    {
+      "part": "bit coordinated chassis 1",
+      "axis": 1,
+      "sign": -1,
+      "assembly_to_print_rotation": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        64.4,
+        -28.7,
+        48.5
+      ],
+      "size_mm": [
+        102.2,
+        136.3,
+        11.100000000000001
+      ],
+      "volume_mm3": 55475.42757897283,
+      "watertight": true,
+      "solids": 1,
+      "unsupported_face_area_mm2": 0.0,
+      "layer_height_mm": 0.2,
+      "maximum_unsupported_layer_growth_mm2": 0,
+      "layer_growth_failures": [],
+      "print_geometry_pass": true,
+      "file": "Print oriented storage modules/bit coordinated chassis 1.stl"
+    }
+  ],
+  "layout": {
+    "size_mm": [
+      93.50000190734863,
+      40.0,
+      21.149999618530273
+    ],
+    "placements": [
+      {
+        "part": "master rail and backing cartridge",
+        "translation_mm": [
+          0.0,
+          0.0,
+          0
+        ]
+      },
+      {
+        "part": "master bolt guide left",
+        "translation_mm": [
+          25.700000762939453,
+          0.0,
+          0
+        ]
+      },
+      {
+        "part": "master bolt guide right",
+        "translation_mm": [
+          50.900001525878906,
+          0.0,
+          0
+        ]
+      },
+      {
+        "part": "master replaceable band anchor",
+        "translation_mm": [
+          76.10000228881836,
+          0.0,
+          0
+        ]
+      }
+    ]
+  },
+  "modular_print_pass": true,
+  "slicer_validated": false,
+  "physically_validated": false
+}

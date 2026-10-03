@@ -1,3 +1,5 @@
+Current storage supports: [replaceable rail, separate lock guides, detachable band anchor and small test base](Modular%20testing.md). This supersedes the combined storage fixture and previous band installation instructions below.
+
 Current manufacturing revision: [separate two-pin bearing walls and relocated POWER train](Bearing%20bracing%20revision.md). This supersedes descriptions of integral transmission bearings below.
 
 # Current transmission and bearing revision

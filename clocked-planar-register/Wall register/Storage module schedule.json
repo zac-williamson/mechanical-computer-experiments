@@ -1,0 +1,57 @@
+{
+  "connections": [],
+  "print_orientations": [
+    {
+      "part": "master rail and backing cartridge",
+      "axis": 1,
+      "sign": -1
+    },
+    {
+      "part": "master bolt guide left",
+      "axis": 0,
+      "sign": 1
+    },
+    {
+      "part": "master bolt guide right",
+      "axis": 0,
+      "sign": -1
+    },
+    {
+      "part": "master replaceable band anchor",
+      "axis": 1,
+      "sign": 1
+    },
+    {
+      "part": "slave rail and backing cartridge",
+      "axis": 1,
+      "sign": -1
+    },
+    {
+      "part": "slave bolt guide left",
+      "axis": 0,
+      "sign": 1
+    },
+    {
+      "part": "slave bolt guide right",
+      "axis": 0,
+      "sign": -1
+    },
+    {
+      "part": "slave replaceable band anchor",
+      "axis": 1,
+      "sign": 1
+    }
+  ],
+  "modules": [
+    "master",
+    "slave"
+  ],
+  "replaced_parts": [
+    "bit frame 0 removable fixture 3",
+    "bit frame 0 fixture 3 pin 1",
+    "bit frame 0 fixture 3 pin 2",
+    "bit frame 1 removable fixture 1",
+    "bit frame 1 fixture 1 pin 1",
+    "bit frame 1 fixture 1 pin 2"
+  ]
+}

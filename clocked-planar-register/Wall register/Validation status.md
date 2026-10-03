@@ -2,7 +2,7 @@
 
 **Development candidate; not a print release.**
 
-Geometry SHA-256: `c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d`.
+Geometry SHA-256: `b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4`.
 
 | Screen | Current evidence |
 |---|---|
@@ -12,11 +12,11 @@ Geometry SHA-256: `c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd0128
 | [Rotating envelope screening](Rotating%20envelope%20screening.json) | 4 potential contacts retained for review; 1013 poses across the 112 inherited operating cases |
 | [Axle crossing screening](Axle%20crossing%20screening.json) | 0 potential axle crossings |
 | [Bearing and retention checks](Bearing%20and%20retention%20checks.json) | PASS: 32 complete bearing lands; 15 retained transmission assemblies |
-| [Bearing attachment checks](Bearing%20attachment%20checks.json) | PASS: 18 removable transmission walls plus front/rear cheeks; two engaged pin axes each; two-piece frame joint verified; 11 paired-pin fixture mounts |
+| [Bearing attachment checks](Bearing%20attachment%20checks.json) | PASS: 18 removable transmission walls plus front/rear cheeks; two engaged pin axes each; two-piece frame joint verified; 17 paired-pin fixture mounts |
 | [Bearing print orientations](Bearing%20print%20orientations.json) | PASS: 18 wall STLs with bearing axes normal to the bed |
 | [Axle print-face audit](Axle%20print-face%20audit.json) | PASS: 47 parts screened; 0 parts need further separation or bed-face work |
 | [Frame print checks](Frame%20print%20checks.json) | PASS: 3 flat-bed frame parts; no unsupported faces beyond 45 degrees; no bridge exemption |
-| [Frame pin clearance checks](Frame%20pin%20clearance%20checks.json) | PASS: 62 friction-pin envelopes checked against other hardware and parts through operating poses |
+| [Frame pin clearance checks](Frame%20pin%20clearance%20checks.json) | PASS: 74 friction-pin envelopes checked against other hardware and parts through operating poses |
 | [Rod splice checks](Rod%20splice%20checks.json) | PASS: two pinned rod splices, two engaged pin sockets each |
 | [Rod splice print checks](Rod%20splice%20print%20checks.json) | PASS: two splice bridges with pin holes normal to the bed and no unsupported faces beyond 45 degrees |
 | [Frame rebuild verification](Frame%20rebuild%20verification.json) | PASS: source rebuild reproduces the same solids and poses; triangle ordering may differ |
@@ -28,6 +28,9 @@ Geometry SHA-256: `c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd0128
 | [Carriage section checks](Carriage%20section%20checks.json) | PASS: eight carriage halves; reinforced corners and backing sections |
 | [Band installation checks](Band%20installation%20checks.json) | PASS: closed-band insertion at both lock anchors |
 | [Sliding surface print checks](Sliding%20surface%20print%20checks.json) | PASS: all nine rod/guide interfaces; no support-facing running surfaces in supplied orientations |
+| [Storage module print checks](Storage%20module%20print%20checks.json) | PASS: eight modular supports and both changed frames; full face and layer-growth checks |
+| [Storage test cassette checks](Storage%20test%20cassette%20checks.json) | PASS: small base print geometry, mount sockets and sampled clearance |
+| [Viewer interaction checks](Viewer%20interaction%20checks.json) | PASS: offline view, scene, label and small-screen axes checks (not browser visual inspection) |
 
 ## Scope
 

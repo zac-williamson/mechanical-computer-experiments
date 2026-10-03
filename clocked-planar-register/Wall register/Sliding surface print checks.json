@@ -1,5 +1,5 @@
 {
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "scope": "Export rod/guide orientations and audit their actual sliding faces for support contact.\n\nChecks the four planar sides of every rod/guide interface over the full nominal\nstroke. Only bed faces, vertical walls and upward faces are accepted as running\nfaces; downward overhangs above the bed fail. Static non-running overhangs are\nreported separately. The entire detached CLOCK pickup is screened as well.\n",
   "parts": [
     {

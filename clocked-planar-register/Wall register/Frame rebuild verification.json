@@ -1,7 +1,3035 @@
 {
-  "geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
-  "rebuilt_geometry_sha256": "c6aab6a5931e798eed733a78d4a8fe9714c020930890a5c39acce1dcd012884d",
+  "geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
+  "rebuilt_geometry_sha256": "b61d77e9e51e2e2a5fab32aad17b5842b05d5df87fe6e66adacaceb8b2c13fd4",
   "geometry_reproduction_pass": true,
   "exact_mesh_reproduction_pass": true,
-  "scope": "Independent full source rebuild in an empty temporary directory; exact geometry bytes and all part/pose metadata compared."
+  "scope": "Independent serial rebuild: compare solid geometry and operating metadata.\n\nExact tessellation is reported separately. Boolean triangulation and numeric\nphase-cache roundoff may change vertex order; require symmetric solid volume\nand bounds equivalence as well as identical functional part metadata.\n",
+  "bounds_tolerance_mm": 1e-06,
+  "symmetric_difference_tolerance_mm3": 0.005,
+  "parts": [
+    {
+      "part": "master Short lever",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master Carriage fork and roof",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master Right carriage bearing support",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master U015",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master U022",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master reaction-stop-axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master reaction-retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master pivot-stop-axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master pivot-retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master Carriage support pin 1 2.0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master Carriage support pin 1 18.0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master L072",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master L097",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master L099",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master L102",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master L069",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master POWER 16T 16",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master POWER 16T 32",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master reversing idler 16T -16",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master reversing idler 16T 32",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master output left 3L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master output right 6L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave Short lever",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave Carriage fork and roof",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave Right carriage bearing support",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave U015",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave U022",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave reaction-stop-axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave reaction-retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave pivot-stop-axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave pivot-retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave Carriage support pin 1 2.0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave Carriage support pin 1 18.0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave L072",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave L097",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave L099",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave L102",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave L069",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave POWER 16T -16",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave reversing idler 16T 16",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave output right 7L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate L097",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate L099",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate L102",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate B-input",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate worm drive 10L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate L097",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate L099",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate L102",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate B-input",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master lock bolt",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master roller axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master roller bush 15.6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master roller bush 27.6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master return band",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave lock bolt",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave roller axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave roller bush 15.6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave roller bush 27.6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave return band",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate Carriage fork and roof",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate fork bias band -10",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate crosshead pin -10 13.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate Right carriage bearing support",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate crosshead pin 12 13.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master_gate fork joining pin",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate Carriage fork and roof",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate fork bias band -10",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate crosshead pin -10 13.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate Right carriage bearing support",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate crosshead pin 12 13.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate fork joining pin",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master actuator return band",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave actuator return band",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate left clutch stub 4L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave output left 4L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave_gate worm drive 10L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write L072",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write L097",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write L099",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write L102",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write L069",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write L105",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WRITE selector output left",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WRITE output retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WRITE D input gear",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Selected data route 16T",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Master worm retainer gear",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Master idler retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WRITE selector output right 7L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WRITE D input axle 5L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "D external input 5L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "D header input 8T",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "D header output 8T",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Master gate data stub 3L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Slave worm retainer gear",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Passive write Carriage fork and roof",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write Carriage support pin 1 2.0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER header gear",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Q feedback shaft 32L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Q feedback front gear -92",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Q feedback front gear 150",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Q takeoff gear",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Feedback retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Shared reverse shaft left 10L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Shared reverse shaft right 10L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Shared reverse coupling",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER distribution 12L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER local input 4L",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Local clock cam and fork bar",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock bellcrank",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock pivot axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock pivot bush 16",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock pivot bush 40.4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock input follower axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock input free roller",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock input follower bush 7",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock input follower bush 27",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock output follower axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock output free roller",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock output follower bush 16",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock output follower bush 39",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write bellcrank",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write pivot axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write pivot bush 19",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write pivot bush 42",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write input follower axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write input free roller",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write input follower bush 19",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write input follower bush 35",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write output follower axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write output free roller",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write output follower bush 19",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write output follower bush 34",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock vertical control rod",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "clock pinned rod splice bridge",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "clock rod coupler friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "clock rod coupler friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write vertical control rod",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write pinned rod splice bridge",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write rod coupler friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "write rod coupler friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Chassis joint pin -28",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Chassis joint pin 56",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master Front bearing cheek",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave Front bearing cheek",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit WRITE fork and pickup",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock Short lever",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock U015",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock U022",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock reaction-stop-axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock reaction-retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock pivot-stop-axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock pivot-retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock Carriage support pin 1 18.0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock Carriage fork and roof",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock Right carriage bearing support",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLK input axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLOCK worm retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock Front bearing cheek",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLOCK direct rod and pickup",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock amplifier joining pin 35.5",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock amplifier joining pin 44.5",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock amplifier front and input shoe",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock amplifier rear and output shoe",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock amplifier pivot",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock pivot bush 32",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock pivot bush 48",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock pivot cradle mount 20",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control Clock pivot cradle mount 52",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock actuator return band",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLK input 16T",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLK receiving 16T",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLK external axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write Short lever",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write Carriage fork and roof",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control WRITE direct rod and pickup",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write U015",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write U022",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write reaction-stop-axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write reaction-retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write pivot-stop-axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write pivot-retainer",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write Carriage support pin 1 2.0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write Carriage support pin 1 18.0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control WRITE input axle",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control WRITE worm retainer left",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control WRITE worm retainer right",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write Front bearing cheek",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write actuator return band",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "M output axial stop 26.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "M output axial stop 37.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Q output axial stop 76.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Q output axial stop 83.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Master worm axial stop -26.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Slave worm axial stop 128.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Slave worm axial stop 135.4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Selected data axial stop -33.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Selected data axial stop -26.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "D inverted axial stop -75.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "D inverted axial stop -68.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "D input axial stop -105.9",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "D input axial stop -98.3",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Master data stub axial stop -53.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Master data stub axial stop -34.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER minus axial stop 76.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER minus axial stop 83.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER plus axial stop 76.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER plus axial stop 83.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER input axial stop 56.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER input axial stop 63.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Feedback axial stop 26.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Feedback axial stop 37.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "CLOCK worm axial stop -73.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "CLOCK worm axial stop -66.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "CLOCK input axial stop -147.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "CLOCK input axial stop -140.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WRITE worm axial stop -217.8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WRITE worm axial stop -210.2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 0 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 0 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 1 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 1 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 2 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 2 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 3 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 3 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 3",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 4 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 4 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 5 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 5 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 5",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 6 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 6 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 7 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 7 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 7",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 8 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 8 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 8",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 9 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 9 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 9",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 10 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 10 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 10",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 11 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 11 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 11",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 12 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit bearing wall 12 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit removable bearing wall 12",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 0 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 0 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 1 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 1 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 2 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 2 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 3 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 3 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 3",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 4 mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control bearing wall 4 mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control removable bearing wall 4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 0 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 0 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 1 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 1 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 2 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 2 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 4 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 fixture 4 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 0 removable fixture 4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit coordinated chassis 0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 fixture 0 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 fixture 0 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit frame 1 removable fixture 0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit coordinated chassis 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 0 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 0 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 0 pin 3",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 0 pin 4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 1 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 1 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 1 pin 3",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 1 pin 4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 2 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 2 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 2 pin 3",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 2 pin 4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 3 pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 fixture 3 pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control frame 0 removable fixture 3",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control coordinated chassis 0",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master cheek joining pin 28.4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master cheek joining pin 35.6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master removable rear bearing cheek",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave cheek joining pin 28.4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave cheek joining pin 35.6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave removable rear bearing cheek",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock cheek joining pin 28.4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock cheek joining pin 35.6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control clock removable rear bearing cheek",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write cheek joining pin 28.4",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write cheek joining pin 35.6",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control write removable rear bearing cheek",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control WRITE detachable bearing shoe",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control WRITE bearing shoe friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control WRITE bearing shoe friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLOCK detachable pickup",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLOCK pickup friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "Control CLOCK pickup friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock rod guide cap -22",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock rod guide cap -22 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock rod guide cap -22 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock rod guide cap 21.5",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock rod guide cap 21.5 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit clock rod guide cap 21.5 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write rod guide cap -12",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write rod guide cap -12 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write rod guide cap -12 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write rod guide cap 32",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write rod guide cap 32 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "bit write rod guide cap 32 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control clock rod guide cap -132",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control clock rod guide cap -132 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control clock rod guide cap -132 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control clock rod guide cap -72",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control clock rod guide cap -72 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control clock rod guide cap -72 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -204",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -204 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -204 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -140",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -140 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -140 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -72",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -72 friction pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "control write rod guide cap -72 friction pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master rail and backing cartridge",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide left",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide right",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master replaceable band anchor",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master rail and backing cartridge mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master rail and backing cartridge mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide left mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide left mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide right mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master bolt guide right mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master replaceable band anchor mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "master replaceable band anchor mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave rail and backing cartridge",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide left",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide right",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave replaceable band anchor",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave rail and backing cartridge mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave rail and backing cartridge mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide left mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide left mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide right mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave bolt guide right mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave replaceable band anchor mounting pin 1",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "slave replaceable band anchor mounting pin 2",
+      "metadata_same": true,
+      "bounds_same": true,
+      "exact_vertices": true,
+      "symmetric_difference_mm3": 0.0,
+      "pass_check": true
+    }
+  ]
 }

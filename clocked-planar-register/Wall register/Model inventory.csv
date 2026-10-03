@@ -281,9 +281,6 @@ bit frame 0 removable fixture 1,bit,printed,,1,8,Development parts/bit frame 0 r
 bit frame 0 fixture 2 pin 1,bit,native,2780,1,8,
 bit frame 0 fixture 2 pin 2,bit,native,2780,1,8,
 bit frame 0 removable fixture 2,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 2.stl
-bit frame 0 fixture 3 pin 1,bit,native,2780,1,8,
-bit frame 0 fixture 3 pin 2,bit,native,2780,1,8,
-bit frame 0 removable fixture 3,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 3.stl
 bit frame 0 fixture 4 pin 1,bit,native,2780,1,8,
 bit frame 0 fixture 4 pin 2,bit,native,2780,1,8,
 bit frame 0 removable fixture 4,bit,printed,,1,8,Development parts/bit frame 0 removable fixture 4.stl
@@ -291,9 +288,6 @@ bit coordinated chassis 0,bit,printed,,1,8,Development parts/bit coordinated cha
 bit frame 1 fixture 0 pin 1,bit,native,2780,1,8,
 bit frame 1 fixture 0 pin 2,bit,native,2780,1,8,
 bit frame 1 removable fixture 0,bit,printed,,1,8,Development parts/bit frame 1 removable fixture 0.stl
-bit frame 1 fixture 1 pin 1,bit,native,2780,1,8,
-bit frame 1 fixture 1 pin 2,bit,native,2780,1,8,
-bit frame 1 removable fixture 1,bit,printed,,1,8,Development parts/bit frame 1 removable fixture 1.stl
 bit coordinated chassis 1,bit,printed,,1,8,Development parts/bit coordinated chassis 1.stl
 control frame 0 fixture 0 pin 1,control,native,2780,1,1,
 control frame 0 fixture 0 pin 2,control,native,2780,1,1,
@@ -359,3 +353,27 @@ control write rod guide cap -140 friction pin 2,control,native,2780,1,1,
 control write rod guide cap -72,control,printed,,1,1,Development parts/control write rod guide cap -72.stl
 control write rod guide cap -72 friction pin 1,control,native,2780,1,1,
 control write rod guide cap -72 friction pin 2,control,native,2780,1,1,
+master rail and backing cartridge,bit,printed,,1,8,Development parts/master rail and backing cartridge.stl
+master bolt guide left,bit,printed,,1,8,Development parts/master bolt guide left.stl
+master bolt guide right,bit,printed,,1,8,Development parts/master bolt guide right.stl
+master replaceable band anchor,bit,printed,,1,8,Development parts/master replaceable band anchor.stl
+master rail and backing cartridge mounting pin 1,bit,native,2780,1,8,
+master rail and backing cartridge mounting pin 2,bit,native,2780,1,8,
+master bolt guide left mounting pin 1,bit,native,2780,1,8,
+master bolt guide left mounting pin 2,bit,native,2780,1,8,
+master bolt guide right mounting pin 1,bit,native,2780,1,8,
+master bolt guide right mounting pin 2,bit,native,2780,1,8,
+master replaceable band anchor mounting pin 1,bit,native,2780,1,8,
+master replaceable band anchor mounting pin 2,bit,native,2780,1,8,
+slave rail and backing cartridge,bit,printed,,1,8,Development parts/slave rail and backing cartridge.stl
+slave bolt guide left,bit,printed,,1,8,Development parts/slave bolt guide left.stl
+slave bolt guide right,bit,printed,,1,8,Development parts/slave bolt guide right.stl
+slave replaceable band anchor,bit,printed,,1,8,Development parts/slave replaceable band anchor.stl
+slave rail and backing cartridge mounting pin 1,bit,native,2780,1,8,
+slave rail and backing cartridge mounting pin 2,bit,native,2780,1,8,
+slave bolt guide left mounting pin 1,bit,native,2780,1,8,
+slave bolt guide left mounting pin 2,bit,native,2780,1,8,
+slave bolt guide right mounting pin 1,bit,native,2780,1,8,
+slave bolt guide right mounting pin 2,bit,native,2780,1,8,
+slave replaceable band anchor mounting pin 1,bit,native,2780,1,8,
+slave replaceable band anchor mounting pin 2,bit,native,2780,1,8,

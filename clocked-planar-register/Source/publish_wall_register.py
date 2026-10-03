@@ -6,10 +6,15 @@ from wall_pose import joint,vertices,example_frames,PHASES
 R=Path(__file__).resolve().parents[1];O=R/'Wall register'
 assert PHASES, 'Generate passing, current gear phases before publishing'
 p=json.loads((O/'parts.json').read_text());v=np.load(O/'geometry.npz')['vertices'].reshape(-1,3)
+# Embed the small bench base while reusing the actual production mesh records.
+cassette=json.loads((O/'Storage test cassette/parts.json').read_text());test_ids={q['id'] for q in cassette};tv=np.load(O/'Storage test cassette/geometry.npz')['vertices'].reshape(-1,3)
+full_centre=(v.min(0)+v.max(0))/2;test_centre=(tv.min(0)+tv.max(0))/2
+for q in p:q['test_member']=q['id'] in test_ids
+q=next(q for q in cassette if q['id']=='Storage test base');q['test_only']=q['test_member']=True;a=tv[q['offset']//3:q['offset']//3+q['vertices']];q['offset']=v.size;p.append(q);v=np.concatenate([v,a])
 for part in p:
  if 'removable bearing wall' in part['id'] or 'removable fixture' in part['id']:part['color']=[.42,.65,.60]
  elif 'coordinated chassis' in part['id']:part['color']=[.25,.43,.41]
-frames=example_frames()[::5];delta=np.array([48,18,62])-(v.min(0)+v.max(0))/2
+frames=example_frames()[::5];delta=np.array([48,18,62])-full_centre
 ff=[]
 for f in frames:
  rec=dict(turns=f['turns'],Q=f['Q'],master=f['master'],slave=f['slave'],joints=[])
@@ -32,6 +37,11 @@ specs=[
  ('M','Local POWER input','POWER local input 4L','bit','left'),
  ('N','Shared +POWER shaft','Shared reverse shaft left 10L','bit','right'),
  ('O','Shared −POWER shaft','POWER distribution 12L','bit','right'),
+ ('R','Replaceable rail / backing','master rail and backing cartridge','test','left'),
+ ('S','Left lock guide','master bolt guide left','test','left'),
+ ('T','Right lock guide','master bolt guide right','test','right'),
+ ('U','Removable band anchor','master replaceable band anchor','test','right'),
+ ('V','Small test base','Storage test base','test','right'),
 ]
 annotations=[]
 for tag,label,part_id,scope,side in specs:
@@ -42,7 +52,7 @@ for tag,label,part_id,scope,side in specs:
  if tag=='G':target=np.array([-128.,26.,-88.])
  point=mesh[np.argmin(np.linalg.norm(mesh-target,axis=1))]+delta
  annotations.append(dict(tag=tag,label=label,part=i,point=point.tolist(),scope=scope,side=side))
-data=dict(annotations=annotations,parts=p,frames=ff,geometry=base64.b64encode(gzip.compress((v+delta).astype('<f4').tobytes())).decode(),ports=[])
+data=dict(test_shift=(full_centre-test_centre).tolist(),annotations=annotations,parts=p,frames=ff,geometry=base64.b64encode(gzip.compress((v+delta).astype('<f4').tobytes())).decode(),ports=[])
 elastic=[]
 for i,part in enumerate(p):
  if part['kind']!='elastic':continue
@@ -111,5 +121,23 @@ s=s.replace("const p=parts[i];if(row>0", "const p=parts[i];if(document.querySele
 s=s.replace('drawAnnotations(f,sx,sy,ratio);', "if(document.querySelector('#partView').value!=='frames')drawAnnotations(f,sx,sy,ratio);")
 s=s.replace('window.onresize=draw;', "document.querySelector('#partView').onchange=draw;window.onresize=draw;")
 s=s.replace('Design and assembly notes</a>', 'Design and assembly notes</a> · <a href="Wall%20register/Assembly%20and%20print%20revision.md">New assembly sequence</a> · <a href="Wall%20register/Planar%20fixes%20adopted.md">Carriage and band corrections</a> · <a href="Wall%20register/Sliding%20surface%20printing.md">Smooth sliding faces: print and assembly</a> · <a href="Wall%20register/Flat%20frame%20printing.md">Flat frame printing</a> · <a href="Wall%20register/Axle-hole%20printing.md">Axle-hole printing</a> · <a href="Wall%20register/Friction-pin%20connections.md">Friction-pin connections</a>')
+# The testing scene uses the production pieces plus a small independent base.
+s=s.replace('<option value="off">Off</option>', '<option value="test">Storage test parts</option><option value="off">Off</option>')
+s=s.replace('<option value="frames">Frames only</option>', '<option value="frames">Frames only</option><option value="test">Storage test cassette</option>')
+s=s.replace("const p=parts[i];if(document", "const p=parts[i];const testScene=document.querySelector('#partView').value==='test';if(testScene&&!p.test_member||!testScene&&p.test_only)continue;if(document")
+s=s.replace('shift[2]+=offset;', 'shift[2]+=offset;if(testScene)for(let k=0;k<3;k++)shift[k]+=D.test_shift[k];')
+s=s.replace('Math.max(175,(170+(rows-1)*56)*canvas.width/canvas.height)', "(document.querySelector('#partView').value==='test'?Math.max(72,70*canvas.width/canvas.height):Math.max(175,(170+(rows-1)*56)*canvas.width/canvas.height))")
+s=s.replace("document.querySelector('#partView').onchange=draw;", "document.querySelector('#partView').onchange=()=>{const test=document.querySelector('#partView').value==='test';document.querySelector('#rows').disabled=test;if(test){rows=1;document.querySelector('#rows').value='1';}panX=panY=0;zoom=1;draw()};")
+s=s.replace("for(const a of D.annotations){", "for(const a of D.annotations){const test=document.querySelector('#partView').value==='test';if(test&&!parts[a.part].test_member||!test&&a.scope==='test')continue;")
+s=s.replace('const x=point[0]-48', 'if(test)for(let k=0;k<3;k++)point[k]+=D.test_shift[k];const x=point[0]-48')
+s=s.replace('`${rows} row${rows>1?', "document.querySelector('#partView').value==='test'?'Hand-operated storage test cassette · inherited travel preview · no controller or powered logic':`${rows} row${rows>1?")
+s=s.replace('<dt>Force still required</dt>', '<dt>Replaceable storage parts and bench testing</dt><dd>Each storage support is split into a rail/backing cartridge, two separate lock-guide cheeks and a detachable band anchor, each with two friction pins. Select Storage test cassette to inspect those same production parts on the small bench base. Turn the worm by hand with the lock released; check carriage travel, locking and clutch engagement before building the controller. <a href="Wall%20register/Modular%20testing.md">Print lists and test sequence</a>.</dd><dt>Force still required</dt>')
+# The axes remain visible in every scene, even with all labels hidden.
+s=s.replace('</style>', '#orientation{position:fixed;right:10px;bottom:10px;z-index:20;background:#fffef4ee;border:1px solid #a0aaa5;border-radius:6px;width:200px;padding:5px;pointer-events:none;box-shadow:0 1px 5px #0002}#axisCanvas{position:static;display:block;width:150px;height:100px;margin:auto;background:transparent}#orientation p{font:11px/1.4 system-ui;margin:0 4px;color:#243b3e}@media(max-width:500px){#orientation{right:4px;bottom:4px;width:170px}#orientation p{font-size:10px}}</style>')
+s=s.replace('<div id="stage">', '<aside id="orientation" aria-label="Model orientation"><canvas id="axisCanvas"></canvas><p>X: data/power axles, left–right<br>Z: mounting rows / control rods<br>+Y: toward rear/base</p></aside><div id="stage">')
+s=s.replace('function draw(){', (R/'Source/wall_axes.js').read_text()+'\nfunction draw(){')
+s=s.replace('ctx.clearRect(0,0,labels.width,labels.height);', 'drawAxes();ctx.clearRect(0,0,labels.width,labels.height);')
+s=s.replace('<button id="oblique">', '<button id="endView">YZ end view</button><button id="oblique">')
+s=s.replace("window.onresize=draw;", "document.querySelector('#endView').onclick=()=>{az=Math.PI/2;el=0;draw()};window.onresize=draw;")
 (R/'Wall register.html').write_text(s)
 print('Published',len(p),'parts,',len(ff),'frames')
